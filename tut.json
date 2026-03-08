@@ -1,0 +1,2745 @@
+{
+    "FACULTY OF ARTS AND DESIGN": [
+        {
+            "course_name": "Dip (Commercial Photography)",
+            "duration": "3",
+            "aps": "22",
+            "required_subjects": [
+                {
+                    "subject": "English",
+                    "level": "3"
+                }
+            ]
+        },
+        {
+            "course_name": "Dip (Fashion Design and Technology)",
+            "duration": "3",
+            "aps": "20",
+            "required_subjects": [
+                {
+                    "subject": "English",
+                    "level": "3"
+                }
+            ]
+        },
+        {
+            "course_name": "Dip (Fine and Applied Arts)",
+            "duration": "3",
+            "aps": "20",
+            "required_subjects": [
+                {
+                    "subject": "English",
+                    "level": "3"
+                }
+            ]
+        },
+        {
+            "course_name": "Dip (Integrated Communication Design)",
+            "duration": "3",
+            "aps": "24",
+            "required_subjects": [
+                {
+                    "subject": "English",
+                    "level": "4"
+                }
+            ]
+        },
+        {
+            "course_name": "Dip (Interior Design)",
+            "duration": "3",
+            "aps": "22",
+            "required_subjects": [
+                {
+                    "subject": "English",
+                    "level": "4"
+                }
+            ]
+        },
+        {
+            "course_name": "Dip (Jewellery Design and Manufacture)",
+            "duration": "3",
+            "aps": "20",
+            "required_subjects": [
+                {
+                    "subject": "English",
+                    "level": "3"
+                }
+            ]
+        },
+        {
+            "course_name": "Dip (Motion Picture Production)",
+            "duration": "3",
+            "aps": "22",
+            "required_subjects": [
+                {
+                    "subject": "English",
+                    "level": "4"
+                }
+            ]
+        },
+        {
+            "course_name": "Dip (Performing Arts) (Dance)",
+            "duration": "3",
+            "aps": "20",
+            "required_subjects": [
+                {
+                    "subject": "English",
+                    "level": "4"
+                }
+            ]
+        },
+        {
+            "course_name": "Dip (Performing Arts) (Jazz Music)",
+            "duration": "3",
+            "aps": "20",
+            "required_subjects": [
+                {
+                    "subject": "English",
+                    "level": "4"
+                }
+            ]
+        },
+        {
+            "course_name": "Dip (Performing Arts) (Opera)",
+            "duration": "3",
+            "aps": "20",
+            "required_subjects": [
+                {
+                    "subject": "English",
+                    "level": "4"
+                }
+            ]
+        },
+        {
+            "course_name": "Dip (Performing Arts) (Technical Theatre and Design)",
+            "duration": "3",
+            "aps": "20",
+            "required_subjects": [
+                {
+                    "subject": "English",
+                    "level": "4"
+                }
+            ]
+        },
+        {
+            "course_name": "Dip (Performing Arts) (Theatre Arts and Performance)",
+            "duration": "3",
+            "aps": "20",
+            "required_subjects": [
+                {
+                    "subject": "English",
+                    "level": "4"
+                }
+            ]
+        },
+        {
+            "course_name": "HCert (Music)",
+            "duration": "1",
+            "aps": "18",
+            "required_subjects": [
+                {
+                    "subject": "English",
+                    "level": "3"
+                }
+            ]
+        }
+    ],
+    "FACULTY OF ECONOMICS AND FINANCE": [
+        {
+            "course_name": "Dip (Accounting)",
+            "duration": "3",
+            "aps": "22 (with Accounting or Mathematics/Technical Mathematics) / 24 (with Mathematical Literacy)",
+            "required_subjects": [
+                {
+                    "subject": "English",
+                    "level": "4"
+                },
+                {
+                    "subject": "Accounting",
+                    "level": "3"
+                },
+                {
+                    "subject": "Mathematics/Technical Mathematics",
+                    "level": "3"
+                },
+                {
+                    "subject": "Mathematical Literacy",
+                    "level": "5"
+                }
+            ]
+        },
+        {
+            "course_name": "Dip (Economics)",
+            "duration": "3",
+            "aps": "22 (with Mathematics/ Technical Mathematics) 24 (with Mathematical Literacy)",
+            "required_subjects": [
+                {
+                    "subject": "English",
+                    "level": "4"
+                },
+                {
+                    "subject": "Mathematics/Technical Mathematics",
+                    "level": "3"
+                },
+                {
+                    "subject": "Mathematical Literacy",
+                    "level": "6"
+                }
+            ]
+        },
+        {
+            "course_name": "Dip (Financial Management)",
+            "duration": "3",
+            "aps": "22 (with Accounting or Mathematics/Technical Mathematics) / 24 (with Mathematical Literacy)",
+            "required_subjects": [
+                {
+                    "subject": "English",
+                    "level": "4"
+                },
+                {
+                    "subject": "Accounting",
+                    "level": "3"
+                },
+                {
+                    "subject": "Mathematics/Technical Mathematics",
+                    "level": "3"
+                },
+                {
+                    "subject": "Mathematical Literacy",
+                    "level": "5"
+                }
+            ]
+        },
+        {
+            "course_name": "Dip (Financial Planning)",
+            "duration": "3",
+            "aps": "22 (with Accounting or Mathematics/Technical Mathematics) / 24 (with Mathematical Literacy)",
+            "required_subjects": [
+                {
+                    "subject": "English",
+                    "level": "4"
+                },
+                {
+                    "subject": "Accounting",
+                    "level": "3"
+                },
+                {
+                    "subject": "Mathematics/Technical Mathematics",
+                    "level": "3"
+                },
+                {
+                    "subject": "Mathematical Literacy",
+                    "level": "5"
+                }
+            ]
+        },
+        {
+            "course_name": "Dip (Internal Auditing)",
+            "duration": "3",
+            "aps": "22 (with Accounting or Mathematics/Technical Mathematics) / 24 (with Mathematical Literacy)",
+            "required_subjects": [
+                {
+                    "subject": "English",
+                    "level": "4"
+                },
+                {
+                    "subject": "Accounting",
+                    "level": "3"
+                },
+                {
+                    "subject": "Mathematics/Technical Mathematics",
+                    "level": "3"
+                },
+                {
+                    "subject": "Mathematical Literacy",
+                    "level": "5"
+                }
+            ]
+        },
+        {
+            "course_name": "Dip (Public Finance)",
+            "duration": "3",
+            "aps": "22 (with Mathematics/ Technical Mathematics) / 23 (with Accounting) / 24 (with Mathematical Literacy)",
+            "required_subjects": [
+                {
+                    "subject": "English",
+                    "level": "4"
+                },
+                {
+                    "subject": "Accounting",
+                    "level": "4"
+                },
+                {
+                    "subject": "Mathematics/Technical Mathematics",
+                    "level": "3"
+                },
+                {
+                    "subject": "Mathematical Literacy",
+                    "level": "5"
+                }
+            ]
+        },
+        {
+            "course_name": "HCert (Accouting)",
+            "duration": "1",
+            "aps": "22 (with Mathematics/ Technical Mathematics) / 23 (with Mathematical Literacy)",
+            "required_subjects": [
+                {
+                    "subject": "English",
+                    "level": "4"
+                },
+                {
+                    "subject": "Mathematics/Technical Mathematics",
+                    "level": "3"
+                },
+                {
+                    "subject": "Mathematical Literacy",
+                    "level": "4"
+                }
+            ]
+        }
+    ],
+    "FACULTY OF ENGINEERING AND THE BUILT ENVIRONMENT": [
+        {
+            "course_name": "BArch/Bachelor of Architecture",
+            "duration": "4",
+            "aps": "25",
+            "required_subjects": [
+                {
+                    "subject": "English",
+                    "level": "4"
+                }
+            ]
+        },
+        {
+            "course_name": "BArch/Bachelor of Architecture (Extended)",
+            "duration": "5",
+            "aps": "25",
+            "required_subjects": [
+                {
+                    "subject": "English",
+                    "level": "4"
+                }
+            ]
+        },
+        {
+            "course_name": "BGeomatics",
+            "duration": "3",
+            "aps": "25",
+            "required_subjects": [
+                {
+                    "subject": "English",
+                    "level": "4"
+                },
+                {
+                    "subject": "Mathematics/Technical Mathematics",
+                    "level": "5"
+                },
+                {
+                    "subject": "Physical Sciences/Technical Sciences",
+                    "level": "4"
+                }
+            ]
+        },
+        {
+            "course_name": "BEngTech (Chemical Engineering)",
+            "duration": "3",
+            "aps": "28",
+            "required_subjects": [
+                {
+                    "subject": "English",
+                    "level": "4"
+                },
+                {
+                    "subject": "Mathematics/Technical Mathematics",
+                    "level": "5"
+                },
+                {
+                    "subject": "Physical Sciences/Technical Sciences",
+                    "level": "5"
+                }
+            ]
+        },
+        {
+            "course_name": "BEngTech (Civil Engineering)",
+            "duration": "3",
+            "aps": "28",
+            "required_subjects": [
+                {
+                    "subject": "English",
+                    "level": "4"
+                },
+                {
+                    "subject": "Mathematics/Technical Mathematics",
+                    "level": "5"
+                },
+                {
+                    "subject": "Physical Sciences/Technical Sciences",
+                    "level": "5"
+                }
+            ]
+        },
+        {
+            "course_name": "BEngTech (Electrical Engineering)",
+            "duration": "3",
+            "aps": "30",
+            "required_subjects": [
+                {
+                    "subject": "English",
+                    "level": "4"
+                },
+                {
+                    "subject": "Mathematics/Technical Mathematics",
+                    "level": "5"
+                },
+                {
+                    "subject": "Physical Sciences/Technical Sciences",
+                    "level": "5"
+                },
+                {
+                    "subject": "any three additional subjects",
+                    "level": "4"
+                }
+            ]
+        },
+        {
+            "course_name": "BEngTech (Industrial Engineering)",
+            "duration": "3",
+            "aps": "28",
+            "required_subjects": [
+                {
+                    "subject": "English",
+                    "level": "4"
+                },
+                {
+                    "subject": "Mathematics/Technical Mathematics",
+                    "level": "5"
+                },
+                {
+                    "subject": "Physical Sciences/Technical Sciences",
+                    "level": "5"
+                }
+            ]
+        },
+        {
+            "course_name": "BEng (Materials Engineering) (Polymer Technology)",
+            "duration": "3",
+            "aps": "28",
+            "required_subjects": [
+                {
+                    "subject": "English",
+                    "level": "4"
+                },
+                {
+                    "subject": "Mathematics/Technical Mathematics",
+                    "level": "5"
+                },
+                {
+                    "subject": "Physical Sciences/Technical Sciences",
+                    "level": "5"
+                }
+            ]
+        },
+        {
+            "course_name": "BEngTech (Mechanical Engineering)",
+            "duration": "3",
+            "aps": "28",
+            "required_subjects": [
+                {
+                    "subject": "English",
+                    "level": "4"
+                },
+                {
+                    "subject": "Mathematics/Technical Mathematics",
+                    "level": "5"
+                },
+                {
+                    "subject": "Physical Sciences/Technical Sciences",
+                    "level": "5"
+                }
+            ]
+        },
+        {
+            "course_name": "BEngTech (Mechatronics Engineering)",
+            "duration": "3",
+            "aps": "28",
+            "required_subjects": [
+                {
+                    "subject": "English",
+                    "level": "4"
+                },
+                {
+                    "subject": "Mathematics/Technical Mathematics",
+                    "level": "5"
+                },
+                {
+                    "subject": "Physical Sciences/Technical Sciences",
+                    "level": "5"
+                }
+            ]
+        },
+        {
+            "course_name": "BEngTech (Metallurgical Engineering)",
+            "duration": "3",
+            "aps": "28",
+            "required_subjects": [
+                {
+                    "subject": "English",
+                    "level": "4"
+                },
+                {
+                    "subject": "Mathematics/Technical Mathematics",
+                    "level": "5"
+                },
+                {
+                    "subject": "Physical Sciences/Technical Sciences",
+                    "level": "5"
+                }
+            ]
+        },
+        {
+            "course_name": "Dip (Building Science)",
+            "duration": "3",
+            "aps": "26",
+            "required_subjects": [
+                {
+                    "subject": "English",
+                    "level": "4"
+                },
+                {
+                    "subject": "Mathematics/Technical Mathematics",
+                    "level": "3"
+                },
+                {
+                    "subject": "Physical Sciences/Technical Sciences",
+                    "level": "3"
+                }
+            ]
+        },
+        {
+            "course_name": "Dip (Electrical Engineering)",
+            "duration": "3",
+            "aps": "26",
+            "required_subjects": [
+                {
+                    "subject": "English",
+                    "level": "4"
+                },
+                {
+                    "subject": "Mathematics/Technical Mathematics",
+                    "level": "4"
+                },
+                {
+                    "subject": "Physical Sciences/Technical Sciences",
+                    "level": "4"
+                }
+            ]
+        },
+        {
+            "course_name": "Dip (Geomatics)",
+            "duration": "3",
+            "aps": "23",
+            "required_subjects": [
+                {
+                    "subject": "English",
+                    "level": "4"
+                },
+                {
+                    "subject": "Mathematics/Technical Mathematics",
+                    "level": "4"
+                },
+                {
+                    "subject": "Physical Sciences/Technical Sciences",
+                    "level": "3"
+                }
+            ]
+        },
+        {
+            "course_name": "Dip (Industrial Design)",
+            "duration": "3",
+            "aps": "21",
+            "required_subjects": [
+                {
+                    "subject": "English",
+                    "level": "4"
+                }
+            ]
+        },
+        {
+            "course_name": "HCert (Construction Engineering: Material Test)",
+            "duration": "1",
+            "aps": "20",
+            "required_subjects": [
+                {
+                    "subject": "English",
+                    "level": "4"
+                },
+                {
+                    "subject": "Mathematics/Technical Mathematics",
+                    "level": "4"
+                },
+                {
+                    "subject": "Physical Sciences/Technical Sciences",
+                    "level": "3"
+                }
+            ]
+        },
+        {
+            "course_name": "HCert (Construction Engineering: Water and Waste)",
+            "duration": "1",
+            "aps": "20",
+            "required_subjects": [
+                {
+                    "subject": "English",
+                    "level": "4"
+                },
+                {
+                    "subject": "Mathematics/Technical Mathematics",
+                    "level": "4"
+                },
+                {
+                    "subject": "Physical Sciences/Technical Sciences",
+                    "level": "3"
+                }
+            ]
+        },
+        {
+            "course_name": "HCert (Electrical Engineering)",
+            "duration": "1",
+            "aps": "20",
+            "required_subjects": [
+                {
+                    "subject": "English",
+                    "level": "4"
+                },
+                {
+                    "subject": "Mathematics/Technical Mathematics",
+                    "level": "4"
+                },
+                {
+                    "subject": "Physical Sciences/Technical Sciences",
+                    "level": "3"
+                }
+            ]
+        },
+        {
+            "course_name": "HCert (Industrial Engineering)",
+            "duration": "1",
+            "aps": "20",
+            "required_subjects": [
+                {
+                    "subject": "English",
+                    "level": "4"
+                },
+                {
+                    "subject": "Mathematics/Technical Mathematics",
+                    "level": "4"
+                },
+                {
+                    "subject": "Physical Sciences/Technical Sciences",
+                    "level": "3"
+                }
+            ]
+        },
+        {
+            "course_name": "HCert (Mechanical Engineering)",
+            "duration": "1",
+            "aps": "20",
+            "required_subjects": [
+                {
+                    "subject": "English",
+                    "level": "4"
+                },
+                {
+                    "subject": "Mathematics/Technical Mathematics",
+                    "level": "4"
+                },
+                {
+                    "subject": "Physical Sciences/Technical Sciences",
+                    "level": "3"
+                }
+            ]
+        }
+    ],
+    "FACULTY OF HUMANITIES": [
+        {
+            "course_name": "BEd (Foundation Phase Teaching)",
+            "duration": "4",
+            "aps": "25",
+            "required_subjects": [
+                {
+                    "subject": "Home language offered in the programme",
+                    "level": "5"
+                },
+                {
+                    "subject": "First additional language",
+                    "level": "4"
+                },
+                {
+                    "subject": "Mathematics",
+                    "level": "4"
+                },
+                {
+                    "subject": "Mathematical Literacy",
+                    "level": "5"
+                }
+            ]
+        },
+        {
+            "course_name": "BEd (Intermediate Phase Teaching)",
+            "duration": "4",
+            "aps": "25",
+            "required_subjects": [
+                {
+                    "subject": "English 4 (home language",
+                    "level": "Unspecified"
+                },
+                {
+                    "subject": "first additional language)",
+                    "level": "Unspecified"
+                },
+                {
+                    "subject": "any other home language offered in the programme",
+                    "level": "4"
+                },
+                {
+                    "subject": "Mathematics",
+                    "level": "4"
+                },
+                {
+                    "subject": "5 Mathematical Literacy",
+                    "level": "Unspecified"
+                },
+                {
+                    "subject": "a combination of any two of the following subjects:",
+                    "level": "4"
+                },
+                {
+                    "subject": "Life Sciences and Physical Science",
+                    "level": "Unspecified"
+                },
+                {
+                    "subject": "History and Geography",
+                    "level": "Unspecified"
+                }
+            ]
+        },
+        {
+            "course_name": "BEd (Senior Phase and Further Education and Training Teaching) (Specialisation in Agriculture)",
+            "duration": "4",
+            "aps": "24",
+            "required_subjects": [
+                {
+                    "subject": "English",
+                    "level": "4"
+                },
+                {
+                    "subject": "Mathematics/Technical Mathematics",
+                    "level": "4"
+                },
+                {
+                    "subject": "Mathematical Literacy",
+                    "level": "Unspecified"
+                },
+                {
+                    "subject": "Agricultural Sciences",
+                    "level": "4"
+                },
+                {
+                    "subject": "Agricultural Management",
+                    "level": "4"
+                },
+                {
+                    "subject": "Practice",
+                    "level": "Unspecified"
+                },
+                {
+                    "subject": "Agricultural Technology",
+                    "level": "Unspecified"
+                },
+                {
+                    "subject": "Life Sciences",
+                    "level": "Unspecified"
+                },
+                {
+                    "subject": "Physical Sciences",
+                    "level": "Unspecified"
+                },
+                {
+                    "subject": "Technical Sciences",
+                    "level": "Unspecified"
+                }
+            ]
+        },
+        {
+            "course_name": "BEd (Senior Phase and Further Education and Training Teaching) (Specialisation in Consumer Sciences)",
+            "duration": "4",
+            "aps": "24",
+            "required_subjects": [
+                {
+                    "subject": "English",
+                    "level": "4"
+                },
+                {
+                    "subject": "Mathematics/Technical Mathematics",
+                    "level": "4"
+                },
+                {
+                    "subject": "Mathematical Literacy",
+                    "level": "Unspecified"
+                },
+                {
+                    "subject": "Consumer Studies",
+                    "level": "4"
+                },
+                {
+                    "subject": "Hospitality Studies",
+                    "level": "4"
+                },
+                {
+                    "subject": "Tourism",
+                    "level": "4"
+                }
+            ]
+        },
+        {
+            "course_name": "BEd (Senior Phase and Further Education and Training Teaching) (Specialisation in Economic and Management Sciences)",
+            "duration": "4",
+            "aps": "24",
+            "required_subjects": [
+                {
+                    "subject": "English",
+                    "level": "4"
+                },
+                {
+                    "subject": "Mathematics/Technical Mathematics",
+                    "level": "4"
+                },
+                {
+                    "subject": "Mathematical Literacy",
+                    "level": "Unspecified"
+                },
+                {
+                    "subject": "Accounting",
+                    "level": "4"
+                },
+                {
+                    "subject": "Business Studies",
+                    "level": "4"
+                },
+                {
+                    "subject": "Economics",
+                    "level": "4"
+                }
+            ]
+        },
+        {
+            "course_name": "BEd (Senior Phase and Further Education and Training Teaching) (Specialisation in Information Technology)",
+            "duration": "4",
+            "aps": "24",
+            "required_subjects": [
+                {
+                    "subject": "English",
+                    "level": "4"
+                },
+                {
+                    "subject": "Mathematics/Technical Mathematics",
+                    "level": "4"
+                },
+                {
+                    "subject": "Information",
+                    "level": "4"
+                },
+                {
+                    "subject": "Technology",
+                    "level": "Unspecified"
+                }
+            ]
+        },
+        {
+            "course_name": "BEd (Senior Phase and Further Education and Training Teaching) (Specialisation in Mathematics)",
+            "duration": "4",
+            "aps": "24",
+            "required_subjects": [
+                {
+                    "subject": "English",
+                    "level": "4"
+                },
+                {
+                    "subject": "Mathematics and Life Sciences",
+                    "level": "4"
+                },
+                {
+                    "subject": "Mathematics and Physical Sciences",
+                    "level": "4"
+                }
+            ]
+        },
+        {
+            "course_name": "BEd (Senior Phase and Further Education and Training Teaching) (Specialisation in Physical Education)",
+            "duration": "4",
+            "aps": "24",
+            "required_subjects": [
+                {
+                    "subject": "English",
+                    "level": "4"
+                },
+                {
+                    "subject": "Mathematics, Technical Mathematics",
+                    "level": "4"
+                },
+                {
+                    "subject": "Mathematical Literacy",
+                    "level": "Unspecified"
+                },
+                {
+                    "subject": "Life Sciences",
+                    "level": "4"
+                }
+            ]
+        },
+        {
+            "course_name": "BEd (Senior Phase and Further Education and Training Teaching) (Specialisation in Sciences)",
+            "duration": "4",
+            "aps": "24",
+            "required_subjects": [
+                {
+                    "subject": "English",
+                    "level": "4"
+                },
+                {
+                    "subject": "Mathematics and Life Sciences",
+                    "level": "4"
+                },
+                {
+                    "subject": "Physical Sciences",
+                    "level": "Unspecified"
+                }
+            ]
+        },
+        {
+            "course_name": "BEd (Senior Phase and Further Education and Training Teaching) (Specialisation in Technology)",
+            "duration": "4",
+            "aps": "24",
+            "required_subjects": [
+                {
+                    "subject": "English",
+                    "level": "4"
+                },
+                {
+                    "subject": "Mathematics/Technical Mathematics",
+                    "level": "4"
+                },
+                {
+                    "subject": "Civil",
+                    "level": "4"
+                },
+                {
+                    "subject": "Technology (Civil Service/Construction/Woodworking)",
+                    "level": "Unspecified"
+                },
+                {
+                    "subject": "and/or Electrical Technology (Digital Systems/Electronics/Power",
+                    "level": "Unspecified"
+                },
+                {
+                    "subject": "Systems)",
+                    "level": "Unspecified"
+                },
+                {
+                    "subject": "Mechanical Technology (Automotive/Fitting and",
+                    "level": "Unspecified"
+                },
+                {
+                    "subject": "Machining/Welding and Metal Work)",
+                    "level": "Unspecified"
+                },
+                {
+                    "subject": "Engineering Graphics",
+                    "level": "Unspecified"
+                },
+                {
+                    "subject": "and Design",
+                    "level": "Unspecified"
+                },
+                {
+                    "subject": "Physical Sciences",
+                    "level": "Unspecified"
+                }
+            ]
+        },
+        {
+            "course_name": "Dip (Adult and Community Education and Training) (Agriculture)",
+            "duration": "3",
+            "aps": "22",
+            "required_subjects": [
+                {
+                    "subject": "English",
+                    "level": "4"
+                },
+                {
+                    "subject": "Mathematics",
+                    "level": "3"
+                },
+                {
+                    "subject": "Technical Mathematics",
+                    "level": "3"
+                },
+                {
+                    "subject": "Agricultural",
+                    "level": "3"
+                },
+                {
+                    "subject": "Management Practice",
+                    "level": "Unspecified"
+                },
+                {
+                    "subject": "Agricultural Sciences",
+                    "level": "Unspecified"
+                },
+                {
+                    "subject": "Life Sciences",
+                    "level": "Unspecified"
+                },
+                {
+                    "subject": "Agricultural Technology",
+                    "level": "Unspecified"
+                },
+                {
+                    "subject": "Physical Sciences (or Technical Sciences)",
+                    "level": "Unspecified"
+                },
+                {
+                    "subject": "an additional language",
+                    "level": "3"
+                }
+            ]
+        },
+        {
+            "course_name": "Dip (Adult and Community Education and Training) (Specialisation in Civil Technology)",
+            "duration": "3",
+            "aps": "22",
+            "required_subjects": [
+                {
+                    "subject": "English",
+                    "level": "4"
+                },
+                {
+                    "subject": "Engineering Graphics Design",
+                    "level": "3"
+                },
+                {
+                    "subject": "Mathematics",
+                    "level": "3"
+                },
+                {
+                    "subject": "Technical Mathematics",
+                    "level": "Unspecified"
+                },
+                {
+                    "subject": "Civil Technology",
+                    "level": "3"
+                },
+                {
+                    "subject": "Physical Science",
+                    "level": "3"
+                },
+                {
+                    "subject": "Technical Science",
+                    "level": "Unspecified"
+                },
+                {
+                    "subject": "an additional language",
+                    "level": "3"
+                }
+            ]
+        },
+        {
+            "course_name": "Dip (Adult and Community Education and Training) (Specialisation in Consumer Sciences)",
+            "duration": "3",
+            "aps": "22",
+            "required_subjects": [
+                {
+                    "subject": "English",
+                    "level": "4"
+                },
+                {
+                    "subject": "Mathematics",
+                    "level": "3"
+                },
+                {
+                    "subject": "Technical Mathematics",
+                    "level": "3"
+                },
+                {
+                    "subject": "Mathematical Literacy",
+                    "level": "4"
+                },
+                {
+                    "subject": "an additional language",
+                    "level": "3"
+                }
+            ]
+        },
+        {
+            "course_name": "Dip (Adult and Community Education and Training) (Specialisation in Economics and Management)",
+            "duration": "3",
+            "aps": "22",
+            "required_subjects": [
+                {
+                    "subject": "English",
+                    "level": "4"
+                },
+                {
+                    "subject": "Mathematics",
+                    "level": "3"
+                },
+                {
+                    "subject": "Technical Mathematics",
+                    "level": "3"
+                },
+                {
+                    "subject": "a 4 for Mathematical Literacy",
+                    "level": "Unspecified"
+                },
+                {
+                    "subject": "Accounting",
+                    "level": "3"
+                },
+                {
+                    "subject": "Business Studies",
+                    "level": "3"
+                },
+                {
+                    "subject": "an additional language",
+                    "level": "3"
+                }
+            ]
+        },
+        {
+            "course_name": "Dip (Adult and Community Education and Training) (Specialisation in Electrical and Mechanical)",
+            "duration": "3",
+            "aps": "22",
+            "required_subjects": [
+                {
+                    "subject": "English",
+                    "level": "4"
+                },
+                {
+                    "subject": "Mathematics",
+                    "level": "3"
+                },
+                {
+                    "subject": "Technical Mathematics",
+                    "level": "3"
+                },
+                {
+                    "subject": "Physical Science",
+                    "level": "3"
+                },
+                {
+                    "subject": "Technical Science",
+                    "level": "3"
+                }
+            ]
+        },
+        {
+            "course_name": "Dip (Adult and Community Education and Training) (Specialisation in Languages)",
+            "duration": "3",
+            "aps": "22",
+            "required_subjects": [
+                {
+                    "subject": "English",
+                    "level": "4"
+                },
+                {
+                    "subject": "another official language offered in the programme",
+                    "level": "4"
+                }
+            ]
+        },
+        {
+            "course_name": "Dip (Correctional and Rehabilitation Studies)",
+            "duration": "3",
+            "aps": "20",
+            "required_subjects": [
+                {
+                    "subject": "English",
+                    "level": "3"
+                },
+                {
+                    "subject": "Mathematics",
+                    "level": "3"
+                },
+                {
+                    "subject": "Mathematical Literacy",
+                    "level": "3"
+                }
+            ]
+        },
+        {
+            "course_name": "Dip (Integrated Communication)",
+            "duration": "3",
+            "aps": "20 (with Mathematics/ Technical Mathematics or Mathematics N3) / 21 (with Mathematical Literacy)",
+            "required_subjects": [
+                {
+                    "subject": "English",
+                    "level": "4"
+                },
+                {
+                    "subject": "Mathematics/Technical Mathematics",
+                    "level": "3"
+                },
+                {
+                    "subject": "Engineering Mathematics N3,",
+                    "level": "Unspecified"
+                },
+                {
+                    "subject": "Mathematical Literacy",
+                    "level": "4"
+                },
+                {
+                    "subject": "5",
+                    "level": "Unspecified"
+                },
+                {
+                    "subject": "more for English.",
+                    "level": "Unspecified"
+                }
+            ]
+        },
+        {
+            "course_name": "Dip (Journalism)",
+            "duration": "3",
+            "aps": "24",
+            "required_subjects": [
+                {
+                    "subject": "English",
+                    "level": "4"
+                }
+            ]
+        },
+        {
+            "course_name": "Dip (Language Practice)",
+            "duration": "3",
+            "aps": "20",
+            "required_subjects": [
+                {
+                    "subject": "English",
+                    "level": "4"
+                },
+                {
+                    "subject": "any other official South African language offered in the",
+                    "level": "4"
+                },
+                {
+                    "subject": "programme",
+                    "level": "Unspecified"
+                }
+            ]
+        },
+        {
+            "course_name": "Dip (Law)",
+            "duration": "3",
+            "aps": "20",
+            "required_subjects": [
+                {
+                    "subject": "English",
+                    "level": "4"
+                }
+            ]
+        },
+        {
+            "course_name": "Dip (Legal Support)",
+            "duration": "3",
+            "aps": "20",
+            "required_subjects": [
+                {
+                    "subject": "English",
+                    "level": "4"
+                },
+                {
+                    "subject": "any other additional language",
+                    "level": "3"
+                }
+            ]
+        },
+        {
+            "course_name": "Dip (Policing)",
+            "duration": "3",
+            "aps": "",
+            "required_subjects": [
+                {
+                    "subject": "ENFORCEMENT DEPARTMENT:",
+                    "level": "Unspecified"
+                },
+                {
+                    "subject": "bachelor\u2019s degree",
+                    "level": "Unspecified"
+                },
+                {
+                    "subject": "a diploma endorsement, and a relevant",
+                    "level": "Unspecified"
+                },
+                {
+                    "subject": "NQF Level 5",
+                    "level": "Unspecified"
+                },
+                {
+                    "subject": "6 qualification in the law enforcement",
+                    "level": "Unspecified"
+                },
+                {
+                    "subject": "environment.",
+                    "level": "Unspecified"
+                },
+                {
+                    "subject": "confirmed working experience as a law enforcement official.",
+                    "level": "Unspecified"
+                },
+                {
+                    "subject": "HR division of the department) should be submitted with the",
+                    "level": "Unspecified"
+                },
+                {
+                    "subject": "application.",
+                    "level": "Unspecified"
+                }
+            ]
+        },
+        {
+            "course_name": "Dip (Policing)",
+            "duration": "3",
+            "aps": "20",
+            "required_subjects": [
+                {
+                    "subject": "ENFORCEMENT DEPARTMENT, WITH A NATIONAL SENIOR",
+                    "level": "Unspecified"
+                },
+                {
+                    "subject": "English",
+                    "level": "3"
+                },
+                {
+                    "subject": "Mathematics, Technical Mathematics",
+                    "level": "3"
+                },
+                {
+                    "subject": "Mathematical Literacy.",
+                    "level": "Unspecified"
+                }
+            ]
+        },
+        {
+            "course_name": "Dip (Public Affairs) (Admin of State)",
+            "duration": "3",
+            "aps": "20",
+            "required_subjects": [
+                {
+                    "subject": "English",
+                    "level": "3"
+                },
+                {
+                    "subject": "Mathematics",
+                    "level": "3"
+                },
+                {
+                    "subject": "Mathematical Literacy",
+                    "level": "3"
+                }
+            ]
+        },
+        {
+            "course_name": "Dip (Public Affairs) (Local Government)",
+            "duration": "3",
+            "aps": "20",
+            "required_subjects": [
+                {
+                    "subject": "English",
+                    "level": "3"
+                },
+                {
+                    "subject": "Mathematics",
+                    "level": "3"
+                },
+                {
+                    "subject": "Mathematical Literacy",
+                    "level": "3"
+                }
+            ]
+        },
+        {
+            "course_name": "Dip (Traffic Safety and Municipal Police Management)",
+            "duration": "3",
+            "aps": "",
+            "required_subjects": [
+                {
+                    "subject": "ENFORCEMENT DEPARTMENT:",
+                    "level": "Unspecified"
+                },
+                {
+                    "subject": "bachelor\u2019s degree",
+                    "level": "Unspecified"
+                },
+                {
+                    "subject": "a diploma endorsement, and a relevant",
+                    "level": "Unspecified"
+                },
+                {
+                    "subject": "NQF Level 5",
+                    "level": "Unspecified"
+                },
+                {
+                    "subject": "6 qualification in the law enforcement",
+                    "level": "Unspecified"
+                },
+                {
+                    "subject": "environment.",
+                    "level": "Unspecified"
+                },
+                {
+                    "subject": "confirmed working experience as a law enforcement official.",
+                    "level": "Unspecified"
+                },
+                {
+                    "subject": "HR division of the department) should be submitted with the",
+                    "level": "Unspecified"
+                },
+                {
+                    "subject": "application.",
+                    "level": "Unspecified"
+                }
+            ]
+        },
+        {
+            "course_name": "Dip (Traffic Safety and Municipal Police Management)",
+            "duration": "3",
+            "aps": "20",
+            "required_subjects": [
+                {
+                    "subject": "ENFORCEMENT DEPARTMENT, WITH A NATIONAL SENIOR",
+                    "level": "Unspecified"
+                },
+                {
+                    "subject": "English",
+                    "level": "3"
+                },
+                {
+                    "subject": "Mathematics, Technical Mathematics",
+                    "level": "3"
+                },
+                {
+                    "subject": "Mathematical Literacy.",
+                    "level": "Unspecified"
+                }
+            ]
+        }
+    ],
+    "FACULTY OF ICT": [
+        {
+            "course_name": "Dip (Computer Science)",
+            "duration": "3",
+            "aps": "26 (with Mathematics/ Technical Mathematics) / 28 (with Mathematical Literacy)",
+            "required_subjects": [
+                {
+                    "subject": "English",
+                    "level": "4"
+                },
+                {
+                    "subject": "Mathematics/Technical Mathematics",
+                    "level": "5"
+                },
+                {
+                    "subject": "Mathematical Literacy",
+                    "level": "7"
+                }
+            ]
+        },
+        {
+            "course_name": "Dip (Computer Science)(Extended)",
+            "duration": "4",
+            "aps": "23 (with Mathematics/ Technical Mathematics) / 25 (with Mathematical Literacy)",
+            "required_subjects": [
+                {
+                    "subject": "English",
+                    "level": "3"
+                },
+                {
+                    "subject": "Mathematics/Technical Mathematics",
+                    "level": "4"
+                },
+                {
+                    "subject": "Mathematical Literacy",
+                    "level": "6"
+                }
+            ]
+        },
+        {
+            "course_name": "Dip (Computer Systems Engineering)",
+            "duration": "3",
+            "aps": "26",
+            "required_subjects": [
+                {
+                    "subject": "English",
+                    "level": "4"
+                },
+                {
+                    "subject": "Mathematics/Technical Mathematics",
+                    "level": "5"
+                },
+                {
+                    "subject": "Physical Sciences/Technical Sciences",
+                    "level": "4"
+                }
+            ]
+        },
+        {
+            "course_name": "Dip (Computer Systems Engineering)(Extended)",
+            "duration": "4",
+            "aps": "23",
+            "required_subjects": [
+                {
+                    "subject": "English",
+                    "level": "3"
+                },
+                {
+                    "subject": "Mathematics/Technical Mathematics",
+                    "level": "4"
+                },
+                {
+                    "subject": "Physical Sciences/Technical Sciences",
+                    "level": "3"
+                }
+            ]
+        },
+        {
+            "course_name": "Dip (Informatics)",
+            "duration": "3",
+            "aps": "26 (with Mathematics or Technical Mathematics) / 28 (with Mathematical Literacy)",
+            "required_subjects": [
+                {
+                    "subject": "English",
+                    "level": "4"
+                },
+                {
+                    "subject": "Mathematics/Technical Mathematics",
+                    "level": "5"
+                },
+                {
+                    "subject": "Mathematical Literacy",
+                    "level": "7"
+                }
+            ]
+        },
+        {
+            "course_name": "Dip (Informatics)(Extended)",
+            "duration": "4",
+            "aps": "23 (with Mathematics or Technical Mathematics) / 25 (with Mathematical Literacy)",
+            "required_subjects": [
+                {
+                    "subject": "English",
+                    "level": "3"
+                },
+                {
+                    "subject": "Mathematics/Technical Mathematics",
+                    "level": "4"
+                },
+                {
+                    "subject": "Mathematical Literacy",
+                    "level": "6"
+                }
+            ]
+        },
+        {
+            "course_name": "Dip (Information Technology)",
+            "duration": "3",
+            "aps": "26 (with Mathematics/ Technical Mathematics) / 28 (with Mathematical Literacy)",
+            "required_subjects": [
+                {
+                    "subject": "English",
+                    "level": "4"
+                },
+                {
+                    "subject": "Mathematics/Technical Mathematics",
+                    "level": "5"
+                },
+                {
+                    "subject": "Mathematical Literacy",
+                    "level": "7"
+                },
+                {
+                    "subject": "Physical Science/Technical Science",
+                    "level": "3"
+                }
+            ]
+        },
+        {
+            "course_name": "Dip (Information Technology) (Extended)",
+            "duration": "4",
+            "aps": "23 (with Mathematics/ Technical Mathematics) / 25 (with Mathematical Literacy)",
+            "required_subjects": [
+                {
+                    "subject": "English",
+                    "level": "3"
+                },
+                {
+                    "subject": "Mathematics/Technical Mathematics",
+                    "level": "4"
+                },
+                {
+                    "subject": "Mathematical Literacy",
+                    "level": "6"
+                },
+                {
+                    "subject": "Physical Science/Technical Science",
+                    "level": "3"
+                }
+            ]
+        },
+        {
+            "course_name": "Dip (Multimedia Computing)",
+            "duration": "3",
+            "aps": "26 (with Mathematics/ Technical Mathematics) / 28 (with Mathematical Literacy)",
+            "required_subjects": [
+                {
+                    "subject": "English",
+                    "level": "4"
+                },
+                {
+                    "subject": "Mathematics/Technical Mathematics",
+                    "level": "5"
+                },
+                {
+                    "subject": "Mathematical Literacy",
+                    "level": "7"
+                }
+            ]
+        },
+        {
+            "course_name": "Dip (Multimedia Computing) (Extended)",
+            "duration": "4",
+            "aps": "23 (with Mathematics/ Technical Mathematics) / 25 (with Mathematical Literacy)",
+            "required_subjects": [
+                {
+                    "subject": "English",
+                    "level": "3"
+                },
+                {
+                    "subject": "Mathematics/Technical Mathematics",
+                    "level": "4"
+                },
+                {
+                    "subject": "Mathematical Literacy",
+                    "level": "6"
+                }
+            ]
+        }
+    ],
+    "FACULTY OF MANAGEMENT SCIENCES": [
+        {
+            "course_name": "Dip (Administrative Information Management)",
+            "duration": "3",
+            "aps": "24",
+            "required_subjects": [
+                {
+                    "subject": "English",
+                    "level": "4"
+                },
+                {
+                    "subject": "Mathematics/Technical Mathematics",
+                    "level": "Unspecified"
+                },
+                {
+                    "subject": "Mathematical Literacy",
+                    "level": "3"
+                }
+            ]
+        },
+        {
+            "course_name": "Dip (Administrative Management) (Finance)",
+            "duration": "3",
+            "aps": "24",
+            "required_subjects": [
+                {
+                    "subject": "English",
+                    "level": "4"
+                },
+                {
+                    "subject": "Mathematics",
+                    "level": "3"
+                },
+                {
+                    "subject": "Technical Mathematics",
+                    "level": "3"
+                },
+                {
+                    "subject": "Mathematical Literacy",
+                    "level": "4"
+                },
+                {
+                    "subject": "Accounting",
+                    "level": "3"
+                }
+            ]
+        },
+        {
+            "course_name": "Dip (Administrative Management) (General)",
+            "duration": "3",
+            "aps": "24",
+            "required_subjects": [
+                {
+                    "subject": "English",
+                    "level": "4"
+                },
+                {
+                    "subject": "Mathematics",
+                    "level": "3"
+                },
+                {
+                    "subject": "Technical Mathematics",
+                    "level": "3"
+                },
+                {
+                    "subject": "Mathematical Literacy",
+                    "level": "4"
+                }
+            ]
+        },
+        {
+            "course_name": "Dip (Adventure Tourism Management) (Only Mbombela Campus)",
+            "duration": "3",
+            "aps": "24",
+            "required_subjects": [
+                {
+                    "subject": "English",
+                    "level": "4"
+                },
+                {
+                    "subject": "Mathematics/Technical Mathematics",
+                    "level": "3"
+                },
+                {
+                    "subject": "Mathematical Literacy",
+                    "level": "4"
+                }
+            ]
+        },
+        {
+            "course_name": "Dip (Casino Resort Management)",
+            "duration": "3",
+            "aps": "24",
+            "required_subjects": [
+                {
+                    "subject": "English",
+                    "level": "4"
+                },
+                {
+                    "subject": "Mathematics",
+                    "level": "3"
+                },
+                {
+                    "subject": "Technical Mathematics",
+                    "level": "3"
+                },
+                {
+                    "subject": "Mathematical Literacy",
+                    "level": "4"
+                }
+            ]
+        },
+        {
+            "course_name": "Dip (Contact Centre Management)",
+            "duration": "3",
+            "aps": "24",
+            "required_subjects": [
+                {
+                    "subject": "English",
+                    "level": "4"
+                },
+                {
+                    "subject": "Mathematics/Technical Mathematics",
+                    "level": "Unspecified"
+                },
+                {
+                    "subject": "Mathematical Literacy",
+                    "level": "3"
+                }
+            ]
+        },
+        {
+            "course_name": "Dip (Credit Management)",
+            "duration": "3",
+            "aps": "24",
+            "required_subjects": [
+                {
+                    "subject": "English",
+                    "level": "4"
+                },
+                {
+                    "subject": "Mathematics/Technical Mathematics",
+                    "level": "3"
+                },
+                {
+                    "subject": "Mathematical Literacy",
+                    "level": "4"
+                },
+                {
+                    "subject": "Accounting",
+                    "level": "3"
+                }
+            ]
+        },
+        {
+            "course_name": "Dip (Ecotourism Management) (Only Mbombela Campus)",
+            "duration": "3",
+            "aps": "24",
+            "required_subjects": [
+                {
+                    "subject": "English",
+                    "level": "4"
+                },
+                {
+                    "subject": "Mathematics/Technical Mathematics",
+                    "level": "3"
+                },
+                {
+                    "subject": "Mathematical Literacy",
+                    "level": "4"
+                }
+            ]
+        },
+        {
+            "course_name": "Dip (Entrepreneurship)",
+            "duration": "3",
+            "aps": "24",
+            "required_subjects": [
+                {
+                    "subject": "English",
+                    "level": "4"
+                },
+                {
+                    "subject": "Mathematics/Technical Mathematics",
+                    "level": "Unspecified"
+                },
+                {
+                    "subject": "Mathematical Literacy",
+                    "level": "3"
+                }
+            ]
+        },
+        {
+            "course_name": "Dip (Event Management)",
+            "duration": "3",
+            "aps": "24",
+            "required_subjects": [
+                {
+                    "subject": "English",
+                    "level": "4"
+                },
+                {
+                    "subject": "Mathematics/Technical Mathematics",
+                    "level": "3"
+                },
+                {
+                    "subject": "Mathematical Literacy",
+                    "level": "4"
+                }
+            ]
+        },
+        {
+            "course_name": "Dip (Food Operations Management)",
+            "duration": "3",
+            "aps": "24",
+            "required_subjects": [
+                {
+                    "subject": "English",
+                    "level": "3"
+                },
+                {
+                    "subject": "Mathematics/Technical Mathematics",
+                    "level": "Unspecified"
+                },
+                {
+                    "subject": "Mathematical Literacy",
+                    "level": "3"
+                }
+            ]
+        },
+        {
+            "course_name": "Dip (Hospitality Management)",
+            "duration": "3",
+            "aps": "24",
+            "required_subjects": [
+                {
+                    "subject": "English",
+                    "level": "3"
+                },
+                {
+                    "subject": "Mathematics/Technical Mathematics",
+                    "level": "Unspecified"
+                },
+                {
+                    "subject": "Mathematical Literacy",
+                    "level": "3"
+                }
+            ]
+        },
+        {
+            "course_name": "Dip (Human Resource Management)",
+            "duration": "3",
+            "aps": "24",
+            "required_subjects": [
+                {
+                    "subject": "English",
+                    "level": "4"
+                },
+                {
+                    "subject": "Mathematics/Technical Mathematics",
+                    "level": "Unspecified"
+                },
+                {
+                    "subject": "Mathematical Literacy",
+                    "level": "3"
+                }
+            ]
+        },
+        {
+            "course_name": "Dip (Marketing)",
+            "duration": "3",
+            "aps": "24",
+            "required_subjects": [
+                {
+                    "subject": "English",
+                    "level": "4"
+                },
+                {
+                    "subject": "Mathematics/Technical Mathematics",
+                    "level": "3"
+                },
+                {
+                    "subject": "Mathematical Literacy",
+                    "level": "4"
+                }
+            ]
+        },
+        {
+            "course_name": "Dip (Operations Management)",
+            "duration": "3",
+            "aps": "24",
+            "required_subjects": [
+                {
+                    "subject": "English",
+                    "level": "3"
+                },
+                {
+                    "subject": "Mathematics/Technical Mathematics",
+                    "level": "3"
+                },
+                {
+                    "subject": "Mathematical Literacy",
+                    "level": "5"
+                }
+            ]
+        },
+        {
+            "course_name": "Dip (Retail Business Management)",
+            "duration": "3",
+            "aps": "24",
+            "required_subjects": [
+                {
+                    "subject": "English",
+                    "level": "4"
+                },
+                {
+                    "subject": "Mathematics/Technical Mathematics",
+                    "level": "3"
+                },
+                {
+                    "subject": "Mathematical Literacy",
+                    "level": "4"
+                }
+            ]
+        },
+        {
+            "course_name": "Dip (Sport Management)",
+            "duration": "3",
+            "aps": "24",
+            "required_subjects": [
+                {
+                    "subject": "English",
+                    "level": "4"
+                },
+                {
+                    "subject": "Mathematics/Technical Mathematics",
+                    "level": "3"
+                },
+                {
+                    "subject": "Mathematical Literacy",
+                    "level": "4"
+                }
+            ]
+        },
+        {
+            "course_name": "Dip (Supply Chain Management)",
+            "duration": "3",
+            "aps": "24",
+            "required_subjects": [
+                {
+                    "subject": "English",
+                    "level": "4"
+                },
+                {
+                    "subject": "Mathematics/Technical Mathematics",
+                    "level": "3"
+                },
+                {
+                    "subject": "Mathematical Literacy",
+                    "level": "4"
+                }
+            ]
+        },
+        {
+            "course_name": "Dip (Tourism Management)",
+            "duration": "3",
+            "aps": "24",
+            "required_subjects": [
+                {
+                    "subject": "English",
+                    "level": "4"
+                },
+                {
+                    "subject": "Mathematics/Technical Mathematics",
+                    "level": "3"
+                },
+                {
+                    "subject": "Mathematical Literacy",
+                    "level": "4"
+                }
+            ]
+        },
+        {
+            "course_name": "Dip (Work Study)",
+            "duration": "3",
+            "aps": "24",
+            "required_subjects": [
+                {
+                    "subject": "English",
+                    "level": "3"
+                },
+                {
+                    "subject": "Mathematics",
+                    "level": "3"
+                },
+                {
+                    "subject": "Technical Mathematics",
+                    "level": "3"
+                },
+                {
+                    "subject": "Mathematical Literacy",
+                    "level": "5"
+                }
+            ]
+        },
+        {
+            "course_name": "HCert (Administrative Information Management) (Online presentation)",
+            "duration": "1",
+            "aps": "20",
+            "required_subjects": [
+                {
+                    "subject": "English",
+                    "level": "3"
+                }
+            ]
+        },
+        {
+            "course_name": "HCert (Contact Centre Management) (Online presentation)",
+            "duration": "1",
+            "aps": "20",
+            "required_subjects": [
+                {
+                    "subject": "English",
+                    "level": "3"
+                }
+            ]
+        }
+    ],
+    "FACULTY OF SCIENCE": [
+        {
+            "course_name": "Dip (Animal Sciences)",
+            "duration": "3",
+            "aps": "19 (with Mathematics/ Technical Mathematics) / 20 (with Mathematical Literacy",
+            "required_subjects": [
+                {
+                    "subject": "English",
+                    "level": "4"
+                },
+                {
+                    "subject": "Mathematics/Technical Mathematics",
+                    "level": "3"
+                },
+                {
+                    "subject": "Mathematical Literacy",
+                    "level": "4"
+                }
+            ]
+        },
+        {
+            "course_name": "Dip (Crop Production)",
+            "duration": "3",
+            "aps": "19 (with Mathematics/ Technical Mathematics) / 20 (with Mathematical Literacy",
+            "required_subjects": [
+                {
+                    "subject": "English",
+                    "level": "4"
+                },
+                {
+                    "subject": "Mathematics/Technical Mathematics",
+                    "level": "3"
+                },
+                {
+                    "subject": "Mathematical Literacy",
+                    "level": "4"
+                }
+            ]
+        },
+        {
+            "course_name": "Dip (Equine Science)",
+            "duration": "3",
+            "aps": "19 (with Mathematics/ Technical Mathematics) / 20 (with Mathematical Literacy",
+            "required_subjects": [
+                {
+                    "subject": "English",
+                    "level": "4"
+                },
+                {
+                    "subject": "Mathematics/Technical Mathematics",
+                    "level": "3"
+                },
+                {
+                    "subject": "Mathematical Literacy",
+                    "level": "4"
+                }
+            ]
+        },
+        {
+            "course_name": "Dip (Horticulture)",
+            "duration": "3",
+            "aps": "25 (with Mathematics/ Technical Mathematics) / 26 (with Mathematical Literacy)",
+            "required_subjects": [
+                {
+                    "subject": "English",
+                    "level": "4"
+                },
+                {
+                    "subject": "Mathematics/Technical Mathematics",
+                    "level": "3"
+                },
+                {
+                    "subject": "Mathematical Literacy",
+                    "level": "4"
+                },
+                {
+                    "subject": "Life Sciences",
+                    "level": "3"
+                },
+                {
+                    "subject": "Physical Sciences/Technical Sciences",
+                    "level": "3"
+                }
+            ]
+        },
+        {
+            "course_name": "Dip (Landscape Technology)",
+            "duration": "3",
+            "aps": "25 (with Mathematics/ Technical Mathematics) / 26 (with Mathematical Literacy)",
+            "required_subjects": [
+                {
+                    "subject": "English",
+                    "level": "4"
+                },
+                {
+                    "subject": "Mathematics/Technical Mathematics",
+                    "level": "3"
+                },
+                {
+                    "subject": "Mathematical Literacy",
+                    "level": "4"
+                },
+                {
+                    "subject": "Life Sciences",
+                    "level": "3"
+                },
+                {
+                    "subject": "Physical Sciences/Technical Sciences",
+                    "level": "3"
+                }
+            ]
+        },
+        {
+            "course_name": "Dip (Nature Conservation)",
+            "duration": "3",
+            "aps": "24 (with Mathematics/ Technical Mathematics) / 25 (with Mathematical Literacy)",
+            "required_subjects": [
+                {
+                    "subject": "English",
+                    "level": "4"
+                },
+                {
+                    "subject": "Mathematics/Technical Mathematics",
+                    "level": "3"
+                },
+                {
+                    "subject": "Mathematical Literacy",
+                    "level": "4"
+                }
+            ]
+        },
+        {
+            "course_name": "Dip (Wildlife Management)",
+            "duration": "3",
+            "aps": "24 (with Mathematics/ Technical Mathematics) / 25 (with Mathematical Literacy)",
+            "required_subjects": [
+                {
+                    "subject": "English",
+                    "level": "4"
+                },
+                {
+                    "subject": "Mathematics/Technical Mathematics",
+                    "level": "3"
+                },
+                {
+                    "subject": "Mathematical Literacy",
+                    "level": "4"
+                }
+            ]
+        },
+        {
+            "course_name": "HCert (Forestry Management) (Only Mbombela Campus)",
+            "duration": "2",
+            "aps": "18 (with Mathematics/ Technical Mathematics) / 21 (with Mathematical Literacy)",
+            "required_subjects": [
+                {
+                    "subject": "English",
+                    "level": "3"
+                },
+                {
+                    "subject": "Mathematics/Technical Mathematics",
+                    "level": "3"
+                },
+                {
+                    "subject": "Mathematical Literacy",
+                    "level": "6"
+                }
+            ]
+        },
+        {
+            "course_name": "BEnvironmental Health",
+            "duration": "4",
+            "aps": "24",
+            "required_subjects": [
+                {
+                    "subject": "English",
+                    "level": "4"
+                },
+                {
+                    "subject": "Mathematics/Technical Mathematics",
+                    "level": "4"
+                },
+                {
+                    "subject": "Physical Sciences/Technical Sciences",
+                    "level": "4"
+                },
+                {
+                    "subject": "Life Sciences",
+                    "level": "4"
+                },
+                {
+                    "subject": "two other subjects",
+                    "level": "4"
+                }
+            ]
+        },
+        {
+            "course_name": "BNursing",
+            "duration": "4",
+            "aps": "27",
+            "required_subjects": [
+                {
+                    "subject": "English",
+                    "level": "4"
+                },
+                {
+                    "subject": "Mathematics/Technical Mathematics",
+                    "level": "4"
+                },
+                {
+                    "subject": "Life Sciences",
+                    "level": "4"
+                }
+            ]
+        },
+        {
+            "course_name": "BPharm / Bachelor of Pharmacy",
+            "duration": "4",
+            "aps": "24",
+            "required_subjects": [
+                {
+                    "subject": "English",
+                    "level": "4"
+                },
+                {
+                    "subject": "Mathematics/Technical Mathematics",
+                    "level": "4"
+                },
+                {
+                    "subject": "Physical Sciences/Technical Sciences",
+                    "level": "4"
+                },
+                {
+                    "subject": "Life Sciences",
+                    "level": "4"
+                },
+                {
+                    "subject": "two other subjects",
+                    "level": "4"
+                }
+            ]
+        },
+        {
+            "course_name": "BRad (Diagnostic) / Bachelor of Radiography in Diagnostics",
+            "duration": "4",
+            "aps": "24",
+            "required_subjects": [
+                {
+                    "subject": "English",
+                    "level": "4"
+                },
+                {
+                    "subject": "Mathematics/Technical Mathematics",
+                    "level": "4"
+                },
+                {
+                    "subject": "Physical Sciences/Technical Sciences",
+                    "level": "4"
+                },
+                {
+                    "subject": "Life Sciences",
+                    "level": "4"
+                }
+            ]
+        },
+        {
+            "course_name": "BHSci (Biokinetics)",
+            "duration": "4",
+            "aps": "24",
+            "required_subjects": [
+                {
+                    "subject": "English",
+                    "level": "4"
+                },
+                {
+                    "subject": "Mathematics/Technical Mathematics",
+                    "level": "4"
+                },
+                {
+                    "subject": "Physical Sciences/Technical Science",
+                    "level": "4"
+                },
+                {
+                    "subject": "Life Sciences",
+                    "level": "4"
+                }
+            ]
+        },
+        {
+            "course_name": "BHSci (Clinical Technology)",
+            "duration": "4",
+            "aps": "24",
+            "required_subjects": [
+                {
+                    "subject": "English",
+                    "level": "4"
+                },
+                {
+                    "subject": "Mathematics/Technical Mathematics",
+                    "level": "4"
+                },
+                {
+                    "subject": "Physical Sciences/Technical Sciences.",
+                    "level": "4"
+                },
+                {
+                    "subject": "Life Sciences",
+                    "level": "4"
+                }
+            ]
+        },
+        {
+            "course_name": "BHSci (Medical Laboratory Science)",
+            "duration": "4",
+            "aps": "24",
+            "required_subjects": [
+                {
+                    "subject": "English",
+                    "level": "4"
+                },
+                {
+                    "subject": "Mathematics/Technical Mathematics",
+                    "level": "4"
+                },
+                {
+                    "subject": "Physical Sciences/Technical Sciences",
+                    "level": "4"
+                },
+                {
+                    "subject": "Life Sciences",
+                    "level": "4"
+                }
+            ]
+        },
+        {
+            "course_name": "BHSci (Medical Orthotics and Prosthetics)",
+            "duration": "4",
+            "aps": "24",
+            "required_subjects": [
+                {
+                    "subject": "English",
+                    "level": "4"
+                },
+                {
+                    "subject": "Life Sciences",
+                    "level": "4"
+                },
+                {
+                    "subject": "Mathematics/Technical Mathematics",
+                    "level": "4"
+                },
+                {
+                    "subject": "Physical Sciences/Technical Sciences",
+                    "level": "4"
+                }
+            ]
+        },
+        {
+            "course_name": "BHSci (Veterinary Technology)",
+            "duration": "4",
+            "aps": "24",
+            "required_subjects": [
+                {
+                    "subject": "English",
+                    "level": "4"
+                },
+                {
+                    "subject": "Mathematics/Technical Mathematics",
+                    "level": "4"
+                },
+                {
+                    "subject": "Physical Sciences/Technical Sciences",
+                    "level": "4"
+                },
+                {
+                    "subject": "Life Sciences 4",
+                    "level": "4"
+                },
+                {
+                    "subject": "Agricultural Sciences",
+                    "level": "4"
+                }
+            ]
+        },
+        {
+            "course_name": "Dip (Kinesiology and Coaching Science)",
+            "duration": "3",
+            "aps": "24",
+            "required_subjects": [
+                {
+                    "subject": "English",
+                    "level": "3"
+                },
+                {
+                    "subject": "Mathematics/Technical Mathematics",
+                    "level": "3"
+                },
+                {
+                    "subject": "Mathematical Literacy",
+                    "level": "4"
+                },
+                {
+                    "subject": "Life Sciences",
+                    "level": "3"
+                }
+            ]
+        },
+        {
+            "course_name": "Dip (Somatic Therapy)",
+            "duration": "3",
+            "aps": "22 (with Mathematics/ Technical Sciences) / 23 (with Mathematical Literacy)",
+            "required_subjects": [
+                {
+                    "subject": "English",
+                    "level": "4"
+                },
+                {
+                    "subject": "Mathematics/Technical Mathematics",
+                    "level": "4"
+                },
+                {
+                    "subject": "Mathematical Literacy",
+                    "level": "5"
+                },
+                {
+                    "subject": "Life Sciences",
+                    "level": "4"
+                }
+            ]
+        },
+        {
+            "course_name": "HCert (Dental Assisting)",
+            "duration": "1",
+            "aps": "18",
+            "required_subjects": [
+                {
+                    "subject": "English",
+                    "level": "4"
+                },
+                {
+                    "subject": "Mathematics 3",
+                    "level": "4"
+                },
+                {
+                    "subject": "Mathematical Literacy",
+                    "level": "4"
+                },
+                {
+                    "subject": "any other additional subjects.",
+                    "level": "3"
+                }
+            ]
+        },
+        {
+            "course_name": "BSc (Industrial Chemistry)",
+            "duration": "4",
+            "aps": "24",
+            "required_subjects": [
+                {
+                    "subject": "English",
+                    "level": "4"
+                },
+                {
+                    "subject": "Mathematics",
+                    "level": "5"
+                },
+                {
+                    "subject": "Physical Sciences",
+                    "level": "5"
+                }
+            ]
+        },
+        {
+            "course_name": "Dip (Analytical Chemistry)",
+            "duration": "3",
+            "aps": "21",
+            "required_subjects": [
+                {
+                    "subject": "English",
+                    "level": "4"
+                },
+                {
+                    "subject": "Mathematics/Technical Mathematics",
+                    "level": "4"
+                },
+                {
+                    "subject": "Physical Sciences/Technical Sciences",
+                    "level": "4"
+                }
+            ]
+        },
+        {
+            "course_name": "Dip (Biotechnology)",
+            "duration": "3",
+            "aps": "21",
+            "required_subjects": [
+                {
+                    "subject": "English",
+                    "level": "4"
+                },
+                {
+                    "subject": "Mathematics/Technical Mathematics",
+                    "level": "4"
+                },
+                {
+                    "subject": "Physical Sciences/Technical Sciences",
+                    "level": "4"
+                },
+                {
+                    "subject": "Life Sciences",
+                    "level": "3"
+                }
+            ]
+        },
+        {
+            "course_name": "Dip (Environmental Sciences)",
+            "duration": "3",
+            "aps": "21",
+            "required_subjects": [
+                {
+                    "subject": "English",
+                    "level": "4"
+                },
+                {
+                    "subject": "Mathematics/Technical Mathematics",
+                    "level": "4"
+                },
+                {
+                    "subject": "Physical Sciences/Technical Sciences",
+                    "level": "4"
+                }
+            ]
+        },
+        {
+            "course_name": "Dip (Fire Technology) (only offered to Fire Services working personnel)",
+            "duration": "3",
+            "aps": "",
+            "required_subjects": [
+                {
+                    "subject": "Three years\u2019 relevant work experience, HAZMAT Awareness, Fire",
+                    "level": "Unspecified"
+                },
+                {
+                    "subject": "Fighter I, HAZMAT Operational, and Fire Fighter II certificates.",
+                    "level": "Unspecified"
+                },
+                {
+                    "subject": "Applicants must submit proof of employment in the form of an",
+                    "level": "Unspecified"
+                },
+                {
+                    "subject": "official letter from the employer.",
+                    "level": "Unspecified"
+                }
+            ]
+        },
+        {
+            "course_name": "Dip (Food Technology)",
+            "duration": "3",
+            "aps": "21",
+            "required_subjects": [
+                {
+                    "subject": "English",
+                    "level": "4"
+                },
+                {
+                    "subject": "Mathematics/Technical Mathematics",
+                    "level": "4"
+                },
+                {
+                    "subject": "Physical Sciences/Technical Sciences",
+                    "level": "4"
+                },
+                {
+                    "subject": "Life Sciences",
+                    "level": "3"
+                }
+            ]
+        },
+        {
+            "course_name": "Dip (Geology)",
+            "duration": "3",
+            "aps": "21",
+            "required_subjects": [
+                {
+                    "subject": "English",
+                    "level": "4"
+                },
+                {
+                    "subject": "Mathematics/Technical Mathematics",
+                    "level": "4"
+                },
+                {
+                    "subject": "Physical Sciences/Technical Sciences",
+                    "level": "4"
+                }
+            ]
+        },
+        {
+            "course_name": "Dip (Industrial Physics)",
+            "duration": "3",
+            "aps": "21",
+            "required_subjects": [
+                {
+                    "subject": "English",
+                    "level": "4"
+                },
+                {
+                    "subject": "Mathematics/Technical Mathematics",
+                    "level": "4"
+                },
+                {
+                    "subject": "Physical Sciences/Technical Sciences",
+                    "level": "4"
+                }
+            ]
+        },
+        {
+            "course_name": "Dip (Water Science and Technology)",
+            "duration": "3",
+            "aps": "21",
+            "required_subjects": [
+                {
+                    "subject": "English",
+                    "level": "4"
+                },
+                {
+                    "subject": "Mathematics/Technical Mathematics",
+                    "level": "4"
+                },
+                {
+                    "subject": "Physical Sciences/Technical Sciences",
+                    "level": "4"
+                }
+            ]
+        },
+        {
+            "course_name": "HCert (Resource and Waste Management)",
+            "duration": "1",
+            "aps": "18 (with Mathematics/ Technical Mathematics) / 21 (with Mathematical Literacy)",
+            "required_subjects": [
+                {
+                    "subject": "English",
+                    "level": "3"
+                },
+                {
+                    "subject": "Mathematics/Technical Mathematics",
+                    "level": "3"
+                },
+                {
+                    "subject": "Mathematical Literacy",
+                    "level": "6"
+                }
+            ]
+        },
+        {
+            "course_name": "HCert (Water Treatment)",
+            "duration": "1",
+            "aps": "18 (with Mathematics/ Technical Mathematics) / 21 (with Mathematical Literacy)",
+            "required_subjects": [
+                {
+                    "subject": "English",
+                    "level": "3"
+                },
+                {
+                    "subject": "Mathematics/Technical Mathematics",
+                    "level": "3"
+                },
+                {
+                    "subject": "Mathematical Literacy",
+                    "level": "6"
+                },
+                {
+                    "subject": "Physical Sciences/Technical Sciences",
+                    "level": "3"
+                }
+            ]
+        }
+    ]
+}
