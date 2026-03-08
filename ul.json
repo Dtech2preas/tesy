@@ -1,0 +1,1233 @@
+{
+    "Faculty of Humanities": [
+        {
+            "course_name": "BEd (SP & FET Teaching) - Bachelor of Education in Senior Phase & FET Teaching (majoring in Languages and Life Orientation)",
+            "duration": "4",
+            "aps": "24",
+            "required_subjects": [
+                {
+                    "subject": "Life Orientation",
+                    "level": "5",
+                    "percentage": "60-69%"
+                },
+                {
+                    "subject": "English",
+                    "level": "4",
+                    "percentage": "59%"
+                },
+                {
+                    "subject": "Additional Subjects"
+                }
+            ]
+        },
+        {
+            "course_name": "BEd (SP & FET Teaching) - Bachelor of Educ ation in Sen ior Phase & FET Teaching (majoring in Languages and Social Sciences)",
+            "duration": "4",
+            "aps": "24",
+            "required_subjects": [
+                {
+                    "subject": "English",
+                    "level": "3",
+                    "percentage": "50-59%"
+                },
+                {
+                    "subject": "Language",
+                    "level": "4",
+                    "percentage": "50-59%"
+                },
+                {
+                    "subject": "Additional Subjects"
+                }
+            ]
+        },
+        {
+            "course_name": "BEd (SP & FET Teaching) - Bachelor of Educ ation in Senior Phase & FET Teaching (majoring in Economics and Management Studies)",
+            "duration": "4",
+            "aps": "24",
+            "required_subjects": [
+                {
+                    "subject": "English",
+                    "level": "3",
+                    "percentage": "40-49%"
+                },
+                {
+                    "subject": "Additional Subjects",
+                    "level": "4",
+                    "percentage": "50-59%"
+                },
+                {
+                    "subject": "Additional Subjects"
+                }
+            ]
+        },
+        {
+            "course_name": "BEd (SP & FET Teach ing) - Bachelor of Education in Senior Phase & FET Teaching (majoring in Mathematics, Science & Technology)",
+            "duration": "4",
+            "aps": "24",
+            "required_subjects": [
+                {
+                    "subject": "English",
+                    "level": "3",
+                    "percentage": "40-49%"
+                },
+                {
+                    "subject": "Mathematics",
+                    "level": "4",
+                    "percentage": "50-59%"
+                },
+                {
+                    "subject": "Physical Sciences",
+                    "level": "4",
+                    "percentage": "50-59%"
+                },
+                {
+                    "subject": "Additional Subjects"
+                }
+            ]
+        },
+        {
+            "course_name": "BEd (FP Teaching) - Bac helor of Educa tion in F oun dation P hase Teac hing",
+            "duration": "4",
+            "aps": "24",
+            "required_subjects": [
+                {
+                    "subject": "Language",
+                    "level": "4",
+                    "percentage": "59%"
+                },
+                {
+                    "subject": "Mathematics",
+                    "level": "3",
+                    "percentage": "40-49%"
+                },
+                {
+                    "subject": "Additional Subjects"
+                }
+            ]
+        },
+        {
+            "course_name": "BA - Bachelor of Arts (Lang uage s str eam)",
+            "duration": "3",
+            "aps": "25",
+            "required_subjects": [
+                {
+                    "subject": "English",
+                    "level": "4",
+                    "percentage": "60-69%"
+                },
+                {
+                    "subject": "Additional Subjects"
+                }
+            ]
+        },
+        {
+            "course_name": "BA -Bachelor of Arts (Translation an d Linguistics stream)",
+            "duration": "3",
+            "aps": "25",
+            "required_subjects": [
+                {
+                    "subject": "English",
+                    "level": "4",
+                    "percentage": "60-69%"
+                },
+                {
+                    "subject": "Additional Subjects"
+                }
+            ]
+        },
+        {
+            "course_name": "S BA -Bachelor of Arts (Performing Ar ts stream)",
+            "duration": "3",
+            "aps": "25",
+            "required_subjects": [
+                {
+                    "subject": "English",
+                    "level": "4",
+                    "percentage": "60-69%"
+                },
+                {
+                    "subject": "Additional Subjects"
+                }
+            ]
+        },
+        {
+            "course_name": "NA BA (Contemporary English and Mult ilingual Studies) - Bachelor o f Arts in Contemporary English and Multilingual St udies",
+            "duration": "3",
+            "aps": "25",
+            "required_subjects": [
+                {
+                    "subject": "English",
+                    "level": "4",
+                    "percentage": "60-69%"
+                },
+                {
+                    "subject": "Additional Subjects"
+                }
+            ]
+        },
+        {
+            "course_name": "BA (Communication Studies) - B ach elor of Arts in Com municatio n Studies",
+            "duration": "3",
+            "aps": "25",
+            "required_subjects": [
+                {
+                    "subject": "English",
+                    "level": "4",
+                    "percentage": "50-59%"
+                },
+                {
+                    "subject": "Additional Subjects"
+                }
+            ]
+        },
+        {
+            "course_name": "BA (Media Stu d ies) -B a chelor of Art s in Media Studies",
+            "duration": "3",
+            "aps": "25",
+            "required_subjects": [
+                {
+                    "subject": "English",
+                    "level": "4",
+                    "percentage": "50-59%"
+                },
+                {
+                    "subject": "Additional Subjects"
+                }
+            ]
+        },
+        {
+            "course_name": "BA (Media Stu d ies) -B achelor of Art s in Media Studies (Extended Curriculum Programme)",
+            "duration": "4",
+            "aps": "23",
+            "required_subjects": [
+                {
+                    "subject": "English",
+                    "level": "4",
+                    "percentage": "50-59%"
+                },
+                {
+                    "subject": "Additional Subjects"
+                }
+            ]
+        },
+        {
+            "course_name": "SECNEICS LAICOS BA - Bachelor of Arts (Criminology and Psych ology stream)",
+            "duration": "3",
+            "aps": "23",
+            "required_subjects": [
+                {
+                    "subject": "English",
+                    "level": "4",
+                    "percentage": "50-59%"
+                },
+                {
+                    "subject": "Additional Subjects",
+                    "level": "4",
+                    "percentage": "50-59%"
+                },
+                {
+                    "subject": "Mathematics",
+                    "level": "3",
+                    "percentage": "60-69%"
+                },
+                {
+                    "subject": "Additional Subjects",
+                    "level": "4",
+                    "percentage": "50-59%"
+                }
+            ]
+        },
+        {
+            "course_name": "BA - Bachelor of Arts (Cultural Studies strea m)",
+            "duration": "3",
+            "aps": "23",
+            "required_subjects": [
+                {
+                    "subject": "English",
+                    "level": "4",
+                    "percentage": "50-59%"
+                },
+                {
+                    "subject": "Additional Subjects",
+                    "percentage": "50-59%"
+                },
+                {
+                    "subject": "Mathematics",
+                    "level": "3",
+                    "percentage": "60-69%"
+                },
+                {
+                    "subject": "Additional Subjects",
+                    "level": "4",
+                    "percentage": "50-59%"
+                }
+            ]
+        },
+        {
+            "course_name": "BA - Bachelor of Arts (Sociology and Anthrop ology stream)",
+            "duration": "3",
+            "aps": "23",
+            "required_subjects": [
+                {
+                    "subject": "English",
+                    "level": "4",
+                    "percentage": "50-59%"
+                },
+                {
+                    "subject": "Additional Subjects",
+                    "level": "4",
+                    "percentage": "50-59%"
+                },
+                {
+                    "subject": "Mathematics",
+                    "level": "3",
+                    "percentage": "60-69%"
+                },
+                {
+                    "subject": "Additional Subjects",
+                    "level": "4",
+                    "percentage": "50-59%"
+                }
+            ]
+        },
+        {
+            "course_name": "BA - Bachelor o f Arts (Po litical Studies strea m)",
+            "duration": "3",
+            "aps": "25",
+            "required_subjects": [
+                {
+                    "subject": "English",
+                    "level": "4",
+                    "percentage": "50-59%"
+                },
+                {
+                    "subject": "Additional Subjects"
+                }
+            ]
+        },
+        {
+            "course_name": "BPsych - Bachelor of Psychology",
+            "duration": "4",
+            "aps": "23",
+            "required_subjects": [
+                {
+                    "subject": "English",
+                    "level": "4",
+                    "percentage": "50-59%"
+                },
+                {
+                    "subject": "Additional Subjects",
+                    "level": "4",
+                    "percentage": "50-59%"
+                },
+                {
+                    "subject": "Mathematics",
+                    "level": "3",
+                    "percentage": "9%"
+                },
+                {
+                    "subject": "Additional Subjects",
+                    "level": "4",
+                    "percentage": "50-59%"
+                }
+            ]
+        },
+        {
+            "course_name": "BA - Bachelor of A rts (Criminolo g y and Ps ych ology stream) (E xtended Curriculum Programme )",
+            "duration": "4",
+            "aps": "22",
+            "required_subjects": [
+                {
+                    "subject": "English",
+                    "level": "4",
+                    "percentage": "50-59%"
+                },
+                {
+                    "subject": "Additional Subjects",
+                    "level": "4",
+                    "percentage": "50-59%"
+                },
+                {
+                    "subject": "Mathematics",
+                    "level": "2",
+                    "percentage": "30-39%"
+                },
+                {
+                    "subject": "Additional Subjects",
+                    "level": "4",
+                    "percentage": "50-59%"
+                }
+            ]
+        },
+        {
+            "course_name": "BSW - Bachelor o f Social Work",
+            "duration": "4",
+            "aps": "23",
+            "required_subjects": [
+                {
+                    "subject": "English",
+                    "level": "4",
+                    "percentage": "50-59%"
+                },
+                {
+                    "subject": "Additional Subjects",
+                    "level": "4",
+                    "percentage": "50-59%"
+                },
+                {
+                    "subject": "Mathematics",
+                    "level": "3",
+                    "percentage": "40-49%"
+                },
+                {
+                    "subject": "Additional Subjects",
+                    "level": "4",
+                    "percentage": "50-59%"
+                }
+            ]
+        }
+    ],
+    "Faculty of Science & Agriculture": [
+        {
+            "course_name": "SECNEICSLARENIM&LACISYHP BSc - Bachelor of Science (Physical Sciences stream)",
+            "duration": "3",
+            "aps": "26",
+            "required_subjects": [
+                {
+                    "subject": "English",
+                    "level": "4",
+                    "percentage": "50-59%"
+                },
+                {
+                    "subject": "Mathematics",
+                    "level": "5",
+                    "percentage": "60-69%"
+                },
+                {
+                    "subject": "Physical Sciences",
+                    "level": "5",
+                    "percentage": "60-69%"
+                },
+                {
+                    "subject": "Life Sciences",
+                    "percentage": "50-59%"
+                },
+                {
+                    "subject": "Additional Subjects"
+                }
+            ]
+        },
+        {
+            "course_name": "BSc - Bachelor of Science (Physical Sciences stream) (Extended Curriculum Programme)",
+            "duration": "4",
+            "aps": "22",
+            "required_subjects": [
+                {
+                    "subject": "English",
+                    "level": "4",
+                    "percentage": "50-59%"
+                },
+                {
+                    "subject": "Mathematics",
+                    "level": "4",
+                    "percentage": "50-59%"
+                },
+                {
+                    "subject": "Physical Sciences",
+                    "level": "4",
+                    "percentage": "50-59%"
+                },
+                {
+                    "subject": "Life Sciences",
+                    "level": "3",
+                    "percentage": "40-49%"
+                },
+                {
+                    "subject": "Additional Subjects"
+                }
+            ]
+        },
+        {
+            "course_name": "BSc (Geology) - Bachelor of Science in Geology",
+            "duration": "3",
+            "aps": "26",
+            "required_subjects": [
+                {
+                    "subject": "English",
+                    "level": "4",
+                    "percentage": "50-59%"
+                },
+                {
+                    "subject": "Mathematics",
+                    "level": "5",
+                    "percentage": "60-69%"
+                },
+                {
+                    "subject": "Physical Sciences",
+                    "level": "5",
+                    "percentage": "60-69%"
+                },
+                {
+                    "subject": "Additional Subjects"
+                }
+            ]
+        },
+        {
+            "course_name": "SECNEICSLATNEMNORIVNEDNAERUTLUCIRGA BAgricMan - Bachelor of Ag ricultural Management",
+            "duration": "3",
+            "aps": "24",
+            "required_subjects": [
+                {
+                    "subject": "English",
+                    "level": "4",
+                    "percentage": "50-59%"
+                },
+                {
+                    "subject": "Mathematics",
+                    "level": "3",
+                    "percentage": "40-49%"
+                },
+                {
+                    "subject": "Life Sciences",
+                    "level": "4",
+                    "percentage": "50-59%"
+                },
+                {
+                    "subject": "Agricultural Subject",
+                    "level": "4",
+                    "percentage": "50-59%"
+                },
+                {
+                    "subject": "Additional Subjects"
+                }
+            ]
+        },
+        {
+            "course_name": "BSc (Agriculture) (Agricultural Economics)- Bachelor of Science in Agriculture in Agricultural Economics",
+            "duration": "4",
+            "aps": "24",
+            "required_subjects": [
+                {
+                    "subject": "English",
+                    "level": "4",
+                    "percentage": "50-59%"
+                },
+                {
+                    "subject": "Mathematics",
+                    "level": "4",
+                    "percentage": "50-59%"
+                },
+                {
+                    "subject": "Life Sciences",
+                    "level": "4",
+                    "percentage": "50-59%"
+                },
+                {
+                    "subject": "Additional Subjects"
+                }
+            ]
+        },
+        {
+            "course_name": "BSc (Agriculture) (Plant Production) - Bachelor of Science in Agriculture in Plant Production",
+            "duration": "4",
+            "aps": "24",
+            "required_subjects": [
+                {
+                    "subject": "English",
+                    "level": "4",
+                    "percentage": "50-59%"
+                },
+                {
+                    "subject": "Mathematics",
+                    "level": "4",
+                    "percentage": "50-59%"
+                },
+                {
+                    "subject": "Physical Sciences",
+                    "level": "4",
+                    "percentage": "50-59%"
+                },
+                {
+                    "subject": "Life Sciences",
+                    "level": "4",
+                    "percentage": "50-59%"
+                },
+                {
+                    "subject": "Geography",
+                    "level": "4"
+                }
+            ]
+        },
+        {
+            "course_name": "BSc (Agriculture) (Animal Production)- Bachelor of Science in Agriculture in Animal Production",
+            "duration": "4",
+            "aps": "24",
+            "required_subjects": [
+                {
+                    "subject": "English",
+                    "level": "4",
+                    "percentage": "50-59%"
+                },
+                {
+                    "subject": "Mathematics",
+                    "level": "4",
+                    "percentage": "50-59%"
+                },
+                {
+                    "subject": "Physical Sciences",
+                    "level": "4",
+                    "percentage": "50-59%"
+                },
+                {
+                    "subject": "Life Sciences",
+                    "level": "4",
+                    "percentage": "50-59%"
+                },
+                {
+                    "subject": "Additional Subjects"
+                }
+            ]
+        },
+        {
+            "course_name": "BSc (Agriculture) (So il Science)- Bachelor of Science in Agriculture in Soil Science",
+            "duration": "4",
+            "aps": "25",
+            "required_subjects": [
+                {
+                    "subject": "English",
+                    "level": "4",
+                    "percentage": "50-59%"
+                },
+                {
+                    "subject": "Mathematics",
+                    "level": "4",
+                    "percentage": "50-59%"
+                },
+                {
+                    "subject": "Physical Sciences",
+                    "level": "5",
+                    "percentage": "60-69%"
+                },
+                {
+                    "subject": "Life Sciences",
+                    "level": "4",
+                    "percentage": "50-59%"
+                },
+                {
+                    "subject": "Additional Subjects"
+                }
+            ]
+        },
+        {
+            "course_name": "BSc (Environmental & Resource Studies)- Bachelor of Science in Environmental & Resource St udies",
+            "duration": "4",
+            "aps": "24",
+            "required_subjects": [
+                {
+                    "subject": "English",
+                    "level": "4",
+                    "percentage": "50-59%"
+                },
+                {
+                    "subject": "Mathematics",
+                    "level": "4",
+                    "percentage": "50-59%"
+                },
+                {
+                    "subject": "Life Sciences",
+                    "level": "4",
+                    "percentage": "50-59%"
+                },
+                {
+                    "subject": "Geography",
+                    "level": "4",
+                    "percentage": "59%"
+                },
+                {
+                    "subject": "Additional Subjects"
+                }
+            ]
+        },
+        {
+            "course_name": "BSc (Water & Sanitation Scienc es) - Bachelor of Science in Water & Sanitation Sciences",
+            "duration": "4",
+            "aps": "24",
+            "required_subjects": [
+                {
+                    "subject": "English",
+                    "level": "4",
+                    "percentage": "50-59%"
+                },
+                {
+                    "subject": "Mathematics",
+                    "level": "5",
+                    "percentage": "60-69%"
+                },
+                {
+                    "subject": "Physical Sciences",
+                    "level": "5",
+                    "percentage": "60-69%"
+                },
+                {
+                    "subject": "Life Sciences",
+                    "level": "4",
+                    "percentage": "50-59%"
+                },
+                {
+                    "subject": "Additional Subjects"
+                }
+            ]
+        },
+        {
+            "course_name": "BAcc - Bachelor of Accountancy",
+            "duration": "3",
+            "aps": "30",
+            "required_subjects": [
+                {
+                    "subject": "English",
+                    "level": "4",
+                    "percentage": "50-59%"
+                },
+                {
+                    "subject": "Mathematics",
+                    "level": "4",
+                    "percentage": "50-59%"
+                },
+                {
+                    "subject": "Additional Subjects",
+                    "level": "4"
+                }
+            ]
+        },
+        {
+            "course_name": "AT BCom (Accountancy) - Bachelor of Commerce in Accountancy",
+            "duration": "3",
+            "aps": "28",
+            "required_subjects": [
+                {
+                    "subject": "English",
+                    "level": "4",
+                    "percentage": "50-59%"
+                },
+                {
+                    "subject": "Mathematics",
+                    "level": "4",
+                    "percentage": "50-59%"
+                },
+                {
+                    "subject": "Additional Subjects"
+                }
+            ]
+        },
+        {
+            "course_name": "BCo m (Accoun t ancy) - Bachelor of Com merce i n Accountancy ( Extended Curriculum P ro gramme)",
+            "duration": "4",
+            "aps": "26",
+            "required_subjects": [
+                {
+                    "subject": "English",
+                    "level": "4",
+                    "percentage": "50-59%"
+                },
+                {
+                    "subject": "Mathematics",
+                    "level": "4",
+                    "percentage": "50-59%"
+                },
+                {
+                    "subject": "Additional Subjects"
+                }
+            ]
+        },
+        {
+            "course_name": "BSc - Bachelor of Sc ience (Mathematical Sciences str eam)",
+            "duration": "3",
+            "aps": "24",
+            "required_subjects": [
+                {
+                    "subject": "English",
+                    "level": "4",
+                    "percentage": "50-59%"
+                },
+                {
+                    "subject": "Mathematics",
+                    "level": "5",
+                    "percentage": "60-69%"
+                },
+                {
+                    "subject": "Physical Sciences",
+                    "percentage": "60-69%"
+                },
+                {
+                    "subject": "Additional Subjects"
+                }
+            ]
+        },
+        {
+            "course_name": "BSc - Bachelor of Sc ience (Mathematical Sciences stream) (E xtended Curriculum Programme)",
+            "duration": "4",
+            "aps": "22",
+            "required_subjects": [
+                {
+                    "subject": "English",
+                    "level": "4",
+                    "percentage": "50-59%"
+                },
+                {
+                    "subject": "Mathematics",
+                    "level": "4",
+                    "percentage": "50-59%"
+                },
+                {
+                    "subject": "Physical Sciences",
+                    "level": "4",
+                    "percentage": "50-59%"
+                },
+                {
+                    "subject": "Additional Subjects"
+                }
+            ]
+        },
+        {
+            "course_name": "BSc - Bachelor of Science (Life Sciences Strea m)",
+            "duration": "3",
+            "aps": "26",
+            "required_subjects": [
+                {
+                    "subject": "English",
+                    "level": "4",
+                    "percentage": "50-59%"
+                },
+                {
+                    "subject": "Mathematics",
+                    "level": "5",
+                    "percentage": "60-69%"
+                },
+                {
+                    "subject": "Physical Sciences",
+                    "level": "5",
+                    "percentage": "60-69%"
+                },
+                {
+                    "subject": "Life Sciences",
+                    "level": "4",
+                    "percentage": "50-59%"
+                }
+            ]
+        },
+        {
+            "course_name": "BSc - Bachelor of Science (Life Sciences Stream) (Extended Curriculum Programme)",
+            "duration": "4",
+            "aps": "22",
+            "required_subjects": [
+                {
+                    "subject": "English",
+                    "level": "4",
+                    "percentage": "50-59%"
+                },
+                {
+                    "subject": "Mathematics",
+                    "level": "4",
+                    "percentage": "50-59%"
+                },
+                {
+                    "subject": "Physical Sciences",
+                    "level": "4",
+                    "percentage": "50-59%"
+                },
+                {
+                    "subject": "Life Sciences",
+                    "level": "3",
+                    "percentage": "40-49%"
+                }
+            ]
+        }
+    ],
+    "Faculty of Management & Law": [
+        {
+            "course_name": "BCom (Human Re source Management) - Bachelor of Commerce in Hu man Resource Management",
+            "duration": "3",
+            "aps": "26",
+            "required_subjects": [
+                {
+                    "subject": "English",
+                    "level": "4",
+                    "percentage": "50-59%"
+                },
+                {
+                    "subject": "Mathematics",
+                    "level": "3",
+                    "percentage": "40-49%"
+                }
+            ]
+        },
+        {
+            "course_name": "BCom (Human Resource Management) - Bachelor of Commerce in H uman Resource Mana gement (Extended Curriculum Program mes)",
+            "duration": "4",
+            "aps": "22",
+            "required_subjects": [
+                {
+                    "subject": "English",
+                    "level": "4",
+                    "percentage": "50-59%"
+                },
+                {
+                    "subject": "Mathematics",
+                    "level": "3",
+                    "percentage": "40-49%"
+                }
+            ]
+        },
+        {
+            "course_name": "BCom (Busine ss M anagement) - Bachelor of Commerce in Busin ess M anagem ent",
+            "duration": "3",
+            "aps": "26",
+            "required_subjects": [
+                {
+                    "subject": "English",
+                    "level": "4",
+                    "percentage": "50-59%"
+                },
+                {
+                    "subject": "Mathematics",
+                    "level": "3",
+                    "percentage": "40-49%"
+                }
+            ]
+        },
+        {
+            "course_name": "BCom (Business Management) - Bachelor of Commerce in Busi ness Management (E xtende d Curriculum Programmes)",
+            "duration": "4",
+            "aps": "22",
+            "required_subjects": [
+                {
+                    "subject": "English",
+                    "level": "4",
+                    "percentage": "50-59%"
+                },
+                {
+                    "subject": "Mathematics",
+                    "level": "3",
+                    "percentage": "40-49%"
+                }
+            ]
+        },
+        {
+            "course_name": "BCom (Economics)- Bachelor of Commerce in Economics",
+            "duration": "3",
+            "aps": "26",
+            "required_subjects": [
+                {
+                    "subject": "English",
+                    "level": "4",
+                    "percentage": "50-59%"
+                },
+                {
+                    "subject": "Mathematics",
+                    "level": "3",
+                    "percentage": "40-49%"
+                }
+            ]
+        },
+        {
+            "course_name": "BCom (Economics) - Bachelor of Commerce in Economics (Extended Cur riculum Programme)",
+            "duration": "4",
+            "aps": "22",
+            "required_subjects": [
+                {
+                    "subject": "English",
+                    "level": "4",
+                    "percentage": "50-59%"
+                },
+                {
+                    "subject": "Mathematics",
+                    "level": "3",
+                    "percentage": "40-49%"
+                }
+            ]
+        },
+        {
+            "course_name": "BAdm in (Loca l Government) - Bachelor of Administration in Local Government",
+            "duration": "3",
+            "aps": "26",
+            "required_subjects": [
+                {
+                    "subject": "English",
+                    "level": "4",
+                    "percentage": "50-59%"
+                }
+            ]
+        },
+        {
+            "course_name": "BDev (Plan ning and Management)- Bachelor of Development i n Plannin g and Mana gemen t",
+            "duration": "3",
+            "aps": "26",
+            "required_subjects": [
+                {
+                    "subject": "English",
+                    "level": "4",
+                    "percentage": "50-59%"
+                },
+                {
+                    "subject": "Mathematics",
+                    "level": "3",
+                    "percentage": "40-49%"
+                }
+            ]
+        },
+        {
+            "course_name": "LLB - Bachelo r of Laws",
+            "duration": "4",
+            "aps": "30",
+            "required_subjects": [
+                {
+                    "subject": "English",
+                    "level": "5",
+                    "percentage": "60-69%"
+                },
+                {
+                    "subject": "Additional Subjects"
+                }
+            ]
+        },
+        {
+            "course_name": "LLB - Bachelo r of Laws (Extended Curriculum Programme)",
+            "duration": "5",
+            "aps": "26",
+            "required_subjects": [
+                {
+                    "subject": "English",
+                    "level": "5",
+                    "percentage": "60-69%"
+                },
+                {
+                    "subject": "Additional Subjects"
+                }
+            ]
+        }
+    ],
+    "Faculty of Health Sciences": [
+        {
+            "course_name": "MBChB - Bachelor of Medicine & Bachelor of Surgery",
+            "duration": "6",
+            "aps": "27",
+            "required_subjects": [
+                {
+                    "subject": "English",
+                    "level": "4",
+                    "percentage": "50-59%"
+                },
+                {
+                    "subject": "Mathematics",
+                    "level": "5",
+                    "percentage": "60-69%"
+                },
+                {
+                    "subject": "Physical Sciences",
+                    "level": "5",
+                    "percentage": "60-69%"
+                },
+                {
+                    "subject": "Life Sciences",
+                    "level": "5",
+                    "percentage": "60-69%"
+                },
+                {
+                    "subject": "Additional Subject 1",
+                    "level": "4",
+                    "percentage": "50-59%"
+                },
+                {
+                    "subject": "Additional Subject 2",
+                    "level": "4",
+                    "percentage": "50-59%"
+                }
+            ]
+        },
+        {
+            "course_name": "BSc ( Medical Scie nces) - Bachelor of Science in Medical Sciences",
+            "duration": "3",
+            "aps": "26",
+            "required_subjects": [
+                {
+                    "subject": "English",
+                    "level": "4",
+                    "percentage": "50-59%"
+                },
+                {
+                    "subject": "Mathematics",
+                    "level": "4",
+                    "percentage": "50-59%"
+                },
+                {
+                    "subject": "Physical Sciences",
+                    "level": "4",
+                    "percentage": "60-69%"
+                },
+                {
+                    "subject": "Life Sciences",
+                    "level": "5",
+                    "percentage": "60-69%"
+                },
+                {
+                    "subject": "Additional Subject 1",
+                    "level": "5",
+                    "percentage": "50-59%"
+                },
+                {
+                    "subject": "Additional Subject 2",
+                    "level": "4",
+                    "percentage": "50-59%"
+                }
+            ]
+        },
+        {
+            "course_name": "BSc (Dietetics) - Bachelor of Science in Dietetics",
+            "duration": "4",
+            "aps": "26",
+            "required_subjects": [
+                {
+                    "subject": "English",
+                    "level": "4",
+                    "percentage": "50-59%"
+                },
+                {
+                    "subject": "Mathematics",
+                    "level": "4",
+                    "percentage": "50-59%"
+                },
+                {
+                    "subject": "Physical Sciences",
+                    "level": "5",
+                    "percentage": "60-69%"
+                },
+                {
+                    "subject": "Life Sciences",
+                    "level": "5",
+                    "percentage": "60-69%"
+                },
+                {
+                    "subject": "Additional Subject 1",
+                    "level": "4",
+                    "percentage": "50-59%"
+                },
+                {
+                    "subject": "Additional Subject 2",
+                    "level": "4",
+                    "percentage": "50-59%"
+                }
+            ]
+        },
+        {
+            "course_name": "BOptom - Bachelor of Optometry",
+            "duration": "4",
+            "aps": "27",
+            "required_subjects": [
+                {
+                    "subject": "English",
+                    "level": "4",
+                    "percentage": "50-59%"
+                },
+                {
+                    "subject": "Mathematics",
+                    "level": "4",
+                    "percentage": "60-69%"
+                },
+                {
+                    "subject": "Physical Sciences",
+                    "level": "5",
+                    "percentage": "60-69%"
+                },
+                {
+                    "subject": "Life Sciences",
+                    "level": "5",
+                    "percentage": "60-69%"
+                },
+                {
+                    "subject": "Additional Subject 1",
+                    "level": "5",
+                    "percentage": "50-59%"
+                },
+                {
+                    "subject": "Additional Subject 2",
+                    "level": "4",
+                    "percentage": "50-59%"
+                }
+            ]
+        },
+        {
+            "course_name": "BNur s - Bachelor of Nur sing",
+            "duration": "4",
+            "aps": "26",
+            "required_subjects": [
+                {
+                    "subject": "English",
+                    "level": "4",
+                    "percentage": "50-59%"
+                },
+                {
+                    "subject": "Mathematics",
+                    "level": "4",
+                    "percentage": "50-59%"
+                },
+                {
+                    "subject": "Physical Sciences",
+                    "level": "5",
+                    "percentage": "60-69%"
+                },
+                {
+                    "subject": "Life Sciences",
+                    "level": "5",
+                    "percentage": "60-69%"
+                },
+                {
+                    "subject": "Additional Subject 1",
+                    "level": "4",
+                    "percentage": "50-59%"
+                },
+                {
+                    "subject": "Additional Subject 2",
+                    "level": "4",
+                    "percentage": "50-59%"
+                }
+            ]
+        },
+        {
+            "course_name": "BPha rm - Bachelor of Pharmacy",
+            "duration": "4",
+            "aps": "27",
+            "required_subjects": [
+                {
+                    "subject": "English",
+                    "level": "4",
+                    "percentage": "50-59%"
+                },
+                {
+                    "subject": "Mathematics",
+                    "level": "5",
+                    "percentage": "60-69%"
+                },
+                {
+                    "subject": "Physical Sciences",
+                    "level": "5",
+                    "percentage": "60-69%"
+                },
+                {
+                    "subject": "Life Sciences",
+                    "level": "5",
+                    "percentage": "60-69%"
+                },
+                {
+                    "subject": "Additional Subject 1",
+                    "level": "4",
+                    "percentage": "50-59%"
+                },
+                {
+                    "subject": "Additional Subject 2",
+                    "level": "4",
+                    "percentage": "50-59%"
+                }
+            ]
+        }
+    ]
+}
