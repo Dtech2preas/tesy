@@ -1,0 +1,2450 @@
+{
+    "College of Agriculture, Engineering and Science": [
+        {
+            "course_name": "B Sc Eng: Agricultural",
+            "cao_codes": [
+                "KN-P-BEA"
+            ],
+            "required_subjects": [
+                {
+                    "subject": "Maths",
+                    "level": "5"
+                },
+                {
+                    "subject": "Phys Sci",
+                    "level": "5",
+                    "percentage": "65%"
+                },
+                {
+                    "subject": "Engl",
+                    "level": "4"
+                },
+                {
+                    "subject": "LO",
+                    "level": "4"
+                }
+            ],
+            "aps_range": "",
+            "duration": "4 yrs"
+        },
+        {
+            "course_name": "B Sc Eng: Chemical",
+            "cao_codes": [
+                "KN-H-BEC"
+            ],
+            "required_subjects": [
+                {
+                    "subject": "Maths",
+                    "level": "5"
+                },
+                {
+                    "subject": "Phys Sci",
+                    "level": "5",
+                    "percentage": "65%"
+                },
+                {
+                    "subject": "Engl",
+                    "level": "4"
+                },
+                {
+                    "subject": "LO",
+                    "level": "4"
+                }
+            ],
+            "aps_range": "",
+            "duration": "4 yrs"
+        },
+        {
+            "course_name": "B Sc Eng: Civil",
+            "cao_codes": [
+                "KN-H-BEV KN-P-BEV"
+            ],
+            "required_subjects": [
+                {
+                    "subject": "Maths",
+                    "level": "5"
+                },
+                {
+                    "subject": "Phys Sci",
+                    "level": "5",
+                    "percentage": "65%"
+                },
+                {
+                    "subject": "Engl",
+                    "level": "4"
+                },
+                {
+                    "subject": "LO",
+                    "level": "4"
+                }
+            ],
+            "aps_range": "",
+            "duration": "4 yrs"
+        },
+        {
+            "course_name": "B Sc Eng: Computer",
+            "cao_codes": [
+                "KN-H-BEK KN-P-BEK"
+            ],
+            "required_subjects": [
+                {
+                    "subject": "Maths",
+                    "level": "5"
+                },
+                {
+                    "subject": "Phys Sci",
+                    "level": "5",
+                    "percentage": "65%"
+                },
+                {
+                    "subject": "Engl",
+                    "level": "4"
+                },
+                {
+                    "subject": "LO",
+                    "level": "4"
+                }
+            ],
+            "aps_range": "48-33",
+            "duration": "4 yrs"
+        },
+        {
+            "course_name": "B Sc Eng: Electrical",
+            "cao_codes": [
+                "KN-H-BEE KN-P-BEE"
+            ],
+            "required_subjects": [
+                {
+                    "subject": "Maths",
+                    "level": "5"
+                },
+                {
+                    "subject": "Phys Sci",
+                    "level": "5",
+                    "percentage": "65%"
+                },
+                {
+                    "subject": "Engl",
+                    "level": "4"
+                },
+                {
+                    "subject": "LO",
+                    "level": "4"
+                }
+            ],
+            "aps_range": "48-33",
+            "duration": "4 yrs"
+        },
+        {
+            "course_name": "B Sc Eng: Electronic",
+            "cao_codes": [
+                "KN-H-BEF KN-P-BEF"
+            ],
+            "required_subjects": [
+                {
+                    "subject": "Maths",
+                    "level": "5"
+                },
+                {
+                    "subject": "Phys Sci",
+                    "level": "5",
+                    "percentage": "65%"
+                },
+                {
+                    "subject": "Engl",
+                    "level": "4"
+                },
+                {
+                    "subject": "LO",
+                    "level": "4"
+                }
+            ],
+            "aps_range": "48-33",
+            "duration": "4 yrs"
+        },
+        {
+            "course_name": "B Sc Eng: Mechanical",
+            "cao_codes": [
+                "KN-H-BEM KN-P-BEM"
+            ],
+            "required_subjects": [
+                {
+                    "subject": "Maths",
+                    "level": "5"
+                },
+                {
+                    "subject": "Phys Sci",
+                    "level": "5",
+                    "percentage": "65%"
+                },
+                {
+                    "subject": "Engl",
+                    "level": "4"
+                },
+                {
+                    "subject": "LO",
+                    "level": "4"
+                }
+            ],
+            "aps_range": "48-33",
+            "duration": "4 yrs"
+        },
+        {
+            "course_name": "B Sc Land Surveying",
+            "cao_codes": [
+                "KN-H-BSL"
+            ],
+            "required_subjects": [
+                {
+                    "subject": "Maths",
+                    "level": "5"
+                },
+                {
+                    "subject": "Phys Sci",
+                    "level": "5",
+                    "percentage": "65%"
+                },
+                {
+                    "subject": "Engl",
+                    "level": "4"
+                },
+                {
+                    "subject": "LO",
+                    "level": "4"
+                }
+            ],
+            "aps_range": "48-33",
+            "duration": "4 yrs"
+        },
+        {
+            "course_name": "B Sc. Agric. Agricultural Economics",
+            "cao_codes": [
+                "KN-P-SAE"
+            ],
+            "required_subjects": [
+                {
+                    "subject": "Engl",
+                    "level": "4"
+                },
+                {
+                    "subject": "LO",
+                    "level": "4"
+                },
+                {
+                    "subject": "Maths",
+                    "level": "4"
+                },
+                {
+                    "subject": "Agric Sci",
+                    "level": "4"
+                },
+                {
+                    "subject": "Econ",
+                    "level": "4"
+                },
+                {
+                    "subject": "Life Sci",
+                    "level": "4"
+                },
+                {
+                    "subject": "Phys Sci",
+                    "level": "4"
+                }
+            ],
+            "aps_range": "48-33",
+            "duration": "4 yrs"
+        },
+        {
+            "course_name": "B Agricultural Management",
+            "cao_codes": [
+                "KN-P-BAQ"
+            ],
+            "required_subjects": [
+                {
+                    "subject": "Engl",
+                    "level": "4"
+                },
+                {
+                    "subject": "LO",
+                    "level": "4"
+                },
+                {
+                    "subject": "Maths",
+                    "level": "4"
+                },
+                {
+                    "subject": "Agric Sci",
+                    "level": "4"
+                },
+                {
+                    "subject": "Econ",
+                    "level": "4"
+                },
+                {
+                    "subject": "Life Sci",
+                    "level": "4"
+                },
+                {
+                    "subject": "Phys Sci",
+                    "level": "4"
+                }
+            ],
+            "aps_range": "48-33",
+            "duration": "3 yrs"
+        },
+        {
+            "course_name": "B Sc Agric. Agricultural Plant Sciences",
+            "cao_codes": [
+                "KN-P-SAP"
+            ],
+            "required_subjects": [
+                {
+                    "subject": "Maths",
+                    "level": "4"
+                },
+                {
+                    "subject": "Engl",
+                    "level": "4"
+                },
+                {
+                    "subject": "LO",
+                    "level": "4"
+                },
+                {
+                    "subject": "Agric Sci",
+                    "level": "4"
+                },
+                {
+                    "subject": "Life Sci",
+                    "level": "4"
+                },
+                {
+                    "subject": "Phys Sci",
+                    "level": "4"
+                }
+            ],
+            "aps_range": "48-33",
+            "duration": "4 yrs"
+        },
+        {
+            "course_name": "B Sc Agric. Agribusiness",
+            "cao_codes": [
+                "KN-P-BSB"
+            ],
+            "required_subjects": [
+                {
+                    "subject": "Maths",
+                    "level": "4"
+                },
+                {
+                    "subject": "Engl",
+                    "level": "4"
+                },
+                {
+                    "subject": "LO",
+                    "level": "4"
+                },
+                {
+                    "subject": "Agric Sci",
+                    "level": "4"
+                },
+                {
+                    "subject": "Life Sci",
+                    "level": "4"
+                },
+                {
+                    "subject": "Phys Sci",
+                    "level": "4"
+                }
+            ],
+            "aps_range": "48-28",
+            "duration": "4 yrs"
+        },
+        {
+            "course_name": "B Sc Agric. Plant Pathology",
+            "cao_codes": [
+                "KN-P-BSP"
+            ],
+            "required_subjects": [
+                {
+                    "subject": "Maths",
+                    "level": "4"
+                },
+                {
+                    "subject": "Engl",
+                    "level": "4"
+                },
+                {
+                    "subject": "LO",
+                    "level": "4"
+                },
+                {
+                    "subject": "Agric Sci",
+                    "level": "4"
+                },
+                {
+                    "subject": "Life Sci",
+                    "level": "4"
+                },
+                {
+                    "subject": "Phys Sci",
+                    "level": "4"
+                }
+            ],
+            "aps_range": "48-28",
+            "duration": "4 yrs"
+        },
+        {
+            "course_name": "B Sc Agric. Soil Science",
+            "cao_codes": [
+                "KN-P-BS1"
+            ],
+            "required_subjects": [
+                {
+                    "subject": "Maths",
+                    "level": "4"
+                },
+                {
+                    "subject": "Engl",
+                    "level": "4"
+                },
+                {
+                    "subject": "LO",
+                    "level": "4"
+                },
+                {
+                    "subject": "Agric Sci",
+                    "level": "4"
+                },
+                {
+                    "subject": "Life Sci",
+                    "level": "4"
+                },
+                {
+                    "subject": "Phys Sci",
+                    "level": "4"
+                }
+            ],
+            "aps_range": "48-28",
+            "duration": "4 yrs"
+        },
+        {
+            "course_name": "B Sc Agric. Animal & Poultry Science",
+            "cao_codes": [
+                "KN-P-SAA"
+            ],
+            "required_subjects": [
+                {
+                    "subject": "Maths",
+                    "level": "4"
+                },
+                {
+                    "subject": "Engl",
+                    "level": "4"
+                },
+                {
+                    "subject": "LO",
+                    "level": "4"
+                },
+                {
+                    "subject": "Agric Sci",
+                    "level": "4"
+                },
+                {
+                    "subject": "Life Sci",
+                    "level": "4"
+                },
+                {
+                    "subject": "Phys Sci",
+                    "level": "4"
+                }
+            ],
+            "aps_range": "48-28",
+            "duration": "4 yrs"
+        },
+        {
+            "course_name": "B Sc Stream (LES) Life and Earth Sciences",
+            "cao_codes": [
+                "KN-P-BS2 KN-W-BS2"
+            ],
+            "required_subjects": [
+                {
+                    "subject": "Maths",
+                    "level": "4"
+                },
+                {
+                    "subject": "Engl",
+                    "level": "4"
+                },
+                {
+                    "subject": "LO",
+                    "level": "4"
+                },
+                {
+                    "subject": "Agric Sci",
+                    "level": "4"
+                },
+                {
+                    "subject": "Life Sci",
+                    "level": "4"
+                },
+                {
+                    "subject": "Phys Sci",
+                    "level": "4"
+                }
+            ],
+            "aps_range": "48-28",
+            "duration": "3 yrs"
+        },
+        {
+            "course_name": "B Sc Stream M (Mathematics)",
+            "cao_codes": [
+                "KN-P-BS3 KN-W-BS3"
+            ],
+            "required_subjects": [
+                {
+                    "subject": "Maths",
+                    "level": "5"
+                },
+                {
+                    "subject": "Eng",
+                    "level": "4"
+                },
+                {
+                    "subject": "LO",
+                    "level": "4"
+                },
+                {
+                    "subject": "Agric Sci",
+                    "level": "4"
+                },
+                {
+                    "subject": "Life Sci",
+                    "level": "4"
+                },
+                {
+                    "subject": "Phys Sci",
+                    "level": "4"
+                }
+            ],
+            "aps_range": "48-30",
+            "duration": "3 yrs"
+        },
+        {
+            "course_name": "B Sc Geographic Information Systems and Earth Observation",
+            "cao_codes": [
+                "KN-P-GEO"
+            ],
+            "required_subjects": [
+                {
+                    "subject": "Maths",
+                    "level": "5"
+                },
+                {
+                    "subject": "Engl",
+                    "level": "4"
+                },
+                {
+                    "subject": "LO",
+                    "level": "4"
+                },
+                {
+                    "subject": "Agric Sci",
+                    "level": "4"
+                },
+                {
+                    "subject": "Life Sci",
+                    "level": "4"
+                },
+                {
+                    "subject": "Phys Sci",
+                    "level": "4"
+                }
+            ],
+            "aps_range": "48-30",
+            "duration": "3 yrs"
+        },
+        {
+            "course_name": "B Sc Applied Chemistry",
+            "cao_codes": [
+                "KN-W-BSR"
+            ],
+            "required_subjects": [
+                {
+                    "subject": "Maths",
+                    "level": "4"
+                },
+                {
+                    "subject": "Engl",
+                    "level": "4"
+                },
+                {
+                    "subject": "LO",
+                    "level": "4"
+                },
+                {
+                    "subject": "Agric Sci",
+                    "level": "4"
+                },
+                {
+                    "subject": "Life Sci",
+                    "level": "4"
+                },
+                {
+                    "subject": "Phys Sci",
+                    "level": "4"
+                }
+            ],
+            "aps_range": "48-28",
+            "duration": "3 yrs"
+        },
+        {
+            "course_name": "B Sc Chemistry and Chemical Technology",
+            "cao_codes": [
+                "KN-P-SIK"
+            ],
+            "required_subjects": [
+                {
+                    "subject": "Engl",
+                    "level": "4"
+                },
+                {
+                    "subject": "LO",
+                    "level": "4"
+                },
+                {
+                    "subject": "Maths",
+                    "level": "4"
+                },
+                {
+                    "subject": "Agric Sci",
+                    "level": "4"
+                },
+                {
+                    "subject": "Life Sci",
+                    "level": "4"
+                },
+                {
+                    "subject": "Phys Sci",
+                    "level": "4"
+                }
+            ],
+            "aps_range": "48-28",
+            "duration": "3 yrs"
+        },
+        {
+            "course_name": "B Sc Computer Science and Inform ation Technology",
+            "cao_codes": [
+                "KN-P-BSU KN-W-BSU"
+            ],
+            "required_subjects": [
+                {
+                    "subject": "Maths",
+                    "level": "5"
+                },
+                {
+                    "subject": "Engl",
+                    "level": "4"
+                },
+                {
+                    "subject": "LO",
+                    "level": "4"
+                },
+                {
+                    "subject": "Agric Sci",
+                    "level": "4"
+                },
+                {
+                    "subject": "Life Sci",
+                    "level": "4"
+                },
+                {
+                    "subject": "Phys Sci",
+                    "level": "4"
+                }
+            ],
+            "aps_range": "48-30",
+            "duration": "3 yrs"
+        },
+        {
+            "course_name": "B Sc Crop and Horticultural Science",
+            "cao_codes": [
+                "KN-P-SIH"
+            ],
+            "required_subjects": [
+                {
+                    "subject": "Engl",
+                    "level": "4"
+                },
+                {
+                    "subject": "LO",
+                    "level": "4"
+                },
+                {
+                    "subject": "Maths",
+                    "level": "4"
+                },
+                {
+                    "subject": "Agric Sci",
+                    "level": "4"
+                },
+                {
+                    "subject": "Life Sci",
+                    "level": "4"
+                },
+                {
+                    "subject": "Phys Sci",
+                    "level": "4"
+                }
+            ],
+            "aps_range": "48-28",
+            "duration": "3 yrs"
+        },
+        {
+            "course_name": "B Sc Environmental Science",
+            "cao_codes": [
+                "KN-P-BSS KN-W-BSS"
+            ],
+            "required_subjects": [
+                {
+                    "subject": "Engl",
+                    "level": "4"
+                },
+                {
+                    "subject": "LO",
+                    "level": "4"
+                },
+                {
+                    "subject": "Maths",
+                    "level": "4"
+                },
+                {
+                    "subject": "Agric Sci",
+                    "level": "4"
+                },
+                {
+                    "subject": "Life Sci",
+                    "level": "4"
+                },
+                {
+                    "subject": "Phys Sci",
+                    "level": "4"
+                }
+            ],
+            "aps_range": "48-28",
+            "duration": "3 yrs"
+        },
+        {
+            "course_name": "B Sc Environmental and Earth Science",
+            "cao_codes": [
+                "KN-P-EES"
+            ],
+            "required_subjects": [
+                {
+                    "subject": "Engl",
+                    "level": "4"
+                },
+                {
+                    "subject": "LO",
+                    "level": "4"
+                },
+                {
+                    "subject": "Maths",
+                    "level": "4"
+                },
+                {
+                    "subject": "Agric Sci",
+                    "level": "4"
+                },
+                {
+                    "subject": "Life Sci",
+                    "level": "4"
+                },
+                {
+                    "subject": "Phys Sci",
+                    "level": "4"
+                }
+            ],
+            "aps_range": "48-28",
+            "duration": "3 yrs"
+        },
+        {
+            "course_name": "B Sc Geological Science",
+            "cao_codes": [
+                "KN-W-BSG"
+            ],
+            "required_subjects": [
+                {
+                    "subject": "Engl",
+                    "level": "4"
+                },
+                {
+                    "subject": "LO",
+                    "level": "4"
+                },
+                {
+                    "subject": "Maths",
+                    "level": "4"
+                },
+                {
+                    "subject": "Agric Sci",
+                    "level": "4"
+                },
+                {
+                    "subject": "Life Sci",
+                    "level": "4"
+                },
+                {
+                    "subject": "Phys Sci",
+                    "level": "4"
+                }
+            ],
+            "aps_range": "48-28",
+            "duration": "3 yrs"
+        },
+        {
+            "course_name": "B Sc Marine Biology",
+            "cao_codes": [
+                "KN-W-BSM"
+            ],
+            "required_subjects": [
+                {
+                    "subject": "Engl",
+                    "level": "4"
+                },
+                {
+                    "subject": "LO",
+                    "level": "4"
+                },
+                {
+                    "subject": "Maths",
+                    "level": "4"
+                },
+                {
+                    "subject": "Agric Sci",
+                    "level": "4"
+                },
+                {
+                    "subject": "Life Sci",
+                    "level": "4"
+                },
+                {
+                    "subject": "Phys Sci",
+                    "level": "4"
+                }
+            ],
+            "aps_range": "48-28",
+            "duration": "3 yrs"
+        },
+        {
+            "course_name": "B Sc Augmented Programme",
+            "cao_codes": [
+                "KN-P-BS4 KN-W-BS4"
+            ],
+            "required_subjects": [
+                {
+                    "subject": "Engl",
+                    "level": "4"
+                },
+                {
+                    "subject": "LO",
+                    "level": "4"
+                },
+                {
+                    "subject": "Maths",
+                    "level": "3"
+                },
+                {
+                    "subject": "Agric Sci",
+                    "level": "3"
+                },
+                {
+                    "subject": "Life Sci",
+                    "level": "3"
+                },
+                {
+                    "subject": "Phys Sci",
+                    "level": "3"
+                }
+            ],
+            "aps_range": "48-26",
+            "duration": "4 yrs"
+        },
+        {
+            "course_name": "B Sc Engineering Access",
+            "cao_codes": [
+                "KN-H-UNT"
+            ],
+            "required_subjects": [
+                {
+                    "subject": "Engl",
+                    "level": "4"
+                },
+                {
+                    "subject": "LO",
+                    "level": "4"
+                },
+                {
+                    "subject": "Maths",
+                    "level": "4"
+                },
+                {
+                    "subject": "Phys Sci",
+                    "level": "4"
+                }
+            ],
+            "aps_range": "28",
+            "duration": "1 yr"
+        }
+    ],
+    "College of Health Sciences": [
+        {
+            "course_name": "Bachelor of Audiology",
+            "cao_codes": [
+                "KN-W-BPA"
+            ],
+            "required_subjects": [
+                {
+                    "subject": "Engl",
+                    "level": "4"
+                },
+                {
+                    "subject": "LO",
+                    "level": "4"
+                },
+                {
+                    "subject": "Maths",
+                    "level": "3"
+                },
+                {
+                    "subject": "Life Sci",
+                    "level": "3"
+                },
+                {
+                    "subject": "Phy Sci",
+                    "level": "3"
+                }
+            ],
+            "aps_range": "48-30",
+            "duration": "4 yrs"
+        },
+        {
+            "course_name": "Bachelor of Speech-Language Therapy",
+            "cao_codes": [
+                "KN-W-BPB"
+            ],
+            "required_subjects": [
+                {
+                    "subject": "Engl",
+                    "level": "4"
+                },
+                {
+                    "subject": "LO",
+                    "level": "4"
+                },
+                {
+                    "subject": "Maths",
+                    "level": "3"
+                },
+                {
+                    "subject": "Life Sci",
+                    "level": "3"
+                },
+                {
+                    "subject": "Phy Sci",
+                    "level": "3"
+                }
+            ],
+            "aps_range": "48-30",
+            "duration": "4 yrs"
+        },
+        {
+            "course_name": "B Dental Therapy",
+            "cao_codes": [
+                "KN-W-BDT"
+            ],
+            "required_subjects": [
+                {
+                    "subject": "Engl",
+                    "level": "4"
+                },
+                {
+                    "subject": "LO",
+                    "level": "4"
+                },
+                {
+                    "subject": "Life Sci",
+                    "level": "3"
+                },
+                {
+                    "subject": "Maths",
+                    "level": "3"
+                }
+            ],
+            "aps_range": "48-30",
+            "duration": "3 yrs"
+        },
+        {
+            "course_name": "B Medical Science Anatomy",
+            "cao_codes": [
+                "KN-W-MBS"
+            ],
+            "required_subjects": [
+                {
+                    "subject": "Engl",
+                    "level": "4"
+                },
+                {
+                    "subject": "LO",
+                    "level": "4"
+                },
+                {
+                    "subject": "Life Sci",
+                    "level": "4"
+                },
+                {
+                    "subject": "Maths",
+                    "level": "4"
+                },
+                {
+                    "subject": "will be prioritised)",
+                    "level": "3"
+                }
+            ],
+            "aps_range": "48-30",
+            "duration": "3 yrs"
+        },
+        {
+            "course_name": "B Medical Science Physiology",
+            "cao_codes": [
+                "KN-W-SBF"
+            ],
+            "required_subjects": [
+                {
+                    "subject": "Engl",
+                    "level": "4"
+                },
+                {
+                    "subject": "LO",
+                    "level": "4"
+                },
+                {
+                    "subject": "Life Sci",
+                    "level": "4"
+                },
+                {
+                    "subject": "Maths",
+                    "level": "4"
+                },
+                {
+                    "subject": "will be prioritised)",
+                    "level": "3"
+                }
+            ],
+            "aps_range": "48-30",
+            "duration": "3 yrs"
+        },
+        {
+            "course_name": "B Occupational Therapy",
+            "cao_codes": [
+                "KN-W-BOT"
+            ],
+            "required_subjects": [
+                {
+                    "subject": "Engl",
+                    "level": "4"
+                },
+                {
+                    "subject": "LO",
+                    "level": "4"
+                },
+                {
+                    "subject": "Maths",
+                    "level": "3"
+                },
+                {
+                    "subject": "Life Sci",
+                    "level": "3"
+                },
+                {
+                    "subject": "Phys Sci",
+                    "level": "3"
+                }
+            ],
+            "aps_range": "48-30",
+            "duration": "4 yrs"
+        },
+        {
+            "course_name": "B Optometry",
+            "cao_codes": [
+                "KN-W-BOP"
+            ],
+            "required_subjects": [
+                {
+                    "subject": "Engl",
+                    "level": "4"
+                },
+                {
+                    "subject": "LO",
+                    "level": "4"
+                },
+                {
+                    "subject": "Maths",
+                    "level": "4"
+                },
+                {
+                    "subject": "Life Sci",
+                    "level": "4"
+                },
+                {
+                    "subject": "Phys Sci",
+                    "level": "4"
+                }
+            ],
+            "aps_range": "48-33",
+            "duration": "4 yrs"
+        },
+        {
+            "course_name": "B Oral Hygiene",
+            "cao_codes": [
+                "KN-W-BON"
+            ],
+            "required_subjects": [
+                {
+                    "subject": "Engl",
+                    "level": "4"
+                },
+                {
+                    "subject": "LO",
+                    "level": "4"
+                },
+                {
+                    "subject": "Life Sci",
+                    "level": "3"
+                },
+                {
+                    "subject": "Maths",
+                    "level": "3"
+                }
+            ],
+            "aps_range": "48-30",
+            "duration": "3 yrs"
+        },
+        {
+            "course_name": "B Pharmacy",
+            "cao_codes": [
+                "KN-W-BPR"
+            ],
+            "required_subjects": [
+                {
+                    "subject": "Engl",
+                    "level": "4"
+                },
+                {
+                    "subject": "Life Sci",
+                    "level": "4"
+                },
+                {
+                    "subject": "LO",
+                    "level": "4"
+                },
+                {
+                    "subject": "Maths",
+                    "level": "4"
+                },
+                {
+                    "subject": "Phys Sci",
+                    "level": "4"
+                }
+            ],
+            "aps_range": "48-33",
+            "duration": "4 yrs"
+        },
+        {
+            "course_name": "B Physiotherapy",
+            "cao_codes": [
+                "KN-W-BPH"
+            ],
+            "required_subjects": [
+                {
+                    "subject": "Engl",
+                    "level": "4"
+                },
+                {
+                    "subject": "Life Sci",
+                    "level": "4"
+                },
+                {
+                    "subject": "LO",
+                    "level": "4"
+                },
+                {
+                    "subject": "Maths",
+                    "level": "4"
+                },
+                {
+                    "subject": "Phys Sci",
+                    "level": "4"
+                }
+            ],
+            "aps_range": "48-30",
+            "duration": "4 yrs"
+        },
+        {
+            "course_name": "B Sport Science",
+            "cao_codes": [
+                "KN-W-BRT"
+            ],
+            "required_subjects": [
+                {
+                    "subject": "Engl",
+                    "level": "4"
+                },
+                {
+                    "subject": "LO",
+                    "level": "4"
+                },
+                {
+                    "subject": "Maths",
+                    "level": "3"
+                },
+                {
+                    "subject": "Maths Lit",
+                    "level": "3"
+                }
+            ],
+            "aps_range": "48-30",
+            "duration": "3 yrs"
+        },
+        {
+            "course_name": "B Nursing",
+            "cao_codes": [
+                "KN-H-BN1"
+            ],
+            "required_subjects": [
+                {
+                    "subject": "Engl",
+                    "level": "4"
+                },
+                {
+                    "subject": "LO",
+                    "level": "4"
+                },
+                {
+                    "subject": "Maths",
+                    "level": "3"
+                },
+                {
+                    "subject": "Maths Lit",
+                    "level": "3"
+                },
+                {
+                    "subject": "Life Sci",
+                    "level": "4"
+                }
+            ],
+            "aps_range": "48-30",
+            "duration": "4 yrs"
+        },
+        {
+            "course_name": "B Medicine & B Surgery",
+            "cao_codes": [
+                "KN-M-MBC"
+            ],
+            "required_subjects": [
+                {
+                    "subject": "Engl",
+                    "level": "5"
+                },
+                {
+                    "subject": "Life Sci",
+                    "level": "5"
+                },
+                {
+                    "subject": "Maths",
+                    "level": "5"
+                },
+                {
+                    "subject": "Phys Sci",
+                    "level": "5"
+                },
+                {
+                    "subject": "LO4",
+                    "percentage": "65%"
+                }
+            ],
+            "aps_range": "N/A",
+            "duration": "6 yrs"
+        }
+    ],
+    "College of Humanities": [
+        {
+            "course_name": "BEd (Foundation Phase)",
+            "cao_codes": [
+                "KN-E-BFP"
+            ],
+            "required_subjects": [
+                {
+                    "subject": "Engl",
+                    "level": "4"
+                },
+                {
+                    "subject": "LO",
+                    "level": "4"
+                },
+                {
+                    "subject": "isiZulu",
+                    "level": "4"
+                },
+                {
+                    "subject": "Mathematical Literacy",
+                    "level": "4",
+                    "percentage": "59%"
+                },
+                {
+                    "subject": "Mathematics",
+                    "level": "4",
+                    "percentage": "59%"
+                }
+            ],
+            "aps_range": "48-28",
+            "duration": "4 yrs"
+        },
+        {
+            "course_name": "BEd (Intermediate Phase)",
+            "cao_codes": [
+                "KN-E-BIP"
+            ],
+            "required_subjects": [
+                {
+                    "subject": "Engl",
+                    "level": "4"
+                },
+                {
+                    "subject": "LO",
+                    "level": "4"
+                },
+                {
+                    "subject": "Math Lit"
+                },
+                {
+                    "subject": "Technology"
+                },
+                {
+                    "subject": "Life Science"
+                },
+                {
+                    "subject": "Physical Science"
+                }
+            ],
+            "aps_range": "48-28",
+            "duration": "4 yrs"
+        },
+        {
+            "course_name": "BEd (Senior Phase/ Further Education & Training)",
+            "cao_codes": [
+                "KN-E-BSN/ FET"
+            ],
+            "required_subjects": [
+                {
+                    "subject": "Engl",
+                    "level": "4"
+                },
+                {
+                    "subject": "LO",
+                    "level": "4"
+                }
+            ],
+            "aps_range": "48-28",
+            "duration": "4 yrs"
+        },
+        {
+            "course_name": "BA (General Studies)",
+            "cao_codes": [
+                "KN-H-BA2 KN-P-BA2"
+            ],
+            "required_subjects": [
+                {
+                    "subject": "Engl",
+                    "level": "4"
+                },
+                {
+                    "subject": "LO",
+                    "level": "4"
+                },
+                {
+                    "subject": "Cons Stud",
+                    "level": "5"
+                },
+                {
+                    "subject": "Dram Arts",
+                    "level": "5"
+                },
+                {
+                    "subject": "Econ",
+                    "level": "5"
+                },
+                {
+                    "subject": "Geog",
+                    "level": "5"
+                },
+                {
+                    "subject": "Hist",
+                    "level": "5"
+                },
+                {
+                    "subject": "Info Tech",
+                    "level": "5"
+                },
+                {
+                    "subject": "Life Sci",
+                    "level": "5"
+                },
+                {
+                    "subject": "Maths",
+                    "level": "5"
+                },
+                {
+                    "subject": "Maths Lit",
+                    "level": "5"
+                },
+                {
+                    "subject": "Music",
+                    "level": "5"
+                },
+                {
+                    "subject": "Religion Stud",
+                    "level": "5"
+                },
+                {
+                    "subject": "Vis Arts",
+                    "level": "5"
+                },
+                {
+                    "subject": "any lang HL",
+                    "level": "5"
+                }
+            ],
+            "aps_range": "48-28",
+            "duration": "3 yrs"
+        },
+        {
+            "course_name": "BA Cultural & Heritage Tourism",
+            "cao_codes": [
+                "KN-H-ABT"
+            ],
+            "required_subjects": [
+                {
+                    "subject": "Engl",
+                    "level": "4"
+                },
+                {
+                    "subject": "LO",
+                    "level": "4"
+                },
+                {
+                    "subject": "Cons Stud",
+                    "level": "5"
+                },
+                {
+                    "subject": "Dram Arts",
+                    "level": "5"
+                },
+                {
+                    "subject": "Econ",
+                    "level": "5"
+                },
+                {
+                    "subject": "Geog",
+                    "level": "5"
+                },
+                {
+                    "subject": "Hist",
+                    "level": "5"
+                },
+                {
+                    "subject": "Info Tech",
+                    "level": "5"
+                },
+                {
+                    "subject": "Life Sci",
+                    "level": "5"
+                },
+                {
+                    "subject": "Maths",
+                    "level": "5"
+                },
+                {
+                    "subject": "Maths Lit",
+                    "level": "5"
+                },
+                {
+                    "subject": "Music",
+                    "level": "5"
+                },
+                {
+                    "subject": "Religion Stud",
+                    "level": "5"
+                },
+                {
+                    "subject": "Vis Arts",
+                    "level": "5"
+                },
+                {
+                    "subject": "any lang HL",
+                    "level": "5"
+                }
+            ],
+            "aps_range": "48-28",
+            "duration": "3 yrs"
+        },
+        {
+            "course_name": "BA in Music*",
+            "cao_codes": [
+                "KN-H-BAM"
+            ],
+            "required_subjects": [
+                {
+                    "subject": "English",
+                    "level": "4"
+                },
+                {
+                    "subject": "LO",
+                    "level": "4"
+                }
+            ],
+            "aps_range": "28",
+            "duration": "3 yrs"
+        },
+        {
+            "course_name": "BA in Music Foundation*",
+            "cao_codes": [
+                "KN-H-BMX"
+            ],
+            "required_subjects": [
+                {
+                    "subject": "English",
+                    "level": "4"
+                },
+                {
+                    "subject": "LO",
+                    "level": "4"
+                }
+            ],
+            "aps_range": "22",
+            "duration": "4 yrs"
+        },
+        {
+            "course_name": "B Soc Sc (General Studies)",
+            "cao_codes": [
+                "KN-H-SO2 KN-P-SO2"
+            ],
+            "required_subjects": [
+                {
+                    "subject": "Engl",
+                    "level": "4"
+                },
+                {
+                    "subject": "LO",
+                    "level": "4"
+                },
+                {
+                    "subject": "Cons Stud",
+                    "level": "5"
+                },
+                {
+                    "subject": "Dram Arts",
+                    "level": "5"
+                },
+                {
+                    "subject": "Econ",
+                    "level": "5"
+                },
+                {
+                    "subject": "Geog",
+                    "level": "5"
+                },
+                {
+                    "subject": "Hist",
+                    "level": "5"
+                },
+                {
+                    "subject": "Info Tech",
+                    "level": "5"
+                },
+                {
+                    "subject": "Life Sci",
+                    "level": "5"
+                },
+                {
+                    "subject": "Maths",
+                    "level": "5"
+                },
+                {
+                    "subject": "Maths Lit",
+                    "level": "5"
+                },
+                {
+                    "subject": "Music",
+                    "level": "5"
+                },
+                {
+                    "subject": "Religion Stud",
+                    "level": "5"
+                },
+                {
+                    "subject": "Vis Arts",
+                    "level": "5"
+                },
+                {
+                    "subject": "any lang HL",
+                    "level": "5"
+                }
+            ],
+            "aps_range": "48-28",
+            "duration": "3 yrs"
+        },
+        {
+            "course_name": "B Soc Sc Geography & Environmental Management",
+            "cao_codes": [
+                "KN-H-SGE KN-P-SGE"
+            ],
+            "required_subjects": [
+                {
+                    "subject": "Engl",
+                    "level": "4"
+                },
+                {
+                    "subject": "LO",
+                    "level": "4"
+                },
+                {
+                    "subject": "Cons Stud",
+                    "level": "5"
+                },
+                {
+                    "subject": "Dram Arts",
+                    "level": "5"
+                },
+                {
+                    "subject": "Econ",
+                    "level": "5"
+                },
+                {
+                    "subject": "Geog",
+                    "level": "5"
+                },
+                {
+                    "subject": "Hist",
+                    "level": "5"
+                },
+                {
+                    "subject": "Info Tech",
+                    "level": "5"
+                },
+                {
+                    "subject": "Life Sci",
+                    "level": "5"
+                },
+                {
+                    "subject": "Maths",
+                    "level": "5"
+                },
+                {
+                    "subject": "Maths Lit",
+                    "level": "5"
+                },
+                {
+                    "subject": "Music",
+                    "level": "5"
+                },
+                {
+                    "subject": "Religion Stud",
+                    "level": "5"
+                },
+                {
+                    "subject": "Vis Arts",
+                    "level": "5"
+                },
+                {
+                    "subject": "any lang HL",
+                    "level": "5"
+                }
+            ],
+            "aps_range": "48-28",
+            "duration": "3 yrs"
+        },
+        {
+            "course_name": "B SocSc (Housing)",
+            "cao_codes": [
+                "KN-H-SOR"
+            ],
+            "required_subjects": [
+                {
+                    "subject": "Eng",
+                    "level": "4"
+                },
+                {
+                    "subject": "Maths",
+                    "level": "4"
+                }
+            ],
+            "aps_range": "48-28",
+            "duration": "3 yrs"
+        },
+        {
+            "course_name": "B Architectural Studies",
+            "cao_codes": [
+                "KN-H-BAR"
+            ],
+            "required_subjects": [
+                {
+                    "subject": "Maths",
+                    "level": "5"
+                },
+                {
+                    "subject": "Eng",
+                    "level": "4"
+                },
+                {
+                    "subject": "LO",
+                    "level": "4"
+                },
+                {
+                    "subject": "Cons Stud",
+                    "level": "5"
+                },
+                {
+                    "subject": "Drama Arts",
+                    "level": "5"
+                },
+                {
+                    "subject": "Econ",
+                    "level": "5"
+                },
+                {
+                    "subject": "Geo",
+                    "level": "5"
+                },
+                {
+                    "subject": "His",
+                    "level": "5"
+                },
+                {
+                    "subject": "Info Tech",
+                    "level": "5"
+                },
+                {
+                    "subject": "Life Sci",
+                    "level": "5"
+                },
+                {
+                    "subject": "Music",
+                    "level": "5"
+                },
+                {
+                    "subject": "Religion Stud",
+                    "level": "5"
+                },
+                {
+                    "subject": "Vis Arts",
+                    "level": "5"
+                },
+                {
+                    "subject": "any lang HL",
+                    "level": "5"
+                },
+                {
+                    "subject": "FAL  Deserving applicants will be requested to submit a portfolio of creative work",
+                    "level": "5"
+                },
+                {
+                    "subject": "write an essay"
+                },
+                {
+                    "subject": "complete a questionnaire"
+                }
+            ],
+            "aps_range": "48-30",
+            "duration": "3 yrs"
+        },
+        {
+            "course_name": "B Social Work",
+            "cao_codes": [
+                "KN-H-BSX"
+            ],
+            "required_subjects": [
+                {
+                    "subject": "Eng",
+                    "level": "4"
+                },
+                {
+                    "subject": "LO",
+                    "level": "4"
+                },
+                {
+                    "subject": "Cons Stud",
+                    "level": "5"
+                },
+                {
+                    "subject": "Drama Arts",
+                    "level": "5"
+                },
+                {
+                    "subject": "Econ",
+                    "level": "5"
+                },
+                {
+                    "subject": "Geo",
+                    "level": "5"
+                },
+                {
+                    "subject": "Hist",
+                    "level": "5"
+                },
+                {
+                    "subject": "Info Tech",
+                    "level": "5"
+                },
+                {
+                    "subject": "Life Sci",
+                    "level": "5"
+                },
+                {
+                    "subject": "Maths",
+                    "level": "5"
+                },
+                {
+                    "subject": "Maths Lit",
+                    "level": "5"
+                },
+                {
+                    "subject": "Music",
+                    "level": "5"
+                },
+                {
+                    "subject": "Religion Stud",
+                    "level": "5"
+                },
+                {
+                    "subject": "Vis Arts",
+                    "level": "5"
+                },
+                {
+                    "subject": "any lang HL",
+                    "level": "5"
+                },
+                {
+                    "subject": "FAL",
+                    "level": "5"
+                }
+            ],
+            "aps_range": "48-28",
+            "duration": "4 yrs"
+        },
+        {
+            "course_name": "BA Philosophy, Politics & Law",
+            "cao_codes": [
+                "KN-H-ABP KN-P-ABP"
+            ],
+            "required_subjects": [
+                {
+                    "subject": "Engl",
+                    "level": "4"
+                },
+                {
+                    "subject": "LO",
+                    "level": "4"
+                },
+                {
+                    "subject": "Cons Stud",
+                    "level": "5"
+                },
+                {
+                    "subject": "Dram Arts",
+                    "level": "5"
+                },
+                {
+                    "subject": "Econ",
+                    "level": "5"
+                },
+                {
+                    "subject": "Geog",
+                    "level": "5"
+                },
+                {
+                    "subject": "Hist",
+                    "level": "5"
+                },
+                {
+                    "subject": "Info Tech",
+                    "level": "5"
+                },
+                {
+                    "subject": "Life Sci",
+                    "level": "5"
+                },
+                {
+                    "subject": "Maths",
+                    "level": "5"
+                },
+                {
+                    "subject": "Maths Lit",
+                    "level": "5"
+                },
+                {
+                    "subject": "Music",
+                    "level": "5"
+                },
+                {
+                    "subject": "Religion Stud",
+                    "level": "5"
+                },
+                {
+                    "subject": "Vis Arts",
+                    "level": "5"
+                },
+                {
+                    "subject": "any lang HL",
+                    "level": "5"
+                },
+                {
+                    "subject": "FAL",
+                    "level": "5"
+                }
+            ],
+            "aps_range": "48-30",
+            "duration": "3 yrs"
+        },
+        {
+            "course_name": "BA International Studies",
+            "cao_codes": [
+                "KN-P-ABI"
+            ],
+            "required_subjects": [
+                {
+                    "subject": "Engl",
+                    "level": "4"
+                },
+                {
+                    "subject": "LO",
+                    "level": "4"
+                },
+                {
+                    "subject": "Cons Stud",
+                    "level": "5"
+                },
+                {
+                    "subject": "Dram Arts",
+                    "level": "5"
+                },
+                {
+                    "subject": "Econ",
+                    "level": "5"
+                },
+                {
+                    "subject": "Geog",
+                    "level": "5"
+                },
+                {
+                    "subject": "Hist",
+                    "level": "5"
+                },
+                {
+                    "subject": "Info Tech",
+                    "level": "5"
+                },
+                {
+                    "subject": "Life Sci",
+                    "level": "5"
+                },
+                {
+                    "subject": "Maths",
+                    "level": "5"
+                },
+                {
+                    "subject": "Maths Lit",
+                    "level": "5"
+                },
+                {
+                    "subject": "Music",
+                    "level": "5"
+                },
+                {
+                    "subject": "Religion Stud",
+                    "level": "5"
+                },
+                {
+                    "subject": "Vis Arts",
+                    "level": "5"
+                },
+                {
+                    "subject": "any lang HL",
+                    "level": "5"
+                },
+                {
+                    "subject": "FAL",
+                    "level": "5"
+                }
+            ],
+            "aps_range": "48-28",
+            "duration": "3 yrs"
+        },
+        {
+            "course_name": "BA Visual Art",
+            "cao_codes": [
+                "KN-P-AAV"
+            ],
+            "required_subjects": [
+                {
+                    "subject": "Engl",
+                    "level": "4"
+                },
+                {
+                    "subject": "LO",
+                    "level": "4"
+                },
+                {
+                    "subject": "Cons Stud",
+                    "level": "5"
+                },
+                {
+                    "subject": "Dram Arts",
+                    "level": "5"
+                },
+                {
+                    "subject": "Econ",
+                    "level": "5"
+                },
+                {
+                    "subject": "Geog",
+                    "level": "5"
+                },
+                {
+                    "subject": "Hist",
+                    "level": "5"
+                },
+                {
+                    "subject": "Info Tech",
+                    "level": "5"
+                },
+                {
+                    "subject": "Life Sci",
+                    "level": "5"
+                },
+                {
+                    "subject": "Maths",
+                    "level": "5"
+                },
+                {
+                    "subject": "Maths Lit",
+                    "level": "5"
+                },
+                {
+                    "subject": "Music",
+                    "level": "5"
+                },
+                {
+                    "subject": "Religion Stud",
+                    "level": "5"
+                },
+                {
+                    "subject": "Vis Arts",
+                    "level": "5"
+                },
+                {
+                    "subject": "any lang HL",
+                    "level": "5"
+                },
+                {
+                    "subject": "FAL",
+                    "level": "5"
+                }
+            ],
+            "aps_range": "48-28",
+            "duration": "3 yrs"
+        },
+        {
+            "course_name": "B Soc Sc Government, Business & Ethics",
+            "cao_codes": [
+                "KN-P-SOG"
+            ],
+            "required_subjects": [
+                {
+                    "subject": "Engl",
+                    "level": "4"
+                },
+                {
+                    "subject": "LO",
+                    "level": "4"
+                },
+                {
+                    "subject": "Cons Stud",
+                    "level": "5"
+                },
+                {
+                    "subject": "Dram Arts",
+                    "level": "5"
+                },
+                {
+                    "subject": "Econ",
+                    "level": "5"
+                },
+                {
+                    "subject": "Geog",
+                    "level": "5"
+                },
+                {
+                    "subject": "Hist",
+                    "level": "5"
+                },
+                {
+                    "subject": "Info Tech",
+                    "level": "5"
+                },
+                {
+                    "subject": "Life Sci",
+                    "level": "5"
+                },
+                {
+                    "subject": "Maths",
+                    "level": "5"
+                },
+                {
+                    "subject": "Maths Lit",
+                    "level": "5"
+                },
+                {
+                    "subject": "Music",
+                    "level": "5"
+                },
+                {
+                    "subject": "Religion Stud",
+                    "level": "5"
+                },
+                {
+                    "subject": "Vis Arts",
+                    "level": "5"
+                },
+                {
+                    "subject": "any lang HL",
+                    "level": "5"
+                },
+                {
+                    "subject": "FAL",
+                    "level": "5"
+                }
+            ],
+            "aps_range": "48-28",
+            "duration": "3 yrs"
+        },
+        {
+            "course_name": "B Theology",
+            "cao_codes": [
+                "KN-P-BTH"
+            ],
+            "required_subjects": [
+                {
+                    "subject": "Engl",
+                    "level": "4"
+                },
+                {
+                    "subject": "LO",
+                    "level": "4"
+                },
+                {
+                    "subject": "Cons Stud",
+                    "level": "5"
+                },
+                {
+                    "subject": "Dram Arts",
+                    "level": "5"
+                },
+                {
+                    "subject": "Econ",
+                    "level": "5"
+                },
+                {
+                    "subject": "Geog",
+                    "level": "5"
+                },
+                {
+                    "subject": "Hist",
+                    "level": "5"
+                },
+                {
+                    "subject": "Info Tech",
+                    "level": "5"
+                },
+                {
+                    "subject": "Life Sci",
+                    "level": "5"
+                },
+                {
+                    "subject": "Maths",
+                    "level": "5"
+                },
+                {
+                    "subject": "Maths Lit",
+                    "level": "5"
+                },
+                {
+                    "subject": "Music",
+                    "level": "5"
+                },
+                {
+                    "subject": "Religion Stud",
+                    "level": "5"
+                },
+                {
+                    "subject": "Vis Arts",
+                    "level": "5"
+                },
+                {
+                    "subject": "any lang HL",
+                    "level": "5"
+                },
+                {
+                    "subject": "FAL",
+                    "level": "5"
+                }
+            ],
+            "aps_range": "48-28",
+            "duration": "3 yrs"
+        },
+        {
+            "course_name": "Humanities Extended Curriculum",
+            "cao_codes": [
+                "KN-H-SO4 KN-P-SO4"
+            ],
+            "required_subjects": [
+                {
+                    "subject": "Engl",
+                    "level": "4"
+                },
+                {
+                    "subject": "LO",
+                    "level": "4"
+                }
+            ],
+            "aps_range": "20/27",
+            "duration": "4 yrs"
+        }
+    ],
+    "College of Law and Management Studies": [
+        {
+            "course_name": "Bachelor of Laws",
+            "cao_codes": [
+                "KN-H-BL1 KN-P-BL1"
+            ],
+            "required_subjects": [
+                {
+                    "subject": "Engl HL",
+                    "level": "5"
+                },
+                {
+                    "subject": "FAL",
+                    "level": "5"
+                },
+                {
+                    "subject": "Maths",
+                    "level": "3"
+                },
+                {
+                    "subject": "Maths Lit",
+                    "level": "3"
+                },
+                {
+                    "subject": "LO",
+                    "level": "4"
+                }
+            ],
+            "aps_range": "48-32",
+            "duration": "4 yrs"
+        },
+        {
+            "course_name": "Bachelor of Laws (p/t)",
+            "cao_codes": [
+                "KN-H-BLZ"
+            ],
+            "required_subjects": [
+                {
+                    "subject": "Engl HL",
+                    "level": "5"
+                },
+                {
+                    "subject": "FAL",
+                    "level": "5"
+                },
+                {
+                    "subject": "Maths",
+                    "level": "3"
+                },
+                {
+                    "subject": "Maths Lit",
+                    "level": "3"
+                },
+                {
+                    "subject": "LO",
+                    "level": "4"
+                }
+            ],
+            "aps_range": "48-32",
+            "duration": "6 yrs"
+        },
+        {
+            "course_name": "Bachelor of Administration",
+            "cao_codes": [
+                "KN-W-BAD"
+            ],
+            "required_subjects": [
+                {
+                    "subject": "Engl",
+                    "level": "4"
+                },
+                {
+                    "subject": "LO",
+                    "level": "4"
+                },
+                {
+                    "subject": "Maths",
+                    "level": "3"
+                }
+            ],
+            "aps_range": "48-28",
+            "duration": "3 yrs"
+        },
+        {
+            "course_name": "Bachelor of Bus iness Administration",
+            "cao_codes": [
+                "KN-W-BBA KN-P-BBA"
+            ],
+            "required_subjects": [
+                {
+                    "subject": "Engl",
+                    "level": "4"
+                },
+                {
+                    "subject": "LO",
+                    "level": "4"
+                },
+                {
+                    "subject": "Maths",
+                    "level": "3"
+                }
+            ],
+            "aps_range": "48-26",
+            "duration": "3 yrs"
+        },
+        {
+            "course_name": "Bachelor of Business Science in Finance",
+            "cao_codes": [
+                "KN-W-B5F"
+            ],
+            "required_subjects": [
+                {
+                    "subject": "Maths",
+                    "level": "6"
+                },
+                {
+                    "subject": "Engl",
+                    "level": "4"
+                },
+                {
+                    "subject": "LO",
+                    "level": "4"
+                }
+            ],
+            "aps_range": "48-33",
+            "duration": "4 yrs"
+        },
+        {
+            "course_name": "B Com (General)",
+            "cao_codes": [
+                "KN-P-BC1 KN-W-BC1"
+            ],
+            "required_subjects": [
+                {
+                    "subject": "Engl",
+                    "level": "4"
+                },
+                {
+                    "subject": "LO",
+                    "level": "4"
+                },
+                {
+                    "subject": "Maths",
+                    "level": "4"
+                }
+            ],
+            "aps_range": "48-30",
+            "duration": "3 yrs"
+        },
+        {
+            "course_name": "B Com (Accounting)",
+            "cao_codes": [
+                "KN-P-BCN KN-W-BCN"
+            ],
+            "required_subjects": [
+                {
+                    "subject": "Maths",
+                    "level": "5"
+                },
+                {
+                    "subject": "Engl",
+                    "level": "4"
+                },
+                {
+                    "subject": "LO",
+                    "level": "4"
+                }
+            ],
+            "aps_range": "48-32",
+            "duration": "3 yrs"
+        },
+        {
+            "course_name": "B Com 4 General (Extended Curriculum)",
+            "cao_codes": [
+                "KN-P-BCG KN-W-BCG"
+            ],
+            "required_subjects": [
+                {
+                    "subject": "Maths",
+                    "level": "3"
+                },
+                {
+                    "subject": "LO",
+                    "level": "4"
+                },
+                {
+                    "subject": "Engl",
+                    "level": "4"
+                }
+            ],
+            "aps_range": "48-26",
+            "duration": "4 yrs"
+        },
+        {
+            "course_name": "B Com 4 Accounting (Extended Curriculum)",
+            "cao_codes": [
+                "KN-P-BCO KN-W-BCO"
+            ],
+            "required_subjects": [
+                {
+                    "subject": "NSC-Deg Maths",
+                    "level": "4"
+                },
+                {
+                    "subject": "LO",
+                    "level": "4"
+                },
+                {
+                    "subject": "Engl",
+                    "level": "4"
+                }
+            ],
+            "aps_range": "48-28",
+            "duration": "4 yrs"
+        }
+    ]
+}
