@@ -96,6 +96,7 @@
         }
 
         function calculateLikelihood(course) {
+            let MAX_APS = 42;
             let reqAps = parseInt(course.aps || '0', 10);
             let reqFps = parseInt(course.fps || '0', 10);
 
@@ -104,25 +105,24 @@
                 if (parts.length > 0) reqAps = parseInt(parts[0], 10);
             }
 
-            let isFps = (reqFps > 0);
+            let isFps = (reqFps > 0 && reqAps === 0);
             let targetScore = isFps ? reqFps : reqAps;
             let userScore = isFps ? userFps : userAps;
 
             let meetsSubjects = true;
             let subjectFails = [];
 
+            let totalUserPerc = 0;
+            let totalMinPerc = 0;
+            let validSubjectCount = 0;
+
             if (course.required_subjects && course.required_subjects.length > 0) {
                 for (let req of course.required_subjects) {
                     // Skip 'Additional Subjects' or empty ones
                     if (!req.subject || req.subject.toLowerCase() === 'additional subjects') continue;
 
+                    validSubjectCount++;
                     let matchedMark = checkSubjectMatch(req.subject);
-
-                    if (!matchedMark) {
-                        meetsSubjects = false;
-                        subjectFails.push(`Missing: ${req.subject}`);
-                        continue;
-                    }
 
                     let reqLevel = parseInt(req.level || '0', 10);
                     if (isNaN(reqLevel) || req.level === "Unspecified") reqLevel = 0;
@@ -138,6 +138,17 @@
                     }
                     if (isNaN(reqPerc)) reqPerc = 0;
 
+                    totalMinPerc += reqPerc;
+
+                    if (!matchedMark) {
+                        meetsSubjects = false;
+                        subjectFails.push(`Missing: ${req.subject}`);
+                        // Use 0 for user percentage
+                        continue;
+                    }
+
+                    totalUserPerc += matchedMark.percentage;
+
                     if (reqLevel > 0 && matchedMark.level < reqLevel) {
                         meetsSubjects = false;
                         subjectFails.push(`${req.subject} (Need L${reqLevel}, Got L${matchedMark.level})`);
@@ -148,32 +159,64 @@
                 }
             }
 
-            if (!meetsSubjects) {
-                return { percent: 0, reason: `Failed subject requirements: ${subjectFails.join(', ')}` };
-            }
+            let avgUserPerc = validSubjectCount > 0 ? (totalUserPerc / validSubjectCount) : (isFps ? userScore : 100);
+            let avgMinPerc = validSubjectCount > 0 ? (totalMinPerc / validSubjectCount) : (isFps ? targetScore : 0);
 
-            if (targetScore > 0 && userScore < targetScore) {
-                let scoreType = isFps ? "FPS" : "APS";
-                return { percent: 0, reason: `Your ${scoreType} (${userScore}) is below required (${targetScore})` };
-            }
-
+            let meetsTargetScore = false;
             if (targetScore === 0) {
-                // Met subject requirements, but no score specified
-                return { percent: 75, reason: "Met subject requirements. No specific APS/FPS listed." };
+                meetsTargetScore = true;
+            } else {
+                meetsTargetScore = (userScore >= targetScore);
             }
 
-            // Calculation formula
-            let pointsAbove = userScore - targetScore;
-            let baseLikelihood = 50;
+            let meetsAllMinimums = meetsSubjects && meetsTargetScore;
 
-            // Add 5% per APS point, or 1% per 2 FPS points
-            let additionalLikelihood = isFps ? Math.floor(pointsAbove / 2) : (pointsAbove * 5);
+            let rawScore = 0;
+            let rawMin = 0;
 
-            let totalLikelihood = baseLikelihood + additionalLikelihood;
-            if (totalLikelihood > 100) totalLikelihood = 100;
+            if (!isFps) {
+                // Standard APS logic
+                rawScore = ((userAps / MAX_APS) * 100) * 0.65 + (avgUserPerc) * 0.35;
+                rawMin = ((reqAps / MAX_APS) * 100) * 0.65 + (avgMinPerc) * 0.35;
+            } else {
+                // FPS only (no APS)
+                rawScore = avgUserPerc;
+                rawMin = avgMinPerc;
+            }
 
+            let mappedScore = 0;
+
+            if (meetsAllMinimums) {
+                if (rawMin >= 100) {
+                    mappedScore = 100;
+                } else {
+                    mappedScore = 50 + ((rawScore - rawMin) / (100 - rawMin)) * 50;
+                }
+            } else {
+                if (rawMin <= 0) {
+                    mappedScore = 0;
+                } else {
+                    mappedScore = (rawScore / rawMin) * 49;
+                    mappedScore = Math.min(mappedScore, 49);
+                }
+            }
+
+            // Clamp score
+            mappedScore = Math.max(0, Math.min(100, Math.round(mappedScore)));
+
+            let reason = "";
             let scoreType = isFps ? "FPS" : "APS";
-            return { percent: totalLikelihood, reason: `Met all requirements! Your ${scoreType} is ${pointsAbove} points above the minimum (${targetScore}).` };
+
+            if (meetsAllMinimums) {
+                reason = `Met all requirements! Your score reflects how far above the minimums you are.`;
+            } else {
+                let parts = [];
+                if (subjectFails.length > 0) parts.push(`Failed subjects: ${subjectFails.join(', ')}`);
+                if (!meetsTargetScore) parts.push(`Your ${scoreType} (${userScore}) is below required (${targetScore})`);
+                reason = parts.join('. ');
+            }
+
+            return { percent: mappedScore, reason: reason };
         }
 
         function getLikelihoodClass(percent) {
