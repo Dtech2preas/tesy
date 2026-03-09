@@ -1,0 +1,1004 @@
+{
+    "FACULTY OF AGRISCIENCES": [
+        {
+            "course_name": "BAgric in Agribusiness Management",
+            "course_code": "",
+            "duration": "3",
+            "aps": "60",
+            "required_subjects": [
+                {
+                    "subject": "Mathematics",
+                    "level": "",
+                    "percentage": "60"
+                },
+                {
+                    "subject": "Physical Sciences",
+                    "level": "",
+                    "percentage": "50"
+                }
+            ]
+        },
+        {
+            "course_name": "BScAgric in Agricultural Economics",
+            "course_code": "",
+            "duration": "4",
+            "aps": "60",
+            "required_subjects": []
+        },
+        {
+            "course_name": "Elsenburg",
+            "course_code": "",
+            "duration": "3",
+            "aps": "55",
+            "required_subjects": []
+        },
+        {
+            "course_name": "BScAgric in Animal Production Systems",
+            "course_code": "",
+            "duration": "4",
+            "aps": "",
+            "required_subjects": []
+        },
+        {
+            "course_name": "(BScFor)",
+            "course_code": "",
+            "duration": "4",
+            "aps": "60",
+            "required_subjects": [
+                {
+                    "subject": "Mathematics Language)",
+                    "level": "",
+                    "percentage": "60"
+                },
+                {
+                    "subject": "Physical Sciences  - See additional requirements for each field of study",
+                    "level": "",
+                    "percentage": "50"
+                },
+                {
+                    "subject": "Mathematics",
+                    "level": "",
+                    "percentage": "60"
+                },
+                {
+                    "subject": "Physical Sciences",
+                    "level": "",
+                    "percentage": "50"
+                }
+            ]
+        },
+        {
+            "course_name": "BSc in Conservation Ecology",
+            "course_code": "",
+            "duration": "4",
+            "aps": "60",
+            "required_subjects": [
+                {
+                    "subject": "Mathematics",
+                    "level": "",
+                    "percentage": "60"
+                },
+                {
+                    "subject": "Physical Sciences",
+                    "level": "",
+                    "percentage": "50"
+                }
+            ]
+        },
+        {
+            "course_name": "BScAgric in Plant and Soil Science",
+            "course_code": "",
+            "duration": "4",
+            "aps": "60",
+            "required_subjects": []
+        },
+        {
+            "course_name": "Bachelor of Data Science (BDatSci)",
+            "course_code": "",
+            "duration": "4",
+            "aps": "80",
+            "required_subjects": [
+                {
+                    "subject": "Mathematics Ecology; BSc in Earth Science; BAgric Agricultural Production",
+                    "level": "",
+                    "percentage": "80"
+                },
+                {
+                    "subject": "Afrikaans Home Language",
+                    "level": "",
+                    "percentage": "60"
+                },
+                {
+                    "subject": "English Home Language  and Management  with focal area Plant Production or",
+                    "level": "",
+                    "percentage": "60"
+                }
+            ]
+        },
+        {
+            "course_name": "BScAgric in Viticulture and Oenology",
+            "course_code": "",
+            "duration": "4",
+            "aps": "",
+            "required_subjects": []
+        },
+        {
+            "course_name": "BSc in Food Science",
+            "course_code": "",
+            "duration": "4",
+            "aps": "60",
+            "required_subjects": [
+                {
+                    "subject": "English",
+                    "level": "",
+                    "percentage": "60"
+                },
+                {
+                    "subject": "Afrikaans (Home Language or First Additional - Mathematics",
+                    "level": "",
+                    "percentage": "60"
+                },
+                {
+                    "subject": "Mathematics",
+                    "level": "",
+                    "percentage": "60"
+                },
+                {
+                    "subject": "Physical Sciences",
+                    "level": "",
+                    "percentage": "50"
+                }
+            ]
+        }
+    ],
+    "FACULTY OF ARTS AND SOCIAL SCIENCES": [
+        {
+            "course_name": "BA in Humanities#",
+            "course_code": "",
+            "duration": "3",
+            "aps": "63",
+            "required_subjects": [
+                {
+                    "subject": "Home Language",
+                    "level": "",
+                    "percentage": "50"
+                }
+            ]
+        },
+        {
+            "course_name": "BA in Language and Culture#",
+            "course_code": "",
+            "duration": "3",
+            "aps": "63",
+            "required_subjects": [
+                {
+                    "subject": "Home Language",
+                    "level": "",
+                    "percentage": "50"
+                },
+                {
+                    "subject": "First Additional Language",
+                    "level": "",
+                    "percentage": "50"
+                }
+            ]
+        },
+        {
+            "course_name": "BA in Development and the Environment#",
+            "course_code": "",
+            "duration": "3",
+            "aps": "63",
+            "required_subjects": [
+                {
+                    "subject": "Home Language",
+                    "level": "",
+                    "percentage": "50"
+                },
+                {
+                    "subject": "First Additional Language",
+                    "level": "",
+                    "percentage": "40"
+                },
+                {
+                    "subject": "Mathematics",
+                    "level": "",
+                    "percentage": "60"
+                }
+            ]
+        },
+        {
+            "course_name": "in Drama and Theatre Studies",
+            "course_code": "",
+            "duration": "3",
+            "aps": "65",
+            "required_subjects": [
+                {
+                    "subject": "Home Language - Home Language",
+                    "level": "",
+                    "percentage": "60"
+                },
+                {
+                    "subject": "First Additional Language - First Additional Language",
+                    "level": "",
+                    "percentage": "50"
+                },
+                {
+                    "subject": "Mathematics",
+                    "level": "",
+                    "percentage": "70"
+                }
+            ]
+        },
+        {
+            "course_name": "BA in Human Resource Management#",
+            "course_code": "",
+            "duration": "3",
+            "aps": "63",
+            "required_subjects": [
+                {
+                    "subject": "Home Language may open up other careers.",
+                    "level": "",
+                    "percentage": "50"
+                },
+                {
+                    "subject": "First Additional Language",
+                    "level": "",
+                    "percentage": "40"
+                },
+                {
+                    "subject": "Mathematics",
+                    "level": "",
+                    "percentage": "50"
+                },
+                {
+                    "subject": "Mathematical Literacy",
+                    "level": "",
+                    "percentage": "50"
+                }
+            ]
+        },
+        {
+            "course_name": "Diploma in Practical Music",
+            "course_code": "",
+            "duration": "3",
+            "aps": "",
+            "required_subjects": []
+        },
+        {
+            "course_name": "BA in International Studies#",
+            "course_code": "",
+            "duration": "3",
+            "aps": "63",
+            "required_subjects": [
+                {
+                    "subject": "English Home Language",
+                    "level": "",
+                    "percentage": "50"
+                },
+                {
+                    "subject": "English First Additional Language",
+                    "level": "",
+                    "percentage": "50"
+                }
+            ]
+        },
+        {
+            "course_name": "BA in Law",
+            "course_code": "",
+            "duration": "3",
+            "aps": "",
+            "required_subjects": []
+        },
+        {
+            "course_name": "Bachelor of Music (BMus)",
+            "course_code": "",
+            "duration": "4",
+            "aps": "60",
+            "required_subjects": [
+                {
+                    "subject": "Home Language",
+                    "level": "",
+                    "percentage": "50"
+                },
+                {
+                    "subject": "First Additional Language",
+                    "level": "",
+                    "percentage": "40"
+                },
+                {
+                    "subject": "Mathematics - A National Senior Certificate",
+                    "level": "",
+                    "percentage": "70"
+                }
+            ]
+        }
+    ],
+    "FACULTY OF ECONOMIC AND MANAGEMENT SCIENCES": [
+        {
+            "course_name": "(PPE)",
+            "course_code": "",
+            "duration": "3",
+            "aps": "63",
+            "required_subjects": [
+                {
+                    "subject": "Home Language Applicants who meet the minimum admission requirements are",
+                    "level": "",
+                    "percentage": "50"
+                },
+                {
+                    "subject": "First Additional Language",
+                    "level": "",
+                    "percentage": "40"
+                },
+                {
+                    "subject": "Mathematics",
+                    "level": "",
+                    "percentage": "60"
+                }
+            ]
+        },
+        {
+            "course_name": "Diploma in Sustainable Development",
+            "course_code": "",
+            "duration": "3",
+            "aps": "",
+            "required_subjects": []
+        },
+        {
+            "course_name": "Bachelor of Social Work",
+            "course_code": "",
+            "duration": "4",
+            "aps": "63",
+            "required_subjects": [
+                {
+                    "subject": "Home Language",
+                    "level": "",
+                    "percentage": "50"
+                },
+                {
+                    "subject": "First Additional Language",
+                    "level": "",
+                    "percentage": "50"
+                },
+                {
+                    "subject": "English Home Language",
+                    "level": "",
+                    "percentage": "50"
+                },
+                {
+                    "subject": "English First Additional",
+                    "level": "",
+                    "percentage": "50"
+                }
+            ]
+        },
+        {
+            "course_name": "BA in Visual Arts",
+            "course_code": "",
+            "duration": "4",
+            "aps": "60",
+            "required_subjects": [
+                {
+                    "subject": "Home Language thinkers who use their knowledge and skills to create employment",
+                    "level": "",
+                    "percentage": "50"
+                },
+                {
+                    "subject": "First Additional Language",
+                    "level": "",
+                    "percentage": "40"
+                }
+            ]
+        },
+        {
+            "course_name": "BCom (Law)",
+            "course_code": "",
+            "duration": "3",
+            "aps": "",
+            "required_subjects": []
+        },
+        {
+            "course_name": "BAccLLB",
+            "course_code": "",
+            "duration": "5",
+            "aps": "",
+            "required_subjects": []
+        },
+        {
+            "course_name": "Bachelor of Data Science (BDatSci)",
+            "course_code": "",
+            "duration": "4",
+            "aps": "80",
+            "required_subjects": [
+                {
+                    "subject": "Mathematics",
+                    "level": "",
+                    "percentage": "80"
+                }
+            ]
+        },
+        {
+            "course_name": "OR English Home Language 60% BCom (Economic Sciences)",
+            "course_code": "",
+            "duration": "3",
+            "aps": "65",
+            "required_subjects": [
+                {
+                    "subject": "Mathematics",
+                    "level": "",
+                    "percentage": "60"
+                },
+                {
+                    "subject": "English Home Language",
+                    "level": "",
+                    "percentage": "50"
+                },
+                {
+                    "subject": "Afrikaans Home Language",
+                    "level": "",
+                    "percentage": "50"
+                }
+            ]
+        },
+        {
+            "course_name": "BCom (Management Sciences)",
+            "course_code": "",
+            "duration": "3",
+            "aps": "65",
+            "required_subjects": []
+        },
+        {
+            "course_name": "management for the provision of agricultural inputs and services, BCom (Mathematical Sciences)",
+            "course_code": "",
+            "duration": "3",
+            "aps": "70",
+            "required_subjects": []
+        },
+        {
+            "course_name": "BCom (International Business)",
+            "course_code": "",
+            "duration": "4",
+            "aps": "",
+            "required_subjects": []
+        },
+        {
+            "course_name": "BCom (Actuarial Science)",
+            "course_code": "",
+            "duration": "3",
+            "aps": "80",
+            "required_subjects": [
+                {
+                    "subject": "Mathematics",
+                    "level": "",
+                    "percentage": "70"
+                },
+                {
+                    "subject": "English Home Language",
+                    "level": "",
+                    "percentage": "70"
+                },
+                {
+                    "subject": "English First Additional",
+                    "level": "",
+                    "percentage": "70"
+                }
+            ]
+        },
+        {
+            "course_name": "innovation manager. BCom (Industrial Psychology)",
+            "course_code": "",
+            "duration": "3",
+            "aps": "",
+            "required_subjects": []
+        },
+        {
+            "course_name": "BCom (Management Accounting)",
+            "course_code": "",
+            "duration": "3",
+            "aps": "",
+            "required_subjects": []
+        }
+    ],
+    "FACULTY OF EDUCATION": [
+        {
+            "course_name": "BCom (Financial Accounting)",
+            "course_code": "",
+            "duration": "3",
+            "aps": "65",
+            "required_subjects": [
+                {
+                    "subject": "Afrikaans Home Language",
+                    "level": "",
+                    "percentage": "60"
+                },
+                {
+                    "subject": "Mathematics",
+                    "level": "",
+                    "percentage": "60"
+                },
+                {
+                    "subject": "English Home Language",
+                    "level": "",
+                    "percentage": "50"
+                },
+                {
+                    "subject": "Afrikaans Home Language OR",
+                    "level": "",
+                    "percentage": "50"
+                }
+            ]
+        },
+        {
+            "course_name": "BEd (Foundation Phase Education)",
+            "course_code": "",
+            "duration": "4",
+            "aps": "",
+            "required_subjects": []
+        },
+        {
+            "course_name": "BEd (Intermediate Phase Education)",
+            "course_code": "",
+            "duration": "4",
+            "aps": "",
+            "required_subjects": [
+                {
+                    "subject": "Mathematics",
+                    "level": "",
+                    "percentage": "60"
+                },
+                {
+                    "subject": "Life Sciences or Physical Sciences",
+                    "level": "",
+                    "percentage": "50"
+                },
+                {
+                    "subject": "History or Geography",
+                    "level": "",
+                    "percentage": "50"
+                }
+            ]
+        }
+    ],
+    "FACULTY OF ENGINEERING": [
+        {
+            "course_name": "ng (Electrical and Electronic)",
+            "course_code": "",
+            "duration": "4",
+            "aps": "70",
+            "required_subjects": [
+                {
+                    "subject": "Mathematics",
+                    "level": "",
+                    "percentage": "70"
+                },
+                {
+                    "subject": "Physical Sciences",
+                    "level": "",
+                    "percentage": "60"
+                },
+                {
+                    "subject": "English Home Language , with no Afrikaans requirement,",
+                    "level": "",
+                    "percentage": "50"
+                }
+            ]
+        },
+        {
+            "course_name": "with (Data Engineering)",
+            "course_code": "",
+            "duration": "4",
+            "aps": "",
+            "required_subjects": []
+        },
+        {
+            "course_name": "BEng (Industrial)",
+            "course_code": "",
+            "duration": "4",
+            "aps": "",
+            "required_subjects": []
+        },
+        {
+            "course_name": "BEng (Mechanical)",
+            "course_code": "",
+            "duration": "4",
+            "aps": "",
+            "required_subjects": []
+        },
+        {
+            "course_name": "BEng (Chemical)",
+            "course_code": "",
+            "duration": "4",
+            "aps": "",
+            "required_subjects": []
+        },
+        {
+            "course_name": "scale operation of processes by which various consumer products BEng (Mechatronic)",
+            "course_code": "",
+            "duration": "4",
+            "aps": "",
+            "required_subjects": []
+        },
+        {
+            "course_name": "BEng (Civil)",
+            "course_code": "",
+            "duration": "4",
+            "aps": "",
+            "required_subjects": []
+        }
+    ],
+    "FACULTY OF LAW": [
+        {
+            "course_name": "om (Law)",
+            "course_code": "",
+            "duration": "3",
+            "aps": "70",
+            "required_subjects": [
+                {
+                    "subject": "English or Afrikaans Home Language",
+                    "level": "",
+                    "percentage": "60"
+                },
+                {
+                    "subject": "Afrikaans or",
+                    "level": "",
+                    "percentage": "60"
+                },
+                {
+                    "subject": "English First Additional Language",
+                    "level": "",
+                    "percentage": "70"
+                },
+                {
+                    "subject": "Mathematics",
+                    "level": "",
+                    "percentage": "60"
+                },
+                {
+                    "subject": "English or Afrikaans Home Language",
+                    "level": "",
+                    "percentage": "60"
+                },
+                {
+                    "subject": "Afrikaans or English",
+                    "level": "",
+                    "percentage": "60"
+                }
+            ]
+        },
+        {
+            "course_name": "BAccLLB",
+            "course_code": "",
+            "duration": "5",
+            "aps": "80",
+            "required_subjects": [
+                {
+                    "subject": "Mathematics",
+                    "level": "",
+                    "percentage": "60"
+                },
+                {
+                    "subject": "English or Afrikaans Home Language",
+                    "level": "",
+                    "percentage": "60"
+                },
+                {
+                    "subject": "Afrikaans or English",
+                    "level": "",
+                    "percentage": "60"
+                },
+                {
+                    "subject": "Mathematics",
+                    "level": "",
+                    "percentage": "70"
+                },
+                {
+                    "subject": "Mathematics  and Accounting",
+                    "level": "",
+                    "percentage": "70"
+                }
+            ]
+        },
+        {
+            "course_name": "BA (Law)",
+            "course_code": "",
+            "duration": "3",
+            "aps": "70",
+            "required_subjects": [
+                {
+                    "subject": "English or Afrikaans Home Language",
+                    "level": "",
+                    "percentage": "60"
+                },
+                {
+                    "subject": "Afrikaans or English",
+                    "level": "",
+                    "percentage": "60"
+                },
+                {
+                    "subject": "Mathematics",
+                    "level": "",
+                    "percentage": "60"
+                }
+            ]
+        }
+    ],
+    "FACULTY OF MEDICINE AND HEALTH SCIENCES": [
+        {
+            "course_name": "Bachelor of Occupational Therapy",
+            "course_code": "",
+            "duration": "4",
+            "aps": "60",
+            "required_subjects": [
+                {
+                    "subject": "Life Sciences",
+                    "level": "",
+                    "percentage": "50"
+                }
+            ]
+        },
+        {
+            "course_name": "BSc in Physiotherapy",
+            "course_code": "",
+            "duration": "4",
+            "aps": "60",
+            "required_subjects": []
+        },
+        {
+            "course_name": "MBChB",
+            "course_code": "",
+            "duration": "6",
+            "aps": "75",
+            "required_subjects": []
+        },
+        {
+            "course_name": "Bachelor of Nursing",
+            "course_code": "",
+            "duration": "4",
+            "aps": "60",
+            "required_subjects": [
+                {
+                    "subject": "Mathematics",
+                    "level": "",
+                    "percentage": "40"
+                },
+                {
+                    "subject": "Mathematical Literacy",
+                    "level": "",
+                    "percentage": "40"
+                },
+                {
+                    "subject": "Life Sciences",
+                    "level": "",
+                    "percentage": "50"
+                }
+            ]
+        },
+        {
+            "course_name": "BSc in Dietetics",
+            "course_code": "",
+            "duration": "4",
+            "aps": "60",
+            "required_subjects": [
+                {
+                    "subject": "Mathematics",
+                    "level": "",
+                    "percentage": "50"
+                },
+                {
+                    "subject": "Physical Sciences",
+                    "level": "",
+                    "percentage": "50"
+                },
+                {
+                    "subject": "Life Sciences",
+                    "level": "",
+                    "percentage": "50"
+                }
+            ]
+        }
+    ],
+    "FACULTY OF SCIENCE": [
+        {
+            "course_name": "BSc Molecular Biology and Biotechnology",
+            "course_code": "",
+            "duration": "3",
+            "aps": "65",
+            "required_subjects": [
+                {
+                    "subject": "Physical Sciences",
+                    "level": "",
+                    "percentage": "50"
+                },
+                {
+                    "subject": "Mathematics or (depending on your choice of first-year",
+                    "level": "",
+                    "percentage": "60"
+                }
+            ]
+        },
+        {
+            "course_name": "BSc Biodiversity and Ecology",
+            "course_code": "",
+            "duration": "3",
+            "aps": "65",
+            "required_subjects": [
+                {
+                    "subject": "Afrikaans",
+                    "level": "",
+                    "percentage": "60"
+                },
+                {
+                    "subject": "English (Home Language or First Additional - Mathematics",
+                    "level": "",
+                    "percentage": "60"
+                },
+                {
+                    "subject": "Physical Sciences",
+                    "level": "",
+                    "percentage": "50"
+                },
+                {
+                    "subject": "Mathematics area Biomedical Mathematical Sciences; BSc Physiotherapy.",
+                    "level": "",
+                    "percentage": "60"
+                }
+            ]
+        },
+        {
+            "course_name": "BSc Chemistry",
+            "course_code": "",
+            "duration": "3",
+            "aps": "65",
+            "required_subjects": [
+                {
+                    "subject": "Physical Sciences",
+                    "level": "",
+                    "percentage": "50"
+                }
+            ]
+        },
+        {
+            "course_name": "BSc Human Life Sciences",
+            "course_code": "",
+            "duration": "3",
+            "aps": "65",
+            "required_subjects": [
+                {
+                    "subject": "Physical Sciences",
+                    "level": "",
+                    "percentage": "50"
+                },
+                {
+                    "subject": "Mathematics or (depending on your choice of first-year",
+                    "level": "",
+                    "percentage": "60"
+                }
+            ]
+        },
+        {
+            "course_name": "BSc Earth Science",
+            "course_code": "",
+            "duration": "3",
+            "aps": "",
+            "required_subjects": []
+        },
+        {
+            "course_name": "BSc Mathematical Sciences",
+            "course_code": "",
+            "duration": "3",
+            "aps": "65",
+            "required_subjects": [
+                {
+                    "subject": "Physical Sciences  - Afrikaans",
+                    "level": "",
+                    "percentage": "50"
+                },
+                {
+                    "subject": "English (Home Language or First Additional",
+                    "level": "",
+                    "percentage": "50"
+                },
+                {
+                    "subject": "Mathematics or",
+                    "level": "",
+                    "percentage": "60"
+                },
+                {
+                    "subject": "Applied Earth Science - Physical Sciences",
+                    "level": "",
+                    "percentage": "50"
+                }
+            ]
+        },
+        {
+            "course_name": "BSc Computer Science",
+            "course_code": "",
+            "duration": "3",
+            "aps": "",
+            "required_subjects": []
+        },
+        {
+            "course_name": "BSc GeoInformatics",
+            "course_code": "",
+            "duration": "3",
+            "aps": "65",
+            "required_subjects": [
+                {
+                    "subject": "Mathematics",
+                    "level": "",
+                    "percentage": "70"
+                },
+                {
+                    "subject": "Physical Sciences",
+                    "level": "",
+                    "percentage": "50"
+                },
+                {
+                    "subject": "Mathematics ; OR",
+                    "level": "",
+                    "percentage": "60"
+                },
+                {
+                    "subject": "Physical Sciences",
+                    "level": "",
+                    "percentage": "50"
+                }
+            ]
+        },
+        {
+            "course_name": "BSc Physics",
+            "course_code": "",
+            "duration": "3",
+            "aps": "65",
+            "required_subjects": [
+                {
+                    "subject": "Physical Sciences modelling of dynamic processes, image processing, numerical",
+                    "level": "",
+                    "percentage": "50"
+                },
+                {
+                    "subject": "Mathematics",
+                    "level": "",
+                    "percentage": "70"
+                }
+            ]
+        }
+    ],
+    "FACULTY OF THEOLOGY": [
+        {
+            "course_name": "BTh (Bachelor of Theology)",
+            "course_code": "",
+            "duration": "3",
+            "aps": "60",
+            "required_subjects": []
+        },
+        {
+            "course_name": "Bachelor of Data Science (BDatSci)",
+            "course_code": "",
+            "duration": "4",
+            "aps": "80",
+            "required_subjects": [
+                {
+                    "subject": "Mathematics",
+                    "level": "",
+                    "percentage": "80"
+                },
+                {
+                    "subject": "Afrikaans Home Language",
+                    "level": "",
+                    "percentage": "60"
+                },
+                {
+                    "subject": "English Home Language",
+                    "level": "",
+                    "percentage": "60"
+                },
+                {
+                    "subject": "Applied Mathematics",
+                    "level": "",
+                    "percentage": ""
+                }
+            ]
+        }
+    ]
+}
