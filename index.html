@@ -25,7 +25,7 @@
     </div>
 
     <button id="add-subject-btn" type="button" onclick="addSubjectRow()">+ Add Subject</button>
-    <button id="fetch-more-btn" type="button" onclick="fetchMoreSubjects()">Fetch More Subjects</button>
+    <!-- Fetch More Subjects button removed as helper.json loads all at once -->
     <hr>
 
     <button id="save-marks-btn" type="button" onclick="saveMarks()">Save Marks</button>
@@ -49,66 +49,46 @@
     </div>
 
     <script>
+
         let availableSubjects = new Set();
         let maxSubjects = 7;
         let subjectCount = 0;
-        let filesToFetch = ['wits.json', 'up.json', 'uct.json', 'stellenbosch.json', 'tut.json', 'ul.json', 'ump.json', 'univen.json'];
+        let helperData = {};
 
         async function loadInitialSubjects() {
             try {
-                // Fetch first file
-                const response = await fetch('wits.json');
-                const data = await response.json();
-                extractSubjects(data);
+                const response = await fetch('helper.json');
+                helperData = await response.json();
+
+                // Add the keys (main display names) to availableSubjects
+                for (const mainSubject in helperData) {
+                    availableSubjects.add(mainSubject);
+                }
+
+                // Also save the helper to localStorage so uni pages can use it easily without refetching, though they can refetch
+                localStorage.setItem('subjectHelper', JSON.stringify(helperData));
+
                 populateDropdowns();
             } catch (error) {
-                console.error("Error loading wits.json:", error);
-                // Fallback subjects if fetch fails
+                console.error("Error loading helper.json:", error);
+                // Fallback subjects
                 ['Mathematics', 'English Home Language', 'English First Additional Language', 'Life Orientation', 'Physical Sciences', 'Life Sciences'].forEach(sub => availableSubjects.add(sub));
                 populateDropdowns();
             }
 
-            // Add a single starting row
             addSubjectRow();
             loadSavedMarks();
         }
 
+        // We don't need fetchMoreSubjects logic to do anything complex anymore
         async function fetchMoreSubjects() {
             const btn = document.getElementById('fetch-more-btn');
             btn.disabled = true;
-            btn.textContent = 'Fetching...';
-            for (let i = 1; i < filesToFetch.length; i++) {
-                try {
-                    const response = await fetch(filesToFetch[i]);
-                    const data = await response.json();
-                    extractSubjects(data);
-                } catch(error) {
-                    console.error("Failed to fetch " + filesToFetch[i], error);
-                }
-            }
-            populateDropdowns();
-            btn.textContent = 'Done fetching';
-        }
-
-        function extractSubjects(data) {
-            for (const faculty in data) {
-                data[faculty].forEach(course => {
-                    if (course.required_subjects) {
-                        course.required_subjects.forEach(req => {
-                            if (req.subject) {
-                                // Basic cleanup of subject name
-                                let cleanName = req.subject.trim().replace(/\*|\(|\)/g, '');
-                                if (cleanName) availableSubjects.add(cleanName);
-                            }
-                        });
-                    }
-                });
-            }
-            // Always ensure Life Orientation is available
-            availableSubjects.add('Life Orientation');
+            btn.textContent = 'All subjects loaded from helper';
         }
 
         function populateDropdowns() {
+
             const selects = document.querySelectorAll('.subject-select');
             let sortedSubjects = Array.from(availableSubjects).sort();
 
