@@ -1,0 +1,284 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>University of Venda (Univen) Courses & Eligibility</title>
+    <style>
+        body { font-family: Arial, sans-serif; max-width: 1000px; margin: 0 auto; padding: 20px; }
+        .header { display: flex; justify-content: space-between; align-items: center; border-bottom: 2px solid #ccc; padding-bottom: 10px; margin-bottom: 20px; }
+        .back-btn { text-decoration: none; padding: 10px 15px; background: #333; color: #fff; border-radius: 5px; }
+        .search-bar { width: 100%; padding: 10px; font-size: 16px; margin-bottom: 20px; box-sizing: border-box; }
+        .course-card { border: 1px solid #ddd; padding: 15px; margin-bottom: 15px; border-radius: 5px; background: #fafafa; }
+        .course-title { font-size: 18px; font-weight: bold; margin-bottom: 10px; color: #0056b3; }
+        .likelihood-100 { color: #28a745; font-weight: bold; font-size: 1.1em; }
+        .likelihood-high { color: #85c100; font-weight: bold; font-size: 1.1em; }
+        .likelihood-med { color: #fd7e14; font-weight: bold; font-size: 1.1em; }
+        .likelihood-low { color: #dc3545; font-weight: bold; font-size: 1.1em; }
+        .faculty-header { margin-top: 30px; margin-bottom: 15px; background: #e9ecef; padding: 10px; border-radius: 4px; }
+        .req-list { margin: 5px 0 0 20px; }
+        .course-details { color: #555; font-size: 0.9em; margin-bottom: 10px; }
+        .likelihood-box { background: #fff; border: 1px solid #eee; padding: 10px; border-radius: 5px; margin-top: 10px; }
+    </style>
+</head>
+<body>
+
+    <div class="header">
+        <h1>University of Venda (Univen)</h1>
+        <a href="index.html" class="back-btn">&larr; Back to Subjects</a>
+    </div>
+
+    <div id="user-info" style="margin-bottom: 20px; padding: 15px; background: #eef; border-radius: 5px;">
+        Loading your subjects...
+    </div>
+
+    <input type="text" id="search-input" class="search-bar" placeholder="Search for a course..." onkeyup="filterCourses()">
+
+    <div id="courses-container">
+        Loading courses...
+    </div>
+
+    <script>
+        const uniFile = 'univen.json';
+        let allCourses = [];
+        let userMarks = [];
+        let userAps = 0;
+        let userFps = 0;
+
+        async function init() {
+            const marksStr = localStorage.getItem('userMarks');
+            if (!marksStr) {
+                document.getElementById('courses-container').innerHTML = '<p style="color:red; font-weight:bold;">No subjects found. Please go back to the main page and enter your subjects first.</p>';
+                document.getElementById('user-info').style.display = 'none';
+                return;
+            }
+            userMarks = JSON.parse(marksStr);
+            userAps = parseInt(localStorage.getItem('userAps') || '0', 10);
+            userFps = parseInt(localStorage.getItem('userFps') || '0', 10);
+
+            let subStrings = userMarks.map(m => `<li>${m.subject}: ${m.percentage}% (Level ${m.level})</li>`).join('');
+            document.getElementById('user-info').innerHTML = `
+                <div style="display: flex; justify-content: space-between;">
+                    <div>
+                        <strong>Your APS:</strong> ${userAps} <br>
+                        <strong>Your FPS:</strong> ${userFps} (Total percentage)
+                    </div>
+                    <div>
+                        <ul style="margin: 0; padding-left: 20px;">${subStrings}</ul>
+                    </div>
+                </div>
+            `;
+
+            try {
+                const response = await fetch(uniFile);
+                if (!response.ok) throw new Error('File not found');
+                const data = await response.json();
+                renderCourses(data);
+            } catch(err) {
+                document.getElementById('courses-container').innerHTML = '<p style="color:red">Failed to load university data. Ensure you are running this through a local server.</p>';
+                console.error(err);
+            }
+        }
+
+        function checkSubjectMatch(reqSubjectName) {
+            if (!reqSubjectName) return null;
+            let reqLower = reqSubjectName.toLowerCase().trim();
+            for (let mark of userMarks) {
+                let markLower = mark.subject.toLowerCase().trim();
+
+                if (reqLower.includes(markLower) || markLower.includes(reqLower)) return mark;
+                if ((reqLower.includes('maths') || reqLower.includes('mathematics')) && (markLower.includes('maths') || markLower.includes('mathematics'))) return mark;
+                if (reqLower.includes('english') && markLower.includes('english')) return mark;
+                if ((reqLower.includes('phys sci') || reqLower.includes('physical sciences')) && (markLower.includes('phys sci') || markLower.includes('physical sciences'))) return mark;
+                if ((reqLower.includes('life sci') || reqLower.includes('biology')) && (markLower.includes('life sci') || markLower.includes('biology'))) return mark;
+            }
+            return null;
+        }
+
+        function calculateLikelihood(course) {
+            let reqAps = parseInt(course.aps || '0', 10);
+            let reqFps = parseInt(course.fps || '0', 10);
+
+            if (course.aps_range) {
+                let parts = course.aps_range.split('-');
+                if (parts.length > 0) reqAps = parseInt(parts[0], 10);
+            }
+
+            let isFps = (reqFps > 0);
+            let targetScore = isFps ? reqFps : reqAps;
+            let userScore = isFps ? userFps : userAps;
+
+            let meetsSubjects = true;
+            let subjectFails = [];
+
+            if (course.required_subjects && course.required_subjects.length > 0) {
+                for (let req of course.required_subjects) {
+                    // Skip 'Additional Subjects' or empty ones
+                    if (!req.subject || req.subject.toLowerCase() === 'additional subjects') continue;
+
+                    let matchedMark = checkSubjectMatch(req.subject);
+
+                    if (!matchedMark) {
+                        meetsSubjects = false;
+                        subjectFails.push(`Missing: ${req.subject}`);
+                        continue;
+                    }
+
+                    let reqLevel = parseInt(req.level || '0', 10);
+                    if (isNaN(reqLevel) || req.level === "Unspecified") reqLevel = 0;
+
+                    let reqPercStr = req.percentage || '';
+                    let reqPerc = 0;
+                    if (reqPercStr) {
+                        if (reqPercStr.includes('-')) {
+                            reqPerc = parseInt(reqPercStr.split('-')[0], 10);
+                        } else {
+                            reqPerc = parseInt(reqPercStr.replace(/[^0-9]/g, ''), 10);
+                        }
+                    }
+                    if (isNaN(reqPerc)) reqPerc = 0;
+
+                    if (reqLevel > 0 && matchedMark.level < reqLevel) {
+                        meetsSubjects = false;
+                        subjectFails.push(`${req.subject} (Need L${reqLevel}, Got L${matchedMark.level})`);
+                    } else if (reqPerc > 0 && matchedMark.percentage < reqPerc) {
+                        meetsSubjects = false;
+                        subjectFails.push(`${req.subject} (Need ${reqPerc}%, Got ${matchedMark.percentage}%)`);
+                    }
+                }
+            }
+
+            if (!meetsSubjects) {
+                return { percent: 0, reason: `Failed subject requirements: ${subjectFails.join(', ')}` };
+            }
+
+            if (targetScore > 0 && userScore < targetScore) {
+                let scoreType = isFps ? "FPS" : "APS";
+                return { percent: 0, reason: `Your ${scoreType} (${userScore}) is below required (${targetScore})` };
+            }
+
+            if (targetScore === 0) {
+                // Met subject requirements, but no score specified
+                return { percent: 75, reason: "Met subject requirements. No specific APS/FPS listed." };
+            }
+
+            // Calculation formula
+            let pointsAbove = userScore - targetScore;
+            let baseLikelihood = 50;
+
+            // Add 5% per APS point, or 1% per 2 FPS points
+            let additionalLikelihood = isFps ? Math.floor(pointsAbove / 2) : (pointsAbove * 5);
+
+            let totalLikelihood = baseLikelihood + additionalLikelihood;
+            if (totalLikelihood > 100) totalLikelihood = 100;
+
+            let scoreType = isFps ? "FPS" : "APS";
+            return { percent: totalLikelihood, reason: `Met all requirements! Your ${scoreType} is ${pointsAbove} points above the minimum (${targetScore}).` };
+        }
+
+        function getLikelihoodClass(percent) {
+            if (percent === 100) return 'likelihood-100';
+            if (percent >= 70) return 'likelihood-high';
+            if (percent >= 40) return 'likelihood-med';
+            return 'likelihood-low';
+        }
+
+        function renderCourses(data) {
+            const container = document.getElementById('courses-container');
+            container.innerHTML = '';
+            allCourses = [];
+
+            // Handle UMP structure differences
+            let faculties = Object.keys(data);
+
+            faculties.forEach(faculty => {
+                let facDiv = document.createElement('div');
+                facDiv.className = 'faculty-section';
+
+                let facHead = document.createElement('h2');
+                facHead.className = 'faculty-header';
+                facHead.textContent = faculty;
+                facDiv.appendChild(facHead);
+
+                let courseList = data[faculty];
+                if (!Array.isArray(courseList)) return;
+
+                courseList.forEach(course => {
+                    let cDiv = document.createElement('div');
+                    cDiv.className = 'course-card';
+
+                    let likelihood = calculateLikelihood(course);
+
+                    let reqsHtml = '';
+                    if (course.required_subjects && course.required_subjects.length > 0) {
+                        let subs = course.required_subjects.map(s => {
+                            if (!s.subject) return '';
+                            let reqStr = s.subject;
+                            if (s.level && s.level !== "Unspecified") reqStr += ` (Level ${s.level})`;
+                            if (s.percentage) reqStr += ` (${s.percentage})`;
+                            return `<li>${reqStr}</li>`;
+                        }).filter(str => str !== '').join('');
+                        reqsHtml = subs ? `<ul class="req-list">${subs}</ul>` : 'None specified.';
+                    } else {
+                        reqsHtml = `<p style="margin: 5px 0 0 0;">None specified.</p>`;
+                    }
+
+                    let scoreHtml = [];
+                    if (course.aps) scoreHtml.push(`<strong>APS:</strong> ${course.aps}`);
+                    if (course.aps_range) scoreHtml.push(`<strong>APS:</strong> ${course.aps_range}`);
+                    if (course.fps) scoreHtml.push(`<strong>FPS:</strong> ${course.fps}`);
+
+                    let detailsHtml = scoreHtml.length > 0 ? scoreHtml.join(' | ') : '<strong>APS:</strong> Not specified';
+                    if (course.duration) detailsHtml += ` | <strong>Duration:</strong> ${course.duration} years`;
+                    if (course.course_code) detailsHtml += ` | <strong>Code:</strong> ${course.course_code}`;
+
+                    cDiv.innerHTML = `
+                        <div class="course-title">${course.course_name}</div>
+                        <div class="course-details">${detailsHtml}</div>
+                        <div><strong>Required Subjects:</strong></div>
+                        ${reqsHtml}
+
+                        <div class="likelihood-box">
+                            <strong>Likelihood of Acceptance: </strong>
+                            <span class="${getLikelihoodClass(likelihood.percent)}">${likelihood.percent}%</span>
+                            <div style="font-size: 0.9em; color: #666; margin-top: 5px;">${likelihood.reason}</div>
+                        </div>
+                    `;
+
+                    // Store elements and course data for search filtering
+                    allCourses.push({
+                        name: course.course_name.toLowerCase(),
+                        element: cDiv,
+                        parent: facDiv
+                    });
+
+                    facDiv.appendChild(cDiv);
+                });
+
+                if (facDiv.querySelectorAll('.course-card').length > 0) {
+                    container.appendChild(facDiv);
+                }
+            });
+        }
+
+        function filterCourses() {
+            let filter = document.getElementById('search-input').value.toLowerCase();
+
+            // Hide all faculty headers first
+            document.querySelectorAll('.faculty-header').forEach(el => el.style.display = 'none');
+
+            allCourses.forEach(c => {
+                if (c.name.includes(filter)) {
+                    c.element.style.display = 'block';
+                    // Show parent header
+                    c.parent.querySelector('.faculty-header').style.display = 'block';
+                } else {
+                    c.element.style.display = 'none';
+                }
+            });
+        }
+
+        window.onload = init;
+    </script>
+</body>
+</html>
