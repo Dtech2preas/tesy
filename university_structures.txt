@@ -1,0 +1,46 @@
+University Structures & Scoring Methods
+
+1. Wits (wits.json)
+   - Structure: `{"FACULTY NAME": [{"course_name": "", "course_code": "", "duration": "", "aps": "", "required_subjects": [{"subject": "", "level": ""}]}]}`
+   - Scoring: APS. Some health courses don't have APS specified. Subjects use "level".
+
+2. Stellenbosch (stellenbosch.json)
+   - Structure: `{"FACULTY NAME": [{"course_name": "", "course_code": "", "duration": "", "aps": "", "required_subjects": [{"subject": "", "level": "", "percentage": ""}]}]}`
+   - Scoring: APS. Subjects can use either "level" or "percentage". Level is sometimes empty.
+
+3. TUT (tut.json)
+   - Structure: `{"FACULTY NAME": [{"course_name": "", "duration": "", "aps": "", "required_subjects": [{"subject": "", "level": ""}]}]}`
+   - Scoring: APS. Has "level".
+
+4. UCT (uct.json)
+   - Structure: `{"FACULTY NAME": [{"course_name": "", "course_code": "", "duration": "", "aps": "", "fps": "", "required_subjects": [{"subject": "", "level": ""}]}]}`
+   - Scoring: FPS (Faculty Point Score) mainly, APS is often empty. The FPS is the sum of percentages (e.g. 435). The "level" in required_subjects often contains the required percentage (e.g., "70" instead of "7").
+
+5. UL (ul.json)
+   - Structure: `{"FACULTY NAME": [{"course_name": "", "duration": "", "aps": "", "required_subjects": [{"subject": "", "level": "", "percentage": ""}]}]}`
+   - Scoring: APS. Uses "level" and "percentage". Percentage is sometimes a range like "60-69%".
+
+6. UMP/UKZN (ump.json)
+   - Structure: `{"College Name": [{"course_name": "", "cao_codes": [], "required_subjects": [{"subject": "", "level": "", "percentage": ""}], "aps_range": "", "duration": ""}]}`
+   - Scoring: aps_range instead of aps. Requires parsing. Some entries use "level" and "percentage" (e.g., "65%").
+
+7. Univen (univen.json)
+   - Structure: `{"FACULTY NAME": [{"course_name": "", "course_code": "", "duration": "", "aps": "", "required_subjects": [{"subject": "", "level": "Unspecified", "percentage": "50-59%"}]}]}`
+   - Scoring: APS. Uses "percentage" as a string range. Level is "Unspecified" often.
+
+8. UP (up.json)
+   - Structure: `{"FACULTY NAME": [{"course_name": "", "duration": "", "aps": "", "required_subjects": [{"subject": "", "level": ""}]}]}`
+   - Scoring: APS. Uses "level".
+
+
+Eligibility Calculation:
+- Compare user's total APS (or FPS if UCT) against the course's required APS (or FPS).
+- Exclude Life Orientation from APS/FPS.
+- For required_subjects, check if user meets minimum level/percentage.
+  - If required level is empty or "Unspecified", use percentage.
+  - If required percentage is a range, take the lower bound.
+- Likelihood Formula:
+  - Does NOT meet all subject minimums OR does NOT meet APS/FPS minimum = 0%
+  - Meets all minimums EXACTLY = 50%
+  - For every 1 APS point above the minimum, add 5% (up to 100%).
+  - For FPS (UCT), since the scale is higher (e.g., 400+), maybe add 1% for every 2 points above FPS.

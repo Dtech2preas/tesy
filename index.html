@@ -1,0 +1,247 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>University Eligibility Checker</title>
+    <style>
+        body { font-family: Arial, sans-serif; max-width: 800px; margin: 0 auto; padding: 20px; }
+        .subject-row { margin-bottom: 10px; display: flex; gap: 10px; align-items: center; }
+        input, select, button { padding: 8px; font-size: 16px; }
+        .hidden { display: none; }
+        .universities-list { margin-top: 30px; }
+        .university-link { display: block; margin: 10px 0; padding: 15px; background: #f0f0f0; text-decoration: none; color: #333; border-radius: 5px; text-align: center; font-weight: bold; }
+        .university-link:hover { background: #e0e0e0; }
+        #results-container { margin-top: 20px; padding: 15px; border: 1px solid #ccc; background: #f9f9f9; }
+    </style>
+</head>
+<body>
+
+    <h1>University Eligibility Checker</h1>
+    <p>Enter your subjects and percentages below. We will calculate your Level automatically. <strong>Life Orientation</strong> is not included in your total APS or FPS score calculation.</p>
+
+    <div id="subjects-container">
+        <!-- Rows will be injected here -->
+    </div>
+
+    <button id="add-subject-btn" type="button" onclick="addSubjectRow()">+ Add Subject</button>
+    <button id="fetch-more-btn" type="button" onclick="fetchMoreSubjects()">Fetch More Subjects</button>
+    <hr>
+
+    <button id="save-marks-btn" type="button" onclick="saveMarks()">Save Marks</button>
+
+    <div id="results-container" class="hidden">
+        <h3>Your Calculated APS: <span id="calculated-aps">0</span></h3>
+        <h3>Your Calculated FPS (Top 6 %): <span id="calculated-fps">0</span></h3>
+        <p><em>Note: Life Orientation is excluded. Different universities may calculate this slightly differently.</em></p>
+    </div>
+
+    <div class="universities-list">
+        <h2>Select a University to Check Eligibility</h2>
+        <a href="stellenbosch.html" class="university-link">Stellenbosch University</a>
+        <a href="tut.html" class="university-link">Tshwane University of Technology (TUT)</a>
+        <a href="uct.html" class="university-link">University of Cape Town (UCT)</a>
+        <a href="ul.html" class="university-link">University of Limpopo (UL)</a>
+        <a href="ump.html" class="university-link">University of Mpumalanga (UMP)</a>
+        <a href="univen.html" class="university-link">University of Venda (Univen)</a>
+        <a href="up.html" class="university-link">University of Pretoria (UP)</a>
+        <a href="wits.html" class="university-link">University of the Witwatersrand (Wits)</a>
+    </div>
+
+    <script>
+        let availableSubjects = new Set();
+        let maxSubjects = 7;
+        let subjectCount = 0;
+        let filesToFetch = ['wits.json', 'up.json', 'uct.json', 'stellenbosch.json', 'tut.json', 'ul.json', 'ump.json', 'univen.json'];
+
+        async function loadInitialSubjects() {
+            try {
+                // Fetch first file
+                const response = await fetch('wits.json');
+                const data = await response.json();
+                extractSubjects(data);
+                populateDropdowns();
+            } catch (error) {
+                console.error("Error loading wits.json:", error);
+                // Fallback subjects if fetch fails
+                ['Mathematics', 'English Home Language', 'English First Additional Language', 'Life Orientation', 'Physical Sciences', 'Life Sciences'].forEach(sub => availableSubjects.add(sub));
+                populateDropdowns();
+            }
+
+            // Add a single starting row
+            addSubjectRow();
+            loadSavedMarks();
+        }
+
+        async function fetchMoreSubjects() {
+            const btn = document.getElementById('fetch-more-btn');
+            btn.disabled = true;
+            btn.textContent = 'Fetching...';
+            for (let i = 1; i < filesToFetch.length; i++) {
+                try {
+                    const response = await fetch(filesToFetch[i]);
+                    const data = await response.json();
+                    extractSubjects(data);
+                } catch(error) {
+                    console.error("Failed to fetch " + filesToFetch[i], error);
+                }
+            }
+            populateDropdowns();
+            btn.textContent = 'Done fetching';
+        }
+
+        function extractSubjects(data) {
+            for (const faculty in data) {
+                data[faculty].forEach(course => {
+                    if (course.required_subjects) {
+                        course.required_subjects.forEach(req => {
+                            if (req.subject) {
+                                // Basic cleanup of subject name
+                                let cleanName = req.subject.trim().replace(/\*|\(|\)/g, '');
+                                if (cleanName) availableSubjects.add(cleanName);
+                            }
+                        });
+                    }
+                });
+            }
+            // Always ensure Life Orientation is available
+            availableSubjects.add('Life Orientation');
+        }
+
+        function populateDropdowns() {
+            const selects = document.querySelectorAll('.subject-select');
+            let sortedSubjects = Array.from(availableSubjects).sort();
+
+            selects.forEach(select => {
+                const currentVal = select.value;
+                select.innerHTML = '<option value="">Select a Subject...</option>';
+                sortedSubjects.forEach(sub => {
+                    let option = document.createElement('option');
+                    option.value = sub;
+                    option.textContent = sub;
+                    if(sub === currentVal) option.selected = true;
+                    select.appendChild(option);
+                });
+            });
+        }
+
+        function addSubjectRow(savedName = '', savedPercentage = '', savedLevel = '') {
+            if (subjectCount >= maxSubjects) {
+                alert('Maximum of 7 subjects allowed.');
+                return;
+            }
+
+            const container = document.getElementById('subjects-container');
+            const row = document.createElement('div');
+            row.className = 'subject-row';
+
+            let sortedSubjects = Array.from(availableSubjects).sort();
+            let optionsHtml = '<option value="">Select a Subject...</option>';
+            sortedSubjects.forEach(sub => {
+                let selected = (sub === savedName) ? 'selected' : '';
+                optionsHtml += `<option value="${sub}" ${selected}>${sub}</option>`;
+            });
+
+            row.innerHTML = `
+                <select class="subject-select" onchange="updateRowLevel(this.parentElement)">
+                    ${optionsHtml}
+                </select>
+                <input type="number" class="subject-percentage" placeholder="Percentage (0-100)" min="0" max="100" value="${savedPercentage}" oninput="updateRowLevel(this.parentElement)">
+                <input type="text" class="subject-level" placeholder="Level" value="${savedLevel}" readonly size="4">
+                <button type="button" onclick="removeSubjectRow(this)">X</button>
+            `;
+            container.appendChild(row);
+            subjectCount++;
+        }
+
+        function removeSubjectRow(btn) {
+            btn.parentElement.remove();
+            subjectCount--;
+        }
+
+        function getLevelFromPercentage(percentage) {
+            if (percentage >= 80) return 7;
+            if (percentage >= 70) return 6;
+            if (percentage >= 60) return 5;
+            if (percentage >= 50) return 4;
+            if (percentage >= 40) return 3;
+            if (percentage >= 30) return 2;
+            if (percentage >= 0) return 1;
+            return 0;
+        }
+
+        function updateRowLevel(row) {
+            const percInput = row.querySelector('.subject-percentage');
+            const levelInput = row.querySelector('.subject-level');
+            const perc = parseInt(percInput.value, 10);
+            if (!isNaN(perc) && perc >= 0 && perc <= 100) {
+                levelInput.value = getLevelFromPercentage(perc);
+            } else {
+                levelInput.value = '';
+            }
+        }
+
+        function saveMarks() {
+            const rows = document.querySelectorAll('.subject-row');
+            let marks = [];
+            let totalAps = 0;
+            let totalFps = 0; // Sum of percentages excluding LO
+
+            rows.forEach(row => {
+                const subject = row.querySelector('.subject-select').value;
+                const percentage = parseInt(row.querySelector('.subject-percentage').value, 10);
+                const level = parseInt(row.querySelector('.subject-level').value, 10);
+
+                if (subject && !isNaN(percentage) && !isNaN(level)) {
+                    marks.push({ subject, percentage, level });
+
+                    // Do not include Life Orientation in total APS/FPS
+                    if (subject.toLowerCase() !== 'life orientation' && subject.toLowerCase() !== 'lo') {
+                        totalAps += level;
+                        totalFps += percentage;
+                    }
+                }
+            });
+
+            localStorage.setItem('userMarks', JSON.stringify(marks));
+            localStorage.setItem('userAps', totalAps.toString());
+            localStorage.setItem('userFps', totalFps.toString());
+
+            document.getElementById('calculated-aps').textContent = totalAps;
+            document.getElementById('calculated-fps').textContent = totalFps;
+            document.getElementById('results-container').classList.remove('hidden');
+
+            alert('Marks saved successfully! You can now select a university.');
+        }
+
+        function loadSavedMarks() {
+            const savedMarks = JSON.parse(localStorage.getItem('userMarks'));
+            if (savedMarks && savedMarks.length > 0) {
+                document.getElementById('subjects-container').innerHTML = '';
+                subjectCount = 0;
+                savedMarks.forEach(mark => {
+                    // Make sure subject is in availableSubjects before adding row
+                    if (!availableSubjects.has(mark.subject)) {
+                        availableSubjects.add(mark.subject);
+                    }
+                });
+                populateDropdowns();
+
+                savedMarks.forEach(mark => {
+                    addSubjectRow(mark.subject, mark.percentage, mark.level);
+                });
+
+                const savedAps = localStorage.getItem('userAps');
+                const savedFps = localStorage.getItem('userFps');
+                if (savedAps && savedFps) {
+                    document.getElementById('calculated-aps').textContent = savedAps;
+                    document.getElementById('calculated-fps').textContent = savedFps;
+                    document.getElementById('results-container').classList.remove('hidden');
+                }
+            }
+        }
+
+        window.onload = loadInitialSubjects;
+    </script>
+</body>
+</html>
