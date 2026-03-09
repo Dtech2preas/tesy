@@ -16,14 +16,63 @@ function testLogic() {
         ]
     };
 
+    // Mock helperData for testing
+    let helperData = {
+        "Mathematics": ["Mathematics", "Maths", "Maths Lit"], // just a mock
+        "English": ["English", "Engl"]
+    };
+
     function checkSubjectMatch(reqSubjectName) {
         if (!reqSubjectName) return null;
         let reqLower = reqSubjectName.toLowerCase().trim();
+
+        // First pass: Direct exact or subset match
         for (let mark of userMarks) {
             let markLower = mark.subject.toLowerCase().trim();
+            if (reqLower === markLower || markLower.includes(reqLower) || reqLower.includes(markLower)) {
+                // Check literacy
+                if (reqLower.includes("literacy") && !markLower.includes("literacy")) continue;
+                if (markLower.includes("literacy") && !reqLower.includes("literacy")) continue;
+                return mark;
+            }
+        }
 
-            if (reqLower.includes(markLower) || markLower.includes(reqLower)) return mark;
-            if ((reqLower.includes('maths') || reqLower.includes('mathematics')) && (markLower.includes('maths') || markLower.includes('mathematics'))) return mark;
+        // Second pass: Use helperData
+        if (helperData) {
+            let matchedMainSubject = null;
+            for (const mainSub in helperData) {
+                for (const altName of helperData[mainSub]) {
+                    let altLower = altName.toLowerCase().trim();
+                    if (reqLower === altLower || reqLower.includes(altLower) || altLower.includes(reqLower)) {
+                        if (reqLower.includes("literacy") && !altLower.includes("literacy")) continue;
+                        if (altLower.includes("literacy") && !reqLower.includes("literacy")) continue;
+
+                        matchedMainSubject = mainSub;
+                        break;
+                    }
+                }
+                if (matchedMainSubject) break;
+            }
+
+            if (matchedMainSubject) {
+                let mainSubLower = matchedMainSubject.toLowerCase().trim();
+                for (let mark of userMarks) {
+                    let markLower = mark.subject.toLowerCase().trim();
+                    if (markLower === mainSubLower || markLower.includes(mainSubLower)) {
+                        if (markLower.includes("literacy") && !mainSubLower.includes("literacy")) continue;
+                        if (mainSubLower.includes("literacy") && !markLower.includes("literacy")) continue;
+
+                        return mark;
+                    }
+                }
+            }
+        }
+
+        // Fallbacks
+        for (let mark of userMarks) {
+            let markLower = mark.subject.toLowerCase().trim();
+            if ((reqLower.includes('maths') || reqLower.includes('mathematics')) && !reqLower.includes('lit') && (markLower.includes('maths') || markLower.includes('mathematics')) && !markLower.includes('lit')) return mark;
+            if ((reqLower.includes('math') && reqLower.includes('lit')) && (markLower.includes('math') && markLower.includes('lit'))) return mark;
             if (reqLower.includes('english') && markLower.includes('english')) return mark;
             if ((reqLower.includes('phys sci') || reqLower.includes('physical sciences')) && (markLower.includes('phys sci') || markLower.includes('physical sciences'))) return mark;
             if ((reqLower.includes('life sci') || reqLower.includes('biology')) && (markLower.includes('life sci') || markLower.includes('biology'))) return mark;

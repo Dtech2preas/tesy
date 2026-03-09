@@ -1,0 +1,410 @@
+{
+    "Accounting": [
+        "Accounting",
+        "or Accounting"
+    ],
+    "Agricultural Sciences": [
+        "Agricultural Sciences",
+        "Agricultural",
+        "Agricultural Subject",
+        "Agricultural Management",
+        "Agric Sci"
+    ],
+    "Agricultural Technology": [
+        "Agricultural Technology"
+    ],
+    "Afrikaans": [
+        "Afrikaans",
+        "Afrikaans Home Language",
+        "Afrikaans or",
+        "Afrikaans or English",
+        "Afrikaans Home Language OR",
+        "Afrikaans Home Language or First Additional - Mathematics"
+    ],
+    "Applied Mathematics": [
+        "Applied Mathematics"
+    ],
+    "Business Studies": [
+        "Business Studies"
+    ],
+    "Civil Technology": [
+        "Civil Technology",
+        "Civil",
+        "Technology Civil Service/Construction/Woodworking"
+    ],
+    "Computer Studies": [
+        "Computer Studies"
+    ],
+    "Consumer Studies": [
+        "Consumer Studies",
+        "Cons Stud"
+    ],
+    "Dramatic Arts": [
+        "Dramatic Arts",
+        "Drama Arts",
+        "Dram Arts"
+    ],
+    "Economics": [
+        "Economics",
+        "Econ"
+    ],
+    "Engineering Graphics and Design": [
+        "Engineering Graphics and Design",
+        "Engineering Graphics",
+        "Engineering Graphics Design",
+        "and Design"
+    ],
+    "English": [
+        "English",
+        "Engl",
+        "Eng",
+        "English Home Language",
+        "English First Additional",
+        "English First Additional Language",
+        "English Home Language or First Additional",
+        "English or Afrikaans Home Language",
+        "English Home Language , with no Afrikaans requirement,",
+        "English Home Language or First Additional - Mathematics",
+        "English 4 home language",
+        "Engl HL",
+        "English Home Language  and Management  with focal area Plant Production or",
+        "more for English."
+    ],
+    "Geography": [
+        "Geography",
+        "Geog",
+        "Geo",
+        "History and Geography",
+        "History or Geography"
+    ],
+    "History": [
+        "History",
+        "Hist",
+        "His",
+        "History and Geography",
+        "History or Geography"
+    ],
+    "Hospitality Studies": [
+        "Hospitality Studies"
+    ],
+    "Information Technology": [
+        "Information Technology",
+        "Information",
+        "Info Tech"
+    ],
+    "Life Orientation": [
+        "Life Orientation",
+        "LO",
+        "LO4"
+    ],
+    "Life Sciences": [
+        "Life Sciences",
+        "Life Science",
+        "Life Sci",
+        "Life Sciences 4",
+        "Life Sciences not Physical Sciences",
+        "Mathematics and Life Sciences",
+        "Life Sciences and Physical Science",
+        "Life Sciences or Physical Sciences"
+    ],
+    "Mathematical Literacy": [
+        "Mathematical Literacy",
+        "Math Lit",
+        "Maths Lit",
+        "Maths Literacy",
+        "Mathematical Literacy 4",
+        "Mathematical Literacy.",
+        "5 Mathematical Literacy",
+        "a 4 for Mathematical Literacy"
+    ],
+    "Mathematics": [
+        "Mathematics",
+        "Maths",
+        "Mathematics 3",
+        "Mathematics Language",
+        "Mathematics, Technical Mathematics",
+        "Mathematics/Technical Mathematics",
+        "NSC-Deg Maths",
+        "Mathematics ; OR",
+        "Mathematics  and Accounting",
+        "Mathematics - A National Senior Certificate",
+        "Mathematics and Life Sciences",
+        "Mathematics and Physical Sciences",
+        "Mathematics or",
+        "Mathematics or depending on your choice of first-year",
+        "Mathematics Ecology; BSc in Earth Science; BAgric Agricultural Production",
+        "Mathematics area Biomedical Mathematical Sciences; BSc Physiotherapy."
+    ],
+    "Mechanical Technology": [
+        "Mechanical Technology",
+        "Mechanical Technology Automotive/Fitting and",
+        "Machining/Welding and Metal Work"
+    ],
+    "Music": [
+        "Music"
+    ],
+    "Physical Sciences": [
+        "Physical Sciences",
+        "Physical Science",
+        "Phys Sci",
+        "Phy Sci",
+        "Physical Sciences  - Afrikaans",
+        "Physical Sciences  - See additional requirements for each field of study",
+        "Physical Sciences modelling of dynamic processes, image processing, numerical",
+        "Physical Sciences or Technical Sciences",
+        "Physical Sciences/Technical Science",
+        "Physical Sciences/Technical Sciences",
+        "Physical Sciences/Technical Sciences.",
+        "Applied Earth Science - Physical Sciences",
+        "Life Sciences and Physical Science",
+        "Life Sciences not Physical Sciences",
+        "Life Sciences or Physical Sciences",
+        "Mathematics and Physical Sciences"
+    ],
+    "Religion Studies": [
+        "Religion Studies",
+        "Religion Stud"
+    ],
+    "Technical Mathematics": [
+        "Technical Mathematics",
+        "Mathematics, Technical Mathematics",
+        "Mathematics/Technical Mathematics",
+        "Engineering Mathematics N3,"
+    ],
+    "Technical Sciences": [
+        "Technical Sciences",
+        "Technical Science",
+        "Physical Sciences or Technical Sciences",
+        "Physical Sciences/Technical Science",
+        "Physical Sciences/Technical Sciences",
+        "Physical Sciences/Technical Sciences.",
+        "Physical Science/Technical Science"
+    ],
+    "Tourism": [
+        "Tourism"
+    ],
+    "Visual Arts": [
+        "Visual Arts",
+        "Vis Arts"
+    ],
+    "IsiZulu": [
+        "isiZulu"
+    ],
+    "Sepedi": [
+        "Sepedi"
+    ],
+    "Tshivenda": [
+        "Tshivenda"
+    ],
+    "Xitsonga": [
+        "Xitsonga"
+    ],
+    "African Languages": [
+        "African Languages"
+    ],
+    "Any First Additional Language": [
+        "First Additional Language",
+        "First Additional Language - First Additional Language",
+        "First additional language",
+        "first additional language",
+        "FAL",
+        "FAL  Deserving applicants will be requested to submit a portfolio of creative work"
+    ],
+    "Any Home Language": [
+        "Home Language",
+        "Home Language - Home Language",
+        "Home language offered in the programme",
+        "Home Language Applicants who meet the minimum admission requirements are",
+        "Home Language may open up other careers.",
+        "Home Language thinkers who use their knowledge and skills to create employment",
+        "any other home language offered in the programme",
+        "any lang HL"
+    ],
+    "Language": [
+        "Language",
+        "an additional language",
+        "another official language offered in the programme",
+        "any other additional language",
+        "any other official South African language offered in the"
+    ],
+    "Electrical Technology": [
+        "Electrical Technology",
+        "and/or Electrical Technology Digital Systems/Electronics/Power",
+        "Systems"
+    ],
+    "Management Practice": [
+        "Management Practice",
+        "Practice"
+    ],
+    "Agricultural Management Practices": [
+        "Agricultural Management Practices"
+    ],
+    "Computer Applications Technology": [
+        "Computer Applications Technology"
+    ],
+    "Dance Studies": [
+        "Dance Studies"
+    ],
+    "Design": [
+        "Design"
+    ],
+    "Afrikaans Home Language": [
+        "Afrikaans Home Language"
+    ],
+    "Afrikaans First Additional Language": [
+        "Afrikaans First Additional Language"
+    ],
+    "Afrikaans Second Additional Language": [
+        "Afrikaans Second Additional Language"
+    ],
+    "English Home Language": [
+        "English Home Language"
+    ],
+    "English First Additional Language": [
+        "English First Additional Language"
+    ],
+    "English Second Additional Language": [
+        "English Second Additional Language"
+    ],
+    "IsiNdebele Home Language": [
+        "IsiNdebele Home Language"
+    ],
+    "IsiNdebele First Additional Language": [
+        "IsiNdebele First Additional Language"
+    ],
+    "IsiXhosa Home Language": [
+        "IsiXhosa Home Language"
+    ],
+    "IsiXhosa First Additional Language": [
+        "IsiXhosa First Additional Language"
+    ],
+    "IsiZulu Home Language": [
+        "IsiZulu Home Language"
+    ],
+    "IsiZulu First Additional Language": [
+        "IsiZulu First Additional Language"
+    ],
+    "Sepedi Home Language": [
+        "Sepedi Home Language"
+    ],
+    "Sepedi First Additional Language": [
+        "Sepedi First Additional Language"
+    ],
+    "Sesotho Home Language": [
+        "Sesotho Home Language"
+    ],
+    "Sesotho First Additional Language": [
+        "Sesotho First Additional Language"
+    ],
+    "Setswana Home Language": [
+        "Setswana Home Language"
+    ],
+    "Setswana First Additional Language": [
+        "Setswana First Additional Language"
+    ],
+    "Siswati Home Language": [
+        "Siswati Home Language"
+    ],
+    "Siswati First Additional Language": [
+        "Siswati First Additional Language"
+    ],
+    "Tshivenda Home Language": [
+        "Tshivenda Home Language"
+    ],
+    "Tshivenda First Additional Language": [
+        "Tshivenda First Additional Language"
+    ],
+    "Xitsonga Home Language": [
+        "Xitsonga Home Language"
+    ],
+    "Xitsonga First Additional Language": [
+        "Xitsonga First Additional Language"
+    ],
+    "Marine Sciences": [
+        "Marine Sciences"
+    ],
+    "South African Sign Language Home Language": [
+        "South African Sign Language Home Language"
+    ],
+    "will be prioritised": [
+        "will be prioritised"
+    ],
+    "any three additional subjects": [
+        "any three additional subjects"
+    ],
+    "a diploma endorsement, and a relevant": [
+        "a diploma endorsement, and a relevant"
+    ],
+    "any other additional subjects.": [
+        "any other additional subjects."
+    ],
+    "two other subjects": [
+        "two other subjects"
+    ],
+    "Fighter I, HAZMAT Operational, and Fire Fighter II certificates.": [
+        "Fighter I, HAZMAT Operational, and Fire Fighter II certificates."
+    ],
+    "environment.": [
+        "environment."
+    ],
+    "ENFORCEMENT DEPARTMENT:": [
+        "ENFORCEMENT DEPARTMENT:"
+    ],
+    "confirmed working experience as a law enforcement official.": [
+        "confirmed working experience as a law enforcement official."
+    ],
+    "ENFORCEMENT DEPARTMENT, WITH A NATIONAL SENIOR": [
+        "ENFORCEMENT DEPARTMENT, WITH A NATIONAL SENIOR"
+    ],
+    "Additional Subject 1": [
+        "Additional Subject 1"
+    ],
+    "programme": [
+        "programme"
+    ],
+    "Technology": [
+        "Technology"
+    ],
+    "HR division of the department should be submitted with the": [
+        "HR division of the department should be submitted with the"
+    ],
+    "bachelor\u2019s degree": [
+        "bachelor\u2019s degree"
+    ],
+    "application.": [
+        "application."
+    ],
+    "write an essay": [
+        "write an essay"
+    ],
+    "official letter from the employer.": [
+        "official letter from the employer."
+    ],
+    "Minimum requirements for NSC/IEB for 2026": [
+        "Minimum requirements for NSC/IEB for 2026"
+    ],
+    "6 qualification in the law enforcement": [
+        "6 qualification in the law enforcement"
+    ],
+    "complete a questionnaire": [
+        "complete a questionnaire"
+    ],
+    "NQF Level 5": [
+        "NQF Level 5"
+    ],
+    "a combination of any two of the following subjects:": [
+        "a combination of any two of the following subjects:"
+    ],
+    "Applicants must submit proof of employment in the form of an": [
+        "Applicants must submit proof of employment in the form of an"
+    ],
+    "Additional Subject 2": [
+        "Additional Subject 2"
+    ],
+    "Additional Subjects": [
+        "Additional Subjects"
+    ],
+    "Three years\u2019 relevant work experience, HAZMAT Awareness, Fire": [
+        "Three years\u2019 relevant work experience, HAZMAT Awareness, Fire"
+    ]
+}
