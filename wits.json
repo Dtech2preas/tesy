@@ -1,0 +1,1272 @@
+{
+    "FACULTY OF COMMERCE, LAW & MANAGEMENT": [
+        {
+            "course_name": "Bachelor of Commerce (BCom): General Information Systems Politics, Philosophy and Economics",
+            "course_code": "",
+            "duration": "3",
+            "aps": "38",
+            "required_subjects": [
+                {
+                    "subject": "English Home Language",
+                    "level": "5"
+                },
+                {
+                    "subject": "English First Additional Language",
+                    "level": "5"
+                },
+                {
+                    "subject": "Mathematics",
+                    "level": "5"
+                }
+            ]
+        },
+        {
+            "course_name": "Accounting Science",
+            "course_code": "",
+            "duration": "3",
+            "aps": "44",
+            "required_subjects": [
+                {
+                    "subject": "English Home Language",
+                    "level": "5"
+                },
+                {
+                    "subject": "English First Additional Language",
+                    "level": "5"
+                },
+                {
+                    "subject": "Mathematics",
+                    "level": "6"
+                }
+            ]
+        },
+        {
+            "course_name": "Accounting",
+            "course_code": "",
+            "duration": "3",
+            "aps": "38",
+            "required_subjects": [
+                {
+                    "subject": "English Home Language",
+                    "level": "5"
+                },
+                {
+                    "subject": "English First Additional Language",
+                    "level": "5"
+                },
+                {
+                    "subject": "Mathematics",
+                    "level": "5"
+                }
+            ]
+        },
+        {
+            "course_name": "Economic Science School of Law",
+            "course_code": "",
+            "duration": "3",
+            "aps": "42",
+            "required_subjects": [
+                {
+                    "subject": "English Home Language",
+                    "level": "5"
+                },
+                {
+                    "subject": "English First Additional Language",
+                    "level": "5"
+                },
+                {
+                    "subject": "Mathematics",
+                    "level": "7"
+                }
+            ]
+        },
+        {
+            "course_name": "Bachelor of Commerce with L aw",
+            "course_code": "",
+            "duration": "3",
+            "aps": "43",
+            "required_subjects": [
+                {
+                    "subject": "English Home Language",
+                    "level": "5"
+                },
+                {
+                    "subject": "English First Additional Language",
+                    "level": "5"
+                },
+                {
+                    "subject": "Mathematics",
+                    "level": "5"
+                }
+            ]
+        },
+        {
+            "course_name": "LLB (four-year stream)",
+            "course_code": "",
+            "duration": "4",
+            "aps": "46",
+            "required_subjects": [
+                {
+                    "subject": "English Home Language",
+                    "level": "6"
+                },
+                {
+                    "subject": "English First Additional Language",
+                    "level": "6"
+                },
+                {
+                    "subject": "Mathematics",
+                    "level": "4"
+                },
+                {
+                    "subject": "Maths Literacy",
+                    "level": "6"
+                }
+            ]
+        }
+    ],
+    "FACULTY OF ENGINEERING AND THE BUILT ENVIRONMENT": [
+        {
+            "course_name": "Chemical Engineering",
+            "course_code": "",
+            "duration": "4",
+            "aps": "42",
+            "required_subjects": [
+                {
+                    "subject": "English Home Language",
+                    "level": "5"
+                },
+                {
+                    "subject": "English First Additional Language",
+                    "level": "5"
+                },
+                {
+                    "subject": "Mathematics",
+                    "level": "5"
+                },
+                {
+                    "subject": "Physical Sciences",
+                    "level": "5"
+                }
+            ]
+        },
+        {
+            "course_name": "Metallurgy and Materials Engineering",
+            "course_code": "",
+            "duration": "4",
+            "aps": "42",
+            "required_subjects": [
+                {
+                    "subject": "English Home Language",
+                    "level": "5"
+                },
+                {
+                    "subject": "English First Additional Language",
+                    "level": "5"
+                },
+                {
+                    "subject": "Mathematics",
+                    "level": "5"
+                },
+                {
+                    "subject": "Physical Sciences",
+                    "level": "5"
+                }
+            ]
+        },
+        {
+            "course_name": "Civil Engineering",
+            "course_code": "",
+            "duration": "4",
+            "aps": "42",
+            "required_subjects": [
+                {
+                    "subject": "English Home Language",
+                    "level": "5"
+                },
+                {
+                    "subject": "English First Additional Language",
+                    "level": "5"
+                },
+                {
+                    "subject": "Mathematics",
+                    "level": "5"
+                },
+                {
+                    "subject": "Physical Sciences",
+                    "level": "5"
+                }
+            ]
+        },
+        {
+            "course_name": "Electrical Engineering",
+            "course_code": "",
+            "duration": "4",
+            "aps": "42",
+            "required_subjects": [
+                {
+                    "subject": "English Home Language",
+                    "level": "5"
+                },
+                {
+                    "subject": "English First Additional Language",
+                    "level": "5"
+                },
+                {
+                    "subject": "Mathematics",
+                    "level": "5"
+                },
+                {
+                    "subject": "Physical Sciences",
+                    "level": "5"
+                }
+            ]
+        },
+        {
+            "course_name": "Biomedical Engineering",
+            "course_code": "",
+            "duration": "3",
+            "aps": "42",
+            "required_subjects": [
+                {
+                    "subject": "English Home Language",
+                    "level": "5"
+                },
+                {
+                    "subject": "English First Additional Language",
+                    "level": "5"
+                },
+                {
+                    "subject": "Mathematics",
+                    "level": "5"
+                },
+                {
+                    "subject": "Physical Sciences",
+                    "level": "5"
+                }
+            ]
+        },
+        {
+            "course_name": "Digital Arts",
+            "course_code": "",
+            "duration": "3",
+            "aps": "42",
+            "required_subjects": [
+                {
+                    "subject": "English Home Language",
+                    "level": "5"
+                },
+                {
+                    "subject": "English First Additional Language",
+                    "level": "5"
+                },
+                {
+                    "subject": "Mathematics",
+                    "level": "5"
+                },
+                {
+                    "subject": "Physical Sciences",
+                    "level": "5"
+                }
+            ]
+        },
+        {
+            "course_name": "Aeronautical Engineering",
+            "course_code": "",
+            "duration": "4",
+            "aps": "42",
+            "required_subjects": [
+                {
+                    "subject": "English Home Language",
+                    "level": "5"
+                },
+                {
+                    "subject": "English First Additional Language",
+                    "level": "5"
+                },
+                {
+                    "subject": "Mathematics",
+                    "level": "5"
+                },
+                {
+                    "subject": "Physical Sciences",
+                    "level": "5"
+                }
+            ]
+        },
+        {
+            "course_name": "Industrial Engineering",
+            "course_code": "",
+            "duration": "4",
+            "aps": "42",
+            "required_subjects": [
+                {
+                    "subject": "English Home Language",
+                    "level": "5"
+                },
+                {
+                    "subject": "English First Additional Language",
+                    "level": "5"
+                },
+                {
+                    "subject": "Mathematics",
+                    "level": "5"
+                },
+                {
+                    "subject": "Physical Sciences",
+                    "level": "5"
+                }
+            ]
+        },
+        {
+            "course_name": "Mechanical Engineering School of Mining Engineering",
+            "course_code": "",
+            "duration": "4",
+            "aps": "42",
+            "required_subjects": [
+                {
+                    "subject": "English Home Language",
+                    "level": "5"
+                },
+                {
+                    "subject": "English First Additional Language",
+                    "level": "5"
+                },
+                {
+                    "subject": "Mathematics",
+                    "level": "5"
+                },
+                {
+                    "subject": "Physical Sciences",
+                    "level": "5"
+                }
+            ]
+        },
+        {
+            "course_name": "Mining Engineering",
+            "course_code": "",
+            "duration": "4",
+            "aps": "42",
+            "required_subjects": [
+                {
+                    "subject": "English Home Language",
+                    "level": "5"
+                },
+                {
+                    "subject": "English First Additional Language",
+                    "level": "5"
+                },
+                {
+                    "subject": "Mathematics",
+                    "level": "5"
+                },
+                {
+                    "subject": "Physical Sciences",
+                    "level": "5"
+                }
+            ]
+        },
+        {
+            "course_name": "Architectural Studies*",
+            "course_code": "",
+            "duration": "3",
+            "aps": "34",
+            "required_subjects": [
+                {
+                    "subject": "English Home Language",
+                    "level": "4"
+                },
+                {
+                    "subject": "English First Additional Language",
+                    "level": "4"
+                },
+                {
+                    "subject": "Mathematics",
+                    "level": "4"
+                }
+            ]
+        },
+        {
+            "course_name": "Urban and Regional Planning",
+            "course_code": "",
+            "duration": "3",
+            "aps": "36",
+            "required_subjects": [
+                {
+                    "subject": "English Home Language",
+                    "level": "5"
+                },
+                {
+                    "subject": "English First Additional Language",
+                    "level": "5"
+                },
+                {
+                    "subject": "Mathematics",
+                    "level": "5"
+                }
+            ]
+        },
+        {
+            "course_name": "Construction Studies",
+            "course_code": "",
+            "duration": "3",
+            "aps": "36",
+            "required_subjects": [
+                {
+                    "subject": "English Home Language",
+                    "level": "5"
+                },
+                {
+                    "subject": "English First Additional Language",
+                    "level": "5"
+                },
+                {
+                    "subject": "Mathematics",
+                    "level": "5"
+                }
+            ]
+        },
+        {
+            "course_name": "Property Studies",
+            "course_code": "",
+            "duration": "3",
+            "aps": "36",
+            "required_subjects": [
+                {
+                    "subject": "English Home Language",
+                    "level": "5"
+                },
+                {
+                    "subject": "English First Additional Language",
+                    "level": "5"
+                },
+                {
+                    "subject": "Mathematics",
+                    "level": "5"
+                }
+            ]
+        }
+    ],
+    "FACULTY OF HEALTH SCIENCES": [
+        {
+            "course_name": "Biokinetics Health Systems Sciences",
+            "course_code": "",
+            "duration": "3",
+            "aps": "",
+            "required_subjects": [
+                {
+                    "subject": "English Home Language",
+                    "level": "5"
+                },
+                {
+                    "subject": "English First Additional Language",
+                    "level": "5"
+                },
+                {
+                    "subject": "Mathematics",
+                    "level": "5"
+                },
+                {
+                    "subject": "Life Sciences",
+                    "level": "5"
+                },
+                {
+                    "subject": "Physical Sciences",
+                    "level": "5"
+                }
+            ]
+        },
+        {
+            "course_name": "Clinical Medical Practice",
+            "course_code": "",
+            "duration": "3",
+            "aps": "",
+            "required_subjects": [
+                {
+                    "subject": "English Home Language",
+                    "level": "4"
+                },
+                {
+                    "subject": "English First Additional Language",
+                    "level": "4"
+                },
+                {
+                    "subject": "Mathematics",
+                    "level": "4"
+                },
+                {
+                    "subject": "Maths Literacy",
+                    "level": "7"
+                },
+                {
+                    "subject": "Life Sciences",
+                    "level": "4"
+                },
+                {
+                    "subject": "Physical Sciences",
+                    "level": "4"
+                }
+            ]
+        },
+        {
+            "course_name": "Medicine and Surgery",
+            "course_code": "",
+            "duration": "6",
+            "aps": "",
+            "required_subjects": [
+                {
+                    "subject": "English Home Language",
+                    "level": "5"
+                },
+                {
+                    "subject": "English First Additional Language",
+                    "level": "5"
+                },
+                {
+                    "subject": "Mathematics",
+                    "level": "5"
+                },
+                {
+                    "subject": "Life Sciences",
+                    "level": "5"
+                },
+                {
+                    "subject": "Physical Sciences",
+                    "level": "5"
+                }
+            ]
+        },
+        {
+            "course_name": "Dental Science*",
+            "course_code": "",
+            "duration": "5",
+            "aps": "",
+            "required_subjects": [
+                {
+                    "subject": "English Home Language",
+                    "level": "5"
+                },
+                {
+                    "subject": "English First Additional Language",
+                    "level": "5"
+                },
+                {
+                    "subject": "Mathematics",
+                    "level": "5"
+                },
+                {
+                    "subject": "Life Sciences",
+                    "level": "5"
+                },
+                {
+                    "subject": "Physical Sciences",
+                    "level": "5"
+                }
+            ]
+        },
+        {
+            "course_name": "Oral Health Sciences*",
+            "course_code": "",
+            "duration": "3",
+            "aps": "",
+            "required_subjects": [
+                {
+                    "subject": "English Home Language",
+                    "level": "4"
+                },
+                {
+                    "subject": "English First Additional Language",
+                    "level": "4"
+                },
+                {
+                    "subject": "Mathematics",
+                    "level": "4"
+                },
+                {
+                    "subject": "Maths Literacy",
+                    "level": "7"
+                },
+                {
+                    "subject": "Life Sciences",
+                    "level": "4"
+                },
+                {
+                    "subject": "Physical Sciences",
+                    "level": "4"
+                }
+            ]
+        },
+        {
+            "course_name": "Nursing",
+            "course_code": "",
+            "duration": "4",
+            "aps": "",
+            "required_subjects": [
+                {
+                    "subject": "English Home Language",
+                    "level": "4"
+                },
+                {
+                    "subject": "English First Additional Language",
+                    "level": "4"
+                },
+                {
+                    "subject": "Mathematics",
+                    "level": "4"
+                },
+                {
+                    "subject": "Life Sciences",
+                    "level": "4"
+                },
+                {
+                    "subject": "Physical Sciences",
+                    "level": "4"
+                }
+            ]
+        },
+        {
+            "course_name": "Pharmacy",
+            "course_code": "",
+            "duration": "4",
+            "aps": "",
+            "required_subjects": [
+                {
+                    "subject": "English Home Language",
+                    "level": "5"
+                },
+                {
+                    "subject": "English First Additional Language",
+                    "level": "5"
+                },
+                {
+                    "subject": "Mathematics",
+                    "level": "5"
+                },
+                {
+                    "subject": "Life Sciences",
+                    "level": "5"
+                },
+                {
+                    "subject": "Physical Sciences",
+                    "level": "5"
+                }
+            ]
+        },
+        {
+            "course_name": "Occupational Therapy*",
+            "course_code": "",
+            "duration": "4",
+            "aps": "",
+            "required_subjects": [
+                {
+                    "subject": "English Home Language",
+                    "level": "4"
+                },
+                {
+                    "subject": "English First Additional Language",
+                    "level": "4"
+                },
+                {
+                    "subject": "Mathematics",
+                    "level": "4"
+                },
+                {
+                    "subject": "Life Sciences",
+                    "level": "4"
+                },
+                {
+                    "subject": "Physical Sciences",
+                    "level": "4"
+                }
+            ]
+        },
+        {
+            "course_name": "Physiotherapy*",
+            "course_code": "",
+            "duration": "4",
+            "aps": "",
+            "required_subjects": [
+                {
+                    "subject": "English Home Language",
+                    "level": "5"
+                },
+                {
+                    "subject": "English First Additional Language",
+                    "level": "5"
+                },
+                {
+                    "subject": "Mathematics",
+                    "level": "5"
+                },
+                {
+                    "subject": "Life Sciences",
+                    "level": "5"
+                },
+                {
+                    "subject": "Physical Sciences",
+                    "level": "5"
+                }
+            ]
+        }
+    ],
+    "FACULTY OF HUMANITIES": [
+        {
+            "course_name": "Arts (BA)",
+            "course_code": "",
+            "duration": "3",
+            "aps": "36",
+            "required_subjects": [
+                {
+                    "subject": "English Home Language",
+                    "level": "5"
+                },
+                {
+                    "subject": "English First Additional Language",
+                    "level": "5"
+                }
+            ]
+        },
+        {
+            "course_name": "Arts (Law)",
+            "course_code": "",
+            "duration": "3",
+            "aps": "43",
+            "required_subjects": [
+                {
+                    "subject": "English Home Language",
+                    "level": "5"
+                },
+                {
+                    "subject": "English First Additional Language",
+                    "level": "5"
+                },
+                {
+                    "subject": "Mathematics",
+                    "level": "3"
+                },
+                {
+                    "subject": "Maths Literacy",
+                    "level": "4"
+                }
+            ]
+        },
+        {
+            "course_name": "Arts in Digital Arts",
+            "course_code": "",
+            "duration": "4",
+            "aps": "36",
+            "required_subjects": [
+                {
+                    "subject": "English Home Language",
+                    "level": "5"
+                },
+                {
+                    "subject": "English First Additional Language",
+                    "level": "5"
+                }
+            ]
+        },
+        {
+            "course_name": "Arts in Theatre and Performance",
+            "course_code": "",
+            "duration": "4",
+            "aps": "34",
+            "required_subjects": [
+                {
+                    "subject": "English Home Language",
+                    "level": "5"
+                },
+                {
+                    "subject": "English First Additional Language",
+                    "level": "5"
+                }
+            ]
+        },
+        {
+            "course_name": "Arts in Film and Television",
+            "course_code": "",
+            "duration": "4",
+            "aps": "34",
+            "required_subjects": [
+                {
+                    "subject": "English Home Language",
+                    "level": "5"
+                },
+                {
+                    "subject": "English First Additional Language",
+                    "level": "5"
+                }
+            ]
+        },
+        {
+            "course_name": "Arts in Fine Arts",
+            "course_code": "",
+            "duration": "4",
+            "aps": "34",
+            "required_subjects": [
+                {
+                    "subject": "English Home Language",
+                    "level": "5"
+                },
+                {
+                    "subject": "English First Additional Language",
+                    "level": "5"
+                }
+            ]
+        },
+        {
+            "course_name": "Music",
+            "course_code": "",
+            "duration": "4",
+            "aps": "34",
+            "required_subjects": [
+                {
+                    "subject": "English Home Language",
+                    "level": "5"
+                },
+                {
+                    "subject": "English First Additional Language",
+                    "level": "5"
+                }
+            ]
+        },
+        {
+            "course_name": "Foundation Phase Teaching",
+            "course_code": "",
+            "duration": "4",
+            "aps": "37",
+            "required_subjects": [
+                {
+                    "subject": "English Home Language",
+                    "level": "5"
+                },
+                {
+                    "subject": "English First Additional Language",
+                    "level": "5"
+                },
+                {
+                    "subject": "Mathematics",
+                    "level": "4"
+                },
+                {
+                    "subject": "Maths Literacy",
+                    "level": "5"
+                },
+                {
+                    "subject": "Technical Mathematics",
+                    "level": "5"
+                }
+            ]
+        },
+        {
+            "course_name": "Intermediate Phase Teaching",
+            "course_code": "",
+            "duration": "4",
+            "aps": "37",
+            "required_subjects": [
+                {
+                    "subject": "English Home Language",
+                    "level": "5"
+                },
+                {
+                    "subject": "English First Additional Language",
+                    "level": "5"
+                },
+                {
+                    "subject": "Mathematics",
+                    "level": "4"
+                },
+                {
+                    "subject": "Maths Literacy",
+                    "level": "5"
+                },
+                {
+                    "subject": "Technical Mathematics",
+                    "level": "5"
+                }
+            ]
+        },
+        {
+            "course_name": "Senior Phase and Further Ed and Training Teaching ucation",
+            "course_code": "",
+            "duration": "4",
+            "aps": "37",
+            "required_subjects": [
+                {
+                    "subject": "English Home Language",
+                    "level": "5"
+                },
+                {
+                    "subject": "English First Additional Language",
+                    "level": "5"
+                }
+            ]
+        },
+        {
+            "course_name": "Speech- Language Pathology *",
+            "course_code": "",
+            "duration": "4",
+            "aps": "34",
+            "required_subjects": [
+                {
+                    "subject": "English Home Language",
+                    "level": "5"
+                },
+                {
+                    "subject": "English First Additional Language",
+                    "level": "5"
+                },
+                {
+                    "subject": "Mathematics",
+                    "level": "4"
+                }
+            ]
+        },
+        {
+            "course_name": "Audiology*",
+            "course_code": "",
+            "duration": "4",
+            "aps": "34",
+            "required_subjects": [
+                {
+                    "subject": "English Home Language",
+                    "level": "5"
+                },
+                {
+                    "subject": "English First Additional Language",
+                    "level": "5"
+                },
+                {
+                    "subject": "Mathematics",
+                    "level": "4"
+                }
+            ]
+        },
+        {
+            "course_name": "Social Work",
+            "course_code": "",
+            "duration": "4",
+            "aps": "34",
+            "required_subjects": [
+                {
+                    "subject": "English Home Language",
+                    "level": "5"
+                },
+                {
+                    "subject": "English First Additional Language",
+                    "level": "5"
+                }
+            ]
+        }
+    ],
+    "FACULTY OF SCIENCE": [
+        {
+            "course_name": "Science (BSc) General Biological Sciences",
+            "course_code": "",
+            "duration": "3",
+            "aps": "42",
+            "required_subjects": [
+                {
+                    "subject": "English Home Language",
+                    "level": "5"
+                },
+                {
+                    "subject": "English First Additional Language",
+                    "level": "5"
+                },
+                {
+                    "subject": "Mathematics",
+                    "level": "5"
+                }
+            ]
+        },
+        {
+            "course_name": "Biological Sciences Earth Sciences",
+            "course_code": "",
+            "duration": "3",
+            "aps": "43",
+            "required_subjects": [
+                {
+                    "subject": "English Home Language",
+                    "level": "5"
+                },
+                {
+                    "subject": "English First Additional Language",
+                    "level": "5"
+                },
+                {
+                    "subject": "Mathematics",
+                    "level": "5"
+                }
+            ]
+        },
+        {
+            "course_name": "Geographical and Archaeological Sciences",
+            "course_code": "",
+            "duration": "3",
+            "aps": "42",
+            "required_subjects": [
+                {
+                    "subject": "English Home Language",
+                    "level": "5"
+                },
+                {
+                    "subject": "English First Additional Language",
+                    "level": "5"
+                },
+                {
+                    "subject": "Mathematics",
+                    "level": "5"
+                }
+            ]
+        },
+        {
+            "course_name": "Geospatial Sciences",
+            "course_code": "",
+            "duration": "3",
+            "aps": "42",
+            "required_subjects": [
+                {
+                    "subject": "English Home Language",
+                    "level": "5"
+                },
+                {
+                    "subject": "English First Additional Language",
+                    "level": "5"
+                },
+                {
+                    "subject": "Mathematics",
+                    "level": "5"
+                }
+            ]
+        },
+        {
+            "course_name": "Environmental Studies",
+            "course_code": "",
+            "duration": "3",
+            "aps": "42",
+            "required_subjects": [
+                {
+                    "subject": "English Home Language",
+                    "level": "5"
+                },
+                {
+                    "subject": "English First Additional Language",
+                    "level": "5"
+                },
+                {
+                    "subject": "Mathematics",
+                    "level": "5"
+                }
+            ]
+        },
+        {
+            "course_name": "Geological Sciences Mathematical Sciences",
+            "course_code": "",
+            "duration": "3",
+            "aps": "42",
+            "required_subjects": [
+                {
+                    "subject": "English Home Language",
+                    "level": "5"
+                },
+                {
+                    "subject": "English First Additional Language",
+                    "level": "5"
+                },
+                {
+                    "subject": "Mathematics",
+                    "level": "6"
+                },
+                {
+                    "subject": "Physical Sciences",
+                    "level": "5"
+                }
+            ]
+        },
+        {
+            "course_name": "Actuarial Science",
+            "course_code": "",
+            "duration": "3",
+            "aps": "42",
+            "required_subjects": [
+                {
+                    "subject": "English Home Language",
+                    "level": "7"
+                },
+                {
+                    "subject": "English First Additional Language",
+                    "level": "7"
+                },
+                {
+                    "subject": "Mathematics",
+                    "level": "7"
+                },
+                {
+                    "subject": "Physical Sciences",
+                    "level": "7"
+                }
+            ]
+        },
+        {
+            "course_name": "Computational and Applied Mathematics",
+            "course_code": "",
+            "duration": "3",
+            "aps": "44",
+            "required_subjects": [
+                {
+                    "subject": "English Home Language",
+                    "level": "5"
+                },
+                {
+                    "subject": "English First Additional Language",
+                    "level": "5"
+                },
+                {
+                    "subject": "Mathematics",
+                    "level": "6"
+                }
+            ]
+        },
+        {
+            "course_name": "Computer Science",
+            "course_code": "",
+            "duration": "3",
+            "aps": "44",
+            "required_subjects": [
+                {
+                    "subject": "English Home Language",
+                    "level": "5"
+                },
+                {
+                    "subject": "English First Additional Language",
+                    "level": "5"
+                },
+                {
+                    "subject": "Mathematics",
+                    "level": "6"
+                }
+            ]
+        },
+        {
+            "course_name": "Mathematical Sciences Physical Sciences",
+            "course_code": "",
+            "duration": "3",
+            "aps": "42",
+            "required_subjects": [
+                {
+                    "subject": "English Home Language",
+                    "level": "7"
+                },
+                {
+                    "subject": "English First Additional Language",
+                    "level": "7"
+                },
+                {
+                    "subject": "Mathematics",
+                    "level": "7"
+                },
+                {
+                    "subject": "Physical Sciences",
+                    "level": "7"
+                }
+            ]
+        },
+        {
+            "course_name": "Physical Sciences (Chemistry /Physics)",
+            "course_code": "",
+            "duration": "3",
+            "aps": "42",
+            "required_subjects": [
+                {
+                    "subject": "English Home Language",
+                    "level": "5"
+                },
+                {
+                    "subject": "English First Additional Language",
+                    "level": "5"
+                },
+                {
+                    "subject": "Mathematics",
+                    "level": "6"
+                },
+                {
+                    "subject": "Physical Sciences",
+                    "level": "5"
+                }
+            ]
+        },
+        {
+            "course_name": "Chemistry with Chemical Eng ineering",
+            "course_code": "",
+            "duration": "3",
+            "aps": "43",
+            "required_subjects": [
+                {
+                    "subject": "English Home Language",
+                    "level": "5"
+                },
+                {
+                    "subject": "English First Additional Language",
+                    "level": "5"
+                },
+                {
+                    "subject": "Mathematics",
+                    "level": "6"
+                },
+                {
+                    "subject": "Physical Sciences",
+                    "level": "6"
+                }
+            ]
+        },
+        {
+            "course_name": "Materials Science",
+            "course_code": "",
+            "duration": "3",
+            "aps": "43",
+            "required_subjects": [
+                {
+                    "subject": "English Home Language",
+                    "level": "5"
+                },
+                {
+                    "subject": "English First Additional Language",
+                    "level": "5"
+                },
+                {
+                    "subject": "Mathematics",
+                    "level": "6"
+                },
+                {
+                    "subject": "Physical Sciences",
+                    "level": "5"
+                }
+            ]
+        },
+        {
+            "course_name": "Astronomy and Astrophysics",
+            "course_code": "",
+            "duration": "3",
+            "aps": "43",
+            "required_subjects": [
+                {
+                    "subject": "English Home Language",
+                    "level": "5"
+                },
+                {
+                    "subject": "English First Additional Language",
+                    "level": "5"
+                },
+                {
+                    "subject": "Mathematics",
+                    "level": "6"
+                },
+                {
+                    "subject": "Physical Sciences",
+                    "level": "6"
+                }
+            ]
+        }
+    ]
+}
