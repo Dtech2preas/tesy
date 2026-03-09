@@ -1,0 +1,1178 @@
+{
+    "FACULTY OF COMMERCE": [
+        {
+            "course_name": "Bachelor of Business Science specialising in: Computer Science",
+            "course_code": "",
+            "duration": "4",
+            "aps": "",
+            "fps": "435",
+            "required_subjects": [
+                {
+                    "subject": "Mathematics",
+                    "level": "70"
+                },
+                {
+                    "subject": "English Home Language",
+                    "level": "50"
+                },
+                {
+                    "subject": "English First Additional Language",
+                    "level": "60"
+                }
+            ]
+        },
+        {
+            "course_name": "Bachelor of Business Science specialising in: Economics",
+            "course_code": "",
+            "duration": "4",
+            "aps": "",
+            "fps": "435",
+            "required_subjects": [
+                {
+                    "subject": "Mathematics",
+                    "level": "70"
+                },
+                {
+                    "subject": "English Home Language",
+                    "level": "50"
+                },
+                {
+                    "subject": "English First Additional Language",
+                    "level": "60"
+                }
+            ]
+        },
+        {
+            "course_name": "Bachelor of Business Science specialising in: Economics with Law",
+            "course_code": "",
+            "duration": "4",
+            "aps": "",
+            "fps": "435",
+            "required_subjects": [
+                {
+                    "subject": "Mathematics",
+                    "level": "70"
+                },
+                {
+                    "subject": "English Home Language",
+                    "level": "50"
+                },
+                {
+                    "subject": "English First Additional Language",
+                    "level": "60"
+                }
+            ]
+        },
+        {
+            "course_name": "Bachelor of Business Science specialising in: Finance, Investment and Banking",
+            "course_code": "",
+            "duration": "4",
+            "aps": "",
+            "fps": "435",
+            "required_subjects": [
+                {
+                    "subject": "Mathematics",
+                    "level": "70"
+                },
+                {
+                    "subject": "English Home Language",
+                    "level": "50"
+                },
+                {
+                    "subject": "English First Additional Language",
+                    "level": "60"
+                }
+            ]
+        },
+        {
+            "course_name": "Bachelor of Business Science specialising in: Finance with Accounting",
+            "course_code": "",
+            "duration": "4",
+            "aps": "",
+            "fps": "435",
+            "required_subjects": [
+                {
+                    "subject": "Mathematics",
+                    "level": "70"
+                },
+                {
+                    "subject": "English Home Language",
+                    "level": "50"
+                },
+                {
+                    "subject": "English First Additional Language",
+                    "level": "60"
+                }
+            ]
+        },
+        {
+            "course_name": "Bachelor of Business Science specialising in: Information Systems",
+            "course_code": "",
+            "duration": "4",
+            "aps": "",
+            "fps": "435",
+            "required_subjects": [
+                {
+                    "subject": "Mathematics",
+                    "level": "70"
+                },
+                {
+                    "subject": "English Home Language",
+                    "level": "50"
+                },
+                {
+                    "subject": "English First Additional Language",
+                    "level": "60"
+                }
+            ]
+        },
+        {
+            "course_name": "Bachelor of Business Science specialising in: Marketing",
+            "course_code": "",
+            "duration": "4",
+            "aps": "",
+            "fps": "435",
+            "required_subjects": [
+                {
+                    "subject": "Mathematics",
+                    "level": "70"
+                },
+                {
+                    "subject": "English Home Language",
+                    "level": "50"
+                },
+                {
+                    "subject": "English First Additional Language",
+                    "level": "60"
+                }
+            ]
+        },
+        {
+            "course_name": "Bachelor of Business Science specialising in: Organisational Psychology",
+            "course_code": "",
+            "duration": "4",
+            "aps": "",
+            "fps": "435",
+            "required_subjects": [
+                {
+                    "subject": "Mathematics",
+                    "level": "70"
+                },
+                {
+                    "subject": "English Home Language",
+                    "level": "50"
+                },
+                {
+                    "subject": "English First Additional Language",
+                    "level": "60"
+                }
+            ]
+        },
+        {
+            "course_name": "Bachelor of Business Science specialising in: Statistics and Data Science",
+            "course_code": "",
+            "duration": "4",
+            "aps": "",
+            "fps": "435",
+            "required_subjects": [
+                {
+                    "subject": "Mathematics",
+                    "level": "70"
+                },
+                {
+                    "subject": "English Home Language",
+                    "level": "50"
+                },
+                {
+                    "subject": "English First Additional Language",
+                    "level": "60"
+                }
+            ]
+        },
+        {
+            "course_name": "Bachelor of Commerce specialising in: Financial Accounting (General/Chartered)",
+            "course_code": "",
+            "duration": "3",
+            "aps": "",
+            "fps": "435",
+            "required_subjects": [
+                {
+                    "subject": "Mathematics",
+                    "level": "70"
+                },
+                {
+                    "subject": "English Home Language",
+                    "level": "50"
+                },
+                {
+                    "subject": "English First Additional Language",
+                    "level": "60"
+                }
+            ]
+        },
+        {
+            "course_name": "Bachelor of Commerce specialising in: Economics with Law",
+            "course_code": "",
+            "duration": "3",
+            "aps": "",
+            "fps": "435",
+            "required_subjects": [
+                {
+                    "subject": "Mathematics",
+                    "level": "70"
+                },
+                {
+                    "subject": "English Home Language",
+                    "level": "50"
+                },
+                {
+                    "subject": "English First Additional Language",
+                    "level": "60"
+                }
+            ]
+        },
+        {
+            "course_name": "Bachelor of Commerce specialising in: Economics with Finance",
+            "course_code": "",
+            "duration": "3",
+            "aps": "",
+            "fps": "435",
+            "required_subjects": [
+                {
+                    "subject": "Mathematics",
+                    "level": "70"
+                },
+                {
+                    "subject": "English Home Language",
+                    "level": "50"
+                },
+                {
+                    "subject": "English First Additional Language",
+                    "level": "60"
+                }
+            ]
+        },
+        {
+            "course_name": "Bachelor of Commerce specialising in: Economics & Statistics",
+            "course_code": "",
+            "duration": "3",
+            "aps": "",
+            "fps": "435",
+            "required_subjects": [
+                {
+                    "subject": "Mathematics",
+                    "level": "70"
+                },
+                {
+                    "subject": "English Home Language",
+                    "level": "50"
+                },
+                {
+                    "subject": "English First Additional Language",
+                    "level": "60"
+                }
+            ]
+        },
+        {
+            "course_name": "Bachelor of Commerce specialising in: Information Systems",
+            "course_code": "",
+            "duration": "3",
+            "aps": "",
+            "fps": "435",
+            "required_subjects": [
+                {
+                    "subject": "Mathematics",
+                    "level": "70"
+                },
+                {
+                    "subject": "English Home Language",
+                    "level": "50"
+                },
+                {
+                    "subject": "English First Additional Language",
+                    "level": "60"
+                }
+            ]
+        },
+        {
+            "course_name": "Bachelor of Commerce specialising in: Information Systems & Computer Science",
+            "course_code": "",
+            "duration": "3",
+            "aps": "",
+            "fps": "435",
+            "required_subjects": [
+                {
+                    "subject": "Mathematics",
+                    "level": "70"
+                },
+                {
+                    "subject": "English Home Language",
+                    "level": "50"
+                },
+                {
+                    "subject": "English First Additional Language",
+                    "level": "60"
+                }
+            ]
+        },
+        {
+            "course_name": "Bachelor of Commerce specialising in: Information Systems & Finance",
+            "course_code": "",
+            "duration": "3",
+            "aps": "",
+            "fps": "435",
+            "required_subjects": [
+                {
+                    "subject": "Mathematics",
+                    "level": "70"
+                },
+                {
+                    "subject": "English Home Language",
+                    "level": "50"
+                },
+                {
+                    "subject": "English First Additional Language",
+                    "level": "60"
+                }
+            ]
+        },
+        {
+            "course_name": "Bachelor of Commerce specialising in: Management Studies",
+            "course_code": "",
+            "duration": "3",
+            "aps": "",
+            "fps": "435",
+            "required_subjects": [
+                {
+                    "subject": "Mathematics",
+                    "level": "70"
+                },
+                {
+                    "subject": "English Home Language",
+                    "level": "50"
+                },
+                {
+                    "subject": "English First Additional Language",
+                    "level": "60"
+                }
+            ]
+        },
+        {
+            "course_name": "Bachelor of Commerce specialising in: Philosophy Politics & Economics",
+            "course_code": "",
+            "duration": "3",
+            "aps": "",
+            "fps": "435",
+            "required_subjects": [
+                {
+                    "subject": "Mathematics",
+                    "level": "70"
+                },
+                {
+                    "subject": "English Home Language",
+                    "level": "50"
+                },
+                {
+                    "subject": "English First Additional Language",
+                    "level": "60"
+                }
+            ]
+        },
+        {
+            "course_name": "Bachelor of Business Science specialising in: Actuarial Science",
+            "course_code": "",
+            "duration": "4",
+            "aps": "",
+            "fps": "500",
+            "required_subjects": [
+                {
+                    "subject": "Mathematics",
+                    "level": "80"
+                },
+                {
+                    "subject": "English Home Language",
+                    "level": "60"
+                },
+                {
+                    "subject": "English First Additional Language",
+                    "level": "80"
+                }
+            ]
+        },
+        {
+            "course_name": "Bachelor of Business Science specialising in: Quantitative Finance",
+            "course_code": "",
+            "duration": "4",
+            "aps": "",
+            "fps": "500",
+            "required_subjects": [
+                {
+                    "subject": "Mathematics",
+                    "level": "80"
+                },
+                {
+                    "subject": "English Home Language",
+                    "level": "60"
+                },
+                {
+                    "subject": "English First Additional Language",
+                    "level": "80"
+                }
+            ]
+        },
+        {
+            "course_name": "Bachelor of Commerce specialising in: Actuarial Science",
+            "course_code": "",
+            "duration": "3",
+            "aps": "",
+            "fps": "500",
+            "required_subjects": [
+                {
+                    "subject": "Mathematics",
+                    "level": "80"
+                },
+                {
+                    "subject": "English Home Language",
+                    "level": "60"
+                },
+                {
+                    "subject": "English First Additional Language",
+                    "level": "80"
+                }
+            ]
+        },
+        {
+            "course_name": "Bachelor of Commerce specialising in: Quantitative Finance",
+            "course_code": "",
+            "duration": "3",
+            "aps": "",
+            "fps": "500",
+            "required_subjects": [
+                {
+                    "subject": "Mathematics",
+                    "level": "80"
+                },
+                {
+                    "subject": "English Home Language",
+                    "level": "60"
+                },
+                {
+                    "subject": "English First Additional Language",
+                    "level": "80"
+                }
+            ]
+        }
+    ],
+    "FACULTY OF ENGINEERING & THE BUILT ENVIRONMENT": [
+        {
+            "course_name": "Bachelor of Science in Engineering in Chemical Engineering",
+            "course_code": "",
+            "duration": "4",
+            "aps": "",
+            "fps": "500",
+            "required_subjects": [
+                {
+                    "subject": "Mathematics",
+                    "level": "80"
+                },
+                {
+                    "subject": "Physical Sciences",
+                    "level": "70"
+                }
+            ]
+        },
+        {
+            "course_name": "Bachelor of Science in Engineering in Civil Engineering",
+            "course_code": "",
+            "duration": "4",
+            "aps": "",
+            "fps": "500",
+            "required_subjects": [
+                {
+                    "subject": "Mathematics",
+                    "level": "80"
+                },
+                {
+                    "subject": "Physical Sciences",
+                    "level": "70"
+                }
+            ]
+        },
+        {
+            "course_name": "Bachelor of Science in Engineering in Electrical Engineering",
+            "course_code": "",
+            "duration": "4",
+            "aps": "",
+            "fps": "500",
+            "required_subjects": [
+                {
+                    "subject": "Mathematics",
+                    "level": "80"
+                },
+                {
+                    "subject": "Physical Sciences",
+                    "level": "70"
+                }
+            ]
+        },
+        {
+            "course_name": "Bachelor of Science in Engineering in Electrical & Computer Engineering",
+            "course_code": "",
+            "duration": "4",
+            "aps": "",
+            "fps": "500",
+            "required_subjects": [
+                {
+                    "subject": "Mathematics",
+                    "level": "80"
+                },
+                {
+                    "subject": "Physical Sciences",
+                    "level": "70"
+                }
+            ]
+        },
+        {
+            "course_name": "Bachelor of Science in Engineering in Mechatronics",
+            "course_code": "",
+            "duration": "4",
+            "aps": "",
+            "fps": "500",
+            "required_subjects": [
+                {
+                    "subject": "Mathematics",
+                    "level": "80"
+                },
+                {
+                    "subject": "Physical Sciences",
+                    "level": "70"
+                }
+            ]
+        },
+        {
+            "course_name": "Bachelor of Science in Engineering in Mechanical Engineering",
+            "course_code": "",
+            "duration": "4",
+            "aps": "",
+            "fps": "500",
+            "required_subjects": [
+                {
+                    "subject": "Mathematics",
+                    "level": "80"
+                },
+                {
+                    "subject": "Physical Sciences",
+                    "level": "70"
+                }
+            ]
+        },
+        {
+            "course_name": "Bachelor of Science in Geomatics",
+            "course_code": "",
+            "duration": "4",
+            "aps": "",
+            "fps": "450",
+            "required_subjects": [
+                {
+                    "subject": "Mathematics",
+                    "level": "70"
+                },
+                {
+                    "subject": "Physical Sciences",
+                    "level": "50"
+                }
+            ]
+        },
+        {
+            "course_name": "Bachelor of Science in Construction Studies",
+            "course_code": "",
+            "duration": "3",
+            "aps": "",
+            "fps": "450",
+            "required_subjects": [
+                {
+                    "subject": "Mathematics",
+                    "level": "70"
+                },
+                {
+                    "subject": "Physical Sciences",
+                    "level": "50"
+                }
+            ]
+        },
+        {
+            "course_name": "Bachelor of Science in Property Studies",
+            "course_code": "",
+            "duration": "3",
+            "aps": "",
+            "fps": "450",
+            "required_subjects": [
+                {
+                    "subject": "Mathematics",
+                    "level": "70"
+                },
+                {
+                    "subject": "Physical Sciences",
+                    "level": "50"
+                }
+            ]
+        },
+        {
+            "course_name": "Bachelor of Architectural Studies",
+            "course_code": "",
+            "duration": "3",
+            "aps": "",
+            "fps": "450",
+            "required_subjects": [
+                {
+                    "subject": "Mathematics",
+                    "level": "50"
+                }
+            ]
+        }
+    ],
+    "FACULTY OF HEALTH SCIENCES": [
+        {
+            "course_name": "Bachelor of Medicine and Bachelor of Surgery (MBChB)",
+            "course_code": "",
+            "duration": "6",
+            "aps": "",
+            "fps": "810",
+            "required_subjects": [
+                {
+                    "subject": "Mathematics",
+                    "level": "60"
+                },
+                {
+                    "subject": "Physical Sciences",
+                    "level": "60"
+                },
+                {
+                    "subject": "English Home Language",
+                    "level": "60"
+                },
+                {
+                    "subject": "English First Additional Language",
+                    "level": "60"
+                }
+            ]
+        },
+        {
+            "course_name": "Bachelor of Science in Physiotherapy",
+            "course_code": "",
+            "duration": "4",
+            "aps": "",
+            "fps": "730",
+            "required_subjects": [
+                {
+                    "subject": "Mathematics",
+                    "level": "50"
+                },
+                {
+                    "subject": "Physical Sciences",
+                    "level": "50"
+                },
+                {
+                    "subject": "Life Sciences",
+                    "level": "50"
+                },
+                {
+                    "subject": "English Home Language",
+                    "level": "50"
+                },
+                {
+                    "subject": "English First Additional Language",
+                    "level": "50"
+                }
+            ]
+        },
+        {
+            "course_name": "Bachelor of Science in Occupational Therapy",
+            "course_code": "",
+            "duration": "4",
+            "aps": "",
+            "fps": "730",
+            "required_subjects": [
+                {
+                    "subject": "Mathematics",
+                    "level": "60"
+                },
+                {
+                    "subject": "Mathematical Literacy",
+                    "level": "70"
+                },
+                {
+                    "subject": "Physical Sciences",
+                    "level": "65"
+                },
+                {
+                    "subject": "Life Sciences",
+                    "level": "65"
+                },
+                {
+                    "subject": "English Home Language",
+                    "level": "65"
+                },
+                {
+                    "subject": "English First Additional Language",
+                    "level": "65"
+                }
+            ]
+        },
+        {
+            "course_name": "Bachelor of Science in Audiology",
+            "course_code": "",
+            "duration": "4",
+            "aps": "",
+            "fps": "720",
+            "required_subjects": [
+                {
+                    "subject": "Mathematics",
+                    "level": "60"
+                },
+                {
+                    "subject": "Mathematical Literacy",
+                    "level": "70"
+                },
+                {
+                    "subject": "Physical Sciences",
+                    "level": "65"
+                },
+                {
+                    "subject": "Life Sciences",
+                    "level": "65"
+                },
+                {
+                    "subject": "English Home Language",
+                    "level": "65"
+                },
+                {
+                    "subject": "English First Additional Language",
+                    "level": "65"
+                }
+            ]
+        },
+        {
+            "course_name": "Bachelor of Science in Speech-Language Pathology",
+            "course_code": "",
+            "duration": "4",
+            "aps": "",
+            "fps": "715",
+            "required_subjects": [
+                {
+                    "subject": "Mathematics",
+                    "level": "60"
+                },
+                {
+                    "subject": "Mathematical Literacy",
+                    "level": "70"
+                },
+                {
+                    "subject": "Physical Sciences",
+                    "level": "65"
+                },
+                {
+                    "subject": "Life Sciences",
+                    "level": "65"
+                },
+                {
+                    "subject": "English Home Language",
+                    "level": "65"
+                },
+                {
+                    "subject": "English First Additional Language",
+                    "level": "65"
+                }
+            ]
+        }
+    ],
+    "FACULTY OF HUMANITIES": [
+        {
+            "course_name": "Bachelor of Arts (BA)",
+            "course_code": "",
+            "duration": "3",
+            "aps": "",
+            "fps": "450",
+            "required_subjects": []
+        },
+        {
+            "course_name": "Bachelor of Social Science (BSocSc)",
+            "course_code": "",
+            "duration": "3",
+            "aps": "",
+            "fps": "450",
+            "required_subjects": []
+        },
+        {
+            "course_name": "Bachelor of Social Science in Philosophy, Politics and Economics (PPE)",
+            "course_code": "",
+            "duration": "3",
+            "aps": "",
+            "fps": "450",
+            "required_subjects": [
+                {
+                    "subject": "Mathematics",
+                    "level": "60"
+                }
+            ]
+        },
+        {
+            "course_name": "Bachelor of Social Work (BSW)",
+            "course_code": "",
+            "duration": "4",
+            "aps": "",
+            "fps": "450",
+            "required_subjects": []
+        },
+        {
+            "course_name": "Bachelor of Arts in Fine Art",
+            "course_code": "",
+            "duration": "4",
+            "aps": "",
+            "fps": "380",
+            "required_subjects": []
+        },
+        {
+            "course_name": "Bachelor of Arts in Theatre & Performance",
+            "course_code": "",
+            "duration": "4",
+            "aps": "",
+            "fps": "380",
+            "required_subjects": []
+        },
+        {
+            "course_name": "Bachelor of Music",
+            "course_code": "",
+            "duration": "4",
+            "aps": "",
+            "fps": "380",
+            "required_subjects": []
+        },
+        {
+            "course_name": "Diploma in Music Performance",
+            "course_code": "",
+            "duration": "3",
+            "aps": "",
+            "fps": "380",
+            "required_subjects": []
+        }
+    ],
+    "FACULTY OF LAW": [
+        {
+            "course_name": "Bachelor of Laws (LLB)",
+            "course_code": "",
+            "duration": "4",
+            "aps": "",
+            "fps": "500",
+            "required_subjects": []
+        }
+    ],
+    "FACULTY OF SCIENCE": [
+        {
+            "course_name": "Bachelor of Science (BSc) in Applied Mathematics",
+            "course_code": "",
+            "duration": "3",
+            "aps": "",
+            "fps": "660",
+            "required_subjects": [
+                {
+                    "subject": "Mathematics",
+                    "level": "70"
+                },
+                {
+                    "subject": "Physical Sciences",
+                    "level": "60"
+                }
+            ]
+        },
+        {
+            "course_name": "Bachelor of Science (BSc) in Applied Statistics",
+            "course_code": "",
+            "duration": "3",
+            "aps": "",
+            "fps": "660",
+            "required_subjects": [
+                {
+                    "subject": "Mathematics",
+                    "level": "70"
+                },
+                {
+                    "subject": "Physical Sciences",
+                    "level": "60"
+                }
+            ]
+        },
+        {
+            "course_name": "Bachelor of Science (BSc) in Archaeology",
+            "course_code": "",
+            "duration": "3",
+            "aps": "",
+            "fps": "660",
+            "required_subjects": [
+                {
+                    "subject": "Mathematics",
+                    "level": "70"
+                },
+                {
+                    "subject": "Physical Sciences",
+                    "level": "60"
+                }
+            ]
+        },
+        {
+            "course_name": "Bachelor of Science (BSc) in Artificial Intelligence",
+            "course_code": "",
+            "duration": "3",
+            "aps": "",
+            "fps": "660",
+            "required_subjects": [
+                {
+                    "subject": "Mathematics",
+                    "level": "70"
+                },
+                {
+                    "subject": "Physical Sciences",
+                    "level": "60"
+                }
+            ]
+        },
+        {
+            "course_name": "Bachelor of Science (BSc) in Astrophysics",
+            "course_code": "",
+            "duration": "3",
+            "aps": "",
+            "fps": "660",
+            "required_subjects": [
+                {
+                    "subject": "Mathematics",
+                    "level": "70"
+                },
+                {
+                    "subject": "Physical Sciences",
+                    "level": "60"
+                }
+            ]
+        },
+        {
+            "course_name": "Bachelor of Science (BSc) in Biochemistry",
+            "course_code": "",
+            "duration": "3",
+            "aps": "",
+            "fps": "660",
+            "required_subjects": [
+                {
+                    "subject": "Mathematics",
+                    "level": "70"
+                },
+                {
+                    "subject": "Physical Sciences",
+                    "level": "60"
+                }
+            ]
+        },
+        {
+            "course_name": "Bachelor of Science (BSc) in Biology",
+            "course_code": "",
+            "duration": "3",
+            "aps": "",
+            "fps": "660",
+            "required_subjects": [
+                {
+                    "subject": "Mathematics",
+                    "level": "70"
+                },
+                {
+                    "subject": "Physical Sciences",
+                    "level": "60"
+                }
+            ]
+        },
+        {
+            "course_name": "Bachelor of Science (BSc) in Chemistry",
+            "course_code": "",
+            "duration": "3",
+            "aps": "",
+            "fps": "660",
+            "required_subjects": [
+                {
+                    "subject": "Mathematics",
+                    "level": "70"
+                },
+                {
+                    "subject": "Physical Sciences",
+                    "level": "60"
+                }
+            ]
+        },
+        {
+            "course_name": "Bachelor of Science (BSc) in Computer Science",
+            "course_code": "",
+            "duration": "3",
+            "aps": "",
+            "fps": "660",
+            "required_subjects": [
+                {
+                    "subject": "Mathematics",
+                    "level": "70"
+                },
+                {
+                    "subject": "Physical Sciences",
+                    "level": "60"
+                }
+            ]
+        },
+        {
+            "course_name": "Bachelor of Science (BSc) in Environmental & Geographical Science",
+            "course_code": "",
+            "duration": "3",
+            "aps": "",
+            "fps": "660",
+            "required_subjects": [
+                {
+                    "subject": "Mathematics",
+                    "level": "70"
+                },
+                {
+                    "subject": "Physical Sciences",
+                    "level": "60"
+                }
+            ]
+        },
+        {
+            "course_name": "Bachelor of Science (BSc) in Genetics",
+            "course_code": "",
+            "duration": "3",
+            "aps": "",
+            "fps": "660",
+            "required_subjects": [
+                {
+                    "subject": "Mathematics",
+                    "level": "70"
+                },
+                {
+                    "subject": "Physical Sciences",
+                    "level": "60"
+                }
+            ]
+        },
+        {
+            "course_name": "Bachelor of Science (BSc) in Geology",
+            "course_code": "",
+            "duration": "3",
+            "aps": "",
+            "fps": "660",
+            "required_subjects": [
+                {
+                    "subject": "Mathematics",
+                    "level": "70"
+                },
+                {
+                    "subject": "Physical Sciences",
+                    "level": "60"
+                }
+            ]
+        },
+        {
+            "course_name": "Bachelor of Science (BSc) in Human Anatomy & Physiology",
+            "course_code": "",
+            "duration": "3",
+            "aps": "",
+            "fps": "660",
+            "required_subjects": [
+                {
+                    "subject": "Mathematics",
+                    "level": "70"
+                },
+                {
+                    "subject": "Physical Sciences",
+                    "level": "60"
+                }
+            ]
+        },
+        {
+            "course_name": "Bachelor of Science (BSc) in Marine Biology",
+            "course_code": "",
+            "duration": "3",
+            "aps": "",
+            "fps": "660",
+            "required_subjects": [
+                {
+                    "subject": "Mathematics",
+                    "level": "70"
+                },
+                {
+                    "subject": "Physical Sciences",
+                    "level": "60"
+                }
+            ]
+        },
+        {
+            "course_name": "Bachelor of Science (BSc) in Mathematics",
+            "course_code": "",
+            "duration": "3",
+            "aps": "",
+            "fps": "660",
+            "required_subjects": [
+                {
+                    "subject": "Mathematics",
+                    "level": "70"
+                },
+                {
+                    "subject": "Physical Sciences",
+                    "level": "60"
+                }
+            ]
+        },
+        {
+            "course_name": "Bachelor of Science (BSc) in Mathematical Statistics",
+            "course_code": "",
+            "duration": "3",
+            "aps": "",
+            "fps": "660",
+            "required_subjects": [
+                {
+                    "subject": "Mathematics",
+                    "level": "70"
+                },
+                {
+                    "subject": "Physical Sciences",
+                    "level": "60"
+                }
+            ]
+        },
+        {
+            "course_name": "Bachelor of Science (BSc) in Ocean & Atmosphere Science",
+            "course_code": "",
+            "duration": "3",
+            "aps": "",
+            "fps": "660",
+            "required_subjects": [
+                {
+                    "subject": "Mathematics",
+                    "level": "70"
+                },
+                {
+                    "subject": "Physical Sciences",
+                    "level": "60"
+                }
+            ]
+        },
+        {
+            "course_name": "Bachelor of Science (BSc) in Physics",
+            "course_code": "",
+            "duration": "3",
+            "aps": "",
+            "fps": "660",
+            "required_subjects": [
+                {
+                    "subject": "Mathematics",
+                    "level": "70"
+                },
+                {
+                    "subject": "Physical Sciences",
+                    "level": "60"
+                }
+            ]
+        }
+    ]
+}
