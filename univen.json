@@ -1,0 +1,1047 @@
+{
+    "Faculty of Humanities, Social Sciences and Education": [
+        {
+            "course_name": "Bachelor of Arts Media Studies",
+            "course_code": "HSBAMS",
+            "duration": "3",
+            "aps": "30",
+            "required_subjects": [
+                {
+                    "subject": "English",
+                    "level": "Unspecified",
+                    "percentage": "50-59%"
+                },
+                {
+                    "subject": "African Languages",
+                    "level": "Unspecified",
+                    "percentage": "50-59%"
+                }
+            ]
+        },
+        {
+            "course_name": "Bachelor of Arts Development Studies",
+            "course_code": "HSBADS",
+            "duration": "3",
+            "aps": "30",
+            "required_subjects": [
+                {
+                    "subject": "English",
+                    "level": "Unspecified",
+                    "percentage": "50-59%"
+                },
+                {
+                    "subject": "History",
+                    "level": "Unspecified",
+                    "percentage": "50-59%"
+                },
+                {
+                    "subject": "Economics",
+                    "level": "Unspecified",
+                    "percentage": "50-59%"
+                }
+            ]
+        },
+        {
+            "course_name": "Bachelor of Arts",
+            "course_code": "HSBBA",
+            "duration": "3",
+            "aps": "30",
+            "required_subjects": []
+        },
+        {
+            "course_name": "Bachelor of Indigenous Knowledge Systems",
+            "course_code": "HSBIKS",
+            "duration": "4",
+            "aps": "30",
+            "required_subjects": []
+        },
+        {
+            "course_name": "Bachelor of Arts in Language Practice",
+            "course_code": "HSBALP",
+            "duration": "4",
+            "aps": "30",
+            "required_subjects": []
+        },
+        {
+            "course_name": "Bachelor of Arts in International Relations",
+            "course_code": "HSBAIR",
+            "duration": "3",
+            "aps": "30",
+            "required_subjects": [
+                {
+                    "subject": "History",
+                    "level": "Unspecified",
+                    "percentage": "50-59%"
+                },
+                {
+                    "subject": "Economics",
+                    "level": "Unspecified",
+                    "percentage": "50-59%"
+                },
+                {
+                    "subject": "English",
+                    "level": "Unspecified",
+                    "percentage": "50-59%"
+                }
+            ]
+        },
+        {
+            "course_name": "Bachelor of Arts, Youth in Development",
+            "course_code": "HSBAYD",
+            "duration": "4",
+            "aps": "30",
+            "required_subjects": []
+        },
+        {
+            "course_name": "Bachelor of Theology",
+            "course_code": "HSBBT",
+            "duration": "3",
+            "aps": "30",
+            "required_subjects": []
+        },
+        {
+            "course_name": "Higher Certificate in Music",
+            "course_code": "HSCHCM",
+            "duration": "1",
+            "aps": "30",
+            "required_subjects": [
+                {
+                    "subject": "English",
+                    "level": "Unspecified",
+                    "percentage": "Unspecified"
+                }
+            ]
+        },
+        {
+            "course_name": "Bachelor of Social Work",
+            "course_code": "HSBBSW",
+            "duration": "4",
+            "aps": "35",
+            "required_subjects": []
+        },
+        {
+            "course_name": "Bachelor of Education in Senior Phase and Further Education and Training Teaching",
+            "course_code": "SEBESP",
+            "duration": "4",
+            "aps": "36",
+            "required_subjects": [
+                {
+                    "subject": "Mathematics",
+                    "level": "Unspecified",
+                    "percentage": "50%"
+                },
+                {
+                    "subject": "English",
+                    "level": "Unspecified",
+                    "percentage": "50%"
+                },
+                {
+                    "subject": "Physical Sciences",
+                    "level": "Unspecified",
+                    "percentage": "50%"
+                },
+                {
+                    "subject": "Life Sciences",
+                    "level": "Unspecified",
+                    "percentage": "50%"
+                },
+                {
+                    "subject": "Accounting",
+                    "level": "Unspecified",
+                    "percentage": "50%"
+                },
+                {
+                    "subject": "Business Studies",
+                    "level": "Unspecified",
+                    "percentage": "50%"
+                },
+                {
+                    "subject": "Economics",
+                    "level": "Unspecified",
+                    "percentage": "50%"
+                },
+                {
+                    "subject": "History",
+                    "level": "Unspecified",
+                    "percentage": "50%"
+                },
+                {
+                    "subject": "Geography",
+                    "level": "Unspecified",
+                    "percentage": "50%"
+                },
+                {
+                    "subject": "Sepedi",
+                    "level": "Unspecified",
+                    "percentage": "50%"
+                },
+                {
+                    "subject": "Tshivenda",
+                    "level": "Unspecified",
+                    "percentage": "50%"
+                },
+                {
+                    "subject": "Xitsonga",
+                    "level": "Unspecified",
+                    "percentage": "50%"
+                }
+            ]
+        },
+        {
+            "course_name": "Bachelor of Education in Foundation Phase Teaching.",
+            "course_code": "SEBEFP",
+            "duration": "4",
+            "aps": "36",
+            "required_subjects": []
+        }
+    ],
+    "Faculty of Health Sciences": [
+        {
+            "course_name": "Bachelor of Nursing",
+            "course_code": "SHBBN",
+            "duration": "4",
+            "aps": "36",
+            "required_subjects": []
+        },
+        {
+            "course_name": "BSc in Nutrition",
+            "course_code": "SHBBSN",
+            "duration": "4",
+            "aps": "34",
+            "required_subjects": [
+                {
+                    "subject": "Life Sciences",
+                    "level": "Unspecified",
+                    "percentage": "50-59%"
+                },
+                {
+                    "subject": "English",
+                    "level": "Unspecified",
+                    "percentage": "50-59%"
+                },
+                {
+                    "subject": "Mathematics",
+                    "level": "Unspecified",
+                    "percentage": "50-59%"
+                },
+                {
+                    "subject": "Physical Sciences",
+                    "level": "Unspecified",
+                    "percentage": "50-59%"
+                },
+                {
+                    "subject": "Agricultural Sciences",
+                    "level": "Unspecified",
+                    "percentage": "50-59%"
+                }
+            ]
+        },
+        {
+            "course_name": "BSc in Sports and Exercise Science",
+            "course_code": "SHBSES",
+            "duration": "4",
+            "aps": "34",
+            "required_subjects": []
+        },
+        {
+            "course_name": "BSc in Recreation and Leisure Studies",
+            "course_code": "SHBRLS",
+            "duration": "4",
+            "aps": "34",
+            "required_subjects": [
+                {
+                    "subject": "English",
+                    "level": "Unspecified",
+                    "percentage": "50-59%"
+                }
+            ]
+        },
+        {
+            "course_name": "Bachelor of Psychology",
+            "course_code": "SHBBP",
+            "duration": "4",
+            "aps": "36",
+            "required_subjects": [
+                {
+                    "subject": "English",
+                    "level": "Unspecified",
+                    "percentage": "50-59%"
+                },
+                {
+                    "subject": "Life Sciences",
+                    "level": "Unspecified",
+                    "percentage": "50-59%"
+                }
+            ]
+        },
+        {
+            "course_name": "Diploma in Nursing",
+            "course_code": "SHDPN",
+            "duration": "3",
+            "aps": "28",
+            "required_subjects": [
+                {
+                    "subject": "Life Sciences",
+                    "level": "4",
+                    "percentage": "59%"
+                },
+                {
+                    "subject": "English",
+                    "level": "4",
+                    "percentage": "59%"
+                },
+                {
+                    "subject": "Physical Sciences",
+                    "level": "4",
+                    "percentage": "59%"
+                },
+                {
+                    "subject": "Mathematics",
+                    "level": "4",
+                    "percentage": "49%"
+                }
+            ]
+        }
+    ],
+    "Faculty of Management, Commerce and Law": [
+        {
+            "course_name": "Bachelor of Administration",
+            "course_code": "MSBBAD",
+            "duration": "3",
+            "aps": "32",
+            "required_subjects": [
+                {
+                    "subject": "English",
+                    "level": "Unspecified",
+                    "percentage": "50-59%"
+                }
+            ]
+        },
+        {
+            "course_name": "Bachelor of Commerce in Accounting Sciences",
+            "course_code": "MSBCAS",
+            "duration": "4",
+            "aps": "35",
+            "required_subjects": []
+        },
+        {
+            "course_name": "Bachelor of Commerce in Accounting",
+            "course_code": "MSBBCA",
+            "duration": "3",
+            "aps": "32",
+            "required_subjects": []
+        },
+        {
+            "course_name": "Bachelor of Commerce in Business Information Systems",
+            "course_code": "MSBIS",
+            "duration": "3",
+            "aps": "32",
+            "required_subjects": [
+                {
+                    "subject": "English",
+                    "level": "Unspecified",
+                    "percentage": "50-59%"
+                },
+                {
+                    "subject": "Mathematics",
+                    "level": "Unspecified",
+                    "percentage": "50-59%"
+                },
+                {
+                    "subject": "Mathematical Literacy",
+                    "level": "Unspecified",
+                    "percentage": "75%"
+                },
+                {
+                    "subject": "Accounting",
+                    "level": "Unspecified",
+                    "percentage": "50-59%"
+                },
+                {
+                    "subject": "Business Studies",
+                    "level": "Unspecified",
+                    "percentage": "50-59%"
+                },
+                {
+                    "subject": "Economics",
+                    "level": "Unspecified",
+                    "percentage": "50-59%"
+                },
+                {
+                    "subject": "Information Technology",
+                    "level": "Unspecified",
+                    "percentage": "50-59%"
+                },
+                {
+                    "subject": "Computer Studies",
+                    "level": "Unspecified",
+                    "percentage": "50-59%"
+                }
+            ]
+        },
+        {
+            "course_name": "Bachelor of Commerce in Business Management",
+            "course_code": "MSBCBM",
+            "duration": "3",
+            "aps": "32",
+            "required_subjects": [
+                {
+                    "subject": "English",
+                    "level": "Unspecified",
+                    "percentage": "50-59%"
+                },
+                {
+                    "subject": "Business Studies",
+                    "level": "Unspecified",
+                    "percentage": "49%"
+                },
+                {
+                    "subject": "Accounting",
+                    "level": "Unspecified",
+                    "percentage": "50-59%"
+                },
+                {
+                    "subject": "Economics",
+                    "level": "Unspecified",
+                    "percentage": "50-59%"
+                },
+                {
+                    "subject": "Information Technology",
+                    "level": "Unspecified",
+                    "percentage": "50-59%"
+                },
+                {
+                    "subject": "Mathematics",
+                    "level": "Unspecified",
+                    "percentage": "50-59%"
+                }
+            ]
+        },
+        {
+            "course_name": "Bachelor of Commerce in Cost and Management Accounting",
+            "course_code": "MSBCMA",
+            "duration": "3",
+            "aps": "32",
+            "required_subjects": [
+                {
+                    "subject": "English",
+                    "level": "Unspecified",
+                    "percentage": "50-59%"
+                },
+                {
+                    "subject": "Accounting",
+                    "level": "Unspecified",
+                    "percentage": "50-59%"
+                },
+                {
+                    "subject": "Mathematics",
+                    "level": "Unspecified",
+                    "percentage": "50-59%"
+                }
+            ]
+        },
+        {
+            "course_name": "Bachelor of Commerce in Economics",
+            "course_code": "MSBBCE",
+            "duration": "3",
+            "aps": "32",
+            "required_subjects": [
+                {
+                    "subject": "English",
+                    "level": "Unspecified",
+                    "percentage": "50-59%"
+                },
+                {
+                    "subject": "Economics",
+                    "level": "Unspecified",
+                    "percentage": "50-59%"
+                },
+                {
+                    "subject": "Mathematics",
+                    "level": "Unspecified",
+                    "percentage": "50-59%"
+                },
+                {
+                    "subject": "Accounting",
+                    "level": "Unspecified",
+                    "percentage": "50-59%"
+                },
+                {
+                    "subject": "Business Studies",
+                    "level": "Unspecified",
+                    "percentage": "50-59%"
+                },
+                {
+                    "subject": "Information Technology",
+                    "level": "Unspecified",
+                    "percentage": "50-59%"
+                }
+            ]
+        },
+        {
+            "course_name": "Bachelor of Commerce in Human Resource Management",
+            "course_code": "MSBHR",
+            "duration": "3",
+            "aps": "32",
+            "required_subjects": [
+                {
+                    "subject": "English",
+                    "level": "Unspecified",
+                    "percentage": "50-59%"
+                },
+                {
+                    "subject": "Accounting",
+                    "level": "Unspecified",
+                    "percentage": "50-59%"
+                },
+                {
+                    "subject": "Business Studies",
+                    "level": "Unspecified",
+                    "percentage": "50-59%"
+                },
+                {
+                    "subject": "Economics",
+                    "level": "Unspecified",
+                    "percentage": "50-59%"
+                },
+                {
+                    "subject": "Information Technology",
+                    "level": "Unspecified",
+                    "percentage": "50-59%"
+                },
+                {
+                    "subject": "Mathematics",
+                    "level": "Unspecified",
+                    "percentage": "50-59%"
+                }
+            ]
+        },
+        {
+            "course_name": "Bachelor of Commerce in Industrial Psychology",
+            "course_code": "MSBCIP",
+            "duration": "3",
+            "aps": "32",
+            "required_subjects": [
+                {
+                    "subject": "English",
+                    "level": "Unspecified",
+                    "percentage": "50-59%"
+                },
+                {
+                    "subject": "Accounting",
+                    "level": "Unspecified",
+                    "percentage": "50-59%"
+                },
+                {
+                    "subject": "Business Studies",
+                    "level": "Unspecified",
+                    "percentage": "50-59%"
+                },
+                {
+                    "subject": "Economics",
+                    "level": "Unspecified",
+                    "percentage": "50-59%"
+                },
+                {
+                    "subject": "Information Technology",
+                    "level": "Unspecified",
+                    "percentage": "50-59%"
+                },
+                {
+                    "subject": "Mathematics",
+                    "level": "Unspecified",
+                    "percentage": "50-59%"
+                }
+            ]
+        },
+        {
+            "course_name": "Bachelor of Commerce in Tourism Management",
+            "course_code": "MSBTRM",
+            "duration": "3",
+            "aps": "32",
+            "required_subjects": [
+                {
+                    "subject": "English",
+                    "level": "Unspecified",
+                    "percentage": "50-59%"
+                },
+                {
+                    "subject": "Mathematics",
+                    "level": "Unspecified",
+                    "percentage": "50-59%"
+                },
+                {
+                    "subject": "Mathematical Literacy",
+                    "level": "Unspecified",
+                    "percentage": "50-59%"
+                },
+                {
+                    "subject": "Accounting",
+                    "level": "Unspecified",
+                    "percentage": "50-59%"
+                },
+                {
+                    "subject": "Business Studies",
+                    "level": "Unspecified",
+                    "percentage": "50-59%"
+                },
+                {
+                    "subject": "Economics",
+                    "level": "Unspecified",
+                    "percentage": "50-59%"
+                },
+                {
+                    "subject": "Information Technology",
+                    "level": "Unspecified",
+                    "percentage": "50-59%"
+                },
+                {
+                    "subject": "Geography",
+                    "level": "Unspecified",
+                    "percentage": "50-59%"
+                }
+            ]
+        },
+        {
+            "course_name": "Bachelor of Laws",
+            "course_code": "LWBBL",
+            "duration": "4",
+            "aps": "38",
+            "required_subjects": []
+        },
+        {
+            "course_name": "Bachelor of Arts in Criminal",
+            "course_code": "LWBACJ",
+            "duration": "3",
+            "aps": "34",
+            "required_subjects": []
+        },
+        {
+            "course_name": "Extended Bachelor of Commerce in Economics",
+            "course_code": "MSEBCE",
+            "duration": "4",
+            "aps": "",
+            "required_subjects": []
+        }
+    ],
+    "Faculty of Science, Engineering and Agriculture": [
+        {
+            "course_name": "Diploma in Freshwater",
+            "course_code": "MNDDFT",
+            "duration": "3",
+            "aps": "24",
+            "required_subjects": []
+        },
+        {
+            "course_name": "BSc in BIOCHEMISTRY AND",
+            "course_code": "MNBBSA",
+            "duration": "3",
+            "aps": "26",
+            "required_subjects": []
+        },
+        {
+            "course_name": "BSc in BIOCHEMISTRY AND BIOLOGY",
+            "course_code": "MNBBSD",
+            "duration": "3",
+            "aps": "26",
+            "required_subjects": [
+                {
+                    "subject": "English",
+                    "level": "4",
+                    "percentage": "50-59%"
+                },
+                {
+                    "subject": "Mathematics",
+                    "level": "4",
+                    "percentage": "50-59%"
+                },
+                {
+                    "subject": "Physical Sciences",
+                    "level": "4",
+                    "percentage": "50-59%"
+                },
+                {
+                    "subject": "Life Sciences",
+                    "level": "4",
+                    "percentage": "50-59%"
+                }
+            ]
+        },
+        {
+            "course_name": "BSc in MICROBIOLOGY AND BOTANY",
+            "course_code": "MNBBSE",
+            "duration": "3",
+            "aps": "26",
+            "required_subjects": [
+                {
+                    "subject": "English",
+                    "level": "4",
+                    "percentage": "50-59%"
+                },
+                {
+                    "subject": "Mathematics",
+                    "level": "4",
+                    "percentage": "50-59%"
+                },
+                {
+                    "subject": "Physical Sciences",
+                    "level": "4",
+                    "percentage": "50-59%"
+                },
+                {
+                    "subject": "Life Sciences",
+                    "level": "4",
+                    "percentage": "50-59%"
+                }
+            ]
+        },
+        {
+            "course_name": "BSc in MATHEMATICS AND APPLIED MATHEMATICS",
+            "course_code": "MNBBSF)",
+            "duration": "3",
+            "aps": "26",
+            "required_subjects": [
+                {
+                    "subject": "English",
+                    "level": "4",
+                    "percentage": "50-59%"
+                },
+                {
+                    "subject": "Mathematics",
+                    "level": "4",
+                    "percentage": "50-59%"
+                },
+                {
+                    "subject": "Physical Sciences",
+                    "level": "4",
+                    "percentage": "50-59%"
+                },
+                {
+                    "subject": "Life Sciences",
+                    "level": "4",
+                    "percentage": "50-59%"
+                }
+            ]
+        },
+        {
+            "course_name": "BSc in MATHEMATICS AND PHYSICS",
+            "course_code": "MNBBSH",
+            "duration": "3",
+            "aps": "26",
+            "required_subjects": [
+                {
+                    "subject": "English",
+                    "level": "4",
+                    "percentage": "50-59%"
+                },
+                {
+                    "subject": "Mathematics",
+                    "level": "4",
+                    "percentage": "50-59%"
+                },
+                {
+                    "subject": "Physical Sciences",
+                    "level": "4",
+                    "percentage": "50-59%"
+                },
+                {
+                    "subject": "Life Sciences",
+                    "level": "4",
+                    "percentage": "50-59%"
+                }
+            ]
+        },
+        {
+            "course_name": "BSc in MATHEMATICS AND STATISTICS",
+            "course_code": "MNBBSI",
+            "duration": "3",
+            "aps": "26",
+            "required_subjects": [
+                {
+                    "subject": "English",
+                    "level": "4",
+                    "percentage": "50-59%"
+                },
+                {
+                    "subject": "Mathematics",
+                    "level": "4",
+                    "percentage": "50-59%"
+                },
+                {
+                    "subject": "Physical Sciences",
+                    "level": "4",
+                    "percentage": "50-59%"
+                },
+                {
+                    "subject": "Life Sciences",
+                    "level": "4",
+                    "percentage": "50-59%"
+                }
+            ]
+        },
+        {
+            "course_name": "BSc in PHYSICS AND CHEMISTRY",
+            "course_code": "MNBBSJ",
+            "duration": "3",
+            "aps": "26",
+            "required_subjects": [
+                {
+                    "subject": "English",
+                    "level": "4",
+                    "percentage": "50-59%"
+                },
+                {
+                    "subject": "Mathematics",
+                    "level": "4",
+                    "percentage": "50-59%"
+                },
+                {
+                    "subject": "Physical Sciences",
+                    "level": "4",
+                    "percentage": "50-59%"
+                },
+                {
+                    "subject": "Life Sciences",
+                    "level": "4",
+                    "percentage": "50-59%"
+                }
+            ]
+        },
+        {
+            "course_name": "BSc in CHEMISTRY AND",
+            "course_code": "MNBBSK)",
+            "duration": "3",
+            "aps": "26",
+            "required_subjects": []
+        },
+        {
+            "course_name": "BSc in CHEMISTRY AND",
+            "course_code": "MNBBSL",
+            "duration": "3",
+            "aps": "26",
+            "required_subjects": []
+        },
+        {
+            "course_name": "BSc in COMPUTER SCIENCE",
+            "course_code": "MNBBSP",
+            "duration": "3",
+            "aps": "26",
+            "required_subjects": []
+        },
+        {
+            "course_name": "BSc in COMPUTER SCIENCE",
+            "course_code": "MNBBSQ",
+            "duration": "3",
+            "aps": "26",
+            "required_subjects": []
+        },
+        {
+            "course_name": "Bachelor of Environmental Sciences",
+            "course_code": "ESBBES",
+            "duration": "3",
+            "aps": "32",
+            "required_subjects": []
+        },
+        {
+            "course_name": "Bachelor of Earth Sciences in Mining and Environmental Geology",
+            "course_code": "ESBMEG",
+            "duration": "4",
+            "aps": "35",
+            "required_subjects": []
+        },
+        {
+            "course_name": "Bachelor of Earth Sciences in Hydrology and Water Resources",
+            "course_code": "ESBHWR",
+            "duration": "4",
+            "aps": "35",
+            "required_subjects": []
+        },
+        {
+            "course_name": "Bachelor of Urban and Regional Planning",
+            "course_code": "ESBURP",
+            "duration": "4",
+            "aps": "35",
+            "required_subjects": []
+        },
+        {
+            "course_name": "Bachelor of Environmental Sciences in Disaster Risk Reduction",
+            "course_code": "ESBBDR",
+            "duration": "4",
+            "aps": "35",
+            "required_subjects": []
+        },
+        {
+            "course_name": "Bachelor of Science in",
+            "course_code": "AGBAAE",
+            "duration": "4",
+            "aps": "26",
+            "required_subjects": []
+        },
+        {
+            "course_name": "Bachelor of Science in",
+            "course_code": "AGBAAM",
+            "duration": "4",
+            "aps": "26",
+            "required_subjects": []
+        },
+        {
+            "course_name": "Bachelor of Science in",
+            "course_code": "AGBAAS",
+            "duration": "4",
+            "aps": "26",
+            "required_subjects": []
+        },
+        {
+            "course_name": "Bachelor of Science in",
+            "course_code": "AGBAHS",
+            "duration": "4",
+            "aps": "26",
+            "required_subjects": []
+        },
+        {
+            "course_name": "Bachelor of Science in",
+            "course_code": "AGBAPP",
+            "duration": "4",
+            "aps": "26",
+            "required_subjects": []
+        },
+        {
+            "course_name": "Bachelor of Science in Soil",
+            "course_code": "AGBASS",
+            "duration": "4",
+            "aps": "26",
+            "required_subjects": []
+        },
+        {
+            "course_name": "Bachelor of Science in Forestry",
+            "course_code": "AGBBFR",
+            "duration": "4",
+            "aps": "26",
+            "required_subjects": []
+        },
+        {
+            "course_name": "Bachelor of Science in Agricultural and Biosystems Engineering",
+            "course_code": "AGBABE",
+            "duration": "4",
+            "aps": "32",
+            "required_subjects": [
+                {
+                    "subject": "Mathematics",
+                    "level": "5",
+                    "percentage": "65%"
+                },
+                {
+                    "subject": "Physical Sciences",
+                    "level": "5",
+                    "percentage": "65%"
+                },
+                {
+                    "subject": "Life Sciences",
+                    "level": "5",
+                    "percentage": "65%"
+                },
+                {
+                    "subject": "Agricultural Sciences",
+                    "level": "5",
+                    "percentage": "65%"
+                },
+                {
+                    "subject": "English",
+                    "level": "5",
+                    "percentage": "50-59%"
+                }
+            ]
+        },
+        {
+            "course_name": "Extended BSc in BIOCHEM- ISTRY AND MICROBIOLOGY",
+            "course_code": "MNEBSA",
+            "duration": "4",
+            "aps": "26",
+            "required_subjects": []
+        },
+        {
+            "course_name": "Extended BSc in BIOCHEMISTRY AND BIOLOGY",
+            "course_code": "MNEBSD",
+            "duration": "4",
+            "aps": "26",
+            "required_subjects": []
+        },
+        {
+            "course_name": "Extended BSc in MICROBIOLOGY AND BOTANY",
+            "course_code": "MNEBSE",
+            "duration": "4",
+            "aps": "26",
+            "required_subjects": []
+        },
+        {
+            "course_name": "Extended BSc in MATHEMATICS AND APPLIED MATHEMATICS",
+            "course_code": "MNEBSF",
+            "duration": "4",
+            "aps": "26",
+            "required_subjects": []
+        },
+        {
+            "course_name": "Extended BSc in MATHEMATICS AND PHYSICS",
+            "course_code": "MNEBSH",
+            "duration": "4",
+            "aps": "24",
+            "required_subjects": []
+        },
+        {
+            "course_name": "Extended BSc in MATHE- MATICS AND STATISTICS",
+            "course_code": "MNEBSI",
+            "duration": "4",
+            "aps": "24",
+            "required_subjects": []
+        },
+        {
+            "course_name": "Extended BSc in PHYSICS AND CHEMISTRY",
+            "course_code": "MNEBSJ",
+            "duration": "4",
+            "aps": "24",
+            "required_subjects": []
+        },
+        {
+            "course_name": "Extended BSc in CHEMISTRY AND MATHEMATICS",
+            "course_code": "MNEBSK",
+            "duration": "4",
+            "aps": "24",
+            "required_subjects": []
+        },
+        {
+            "course_name": "Extended BSc in CHEMISTRY AND BIOCHEMISTRY",
+            "course_code": "MNEBSL",
+            "duration": "4",
+            "aps": "24",
+            "required_subjects": []
+        },
+        {
+            "course_name": "Extended BSc in CHEMISTRY AND APPLIED CHEMISTRY",
+            "course_code": "MNEBSN",
+            "duration": "4",
+            "aps": "26",
+            "required_subjects": []
+        },
+        {
+            "course_name": "Extended BSc in BOTANY AND ZOOLOGY",
+            "course_code": "MNEBSO",
+            "duration": "4",
+            "aps": "26",
+            "required_subjects": []
+        },
+        {
+            "course_name": "Extended BSc in COMPUTER SCIENCE",
+            "course_code": "MNEBSP",
+            "duration": "4",
+            "aps": "26",
+            "required_subjects": []
+        },
+        {
+            "course_name": "Extended BSc in COMPUTER SCIENCE AND MATHEMATICS",
+            "course_code": "MNEBSQ",
+            "duration": "4",
+            "aps": "26",
+            "required_subjects": []
+        }
+    ]
+}
