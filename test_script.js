@@ -26,6 +26,16 @@ function testLogic() {
         if (!reqSubjectName) return null;
         let reqLower = reqSubjectName.toLowerCase().trim();
 
+        // Math logic: if both requirement and user mark are some form of math, it matches
+        let reqIsSomeMath = reqLower.includes('math') || reqLower.includes('mathematics') || reqLower.includes('technical math') || reqLower.includes('mathematical lit');
+        if (reqIsSomeMath) {
+            for (let mark of userMarks) {
+                let markLower = mark.subject.toLowerCase().trim();
+                let markIsSomeMath = markLower.includes('math') || markLower.includes('mathematics') || markLower.includes('technical math') || markLower.includes('mathematical lit');
+                if (markIsSomeMath) return mark;
+            }
+        }
+
         // First pass: Direct exact or subset match
         for (let mark of userMarks) {
             let markLower = mark.subject.toLowerCase().trim();
@@ -103,7 +113,7 @@ function testLogic() {
     if (course.required_subjects && course.required_subjects.length > 0) {
         for (let req of course.required_subjects) {
             // Skip 'Additional Subjects' or empty ones
-            if (!req.subject || req.subject.toLowerCase() === 'additional subjects') continue;
+            if (!req.subject || req.subject.toLowerCase().includes('additional subject') || req.subject.toLowerCase().includes('other subject')) continue;
 
             validSubjectCount++;
             let matchedMark = checkSubjectMatch(req.subject);
@@ -161,8 +171,8 @@ function testLogic() {
     let rawMin = 0;
 
     if (!isFps) { // Standard APS logic
-        rawScore = ((userAps / MAX_APS) * 100) * 0.65 + (avgUserPerc) * 0.35;
-        rawMin = ((reqAps / MAX_APS) * 100) * 0.65 + (avgMinPerc) * 0.35;
+        rawScore = ((userAps / MAX_APS) * 100) * 0.50 + (avgUserPerc) * 0.50;
+        rawMin = ((reqAps / MAX_APS) * 100) * 0.50 + (avgMinPerc) * 0.50;
     } else { // FPS only
         rawScore = avgUserPerc;
         rawMin = avgMinPerc;

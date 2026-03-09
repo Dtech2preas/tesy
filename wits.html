@@ -46,8 +46,6 @@
         let userFps = 0;
 
         async function init() {
-            await fetchHelperData();
-
             const marksStr = localStorage.getItem('userMarks');
             if (!marksStr) {
                 document.getElementById('courses-container').innerHTML = '<p style="color:red; font-weight:bold;">No subjects found. Please go back to the main page and enter your subjects first.</p>';
@@ -82,85 +80,25 @@
             }
         }
 
-        let helperData = null;
-
-        async function fetchHelperData() {
-            try {
-                const response = await fetch('helper.json');
-                helperData = await response.json();
-            } catch (err) {
-                console.error("Failed to load helper.json", err);
-                // Fallback to localStorage if fetch fails
-                const localHelper = localStorage.getItem('subjectHelper');
-                if (localHelper) {
-                    try {
-                        helperData = JSON.parse(localHelper);
-                    } catch (e) {
-                        helperData = {};
-                    }
-                } else {
-                    helperData = {};
-                }
-            }
-        }
-
         function checkSubjectMatch(reqSubjectName) {
             if (!reqSubjectName) return null;
             let reqLower = reqSubjectName.toLowerCase().trim();
 
-            // First pass: Direct exact or subset match against user marks directly
-            for (let mark of userMarks) {
-                let markLower = mark.subject.toLowerCase().trim();
-                if (reqLower === markLower || markLower.includes(reqLower) || reqLower.includes(markLower)) {
-                    // Check if it's Mathematics vs Mathematical Literacy which often falsely match with just .includes
-                    if (reqLower.includes("literacy") && !markLower.includes("literacy")) continue;
-                    if (markLower.includes("literacy") && !reqLower.includes("literacy")) continue;
-                    return mark;
+            // Math logic: if both requirement and user mark are some form of math, it matches
+            let reqIsSomeMath = reqLower.includes('math') || reqLower.includes('mathematics') || reqLower.includes('technical math') || reqLower.includes('mathematical lit');
+            if (reqIsSomeMath) {
+                for (let mark of userMarks) {
+                    let markLower = mark.subject.toLowerCase().trim();
+                    let markIsSomeMath = markLower.includes('math') || markLower.includes('mathematics') || markLower.includes('technical math') || markLower.includes('mathematical lit');
+                    if (markIsSomeMath) return mark;
                 }
             }
 
-            // Second pass: Use helperData
-            if (helperData) {
-                // Find which main display name this reqSubjectName falls under
-                let matchedMainSubject = null;
-                for (const mainSub in helperData) {
-                    for (const altName of helperData[mainSub]) {
-                        let altLower = altName.toLowerCase().trim();
-                        // If the required subject is exactly the alt name, or very close
-                        if (reqLower === altLower || reqLower.includes(altLower) || altLower.includes(reqLower)) {
-                            // Again guard against Math vs Math Lit
-                            if (reqLower.includes("literacy") && !altLower.includes("literacy")) continue;
-                            if (altLower.includes("literacy") && !reqLower.includes("literacy")) continue;
-
-                            matchedMainSubject = mainSub;
-                            break;
-                        }
-                    }
-                    if (matchedMainSubject) break;
-                }
-
-                if (matchedMainSubject) {
-                    let mainSubLower = matchedMainSubject.toLowerCase().trim();
-                    // See if the user has this main subject
-                    for (let mark of userMarks) {
-                        let markLower = mark.subject.toLowerCase().trim();
-                        if (markLower === mainSubLower || markLower.includes(mainSubLower)) {
-                            // Guard
-                            if (markLower.includes("literacy") && !mainSubLower.includes("literacy")) continue;
-                            if (mainSubLower.includes("literacy") && !markLower.includes("literacy")) continue;
-
-                            return mark;
-                        }
-                    }
-                }
-            }
-
-            // Fallback rules if helper logic didn't catch it
             for (let mark of userMarks) {
                 let markLower = mark.subject.toLowerCase().trim();
 
-                if ((reqLower.includes('maths') || reqLower.includes('mathematics')) && !reqLower.includes('lit') && (markLower.includes('maths') || markLower.includes('mathematics')) && !markLower.includes('lit')) return mark;
-                if ((reqLower.includes('math') && reqLower.includes('lit')) && (markLower.includes('math') && markLower.includes('lit'))) return mark;
+                if (reqLower.includes(markLower) || markLower.includes(reqLower)) return mark;
+                if ((reqLower.includes('maths') || reqLower.includes('mathematics')) && (markLower.includes('maths') || markLower.includes('mathematics'))) return mark;
                 if (reqLower.includes('english') && markLower.includes('english')) return mark;
                 if ((reqLower.includes('phys sci') || reqLower.includes('physical sciences')) && (markLower.includes('phys sci') || markLower.includes('physical sciences'))) return mark;
                 if ((reqLower.includes('life sci') || reqLower.includes('biology')) && (markLower.includes('life sci') || markLower.includes('biology'))) return mark;
@@ -192,7 +130,7 @@
             if (course.required_subjects && course.required_subjects.length > 0) {
                 for (let req of course.required_subjects) {
                     // Skip 'Additional Subjects' or empty ones
-                    if (!req.subject || req.subject.toLowerCase() === 'additional subjects') continue;
+                    if (!req.subject || req.subject.toLowerCase().includes('additional subject') || req.subject.toLowerCase().includes('other subject')) continue;
 
                     validSubjectCount++;
                     let matchedMark = checkSubjectMatch(req.subject);
@@ -249,8 +187,8 @@
 
             if (!isFps) {
                 // Standard APS logic
-                rawScore = ((userAps / MAX_APS) * 100) * 0.65 + (avgUserPerc) * 0.35;
-                rawMin = ((reqAps / MAX_APS) * 100) * 0.65 + (avgMinPerc) * 0.35;
+                rawScore = ((userAps / MAX_APS) * 100) * 0.50 + (avgUserPerc) * 0.50;
+                rawMin = ((reqAps / MAX_APS) * 100) * 0.50 + (avgMinPerc) * 0.50;
             } else {
                 // FPS only (no APS)
                 rawScore = avgUserPerc;
