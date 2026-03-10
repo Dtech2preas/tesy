@@ -317,17 +317,22 @@ template = """<!DOCTYPE html>
                 }}
 
                 if (groupMet) {{
-                    totalMinPerc += bestMatch.reqPerc;
+                    let effReqPerc = bestMatch.reqPerc > 0 ? bestMatch.reqPerc : (parseInt(bestMatch.req.level || '0', 10) > 0 ? parseInt(bestMatch.req.level, 10) * 10 : 50);
+                    totalMinPerc += effReqPerc;
                     totalUserPerc += bestMatch.mark.percentage;
                 }} else {{
                     meetsSubjects = false;
                     if (bestMatch && bestMatch.mark) {{
-                        totalMinPerc += bestMatch.reqPerc;
+                        let effReqPerc = bestMatch.reqPerc > 0 ? bestMatch.reqPerc : (parseInt(bestMatch.req.level || '0', 10) > 0 ? parseInt(bestMatch.req.level, 10) * 10 : 50);
+                        totalMinPerc += effReqPerc;
                         totalUserPerc += bestMatch.mark.percentage;
                     }} else {{
                         let avgReqPerc = 0;
                         group.forEach(r => {{
                             let rp = parseInt(r.percentage || '0', 10);
+                            let rl = parseInt(r.level || '0', 10);
+                            if (rp === 0 && rl > 0) rp = rl * 10;
+                            if (rp === 0) rp = 50;
                             if(rp > avgReqPerc) avgReqPerc = rp;
                         }});
                         totalMinPerc += avgReqPerc;
@@ -345,48 +350,46 @@ template = """<!DOCTYPE html>
 
             let meetsAllMinimums = meetsSubjects && meetsTargetScore;
 
-            let rawScore = 0;
-            let rawMin = 0;
+            let apsScore = 100;
+            if (targetScore > 0) {{
+                apsScore = Math.min((userScore / targetScore) * 100, 100);
+            }}
 
+            let subScore = 100;
             if (validSubjectCount > 0) {{
-                let avgUserPerc = totalUserPerc / validSubjectCount;
-                let avgMinPerc = totalMinPerc / validSubjectCount;
-                if (!isFps) {{
-                    rawScore = ((effectiveUserAps / MAX_APS) * 100) * 0.50 + (avgUserPerc) * 0.50;
-                    rawMin = ((reqAps / MAX_APS) * 100) * 0.50 + (avgMinPerc) * 0.50;
+                if (totalMinPerc > 0) {{
+                    subScore = Math.min((totalUserPerc / totalMinPerc) * 100, 100);
                 }} else {{
-                    rawScore = avgUserPerc;
-                    rawMin = avgMinPerc;
-                }}
-            }} else {{
-                if (!isFps) {{
-                    rawScore = ((effectiveUserAps / MAX_APS) * 100);
-                    rawMin = ((reqAps / MAX_APS) * 100);
-                }} else {{
-                    rawScore = userScore;
-                    rawMin = targetScore;
+                    subScore = meetsSubjects ? 100 : 0;
                 }}
             }}
 
-            let mappedScore = 0;
-
-            if (rawMin <= 0) {{
-                mappedScore = meetsAllMinimums ? 100 : 0;
+            let finalScore = 0;
+            if (validSubjectCount > 0) {{
+                if (isFps) {{
+                    finalScore = subScore;
+                }} else {{
+                    finalScore = (apsScore * 0.65) + (subScore * 0.35);
+                }}
             }} else {{
-                mappedScore = (rawScore / rawMin) * 100;
+                finalScore = apsScore;
             }}
 
-            if (!meetsAllMinimums && mappedScore >= 100) {{
-                mappedScore = 99;
+            if (subjectFails.length > 0) {{
+                finalScore -= (subjectFails.length * 10);
             }}
 
-            mappedScore = Math.max(0, Math.min(100, Math.round(mappedScore)));
+            if (!meetsTargetScore) {{
+                finalScore -= 10;
+            }}
+
+            let mappedScore = Math.max(0, Math.min(100, Math.round(finalScore)));
 
             let reason = "";
             let scoreType = isFps ? "FPS" : "APS";
 
             if (meetsAllMinimums) {{
-                reason = `Met all requirements! Your score reflects how far above the minimums you are.`;
+                reason = `Met all requirements!`;
             }} else {{
                 let parts = [];
                 if (subjectFails.length > 0) parts.push(`Failed subjects: ${{subjectFails.join(', ')}}`);
