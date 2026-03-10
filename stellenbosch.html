@@ -356,26 +356,14 @@
 
             let mappedScore = 0;
 
-            if (meetsAllMinimums) {
-                if (rawMin >= 100 && !isFps) {
-                    mappedScore = 100;
-                } else if (isFps && rawMin >= 600) {
-                    mappedScore = 100;
-                } else {
-                    let maxPossible = isFps ? 600 : 100;
-                    if (rawScore >= maxPossible) {
-                        mappedScore = 100;
-                    } else {
-                        mappedScore = 50 + ((rawScore - rawMin) / (maxPossible - rawMin)) * 50;
-                    }
-                }
+            if (rawMin <= 0) {
+                mappedScore = meetsAllMinimums ? 100 : 0;
             } else {
-                if (rawMin <= 0) {
-                    mappedScore = 0;
-                } else {
-                    mappedScore = (rawScore / rawMin) * 49;
-                    mappedScore = Math.min(mappedScore, 49);
-                }
+                mappedScore = (rawScore / rawMin) * 100;
+            }
+
+            if (!meetsAllMinimums && mappedScore >= 100) {
+                mappedScore = 99;
             }
 
             mappedScore = Math.max(0, Math.min(100, Math.round(mappedScore)));
