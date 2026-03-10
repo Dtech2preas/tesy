@@ -352,16 +352,17 @@ template = """<!DOCTYPE html>
 
             let apsScore = 100;
             if (targetScore > 0) {{
-                apsScore = Math.min((userScore / targetScore) * 100, 100);
+                if (isFps) {{
+                    let MAX_FPS = 600; // Assuming top 6 subjects for FPS max out
+                    apsScore = (userScore / MAX_FPS) * 100;
+                }} else {{
+                    apsScore = (userScore / MAX_APS) * 100;
+                }}
             }}
 
             let subScore = 100;
             if (validSubjectCount > 0) {{
-                if (totalMinPerc > 0) {{
-                    subScore = Math.min((totalUserPerc / totalMinPerc) * 100, 100);
-                }} else {{
-                    subScore = meetsSubjects ? 100 : 0;
-                }}
+                subScore = (totalUserPerc / (validSubjectCount * 100)) * 100;
             }}
 
             let finalScore = 0;
@@ -376,14 +377,18 @@ template = """<!DOCTYPE html>
             }}
 
             if (subjectFails.length > 0) {{
-                finalScore -= (subjectFails.length * 10);
+                // Apply a severe penalty for each failed subject group
+                for (let i = 0; i < subjectFails.length; i++) {{
+                    finalScore *= 0.5;
+                }}
             }}
 
             if (!meetsTargetScore) {{
-                finalScore -= 10;
+                // Apply penalty if target score is missed
+                finalScore *= 0.5;
             }}
 
-            let mappedScore = Math.max(0, Math.min(100, Math.round(finalScore)));
+            let mappedScore = Math.round(finalScore);
 
             let reason = "";
             let scoreType = isFps ? "FPS" : "APS";
