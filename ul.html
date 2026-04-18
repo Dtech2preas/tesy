@@ -3,56 +3,250 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>University of Limpopo (UL) Courses & Eligibility</title>
+    <title>University of Limpopo (UL) - Eligibility</title>
     <style>
-        body { font-family: Arial, sans-serif; max-width: 1000px; margin: 0 auto; padding: 20px; }
-        .header { display: flex; justify-content: space-between; align-items: center; border-bottom: 2px solid #ccc; padding-bottom: 10px; margin-bottom: 20px; }
-        .back-btn { text-decoration: none; padding: 10px 15px; background: #333; color: #fff; border-radius: 5px; }
-        .search-bar { width: 100%; padding: 10px; font-size: 16px; margin-bottom: 20px; box-sizing: border-box; }
-        .course-card { border: 1px solid #ddd; padding: 15px; margin-bottom: 15px; border-radius: 5px; background: #fafafa; }
-        .course-title { font-size: 18px; font-weight: bold; margin-bottom: 10px; color: #0056b3; }
-        .likelihood-100 { color: #28a745; font-weight: bold; font-size: 1.1em; }
-        .likelihood-high { color: #85c100; font-weight: bold; font-size: 1.1em; }
-        .likelihood-med { color: #fd7e14; font-weight: bold; font-size: 1.1em; }
-        .likelihood-low { color: #dc3545; font-weight: bold; font-size: 1.1em; }
-        .faculty-header { margin-top: 30px; margin-bottom: 15px; background: #e9ecef; padding: 10px; border-radius: 4px; }
-        .req-list { margin: 5px 0 0 20px; }
-        .course-details { color: #555; font-size: 0.9em; margin-bottom: 10px; }
-        .likelihood-box { background: #fff; border: 1px solid #eee; padding: 10px; border-radius: 5px; margin-top: 10px; }
+        :root {
+            --bg-color: #0b0c10;
+            --container-bg: #1f2833;
+            --text-color: #c5c6c7;
+            --primary-accent: #66fcf1;
+            --secondary-accent: #45a29e;
+            --error-color: #ff4b4b;
+            --success-color: #4CAF50;
+            --border-radius: 8px;
+            --font-family: 'Inter', -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif;
+        }
+
+        body {
+            font-family: var(--font-family);
+            background-color: var(--bg-color);
+            color: var(--text-color);
+            max-width: 900px;
+            margin: 0 auto;
+            padding: 20px;
+            line-height: 1.6;
+        }
+
+        .header {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            border-bottom: 2px solid #333;
+            padding-bottom: 15px;
+            margin-bottom: 25px;
+            flex-wrap: wrap;
+            gap: 15px;
+        }
+
+        h1 {
+            color: var(--primary-accent);
+            margin: 0;
+            font-size: 1.8em;
+        }
+
+        .back-btn {
+            text-decoration: none;
+            padding: 10px 20px;
+            background: transparent;
+            color: var(--primary-accent);
+            border: 1px solid var(--primary-accent);
+            border-radius: 5px;
+            font-weight: bold;
+            transition: all 0.3s ease;
+        }
+
+        .back-btn:hover {
+            background: rgba(102, 252, 241, 0.1);
+        }
+
+        #user-info {
+            background: var(--container-bg);
+            padding: 15px;
+            border-radius: var(--border-radius);
+            margin-bottom: 25px;
+            border-left: 4px solid var(--secondary-accent);
+            font-size: 0.9em;
+        }
+
+        /* Search & Dropdown Area */
+        .search-container {
+            background: var(--container-bg);
+            padding: 20px;
+            border-radius: var(--border-radius);
+            margin-bottom: 25px;
+            box-shadow: 0 4px 15px rgba(0, 0, 0, 0.3);
+        }
+
+        .search-container label {
+            display: block;
+            margin-bottom: 8px;
+            color: var(--primary-accent);
+            font-weight: bold;
+        }
+
+        .search-bar, .course-dropdown {
+            width: 100%;
+            padding: 12px;
+            font-size: 16px;
+            margin-bottom: 15px;
+            box-sizing: border-box;
+            border: none;
+            border-radius: 5px;
+            background-color: #2a3644;
+            color: #fff;
+            outline: none;
+        }
+
+        .search-bar:focus, .course-dropdown:focus {
+            box-shadow: 0 0 0 2px var(--primary-accent);
+        }
+
+        /* Course Card */
+        #selected-course-container {
+            margin-top: 20px;
+        }
+
+        .course-card {
+            background: var(--container-bg);
+            padding: 25px;
+            border-radius: var(--border-radius);
+            box-shadow: 0 5px 15px rgba(0, 0, 0, 0.4);
+            border: 1px solid #333;
+            transition: transform 0.3s ease;
+        }
+
+        .course-title {
+            font-size: 1.5em;
+            font-weight: bold;
+            margin-bottom: 15px;
+            color: var(--primary-accent);
+            border-bottom: 1px solid #333;
+            padding-bottom: 10px;
+        }
+
+        .course-details {
+            color: #aaa;
+            font-size: 1em;
+            margin-bottom: 15px;
+            display: flex;
+            flex-wrap: wrap;
+            gap: 15px;
+        }
+
+        .course-details span {
+            background: rgba(0,0,0,0.3);
+            padding: 5px 10px;
+            border-radius: 4px;
+        }
+
+        .req-list {
+            margin: 10px 0 20px 20px;
+            color: #ddd;
+        }
+
+        .check-eligibility-btn {
+            width: 100%;
+            padding: 15px;
+            background-color: var(--primary-accent);
+            color: var(--bg-color);
+            font-size: 1.1em;
+            font-weight: bold;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+            transition: all 0.3s ease;
+            margin-top: 10px;
+        }
+
+        .check-eligibility-btn:hover {
+            background-color: var(--secondary-accent);
+            transform: translateY(-2px);
+        }
+
+        /* Likelihood Results Box */
+        .likelihood-box {
+            background: #1a222a;
+            border: 1px solid var(--secondary-accent);
+            padding: 20px;
+            border-radius: 5px;
+            margin-top: 20px;
+            text-align: center;
+            display: none; /* Hidden until calculated */
+            animation: fadeIn 0.5s ease;
+        }
+
+        @keyframes fadeIn {
+            from { opacity: 0; transform: translateY(-10px); }
+            to { opacity: 1; transform: translateY(0); }
+        }
+
+        .likelihood-100 { color: #00ff88; text-shadow: 0 0 10px rgba(0,255,136,0.3); }
+        .likelihood-high { color: #a2ff00; }
+        .likelihood-med { color: #ffaa00; }
+        .likelihood-low { color: #ff4b4b; }
+
+        .likelihood-score {
+            font-size: 3em;
+            font-weight: bold;
+            margin: 10px 0;
+            display: block;
+        }
+
+        .likelihood-reason {
+            font-size: 1em;
+            color: #aaa;
+            margin-top: 10px;
+        }
+
+        .hidden { display: none !important; }
+
+        @media (max-width: 600px) {
+            .header { flex-direction: column; text-align: center; }
+            .course-details { flex-direction: column; gap: 5px; }
+        }
     </style>
 </head>
 <body>
 
     <div class="header">
         <h1>University of Limpopo (UL)</h1>
-        <a href="index.html" class="back-btn">&larr; Back to Subjects</a>
+        <a href="index.html" class="back-btn">&larr; Back Home</a>
     </div>
 
-    <div id="user-info" style="margin-bottom: 20px; padding: 15px; background: #eef; border-radius: 5px;">
-        Loading your subjects...
+    <div id="user-info" class="hidden">
+        <!-- Injected via JS -->
     </div>
 
-    <input type="text" id="search-input" class="search-bar" placeholder="Search for a course..." onkeyup="filterCourses()">
+    <div class="search-container">
+        <label for="search-input">Find a Course</label>
+        <input type="text" id="search-input" class="search-bar" placeholder="Type to search courses..." oninput="filterDropdown()">
 
-    <div id="courses-container">
-        Loading courses...
+        <label for="course-select">Or Select from List</label>
+        <select id="course-select" class="course-dropdown" onchange="selectCourseFromDropdown()">
+            <option value="">-- Loading Courses... --</option>
+        </select>
+    </div>
+
+    <div id="selected-course-container">
+        <!-- Selected course card will appear here -->
     </div>
 
     <script>
         const uniFile = 'ul.json';
-        let allCourses = [];
+        let allCourses = []; // Stores actual course objects
         let userMarks = [];
         let userAps = 0;
         let userFps = 0;
         let helperData = null;
+        let currentSelectedCourse = null;
 
         async function init() {
             const marksStr = localStorage.getItem('userMarks');
             if (!marksStr) {
-                document.getElementById('courses-container').innerHTML = '<p style="color:red; font-weight:bold;">No subjects found. Please go back to the main page and enter your subjects first.</p>';
-                document.getElementById('user-info').style.display = 'none';
+                document.getElementById('selected-course-container').innerHTML = '<p style="color:var(--error-color); font-weight:bold; text-align:center;">No subjects found. Please go back to the main page and enter your subjects first.</p>';
                 return;
             }
+
             userMarks = JSON.parse(marksStr);
             userAps = parseInt(localStorage.getItem('userAps') || '0', 10);
             userFps = parseInt(localStorage.getItem('userFps') || '0', 10);
@@ -61,7 +255,6 @@
             if (helperStr) {
                 helperData = JSON.parse(helperStr);
             } else {
-                // fallback fetch
                 try {
                     let hRes = await fetch('helper.json');
                     helperData = await hRes.json();
@@ -70,16 +263,13 @@
                 }
             }
 
-            let subStrings = userMarks.map(m => `<li>${m.subject}: ${m.percentage}% (Level ${m.level})</li>`).join('');
-            document.getElementById('user-info').innerHTML = `
-                <div style="display: flex; justify-content: space-between;">
-                    <div>
-                        <strong>Your APS:</strong> ${userAps} <br>
-                        <strong>Your FPS:</strong> ${userFps} (Total percentage)
-                    </div>
-                    <div>
-                        <ul style="margin: 0; padding-left: 20px;">${subStrings}</ul>
-                    </div>
+            let subStrings = userMarks.map(m => `${m.subject} (${m.percentage}%)`).join(' | ');
+            let infoDiv = document.getElementById('user-info');
+            infoDiv.classList.remove('hidden');
+            infoDiv.innerHTML = `
+                <div style="display: flex; justify-content: space-between; flex-wrap: wrap; gap: 10px;">
+                    <div><strong>APS:</strong> <span style="color:var(--primary-accent)">${userAps}</span> | <strong>FPS:</strong> <span style="color:var(--primary-accent)">${userFps}</span></div>
+                    <div style="color: #888;">${subStrings}</div>
                 </div>
             `;
 
@@ -87,12 +277,135 @@
                 const response = await fetch(uniFile);
                 if (!response.ok) throw new Error('File not found');
                 const data = await response.json();
-                renderCourses(data);
+
+                // Flatten faculties into a single array of courses
+                let faculties = Object.keys(data);
+                faculties.forEach(faculty => {
+                    let courseList = data[faculty];
+                    if (Array.isArray(courseList)) {
+                        courseList.forEach(course => {
+                            course.facultyName = faculty; // Keep track of faculty
+                            allCourses.push(course);
+                        });
+                    }
+                });
+
+                // Sort courses alphabetically
+                allCourses.sort((a, b) => a.course_name.localeCompare(b.course_name));
+
+                populateDropdown(allCourses);
+
             } catch(err) {
-                document.getElementById('courses-container').innerHTML = '<p style="color:red">Failed to load university data. Ensure you are running this through a local server.</p>';
+                document.getElementById('selected-course-container').innerHTML = '<p style="color:var(--error-color)">Failed to load university data. Ensure you are running this through a local server.</p>';
                 console.error(err);
             }
         }
+
+        function populateDropdown(coursesToDisplay) {
+            const select = document.getElementById('course-select');
+            select.innerHTML = '<option value="">-- Select a Course --</option>';
+
+            coursesToDisplay.forEach((course, index) => {
+                // Store actual index in the main array as the value to retrieve it easily later
+                const mainIndex = allCourses.indexOf(course);
+                let option = document.createElement('option');
+                option.value = mainIndex;
+                option.textContent = course.course_name;
+                select.appendChild(option);
+            });
+        }
+
+        function filterDropdown() {
+            let filter = document.getElementById('search-input').value.toLowerCase();
+            let filteredCourses = allCourses.filter(c => c.course_name.toLowerCase().includes(filter));
+            populateDropdown(filteredCourses);
+
+            // If user searches, clear selection
+            document.getElementById('course-select').value = "";
+            document.getElementById('selected-course-container').innerHTML = '';
+            currentSelectedCourse = null;
+        }
+
+        function selectCourseFromDropdown() {
+            const select = document.getElementById('course-select');
+            const selectedIndex = select.value;
+
+            if (selectedIndex === "") {
+                document.getElementById('selected-course-container').innerHTML = '';
+                currentSelectedCourse = null;
+                return;
+            }
+
+            currentSelectedCourse = allCourses[selectedIndex];
+            renderCourseCard(currentSelectedCourse);
+        }
+
+        function renderCourseCard(course) {
+            const container = document.getElementById('selected-course-container');
+
+            let reqsHtml = '';
+            if (course.required_subjects && course.required_subjects.length > 0) {
+                let subs = course.required_subjects.map(s => {
+                    if (!s.subject) return '';
+                    let reqStr = s.subject;
+                    if (s.level && s.level !== "Unspecified") reqStr += ` (Level ${s.level})`;
+                    if (s.percentage) reqStr += ` (${s.percentage})`;
+                    return `<li>${reqStr}</li>`;
+                }).filter(str => str !== '').join('');
+                reqsHtml = subs ? `<ul class="req-list">${subs}</ul>` : '<p style="color:#aaa;">None specified.</p>';
+            } else {
+                reqsHtml = `<p style="color:#aaa;">None specified.</p>`;
+            }
+
+            let scoreHtml = [];
+            if (course.aps) scoreHtml.push(`<span><strong>APS:</strong> ${course.aps}</span>`);
+            if (course.aps_range) scoreHtml.push(`<span><strong>APS:</strong> ${course.aps_range}</span>`);
+            if (course.fps) scoreHtml.push(`<span><strong>FPS:</strong> ${course.fps}</span>`);
+
+            let detailsHtml = scoreHtml.length > 0 ? scoreHtml.join('') : '<span><strong>APS:</strong> Not specified</span>';
+            if (course.duration) detailsHtml += `<span><strong>Duration:</strong> ${course.duration} years</span>`;
+            if (course.course_code) detailsHtml += `<span><strong>Code:</strong> ${course.course_code}</span>`;
+            if (course.facultyName) detailsHtml += `<span><strong>Faculty:</strong> ${course.facultyName}</span>`;
+
+            container.innerHTML = `
+                <div class="course-card">
+                    <div class="course-title">${course.course_name}</div>
+                    <div class="course-details">${detailsHtml}</div>
+                    <div><strong style="color:var(--secondary-accent)">Required Subjects:</strong></div>
+                    ${reqsHtml}
+
+                    <button class="check-eligibility-btn" onclick="runEligibilityCheck()">Check My Eligibility</button>
+
+                    <div id="eligibility-result" class="likelihood-box">
+                        <!-- Results injected here -->
+                    </div>
+                </div>
+            `;
+        }
+
+        function runEligibilityCheck() {
+            if (!currentSelectedCourse) return;
+
+            const btn = document.querySelector('.check-eligibility-btn');
+            btn.style.display = 'none'; // Hide button after clicking
+
+            const resultBox = document.getElementById('eligibility-result');
+            resultBox.style.display = 'block';
+            resultBox.innerHTML = '<p>Calculating...</p>';
+
+            // Small delay for UI effect
+            setTimeout(() => {
+                let likelihood = calculateLikelihood(currentSelectedCourse, userMarks, userAps, userFps, helperData);
+
+                resultBox.innerHTML = `
+                    <div style="text-transform: uppercase; letter-spacing: 1px; color: #888;">Likelihood of Acceptance</div>
+                    <span class="likelihood-score ${getLikelihoodClass(likelihood.likelihood)}">${likelihood.likelihood}%</span>
+                    <div class="likelihood-reason">${likelihood.reason}</div>
+                `;
+            }, 400);
+        }
+
+        // --- Core Calculation Logic (Unchanged from original) ---
 
         function checkSubjectMatch(reqSubjectName, userMarks, helperData) {
             if (!reqSubjectName) return null;
@@ -220,10 +533,6 @@
             let hardFailReason = null;
 
             if (course.required_subjects && Array.isArray(course.required_subjects)) {
-                // Need to group ORs as before or assume course.required_subjects are individual objects
-                // In the old code we grouped ORs. The new code assumes course.required_subjects might have arrays for ORs
-                // Let's adapt the user's logic to group ORs similar to old logic first so we have the arrays.
-
                 let groupedReqs = [];
                 let currentGroup = [];
                 for (let i = 0; i < course.required_subjects.length; i++) {
@@ -286,14 +595,10 @@
 
                         if (matchedUserMark !== null) {
                             const minPct = getMinForRequirement(subj);
-                            // minPct could be 0 if unspecified, we should pass it
                             if (minPct === 0 || matchedUserMark.percentage >= minPct - 15) {
                                 passedOr = true;
                                 break;
                             }
-                        } else if (getMinForRequirement(subj) === 0) {
-                            // No minimum requirement specified, implicitly pass if matched?
-                            // Or rather, if no minimum is specified, they still need the subject. But if they don't have it, they fail.
                         }
                     }
 
@@ -303,7 +608,7 @@
                         return { likelihood: 0, status: "ineligible", reason: hardFailReason };
                     }
                 }
-                course._mergedGroups = mergedGroups; // save for stage 2
+                course._mergedGroups = mergedGroups;
             }
 
             let minScore = null;
@@ -317,7 +622,7 @@
             }
 
             if (minScore !== null) {
-                userScore = Math.min(userAps, 42); // Cap APS at 42
+                userScore = Math.min(userAps, 42);
                 maxSpread = 8.0;
                 scoreName = "APS";
             } else if (course.fps !== undefined) {
@@ -399,97 +704,6 @@
             if (percent >= 70) return 'likelihood-high';
             if (percent >= 40) return 'likelihood-med';
             return 'likelihood-low';
-        }
-
-        function renderCourses(data) {
-            const container = document.getElementById('courses-container');
-            container.innerHTML = '';
-            allCourses = [];
-
-            let faculties = Object.keys(data);
-
-            faculties.forEach(faculty => {
-                let facDiv = document.createElement('div');
-                facDiv.className = 'faculty-section';
-
-                let facHead = document.createElement('h2');
-                facHead.className = 'faculty-header';
-                facHead.textContent = faculty;
-                facDiv.appendChild(facHead);
-
-                let courseList = data[faculty];
-                if (!Array.isArray(courseList)) return;
-
-                courseList.forEach(course => {
-                    let cDiv = document.createElement('div');
-                    cDiv.className = 'course-card';
-
-                    let likelihood = calculateLikelihood(course, userMarks, userAps, userFps, helperData);
-
-                    let reqsHtml = '';
-                    if (course.required_subjects && course.required_subjects.length > 0) {
-                        let subs = course.required_subjects.map(s => {
-                            if (!s.subject) return '';
-                            let reqStr = s.subject;
-                            if (s.level && s.level !== "Unspecified") reqStr += ` (Level ${s.level})`;
-                            if (s.percentage) reqStr += ` (${s.percentage})`;
-                            return `<li>${reqStr}</li>`;
-                        }).filter(str => str !== '').join('');
-                        reqsHtml = subs ? `<ul class="req-list">${subs}</ul>` : 'None specified.';
-                    } else {
-                        reqsHtml = `<p style="margin: 5px 0 0 0;">None specified.</p>`;
-                    }
-
-                    let scoreHtml = [];
-                    if (course.aps) scoreHtml.push(`<strong>APS:</strong> ${course.aps}`);
-                    if (course.aps_range) scoreHtml.push(`<strong>APS:</strong> ${course.aps_range}`);
-                    if (course.fps) scoreHtml.push(`<strong>FPS:</strong> ${course.fps}`);
-
-                    let detailsHtml = scoreHtml.length > 0 ? scoreHtml.join(' | ') : '<strong>APS:</strong> Not specified';
-                    if (course.duration) detailsHtml += ` | <strong>Duration:</strong> ${course.duration} years`;
-                    if (course.course_code) detailsHtml += ` | <strong>Code:</strong> ${course.course_code}`;
-
-                    cDiv.innerHTML = `
-                        <div class="course-title">${course.course_name}</div>
-                        <div class="course-details">${detailsHtml}</div>
-                        <div><strong>Required Subjects:</strong></div>
-                        ${reqsHtml}
-
-                        <div class="likelihood-box">
-                            <strong>Likelihood of Acceptance: </strong>
-                            <span class="${getLikelihoodClass(likelihood.likelihood)}">${likelihood.likelihood}%</span>
-                            <div style="font-size: 0.9em; color: #666; margin-top: 5px;">${likelihood.reason}</div>
-                        </div>
-                    `;
-
-                    allCourses.push({
-                        name: course.course_name.toLowerCase(),
-                        element: cDiv,
-                        parent: facDiv
-                    });
-
-                    facDiv.appendChild(cDiv);
-                });
-
-                if (facDiv.querySelectorAll('.course-card').length > 0) {
-                    container.appendChild(facDiv);
-                }
-            });
-        }
-
-        function filterCourses() {
-            let filter = document.getElementById('search-input').value.toLowerCase();
-
-            document.querySelectorAll('.faculty-header').forEach(el => el.style.display = 'none');
-
-            allCourses.forEach(c => {
-                if (c.name.includes(filter)) {
-                    c.element.style.display = 'block';
-                    c.parent.querySelector('.faculty-header').style.display = 'block';
-                } else {
-                    c.element.style.display = 'none';
-                }
-            });
         }
 
         window.onload = init;
