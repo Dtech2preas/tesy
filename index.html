@@ -3,53 +3,279 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>University Eligibility Checker</title>
+    <title>DTech Eligibility Checker</title>
     <style>
-        body { font-family: Arial, sans-serif; max-width: 800px; margin: 0 auto; padding: 20px; }
-        .subject-row { margin-bottom: 10px; display: flex; gap: 10px; align-items: center; }
-        input, select, button { padding: 8px; font-size: 16px; }
-        .hidden { display: none; }
-        .universities-list { margin-top: 30px; }
-        .university-link { display: block; margin: 10px 0; padding: 15px; background: #f0f0f0; text-decoration: none; color: #333; border-radius: 5px; text-align: center; font-weight: bold; }
-        .university-link:hover { background: #e0e0e0; }
-        #results-container { margin-top: 20px; padding: 15px; border: 1px solid #ccc; background: #f9f9f9; }
+        :root {
+            --bg-color: #0b0c10;
+            --container-bg: #1f2833;
+            --text-color: #c5c6c7;
+            --primary-accent: #66fcf1;
+            --secondary-accent: #45a29e;
+            --error-color: #ff4b4b;
+            --border-radius: 8px;
+            --font-family: 'Inter', -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif;
+        }
+
+        body {
+            font-family: var(--font-family);
+            background-color: var(--bg-color);
+            color: var(--text-color);
+            max-width: 900px;
+            margin: 0 auto;
+            padding: 20px;
+            line-height: 1.6;
+        }
+
+        h1, h2, h3 {
+            color: var(--primary-accent);
+            text-align: center;
+        }
+
+        h1 {
+            font-size: 2.5em;
+            margin-bottom: 5px;
+            letter-spacing: 1px;
+            text-transform: uppercase;
+        }
+
+        p.subtitle {
+            text-align: center;
+            margin-bottom: 30px;
+            font-size: 1.1em;
+        }
+
+        .card {
+            background-color: var(--container-bg);
+            padding: 25px;
+            border-radius: var(--border-radius);
+            box-shadow: 0 4px 15px rgba(0, 0, 0, 0.3);
+            margin-bottom: 25px;
+            border-left: 4px solid var(--primary-accent);
+            transition: all 0.3s ease;
+        }
+
+        /* Subjects Input Section */
+        #subjects-section {
+            transition: max-height 0.4s ease-out, opacity 0.4s ease-out;
+            overflow: hidden;
+        }
+
+        .subject-row {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 10px;
+            align-items: center;
+            margin-bottom: 15px;
+            background: rgba(0,0,0,0.2);
+            padding: 10px;
+            border-radius: 5px;
+        }
+
+        input, select, button {
+            padding: 10px 15px;
+            font-size: 16px;
+            border: none;
+            border-radius: 5px;
+            background-color: #2a3644;
+            color: #fff;
+            outline: none;
+            transition: box-shadow 0.2s ease;
+        }
+
+        input:focus, select:focus {
+            box-shadow: 0 0 0 2px var(--primary-accent);
+        }
+
+        select.subject-select { flex: 2; min-width: 150px; }
+        input.subject-percentage { flex: 1; min-width: 100px; }
+        input.subject-level { flex: 0.5; min-width: 60px; text-align: center; background-color: #1a222a; cursor: not-allowed;}
+
+        button {
+            cursor: pointer;
+            font-weight: bold;
+            background-color: var(--primary-accent);
+            color: var(--bg-color);
+            transition: background-color 0.3s, transform 0.1s;
+        }
+
+        button:hover {
+            background-color: var(--secondary-accent);
+        }
+
+        button:active {
+            transform: scale(0.98);
+        }
+
+        button.remove-btn {
+            background-color: var(--error-color);
+            color: white;
+            padding: 10px 15px;
+        }
+
+        button.remove-btn:hover {
+            background-color: #e63939;
+        }
+
+        .actions-row {
+            display: flex;
+            justify-content: space-between;
+            margin-top: 20px;
+        }
+
+        .hidden {
+            display: none !important;
+        }
+
+        .collapsed {
+            max-height: 0;
+            opacity: 0;
+            padding-top: 0;
+            padding-bottom: 0;
+            margin-bottom: 0;
+            border: none;
+        }
+
+        /* Results Display */
+        #results-summary {
+            display: flex;
+            justify-content: space-around;
+            align-items: center;
+            flex-wrap: wrap;
+            text-align: center;
+        }
+
+        .score-box {
+            background: rgba(102, 252, 241, 0.1);
+            padding: 15px 30px;
+            border-radius: var(--border-radius);
+            border: 1px solid var(--primary-accent);
+            margin: 10px;
+        }
+
+        .score-box h3 {
+            margin: 0 0 5px 0;
+            font-size: 1.2em;
+            color: var(--text-color);
+        }
+
+        .score-box span {
+            font-size: 2em;
+            color: var(--primary-accent);
+            font-weight: bold;
+        }
+
+        #edit-marks-btn {
+            margin-top: 15px;
+            background-color: transparent;
+            border: 1px solid var(--primary-accent);
+            color: var(--primary-accent);
+            width: 100%;
+        }
+
+        #edit-marks-btn:hover {
+            background-color: rgba(102, 252, 241, 0.1);
+        }
+
+        /* Universities Grid */
+        .universities-list {
+            margin-top: 40px;
+        }
+
+        .uni-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+            gap: 20px;
+            margin-top: 20px;
+        }
+
+        .university-link {
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            height: 100px;
+            background: var(--container-bg);
+            text-decoration: none;
+            color: var(--primary-accent);
+            border-radius: var(--border-radius);
+            text-align: center;
+            font-weight: bold;
+            border: 1px solid #333;
+            transition: all 0.3s ease;
+            padding: 15px;
+        }
+
+        .university-link:hover {
+            background: #2a3644;
+            border-color: var(--primary-accent);
+            transform: translateY(-5px);
+            box-shadow: 0 5px 15px rgba(102, 252, 241, 0.2);
+        }
+
+        @media (max-width: 600px) {
+            .subject-row {
+                flex-direction: column;
+                align-items: stretch;
+            }
+            .actions-row {
+                flex-direction: column;
+                gap: 10px;
+            }
+            button { width: 100%; }
+        }
     </style>
 </head>
 <body>
 
-    <h1>University Eligibility Checker</h1>
-    <p>Enter your subjects and percentages below. We will calculate your Level automatically. <strong>Life Orientation</strong> is not included in your total APS or FPS score calculation.</p>
+    <h1>DTech Eligibility Checker</h1>
+    <p class="subtitle">Enter your subjects to calculate your APS and check university eligibility.</p>
 
-    <div id="subjects-container">
-        <!-- Rows will be injected here -->
+    <!-- Subjects Input Section -->
+    <div id="subjects-section" class="card">
+        <p style="margin-top:0; font-size: 0.9em; color: #888;">
+            <em>Note: Life Orientation is automatically excluded from your total APS/FPS score.</em>
+        </p>
+
+        <div id="subjects-container">
+            <!-- Rows will be injected here -->
+        </div>
+
+        <div class="actions-row">
+            <button id="add-subject-btn" type="button" onclick="addSubjectRow()">+ Add Subject</button>
+            <button id="save-marks-btn" type="button" onclick="saveAndCollapseMarks()">Save & Continue</button>
+        </div>
     </div>
 
-    <button id="add-subject-btn" type="button" onclick="addSubjectRow()">+ Add Subject</button>
-    <!-- Fetch More Subjects button removed as helper.json loads all at once -->
-    <hr>
-
-    <button id="save-marks-btn" type="button" onclick="saveMarks()">Save Marks</button>
-
-    <div id="results-container" class="hidden">
-        <h3>Your Calculated APS: <span id="calculated-aps">0</span></h3>
-        <h3>Your Calculated FPS (Top 6 %): <span id="calculated-fps">0</span></h3>
-        <p><em>Note: Life Orientation is excluded. Different universities may calculate this slightly differently.</em></p>
+    <!-- Results Summary Section (Hidden Initially) -->
+    <div id="results-container" class="card hidden">
+        <div id="results-summary">
+            <div class="score-box">
+                <h3>Your APS</h3>
+                <span id="calculated-aps">0</span>
+            </div>
+            <div class="score-box">
+                <h3>Your FPS</h3>
+                <span id="calculated-fps">0</span>
+            </div>
+        </div>
+        <button id="edit-marks-btn" type="button" onclick="editMarks()">Edit Subjects & Marks</button>
     </div>
 
+    <!-- Universities List -->
     <div class="universities-list">
-        <h2>Select a University to Check Eligibility</h2>
-        <a href="stellenbosch.html" class="university-link">Stellenbosch University</a>
-        <a href="tut.html" class="university-link">Tshwane University of Technology (TUT)</a>
-        <a href="uct.html" class="university-link">University of Cape Town (UCT)</a>
-        <a href="ul.html" class="university-link">University of Limpopo (UL)</a>
-        <a href="ump.html" class="university-link">University of Mpumalanga (UMP)</a>
-        <a href="univen.html" class="university-link">University of Venda (Univen)</a>
-        <a href="up.html" class="university-link">University of Pretoria (UP)</a>
-        <a href="wits.html" class="university-link">University of the Witwatersrand (Wits)</a>
+        <h2>Select a University</h2>
+        <div class="uni-grid">
+            <a href="stellenbosch.html" class="university-link">Stellenbosch University</a>
+            <a href="tut.html" class="university-link">Tshwane University of Technology (TUT)</a>
+            <a href="uct.html" class="university-link">University of Cape Town (UCT)</a>
+            <a href="ul.html" class="university-link">University of Limpopo (UL)</a>
+            <a href="ump.html" class="university-link">University of Mpumalanga (UMP)</a>
+            <a href="univen.html" class="university-link">University of Venda (Univen)</a>
+            <a href="up.html" class="university-link">University of Pretoria (UP)</a>
+            <a href="wits.html" class="university-link">University of the Witwatersrand (Wits)</a>
+        </div>
     </div>
 
     <script>
-
         let availableSubjects = new Set();
         let maxSubjects = 7;
         let subjectCount = 0;
@@ -60,49 +286,38 @@
                 const response = await fetch('helper.json');
                 helperData = await response.json();
 
-                // Add the keys (main display names) to availableSubjects
                 for (const mainSubject in helperData) {
                     availableSubjects.add(mainSubject);
                 }
 
-                // Also save the helper to localStorage so uni pages can use it easily without refetching, though they can refetch
                 localStorage.setItem('subjectHelper', JSON.stringify(helperData));
-
-                populateDropdowns();
             } catch (error) {
                 console.error("Error loading helper.json:", error);
-                // Fallback subjects
                 ['Mathematics', 'English Home Language', 'English First Additional Language', 'Life Orientation', 'Physical Sciences', 'Life Sciences'].forEach(sub => availableSubjects.add(sub));
-                populateDropdowns();
             }
 
-            addSubjectRow();
-            loadSavedMarks();
+            const savedMarks = JSON.parse(localStorage.getItem('userMarks'));
+            if (savedMarks && savedMarks.length > 0) {
+                // Load existing marks and show collapsed view
+                loadSavedMarks(savedMarks);
+                // Immediately calculate and collapse
+                calculateScores(savedMarks);
+                document.getElementById('subjects-section').classList.add('collapsed');
+                document.getElementById('results-container').classList.remove('hidden');
+            } else {
+                // First time user
+                addSubjectRow();
+            }
         }
 
-        // We don't need fetchMoreSubjects logic to do anything complex anymore
-        async function fetchMoreSubjects() {
-            const btn = document.getElementById('fetch-more-btn');
-            btn.disabled = true;
-            btn.textContent = 'All subjects loaded from helper';
-        }
-
-        function populateDropdowns() {
-
-            const selects = document.querySelectorAll('.subject-select');
+        function populateDropdowns(selectElement, selectedValue = '') {
             let sortedSubjects = Array.from(availableSubjects).sort();
-
-            selects.forEach(select => {
-                const currentVal = select.value;
-                select.innerHTML = '<option value="">Select a Subject...</option>';
-                sortedSubjects.forEach(sub => {
-                    let option = document.createElement('option');
-                    option.value = sub;
-                    option.textContent = sub;
-                    if(sub === currentVal) option.selected = true;
-                    select.appendChild(option);
-                });
+            let optionsHtml = '<option value="">Select a Subject...</option>';
+            sortedSubjects.forEach(sub => {
+                let selected = (sub === selectedValue) ? 'selected' : '';
+                optionsHtml += `<option value="${sub}" ${selected}>${sub}</option>`;
             });
+            selectElement.innerHTML = optionsHtml;
         }
 
         function addSubjectRow(savedName = '', savedPercentage = '', savedLevel = '') {
@@ -115,21 +330,14 @@
             const row = document.createElement('div');
             row.className = 'subject-row';
 
-            let sortedSubjects = Array.from(availableSubjects).sort();
-            let optionsHtml = '<option value="">Select a Subject...</option>';
-            sortedSubjects.forEach(sub => {
-                let selected = (sub === savedName) ? 'selected' : '';
-                optionsHtml += `<option value="${sub}" ${selected}>${sub}</option>`;
-            });
-
             row.innerHTML = `
-                <select class="subject-select" onchange="updateRowLevel(this.parentElement)">
-                    ${optionsHtml}
-                </select>
-                <input type="number" class="subject-percentage" placeholder="Percentage (0-100)" min="0" max="100" value="${savedPercentage}" oninput="updateRowLevel(this.parentElement)">
-                <input type="text" class="subject-level" placeholder="Level" value="${savedLevel}" readonly size="4">
-                <button type="button" onclick="removeSubjectRow(this)">X</button>
+                <select class="subject-select" onchange="updateRowLevel(this.parentElement)"></select>
+                <input type="number" class="subject-percentage" placeholder="Percentage (%)" min="0" max="100" value="${savedPercentage}" oninput="updateRowLevel(this.parentElement)">
+                <input type="text" class="subject-level" placeholder="Level" value="${savedLevel}" readonly title="APS Level">
+                <button type="button" class="remove-btn" onclick="removeSubjectRow(this)">X</button>
             `;
+
+            populateDropdowns(row.querySelector('.subject-select'), savedName);
             container.appendChild(row);
             subjectCount++;
         }
@@ -161,11 +369,9 @@
             }
         }
 
-        function saveMarks() {
+        function saveAndCollapseMarks() {
             const rows = document.querySelectorAll('.subject-row');
             let marks = [];
-            let totalAps = 0;
-            let totalFps = 0; // Sum of percentages excluding LO
 
             rows.forEach(row => {
                 const subject = row.querySelector('.subject-select').value;
@@ -174,51 +380,61 @@
 
                 if (subject && !isNaN(percentage) && !isNaN(level)) {
                     marks.push({ subject, percentage, level });
-
-                    // Do not include Life Orientation in total APS/FPS
-                    if (subject.toLowerCase() !== 'life orientation' && subject.toLowerCase() !== 'lo') {
-                        totalAps += level;
-                        totalFps += percentage;
-                    }
                 }
             });
 
+            if (marks.length === 0) {
+                alert("Please add at least one subject with valid marks before continuing.");
+                return;
+            }
+
             localStorage.setItem('userMarks', JSON.stringify(marks));
+            calculateScores(marks);
+
+            // Collapse section and show results
+            document.getElementById('subjects-section').classList.add('collapsed');
+            document.getElementById('results-container').classList.remove('hidden');
+
+            // Smooth scroll to universities list
+            document.querySelector('.universities-list').scrollIntoView({ behavior: 'smooth' });
+        }
+
+        function calculateScores(marks) {
+            let totalAps = 0;
+            let totalFps = 0;
+
+            marks.forEach(mark => {
+                if (mark.subject.toLowerCase() !== 'life orientation' && mark.subject.toLowerCase() !== 'lo') {
+                    totalAps += mark.level;
+                    totalFps += mark.percentage;
+                }
+            });
+
             localStorage.setItem('userAps', totalAps.toString());
             localStorage.setItem('userFps', totalFps.toString());
 
             document.getElementById('calculated-aps').textContent = totalAps;
             document.getElementById('calculated-fps').textContent = totalFps;
-            document.getElementById('results-container').classList.remove('hidden');
-
-            alert('Marks saved successfully! You can now select a university.');
         }
 
-        function loadSavedMarks() {
-            const savedMarks = JSON.parse(localStorage.getItem('userMarks'));
-            if (savedMarks && savedMarks.length > 0) {
-                document.getElementById('subjects-container').innerHTML = '';
-                subjectCount = 0;
-                savedMarks.forEach(mark => {
-                    // Make sure subject is in availableSubjects before adding row
-                    if (!availableSubjects.has(mark.subject)) {
-                        availableSubjects.add(mark.subject);
-                    }
-                });
-                populateDropdowns();
+        function editMarks() {
+            document.getElementById('subjects-section').classList.remove('collapsed');
+            document.getElementById('results-container').classList.add('hidden');
+        }
 
-                savedMarks.forEach(mark => {
-                    addSubjectRow(mark.subject, mark.percentage, mark.level);
-                });
+        function loadSavedMarks(savedMarks) {
+            document.getElementById('subjects-container').innerHTML = '';
+            subjectCount = 0;
 
-                const savedAps = localStorage.getItem('userAps');
-                const savedFps = localStorage.getItem('userFps');
-                if (savedAps && savedFps) {
-                    document.getElementById('calculated-aps').textContent = savedAps;
-                    document.getElementById('calculated-fps').textContent = savedFps;
-                    document.getElementById('results-container').classList.remove('hidden');
+            savedMarks.forEach(mark => {
+                if (!availableSubjects.has(mark.subject)) {
+                    availableSubjects.add(mark.subject);
                 }
-            }
+            });
+
+            savedMarks.forEach(mark => {
+                addSubjectRow(mark.subject, mark.percentage, mark.level);
+            });
         }
 
         window.onload = loadInitialSubjects;
