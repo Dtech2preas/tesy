@@ -203,28 +203,9 @@ template = """<!DOCTYPE html>
         }}
 
         function calculateLikelihood(course, userMarks, userAps, userFps, helperData) {{
-            let MAX_APS = 42;
-            let effectiveUserAps = Math.min(userAps, MAX_APS);
+            // Stage 1: Hard Eligibility Check
 
-            let reqAps = parseInt(course.aps || '0', 10);
-            let reqFps = parseInt(course.fps || '0', 10);
-
-            if (course.aps_range) {{
-                let parts = course.aps_range.split('-');
-                if (parts.length > 0) reqAps = parseInt(parts[0], 10);
-            }}
-
-            let isFps = (reqFps > 0 && reqAps === 0);
-            let targetScore = isFps ? reqFps : reqAps;
-            let userScore = isFps ? userFps : effectiveUserAps;
-
-            let meetsSubjects = true;
-            let subjectFails = [];
-
-            let totalUserPerc = 0;
-            let totalMinPerc = 0;
-            let validSubjectCount = 0;
-
+            // Extract required subjects and group ORs
             let groupedReqs = [];
             if (course.required_subjects && course.required_subjects.length > 0) {{
                 let currentGroup = [];
@@ -273,12 +254,15 @@ template = """<!DOCTYPE html>
                 }}
             }}
 
+            let validSubjectCount = 0;
+            let subjectScores = [];
+
             for (let group of mergedGroups) {{
                 validSubjectCount++;
-
-                let bestMatch = null;
+                let groupPassed = false;
                 let groupFails = [];
-                let groupMet = false;
+                let bestExcess = 0;
+                let hasMinRequirement = false;
 
                 for (let req of group) {{
                     let matchedMark = checkSubjectMatch(req.subject, userMarks, helperData);
@@ -293,116 +277,96 @@ template = """<!DOCTYPE html>
                     }}
                     if (isNaN(reqPerc)) reqPerc = 0;
 
+                    let minMark = 0;
+                    if (reqPerc > 0) minMark = reqPerc;
+                    else if (reqLevel > 0) minMark = reqLevel === 1 ? 0 : (reqLevel === 2 ? 30 : (reqLevel === 3 ? 40 : (reqLevel === 4 ? 50 : (reqLevel === 5 ? 60 : (reqLevel === 6 ? 70 : 80)))));
+
+                    if (minMark > 0) hasMinRequirement = true;
+
                     if (!matchedMark) {{
-                        groupFails.push(`Missing: ${{req.subject}}`);
+                        if (minMark > 0) groupFails.push(`Missing: ${{req.subject}}`);
                         continue;
                     }}
 
-                    let subMet = true;
-                    if (reqLevel > 0 && matchedMark.level < reqLevel) {{
-                        subMet = false;
-                        groupFails.push(`${{req.subject}} (Need L${{reqLevel}}, Got L${{matchedMark.level}})`);
-                    }} else if (reqPerc > 0 && matchedMark.percentage < reqPerc) {{
-                        subMet = false;
-                        groupFails.push(`${{req.subject}} (Need ${{reqPerc}}%, Got ${{matchedMark.percentage}}%)`);
-                    }}
-
-                    if (subMet) {{
-                        bestMatch = {{ req: req, mark: matchedMark, reqPerc: reqPerc }};
-                        groupMet = true;
-                        break;
-                    }} else if (!bestMatch || (bestMatch && !bestMatch.mark)) {{
-                        bestMatch = {{ req: req, mark: matchedMark, reqPerc: reqPerc }};
-                    }}
-                }}
-
-                if (groupMet) {{
-                    let effReqPerc = bestMatch.reqPerc > 0 ? bestMatch.reqPerc : (parseInt(bestMatch.req.level || '0', 10) > 0 ? parseInt(bestMatch.req.level, 10) * 10 : 50);
-                    totalMinPerc += effReqPerc;
-                    totalUserPerc += bestMatch.mark.percentage;
-                }} else {{
-                    meetsSubjects = false;
-                    if (bestMatch && bestMatch.mark) {{
-                        let effReqPerc = bestMatch.reqPerc > 0 ? bestMatch.reqPerc : (parseInt(bestMatch.req.level || '0', 10) > 0 ? parseInt(bestMatch.req.level, 10) * 10 : 50);
-                        totalMinPerc += effReqPerc;
-                        totalUserPerc += bestMatch.mark.percentage;
+                    if (minMark === 0) {{
+                        // No minimum specified -> automatically passes
+                        groupPassed = true;
+                        // Excess is 100% since no minimum required
+                        bestExcess = 100;
+                    }} else if (matchedMark.percentage >= minMark) {{
+                        groupPassed = true;
+                        let excess = ((matchedMark.percentage - minMark) / (100 - minMark)) * 100;
+                        if (excess > bestExcess) bestExcess = excess;
                     }} else {{
-                        let avgReqPerc = 0;
-                        group.forEach(r => {{
-                            let rp = parseInt(r.percentage || '0', 10);
-                            let rl = parseInt(r.level || '0', 10);
-                            if (rp === 0 && rl > 0) rp = rl * 10;
-                            if (rp === 0) rp = 50;
-                            if(rp > avgReqPerc) avgReqPerc = rp;
-                        }});
-                        totalMinPerc += avgReqPerc;
+                        groupFails.push(`${{req.subject}} (Need ${{minMark}}%, Got ${{matchedMark.percentage}}%)`);
                     }}
-                    subjectFails.push(groupFails.join(' OR '));
                 }}
-            }}
 
-            let meetsTargetScore = false;
-            if (targetScore === 0) {{
-                meetsTargetScore = true;
-            }} else {{
-                meetsTargetScore = (userScore >= targetScore);
-            }}
+                if (!groupPassed && hasMinRequirement) {{
+                    let subjNames = group.map(r => r.subject).join(' OR ');
+                    return {{ percent: 0, reason: `Missing or below minimum in required subject(s): ${{subjNames}}` }};
+                }}
 
-            let meetsAllMinimums = meetsSubjects && meetsTargetScore;
-
-            let apsScore = 100;
-            if (targetScore > 0) {{
-                if (isFps) {{
-                    let MAX_FPS = 600; // Assuming top 6 subjects for FPS max out
-                    apsScore = (userScore / MAX_FPS) * 100;
+                if (hasMinRequirement) {{
+                     subjectScores.push(Math.min(100, Math.max(0, bestExcess)));
                 }} else {{
-                    apsScore = (userScore / MAX_APS) * 100;
+                     // If the group has no min requirements, we still count it but give it full points.
+                     subjectScores.push(100);
                 }}
             }}
 
-            let subScore = 100;
+            // APS / FPS Check
+            let MAX_APS = 42;
+            let MAX_FPS = 600;
+            let effectiveUserAps = Math.min(userAps, MAX_APS);
+
+            let reqAps = parseInt(course.aps || '0', 10);
+            let reqFps = parseInt(course.fps || '0', 10);
+
+            if (course.aps_range) {{
+                let parts = course.aps_range.split('-');
+                if (parts.length > 0) reqAps = parseInt(parts[0], 10);
+            }}
+
+            let isFps = (reqFps > 0 && reqAps === 0);
+            let minScore = isFps ? reqFps : reqAps;
+            let userScore = isFps ? userFps : effectiveUserAps;
+            let maxScore = isFps ? MAX_FPS : MAX_APS;
+            let scoreName = isFps ? "FPS" : "APS";
+
+            if (minScore > 0 && userScore < minScore) {{
+                return {{ percent: 0, reason: `${{scoreName}} too low (${{userScore}} < ${{minScore}})` }};
+            }}
+
+            // Stage 2: Likelihood Percentage
+            if (minScore === 0) {{
+                return {{ percent: 100, reason: "Meets all published requirements" }};
+            }}
+
+            let avgSubjectScore = 100;
+            if (validSubjectCount > 0 && subjectScores.length > 0) {{
+                let sum = 0;
+                for (let s of subjectScores) sum += s;
+                avgSubjectScore = sum / subjectScores.length;
+            }}
+
+            let strength = ((userScore - minScore) / (maxScore - minScore)) * 100;
+            strength = Math.min(100, Math.max(0, strength));
+
+            let likelihood = 0;
             if (validSubjectCount > 0) {{
-                subScore = (totalUserPerc / (validSubjectCount * 100)) * 100;
-            }}
-
-            let finalScore = 0;
-            if (validSubjectCount > 0) {{
-                if (isFps) {{
-                    finalScore = subScore;
-                }} else {{
-                    finalScore = (apsScore * 0.65) + (subScore * 0.35);
-                }}
+                likelihood = Math.round(0.6 * avgSubjectScore + 0.4 * strength);
             }} else {{
-                finalScore = apsScore;
+                likelihood = Math.round(strength);
             }}
 
-            if (subjectFails.length > 0) {{
-                // Apply a severe penalty for each failed subject group
-                for (let i = 0; i < subjectFails.length; i++) {{
-                    finalScore *= 0.5;
-                }}
+            // Optional boost for very strong applicants
+            let relativeExcess = (userScore - minScore) / (maxScore - minScore);
+            if (relativeExcess >= 0.20) {{
+                likelihood = Math.min(100, likelihood + 10);
             }}
 
-            if (!meetsTargetScore) {{
-                // Apply penalty if target score is missed
-                finalScore *= 0.5;
-            }}
-
-            let mappedScore = Math.round(finalScore);
-
-            let reason = "";
-            let scoreType = isFps ? "FPS" : "APS";
-
-            if (meetsAllMinimums) {{
-                reason = `Met all requirements!`;
-            }} else {{
-                let parts = [];
-                if (subjectFails.length > 0) parts.push(`Failed subjects: ${{subjectFails.join(', ')}}`);
-                if (!meetsTargetScore) parts.push(`Your ${{scoreType}} (${{userScore}}) is below required (${{targetScore}})`);
-                reason = parts.join('. ');
-            }}
-
-            return {{ percent: mappedScore, reason: reason }};
+            return {{ percent: likelihood, reason: `Strong match – ${{scoreName}} strength${{validSubjectCount > 0 ? ' and subject performance' : ''}}` }};
         }}
 
         function getLikelihoodClass(percent) {{
