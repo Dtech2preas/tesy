@@ -202,15 +202,12 @@
     "African Languages": [
         "African Languages"
     ],
-    "Any First Additional Language": [
-        "First Additional Language",
-        "First Additional Language - First Additional Language",
-        "First additional language",
-        "first additional language",
-        "FAL",
-        "FAL  Deserving applicants will be requested to submit a portfolio of creative work"
-    ],
-    "Any Home Language": [
+    "Language": [
+        "Language",
+        "an additional language",
+        "another official language offered in the programme",
+        "any other additional language",
+        "any other official South African language offered in the",
         "Home Language",
         "Home Language - Home Language",
         "Home language offered in the programme",
@@ -218,14 +215,13 @@
         "Home Language may open up other careers.",
         "Home Language thinkers who use their knowledge and skills to create employment",
         "any other home language offered in the programme",
-        "any lang HL"
-    ],
-    "Language": [
-        "Language",
-        "an additional language",
-        "another official language offered in the programme",
-        "any other additional language",
-        "any other official South African language offered in the"
+        "any lang HL",
+        "First Additional Language",
+        "First Additional Language - First Additional Language",
+        "First additional language",
+        "first additional language",
+        "FAL",
+        "FAL  Deserving applicants will be requested to submit a portfolio of creative work"
     ],
     "Electrical Technology": [
         "Electrical Technology",
@@ -326,85 +322,7 @@
     "South African Sign Language Home Language": [
         "South African Sign Language Home Language"
     ],
-    "will be prioritised": [
-        "will be prioritised"
-    ],
-    "any three additional subjects": [
-        "any three additional subjects"
-    ],
-    "a diploma endorsement, and a relevant": [
-        "a diploma endorsement, and a relevant"
-    ],
-    "any other additional subjects.": [
-        "any other additional subjects."
-    ],
-    "two other subjects": [
-        "two other subjects"
-    ],
-    "Fighter I, HAZMAT Operational, and Fire Fighter II certificates.": [
-        "Fighter I, HAZMAT Operational, and Fire Fighter II certificates."
-    ],
-    "environment.": [
-        "environment."
-    ],
-    "ENFORCEMENT DEPARTMENT:": [
-        "ENFORCEMENT DEPARTMENT:"
-    ],
-    "confirmed working experience as a law enforcement official.": [
-        "confirmed working experience as a law enforcement official."
-    ],
-    "ENFORCEMENT DEPARTMENT, WITH A NATIONAL SENIOR": [
-        "ENFORCEMENT DEPARTMENT, WITH A NATIONAL SENIOR"
-    ],
-    "Additional Subject 1": [
-        "Additional Subject 1"
-    ],
-    "programme": [
-        "programme"
-    ],
     "Technology": [
         "Technology"
-    ],
-    "HR division of the department should be submitted with the": [
-        "HR division of the department should be submitted with the"
-    ],
-    "bachelor\u2019s degree": [
-        "bachelor\u2019s degree"
-    ],
-    "application.": [
-        "application."
-    ],
-    "write an essay": [
-        "write an essay"
-    ],
-    "official letter from the employer.": [
-        "official letter from the employer."
-    ],
-    "Minimum requirements for NSC/IEB for 2026": [
-        "Minimum requirements for NSC/IEB for 2026"
-    ],
-    "6 qualification in the law enforcement": [
-        "6 qualification in the law enforcement"
-    ],
-    "complete a questionnaire": [
-        "complete a questionnaire"
-    ],
-    "NQF Level 5": [
-        "NQF Level 5"
-    ],
-    "a combination of any two of the following subjects:": [
-        "a combination of any two of the following subjects:"
-    ],
-    "Applicants must submit proof of employment in the form of an": [
-        "Applicants must submit proof of employment in the form of an"
-    ],
-    "Additional Subject 2": [
-        "Additional Subject 2"
-    ],
-    "Additional Subjects": [
-        "Additional Subjects"
-    ],
-    "Three years\u2019 relevant work experience, HAZMAT Awareness, Fire": [
-        "Three years\u2019 relevant work experience, HAZMAT Awareness, Fire"
     ]
 }
