@@ -516,6 +516,30 @@ template = r"""<!DOCTYPE html>
         }}
 
         function calculateLikelihood(course, userMarks, userAps, userFps, helperData) {{
+            const isGarbage = (str) => {{
+                const s = typeof str === 'string' ? str.toLowerCase() : String(str).toLowerCase();
+                const garbagePhrases = [
+                    'nsc/ieb', 'minimum requirements', 'will be prioritised', 'a diploma endorsement',
+                    'fighter i', 'hazmat', 'fire fighter', 'environment', 'enforcement department',
+                    'working experience', 'programme', 'hr division', 'bachelor', 'application',
+                    'write an essay', 'official letter', 'questionnaire', 'nqf level', 'combination of',
+                    'proof of employment'
+                ];
+                return garbagePhrases.some(phrase => s.includes(phrase));
+            }};
+
+            const isAdditionalSubject = (str) => {{
+                const s = typeof str === 'string' ? str.toLowerCase() : String(str).toLowerCase();
+                return s.includes('additional subject') || s.includes('other subject') || s.includes('another subject') || s.includes('additional subjects') || s.includes('other subjects');
+            }};
+
+            const getAdditionalSubjectCount = (str) => {{
+                const s = typeof str === 'string' ? str.toLowerCase() : String(str).toLowerCase();
+                if (s.includes('three') || s.includes('3')) return 3;
+                if (s.includes('two') || s.includes('2')) return 2;
+                return 1;
+            }};
+
             const levelToMinPercent = (level) => {{
                 const map = {{ 1: 0, 2: 30, 3: 40, 4: 50, 5: 60, 6: 70, 7: 80 }};
                 return map[level] || 50;
@@ -533,7 +557,7 @@ template = r"""<!DOCTYPE html>
                     }}
                     if (req.level !== undefined && req.level !== "Unspecified") {{
                         let lvl = parseInt(req.level);
-                        if (lvl > 7) return lvl; // It's actually a percentage
+                        if (lvl > 7) return lvl;
                         return levelToMinPercent(lvl);
                     }}
                 }}
@@ -545,13 +569,20 @@ template = r"""<!DOCTYPE html>
             }};
 
             let hardFailReason = null;
+            let usedSubjects = new Set();
+            let additionalRequirements = [];
 
             if (course.required_subjects && Array.isArray(course.required_subjects)) {{
                 let groupedReqs = [];
                 let currentGroup = [];
                 for (let i = 0; i < course.required_subjects.length; i++) {{
                     let req = course.required_subjects[i];
-                    if (!req.subject || req.subject.toLowerCase().includes('additional subject') || req.subject.toLowerCase().includes('other subject')) continue;
+                    if (!req.subject || isGarbage(req.subject)) continue;
+
+                    if (isAdditionalSubject(req.subject)) {{
+                        additionalRequirements.push(req);
+                        continue;
+                    }}
 
                     let sLower = req.subject.toLowerCase().trim();
                     if (sLower.startsWith('or ') || sLower.includes(' or ')) {{
@@ -594,35 +625,68 @@ template = r"""<!DOCTYPE html>
                 }}
 
                 for (let group of mergedGroups) {{
-                    let isGarbage = false;
-                    for (let req of group) {{
-                        if (typeof req.subject === 'string' && (req.subject.includes('NSC/IEB') || req.subject.includes('Minimum requirements'))) {{
-                            isGarbage = true;
-                        }}
-                    }}
-                    if (isGarbage) continue;
-
                     let passedOr = false;
+                    let bestMatchedSubject = null;
+                    let bestMatchedMark = null;
+
                     for (let subj of group) {{
                         const subjectName = typeof subj === 'object' ? subj.subject || subj : subj;
-                        const matchedUserMark = checkSubjectMatch(subjectName, userMarks, helperData);
 
-                        if (matchedUserMark !== null) {{
-                            const minPct = getMinForRequirement(subj);
-                            if (minPct === 0 || matchedUserMark.percentage >= minPct - 15) {{
-                                passedOr = true;
-                                break;
+                        const minPct = getMinForRequirement(subj);
+
+                        for (let mark of userMarks) {{
+                            if (usedSubjects.has(mark.subject)) continue;
+
+                            const matchedMark = checkSubjectMatch(subjectName, [mark], helperData);
+                            if (matchedMark !== null) {{
+                                if (minPct === 0 || matchedMark.percentage >= minPct - 15) {{
+                                    if (!bestMatchedMark || matchedMark.percentage > bestMatchedMark.percentage) {{
+                                        bestMatchedMark = matchedMark;
+                                    }}
+                                }}
                             }}
                         }}
                     }}
 
+                    if (bestMatchedMark) {{
+                        passedOr = true;
+                        usedSubjects.add(bestMatchedMark.subject);
+                    }}
+
                     if (!passedOr) {{
-                        const subjNames = group.map(s => s.subject).join(' or ');
+                        const subjNames = group.map(s => typeof s === 'object' ? s.subject : s).join(' or ');
                         hardFailReason = `Missing or significantly below required subject(s): ${{subjNames}}`;
                         return {{ likelihood: 0, status: "ineligible", reason: hardFailReason }};
                     }}
                 }}
                 course._mergedGroups = mergedGroups;
+
+                course._additionalRequirementsCalculated = [];
+                for (let req of additionalRequirements) {{
+                    let neededCount = getAdditionalSubjectCount(req.subject);
+                    let minPct = getMinForRequirement(req);
+
+                    for (let j = 0; j < neededCount; j++) {{
+                        let bestUnusedMark = null;
+                        for (let mark of userMarks) {{
+                            if (usedSubjects.has(mark.subject) || mark.subject.toLowerCase() === 'life orientation' || mark.subject.toLowerCase() === 'lo') continue;
+
+                            if (minPct === 0 || mark.percentage >= minPct - 15) {{
+                                if (!bestUnusedMark || mark.percentage > bestUnusedMark.percentage) {{
+                                    bestUnusedMark = mark;
+                                }}
+                            }}
+                        }}
+
+                        if (bestUnusedMark) {{
+                            usedSubjects.add(bestUnusedMark.subject);
+                            course._additionalRequirementsCalculated.push({{ req: req, mark: bestUnusedMark }});
+                        }} else {{
+                            hardFailReason = `Not enough additional subjects meeting the requirements for: ${{req.subject}}`;
+                            return {{ likelihood: 0, status: "ineligible", reason: hardFailReason }};
+                        }}
+                    }}
+                }}
             }}
 
             let minScore = null;
@@ -662,22 +726,17 @@ template = r"""<!DOCTYPE html>
                 let strength = Math.max(0, Math.min(100, 50 + relative * 50));
 
                 let avgSubjectScore = 100;
-                if (course._mergedGroups && course._mergedGroups.length > 0) {{
-                    let subjectScores = [];
-                    for (let group of course._mergedGroups) {{
-                        let isGarbage = false;
-                        for (let req of group) {{
-                            if (typeof req.subject === 'string' && (req.subject.includes('NSC/IEB') || req.subject.includes('Minimum requirements'))) {{
-                                isGarbage = true;
-                            }}
-                        }}
-                        if (isGarbage) continue;
+                let subjectScores = [];
 
+                if (course._mergedGroups && course._mergedGroups.length > 0) {{
+                    for (let group of course._mergedGroups) {{
                         let bestExcess = 0;
                         let hasMinRequirement = false;
 
                         for (let subj of group) {{
                             const subjectName = typeof subj === 'object' ? subj.subject || subj : subj;
+                            // checkSubjectMatch checks all userMarks, which is fine to find best match percentage since we know they passed earlier.
+                            // However, we should technically only consider the one they matched, but this logic is just an approximation for 'strength'.
                             const matchedUserMark = checkSubjectMatch(subjectName, userMarks, helperData);
 
                             const minPct = getMinForRequirement(subj);
@@ -696,9 +755,22 @@ template = r"""<!DOCTYPE html>
                             subjectScores.push(100);
                         }}
                     }}
-                    if (subjectScores.length > 0) {{
-                        avgSubjectScore = subjectScores.reduce((a, b) => a + b, 0) / subjectScores.length;
+                }}
+
+                if (course._additionalRequirementsCalculated && course._additionalRequirementsCalculated.length > 0) {{
+                    for (let addReq of course._additionalRequirementsCalculated) {{
+                        const minPct = getMinForRequirement(addReq.req);
+                        if (minPct > 0) {{
+                            const excess = ((addReq.mark.percentage - minPct) / (100 - minPct)) * 100;
+                            subjectScores.push(Math.max(0, Math.min(100, excess)));
+                        }} else {{
+                            subjectScores.push(100);
+                        }}
                     }}
+                }}
+
+                if (subjectScores.length > 0) {{
+                    avgSubjectScore = subjectScores.reduce((a, b) => a + b, 0) / subjectScores.length;
                 }}
 
                 likelihood = Math.round(0.6 * avgSubjectScore + 0.4 * strength);
