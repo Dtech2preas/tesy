@@ -613,7 +613,7 @@
 
             let minScore = null;
             let userScore = null;
-            let maxSpread = 8.0;
+            let maxSpread = 12.0;
             let scoreName = "";
 
             if (course.aps !== undefined || course.aps_range !== undefined) {
@@ -623,13 +623,13 @@
 
             if (minScore !== null) {
                 userScore = Math.min(userAps, 42);
-                maxSpread = 8.0;
+                maxSpread = 12.0;
                 scoreName = "APS";
             } else if (course.fps !== undefined) {
                 minScore = parseInt(course.fps, 10);
                 if (!isNaN(minScore) && minScore > 0) {
                     userScore = userFps;
-                    maxSpread = 80.0;
+                    maxSpread = 120.0;
                     scoreName = "FPS";
                 } else {
                     minScore = null;
@@ -688,7 +688,7 @@
                 }
 
                 likelihood = Math.round(0.6 * avgSubjectScore + 0.4 * strength);
-                likelihood = Math.max(5, Math.min(100, likelihood));
+                likelihood = Math.max(10, Math.min(100, likelihood));
 
                 if (userScore < minScore) {
                     const diff = minScore - userScore;
