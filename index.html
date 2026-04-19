@@ -122,6 +122,12 @@
             margin-top: 20px;
         }
 
+
+        .likelihood-100 { color: #00ff88; text-shadow: 0 0 10px rgba(0,255,136,0.3); }
+        .likelihood-high { color: #a2ff00; }
+        .likelihood-med { color: #ffaa00; }
+        .likelihood-low { color: #ff4b4b; }
+
         .hidden {
             display: none !important;
         }
@@ -222,6 +228,78 @@
             }
             button { width: 100%; }
         }
+
+        /* Recommendations Section */
+        #recommendations-container {
+            margin-top: 30px;
+        }
+
+        .recommend-btn {
+            width: 100%;
+            margin-top: 20px;
+            padding: 15px;
+            font-size: 1.1em;
+            background-color: var(--primary-accent);
+            color: var(--bg-color);
+            font-weight: bold;
+            border: none;
+            border-radius: var(--border-radius);
+            cursor: pointer;
+            transition: all 0.3s ease;
+        }
+
+        .recommend-btn:hover {
+            background-color: var(--secondary-accent);
+            transform: translateY(-2px);
+        }
+
+        .tier-section {
+            margin-top: 30px;
+        }
+
+        .tier-title {
+            background: rgba(102, 252, 241, 0.1);
+            padding: 10px;
+            border-left: 4px solid var(--primary-accent);
+            font-size: 1.3em;
+            color: var(--primary-accent);
+            margin-bottom: 15px;
+        }
+
+        .uni-group {
+            margin-bottom: 20px;
+        }
+
+        .uni-group-title {
+            font-size: 1.1em;
+            font-weight: bold;
+            color: #fff;
+            margin-bottom: 10px;
+            border-bottom: 1px solid #333;
+            padding-bottom: 5px;
+        }
+
+        .rec-course {
+            background: var(--container-bg);
+            padding: 15px;
+            border: 1px solid #333;
+            border-radius: 5px;
+            margin-bottom: 10px;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+        }
+
+        .rec-course-title {
+            font-weight: bold;
+            color: var(--primary-accent);
+        }
+
+        .rec-likelihood {
+            font-weight: bold;
+            font-size: 1.2em;
+        }
+
     </style>
 </head>
 <body>
@@ -260,6 +338,14 @@
         <button id="edit-marks-btn" type="button" onclick="editMarks()">Edit Subjects & Marks</button>
     </div>
 
+
+    <!-- Recommendations Section -->
+    <div id="recommendations-wrapper" class="card hidden">
+        <h2 style="margin-top:0;">What can I study?</h2>
+        <button id="recommend-btn" class="recommend-btn" onclick="recommendCourses()">Recommend Courses</button>
+        <div id="recommendations-container"></div>
+    </div>
+
     <!-- Universities List -->
     <div class="universities-list">
         <h2>Select a University</h2>
@@ -275,6 +361,7 @@
         </div>
     </div>
 
+    <script src="calculator.js"></script>
     <script>
         let availableSubjects = new Set();
         let maxSubjects = 7;
@@ -304,6 +391,7 @@
                 calculateScores(savedMarks);
                 document.getElementById('subjects-section').classList.add('collapsed');
                 document.getElementById('results-container').classList.remove('hidden');
+            document.getElementById('recommendations-wrapper').classList.remove('hidden');
             } else {
                 // First time user
                 addSubjectRow();
@@ -394,6 +482,7 @@
             // Collapse section and show results
             document.getElementById('subjects-section').classList.add('collapsed');
             document.getElementById('results-container').classList.remove('hidden');
+            document.getElementById('recommendations-wrapper').classList.remove('hidden');
 
             // Smooth scroll to universities list
             document.querySelector('.universities-list').scrollIntoView({ behavior: 'smooth' });
@@ -420,6 +509,7 @@
         function editMarks() {
             document.getElementById('subjects-section').classList.remove('collapsed');
             document.getElementById('results-container').classList.add('hidden');
+            document.getElementById('recommendations-wrapper').classList.add('hidden');
         }
 
         function loadSavedMarks(savedMarks) {
@@ -436,6 +526,116 @@
                 addSubjectRow(mark.subject, mark.percentage, mark.level);
             });
         }
+
+
+        const universitiesList = [
+            { file: "stellenbosch.json", name: "Stellenbosch University" },
+            { file: "tut.json", name: "Tshwane University of Technology (TUT)" },
+            { file: "uct.json", name: "University of Cape Town (UCT)" },
+            { file: "ul.json", name: "University of Limpopo (UL)" },
+            { file: "ump.json", name: "University of Mpumalanga (UMP)" },
+            { file: "univen.json", name: "University of Venda (Univen)" },
+            { file: "up.json", name: "University of Pretoria (UP)" },
+            { file: "wits.json", name: "University of the Witwatersrand (Wits)" }
+        ];
+
+        async function recommendCourses() {
+            const btn = document.getElementById('recommend-btn');
+            btn.textContent = "Calculating... Please wait";
+            btn.disabled = true;
+
+            const container = document.getElementById('recommendations-container');
+            container.innerHTML = '';
+
+            let allEvaluatedCourses = [];
+            const userMarks = JSON.parse(localStorage.getItem('userMarks') || '[]');
+            const userAps = parseInt(localStorage.getItem('userAps') || '0', 10);
+            const userFps = parseInt(localStorage.getItem('userFps') || '0', 10);
+
+            for (const uni of universitiesList) {
+                try {
+                    const response = await fetch(uni.file);
+                    if (!response.ok) continue;
+                    const data = await response.json();
+
+                    let faculties = Object.keys(data);
+                    faculties.forEach(faculty => {
+                        let courseList = data[faculty];
+                        if (Array.isArray(courseList)) {
+                            courseList.forEach(course => {
+                                let result = calculateLikelihood(course, userMarks, userAps, userFps, helperData);
+                                if (result.likelihood >= 60) {
+                                    allEvaluatedCourses.push({
+                                        course_name: course.course_name,
+                                        uni_name: uni.name,
+                                        likelihood: result.likelihood,
+                                        reason: result.reason
+                                    });
+                                }
+                            });
+                        }
+                    });
+                } catch(e) {
+                    console.error("Failed to load " + uni.file, e);
+                }
+            }
+
+            allEvaluatedCourses.sort((a, b) => b.likelihood - a.likelihood);
+
+            let tier100 = allEvaluatedCourses.filter(c => c.likelihood === 100).slice(0, 15);
+            let tier80 = allEvaluatedCourses.filter(c => c.likelihood >= 80 && c.likelihood < 100).slice(0, 15);
+            let tier60 = allEvaluatedCourses.filter(c => c.likelihood >= 60 && c.likelihood < 80).slice(0, 15);
+
+            if (tier100.length === 0 && tier80.length === 0 && tier60.length === 0) {
+                container.innerHTML = '<p>No highly recommended courses found based on your marks.</p>';
+                btn.textContent = "Recommend Courses";
+                btn.disabled = false;
+                return;
+            }
+
+            let finalHtml = '';
+
+            const renderTier = (title, courses, colorClass) => {
+                if (courses.length === 0) return '';
+                let tierHtml = `<div class="tier-section"><div class="tier-title">${title}</div>`;
+
+                let grouped = {};
+                courses.forEach(c => {
+                    if (!grouped[c.uni_name]) grouped[c.uni_name] = [];
+                    grouped[c.uni_name].push(c);
+                });
+
+                for (const uni in grouped) {
+                    tierHtml += `<div class="uni-group"><div class="uni-group-title">${uni}</div>`;
+                    grouped[uni].forEach(c => {
+                        tierHtml += `
+                            <div class="rec-course">
+                                <div>
+                                    <div class="rec-course-title">${c.course_name}</div>
+                                    <div style="font-size:0.8em; color:#aaa;">${c.reason}</div>
+                                </div>
+                                <div class="rec-likelihood ${colorClass}">${c.likelihood}%</div>
+                            </div>
+                        `;
+                    });
+                    tierHtml += `</div>`;
+                }
+                tierHtml += `</div>`;
+                return tierHtml;
+            };
+
+            finalHtml += renderTier('100% Match (Excellent)', tier100, 'likelihood-100');
+            finalHtml += renderTier('80% - 99% Match (Very Good)', tier80, 'likelihood-high');
+            finalHtml += renderTier('60% - 79% Match (Good)', tier60, 'likelihood-med');
+
+            container.innerHTML = finalHtml;
+            btn.textContent = "Recommend Courses";
+            btn.disabled = false;
+        }
+
+        // --- Shared logic duplicated from generate_uni_pages.py ---
+
+
 
         window.onload = loadInitialSubjects;
     </script>
