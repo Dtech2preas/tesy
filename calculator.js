@@ -344,7 +344,7 @@ function checkSubjectMatch(reqSubjectName, userMarks, helperData) {
                 reason = "Meets all published requirements";
             } else {
                 const relative = (userScore - minScore) / maxSpread;
-                let strength = Math.max(0, Math.min(100, 50 + relative * 50));
+                let strength = Math.max(0, Math.min(100, 55 + relative * 45));
 
                 let avgSubjectScore = 100;
                 let subjectScores = [];
@@ -400,6 +400,16 @@ function checkSubjectMatch(reqSubjectName, userMarks, helperData) {
                 if (userScore < minScore) {
                     const diff = minScore - userScore;
                     reason = `Slightly below minimum ${scoreName} (by ${diff} points) – low but possible chance`;
+                } else {
+                    if (likelihood < 35) {
+                        reason = "Meets minimum but borderline – low but possible chance";
+                    } else if (likelihood < 50) {
+                        reason = "Meets minimum – decent chance";
+                    } else if (likelihood < 70) {
+                        reason = "Good match – solid chance";
+                    } else {
+                        reason = "Strong match – very competitive chance";
+                    }
                 }
             }
 
