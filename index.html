@@ -361,8 +361,8 @@
         </div>
     </div>
 
-    <script src="calculator.js"></script>
-    <script>
+    <script type="module">
+        import { UniversityLoader } from './core/engine.js';
         let availableSubjects = new Set();
         let maxSubjects = 7;
         let subjectCount = 0;
@@ -370,7 +370,7 @@
 
         async function loadInitialSubjects() {
             try {
-                const response = await fetch('helper.json');
+                const response = await fetch('./core/helper.json');
                 helperData = await response.json();
 
                 for (const mainSubject in helperData) {
@@ -529,17 +529,17 @@
 
 
         const universitiesList = [
-            { file: "stellenbosch.json", name: "Stellenbosch University" },
-            { file: "tut.json", name: "Tshwane University of Technology (TUT)" },
-            { file: "uct.json", name: "University of Cape Town (UCT)" },
-            { file: "ul.json", name: "University of Limpopo (UL)" },
-            { file: "ump.json", name: "University of Mpumalanga (UMP)" },
-            { file: "univen.json", name: "University of Venda (Univen)" },
-            { file: "up.json", name: "University of Pretoria (UP)" },
-            { file: "wits.json", name: "University of the Witwatersrand (Wits)" }
+            { id: "stellenbosch", name: "Stellenbosch University" },
+            { id: "tut", name: "Tshwane University of Technology (TUT)" },
+            { id: "uct", name: "University of Cape Town (UCT)" },
+            { id: "ul", name: "University of Limpopo (UL)" },
+            { id: "ump", name: "University of Mpumalanga (UMP)" },
+            { id: "univen", name: "University of Venda (Univen)" },
+            { id: "up", name: "University of Pretoria (UP)" },
+            { id: "wits", name: "University of the Witwatersrand (Wits)" }
         ];
 
-        async function recommendCourses() {
+        window.recommendCourses = async function() {
             const btn = document.getElementById('recommend-btn');
             btn.textContent = "Calculating... Please wait";
             btn.disabled = true;
@@ -554,29 +554,22 @@
 
             for (const uni of universitiesList) {
                 try {
-                    const response = await fetch(uni.file);
-                    if (!response.ok) continue;
-                    const data = await response.json();
+                    const uniEngine = await UniversityLoader.load(uni.id);
+                    const courses = uniEngine.getCourses();
 
-                    let faculties = Object.keys(data);
-                    faculties.forEach(faculty => {
-                        let courseList = data[faculty];
-                        if (Array.isArray(courseList)) {
-                            courseList.forEach(course => {
-                                let result = calculateLikelihood(course, userMarks, userAps, userFps, helperData);
-                                if (result.likelihood >= 60) {
-                                    allEvaluatedCourses.push({
-                                        course_name: course.course_name,
-                                        uni_name: uni.name,
-                                        likelihood: result.likelihood,
-                                        reason: result.reason
-                                    });
-                                }
+                    courses.forEach(course => {
+                        let result = uniEngine.calculateEligibility(course, userMarks, userAps, userFps);
+                        if (result.likelihood >= 60) {
+                            allEvaluatedCourses.push({
+                                course_name: course.course_name,
+                                uni_name: uni.name,
+                                likelihood: result.likelihood,
+                                reason: result.reason
                             });
                         }
                     });
                 } catch(e) {
-                    console.error("Failed to load " + uni.file, e);
+                    console.error("Failed to load " + uni.id, e);
                 }
             }
 
@@ -633,9 +626,11 @@
             btn.disabled = false;
         }
 
-        // --- Shared logic duplicated from generate_uni_pages.py ---
-
-
+        window.addSubjectRow = addSubjectRow;
+        window.saveAndCollapseMarks = saveAndCollapseMarks;
+        window.updateRowLevel = updateRowLevel;
+        window.removeSubjectRow = removeSubjectRow;
+        window.editMarks = editMarks;
 
         window.onload = loadInitialSubjects;
     </script>
