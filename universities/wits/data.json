@@ -1,77 +1,121 @@
 {
     "FACULTY OF COMMERCE, LAW & MANAGEMENT": [
         {
-            "course_name": "Bachelor of Commerce (BCom): General Information Systems Politics, Philosophy and Economics",
+            "course_name": "Bachelor of Commerce (BCom): General, Politics, Philosophy and Economics, Information Systems",
             "course_code": "",
             "duration": "3",
             "aps": "38",
             "required_subjects": [
                 {
-                    "subject": "English Home Language",
-                    "level": "5"
-                },
-                {
-                    "subject": "English First Additional Language",
-                    "level": "5"
+                    "subject": "English Home Language OR First Additional Language",
+                    "level": "5",
+                    "percentage": "60"
                 },
                 {
                     "subject": "Mathematics",
-                    "level": "5"
+                    "level": "5",
+                    "percentage": "60"
                 }
             ]
         },
         {
-            "course_name": "Accounting Science",
+            "course_name": "Bachelor of Accounting Science (BAccSci)",
             "course_code": "",
             "duration": "3",
             "aps": "44",
             "required_subjects": [
                 {
-                    "subject": "English Home Language",
-                    "level": "5"
-                },
-                {
-                    "subject": "English First Additional Language",
-                    "level": "5"
+                    "subject": "English Home Language OR First Additional Language",
+                    "level": "5",
+                    "percentage": "60"
                 },
                 {
                     "subject": "Mathematics",
-                    "level": "6"
+                    "level": "6",
+                    "percentage": "70"
                 }
             ]
         },
         {
-            "course_name": "Accounting",
+            "course_name": "Bachelor of Commerce (BCom):  Accounting",
             "course_code": "",
             "duration": "3",
             "aps": "38",
             "required_subjects": [
                 {
-                    "subject": "English Home Language",
-                    "level": "5"
-                },
-                {
-                    "subject": "English First Additional Language",
-                    "level": "5"
+                    "subject": "English Home Language OR First Additional Language",
+                    "level": "5",
+                    "percentage": "60"
                 },
                 {
                     "subject": "Mathematics",
-                    "level": "5"
+                    "level": "5",
+                    "percentage": "60"
                 }
             ]
         },
         {
-            "course_name": "Economic Science School of Law",
+            "course_name": "Bachelor of Economic Science (BEconSci)",
             "course_code": "",
             "duration": "3",
             "aps": "42",
             "required_subjects": [
                 {
-                    "subject": "English Home Language",
-                    "level": "5"
+                    "subject": "English Home Language OR First Additional Language",
+                    "level": "5",
+                    "percentage": "60"
                 },
                 {
-                    "subject": "English First Additional Language",
+                    "subject": "Mathematics",
+                    "level": "7",
+                    "percentage": "80"
+                }
+            ]
+        },
+        {
+            "course_name": "Bachelor of Commerce with Law - BCom (Law)",
+            "course_code": "",
+            "duration": "3",
+            "aps": "43",
+            "required_subjects": [
+                {
+                    "subject": "English Home Language OR First Additional Language",
+                    "level": "5",
+                    "percentage": "60"
+                },
+                {
+                    "subject": "Mathematics",
+                    "level": "5",
+                    "percentage": "60"
+                }
+            ]
+        },
+        {
+            "course_name": "Four-year LLB",
+            "course_code": "",
+            "duration": "3",
+            "aps": "46",
+            "required_subjects": [
+                {
+                    "subject": "English Home Language OR First Additional Language",
+                    "level": "6",
+                    "percentage": "70"
+                },
+                {
+                    "subject": "Mathematics",
+                    "level": "4",
+                    "percentage": "50"
+                }
+            ]
+        },
+        {
+            "course_name": "Bachelor of Economic Science (BEconSci)",
+            "course_code": "",
+            "duration": "3",
+            "aps": "42",
+            "required_subjects": [
+                {
+                    "subject": "English Home Language or First Additional Language",
                     "level": "5"
                 },
                 {
@@ -81,17 +125,41 @@
             ]
         },
         {
-            "course_name": "Bachelor of Commerce with L aw",
+            "course_name": "Bachelor of Accounting Science (BAccSci)",
             "course_code": "",
             "duration": "3",
-            "aps": "43",
+            "aps": "44",
             "required_subjects": [
                 {
-                    "subject": "English Home Language",
+                    "subject": "English Home Language or First Additional Language",
                     "level": "5"
                 },
                 {
-                    "subject": "English First Additional Language",
+                    "subject": "Mathematics",
+                    "level": "6"
+                }
+            ]
+        },
+        {
+            "course_name": "Two-year LLB (for graduates only)",
+            "course_code": "",
+            "duration": "2",
+            "aps": "",
+            "required_subjects": [
+                {
+                    "subject": "English Home Language or First Additional Language",
+                    "level": "4"
+                }
+            ]
+        },
+        {
+            "course_name": "Bachelor of Commerce (BCom) in the field of Accounting",
+            "course_code": "",
+            "duration": "3",
+            "aps": "38",
+            "required_subjects": [
+                {
+                    "subject": "English Home Language or First Additional Language",
                     "level": "5"
                 },
                 {
@@ -101,283 +169,509 @@
             ]
         },
         {
-            "course_name": "LLB (four-year stream)",
+            "course_name": "Four-year LLB",
             "course_code": "",
             "duration": "4",
             "aps": "46",
             "required_subjects": [
                 {
-                    "subject": "English Home Language",
-                    "level": "6"
-                },
-                {
-                    "subject": "English First Additional Language",
+                    "subject": "English Home Language or First Additional Language",
                     "level": "6"
                 },
                 {
                     "subject": "Mathematics",
+                    "level": "5"
+                }
+            ]
+        },
+        {
+            "course_name": "Three-year LLB (for graduates only)",
+            "course_code": "",
+            "duration": "2",
+            "aps": "",
+            "required_subjects": [
+                {
+                    "subject": "English Home Language or First Additional Language",
                     "level": "4"
+                }
+            ]
+        },
+        {
+            "course_name": "Bachelor of Commerce (BCom) in the fields of: General, Politics, Philosophy and Economics, Information Systems",
+            "course_code": "",
+            "duration": "3",
+            "aps": "38",
+            "required_subjects": [
+                {
+                    "subject": "English Home Language or First Additional Language",
+                    "level": "5"
                 },
                 {
-                    "subject": "Maths Literacy",
-                    "level": "6"
+                    "subject": "Mathematics",
+                    "level": "5"
+                }
+            ]
+        },
+        {
+            "course_name": "Bachelor of Commerce (BCom) in the field of Law",
+            "course_code": "",
+            "duration": "3",
+            "aps": "43",
+            "required_subjects": [
+                {
+                    "subject": "English Home Language or First Additional Language",
+                    "level": "5"
+                },
+                {
+                    "subject": "Mathematics",
+                    "level": "5"
+                }
+            ]
+        },
+        {
+            "course_name": "Bachelor of Commerce (BCom) in the field of Financial Sciences",
+            "course_code": "",
+            "duration": "3",
+            "aps": "42",
+            "required_subjects": [
+                {
+                    "subject": "English Home Language or First Additional Language",
+                    "level": "5"
+                },
+                {
+                    "subject": "Mathematics",
+                    "level": "7"
                 }
             ]
         }
     ],
-    "FACULTY OF ENGINEERING AND THE BUILT ENVIRONMENT": [
+    "FACULTY OF ENGINEERING & THE BUILT ENVIRONMENT": [
         {
-            "course_name": "Chemical Engineering",
+            "course_name": "Bachelor of Science in Engineering in Chemical Engineering (BSc(Eng))",
             "course_code": "",
             "duration": "4",
             "aps": "42",
             "required_subjects": [
                 {
-                    "subject": "English Home Language",
-                    "level": "5"
-                },
-                {
-                    "subject": "English First Additional Language",
-                    "level": "5"
+                    "subject": "English Home Language OR First Additional Language",
+                    "level": "5",
+                    "percentage": "60"
                 },
                 {
                     "subject": "Mathematics",
-                    "level": "5"
+                    "level": "5",
+                    "percentage": "60"
                 },
                 {
-                    "subject": "Physical Sciences",
-                    "level": "5"
+                    "subject": "Physical Science",
+                    "level": "5",
+                    "percentage": "60"
                 }
             ]
         },
         {
-            "course_name": "Metallurgy and Materials Engineering",
+            "course_name": "Bachelor of Science in Engineering in Metallurgy and Materials Engineering (BSc(Eng))",
             "course_code": "",
             "duration": "4",
             "aps": "42",
             "required_subjects": [
                 {
-                    "subject": "English Home Language",
-                    "level": "5"
-                },
-                {
-                    "subject": "English First Additional Language",
-                    "level": "5"
+                    "subject": "English Home Language OR First Additional Language",
+                    "level": "5",
+                    "percentage": "60"
                 },
                 {
                     "subject": "Mathematics",
-                    "level": "5"
+                    "level": "5",
+                    "percentage": "60"
                 },
                 {
-                    "subject": "Physical Sciences",
-                    "level": "5"
+                    "subject": "Physical Science",
+                    "level": "5",
+                    "percentage": "60"
                 }
             ]
         },
         {
-            "course_name": "Civil Engineering",
+            "course_name": "Bachelor of Science in Engineering in Civil Engineering (BSc(Eng))",
             "course_code": "",
             "duration": "4",
             "aps": "42",
             "required_subjects": [
                 {
-                    "subject": "English Home Language",
-                    "level": "5"
-                },
-                {
-                    "subject": "English First Additional Language",
-                    "level": "5"
+                    "subject": "English Home Language OR First Additional Language",
+                    "level": "5",
+                    "percentage": "60"
                 },
                 {
                     "subject": "Mathematics",
-                    "level": "5"
+                    "level": "5",
+                    "percentage": "60"
                 },
                 {
-                    "subject": "Physical Sciences",
-                    "level": "5"
+                    "subject": "Physical Science",
+                    "level": "5",
+                    "percentage": "60"
                 }
             ]
         },
         {
-            "course_name": "Electrical Engineering",
+            "course_name": "Bachelor of Science in Engineering in Electrical Engineering (BSc(Eng))",
             "course_code": "",
             "duration": "4",
             "aps": "42",
             "required_subjects": [
                 {
-                    "subject": "English Home Language",
-                    "level": "5"
-                },
-                {
-                    "subject": "English First Additional Language",
-                    "level": "5"
+                    "subject": "English Home Language OR First Additional Language",
+                    "level": "5",
+                    "percentage": "60"
                 },
                 {
                     "subject": "Mathematics",
-                    "level": "5"
+                    "level": "5",
+                    "percentage": "60"
                 },
                 {
-                    "subject": "Physical Sciences",
-                    "level": "5"
+                    "subject": "Physical Science",
+                    "level": "5",
+                    "percentage": "60"
                 }
             ]
         },
         {
-            "course_name": "Biomedical Engineering",
+            "course_name": "Bachelor of Engineering Science in Biomedical Engineering (BEngSc(BME))",
             "course_code": "",
             "duration": "3",
             "aps": "42",
             "required_subjects": [
                 {
-                    "subject": "English Home Language",
-                    "level": "5"
-                },
-                {
-                    "subject": "English First Additional Language",
-                    "level": "5"
+                    "subject": "English Home Language OR First Additional Language",
+                    "level": "5",
+                    "percentage": "60"
                 },
                 {
                     "subject": "Mathematics",
-                    "level": "5"
+                    "level": "5",
+                    "percentage": "60"
                 },
                 {
-                    "subject": "Physical Sciences",
-                    "level": "5"
+                    "subject": "Physical Science",
+                    "level": "5",
+                    "percentage": "60"
                 }
             ]
         },
         {
-            "course_name": "Digital Arts",
+            "course_name": "Bachelor of Engineering Science in Digital Arts (BEngSc(DA))",
             "course_code": "",
             "duration": "3",
             "aps": "42",
             "required_subjects": [
                 {
-                    "subject": "English Home Language",
-                    "level": "5"
-                },
-                {
-                    "subject": "English First Additional Language",
-                    "level": "5"
+                    "subject": "English Home Language OR First Additional Language",
+                    "level": "5",
+                    "percentage": "60"
                 },
                 {
                     "subject": "Mathematics",
-                    "level": "5"
+                    "level": "5",
+                    "percentage": "60"
                 },
                 {
-                    "subject": "Physical Sciences",
-                    "level": "5"
+                    "subject": "Physical Science",
+                    "level": "5",
+                    "percentage": "60"
                 }
             ]
         },
         {
-            "course_name": "Aeronautical Engineering",
+            "course_name": "Bachelor of Science in Engineering in Aeronautical Engineering (BSc(Eng))",
             "course_code": "",
             "duration": "4",
             "aps": "42",
             "required_subjects": [
                 {
-                    "subject": "English Home Language",
-                    "level": "5"
-                },
-                {
-                    "subject": "English First Additional Language",
-                    "level": "5"
+                    "subject": "English Home Language OR First Additional Language",
+                    "level": "5",
+                    "percentage": "60"
                 },
                 {
                     "subject": "Mathematics",
-                    "level": "5"
+                    "level": "5",
+                    "percentage": "60"
                 },
                 {
-                    "subject": "Physical Sciences",
-                    "level": "5"
+                    "subject": "Physical Science",
+                    "level": "5",
+                    "percentage": "60"
                 }
             ]
         },
         {
-            "course_name": "Industrial Engineering",
+            "course_name": "Bachelor of Science in Engineering in Industrial Engineering (BSc(Eng)) (4 years)",
             "course_code": "",
             "duration": "4",
             "aps": "42",
             "required_subjects": [
                 {
-                    "subject": "English Home Language",
-                    "level": "5"
-                },
-                {
-                    "subject": "English First Additional Language",
-                    "level": "5"
+                    "subject": "English Home Language OR First Additional Language",
+                    "level": "5",
+                    "percentage": "60"
                 },
                 {
                     "subject": "Mathematics",
-                    "level": "5"
+                    "level": "5",
+                    "percentage": "60"
                 },
                 {
-                    "subject": "Physical Sciences",
-                    "level": "5"
+                    "subject": "Physical Science",
+                    "level": "5",
+                    "percentage": "60"
                 }
             ]
         },
         {
-            "course_name": "Mechanical Engineering School of Mining Engineering",
+            "course_name": "Bachelor of Science in Engineering in Mechanical Engineering (BSc(Eng)) (4 years)",
             "course_code": "",
             "duration": "4",
             "aps": "42",
             "required_subjects": [
                 {
-                    "subject": "English Home Language",
-                    "level": "5"
-                },
-                {
-                    "subject": "English First Additional Language",
-                    "level": "5"
+                    "subject": "English Home Language OR First Additional Language",
+                    "level": "5",
+                    "percentage": "60"
                 },
                 {
                     "subject": "Mathematics",
-                    "level": "5"
+                    "level": "5",
+                    "percentage": "60"
                 },
                 {
-                    "subject": "Physical Sciences",
-                    "level": "5"
+                    "subject": "Physical Science",
+                    "level": "5",
+                    "percentage": "60"
                 }
             ]
         },
         {
-            "course_name": "Mining Engineering",
+            "course_name": "Bachelor of Science in Engineering in Mining Engineering BSc(Eng) (4 years)",
             "course_code": "",
             "duration": "4",
             "aps": "42",
             "required_subjects": [
                 {
-                    "subject": "English Home Language",
-                    "level": "5"
-                },
-                {
-                    "subject": "English First Additional Language",
-                    "level": "5"
+                    "subject": "English Home Language OR First Additional Language",
+                    "level": "5",
+                    "percentage": "60"
                 },
                 {
                     "subject": "Mathematics",
-                    "level": "5"
+                    "level": "5",
+                    "percentage": "60"
                 },
                 {
-                    "subject": "Physical Sciences",
-                    "level": "5"
+                    "subject": "Physical Science",
+                    "level": "5",
+                    "percentage": "60"
                 }
             ]
         },
         {
-            "course_name": "Architectural Studies*",
+            "course_name": "Bachelor of Architectural Studies (BAS) (3 years)",
             "course_code": "",
             "duration": "3",
             "aps": "34",
             "required_subjects": [
                 {
-                    "subject": "English Home Language",
-                    "level": "4"
+                    "subject": "English Home Language OR First Additional Language",
+                    "level": "4",
+                    "percentage": "50"
                 },
                 {
-                    "subject": "English First Additional Language",
+                    "subject": "Mathematics",
+                    "level": "4",
+                    "percentage": "50"
+                }
+            ]
+        },
+        {
+            "course_name": "Bachelor of Science in Urban and Regional Planning (BSc(URP)) (3 years)",
+            "course_code": "",
+            "duration": "3",
+            "aps": "36",
+            "required_subjects": [
+                {
+                    "subject": "English Home Language OR First Additional Language",
+                    "level": "4",
+                    "percentage": "50"
+                },
+                {
+                    "subject": "Mathematics",
+                    "level": "4",
+                    "percentage": "50"
+                }
+            ]
+        },
+        {
+            "course_name": "Bachelor of Science in Construction Studies (BSc(CS)) (3 years)",
+            "course_code": "",
+            "duration": "3",
+            "aps": "36",
+            "required_subjects": [
+                {
+                    "subject": "English Home Language OR First Additional Language",
+                    "level": "4",
+                    "percentage": "50"
+                },
+                {
+                    "subject": "Mathematics",
+                    "level": "4",
+                    "percentage": "50"
+                }
+            ]
+        },
+        {
+            "course_name": "Bachelor of Science in Construction Studies(in the field of Property Studies) (BSc(CS) (Property Studies) (3 years)",
+            "course_code": "",
+            "duration": "3",
+            "aps": "36",
+            "required_subjects": [
+                {
+                    "subject": "English Home Language OR First Additional Language",
+                    "level": "4",
+                    "percentage": "50"
+                },
+                {
+                    "subject": "Mathematics",
+                    "level": "4",
+                    "percentage": "50"
+                }
+            ]
+        },
+        {
+            "course_name": "Bachelor of Science in Engineering in Mining Engineering",
+            "course_code": "",
+            "duration": "4",
+            "aps": "42",
+            "required_subjects": [
+                {
+                    "subject": "English Home Language or First Additional Language",
+                    "level": "5"
+                },
+                {
+                    "subject": "Mathematics",
+                    "level": "5"
+                },
+                {
+                    "subject": "Physical Sciences",
+                    "level": "5"
+                }
+            ]
+        },
+        {
+            "course_name": "Bachelor of Science in Engineering in Mechanical Engineering",
+            "course_code": "",
+            "duration": "4",
+            "aps": "42",
+            "required_subjects": [
+                {
+                    "subject": "English Home Language or First Additional Language",
+                    "level": "5"
+                },
+                {
+                    "subject": "Mathematics",
+                    "level": "5"
+                },
+                {
+                    "subject": "Physical Sciences",
+                    "level": "5"
+                }
+            ]
+        },
+        {
+            "course_name": "Bachelor of Science in Urban and Regional Planning",
+            "course_code": "",
+            "duration": "3",
+            "aps": "36",
+            "required_subjects": [
+                {
+                    "subject": "English Home Language or First Additional Language",
+                    "level": "5"
+                },
+                {
+                    "subject": "Mathematics",
+                    "level": "5"
+                }
+            ]
+        },
+        {
+            "course_name": "Bachelor of Science in Engineering in Chemical Engineering",
+            "course_code": "",
+            "duration": "4",
+            "aps": "42",
+            "required_subjects": [
+                {
+                    "subject": "English Home Language or First Additional Language",
+                    "level": "5"
+                },
+                {
+                    "subject": "Mathematics",
+                    "level": "5"
+                },
+                {
+                    "subject": "Physical Sciences",
+                    "level": "5"
+                }
+            ]
+        },
+        {
+            "course_name": "Bachelor of Science in Engineering in Industrial Engineering",
+            "course_code": "",
+            "duration": "4",
+            "aps": "42",
+            "required_subjects": [
+                {
+                    "subject": "English Home Language or First Additional Language",
+                    "level": "5"
+                },
+                {
+                    "subject": "Mathematics",
+                    "level": "5"
+                },
+                {
+                    "subject": "Physical Sciences",
+                    "level": "5"
+                }
+            ]
+        },
+        {
+            "course_name": "Bachelor of Engineering Science in Digital Arts",
+            "course_code": "",
+            "duration": "3",
+            "aps": "42",
+            "required_subjects": [
+                {
+                    "subject": "English Home Language or First Additional Language",
+                    "level": "5"
+                },
+                {
+                    "subject": "Mathematics",
+                    "level": "5"
+                },
+                {
+                    "subject": "Physical Sciences",
+                    "level": "5"
+                }
+            ]
+        },
+        {
+            "course_name": "Bachelor of Architectural Studies",
+            "course_code": "",
+            "duration": "3",
+            "aps": "34",
+            "required_subjects": [
+                {
+                    "subject": "English Home Language or First Additional Language",
                     "level": "4"
                 },
                 {
@@ -387,17 +681,13 @@
             ]
         },
         {
-            "course_name": "Urban and Regional Planning",
+            "course_name": "Bachelor of Science in Construction Studies",
             "course_code": "",
             "duration": "3",
             "aps": "36",
             "required_subjects": [
                 {
-                    "subject": "English Home Language",
-                    "level": "5"
-                },
-                {
-                    "subject": "English First Additional Language",
+                    "subject": "English Home Language or First Additional Language",
                     "level": "5"
                 },
                 {
@@ -407,17 +697,33 @@
             ]
         },
         {
-            "course_name": "Construction Studies",
+            "course_name": "Bachelor of Science in Engineering in Civil Engineering",
+            "course_code": "",
+            "duration": "4",
+            "aps": "42",
+            "required_subjects": [
+                {
+                    "subject": "English Home Language or First Additional Language",
+                    "level": "5"
+                },
+                {
+                    "subject": "Mathematics",
+                    "level": "5"
+                },
+                {
+                    "subject": "Physical Sciences",
+                    "level": "5"
+                }
+            ]
+        },
+        {
+            "course_name": "Bachelor of Science in Property Studies",
             "course_code": "",
             "duration": "3",
             "aps": "36",
             "required_subjects": [
                 {
-                    "subject": "English Home Language",
-                    "level": "5"
-                },
-                {
-                    "subject": "English First Additional Language",
+                    "subject": "English Home Language or First Additional Language",
                     "level": "5"
                 },
                 {
@@ -427,21 +733,81 @@
             ]
         },
         {
-            "course_name": "Property Studies",
+            "course_name": "Bachelor of Engineering Science in Biomedical Engineering",
             "course_code": "",
             "duration": "3",
-            "aps": "36",
+            "aps": "42",
             "required_subjects": [
                 {
-                    "subject": "English Home Language",
-                    "level": "5"
-                },
-                {
-                    "subject": "English First Additional Language",
+                    "subject": "English Home Language or First Additional Language",
                     "level": "5"
                 },
                 {
                     "subject": "Mathematics",
+                    "level": "5"
+                },
+                {
+                    "subject": "Physical Sciences",
+                    "level": "5"
+                }
+            ]
+        },
+        {
+            "course_name": "Bachelor of Science in Engineering in Electrical Engineering",
+            "course_code": "",
+            "duration": "4",
+            "aps": "42",
+            "required_subjects": [
+                {
+                    "subject": "English Home Language or First Additional Language",
+                    "level": "5"
+                },
+                {
+                    "subject": "Mathematics",
+                    "level": "5"
+                },
+                {
+                    "subject": "Physical Sciences",
+                    "level": "5"
+                }
+            ]
+        },
+        {
+            "course_name": "Bachelor of Science in Engineering in Metallurgy and Materials Engineering",
+            "course_code": "",
+            "duration": "4",
+            "aps": "42",
+            "required_subjects": [
+                {
+                    "subject": "English Home Language or First Additional Language",
+                    "level": "5"
+                },
+                {
+                    "subject": "Mathematics",
+                    "level": "5"
+                },
+                {
+                    "subject": "Physical Sciences",
+                    "level": "5"
+                }
+            ]
+        },
+        {
+            "course_name": "Bachelor of Science in Engineering in Aeronautical Engineering",
+            "course_code": "",
+            "duration": "4",
+            "aps": "42",
+            "required_subjects": [
+                {
+                    "subject": "English Home Language or First Additional Language",
+                    "level": "5"
+                },
+                {
+                    "subject": "Mathematics",
+                    "level": "5"
+                },
+                {
+                    "subject": "Physical Sciences",
                     "level": "5"
                 }
             ]
@@ -449,45 +815,36 @@
     ],
     "FACULTY OF HEALTH SCIENCES": [
         {
-            "course_name": "Biokinetics Health Systems Sciences",
+            "course_name": "Bachelor of Health Sciences (BHSci): Biomedical Sciences, Biokinetics, Health Systems Sciences",
             "course_code": "",
             "duration": "3",
             "aps": "",
             "required_subjects": [
                 {
-                    "subject": "English Home Language",
-                    "level": "5"
-                },
-                {
-                    "subject": "English First Additional Language",
-                    "level": "5"
+                    "subject": "English Home Language OR First Additional Language",
+                    "level": "5",
+                    "percentage": "60"
                 },
                 {
                     "subject": "Mathematics",
-                    "level": "5"
+                    "level": "5",
+                    "percentage": "60"
                 },
                 {
-                    "subject": "Life Sciences",
-                    "level": "5"
-                },
-                {
-                    "subject": "Physical Sciences",
-                    "level": "5"
+                    "subject": "Life Sciences AND/OR Physical Sciences",
+                    "level": "5",
+                    "percentage": "60"
                 }
             ]
         },
         {
-            "course_name": "Clinical Medical Practice",
+            "course_name": "Bachelor of Clinical Medical Practice (BCMP)",
             "course_code": "",
             "duration": "3",
             "aps": "",
             "required_subjects": [
                 {
-                    "subject": "English Home Language",
-                    "level": "4"
-                },
-                {
-                    "subject": "English First Additional Language",
+                    "subject": "English Home Language or First Additional Language",
                     "level": "4"
                 },
                 {
@@ -495,31 +852,23 @@
                     "level": "4"
                 },
                 {
-                    "subject": "Maths Literacy",
+                    "subject": "Life Sciences",
                     "level": "7"
                 },
                 {
-                    "subject": "Life Sciences",
-                    "level": "4"
-                },
-                {
                     "subject": "Physical Sciences",
                     "level": "4"
                 }
             ]
         },
         {
-            "course_name": "Medicine and Surgery",
+            "course_name": "Bachelor of Medicine and Bachelor of Surgery (MBBCh)",
             "course_code": "",
             "duration": "6",
             "aps": "",
             "required_subjects": [
                 {
-                    "subject": "English Home Language",
-                    "level": "5"
-                },
-                {
-                    "subject": "English First Additional Language",
+                    "subject": "English Home Language or First Additional Language",
                     "level": "5"
                 },
                 {
@@ -537,17 +886,51 @@
             ]
         },
         {
-            "course_name": "Dental Science*",
+            "course_name": "Bachelor of Dental Science (BDS)",
             "course_code": "",
             "duration": "5",
             "aps": "",
+            "required_subjects": []
+        },
+        {
+            "course_name": "Bachelor of Oral Health Sciences (BOHS)",
+            "course_code": "",
+            "duration": "3",
+            "aps": "",
+            "required_subjects": []
+        },
+        {
+            "course_name": "Bachelor of Nursing (BNurs)",
+            "course_code": "",
+            "duration": "4",
+            "aps": "",
             "required_subjects": [
                 {
-                    "subject": "English Home Language",
-                    "level": "5"
+                    "subject": "English Home Language or First Additional Language",
+                    "level": "4"
                 },
                 {
-                    "subject": "English First Additional Language",
+                    "subject": "Mathematics",
+                    "level": "4"
+                },
+                {
+                    "subject": "Life Sciences",
+                    "level": "4"
+                },
+                {
+                    "subject": "Physical Sciences",
+                    "level": "4"
+                }
+            ]
+        },
+        {
+            "course_name": "Bachelor of Pharmacy (BPharm)",
+            "course_code": "",
+            "duration": "4",
+            "aps": "",
+            "required_subjects": [
+                {
+                    "subject": "English Home Language or First Additional Language",
                     "level": "5"
                 },
                 {
@@ -565,77 +948,27 @@
             ]
         },
         {
-            "course_name": "Oral Health Sciences*",
+            "course_name": "Bachelor of Science in Occupational Therapy (BSc (OT))",
+            "course_code": "",
+            "duration": "4",
+            "aps": "",
+            "required_subjects": []
+        },
+        {
+            "course_name": "Bachelor of Science in Physiotherapy (BSc Physiotherapy)",
+            "course_code": "",
+            "duration": "4",
+            "aps": "",
+            "required_subjects": []
+        },
+        {
+            "course_name": "Bachelor of Health Sciences: (BHSci) Biomedical Sciences, Biokinetics, Health Systems Sciences",
             "course_code": "",
             "duration": "3",
             "aps": "",
             "required_subjects": [
                 {
-                    "subject": "English Home Language",
-                    "level": "4"
-                },
-                {
-                    "subject": "English First Additional Language",
-                    "level": "4"
-                },
-                {
-                    "subject": "Mathematics",
-                    "level": "4"
-                },
-                {
-                    "subject": "Maths Literacy",
-                    "level": "7"
-                },
-                {
-                    "subject": "Life Sciences",
-                    "level": "4"
-                },
-                {
-                    "subject": "Physical Sciences",
-                    "level": "4"
-                }
-            ]
-        },
-        {
-            "course_name": "Nursing",
-            "course_code": "",
-            "duration": "4",
-            "aps": "",
-            "required_subjects": [
-                {
-                    "subject": "English Home Language",
-                    "level": "4"
-                },
-                {
-                    "subject": "English First Additional Language",
-                    "level": "4"
-                },
-                {
-                    "subject": "Mathematics",
-                    "level": "4"
-                },
-                {
-                    "subject": "Life Sciences",
-                    "level": "4"
-                },
-                {
-                    "subject": "Physical Sciences",
-                    "level": "4"
-                }
-            ]
-        },
-        {
-            "course_name": "Pharmacy",
-            "course_code": "",
-            "duration": "4",
-            "aps": "",
-            "required_subjects": [
-                {
-                    "subject": "English Home Language",
-                    "level": "5"
-                },
-                {
-                    "subject": "English First Additional Language",
+                    "subject": "English Home Language or First Additional Language",
                     "level": "5"
                 },
                 {
@@ -643,67 +976,7 @@
                     "level": "5"
                 },
                 {
-                    "subject": "Life Sciences",
-                    "level": "5"
-                },
-                {
-                    "subject": "Physical Sciences",
-                    "level": "5"
-                }
-            ]
-        },
-        {
-            "course_name": "Occupational Therapy*",
-            "course_code": "",
-            "duration": "4",
-            "aps": "",
-            "required_subjects": [
-                {
-                    "subject": "English Home Language",
-                    "level": "4"
-                },
-                {
-                    "subject": "English First Additional Language",
-                    "level": "4"
-                },
-                {
-                    "subject": "Mathematics",
-                    "level": "4"
-                },
-                {
-                    "subject": "Life Sciences",
-                    "level": "4"
-                },
-                {
-                    "subject": "Physical Sciences",
-                    "level": "4"
-                }
-            ]
-        },
-        {
-            "course_name": "Physiotherapy*",
-            "course_code": "",
-            "duration": "4",
-            "aps": "",
-            "required_subjects": [
-                {
-                    "subject": "English Home Language",
-                    "level": "5"
-                },
-                {
-                    "subject": "English First Additional Language",
-                    "level": "5"
-                },
-                {
-                    "subject": "Mathematics",
-                    "level": "5"
-                },
-                {
-                    "subject": "Life Sciences",
-                    "level": "5"
-                },
-                {
-                    "subject": "Physical Sciences",
+                    "subject": "Life Sciences AND/OR Physical Sciences",
                     "level": "5"
                 }
             ]
@@ -711,33 +984,26 @@
     ],
     "FACULTY OF HUMANITIES": [
         {
-            "course_name": "Arts (BA)",
+            "course_name": "Bachelor of Arts (BA)",
             "course_code": "",
             "duration": "3",
             "aps": "36",
             "required_subjects": [
                 {
-                    "subject": "English Home Language",
-                    "level": "5"
-                },
-                {
-                    "subject": "English First Additional Language",
-                    "level": "5"
+                    "subject": "English Home Language OR First Additional Language",
+                    "level": "5",
+                    "percentage": "60"
                 }
             ]
         },
         {
-            "course_name": "Arts (Law)",
+            "course_name": "Bachelor of Arts (Law)",
             "course_code": "",
             "duration": "3",
             "aps": "43",
             "required_subjects": [
                 {
-                    "subject": "English Home Language",
-                    "level": "5"
-                },
-                {
-                    "subject": "English First Additional Language",
+                    "subject": "English Home Language or First Additional Language",
                     "level": "5"
                 },
                 {
@@ -745,87 +1011,228 @@
                     "level": "3"
                 },
                 {
-                    "subject": "Maths Literacy",
+                    "subject": "Technical Mathematics",
                     "level": "4"
                 }
             ]
         },
         {
-            "course_name": "Arts in Digital Arts",
+            "course_name": "Bachelor of Arts in Digital Arts",
             "course_code": "",
             "duration": "4",
             "aps": "36",
             "required_subjects": [
                 {
-                    "subject": "English Home Language",
-                    "level": "5"
-                },
-                {
-                    "subject": "English First Additional Language",
-                    "level": "5"
+                    "subject": "English Home Language OR First Additional Language",
+                    "level": "5",
+                    "percentage": "60"
                 }
             ]
         },
         {
-            "course_name": "Arts in Theatre and Performance",
+            "course_name": "Bachelor of Arts in Theatre and Performance",
             "course_code": "",
             "duration": "4",
             "aps": "34",
             "required_subjects": [
                 {
-                    "subject": "English Home Language",
-                    "level": "5"
-                },
-                {
-                    "subject": "English First Additional Language",
-                    "level": "5"
+                    "subject": "English Home Language OR First Additional Language",
+                    "level": "5",
+                    "percentage": "60"
                 }
             ]
         },
         {
-            "course_name": "Arts in Film and Television",
+            "course_name": "Bachelor of Arts in Film and Television",
             "course_code": "",
             "duration": "4",
             "aps": "34",
             "required_subjects": [
                 {
-                    "subject": "English Home Language",
-                    "level": "5"
-                },
-                {
-                    "subject": "English First Additional Language",
-                    "level": "5"
+                    "subject": "English Home Language OR First Additional Language",
+                    "level": "5",
+                    "percentage": "60"
                 }
             ]
         },
         {
-            "course_name": "Arts in Fine Arts",
+            "course_name": "Bachelor of Arts in Fine Arts",
             "course_code": "",
             "duration": "4",
             "aps": "34",
             "required_subjects": [
                 {
-                    "subject": "English Home Language",
-                    "level": "5"
-                },
-                {
-                    "subject": "English First Additional Language",
-                    "level": "5"
+                    "subject": "English Home Language OR First Additional Language",
+                    "level": "5",
+                    "percentage": "60"
                 }
             ]
         },
         {
-            "course_name": "Music",
+            "course_name": "Bachelor of Music",
             "course_code": "",
             "duration": "4",
             "aps": "34",
             "required_subjects": [
                 {
-                    "subject": "English Home Language",
+                    "subject": "English Home Language OR First Additional Language",
+                    "level": "5",
+                    "percentage": "60"
+                }
+            ]
+        },
+        {
+            "course_name": "Bachelor of Education (BEd): Foundation Phase Teaching",
+            "course_code": "",
+            "duration": "4",
+            "aps": "37",
+            "required_subjects": [
+                {
+                    "subject": "English Home Language OR First Additional Language",
+                    "level": "5",
+                    "percentage": "60"
+                },
+                {
+                    "subject": "Mathematics",
+                    "level": "4",
+                    "percentage": "50"
+                },
+                {
+                    "subject": "Maths Literacy",
+                    "level": "5",
+                    "percentage": "60"
+                },
+                {
+                    "subject": "Technical Mathematics",
+                    "level": "5",
+                    "percentage": "60"
+                }
+            ]
+        },
+        {
+            "course_name": "Bachelor of Education (BEd): Intermediate Phase Teaching",
+            "course_code": "",
+            "duration": "4",
+            "aps": "37",
+            "required_subjects": [
+                {
+                    "subject": "English Home Language OR First Additional Language",
+                    "level": "5",
+                    "percentage": "60"
+                },
+                {
+                    "subject": "Mathematics",
+                    "level": "4",
+                    "percentage": "50"
+                },
+                {
+                    "subject": "Maths Literacy",
+                    "level": "5",
+                    "percentage": "60"
+                },
+                {
+                    "subject": "Technical Mathematics",
+                    "level": "5",
+                    "percentage": "60"
+                }
+            ]
+        },
+        {
+            "course_name": "Bachelor of Education (BEd): Senior Phase and Further Education and Training Teaching",
+            "course_code": "",
+            "duration": "4",
+            "aps": "37",
+            "required_subjects": [
+                {
+                    "subject": "English Home Language OR First Additional Language",
+                    "level": "5",
+                    "percentage": "60"
+                }
+            ]
+        },
+        {
+            "course_name": "Bachelor of Speech-Language Pathology",
+            "course_code": "",
+            "duration": "4",
+            "aps": "34",
+            "required_subjects": [
+                {
+                    "subject": "English Home Language OR First Additional Language",
+                    "level": "5",
+                    "percentage": "60"
+                },
+                {
+                    "subject": "Mathematics",
+                    "level": "4",
+                    "percentage": "50"
+                }
+            ]
+        },
+        {
+            "course_name": "Bachelor of Audiology",
+            "course_code": "",
+            "duration": "4",
+            "aps": "34",
+            "required_subjects": [
+                {
+                    "subject": "English Home Language OR First Additional Language",
+                    "level": "5",
+                    "percentage": "60"
+                },
+                {
+                    "subject": "Mathematics",
+                    "level": "4",
+                    "percentage": "50"
+                }
+            ]
+        },
+        {
+            "course_name": "Bachelor of Social Work",
+            "course_code": "",
+            "duration": "4",
+            "aps": "34",
+            "required_subjects": [
+                {
+                    "subject": "English Home Language OR First Additional Language",
+                    "level": "5",
+                    "percentage": "60"
+                }
+            ]
+        },
+        {
+            "course_name": "Bachelor of Arts in Fine Arts",
+            "course_code": "",
+            "duration": "4",
+            "aps": "34",
+            "required_subjects": []
+        },
+        {
+            "course_name": "Bachelor of Arts in Film and Television",
+            "course_code": "",
+            "duration": "4",
+            "aps": "34",
+            "required_subjects": []
+        },
+        {
+            "course_name": "Intermediate Phase Teaching",
+            "course_code": "",
+            "duration": "4",
+            "aps": "37",
+            "required_subjects": [
+                {
+                    "subject": "English Home Language or First Additional Language",
                     "level": "5"
                 },
                 {
-                    "subject": "English First Additional Language",
+                    "subject": "Mathematics",
+                    "level": "4"
+                },
+                {
+                    "subject": "Maths Literacy",
+                    "level": "5"
+                },
+                {
+                    "subject": "Technical Mathematics",
                     "level": "5"
                 }
             ]
@@ -837,11 +1244,7 @@
             "aps": "37",
             "required_subjects": [
                 {
-                    "subject": "English Home Language",
-                    "level": "5"
-                },
-                {
-                    "subject": "English First Additional Language",
+                    "subject": "English Home Language or First Additional Language",
                     "level": "5"
                 },
                 {
@@ -859,219 +1262,181 @@
             ]
         },
         {
-            "course_name": "Intermediate Phase Teaching",
+            "course_name": "Senior Phase and Further Education and Training Teaching",
             "course_code": "",
             "duration": "4",
             "aps": "37",
-            "required_subjects": [
-                {
-                    "subject": "English Home Language",
-                    "level": "5"
-                },
-                {
-                    "subject": "English First Additional Language",
-                    "level": "5"
-                },
-                {
-                    "subject": "Mathematics",
-                    "level": "4"
-                },
-                {
-                    "subject": "Maths Literacy",
-                    "level": "5"
-                },
-                {
-                    "subject": "Technical Mathematics",
-                    "level": "5"
-                }
-            ]
+            "required_subjects": []
         },
         {
-            "course_name": "Senior Phase and Further Ed and Training Teaching ucation",
-            "course_code": "",
-            "duration": "4",
-            "aps": "37",
-            "required_subjects": [
-                {
-                    "subject": "English Home Language",
-                    "level": "5"
-                },
-                {
-                    "subject": "English First Additional Language",
-                    "level": "5"
-                }
-            ]
-        },
-        {
-            "course_name": "Speech- Language Pathology *",
+            "course_name": "Bachelor of Arts in Theatre and Performance",
             "course_code": "",
             "duration": "4",
             "aps": "34",
+            "required_subjects": []
+        },
+        {
+            "course_name": "Bachelor of Arts",
+            "course_code": "",
+            "duration": "3",
+            "aps": "36",
             "required_subjects": [
                 {
-                    "subject": "English Home Language",
+                    "subject": "English Home Language or First Additional Language",
                     "level": "5"
-                },
-                {
-                    "subject": "English First Additional Language",
-                    "level": "5"
-                },
-                {
-                    "subject": "Mathematics",
-                    "level": "4"
                 }
             ]
         },
         {
-            "course_name": "Audiology*",
+            "course_name": "Bachelor of Speech-Language Pathology",
             "course_code": "",
             "duration": "4",
             "aps": "34",
+            "required_subjects": []
+        },
+        {
+            "course_name": "Bachelor of Music",
+            "course_code": "",
+            "duration": "4",
+            "aps": "34",
+            "required_subjects": []
+        },
+        {
+            "course_name": "Bachelor of Social Work",
+            "course_code": "",
+            "duration": "4",
+            "aps": "36",
             "required_subjects": [
                 {
-                    "subject": "English Home Language",
+                    "subject": "English Home Language or First Additional Language",
                     "level": "5"
-                },
-                {
-                    "subject": "English First Additional Language",
-                    "level": "5"
-                },
-                {
-                    "subject": "Mathematics",
-                    "level": "4"
                 }
             ]
         },
         {
-            "course_name": "Social Work",
+            "course_name": "Bachelor of Arts in Digital Arts",
+            "course_code": "",
+            "duration": "4",
+            "aps": "36",
+            "required_subjects": []
+        },
+        {
+            "course_name": "Bachelor of Audiology",
             "course_code": "",
             "duration": "4",
             "aps": "34",
-            "required_subjects": [
-                {
-                    "subject": "English Home Language",
-                    "level": "5"
-                },
-                {
-                    "subject": "English First Additional Language",
-                    "level": "5"
-                }
-            ]
+            "required_subjects": []
         }
     ],
     "FACULTY OF SCIENCE": [
         {
-            "course_name": "Science (BSc) General Biological Sciences",
+            "course_name": "Bachelor of Science (BSc) General",
             "course_code": "",
             "duration": "3",
             "aps": "42",
             "required_subjects": [
                 {
-                    "subject": "English Home Language",
-                    "level": "5"
-                },
-                {
-                    "subject": "English First Additional Language",
+                    "subject": "English Home Language or First Additional Language",
                     "level": "5"
                 },
                 {
                     "subject": "Mathematics",
                     "level": "5"
+                },
+                {
+                    "subject": "Physical Sciences",
+                    "level": "5"
                 }
             ]
         },
         {
-            "course_name": "Biological Sciences Earth Sciences",
+            "course_name": "Bachelor of Science in the field of Biological Sciences",
             "course_code": "",
             "duration": "3",
             "aps": "43",
             "required_subjects": [
                 {
-                    "subject": "English Home Language",
-                    "level": "5"
-                },
-                {
-                    "subject": "English First Additional Language",
+                    "subject": "English Home Language or First Additional Language",
                     "level": "5"
                 },
                 {
                     "subject": "Mathematics",
                     "level": "5"
+                },
+                {
+                    "subject": "Physical Sciences",
+                    "level": "5"
                 }
             ]
         },
         {
-            "course_name": "Geographical and Archaeological Sciences",
+            "course_name": "Bachelor of Science in the fields of Geographical and Archaeological Sciences",
             "course_code": "",
             "duration": "3",
             "aps": "42",
             "required_subjects": [
                 {
-                    "subject": "English Home Language",
-                    "level": "5"
-                },
-                {
-                    "subject": "English First Additional Language",
+                    "subject": "English Home Language or First Additional Language",
                     "level": "5"
                 },
                 {
                     "subject": "Mathematics",
                     "level": "5"
+                },
+                {
+                    "subject": "Physical Sciences",
+                    "level": "5"
                 }
             ]
         },
         {
-            "course_name": "Geospatial Sciences",
+            "course_name": "Bachelor of Science in the field of Geospatial Sciences",
             "course_code": "",
             "duration": "3",
             "aps": "42",
             "required_subjects": [
                 {
-                    "subject": "English Home Language",
-                    "level": "5"
-                },
-                {
-                    "subject": "English First Additional Language",
+                    "subject": "English Home Language or First Additional Language",
                     "level": "5"
                 },
                 {
                     "subject": "Mathematics",
                     "level": "5"
+                },
+                {
+                    "subject": "Physical Sciences",
+                    "level": "5"
                 }
             ]
         },
         {
-            "course_name": "Environmental Studies",
+            "course_name": "Bachelor of Science in the field of Environmental Studies",
             "course_code": "",
             "duration": "3",
             "aps": "42",
             "required_subjects": [
                 {
-                    "subject": "English Home Language",
-                    "level": "5"
-                },
-                {
-                    "subject": "English First Additional Language",
+                    "subject": "English Home Language or First Additional Language",
                     "level": "5"
                 },
                 {
                     "subject": "Mathematics",
                     "level": "5"
+                },
+                {
+                    "subject": "Physical Sciences",
+                    "level": "5"
                 }
             ]
         },
         {
-            "course_name": "Geological Sciences Mathematical Sciences",
+            "course_name": "Bachelor of Science in the field of Geological Sciences",
             "course_code": "",
             "duration": "3",
             "aps": "42",
             "required_subjects": [
                 {
-                    "subject": "English Home Language",
-                    "level": "5"
-                },
-                {
-                    "subject": "English First Additional Language",
+                    "subject": "English Home Language or First Additional Language",
                     "level": "5"
                 },
                 {
@@ -1085,105 +1450,93 @@
             ]
         },
         {
-            "course_name": "Actuarial Science",
-            "course_code": "",
-            "duration": "3",
-            "aps": "42",
-            "required_subjects": [
-                {
-                    "subject": "English Home Language",
-                    "level": "7"
-                },
-                {
-                    "subject": "English First Additional Language",
-                    "level": "7"
-                },
-                {
-                    "subject": "Mathematics",
-                    "level": "7"
-                },
-                {
-                    "subject": "Physical Sciences",
-                    "level": "7"
-                }
-            ]
-        },
-        {
-            "course_name": "Computational and Applied Mathematics",
+            "course_name": "Bachelor of Science in the field of Actuarial Science",
             "course_code": "",
             "duration": "3",
             "aps": "44",
             "required_subjects": [
                 {
-                    "subject": "English Home Language",
-                    "level": "5"
-                },
-                {
-                    "subject": "English First Additional Language",
-                    "level": "5"
+                    "subject": "English Home Language or First Additional Language",
+                    "level": "7"
                 },
                 {
                     "subject": "Mathematics",
-                    "level": "6"
+                    "level": "7"
+                },
+                {
+                    "subject": "Physical Sciences",
+                    "level": "7"
                 }
             ]
         },
         {
-            "course_name": "Computer Science",
+            "course_name": "Bachelor of Science in the field of Computational and Applied Mathematics",
             "course_code": "",
             "duration": "3",
             "aps": "44",
             "required_subjects": [
                 {
-                    "subject": "English Home Language",
-                    "level": "5"
-                },
-                {
-                    "subject": "English First Additional Language",
+                    "subject": "English Home Language or First Additional Language",
                     "level": "5"
                 },
                 {
                     "subject": "Mathematics",
                     "level": "6"
+                },
+                {
+                    "subject": "Physical Sciences",
+                    "level": "6"
                 }
             ]
         },
         {
-            "course_name": "Mathematical Sciences Physical Sciences",
+            "course_name": "Bachelor of Science in the field of Computer Science",
+            "course_code": "",
+            "duration": "3",
+            "aps": "44",
+            "required_subjects": [
+                {
+                    "subject": "English Home Language or First Additional Language",
+                    "level": "5"
+                },
+                {
+                    "subject": "Mathematics",
+                    "level": "6"
+                },
+                {
+                    "subject": "Physical Sciences",
+                    "level": "6"
+                }
+            ]
+        },
+        {
+            "course_name": "Bachelor of Science in the field of Mathematical Sciences",
+            "course_code": "",
+            "duration": "3",
+            "aps": "44",
+            "required_subjects": [
+                {
+                    "subject": "English Home Language or First Additional Language",
+                    "level": "7"
+                },
+                {
+                    "subject": "Mathematics",
+                    "level": "7"
+                },
+                {
+                    "subject": "Physical Sciences",
+                    "level": "7"
+                }
+            ]
+        },
+        {
+            "course_name": "Bachelor of Science in the field of Physical Sciences (Chemistry/Physics)",
             "course_code": "",
             "duration": "3",
             "aps": "42",
             "required_subjects": [
                 {
-                    "subject": "English Home Language",
-                    "level": "7"
-                },
-                {
-                    "subject": "English First Additional Language",
-                    "level": "7"
-                },
-                {
-                    "subject": "Mathematics",
-                    "level": "7"
-                },
-                {
-                    "subject": "Physical Sciences",
-                    "level": "7"
-                }
-            ]
-        },
-        {
-            "course_name": "Physical Sciences (Chemistry /Physics)",
-            "course_code": "",
-            "duration": "3",
-            "aps": "42",
-            "required_subjects": [
-                {
-                    "subject": "English Home Language",
-                    "level": "5"
-                },
-                {
-                    "subject": "English First Additional Language",
+                    "subject": "English Home Language or First Additional Language",
                     "level": "5"
                 },
                 {
@@ -1197,17 +1550,13 @@
             ]
         },
         {
-            "course_name": "Chemistry with Chemical Eng ineering",
+            "course_name": "Bachelor of Science in the field of Chemistry with Chemical Engineering",
             "course_code": "",
             "duration": "3",
             "aps": "43",
             "required_subjects": [
                 {
-                    "subject": "English Home Language",
-                    "level": "5"
-                },
-                {
-                    "subject": "English First Additional Language",
+                    "subject": "English Home Language or First Additional Language",
                     "level": "5"
                 },
                 {
@@ -1221,41 +1570,36 @@
             ]
         },
         {
-            "course_name": "Materials Science",
+            "course_name": "Bachelor of Science in the field of Materials Science",
             "course_code": "",
             "duration": "3",
             "aps": "43",
             "required_subjects": [
                 {
-                    "subject": "English Home Language",
-                    "level": "5"
-                },
-                {
-                    "subject": "English First Additional Language",
-                    "level": "5"
+                    "subject": "English Home Language OR First Additional Language",
+                    "level": "5",
+                    "percentage": "60"
                 },
                 {
                     "subject": "Mathematics",
-                    "level": "6"
+                    "level": "6",
+                    "percentage": "70"
                 },
                 {
-                    "subject": "Physical Sciences",
-                    "level": "5"
+                    "subject": "Physical Science",
+                    "level": "5",
+                    "percentage": "60"
                 }
             ]
         },
         {
-            "course_name": "Astronomy and Astrophysics",
+            "course_name": "Bachelor of Science in the field of Astronomy and Astrophysics",
             "course_code": "",
             "duration": "3",
             "aps": "43",
             "required_subjects": [
                 {
-                    "subject": "English Home Language",
-                    "level": "5"
-                },
-                {
-                    "subject": "English First Additional Language",
+                    "subject": "English Home Language or First Additional Language",
                     "level": "5"
                 },
                 {
