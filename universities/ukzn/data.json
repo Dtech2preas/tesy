@@ -1,0 +1,1934 @@
+{
+    "COLLEGE OF LAW & MANAGEMENT STUDIES": [
+        {
+            "course_name": "Bachelor of Business Science in Finance",
+            "course_code": "",
+            "duration": "",
+            "aps": "33",
+            "required_subjects": [
+                {
+                    "subject": "Maths",
+                    "level": "6",
+                    "percentage": ""
+                },
+                {
+                    "subject": "Engl",
+                    "level": ""
+                },
+                {
+                    "subject": "LO",
+                    "level": "4",
+                    "percentage": ""
+                }
+            ]
+        },
+        {
+            "course_name": "Bachelor of Laws",
+            "course_code": "",
+            "duration": "",
+            "aps": "32",
+            "required_subjects": [
+                {
+                    "subject": "Engl HL",
+                    "level": "5",
+                    "percentage": ""
+                },
+                {
+                    "subject": "Maths",
+                    "level": "3",
+                    "percentage": ""
+                },
+                {
+                    "subject": "LO",
+                    "level": "4",
+                    "percentage": ""
+                }
+            ]
+        },
+        {
+            "course_name": "B Com 4 General (Extended Curriculum)",
+            "course_code": "",
+            "duration": "",
+            "aps": "26",
+            "required_subjects": [
+                {
+                    "subject": "Maths",
+                    "level": "3",
+                    "percentage": ""
+                },
+                {
+                    "subject": "LO",
+                    "level": ""
+                },
+                {
+                    "subject": "Engl",
+                    "level": "4",
+                    "percentage": ""
+                }
+            ]
+        },
+        {
+            "course_name": "Bachelor of Laws (p/t)",
+            "course_code": "",
+            "duration": "",
+            "aps": "32",
+            "required_subjects": [
+                {
+                    "subject": "Engl HL",
+                    "level": "5",
+                    "percentage": ""
+                },
+                {
+                    "subject": "Maths",
+                    "level": "3",
+                    "percentage": ""
+                },
+                {
+                    "subject": "LO",
+                    "level": "4",
+                    "percentage": ""
+                }
+            ]
+        },
+        {
+            "course_name": "Bachelor of Business Administration (Evening classes)",
+            "course_code": "",
+            "duration": "",
+            "aps": "26",
+            "required_subjects": [
+                {
+                    "subject": "Engl",
+                    "level": ""
+                },
+                {
+                    "subject": "LO",
+                    "level": "4",
+                    "percentage": ""
+                },
+                {
+                    "subject": "Maths",
+                    "level": "3",
+                    "percentage": ""
+                }
+            ]
+        },
+        {
+            "course_name": "B Com (General)",
+            "course_code": "",
+            "duration": "",
+            "aps": "30",
+            "required_subjects": [
+                {
+                    "subject": "Engl",
+                    "level": ""
+                },
+                {
+                    "subject": "LO",
+                    "level": "4",
+                    "percentage": ""
+                },
+                {
+                    "subject": "Maths",
+                    "level": "4",
+                    "percentage": ""
+                }
+            ]
+        },
+        {
+            "course_name": "Bachelor of Business Science in Investment Science",
+            "course_code": "",
+            "duration": "",
+            "aps": "33",
+            "required_subjects": [
+                {
+                    "subject": "Maths",
+                    "level": "6",
+                    "percentage": ""
+                },
+                {
+                    "subject": "Engl",
+                    "level": ""
+                },
+                {
+                    "subject": "LO",
+                    "level": "4",
+                    "percentage": ""
+                }
+            ]
+        },
+        {
+            "course_name": "B Com 4 Accounting (Extended Curriculum)",
+            "course_code": "",
+            "duration": "",
+            "aps": "28",
+            "required_subjects": [
+                {
+                    "subject": "NSC-Deg Maths",
+                    "level": "4",
+                    "percentage": ""
+                },
+                {
+                    "subject": "LO",
+                    "level": ""
+                },
+                {
+                    "subject": "Engl",
+                    "level": "4",
+                    "percentage": ""
+                }
+            ]
+        },
+        {
+            "course_name": "B Com (Accounting)",
+            "course_code": "",
+            "duration": "",
+            "aps": "32",
+            "required_subjects": [
+                {
+                    "subject": "Maths",
+                    "level": "5",
+                    "percentage": ""
+                },
+                {
+                    "subject": "Engl",
+                    "level": ""
+                },
+                {
+                    "subject": "LO",
+                    "level": "4",
+                    "percentage": ""
+                }
+            ]
+        },
+        {
+            "course_name": "Bachelor of Administration",
+            "course_code": "",
+            "duration": "",
+            "aps": "26",
+            "required_subjects": [
+                {
+                    "subject": "Engl",
+                    "level": ""
+                },
+                {
+                    "subject": "LO",
+                    "level": "4",
+                    "percentage": ""
+                },
+                {
+                    "subject": "Maths",
+                    "level": "3",
+                    "percentage": ""
+                }
+            ]
+        }
+    ],
+    "COLLEGE OF HUMANITIES": [
+        {
+            "course_name": "B Soc Sc (General Studies)",
+            "course_code": "",
+            "duration": "",
+            "aps": "28",
+            "required_subjects": [
+                {
+                    "subject": "Engl",
+                    "level": ""
+                },
+                {
+                    "subject": "LO",
+                    "level": "4",
+                    "percentage": ""
+                },
+                {
+                    "subject": "one of: Bus Stud",
+                    "level": ""
+                },
+                {
+                    "subject": "Cons Stud",
+                    "level": ""
+                },
+                {
+                    "subject": "Dram Arts",
+                    "level": ""
+                },
+                {
+                    "subject": "Econ",
+                    "level": ""
+                },
+                {
+                    "subject": "Geog",
+                    "level": ""
+                },
+                {
+                    "subject": "Hist",
+                    "level": ""
+                },
+                {
+                    "subject": "Info Tech",
+                    "level": ""
+                },
+                {
+                    "subject": "Life Sci",
+                    "level": ""
+                },
+                {
+                    "subject": "Maths/Maths Lit",
+                    "level": ""
+                },
+                {
+                    "subject": "Music",
+                    "level": ""
+                },
+                {
+                    "subject": "Religion Stud",
+                    "level": ""
+                },
+                {
+                    "subject": "Vis Arts",
+                    "level": ""
+                },
+                {
+                    "subject": "any lang HL/FAL",
+                    "level": "5",
+                    "percentage": ""
+                }
+            ]
+        },
+        {
+            "course_name": "B Soc Sc Government, Business & Ethics",
+            "course_code": "",
+            "duration": "",
+            "aps": "28",
+            "required_subjects": [
+                {
+                    "subject": "Engl",
+                    "level": ""
+                },
+                {
+                    "subject": "LO",
+                    "level": "4",
+                    "percentage": ""
+                },
+                {
+                    "subject": "one of: Bus Stud",
+                    "level": ""
+                },
+                {
+                    "subject": "Cons Stud",
+                    "level": ""
+                },
+                {
+                    "subject": "Dram Arts",
+                    "level": ""
+                },
+                {
+                    "subject": "Econ",
+                    "level": ""
+                },
+                {
+                    "subject": "Geog",
+                    "level": ""
+                },
+                {
+                    "subject": "Hist",
+                    "level": ""
+                },
+                {
+                    "subject": "Info Tech",
+                    "level": ""
+                },
+                {
+                    "subject": "Life Sci",
+                    "level": ""
+                },
+                {
+                    "subject": "Maths/Maths Lit",
+                    "level": ""
+                },
+                {
+                    "subject": "Music",
+                    "level": ""
+                },
+                {
+                    "subject": "Religion Stud",
+                    "level": ""
+                },
+                {
+                    "subject": "Vis Arts",
+                    "level": ""
+                },
+                {
+                    "subject": "any lang HL/FAL",
+                    "level": "5",
+                    "percentage": ""
+                }
+            ]
+        },
+        {
+            "course_name": "Humanities Extended Curriculum",
+            "course_code": "",
+            "duration": "",
+            "aps": "20",
+            "required_subjects": [
+                {
+                    "subject": "Engl",
+                    "level": ""
+                },
+                {
+                    "subject": "LO",
+                    "level": "4",
+                    "percentage": ""
+                }
+            ]
+        },
+        {
+            "course_name": "B A in Music Foundation*",
+            "course_code": "",
+            "duration": "",
+            "aps": "22",
+            "required_subjects": [
+                {
+                    "subject": "English",
+                    "level": ""
+                },
+                {
+                    "subject": "LO 4 Auditions required for music programmes",
+                    "level": ""
+                }
+            ]
+        },
+        {
+            "course_name": "B Soc Sc (Housing)",
+            "course_code": "",
+            "duration": "",
+            "aps": "28",
+            "required_subjects": [
+                {
+                    "subject": "Eng and",
+                    "level": ""
+                },
+                {
+                    "subject": "Maths L4",
+                    "level": ""
+                }
+            ]
+        },
+        {
+            "course_name": "BA (General Studies)",
+            "course_code": "",
+            "duration": "",
+            "aps": "28",
+            "required_subjects": [
+                {
+                    "subject": "Engl",
+                    "level": ""
+                },
+                {
+                    "subject": "LO",
+                    "level": "4",
+                    "percentage": ""
+                },
+                {
+                    "subject": "one of: Bus Stud",
+                    "level": ""
+                },
+                {
+                    "subject": "Cons Stud",
+                    "level": ""
+                },
+                {
+                    "subject": "Dram Arts",
+                    "level": ""
+                },
+                {
+                    "subject": "Econ",
+                    "level": ""
+                },
+                {
+                    "subject": "Geog",
+                    "level": ""
+                },
+                {
+                    "subject": "Hist",
+                    "level": ""
+                },
+                {
+                    "subject": "Info Tech",
+                    "level": ""
+                },
+                {
+                    "subject": "Life Sci",
+                    "level": ""
+                },
+                {
+                    "subject": "Maths/Maths Lit",
+                    "level": ""
+                },
+                {
+                    "subject": "Music",
+                    "level": ""
+                },
+                {
+                    "subject": "Religion Stud",
+                    "level": ""
+                },
+                {
+                    "subject": "Vis Arts",
+                    "level": ""
+                },
+                {
+                    "subject": "any lang HL/FAL",
+                    "level": "5",
+                    "percentage": ""
+                }
+            ]
+        },
+        {
+            "course_name": "B A in Music*",
+            "course_code": "",
+            "duration": "",
+            "aps": "28",
+            "required_subjects": [
+                {
+                    "subject": "English",
+                    "level": ""
+                },
+                {
+                    "subject": "LO",
+                    "level": "4",
+                    "percentage": ""
+                }
+            ]
+        },
+        {
+            "course_name": "BA Philosophy, Politics & Law",
+            "course_code": "",
+            "duration": "",
+            "aps": "30",
+            "required_subjects": [
+                {
+                    "subject": "Engl",
+                    "level": ""
+                },
+                {
+                    "subject": "LO",
+                    "level": "4",
+                    "percentage": ""
+                },
+                {
+                    "subject": "one of: Bus Stud",
+                    "level": ""
+                },
+                {
+                    "subject": "Cons Stud",
+                    "level": ""
+                },
+                {
+                    "subject": "Dram Arts",
+                    "level": ""
+                },
+                {
+                    "subject": "Econ",
+                    "level": ""
+                },
+                {
+                    "subject": "Geog",
+                    "level": ""
+                },
+                {
+                    "subject": "Hist",
+                    "level": ""
+                },
+                {
+                    "subject": "Info Tech",
+                    "level": ""
+                },
+                {
+                    "subject": "Life Sci",
+                    "level": ""
+                },
+                {
+                    "subject": "Maths/Maths Lit",
+                    "level": ""
+                },
+                {
+                    "subject": "Music",
+                    "level": ""
+                },
+                {
+                    "subject": "Religion Stud",
+                    "level": ""
+                },
+                {
+                    "subject": "Vis Arts",
+                    "level": ""
+                },
+                {
+                    "subject": "any lang HL/FAL",
+                    "level": "5",
+                    "percentage": ""
+                }
+            ]
+        },
+        {
+            "course_name": "B Ed (Foundation Phase)",
+            "course_code": "",
+            "duration": "",
+            "aps": "28",
+            "required_subjects": [
+                {
+                    "subject": "Engl",
+                    "level": ""
+                },
+                {
+                    "subject": "LO L4",
+                    "level": ""
+                },
+                {
+                    "subject": "isiZulu L4",
+                    "level": ""
+                },
+                {
+                    "subject": "L4 (50-59%) in Mathematical Literacy or a rating of 3 (40-49%) in Mathematics",
+                    "level": ""
+                }
+            ]
+        },
+        {
+            "course_name": "BA Visual Art",
+            "course_code": "",
+            "duration": "",
+            "aps": "28",
+            "required_subjects": [
+                {
+                    "subject": "Engl",
+                    "level": ""
+                },
+                {
+                    "subject": "LO",
+                    "level": "4",
+                    "percentage": ""
+                },
+                {
+                    "subject": "one of: Bus Stud",
+                    "level": ""
+                },
+                {
+                    "subject": "Cons Stud",
+                    "level": ""
+                },
+                {
+                    "subject": "Dram Arts",
+                    "level": ""
+                },
+                {
+                    "subject": "Econ",
+                    "level": ""
+                },
+                {
+                    "subject": "Geog",
+                    "level": ""
+                },
+                {
+                    "subject": "Hist",
+                    "level": ""
+                },
+                {
+                    "subject": "Info Tech",
+                    "level": ""
+                },
+                {
+                    "subject": "Life Sci",
+                    "level": ""
+                },
+                {
+                    "subject": "Maths/Maths Lit",
+                    "level": ""
+                },
+                {
+                    "subject": "Music",
+                    "level": ""
+                },
+                {
+                    "subject": "Religion Stud",
+                    "level": ""
+                },
+                {
+                    "subject": "Vis Arts",
+                    "level": ""
+                },
+                {
+                    "subject": "any lang HL/FAL",
+                    "level": "5",
+                    "percentage": ""
+                }
+            ]
+        },
+        {
+            "course_name": "B Social Work",
+            "course_code": "",
+            "duration": "",
+            "aps": "28",
+            "required_subjects": [
+                {
+                    "subject": "Eng",
+                    "level": ""
+                },
+                {
+                    "subject": "LO",
+                    "level": "4",
+                    "percentage": ""
+                },
+                {
+                    "subject": "one of: Bus Stud",
+                    "level": ""
+                },
+                {
+                    "subject": "Cons Stud",
+                    "level": ""
+                },
+                {
+                    "subject": "Drama Arts",
+                    "level": ""
+                },
+                {
+                    "subject": "Econ",
+                    "level": ""
+                },
+                {
+                    "subject": "Geo",
+                    "level": ""
+                },
+                {
+                    "subject": "Hist",
+                    "level": ""
+                },
+                {
+                    "subject": "Info Tech",
+                    "level": ""
+                },
+                {
+                    "subject": "Life Sci",
+                    "level": ""
+                },
+                {
+                    "subject": "Maths/Maths Lit",
+                    "level": ""
+                },
+                {
+                    "subject": "Music",
+                    "level": ""
+                },
+                {
+                    "subject": "Religion Stud",
+                    "level": ""
+                },
+                {
+                    "subject": "Vis Arts",
+                    "level": ""
+                },
+                {
+                    "subject": "any lang HL/FAL",
+                    "level": "5",
+                    "percentage": ""
+                }
+            ]
+        },
+        {
+            "course_name": "B Soc Sc Geography & Environmental Management",
+            "course_code": "",
+            "duration": "",
+            "aps": "28",
+            "required_subjects": [
+                {
+                    "subject": "Engl",
+                    "level": ""
+                },
+                {
+                    "subject": "LO",
+                    "level": "4",
+                    "percentage": ""
+                },
+                {
+                    "subject": "one of: Bus Stud",
+                    "level": ""
+                },
+                {
+                    "subject": "Cons Stud",
+                    "level": ""
+                },
+                {
+                    "subject": "Dram Arts",
+                    "level": ""
+                },
+                {
+                    "subject": "Econ",
+                    "level": ""
+                },
+                {
+                    "subject": "Geog",
+                    "level": ""
+                },
+                {
+                    "subject": "Hist",
+                    "level": ""
+                },
+                {
+                    "subject": "Info Tech",
+                    "level": ""
+                },
+                {
+                    "subject": "Life Sci",
+                    "level": ""
+                },
+                {
+                    "subject": "Maths/Maths Lit",
+                    "level": ""
+                },
+                {
+                    "subject": "Music",
+                    "level": ""
+                },
+                {
+                    "subject": "Religion Stud",
+                    "level": ""
+                },
+                {
+                    "subject": "Vis Arts",
+                    "level": ""
+                },
+                {
+                    "subject": "any lang HL/FAL",
+                    "level": "5",
+                    "percentage": ""
+                }
+            ]
+        },
+        {
+            "course_name": "B Ed (Intermediate Phase)",
+            "course_code": "",
+            "duration": "",
+            "aps": "28",
+            "required_subjects": [
+                {
+                    "subject": "Engl",
+                    "level": ""
+                },
+                {
+                    "subject": "LO L4",
+                    "level": ""
+                },
+                {
+                    "subject": "Level 5 in any two of Math",
+                    "level": ""
+                },
+                {
+                    "subject": "Math Lit",
+                    "level": ""
+                },
+                {
+                    "subject": "Technology",
+                    "level": ""
+                },
+                {
+                    "subject": "Life Science",
+                    "level": ""
+                },
+                {
+                    "subject": "Physical Science",
+                    "level": ""
+                }
+            ]
+        },
+        {
+            "course_name": "B Ed (Senior Phase/ Further Education & Training)",
+            "course_code": "",
+            "duration": "",
+            "aps": "28",
+            "required_subjects": [
+                {
+                    "subject": "Engl",
+                    "level": ""
+                },
+                {
+                    "subject": "LO L4",
+                    "level": ""
+                },
+                {
+                    "subject": "L5 in in any two NSC subjects pertaining to the package selected",
+                    "level": ""
+                }
+            ]
+        }
+    ],
+    "COLLEGE OF AGRICULTURE, ENGINEERING & SCIENCE": [
+        {
+            "course_name": "B Architectural Studies",
+            "course_code": "",
+            "duration": "",
+            "aps": "30",
+            "required_subjects": []
+        },
+        {
+            "course_name": "B Sc Eng: Chemical",
+            "course_code": "",
+            "duration": "",
+            "aps": "33",
+            "required_subjects": [
+                {
+                    "subject": "Maths",
+                    "level": ""
+                },
+                {
+                    "subject": "Phys Sci 5 (pass at least",
+                    "level": "6",
+                    "percentage": "5"
+                },
+                {
+                    "subject": "Engl",
+                    "level": ""
+                },
+                {
+                    "subject": "LO",
+                    "level": "4",
+                    "percentage": ""
+                }
+            ]
+        },
+        {
+            "course_name": "B Sc Eng: Mechanical",
+            "course_code": "",
+            "duration": "",
+            "aps": "33",
+            "required_subjects": [
+                {
+                    "subject": "Maths",
+                    "level": ""
+                },
+                {
+                    "subject": "Phys Sci 5 (pass at least",
+                    "level": "6",
+                    "percentage": "5"
+                },
+                {
+                    "subject": "Engl",
+                    "level": ""
+                },
+                {
+                    "subject": "LO",
+                    "level": "4",
+                    "percentage": ""
+                }
+            ]
+        },
+        {
+            "course_name": "B Sc Crop and Horticultural Science",
+            "course_code": "",
+            "duration": "",
+            "aps": "28",
+            "required_subjects": [
+                {
+                    "subject": "Engl",
+                    "level": ""
+                },
+                {
+                    "subject": "LO",
+                    "level": "4",
+                    "percentage": ""
+                },
+                {
+                    "subject": "Maths",
+                    "level": "4",
+                    "percentage": ""
+                },
+                {
+                    "subject": "Agric Sci or Life Sci or Phys Sci",
+                    "level": "4",
+                    "percentage": ""
+                }
+            ]
+        },
+        {
+            "course_name": "B Sc Eng: Agricultural",
+            "course_code": "",
+            "duration": "",
+            "aps": "33",
+            "required_subjects": [
+                {
+                    "subject": "Maths",
+                    "level": ""
+                },
+                {
+                    "subject": "Phys Sci 5 (pass at least",
+                    "level": "6",
+                    "percentage": "5"
+                },
+                {
+                    "subject": "Engl",
+                    "level": ""
+                },
+                {
+                    "subject": "LO",
+                    "level": "4",
+                    "percentage": ""
+                }
+            ]
+        },
+        {
+            "course_name": "B Sc Augmented Programme",
+            "course_code": "",
+            "duration": "",
+            "aps": "26",
+            "required_subjects": [
+                {
+                    "subject": "Engl",
+                    "level": ""
+                },
+                {
+                    "subject": "LO",
+                    "level": "4",
+                    "percentage": ""
+                },
+                {
+                    "subject": "Maths",
+                    "level": ""
+                },
+                {
+                    "subject": "Agric Sci or Life Sci or Phys Sci",
+                    "level": "3",
+                    "percentage": ""
+                }
+            ]
+        },
+        {
+            "course_name": "B Sc Computer Science and Information Technology",
+            "course_code": "",
+            "duration": "",
+            "aps": "30",
+            "required_subjects": [
+                {
+                    "subject": "Maths",
+                    "level": "5",
+                    "percentage": ""
+                },
+                {
+                    "subject": "Engl",
+                    "level": ""
+                },
+                {
+                    "subject": "LO",
+                    "level": ""
+                },
+                {
+                    "subject": "Agric Sci or Life Sci or Phys Sci",
+                    "level": "4",
+                    "percentage": ""
+                }
+            ]
+        },
+        {
+            "course_name": "B Sc Applied Chemistry",
+            "course_code": "",
+            "duration": "",
+            "aps": "28",
+            "required_subjects": [
+                {
+                    "subject": "Maths",
+                    "level": ""
+                },
+                {
+                    "subject": "Engl",
+                    "level": ""
+                },
+                {
+                    "subject": "LO",
+                    "level": ""
+                },
+                {
+                    "subject": "Agric Sci or Life Sci or Phys Sci",
+                    "level": "4",
+                    "percentage": ""
+                }
+            ]
+        },
+        {
+            "course_name": "B Sc Environmental and Earth Science",
+            "course_code": "",
+            "duration": "",
+            "aps": "28",
+            "required_subjects": [
+                {
+                    "subject": "Engl",
+                    "level": ""
+                },
+                {
+                    "subject": "LO",
+                    "level": "4",
+                    "percentage": ""
+                },
+                {
+                    "subject": "Maths",
+                    "level": "4",
+                    "percentage": ""
+                },
+                {
+                    "subject": "Agric Sci or Life Sci or Phys Sci",
+                    "level": "4",
+                    "percentage": ""
+                }
+            ]
+        },
+        {
+            "course_name": "B Sc Environmental Science",
+            "course_code": "",
+            "duration": "",
+            "aps": "28",
+            "required_subjects": [
+                {
+                    "subject": "Engl",
+                    "level": ""
+                },
+                {
+                    "subject": "LO",
+                    "level": "4",
+                    "percentage": ""
+                },
+                {
+                    "subject": "Maths",
+                    "level": "4",
+                    "percentage": ""
+                },
+                {
+                    "subject": "Agric Sci or Life Sci or Phys Sci",
+                    "level": "4",
+                    "percentage": ""
+                }
+            ]
+        },
+        {
+            "course_name": "B Sc Eng: Computer",
+            "course_code": "",
+            "duration": "",
+            "aps": "33",
+            "required_subjects": [
+                {
+                    "subject": "Maths",
+                    "level": ""
+                },
+                {
+                    "subject": "Phys Sci 5 (pass at least",
+                    "level": "6",
+                    "percentage": "5"
+                },
+                {
+                    "subject": "Engl",
+                    "level": ""
+                },
+                {
+                    "subject": "LO",
+                    "level": "4",
+                    "percentage": ""
+                }
+            ]
+        },
+        {
+            "course_name": "B Sc Stream (LES) Life and Earth Sciences",
+            "course_code": "",
+            "duration": "",
+            "aps": "28",
+            "required_subjects": [
+                {
+                    "subject": "Maths",
+                    "level": ""
+                },
+                {
+                    "subject": "Engl",
+                    "level": ""
+                },
+                {
+                    "subject": "LO",
+                    "level": ""
+                },
+                {
+                    "subject": "Agric Sci or Life Sci or Phys Sci",
+                    "level": "4",
+                    "percentage": ""
+                }
+            ]
+        },
+        {
+            "course_name": "B Sc Chemistry and Chemical Technology",
+            "course_code": "",
+            "duration": "",
+            "aps": "28",
+            "required_subjects": [
+                {
+                    "subject": "Engl",
+                    "level": ""
+                },
+                {
+                    "subject": "LO",
+                    "level": ""
+                },
+                {
+                    "subject": "Maths",
+                    "level": ""
+                },
+                {
+                    "subject": "Agric Sci or Life Sci or Phys Sci",
+                    "level": "4",
+                    "percentage": ""
+                }
+            ]
+        },
+        {
+            "course_name": "B Sc Agric. Agricultural Plant Sciences",
+            "course_code": "",
+            "duration": "",
+            "aps": "28",
+            "required_subjects": [
+                {
+                    "subject": "Maths",
+                    "level": ""
+                },
+                {
+                    "subject": "Engl",
+                    "level": ""
+                },
+                {
+                    "subject": "LO",
+                    "level": ""
+                },
+                {
+                    "subject": "Agric Sci or Life Sci or Phys Sci",
+                    "level": "4",
+                    "percentage": ""
+                }
+            ]
+        },
+        {
+            "course_name": "B Agricultural Management",
+            "course_code": "",
+            "duration": "",
+            "aps": "28",
+            "required_subjects": [
+                {
+                    "subject": "Engl",
+                    "level": ""
+                },
+                {
+                    "subject": "LO",
+                    "level": ""
+                },
+                {
+                    "subject": "Maths",
+                    "level": ""
+                },
+                {
+                    "subject": "Agric Sci or Econ or Life Sci or Phys Sci",
+                    "level": "4",
+                    "percentage": ""
+                }
+            ]
+        },
+        {
+            "course_name": "B Sc Eng: Electronic",
+            "course_code": "",
+            "duration": "",
+            "aps": "33",
+            "required_subjects": [
+                {
+                    "subject": "Maths",
+                    "level": ""
+                },
+                {
+                    "subject": "Phys Sci 5 (pass at least",
+                    "level": "6",
+                    "percentage": "5"
+                },
+                {
+                    "subject": "Engl",
+                    "level": ""
+                },
+                {
+                    "subject": "LO",
+                    "level": "4",
+                    "percentage": ""
+                }
+            ]
+        },
+        {
+            "course_name": "B Sc Marine Biology",
+            "course_code": "",
+            "duration": "",
+            "aps": "28",
+            "required_subjects": [
+                {
+                    "subject": "Engl",
+                    "level": ""
+                },
+                {
+                    "subject": "LO",
+                    "level": "4",
+                    "percentage": ""
+                },
+                {
+                    "subject": "Maths",
+                    "level": "4",
+                    "percentage": ""
+                },
+                {
+                    "subject": "Agric Sci or Life Sci or Phys Sci",
+                    "level": "4",
+                    "percentage": ""
+                }
+            ]
+        },
+        {
+            "course_name": "B Sc Eng: Electrical",
+            "course_code": "",
+            "duration": "",
+            "aps": "33",
+            "required_subjects": [
+                {
+                    "subject": "Maths",
+                    "level": ""
+                },
+                {
+                    "subject": "Phys Sci 5 (pass at least",
+                    "level": "6",
+                    "percentage": "5"
+                },
+                {
+                    "subject": "Engl",
+                    "level": ""
+                },
+                {
+                    "subject": "LO",
+                    "level": "4",
+                    "percentage": ""
+                }
+            ]
+        },
+        {
+            "course_name": "B Sc Agric. Soil Science",
+            "course_code": "",
+            "duration": "",
+            "aps": "28",
+            "required_subjects": [
+                {
+                    "subject": "Maths",
+                    "level": ""
+                },
+                {
+                    "subject": "Engl",
+                    "level": ""
+                },
+                {
+                    "subject": "LO",
+                    "level": ""
+                },
+                {
+                    "subject": "Agric Sci or Life Sci or Phys Sci",
+                    "level": "4",
+                    "percentage": ""
+                }
+            ]
+        },
+        {
+            "course_name": "B Sc Agric. Plant Pathology",
+            "course_code": "",
+            "duration": "",
+            "aps": "28",
+            "required_subjects": [
+                {
+                    "subject": "Maths",
+                    "level": ""
+                },
+                {
+                    "subject": "Engl",
+                    "level": ""
+                },
+                {
+                    "subject": "LO",
+                    "level": ""
+                },
+                {
+                    "subject": "Agric Sci or Life Sci or Phys Sci",
+                    "level": "4",
+                    "percentage": ""
+                }
+            ]
+        },
+        {
+            "course_name": "B Sc Agric. Agribusiness",
+            "course_code": "",
+            "duration": "",
+            "aps": "28",
+            "required_subjects": [
+                {
+                    "subject": "Maths",
+                    "level": ""
+                },
+                {
+                    "subject": "Engl",
+                    "level": ""
+                },
+                {
+                    "subject": "LO",
+                    "level": ""
+                },
+                {
+                    "subject": "Agric Sci or Life Sci or Phys Sci",
+                    "level": "4",
+                    "percentage": ""
+                }
+            ]
+        },
+        {
+            "course_name": "B Sc Geographic Information Systems and Earth Observation",
+            "course_code": "",
+            "duration": "",
+            "aps": "30",
+            "required_subjects": [
+                {
+                    "subject": "NSC Deg with Maths",
+                    "level": "5",
+                    "percentage": ""
+                },
+                {
+                    "subject": "Engl",
+                    "level": ""
+                },
+                {
+                    "subject": "LO",
+                    "level": "4",
+                    "percentage": ""
+                },
+                {
+                    "subject": "Agric Sci or Life Sci or Phys Sci",
+                    "level": "4",
+                    "percentage": ""
+                }
+            ]
+        },
+        {
+            "course_name": "B Sc Agric. Animal & Poultry Science",
+            "course_code": "",
+            "duration": "",
+            "aps": "28",
+            "required_subjects": [
+                {
+                    "subject": "Maths",
+                    "level": ""
+                },
+                {
+                    "subject": "Engl",
+                    "level": ""
+                },
+                {
+                    "subject": "LO",
+                    "level": ""
+                },
+                {
+                    "subject": "Agric Sci or Life Sci or Phys Sci",
+                    "level": "4",
+                    "percentage": ""
+                }
+            ]
+        },
+        {
+            "course_name": "B Sc Engineering Access",
+            "course_code": "",
+            "duration": "",
+            "aps": "28",
+            "required_subjects": [
+                {
+                    "subject": "Engl",
+                    "level": ""
+                },
+                {
+                    "subject": "LO",
+                    "level": "4",
+                    "percentage": ""
+                },
+                {
+                    "subject": "and Maths",
+                    "level": ""
+                },
+                {
+                    "subject": "Phys Sci",
+                    "level": "4",
+                    "percentage": ""
+                }
+            ]
+        },
+        {
+            "course_name": "B Sc Geological Science",
+            "course_code": "",
+            "duration": "",
+            "aps": "28",
+            "required_subjects": [
+                {
+                    "subject": "Engl",
+                    "level": ""
+                },
+                {
+                    "subject": "LO",
+                    "level": "4",
+                    "percentage": ""
+                },
+                {
+                    "subject": "Maths",
+                    "level": "4",
+                    "percentage": ""
+                },
+                {
+                    "subject": "Agric Sci or Life Sci or Phys Sci",
+                    "level": "4",
+                    "percentage": ""
+                }
+            ]
+        },
+        {
+            "course_name": "B Sc Stream M (Mathematics)",
+            "course_code": "",
+            "duration": "",
+            "aps": "30",
+            "required_subjects": [
+                {
+                    "subject": "Maths",
+                    "level": "5",
+                    "percentage": ""
+                },
+                {
+                    "subject": "Eng",
+                    "level": ""
+                },
+                {
+                    "subject": "LO",
+                    "level": "4",
+                    "percentage": ""
+                },
+                {
+                    "subject": "Agric Sci or Life Sci or Phys Sci",
+                    "level": "4",
+                    "percentage": ""
+                }
+            ]
+        },
+        {
+            "course_name": "B Sc Eng: Civil",
+            "course_code": "",
+            "duration": "",
+            "aps": "33",
+            "required_subjects": [
+                {
+                    "subject": "Maths",
+                    "level": ""
+                },
+                {
+                    "subject": "Phys Sci 5 (pass at least",
+                    "level": "6",
+                    "percentage": "5"
+                },
+                {
+                    "subject": "Engl",
+                    "level": ""
+                },
+                {
+                    "subject": "LO",
+                    "level": "4",
+                    "percentage": ""
+                }
+            ]
+        },
+        {
+            "course_name": "B Sc Land Surveying",
+            "course_code": "",
+            "duration": "",
+            "aps": "33",
+            "required_subjects": [
+                {
+                    "subject": "Maths",
+                    "level": ""
+                },
+                {
+                    "subject": "Phys Sci 5 (pass at least",
+                    "level": "6",
+                    "percentage": "5"
+                },
+                {
+                    "subject": "Engl",
+                    "level": ""
+                },
+                {
+                    "subject": "LO",
+                    "level": "4",
+                    "percentage": ""
+                }
+            ]
+        },
+        {
+            "course_name": "B Sc. Agric. Agricultural Economics",
+            "course_code": "",
+            "duration": "",
+            "aps": "28",
+            "required_subjects": [
+                {
+                    "subject": "Engl",
+                    "level": ""
+                },
+                {
+                    "subject": "LO",
+                    "level": ""
+                },
+                {
+                    "subject": "Maths",
+                    "level": ""
+                },
+                {
+                    "subject": "Agric Sci or Econ or Life Sci or Phys Sci",
+                    "level": "4",
+                    "percentage": ""
+                }
+            ]
+        }
+    ],
+    "COLLEGE OF HEALTH SCIENCES": [
+        {
+            "course_name": "B Oral Hygiene",
+            "course_code": "",
+            "duration": "",
+            "aps": "30",
+            "required_subjects": [
+                {
+                    "subject": "NSC Deg with Engl",
+                    "level": ""
+                },
+                {
+                    "subject": "LO",
+                    "level": "4",
+                    "percentage": ""
+                },
+                {
+                    "subject": "Life Sci",
+                    "level": ""
+                },
+                {
+                    "subject": "Maths 3 (Choices 1-3 only)",
+                    "level": ""
+                }
+            ]
+        },
+        {
+            "course_name": "B Nursing",
+            "course_code": "",
+            "duration": "",
+            "aps": "30",
+            "required_subjects": [
+                {
+                    "subject": "Engl",
+                    "level": ""
+                },
+                {
+                    "subject": "LO",
+                    "level": "4",
+                    "percentage": ""
+                },
+                {
+                    "subject": "Maths/Maths Lit",
+                    "level": "3",
+                    "percentage": ""
+                },
+                {
+                    "subject": "Life Sci 4 (Choice 1 only)",
+                    "level": ""
+                }
+            ]
+        },
+        {
+            "course_name": "Bachelor of Medical Science, Innovation and Entrepreneurship",
+            "course_code": "",
+            "duration": "",
+            "aps": "30",
+            "required_subjects": [
+                {
+                    "subject": "NSC Degree with English",
+                    "level": "4",
+                    "percentage": ""
+                },
+                {
+                    "subject": "Mathematics 4 Physical Science",
+                    "level": "4",
+                    "percentage": ""
+                },
+                {
+                    "subject": "Life Sciences 4 (Choices 1 to 3 only)",
+                    "level": ""
+                }
+            ]
+        },
+        {
+            "course_name": "B Physiotherapy",
+            "course_code": "",
+            "duration": "",
+            "aps": "30",
+            "required_subjects": [
+                {
+                    "subject": "Engl",
+                    "level": ""
+                },
+                {
+                    "subject": "LO",
+                    "level": ""
+                },
+                {
+                    "subject": "Maths",
+                    "level": "4",
+                    "percentage": ""
+                },
+                {
+                    "subject": "Agric Sci or Life Sci or Phys Sci",
+                    "level": "4",
+                    "percentage": ""
+                }
+            ]
+        },
+        {
+            "course_name": "Bachelor of Speech-Language Therapy",
+            "course_code": "",
+            "duration": "",
+            "aps": "30",
+            "required_subjects": [
+                {
+                    "subject": "Engl",
+                    "level": ""
+                },
+                {
+                    "subject": "LO",
+                    "level": "4",
+                    "percentage": ""
+                },
+                {
+                    "subject": "Maths",
+                    "level": ""
+                },
+                {
+                    "subject": "Life Sci or Phy Sci 3 (Choices 1 to 3 only)",
+                    "level": ""
+                }
+            ]
+        },
+        {
+            "course_name": "B Medicine & B Surgery",
+            "course_code": "",
+            "duration": "",
+            "aps": "",
+            "required_subjects": [
+                {
+                    "subject": "Engl",
+                    "level": ""
+                },
+                {
+                    "subject": "Life Sci",
+                    "level": ""
+                },
+                {
+                    "subject": "Maths",
+                    "level": ""
+                },
+                {
+                    "subject": "Phys Sci",
+                    "level": "5",
+                    "percentage": ""
+                },
+                {
+                    "subject": "LO4 (with at least 65% aggregate)",
+                    "level": ""
+                }
+            ]
+        },
+        {
+            "course_name": "B Sport Science",
+            "course_code": "",
+            "duration": "",
+            "aps": "30",
+            "required_subjects": [
+                {
+                    "subject": "Engl",
+                    "level": ""
+                },
+                {
+                    "subject": "LO",
+                    "level": "4",
+                    "percentage": ""
+                },
+                {
+                    "subject": "Maths/Maths Lit",
+                    "level": "3",
+                    "percentage": ""
+                }
+            ]
+        },
+        {
+            "course_name": "B Science Dietetics and Human Nutrition",
+            "course_code": "",
+            "duration": "",
+            "aps": "28",
+            "required_subjects": [
+                {
+                    "subject": "Engl",
+                    "level": ""
+                },
+                {
+                    "subject": "LO",
+                    "level": "4",
+                    "percentage": ""
+                },
+                {
+                    "subject": "Maths",
+                    "level": "4",
+                    "percentage": ""
+                },
+                {
+                    "subject": "Agric Sci or Life Sci or Phys Sci",
+                    "level": "4",
+                    "percentage": ""
+                }
+            ]
+        },
+        {
+            "course_name": "B Pharmacy",
+            "course_code": "",
+            "duration": "",
+            "aps": "33",
+            "required_subjects": [
+                {
+                    "subject": "Engl",
+                    "level": ""
+                },
+                {
+                    "subject": "Life Sci",
+                    "level": ""
+                },
+                {
+                    "subject": "LO",
+                    "level": ""
+                },
+                {
+                    "subject": "Maths",
+                    "level": ""
+                },
+                {
+                    "subject": "Phys Sci 4 (Choices 1 to 3 only)",
+                    "level": ""
+                }
+            ]
+        },
+        {
+            "course_name": "B Optometry",
+            "course_code": "",
+            "duration": "",
+            "aps": "33",
+            "required_subjects": [
+                {
+                    "subject": "Engl",
+                    "level": ""
+                },
+                {
+                    "subject": "LO",
+                    "level": ""
+                },
+                {
+                    "subject": "Maths",
+                    "level": ""
+                },
+                {
+                    "subject": "Life Sci",
+                    "level": ""
+                },
+                {
+                    "subject": "Phys Sci 4 (Choices 1 to 3 only)",
+                    "level": ""
+                }
+            ]
+        },
+        {
+            "course_name": "B Occupational Therapy",
+            "course_code": "",
+            "duration": "",
+            "aps": "30",
+            "required_subjects": [
+                {
+                    "subject": "Engl",
+                    "level": ""
+                },
+                {
+                    "subject": "LO",
+                    "level": "4",
+                    "percentage": ""
+                },
+                {
+                    "subject": "Maths",
+                    "level": "3",
+                    "percentage": ""
+                },
+                {
+                    "subject": "Life Sci or Phys Sci 3 (Choices 1 to 3 only)",
+                    "level": ""
+                }
+            ]
+        },
+        {
+            "course_name": "B Dental Therapy",
+            "course_code": "",
+            "duration": "",
+            "aps": "30",
+            "required_subjects": [
+                {
+                    "subject": "NSC Deg with Engl",
+                    "level": ""
+                },
+                {
+                    "subject": "LO",
+                    "level": "4",
+                    "percentage": ""
+                },
+                {
+                    "subject": "Life Sci",
+                    "level": ""
+                },
+                {
+                    "subject": "Maths 3 (Choices 1 to 3 only)",
+                    "level": ""
+                }
+            ]
+        },
+        {
+            "course_name": "Bachelor of Audiology",
+            "course_code": "",
+            "duration": "",
+            "aps": "30",
+            "required_subjects": [
+                {
+                    "subject": "Engl",
+                    "level": ""
+                },
+                {
+                    "subject": "LO",
+                    "level": "4",
+                    "percentage": ""
+                },
+                {
+                    "subject": "Maths",
+                    "level": ""
+                },
+                {
+                    "subject": "Life Sci or Phy Sci 3 (Choices 1 to 3 only)",
+                    "level": ""
+                }
+            ]
+        }
+    ]
+}

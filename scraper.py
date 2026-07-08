@@ -88,10 +88,13 @@ def scrape_university(url, output_file):
                     if "minimum aps" in sentence.lower():
                         continue
 
-                    parts = sentence.split(',')
+                    parts = re.split(r'[,;]\s*|\s+and\s+(?![a-zA-Z]+\s+only)|\s+&\s+', sentence, flags=re.IGNORECASE)
                     for part in parts:
                         part = part.strip()
                         if not part: continue
+                        if "nsc-deg" in part.lower() or "nsc deg" in part.lower():
+                            part = re.sub(r'NSC-?Deg with ', '', part, flags=re.IGNORECASE)
+                            part = part.strip()
 
                         if "minimum aps" in part.lower():
                             continue
@@ -102,26 +105,27 @@ def scrape_university(url, output_file):
                         # Clean trailing colons from subjects if present
 
                         # Pattern 1: Subject Level(Percentage%+) e.g., Mathematics 5(60%+)
-                        match = re.search(r'(.*?)\s+(\d+)\s*\(?(\d+)%?\+?\)?', part)
-                        if match:
+                        # Or Subject Code 4, Subject 6, Subject 5/FAL 6
+                        match = re.search(r'(.*?)\s+(?:Code|Level)?\s*(\d+)(?:\s*\(?(\d+)%?\+?\)?|\s*/.*?)?$', part, re.IGNORECASE)
+                        if match and "minimum" not in part.lower():
                             subject = match.group(1).strip()
                             if subject.endswith(':'): subject = subject[:-1].strip()
                             level = match.group(2)
-                            percentage = match.group(3)
+                            percentage = match.group(3) if match.group(3) else ""
 
-                            # Check if the subject part has its own embedded " OR " with a level, e.g. "Maths 4 OR Maths Literacy 6(70%+)"
-                            # Let's keep it simple and just do what the original script did, which worked perfectly for them.
                             requirements.append({"subject": subject, "level": level, "percentage": percentage})
                         else:
                             # Pattern 2: Subject: Level X or Subject: X
-                            match_level = re.search(r'(.*?):\s*(Level\s*)?(\d+|null)', part, re.IGNORECASE)
-                            if match_level:
+                            match_level = re.search(r'(.*?):\s*(?:Code|Level\s*)?(\d+|null)', part, re.IGNORECASE)
+                            if match_level and "minimum" not in part.lower():
                                 subject = match_level.group(1).strip()
                                 if subject.endswith(':'): subject = subject[:-1].strip()
                                 level = match_level.group(3)
                                 if level.lower() != 'null':
                                     requirements.append({"subject": subject, "level": level})
                             else:
+                                if "minimum of" in part.lower() or part.lower().strip() == "minimum":
+                                    continue
                                 # Fallback just keep the string
                                 requirements.append({"subject": part, "level": ""})
 
