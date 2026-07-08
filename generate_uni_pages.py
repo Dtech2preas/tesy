@@ -1,15 +1,14 @@
-import json
 import os
 
 universities = [
-    {"file": "stellenbosch.json", "name": "Stellenbosch University", "html": "stellenbosch.html"},
-    {"file": "tut.json", "name": "Tshwane University of Technology (TUT)", "html": "tut.html"},
-    {"file": "uct.json", "name": "University of Cape Town (UCT)", "html": "uct.html"},
-    {"file": "ul.json", "name": "University of Limpopo (UL)", "html": "ul.html"},
-    {"file": "ump.json", "name": "University of Mpumalanga (UMP)", "html": "ump.html"},
-    {"file": "univen.json", "name": "University of Venda (Univen)", "html": "univen.html"},
-    {"file": "up.json", "name": "University of Pretoria (UP)", "html": "up.html"},
-    {"file": "wits.json", "name": "University of the Witwatersrand (Wits)", "html": "wits.html"}
+    {"id": "stellenbosch", "name": "Stellenbosch University", "html": "stellenbosch.html"},
+    {"id": "tut", "name": "Tshwane University of Technology (TUT)", "html": "tut.html"},
+    {"id": "uct", "name": "University of Cape Town (UCT)", "html": "uct.html"},
+    {"id": "ul", "name": "University of Limpopo (UL)", "html": "ul.html"},
+    {"id": "ump", "name": "University of Mpumalanga (UMP)", "html": "ump.html"},
+    {"id": "univen", "name": "University of Venda (Univen)", "html": "univen.html"},
+    {"id": "up", "name": "University of Pretoria (UP)", "html": "up.html"},
+    {"id": "wits", "name": "University of the Witwatersrand (Wits)", "html": "wits.html"}
 ]
 
 template = r"""<!DOCTYPE html>
@@ -212,7 +211,6 @@ template = r"""<!DOCTYPE html>
             margin-top: 10px;
         }}
 
-
         /* Modal Styles */
         .modal {{
             display: none;
@@ -333,15 +331,16 @@ template = r"""<!DOCTYPE html>
         </div>
     </div>
 
+    <script type="module">
+        import {{ UniversityLoader }} from './core/engine.js';
+        import {{ getLikelihoodClass }} from './core/engine_utils.js';
 
-    <script src="calculator.js"></script>
-    <script>
-        const uniFile = '{uni_file}';
-        let allCourses = []; // Stores actual course objects
+        const uniId = '{uni_id}';
+        let uniEngine = null;
+        let allCourses = [];
         let userMarks = [];
         let userAps = 0;
         let userFps = 0;
-        let helperData = null;
         let currentSelectedCourse = null;
 
         async function init() {{
@@ -355,18 +354,6 @@ template = r"""<!DOCTYPE html>
             userAps = parseInt(localStorage.getItem('userAps') || '0', 10);
             userFps = parseInt(localStorage.getItem('userFps') || '0', 10);
 
-            let helperStr = localStorage.getItem('subjectHelper');
-            if (helperStr) {{
-                helperData = JSON.parse(helperStr);
-            }} else {{
-                try {{
-                    let hRes = await fetch('helper.json');
-                    helperData = await hRes.json();
-                }} catch(e) {{
-                    console.log("Could not load helper.json", e);
-                }}
-            }}
-
             let subStrings = userMarks.map(m => `${{m.subject}} (${{m.percentage}}%)`).join(' | ');
             let infoDiv = document.getElementById('user-info');
             infoDiv.classList.remove('hidden');
@@ -378,27 +365,9 @@ template = r"""<!DOCTYPE html>
             `;
 
             try {{
-                const response = await fetch(uniFile);
-                if (!response.ok) throw new Error('File not found');
-                const data = await response.json();
-
-                // Flatten faculties into a single array of courses
-                let faculties = Object.keys(data);
-                faculties.forEach(faculty => {{
-                    let courseList = data[faculty];
-                    if (Array.isArray(courseList)) {{
-                        courseList.forEach(course => {{
-                            course.facultyName = faculty; // Keep track of faculty
-                            allCourses.push(course);
-                        }});
-                    }}
-                }});
-
-                // Sort courses alphabetically
-                allCourses.sort((a, b) => a.course_name.localeCompare(b.course_name));
-
+                uniEngine = await UniversityLoader.load(uniId);
+                allCourses = uniEngine.getCourses();
                 populateDropdown(allCourses);
-
             }} catch(err) {{
                 document.getElementById('selected-course-container').innerHTML = '<p style="color:var(--error-color)">Failed to load university data. Ensure you are running this through a local server.</p>';
                 console.error(err);
@@ -410,7 +379,6 @@ template = r"""<!DOCTYPE html>
             select.innerHTML = '<option value="">-- Select a Course --</option>';
 
             coursesToDisplay.forEach((course, index) => {{
-                // Store actual index in the main array as the value to retrieve it easily later
                 const mainIndex = allCourses.indexOf(course);
                 let option = document.createElement('option');
                 option.value = mainIndex;
@@ -419,18 +387,18 @@ template = r"""<!DOCTYPE html>
             }});
         }}
 
-        function filterDropdown() {{
-            let filter = document.getElementById('search-input').value.toLowerCase();
-            let filteredCourses = allCourses.filter(c => c.course_name.toLowerCase().includes(filter));
+        window.filterDropdown = function() {{
+            if (!uniEngine) return;
+            let filter = document.getElementById('search-input').value;
+            let filteredCourses = uniEngine.searchCourses(filter);
             populateDropdown(filteredCourses);
 
-            // If user searches, clear selection
             document.getElementById('course-select').value = "";
             document.getElementById('selected-course-container').innerHTML = '';
             currentSelectedCourse = null;
         }}
 
-        function selectCourseFromDropdown() {{
+        window.selectCourseFromDropdown = function() {{
             const select = document.getElementById('course-select');
             const selectedIndex = select.value;
 
@@ -487,32 +455,31 @@ template = r"""<!DOCTYPE html>
             `;
         }}
 
-        function runEligibilityCheck() {{
-            if (!currentSelectedCourse) return;
+        window.runEligibilityCheck = function() {{
+            if (!currentSelectedCourse || !uniEngine) return;
 
             const btn = document.querySelector('.check-eligibility-btn');
-            btn.style.display = 'none'; // Hide button after clicking
+            btn.style.display = 'none';
 
             const resultBox = document.getElementById('eligibility-result');
             resultBox.style.display = 'block';
             resultBox.innerHTML = '<p>Calculating...</p>';
 
-            // Small delay for UI effect
             setTimeout(() => {{
-                let result = calculateLikelihood(currentSelectedCourse, userMarks, userAps, userFps, helperData);
-
+                let result = uniEngine.calculateEligibility(currentSelectedCourse, userMarks, userAps, userFps);
                 window.currentBreakdownData = result.breakdown;
-                    resultBox.innerHTML = `
-                        <div style="text-transform: uppercase; letter-spacing: 1px; color: #888;">Likelihood of Acceptance</div>
-                        <span class="likelihood-score ${{getLikelihoodClass(result.likelihood)}}">${{result.likelihood}}%</span>
-                        <div class="likelihood-reason">${{result.reason}}</div>
-                        <button class="view-breakdown-btn" onclick="openBreakdownModal(window.currentBreakdownData)">View Detailed Breakdown</button>
-                    `;
+                resultBox.innerHTML = `
+                    <div style="text-transform: uppercase; letter-spacing: 1px; color: #888;">Likelihood of Acceptance</div>
+                    <span class="likelihood-score ${{getLikelihoodClass(result.likelihood)}}">${{result.likelihood}}%</span>
+                    <div class="likelihood-reason">${{result.reason}}</div>
+                    <button class="view-breakdown-btn" onclick="openBreakdownModal()">View Detailed Breakdown</button>
+                `;
             }}, 400);
         }}
 
-
-        function openBreakdownModal(breakdown) {{
+        window.openBreakdownModal = function() {{
+            let breakdown = window.currentBreakdownData;
+            if (!breakdown) return;
             const modal = document.getElementById('breakdown-modal');
             const content = document.getElementById('breakdown-content');
 
@@ -552,11 +519,10 @@ template = r"""<!DOCTYPE html>
             modal.style.display = 'flex';
         }}
 
-        function closeBreakdownModal() {{
+        window.closeBreakdownModal = function() {{
             document.getElementById('breakdown-modal').style.display = 'none';
         }}
 
-        // Close modal when clicking outside
         window.onclick = function(event) {{
             const modal = document.getElementById('breakdown-modal');
             if (event.target === modal) {{
@@ -564,18 +530,13 @@ template = r"""<!DOCTYPE html>
             }}
         }}
 
-        // --- Core Calculation Logic (Unchanged from original) ---
-
-
-
         window.onload = init;
     </script>
-    <script src="calculator.js"></script>
 </body>
 </html>
 """
 
 for uni in universities:
     with open(uni['html'], 'w') as f:
-        f.write(template.format(uni_name=uni['name'], uni_file=uni['file']))
+        f.write(template.format(uni_name=uni['name'], uni_id=uni['id']))
     print(f"Generated {uni['html']}")
