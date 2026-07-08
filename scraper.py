@@ -4,24 +4,6 @@ import json
 import re
 import argparse
 
-def split_subjects(subject_string, level, percentage):
-    """Splits subjects by OR, AND/OR, and returns a list of requirement dicts."""
-    # Normalize separators
-    text = subject_string.replace(" AND/OR ", " OR ")
-    # Also handle lowercase " or "
-    text = re.sub(r'\s+or\s+', ' OR ', text, flags=re.IGNORECASE)
-
-    parts = text.split(" OR ")
-    results = []
-    for p in parts:
-        p = p.strip()
-        if p:
-            req = {"subject": p, "level": level}
-            if percentage:
-                req["percentage"] = percentage
-            results.append(req)
-    return results
-
 def scrape_university(url, output_file):
     print(f"Scraping data from: {url}")
     response = requests.get(url, headers={'User-Agent': 'Mozilla/5.0'})
@@ -34,9 +16,11 @@ def scrape_university(url, output_file):
 
     faculties = {}
 
+    # Find all cards containing program data
     cards = soup.find_all('div', class_="card-body")
 
     for card in cards:
+        # Extract Faculty
         faculty_badge = card.find('span', class_=re.compile("bg-soft-primary"))
         title_tag = card.find(lambda tag: tag.name in ['h3', 'h4', 'h5'])
 
@@ -45,14 +29,14 @@ def scrape_university(url, output_file):
 
         faculty_text = faculty_badge.get_text(strip=True) if faculty_badge else ""
         if not faculty_text:
-            continue
+            continue # Skip header/summary cards
 
         faculty_name = faculty_text.split(" - ")[0].upper().strip()
-        # Normalize " AND " to " & " to match existing data format
-        faculty_name = faculty_name.replace(" AND ", " & ")
 
+        # Extract Course Name
         course_name = title_tag.get_text(strip=True)
 
+        # Extract Duration and APS
         badges = card.find_all('span', class_=re.compile("rounded-pill"))
         duration = ""
         aps = ""
@@ -68,6 +52,7 @@ def scrape_university(url, output_file):
                 if len(aps_parts) > 1:
                     aps = aps_parts[1].strip()
 
+        # Extract Key Requirements
         requirements = []
         req_header = card.find(lambda tag: tag.name == 'p' and "Key Requirements" in tag.get_text())
         if req_header:
@@ -75,10 +60,14 @@ def scrape_university(url, output_file):
             if req_text_tag:
                 req_text = req_text_tag.get_text(strip=True)
 
+                # Basic Parsing of subjects: "Subject X(Y%+), Subject Z(Level)"
                 parts = req_text.split(',')
                 for part in parts:
                     part = part.strip()
                     if not part: continue
+
+                    # Try to handle separated alternative subjects if they contain " OR "
+                    sub_parts = [part] # We'll keep them together as requested in memory for some formats, but let's check
 
                     # Pattern 1: Subject Level(Percentage%+) e.g., Mathematics 5(60%+)
                     match = re.search(r'(.*?)\s+(\d+)\s*\(?(\d+)%?\+?\)?', part)
@@ -86,7 +75,7 @@ def scrape_university(url, output_file):
                         subject = match.group(1).strip()
                         level = match.group(2)
                         percentage = match.group(3)
-                        requirements.extend(split_subjects(subject, level, percentage))
+                        requirements.append({"subject": subject, "level": level, "percentage": percentage})
                     else:
                         # Pattern 2: Subject: Level X or Subject: X
                         match_level = re.search(r'(.*?):\s*(Level\s*)?(\d+|null)', part, re.IGNORECASE)
@@ -94,9 +83,10 @@ def scrape_university(url, output_file):
                             subject = match_level.group(1).strip()
                             level = match_level.group(3)
                             if level.lower() != 'null':
-                                requirements.extend(split_subjects(subject, level, None))
+                                requirements.append({"subject": subject, "level": level})
                         else:
-                            requirements.extend(split_subjects(part, "", None))
+                            # Fallback just keep the string
+                            requirements.append({"subject": part, "level": ""})
 
         course_data = {
             "course_name": course_name,
