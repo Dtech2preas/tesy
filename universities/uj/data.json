@@ -1,0 +1,2457 @@
+{
+    "HEALTH SCIENCES": [
+        {
+            "course_name": "BIOKINETICS",
+            "course_code": "",
+            "duration": "4",
+            "aps": "32",
+            "required_subjects": [
+                {
+                    "subject": "English",
+                    "level": "5",
+                    "percentage": "60"
+                },
+                {
+                    "subject": "Mathematics",
+                    "level": "4",
+                    "percentage": "50"
+                }
+            ]
+        },
+        {
+            "course_name": "NURSING",
+            "course_code": "",
+            "duration": "4",
+            "aps": "30",
+            "required_subjects": [
+                {
+                    "subject": "English",
+                    "level": "5",
+                    "percentage": "60"
+                },
+                {
+                    "subject": "Mathematics",
+                    "level": "4",
+                    "percentage": "50"
+                },
+                {
+                    "subject": "Physical Science",
+                    "level": "4",
+                    "percentage": "50"
+                },
+                {
+                    "subject": "Life Science",
+                    "level": "5",
+                    "percentage": "60"
+                }
+            ]
+        },
+        {
+            "course_name": "DIAGNOSTIC ULTRASOUND",
+            "course_code": "",
+            "duration": "4",
+            "aps": "31",
+            "required_subjects": [
+                {
+                    "subject": "English",
+                    "level": "5",
+                    "percentage": "60"
+                },
+                {
+                    "subject": "Mathematics",
+                    "level": "4",
+                    "percentage": "50"
+                },
+                {
+                    "subject": "Physical Science",
+                    "level": "4",
+                    "percentage": "50"
+                },
+                {
+                    "subject": "Life Science",
+                    "level": "5",
+                    "percentage": "60"
+                }
+            ]
+        },
+        {
+            "course_name": "EMERGENCY MEDICAL CARE (EMC)",
+            "course_code": "",
+            "duration": "4",
+            "aps": "27",
+            "required_subjects": []
+        },
+        {
+            "course_name": "NUCLEAR MEDICINE",
+            "course_code": "",
+            "duration": "4",
+            "aps": "31",
+            "required_subjects": [
+                {
+                    "subject": "English",
+                    "level": "5",
+                    "percentage": "60"
+                },
+                {
+                    "subject": "Mathematics",
+                    "level": "4",
+                    "percentage": "50"
+                },
+                {
+                    "subject": "Physical Science",
+                    "level": "4",
+                    "percentage": "50"
+                },
+                {
+                    "subject": "Life Science",
+                    "level": "5",
+                    "percentage": "60"
+                }
+            ]
+        },
+        {
+            "course_name": "B OPTOM",
+            "course_code": "",
+            "duration": "4",
+            "aps": "34",
+            "required_subjects": [
+                {
+                    "subject": "English",
+                    "level": "5",
+                    "percentage": "60"
+                },
+                {
+                    "subject": "Mathematics",
+                    "level": "5",
+                    "percentage": "60"
+                },
+                {
+                    "subject": "Physical Science",
+                    "level": "5",
+                    "percentage": "60"
+                },
+                {
+                    "subject": "Life Science",
+                    "level": "5",
+                    "percentage": "60"
+                }
+            ]
+        },
+        {
+            "course_name": "RADIATION THERAPY",
+            "course_code": "",
+            "duration": "4",
+            "aps": "31",
+            "required_subjects": [
+                {
+                    "subject": "English",
+                    "level": "5",
+                    "percentage": "60"
+                },
+                {
+                    "subject": "Mathematics",
+                    "level": "4",
+                    "percentage": "50"
+                },
+                {
+                    "subject": "Physical Science",
+                    "level": "4",
+                    "percentage": "50"
+                },
+                {
+                    "subject": "Life Science",
+                    "level": "5",
+                    "percentage": "60"
+                }
+            ]
+        },
+        {
+            "course_name": "COMPLEMENTARY MEDICINE",
+            "course_code": "",
+            "duration": "4",
+            "aps": "28",
+            "required_subjects": []
+        },
+        {
+            "course_name": "CHIROPRACTIC",
+            "course_code": "",
+            "duration": "4",
+            "aps": "28",
+            "required_subjects": []
+        },
+        {
+            "course_name": "ENVIRONMENTAL HEALTH",
+            "course_code": "",
+            "duration": "4",
+            "aps": "24",
+            "required_subjects": [
+                {
+                    "subject": "English",
+                    "level": "4",
+                    "percentage": "50"
+                },
+                {
+                    "subject": "Mathematics",
+                    "level": "4",
+                    "percentage": "50"
+                },
+                {
+                    "subject": "Physical Science",
+                    "level": "4",
+                    "percentage": "50"
+                },
+                {
+                    "subject": "Life Science",
+                    "level": "4",
+                    "percentage": "50"
+                },
+                {
+                    "subject": "Mathematical Literacy: Not accepted",
+                    "level": ""
+                }
+            ]
+        },
+        {
+            "course_name": "MEDICAL LABORATORY SCIENCE",
+            "course_code": "",
+            "duration": "4",
+            "aps": "30",
+            "required_subjects": []
+        },
+        {
+            "course_name": "DIAGNOSTIC RADIOGRAPHY",
+            "course_code": "",
+            "duration": "4",
+            "aps": "31",
+            "required_subjects": [
+                {
+                    "subject": "English",
+                    "level": "5",
+                    "percentage": "60"
+                },
+                {
+                    "subject": "Mathematics",
+                    "level": "4",
+                    "percentage": "50"
+                },
+                {
+                    "subject": "Physical Science",
+                    "level": "4",
+                    "percentage": "50"
+                },
+                {
+                    "subject": "Life Science",
+                    "level": "5",
+                    "percentage": "60"
+                }
+            ]
+        },
+        {
+            "course_name": "SPORT MANAGEMENT",
+            "course_code": "",
+            "duration": "3",
+            "aps": "23",
+            "required_subjects": [
+                {
+                    "subject": "English",
+                    "level": "4",
+                    "percentage": "50"
+                },
+                {
+                    "subject": "Mathematics",
+                    "level": "4",
+                    "percentage": "50"
+                },
+                {
+                    "subject": "Mathematical Literacy: Not accepted",
+                    "level": ""
+                }
+            ]
+        },
+        {
+            "course_name": "SPORT AND EXERCISE SCIENCE",
+            "course_code": "",
+            "duration": "3",
+            "aps": "27",
+            "required_subjects": [
+                {
+                    "subject": "English",
+                    "level": "5",
+                    "percentage": "60"
+                },
+                {
+                    "subject": "Mathematics",
+                    "level": "3",
+                    "percentage": "40"
+                },
+                {
+                    "subject": "Life Science",
+                    "level": "4",
+                    "percentage": "50"
+                },
+                {
+                    "subject": "Technical Mathematics",
+                    "level": "4",
+                    "percentage": "50"
+                }
+            ]
+        },
+        {
+            "course_name": "PODIATRY",
+            "course_code": "",
+            "duration": "4",
+            "aps": "28",
+            "required_subjects": []
+        }
+    ],
+    "HUMANITIES": [
+        {
+            "course_name": "BA with specialisation in STRATEGIC COMMUNICATION",
+            "course_code": "",
+            "duration": "4",
+            "aps": "24",
+            "required_subjects": [
+                {
+                    "subject": "English",
+                    "level": "5",
+                    "percentage": "60"
+                },
+                {
+                    "subject": "Interviews will be conducted with individual applicants",
+                    "level": ""
+                }
+            ]
+        },
+        {
+            "course_name": "BA with specialisation in POLITICS, ECONOMICS AND TECHNOLOGY",
+            "course_code": "",
+            "duration": "3",
+            "aps": "27",
+            "required_subjects": [
+                {
+                    "subject": "English",
+                    "level": "5",
+                    "percentage": "60"
+                },
+                {
+                    "subject": "Mathematics",
+                    "level": "4",
+                    "percentage": "50"
+                }
+            ]
+        },
+        {
+            "course_name": "BA",
+            "course_code": "",
+            "duration": "3",
+            "aps": "27",
+            "required_subjects": []
+        },
+        {
+            "course_name": "BA with specialisation in DEVELOPMENT STUDIES",
+            "course_code": "",
+            "duration": "4",
+            "aps": "24",
+            "required_subjects": [
+                {
+                    "subject": "English",
+                    "level": "5",
+                    "percentage": "60"
+                },
+                {
+                    "subject": "Interviews will be conducted with individual applicants",
+                    "level": ""
+                }
+            ]
+        },
+        {
+            "course_name": "COMMUNITY DEVELOPMENT AND LEADERSHIP",
+            "course_code": "",
+            "duration": "3",
+            "aps": "27",
+            "required_subjects": [
+                {
+                    "subject": "English",
+                    "level": "5",
+                    "percentage": "60"
+                },
+                {
+                    "subject": "Mathematics: Not applicable",
+                    "level": ""
+                }
+            ]
+        },
+        {
+            "course_name": "BA with specialisation in LINGUISTICS",
+            "course_code": "",
+            "duration": "4",
+            "aps": "24",
+            "required_subjects": [
+                {
+                    "subject": "English",
+                    "level": "5",
+                    "percentage": "60"
+                },
+                {
+                    "subject": "Interviews will be conducted with individual applicants",
+                    "level": ""
+                }
+            ]
+        },
+        {
+            "course_name": "SOCIAL WORK",
+            "course_code": "",
+            "duration": "4",
+            "aps": "31",
+            "required_subjects": [
+                {
+                    "subject": "English",
+                    "level": "5",
+                    "percentage": "60"
+                }
+            ]
+        },
+        {
+            "course_name": "BA with specialisation in LANGUAGE PRACTICE",
+            "course_code": "",
+            "duration": "3",
+            "aps": "27",
+            "required_subjects": [
+                {
+                    "subject": "APS",
+                    "level": "2",
+                    "percentage": "7"
+                },
+                {
+                    "subject": "English",
+                    "level": "5",
+                    "percentage": "60"
+                },
+                {
+                    "subject": "Mathematics: Not applicable",
+                    "level": ""
+                }
+            ]
+        },
+        {
+            "course_name": "PUBLIC RELATIONS AND COMMUNICATION",
+            "course_code": "",
+            "duration": "3",
+            "aps": "25",
+            "required_subjects": [
+                {
+                    "subject": "English",
+                    "level": "5",
+                    "percentage": "60"
+                }
+            ]
+        },
+        {
+            "course_name": "BA with specialisation in LINGUISTICS AND LANGUAGE PRACTICE",
+            "course_code": "",
+            "duration": "4",
+            "aps": "24",
+            "required_subjects": [
+                {
+                    "subject": "English",
+                    "level": "5",
+                    "percentage": "60"
+                },
+                {
+                    "subject": "Interviews will be conducted with individual applicants",
+                    "level": ""
+                }
+            ]
+        }
+    ],
+    "LAW": [
+        {
+            "course_name": "BCOM (LAW)",
+            "course_code": "",
+            "duration": "3",
+            "aps": "31",
+            "required_subjects": [
+                {
+                    "subject": "English",
+                    "level": "5",
+                    "percentage": "60"
+                },
+                {
+                    "subject": "Additional Language",
+                    "level": "4",
+                    "percentage": "50"
+                },
+                {
+                    "subject": "Mathematics",
+                    "level": "4",
+                    "percentage": "50"
+                },
+                {
+                    "subject": "Mathematical Literacy Not accepted",
+                    "level": ""
+                }
+            ]
+        },
+        {
+            "course_name": "LLB",
+            "course_code": "",
+            "duration": "4",
+            "aps": "31",
+            "required_subjects": [
+                {
+                    "subject": "English",
+                    "level": "5",
+                    "percentage": "60"
+                },
+                {
+                    "subject": "Additional Language",
+                    "level": "4",
+                    "percentage": "50"
+                },
+                {
+                    "subject": "Mathematics",
+                    "level": "3",
+                    "percentage": "40"
+                }
+            ]
+        },
+        {
+            "course_name": "BA (LAW)",
+            "course_code": "",
+            "duration": "3",
+            "aps": "31",
+            "required_subjects": [
+                {
+                    "subject": "English",
+                    "level": "5",
+                    "percentage": "60"
+                },
+                {
+                    "subject": "Additional Language",
+                    "level": "4",
+                    "percentage": "50"
+                },
+                {
+                    "subject": "Mathematics",
+                    "level": "3",
+                    "percentage": "40"
+                }
+            ]
+        }
+    ],
+    "COLLEGE OF BUSINESS & ECONOMICS": [
+        {
+            "course_name": "ACCOUNTING",
+            "course_code": "",
+            "duration": "3",
+            "aps": "28",
+            "required_subjects": [
+                {
+                    "subject": "English",
+                    "level": "4",
+                    "percentage": "50"
+                },
+                {
+                    "subject": "Mathematics",
+                    "level": "4",
+                    "percentage": "50"
+                },
+                {
+                    "subject": "Mathematical Literacy: Not accepted",
+                    "level": ""
+                },
+                {
+                    "subject": "Technical Mathematics: Not accepted",
+                    "level": ""
+                }
+            ]
+        },
+        {
+            "course_name": "MARKETING MANAGEMENT",
+            "course_code": "",
+            "duration": "3",
+            "aps": "26",
+            "required_subjects": [
+                {
+                    "subject": "English",
+                    "level": "4",
+                    "percentage": "50"
+                },
+                {
+                    "subject": "Mathematics",
+                    "level": "4",
+                    "percentage": "50"
+                },
+                {
+                    "subject": "Mathematical Literacy: Not accepted",
+                    "level": ""
+                },
+                {
+                    "subject": "Technical Mathematics",
+                    "level": "4",
+                    "percentage": "50"
+                }
+            ]
+        },
+        {
+            "course_name": "TRANSPORT AND LOGISTICS MANAGEMENT",
+            "course_code": "",
+            "duration": "3",
+            "aps": "27",
+            "required_subjects": [
+                {
+                    "subject": "English",
+                    "level": "5",
+                    "percentage": "60"
+                },
+                {
+                    "subject": "Mathematics",
+                    "level": "4",
+                    "percentage": "50"
+                },
+                {
+                    "subject": "Mathematical Literacy: Not accepted",
+                    "level": ""
+                },
+                {
+                    "subject": "Technical Mathematics",
+                    "level": "4",
+                    "percentage": "50"
+                }
+            ]
+        },
+        {
+            "course_name": "BUSINESS MANAGEMENT",
+            "course_code": "",
+            "duration": "3",
+            "aps": "26",
+            "required_subjects": [
+                {
+                    "subject": "English",
+                    "level": "4",
+                    "percentage": "50"
+                },
+                {
+                    "subject": "Mathematics",
+                    "level": "4",
+                    "percentage": "50"
+                },
+                {
+                    "subject": "Mathematical Literacy",
+                    "level": "5",
+                    "percentage": "60"
+                },
+                {
+                    "subject": "Technical Mathematics",
+                    "level": "4",
+                    "percentage": "50"
+                }
+            ]
+        },
+        {
+            "course_name": "BUSINESS INFORMATION TECHNOLOGY",
+            "course_code": "",
+            "duration": "3",
+            "aps": "22",
+            "required_subjects": [
+                {
+                    "subject": "English",
+                    "level": "4",
+                    "percentage": "50"
+                },
+                {
+                    "subject": "Mathematics",
+                    "level": "3",
+                    "percentage": "40"
+                },
+                {
+                    "subject": "Mathematical Literacy",
+                    "level": "6",
+                    "percentage": "70"
+                },
+                {
+                    "subject": "Technical Mathematics",
+                    "level": "3",
+                    "percentage": "40"
+                }
+            ]
+        },
+        {
+            "course_name": "PEOPLE MANAGEMENT",
+            "course_code": "",
+            "duration": "3",
+            "aps": "22",
+            "required_subjects": [
+                {
+                    "subject": "English",
+                    "level": "4",
+                    "percentage": "50"
+                },
+                {
+                    "subject": "Mathematics",
+                    "level": "3",
+                    "percentage": "40"
+                },
+                {
+                    "subject": "Mathematical Literacy",
+                    "level": "5",
+                    "percentage": "60"
+                },
+                {
+                    "subject": "Technical Mathematics",
+                    "level": "3",
+                    "percentage": "40"
+                }
+            ]
+        },
+        {
+            "course_name": "MARKETING **",
+            "course_code": "",
+            "duration": "3",
+            "aps": "22",
+            "required_subjects": [
+                {
+                    "subject": "English",
+                    "level": "4",
+                    "percentage": "50"
+                },
+                {
+                    "subject": "Mathematics",
+                    "level": "3",
+                    "percentage": "40"
+                },
+                {
+                    "subject": "Mathematical Literacy",
+                    "level": "5",
+                    "percentage": "60"
+                },
+                {
+                    "subject": "Technical Mathematics",
+                    "level": "3",
+                    "percentage": "40"
+                }
+            ]
+        },
+        {
+            "course_name": "HOSPITALITY MANAGEMENT",
+            "course_code": "",
+            "duration": "3",
+            "aps": "26",
+            "required_subjects": [
+                {
+                    "subject": "English",
+                    "level": "4",
+                    "percentage": "50"
+                },
+                {
+                    "subject": "Mathematics",
+                    "level": "4",
+                    "percentage": "50"
+                },
+                {
+                    "subject": "Mathematical Literacy",
+                    "level": "5",
+                    "percentage": "60"
+                },
+                {
+                    "subject": "Technical Mathematics",
+                    "level": "4",
+                    "percentage": "50"
+                }
+            ]
+        },
+        {
+            "course_name": "BACHELOR OF HUMAN RESOURCE MANAGEMENT",
+            "course_code": "",
+            "duration": "3",
+            "aps": "28",
+            "required_subjects": [
+                {
+                    "subject": "English",
+                    "level": "4",
+                    "percentage": "50"
+                },
+                {
+                    "subject": "Mathematics",
+                    "level": "4",
+                    "percentage": "50"
+                },
+                {
+                    "subject": "Mathematical Literacy",
+                    "level": "5",
+                    "percentage": "60"
+                },
+                {
+                    "subject": "Technical Mathematics",
+                    "level": "4",
+                    "percentage": "50"
+                }
+            ]
+        },
+        {
+            "course_name": "ECONOMICS AND ECONOMETRICS",
+            "course_code": "",
+            "duration": "3",
+            "aps": "28",
+            "required_subjects": [
+                {
+                    "subject": "English",
+                    "level": "4",
+                    "percentage": "50"
+                },
+                {
+                    "subject": "Mathematics",
+                    "level": "4",
+                    "percentage": "50"
+                },
+                {
+                    "subject": "Mathematical Literacy: Not accepted",
+                    "level": ""
+                },
+                {
+                    "subject": "Technical Mathematics: Not accepted",
+                    "level": ""
+                }
+            ]
+        },
+        {
+            "course_name": "ENTREPRENEURIAL MANAGEMENT",
+            "course_code": "",
+            "duration": "3",
+            "aps": "26",
+            "required_subjects": [
+                {
+                    "subject": "English",
+                    "level": "4",
+                    "percentage": "50"
+                },
+                {
+                    "subject": "Mathematics",
+                    "level": "4",
+                    "percentage": "50"
+                },
+                {
+                    "subject": "Mathematical Literacy",
+                    "level": "5",
+                    "percentage": "60"
+                },
+                {
+                    "subject": "Technical Mathematics",
+                    "level": "4",
+                    "percentage": "50"
+                }
+            ]
+        },
+        {
+            "course_name": "BACHELOR OF COMMERCE IN ACCOUNTANCY",
+            "course_code": "",
+            "duration": "3",
+            "aps": "28",
+            "required_subjects": [
+                {
+                    "subject": "English",
+                    "level": "4",
+                    "percentage": "50"
+                },
+                {
+                    "subject": "Mathematics",
+                    "level": "4",
+                    "percentage": "50"
+                },
+                {
+                    "subject": "Mathematical Literacy: Not accepted",
+                    "level": ""
+                },
+                {
+                    "subject": "Technical Mathematics: Not accepted",
+                    "level": ""
+                }
+            ]
+        },
+        {
+            "course_name": "TOURISM DEVELOPMENT AND MANAGEMENT",
+            "course_code": "",
+            "duration": "3",
+            "aps": "26",
+            "required_subjects": [
+                {
+                    "subject": "English",
+                    "level": "4",
+                    "percentage": "50"
+                },
+                {
+                    "subject": "Mathematics",
+                    "level": "3",
+                    "percentage": "40"
+                },
+                {
+                    "subject": "Mathematical Literacy",
+                    "level": "4",
+                    "percentage": "50"
+                },
+                {
+                    "subject": "Technical Mathematics",
+                    "level": "3",
+                    "percentage": "40"
+                }
+            ]
+        },
+        {
+            "course_name": "LOGISTICS",
+            "course_code": "",
+            "duration": "3",
+            "aps": "24",
+            "required_subjects": [
+                {
+                    "subject": "English",
+                    "level": "4",
+                    "percentage": "50"
+                },
+                {
+                    "subject": "Mathematics",
+                    "level": "3",
+                    "percentage": "40"
+                },
+                {
+                    "subject": "Mathematical Literacy",
+                    "level": "5",
+                    "percentage": "60"
+                },
+                {
+                    "subject": "Technical Mathematics",
+                    "level": "3",
+                    "percentage": "40"
+                }
+            ]
+        },
+        {
+            "course_name": "INFORMATION MANAGEMENT",
+            "course_code": "",
+            "duration": "3",
+            "aps": "26",
+            "required_subjects": [
+                {
+                    "subject": "English",
+                    "level": "4",
+                    "percentage": "50"
+                },
+                {
+                    "subject": "Mathematics",
+                    "level": "4",
+                    "percentage": "50"
+                },
+                {
+                    "subject": "Mathematical Literacy",
+                    "level": "6",
+                    "percentage": "70"
+                },
+                {
+                    "subject": "Technical Mathematics",
+                    "level": "4",
+                    "percentage": "50"
+                }
+            ]
+        },
+        {
+            "course_name": "TRANSPORTATION MANAGEMENT",
+            "course_code": "",
+            "duration": "3",
+            "aps": "24",
+            "required_subjects": [
+                {
+                    "subject": "English",
+                    "level": "4",
+                    "percentage": "50"
+                },
+                {
+                    "subject": "Mathematics",
+                    "level": "3",
+                    "percentage": "40"
+                },
+                {
+                    "subject": "Mathematical Literacy",
+                    "level": "5",
+                    "percentage": "60"
+                },
+                {
+                    "subject": "Technical Mathematics",
+                    "level": "3",
+                    "percentage": "40"
+                }
+            ]
+        },
+        {
+            "course_name": "FINANCIAL SERVICES OPERATIONS *",
+            "course_code": "",
+            "duration": "3",
+            "aps": "22",
+            "required_subjects": [
+                {
+                    "subject": "English",
+                    "level": "4",
+                    "percentage": "50"
+                },
+                {
+                    "subject": "Mathematics",
+                    "level": "3",
+                    "percentage": "40"
+                },
+                {
+                    "subject": "Mathematical Literacy",
+                    "level": "5",
+                    "percentage": "60"
+                },
+                {
+                    "subject": "Technical Mathematics",
+                    "level": "3",
+                    "percentage": "40"
+                }
+            ]
+        },
+        {
+            "course_name": "RETAIL BUSINESS MANAGEMENT **",
+            "course_code": "",
+            "duration": "3",
+            "aps": "22",
+            "required_subjects": [
+                {
+                    "subject": "English",
+                    "level": "4",
+                    "percentage": "50"
+                },
+                {
+                    "subject": "Mathematics",
+                    "level": "3",
+                    "percentage": "40"
+                },
+                {
+                    "subject": "Mathematical Literacy",
+                    "level": "5",
+                    "percentage": "60"
+                },
+                {
+                    "subject": "Technical Mathematics",
+                    "level": "3",
+                    "percentage": "40"
+                }
+            ]
+        },
+        {
+            "course_name": "SMALL BUSINESS MANAGEMENT",
+            "course_code": "",
+            "duration": "4",
+            "aps": "19",
+            "required_subjects": [
+                {
+                    "subject": "English",
+                    "level": "4",
+                    "percentage": "50"
+                },
+                {
+                    "subject": "Mathematics",
+                    "level": "3",
+                    "percentage": "40"
+                },
+                {
+                    "subject": "Mathematical Literacy",
+                    "level": "4",
+                    "percentage": "50"
+                },
+                {
+                    "subject": "Technical Mathematics",
+                    "level": "3",
+                    "percentage": "40"
+                }
+            ]
+        },
+        {
+            "course_name": "PUBLIC MANAGEMENT AND GOVERNANCE",
+            "course_code": "",
+            "duration": "3",
+            "aps": "26",
+            "required_subjects": [
+                {
+                    "subject": "English",
+                    "level": "5",
+                    "percentage": "60"
+                },
+                {
+                    "subject": "Mathematics",
+                    "level": "3",
+                    "percentage": "40"
+                },
+                {
+                    "subject": "Mathematical Literacy",
+                    "level": "5",
+                    "percentage": "60"
+                },
+                {
+                    "subject": "Technical Mathematics",
+                    "level": "3",
+                    "percentage": "40"
+                }
+            ]
+        },
+        {
+            "course_name": "ACCOUNTANCY *",
+            "course_code": "",
+            "duration": "3",
+            "aps": "22",
+            "required_subjects": [
+                {
+                    "subject": "English",
+                    "level": "4",
+                    "percentage": "50"
+                },
+                {
+                    "subject": "Mathematics",
+                    "level": "3",
+                    "percentage": "40"
+                },
+                {
+                    "subject": "Mathematical Literacy",
+                    "level": "5",
+                    "percentage": "60"
+                },
+                {
+                    "subject": "Technical Mathematics",
+                    "level": "3",
+                    "percentage": "40"
+                }
+            ]
+        },
+        {
+            "course_name": "FINANCE",
+            "course_code": "",
+            "duration": "3",
+            "aps": "28",
+            "required_subjects": [
+                {
+                    "subject": "English",
+                    "level": "4",
+                    "percentage": "50"
+                },
+                {
+                    "subject": "Mathematics",
+                    "level": "4",
+                    "percentage": "50"
+                },
+                {
+                    "subject": "Mathematical Literacy: Not accepted",
+                    "level": ""
+                },
+                {
+                    "subject": "Technical Mathematics: Not accepted",
+                    "level": ""
+                }
+            ]
+        },
+        {
+            "course_name": "HUMAN RESOURCE MANAGEMENT",
+            "course_code": "",
+            "duration": "3",
+            "aps": "28",
+            "required_subjects": [
+                {
+                    "subject": "English",
+                    "level": "5",
+                    "percentage": "60"
+                },
+                {
+                    "subject": "Mathematics",
+                    "level": "4",
+                    "percentage": "50"
+                },
+                {
+                    "subject": "Mathematical Literacy",
+                    "level": "5",
+                    "percentage": "60"
+                },
+                {
+                    "subject": "Technical Mathematics",
+                    "level": "4",
+                    "percentage": "50"
+                }
+            ]
+        },
+        {
+            "course_name": "ACCOUNTING (CA)",
+            "course_code": "",
+            "duration": "3",
+            "aps": "33",
+            "required_subjects": [
+                {
+                    "subject": "English",
+                    "level": "5",
+                    "percentage": "60"
+                },
+                {
+                    "subject": "Mathematics",
+                    "level": "4",
+                    "percentage": "50"
+                },
+                {
+                    "subject": "Mathematical Literacy: Not accepted",
+                    "level": ""
+                },
+                {
+                    "subject": "Technical Mathematics: Not accepted",
+                    "level": ""
+                }
+            ]
+        },
+        {
+            "course_name": "SMALL BUSINESS MANAGEMENT ***",
+            "course_code": "",
+            "duration": "3",
+            "aps": "22",
+            "required_subjects": [
+                {
+                    "subject": "English",
+                    "level": "4",
+                    "percentage": "50"
+                },
+                {
+                    "subject": "Mathematics",
+                    "level": "3",
+                    "percentage": "40"
+                },
+                {
+                    "subject": "Mathematical Literacy",
+                    "level": "5",
+                    "percentage": "60"
+                },
+                {
+                    "subject": "Technical Mathematics",
+                    "level": "3",
+                    "percentage": "40"
+                }
+            ]
+        },
+        {
+            "course_name": "TOURISM MANAGEMENT",
+            "course_code": "",
+            "duration": "3",
+            "aps": "22",
+            "required_subjects": [
+                {
+                    "subject": "English",
+                    "level": "4",
+                    "percentage": "50"
+                },
+                {
+                    "subject": "Mathematics",
+                    "level": "3",
+                    "percentage": "40"
+                },
+                {
+                    "subject": "Mathematical Literacy",
+                    "level": "5",
+                    "percentage": "60"
+                },
+                {
+                    "subject": "Technical Mathematics",
+                    "level": "3",
+                    "percentage": "40"
+                }
+            ]
+        },
+        {
+            "course_name": "INDUSTRIAL PSYCHOLOGY",
+            "course_code": "",
+            "duration": "3",
+            "aps": "26",
+            "required_subjects": [
+                {
+                    "subject": "English",
+                    "level": "4",
+                    "percentage": "50"
+                },
+                {
+                    "subject": "Mathematics",
+                    "level": "4",
+                    "percentage": "50"
+                },
+                {
+                    "subject": "Mathematical Literacy",
+                    "level": "5",
+                    "percentage": "60"
+                },
+                {
+                    "subject": "Technical Mathematics",
+                    "level": "4",
+                    "percentage": "50"
+                }
+            ]
+        },
+        {
+            "course_name": "INFORMATION SYSTEMS",
+            "course_code": "",
+            "duration": "3",
+            "aps": "26",
+            "required_subjects": [
+                {
+                    "subject": "English",
+                    "level": "4",
+                    "percentage": "50"
+                },
+                {
+                    "subject": "Mathematics",
+                    "level": "4",
+                    "percentage": "50"
+                },
+                {
+                    "subject": "Mathematical Literacy: Not accepted",
+                    "level": ""
+                },
+                {
+                    "subject": "Technical Mathematics",
+                    "level": "4",
+                    "percentage": "50"
+                }
+            ]
+        },
+        {
+            "course_name": "FOOD AND BEVERAGE OPERATIONS",
+            "course_code": "",
+            "duration": "3",
+            "aps": "22",
+            "required_subjects": [
+                {
+                    "subject": "English",
+                    "level": "4",
+                    "percentage": "50"
+                },
+                {
+                    "subject": "Mathematics",
+                    "level": "3",
+                    "percentage": "40"
+                },
+                {
+                    "subject": "Mathematical Literacy",
+                    "level": "5",
+                    "percentage": "60"
+                },
+                {
+                    "subject": "Technical Mathematics",
+                    "level": "3",
+                    "percentage": "40"
+                }
+            ]
+        }
+    ],
+    "ENGINEERING & THE BUILT ENVIRONMENT": [
+        {
+            "course_name": "EXTRACTION METALLURGY (Extended)",
+            "course_code": "",
+            "duration": "4",
+            "aps": "22",
+            "required_subjects": [
+                {
+                    "subject": "English",
+                    "level": "4",
+                    "percentage": "50"
+                },
+                {
+                    "subject": "Mathematics / Technical Mathematics",
+                    "level": "4",
+                    "percentage": "50"
+                },
+                {
+                    "subject": "Physical Science",
+                    "level": "4",
+                    "percentage": "50"
+                },
+                {
+                    "subject": "Technical Science not accepted",
+                    "level": ""
+                },
+                {
+                    "subject": "Mathematical Literacy not applicable",
+                    "level": ""
+                }
+            ]
+        },
+        {
+            "course_name": "MINING ENGINEERING",
+            "course_code": "",
+            "duration": "3",
+            "aps": "23",
+            "required_subjects": [
+                {
+                    "subject": "English",
+                    "level": "4",
+                    "percentage": "50"
+                },
+                {
+                    "subject": "Mathematics / Technical Mathematics",
+                    "level": "5",
+                    "percentage": "60"
+                },
+                {
+                    "subject": "Physical Science",
+                    "level": "5",
+                    "percentage": "60"
+                },
+                {
+                    "subject": "Technical Science not accepted",
+                    "level": ""
+                }
+            ]
+        },
+        {
+            "course_name": "CIVIL ENGINEERING",
+            "course_code": "",
+            "duration": "4",
+            "aps": "32",
+            "required_subjects": [
+                {
+                    "subject": "English",
+                    "level": "5",
+                    "percentage": "60"
+                },
+                {
+                    "subject": "Mathematics / Technical Mathematics",
+                    "level": "5",
+                    "percentage": "60"
+                },
+                {
+                    "subject": "Physical Science",
+                    "level": "5",
+                    "percentage": "60"
+                },
+                {
+                    "subject": "Technical Science not accepted",
+                    "level": ""
+                }
+            ]
+        },
+        {
+            "course_name": "CONSTRUCTION (Extended)",
+            "course_code": "",
+            "duration": "4",
+            "aps": "26",
+            "required_subjects": [
+                {
+                    "subject": "English",
+                    "level": "4",
+                    "percentage": "50"
+                },
+                {
+                    "subject": "Mathematics / Technical Mathematics",
+                    "level": "5",
+                    "percentage": "60"
+                },
+                {
+                    "subject": "Physical Science",
+                    "level": "5",
+                    "percentage": "60"
+                },
+                {
+                    "subject": "Technical Science",
+                    "level": "5",
+                    "percentage": "60"
+                },
+                {
+                    "subject": "Mathematical Literacy not applicable",
+                    "level": ""
+                }
+            ]
+        },
+        {
+            "course_name": "OPERATIONS MANAGEMENT",
+            "course_code": "",
+            "duration": "3",
+            "aps": "20",
+            "required_subjects": [
+                {
+                    "subject": "English",
+                    "level": "4",
+                    "percentage": "50"
+                },
+                {
+                    "subject": "Mathematics / Technical Mathematics",
+                    "level": "3",
+                    "percentage": "40"
+                }
+            ]
+        },
+        {
+            "course_name": "CIVIL ENGINEERING (Extended)",
+            "course_code": "",
+            "duration": "4",
+            "aps": "26",
+            "required_subjects": [
+                {
+                    "subject": "English",
+                    "level": "4",
+                    "percentage": "50"
+                },
+                {
+                    "subject": "Mathematics / Technical Mathematics",
+                    "level": "4",
+                    "percentage": "50"
+                },
+                {
+                    "subject": "Physical Science",
+                    "level": "4",
+                    "percentage": "50"
+                },
+                {
+                    "subject": "Technical Science",
+                    "level": "4",
+                    "percentage": "50"
+                },
+                {
+                    "subject": "Mathematical Literacy not applicable",
+                    "level": ""
+                }
+            ]
+        },
+        {
+            "course_name": "CHEMICAL ENGINEERING",
+            "course_code": "",
+            "duration": "3",
+            "aps": "30",
+            "required_subjects": [
+                {
+                    "subject": "English",
+                    "level": "4",
+                    "percentage": "50"
+                },
+                {
+                    "subject": "Mathematics / Technical Mathematics",
+                    "level": "5",
+                    "percentage": "60"
+                },
+                {
+                    "subject": "Physical Science",
+                    "level": "5",
+                    "percentage": "60"
+                }
+            ]
+        },
+        {
+            "course_name": "EXTRACTION METALLURGY",
+            "course_code": "",
+            "duration": "3",
+            "aps": "30",
+            "required_subjects": [
+                {
+                    "subject": "English",
+                    "level": "4",
+                    "percentage": "50"
+                },
+                {
+                    "subject": "Mathematics / Technical Mathematics",
+                    "level": "5",
+                    "percentage": "60"
+                },
+                {
+                    "subject": "Physical Science",
+                    "level": "5",
+                    "percentage": "60"
+                },
+                {
+                    "subject": "Technical Science not accepted",
+                    "level": ""
+                }
+            ]
+        },
+        {
+            "course_name": "MECHANICAL ENGINEERING",
+            "course_code": "",
+            "duration": "4",
+            "aps": "32",
+            "required_subjects": [
+                {
+                    "subject": "English",
+                    "level": "5",
+                    "percentage": "60"
+                },
+                {
+                    "subject": "Mathematics / Technical Mathematics",
+                    "level": "5",
+                    "percentage": "60"
+                },
+                {
+                    "subject": "Physical Science",
+                    "level": "5",
+                    "percentage": "60"
+                },
+                {
+                    "subject": "Technical Science not accepted",
+                    "level": ""
+                }
+            ]
+        },
+        {
+            "course_name": "INDUSTRIAL ENGINEERING (Extended)",
+            "course_code": "",
+            "duration": "4",
+            "aps": "24",
+            "required_subjects": [
+                {
+                    "subject": "English",
+                    "level": "4",
+                    "percentage": "50"
+                },
+                {
+                    "subject": "Mathematics / Technical Mathematics",
+                    "level": "5",
+                    "percentage": "60"
+                },
+                {
+                    "subject": "Physical Science",
+                    "level": "5",
+                    "percentage": "60"
+                },
+                {
+                    "subject": "Technical Science",
+                    "level": "5",
+                    "percentage": "60"
+                },
+                {
+                    "subject": "Mathematical Literacy not applicable",
+                    "level": ""
+                }
+            ]
+        },
+        {
+            "course_name": "MECHANICAL ENGINEERING (Extended)",
+            "course_code": "",
+            "duration": "4",
+            "aps": "24",
+            "required_subjects": [
+                {
+                    "subject": "English",
+                    "level": "4",
+                    "percentage": "50"
+                },
+                {
+                    "subject": "Mathematics / Technical Mathematics",
+                    "level": "5",
+                    "percentage": "60"
+                },
+                {
+                    "subject": "Physical Science",
+                    "level": "5",
+                    "percentage": "60"
+                },
+                {
+                    "subject": "Technical Science",
+                    "level": "5",
+                    "percentage": "60"
+                },
+                {
+                    "subject": "Mathematical Literacy not applicable",
+                    "level": ""
+                }
+            ]
+        },
+        {
+            "course_name": "OPERATIONS MANAGEMENT (Extended)",
+            "course_code": "",
+            "duration": "4",
+            "aps": "20",
+            "required_subjects": [
+                {
+                    "subject": "English",
+                    "level": "4",
+                    "percentage": "50"
+                },
+                {
+                    "subject": "Mathematics / Technical Mathematics",
+                    "level": "3",
+                    "percentage": "40"
+                },
+                {
+                    "subject": "Physical Science not accepted",
+                    "level": ""
+                }
+            ]
+        },
+        {
+            "course_name": "ELECTRICAL AND ELECTRONIC ENGINEERING",
+            "course_code": "",
+            "duration": "4",
+            "aps": "32",
+            "required_subjects": [
+                {
+                    "subject": "English",
+                    "level": "5",
+                    "percentage": "60"
+                },
+                {
+                    "subject": "Mathematics / Technical Mathematics",
+                    "level": "5",
+                    "percentage": "60"
+                },
+                {
+                    "subject": "Physical Science",
+                    "level": "5",
+                    "percentage": "60"
+                },
+                {
+                    "subject": "Technical Science not accepted",
+                    "level": ""
+                }
+            ]
+        },
+        {
+            "course_name": "MINE SURVEYING",
+            "course_code": "",
+            "duration": "3",
+            "aps": "23",
+            "required_subjects": [
+                {
+                    "subject": "English",
+                    "level": "4",
+                    "percentage": "50"
+                },
+                {
+                    "subject": "Mathematics / Technical Mathematics",
+                    "level": "5",
+                    "percentage": "60"
+                },
+                {
+                    "subject": "Geography",
+                    "level": "5",
+                    "percentage": "60"
+                },
+                {
+                    "subject": "Physical Science and Technical Science are not applicable",
+                    "level": ""
+                }
+            ]
+        },
+        {
+            "course_name": "MANAGEMENT SERVICES",
+            "course_code": "",
+            "duration": "3",
+            "aps": "19",
+            "required_subjects": [
+                {
+                    "subject": "English",
+                    "level": "4",
+                    "percentage": "50"
+                },
+                {
+                    "subject": "Mathematics / Technical Mathematics",
+                    "level": "3",
+                    "percentage": "40"
+                }
+            ]
+        },
+        {
+            "course_name": "ELECTRICAL ENGINEERING",
+            "course_code": "",
+            "duration": "3",
+            "aps": "30",
+            "required_subjects": [
+                {
+                    "subject": "English",
+                    "level": "4",
+                    "percentage": "50"
+                },
+                {
+                    "subject": "Mathematics / Technical Mathematics",
+                    "level": "5",
+                    "percentage": "60"
+                },
+                {
+                    "subject": "Physical Science",
+                    "level": "5",
+                    "percentage": "60"
+                },
+                {
+                    "subject": "Technical Science not accepted",
+                    "level": ""
+                }
+            ]
+        },
+        {
+            "course_name": "CONSTRUCTION",
+            "course_code": "",
+            "duration": "3",
+            "aps": "30",
+            "required_subjects": [
+                {
+                    "subject": "English",
+                    "level": "4",
+                    "percentage": "50"
+                },
+                {
+                    "subject": "Mathematics / Technical Mathematics",
+                    "level": "5",
+                    "percentage": "60"
+                },
+                {
+                    "subject": "Physical Science",
+                    "level": "5",
+                    "percentage": "60"
+                },
+                {
+                    "subject": "Technical Science and Geography are not applicable",
+                    "level": ""
+                }
+            ]
+        },
+        {
+            "course_name": "INDUSTRIAL ENGINEERING",
+            "course_code": "",
+            "duration": "3",
+            "aps": "30",
+            "required_subjects": [
+                {
+                    "subject": "English",
+                    "level": "4",
+                    "percentage": "50"
+                },
+                {
+                    "subject": "Mathematics / Technical Mathematics",
+                    "level": "5",
+                    "percentage": "60"
+                },
+                {
+                    "subject": "Physical Science",
+                    "level": "5",
+                    "percentage": "60"
+                }
+            ]
+        },
+        {
+            "course_name": "URBAN AND REGIONAL PLANNING",
+            "course_code": "",
+            "duration": "3",
+            "aps": "27",
+            "required_subjects": [
+                {
+                    "subject": "English",
+                    "level": "4",
+                    "percentage": "50"
+                },
+                {
+                    "subject": "Mathematics / Technical Mathematics",
+                    "level": "5",
+                    "percentage": "60"
+                },
+                {
+                    "subject": "Geography",
+                    "level": "5",
+                    "percentage": "60"
+                },
+                {
+                    "subject": "Physical Science and Technical Science are not applicable",
+                    "level": ""
+                }
+            ]
+        },
+        {
+            "course_name": "PHYSICAL METALLURGY",
+            "course_code": "",
+            "duration": "3",
+            "aps": "30",
+            "required_subjects": [
+                {
+                    "subject": "English",
+                    "level": "4",
+                    "percentage": "50"
+                },
+                {
+                    "subject": "Mathematics / Technical Mathematics",
+                    "level": "5",
+                    "percentage": "60"
+                },
+                {
+                    "subject": "Physical Science",
+                    "level": "5",
+                    "percentage": "60"
+                },
+                {
+                    "subject": "Technical Science not accepted",
+                    "level": ""
+                }
+            ]
+        },
+        {
+            "course_name": "ELECTRICAL ENGINEERING (Extended)",
+            "course_code": "",
+            "duration": "4",
+            "aps": "26",
+            "required_subjects": [
+                {
+                    "subject": "English",
+                    "level": "4",
+                    "percentage": "50"
+                },
+                {
+                    "subject": "Mathematics / Technical Mathematics",
+                    "level": "5",
+                    "percentage": "60"
+                },
+                {
+                    "subject": "Physical Science",
+                    "level": "5",
+                    "percentage": "60"
+                },
+                {
+                    "subject": "Technical Science not accepted",
+                    "level": ""
+                },
+                {
+                    "subject": "Mathematical Literacy not applicable",
+                    "level": ""
+                }
+            ]
+        },
+        {
+            "course_name": "MANAGEMENT SERVICES (Extended)",
+            "course_code": "",
+            "duration": "4",
+            "aps": "19",
+            "required_subjects": [
+                {
+                    "subject": "English",
+                    "level": "4",
+                    "percentage": "50"
+                },
+                {
+                    "subject": "Mathematics / Technical Mathematics",
+                    "level": "3",
+                    "percentage": "40"
+                },
+                {
+                    "subject": "Physical Science not accepted",
+                    "level": ""
+                }
+            ]
+        },
+        {
+            "course_name": "PHYSICAL METALLURGY (Extended)",
+            "course_code": "",
+            "duration": "4",
+            "aps": "22",
+            "required_subjects": [
+                {
+                    "subject": "English",
+                    "level": "4",
+                    "percentage": "50"
+                },
+                {
+                    "subject": "Mathematics / Technical Mathematics",
+                    "level": "4",
+                    "percentage": "50"
+                },
+                {
+                    "subject": "Physical Science",
+                    "level": "4",
+                    "percentage": "50"
+                },
+                {
+                    "subject": "Technical Science not accepted",
+                    "level": ""
+                },
+                {
+                    "subject": "Mathematical Literacy not applicable",
+                    "level": ""
+                }
+            ]
+        }
+    ],
+    "ART, DESIGN & ARCHITECTURE": [
+        {
+            "course_name": "BA (VISUAL ART)",
+            "course_code": "",
+            "duration": "3",
+            "aps": "25",
+            "required_subjects": []
+        },
+        {
+            "course_name": "BA (FASHION DESIGN)",
+            "course_code": "",
+            "duration": "3",
+            "aps": "25",
+            "required_subjects": [
+                {
+                    "subject": "English",
+                    "level": "5",
+                    "percentage": "60"
+                },
+                {
+                    "subject": "Mathematics",
+                    "level": "4",
+                    "percentage": "50"
+                },
+                {
+                    "subject": "Mathematical Literacy",
+                    "level": "5",
+                    "percentage": "60"
+                },
+                {
+                    "subject": "Technical Mathematics: Not accepted",
+                    "level": ""
+                }
+            ]
+        },
+        {
+            "course_name": "FASHION PRODUCTION",
+            "course_code": "",
+            "duration": "3",
+            "aps": "22",
+            "required_subjects": [
+                {
+                    "subject": "English",
+                    "level": "5",
+                    "percentage": "60"
+                },
+                {
+                    "subject": "Mathematics",
+                    "level": "3",
+                    "percentage": "40"
+                },
+                {
+                    "subject": "Mathematical Literacy",
+                    "level": "4",
+                    "percentage": "50"
+                },
+                {
+                    "subject": "Technical Mathematics: Not accepted",
+                    "level": ""
+                }
+            ]
+        },
+        {
+            "course_name": "BA (INDUSTRIAL DESIGN)",
+            "course_code": "",
+            "duration": "3",
+            "aps": "25",
+            "required_subjects": [
+                {
+                    "subject": "English",
+                    "level": "5",
+                    "percentage": "60"
+                },
+                {
+                    "subject": "Mathematics",
+                    "level": "4",
+                    "percentage": "50"
+                },
+                {
+                    "subject": "Mathematical Literacy",
+                    "level": "5",
+                    "percentage": "60"
+                },
+                {
+                    "subject": "Technical Mathematics: Not accepted",
+                    "level": ""
+                }
+            ]
+        },
+        {
+            "course_name": "BA (INTERIOR DESIGN)",
+            "course_code": "",
+            "duration": "3",
+            "aps": "25",
+            "required_subjects": [
+                {
+                    "subject": "English",
+                    "level": "5",
+                    "percentage": "60"
+                },
+                {
+                    "subject": "Mathematics",
+                    "level": "4",
+                    "percentage": "50"
+                },
+                {
+                    "subject": "Mathematical Literacy",
+                    "level": "5",
+                    "percentage": "60"
+                },
+                {
+                    "subject": "Technical Mathematics: Not accepted",
+                    "level": ""
+                }
+            ]
+        },
+        {
+            "course_name": "B ARCHITECTURE",
+            "course_code": "",
+            "duration": "3",
+            "aps": "30",
+            "required_subjects": [
+                {
+                    "subject": "English",
+                    "level": "5",
+                    "percentage": "60"
+                },
+                {
+                    "subject": "Mathematics",
+                    "level": "5",
+                    "percentage": "60"
+                },
+                {
+                    "subject": "Mathematical Literacy: Not accepted",
+                    "level": ""
+                },
+                {
+                    "subject": "Technical Mathematics: Not accepted",
+                    "level": ""
+                }
+            ]
+        },
+        {
+            "course_name": "JEWELLERY DESIGN AND MANUFACTURE",
+            "course_code": "",
+            "duration": "3",
+            "aps": "20",
+            "required_subjects": [
+                {
+                    "subject": "English",
+                    "level": "5",
+                    "percentage": "60"
+                },
+                {
+                    "subject": "Mathematics",
+                    "level": "4",
+                    "percentage": "50"
+                },
+                {
+                    "subject": "Mathematical Literacy",
+                    "level": "5",
+                    "percentage": "60"
+                },
+                {
+                    "subject": "Technical Mathematics",
+                    "level": "5",
+                    "percentage": "60"
+                }
+            ]
+        },
+        {
+            "course_name": "ARCHITECTURE",
+            "course_code": "",
+            "duration": "3",
+            "aps": "25",
+            "required_subjects": [
+                {
+                    "subject": "English",
+                    "level": "5",
+                    "percentage": "60"
+                },
+                {
+                    "subject": "Mathematics",
+                    "level": "3",
+                    "percentage": "40"
+                },
+                {
+                    "subject": "Mathematical Literacy",
+                    "level": "4",
+                    "percentage": "50"
+                },
+                {
+                    "subject": "Technical Mathematics: Not accepted",
+                    "level": ""
+                }
+            ]
+        },
+        {
+            "course_name": "BA (DIGITAL MEDIA DESIGN)",
+            "course_code": "",
+            "duration": "3",
+            "aps": "25",
+            "required_subjects": [
+                {
+                    "subject": "English",
+                    "level": "5",
+                    "percentage": "60"
+                },
+                {
+                    "subject": "Mathematics",
+                    "level": "3",
+                    "percentage": "40"
+                },
+                {
+                    "subject": "Mathematical Literacy",
+                    "level": "4",
+                    "percentage": "50"
+                },
+                {
+                    "subject": "Technical Mathematics: Not accepted",
+                    "level": ""
+                }
+            ]
+        },
+        {
+            "course_name": "BA (COMMUNICATION DESIGN)",
+            "course_code": "",
+            "duration": "3",
+            "aps": "25",
+            "required_subjects": [
+                {
+                    "subject": "English",
+                    "level": "5",
+                    "percentage": "60"
+                },
+                {
+                    "subject": "Mathematics",
+                    "level": "3",
+                    "percentage": "40"
+                },
+                {
+                    "subject": "Mathematical Literacy",
+                    "level": "4",
+                    "percentage": "50"
+                },
+                {
+                    "subject": "Technical Mathematics: Not accepted",
+                    "level": ""
+                }
+            ]
+        }
+    ],
+    "EDUCATION": [
+        {
+            "course_name": "MATHEMATICS",
+            "course_code": "",
+            "duration": "4",
+            "aps": "28",
+            "required_subjects": [
+                {
+                    "subject": "English: Home language",
+                    "level": "5",
+                    "percentage": "60"
+                },
+                {
+                    "subject": "Mathematics / Technical Maths",
+                    "level": "6",
+                    "percentage": "70"
+                }
+            ]
+        },
+        {
+            "course_name": "PHYSICAL SCIENCE",
+            "course_code": "",
+            "duration": "4",
+            "aps": "28",
+            "required_subjects": [
+                {
+                    "subject": "English: Home language",
+                    "level": "5",
+                    "percentage": "60"
+                },
+                {
+                    "subject": "Mathematics / Technical Maths",
+                    "level": "6",
+                    "percentage": "70"
+                },
+                {
+                    "subject": "Physical Science: AND",
+                    "level": "4",
+                    "percentage": "50"
+                }
+            ]
+        },
+        {
+            "course_name": "LIFE SCIENCES",
+            "course_code": "",
+            "duration": "4",
+            "aps": "28",
+            "required_subjects": []
+        },
+        {
+            "course_name": "BUSINESS MANAGEMENT",
+            "course_code": "",
+            "duration": "4",
+            "aps": "28",
+            "required_subjects": [
+                {
+                    "subject": "English: Home language",
+                    "level": "5",
+                    "percentage": "60"
+                },
+                {
+                    "subject": "Mathematics",
+                    "level": "4",
+                    "percentage": "50"
+                }
+            ]
+        },
+        {
+            "course_name": "PSYCHOLOGY",
+            "course_code": "",
+            "duration": "4",
+            "aps": "28",
+            "required_subjects": [
+                {
+                    "subject": "English: Home language",
+                    "level": "5",
+                    "percentage": "60"
+                }
+            ]
+        },
+        {
+            "course_name": "INTERMEDIATE PHASE TEACHING GRADE 4-7",
+            "course_code": "",
+            "duration": "4",
+            "aps": "28",
+            "required_subjects": [
+                {
+                    "subject": "English: Home language",
+                    "level": "5",
+                    "percentage": "60"
+                },
+                {
+                    "subject": "Mathematics",
+                    "level": "3",
+                    "percentage": "40"
+                }
+            ]
+        },
+        {
+            "course_name": "ECONOMICS",
+            "course_code": "",
+            "duration": "4",
+            "aps": "28",
+            "required_subjects": [
+                {
+                    "subject": "English: Home language",
+                    "level": "5",
+                    "percentage": "60"
+                },
+                {
+                    "subject": "Mathematics",
+                    "level": "4",
+                    "percentage": "50"
+                }
+            ]
+        },
+        {
+            "course_name": "ISIZULU",
+            "course_code": "",
+            "duration": "4",
+            "aps": "28",
+            "required_subjects": [
+                {
+                    "subject": "English: Home language",
+                    "level": "5",
+                    "percentage": "60"
+                },
+                {
+                    "subject": "IsiZulu: Home language",
+                    "level": "6",
+                    "percentage": "70"
+                }
+            ]
+        },
+        {
+            "course_name": "ENGLISH",
+            "course_code": "",
+            "duration": "4",
+            "aps": "28",
+            "required_subjects": [
+                {
+                    "subject": "English: Home language",
+                    "level": "5",
+                    "percentage": "60"
+                }
+            ]
+        },
+        {
+            "course_name": "AFRIKAANS",
+            "course_code": "",
+            "duration": "4",
+            "aps": "28",
+            "required_subjects": [
+                {
+                    "subject": "English: Home language",
+                    "level": "5",
+                    "percentage": "60"
+                },
+                {
+                    "subject": "Afrikaans: Home language",
+                    "level": "4",
+                    "percentage": "50"
+                }
+            ]
+        },
+        {
+            "course_name": "FOUNDATION PHASE TEACHING GRADE R-3",
+            "course_code": "",
+            "duration": "4",
+            "aps": "28",
+            "required_subjects": [
+                {
+                    "subject": "English: Home language",
+                    "level": "5",
+                    "percentage": "60"
+                },
+                {
+                    "subject": "Mathematics",
+                    "level": "3",
+                    "percentage": "40"
+                }
+            ]
+        },
+        {
+            "course_name": "ACCOUNTING",
+            "course_code": "",
+            "duration": "4",
+            "aps": "28",
+            "required_subjects": [
+                {
+                    "subject": "English: Home language",
+                    "level": "5",
+                    "percentage": "60"
+                },
+                {
+                    "subject": "Mathematics",
+                    "level": "4",
+                    "percentage": "50"
+                }
+            ]
+        },
+        {
+            "course_name": "GEOGRAPHY",
+            "course_code": "",
+            "duration": "4",
+            "aps": "28",
+            "required_subjects": [
+                {
+                    "subject": "English: Home language",
+                    "level": "5",
+                    "percentage": "60"
+                },
+                {
+                    "subject": "Mathematics / Technical Maths",
+                    "level": "4",
+                    "percentage": "50"
+                },
+                {
+                    "subject": "Geography: AND",
+                    "level": "3",
+                    "percentage": "40"
+                }
+            ]
+        },
+        {
+            "course_name": "SEPEDI",
+            "course_code": "",
+            "duration": "4",
+            "aps": "28",
+            "required_subjects": [
+                {
+                    "subject": "English: Home language",
+                    "level": "5",
+                    "percentage": "60"
+                },
+                {
+                    "subject": "Sepedi: Home language",
+                    "level": "4",
+                    "percentage": "50"
+                }
+            ]
+        }
+    ]
+}
