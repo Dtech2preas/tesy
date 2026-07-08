@@ -1,5 +1,5 @@
 {
-    "FACULTY OF COMMERCE, LAW & MANAGEMENT": [
+    "FACULTY OF COMMERCE, LAW AND MANAGEMENT": [
         {
             "course_name": "Bachelor of Commerce (BCom): General, Politics, Philosophy and Economics, Information Systems",
             "course_code": "",
@@ -7,12 +7,7 @@
             "aps": "38",
             "required_subjects": [
                 {
-                    "subject": "English Home Language",
-                    "level": "5",
-                    "percentage": "60"
-                },
-                {
-                    "subject": "First Additional Language",
+                    "subject": "English Home Language OR First Additional Language",
                     "level": "5",
                     "percentage": "60"
                 },
@@ -30,12 +25,7 @@
             "aps": "44",
             "required_subjects": [
                 {
-                    "subject": "English Home Language",
-                    "level": "5",
-                    "percentage": "60"
-                },
-                {
-                    "subject": "First Additional Language",
+                    "subject": "English Home Language OR First Additional Language",
                     "level": "5",
                     "percentage": "60"
                 },
@@ -53,12 +43,7 @@
             "aps": "38",
             "required_subjects": [
                 {
-                    "subject": "English Home Language",
-                    "level": "5",
-                    "percentage": "60"
-                },
-                {
-                    "subject": "First Additional Language",
+                    "subject": "English Home Language OR First Additional Language",
                     "level": "5",
                     "percentage": "60"
                 },
@@ -76,12 +61,7 @@
             "aps": "42",
             "required_subjects": [
                 {
-                    "subject": "English Home Language",
-                    "level": "5",
-                    "percentage": "60"
-                },
-                {
-                    "subject": "First Additional Language",
+                    "subject": "English Home Language OR First Additional Language",
                     "level": "5",
                     "percentage": "60"
                 },
@@ -99,12 +79,7 @@
             "aps": "43",
             "required_subjects": [
                 {
-                    "subject": "English Home Language",
-                    "level": "5",
-                    "percentage": "60"
-                },
-                {
-                    "subject": "First Additional Language",
+                    "subject": "English Home Language OR First Additional Language",
                     "level": "5",
                     "percentage": "60"
                 },
@@ -122,12 +97,7 @@
             "aps": "46",
             "required_subjects": [
                 {
-                    "subject": "English Home Language",
-                    "level": "6",
-                    "percentage": "70"
-                },
-                {
-                    "subject": "First Additional Language",
+                    "subject": "English Home Language OR First Additional Language",
                     "level": "6",
                     "percentage": "70"
                 },
@@ -145,11 +115,7 @@
             "aps": "42",
             "required_subjects": [
                 {
-                    "subject": "English Home Language",
-                    "level": "5"
-                },
-                {
-                    "subject": "First Additional Language",
+                    "subject": "English Home Language or First Additional Language",
                     "level": "5"
                 },
                 {
@@ -165,11 +131,7 @@
             "aps": "44",
             "required_subjects": [
                 {
-                    "subject": "English Home Language",
-                    "level": "5"
-                },
-                {
-                    "subject": "First Additional Language",
+                    "subject": "English Home Language or First Additional Language",
                     "level": "5"
                 },
                 {
@@ -185,11 +147,7 @@
             "aps": "",
             "required_subjects": [
                 {
-                    "subject": "English Home Language",
-                    "level": "4"
-                },
-                {
-                    "subject": "First Additional Language",
+                    "subject": "English Home Language or First Additional Language",
                     "level": "4"
                 }
             ]
@@ -201,11 +159,7 @@
             "aps": "38",
             "required_subjects": [
                 {
-                    "subject": "English Home Language",
-                    "level": "5"
-                },
-                {
-                    "subject": "First Additional Language",
+                    "subject": "English Home Language or First Additional Language",
                     "level": "5"
                 },
                 {
@@ -221,11 +175,7 @@
             "aps": "46",
             "required_subjects": [
                 {
-                    "subject": "English Home Language",
-                    "level": "6"
-                },
-                {
-                    "subject": "First Additional Language",
+                    "subject": "English Home Language or First Additional Language",
                     "level": "6"
                 },
                 {
@@ -241,11 +191,7 @@
             "aps": "",
             "required_subjects": [
                 {
-                    "subject": "English Home Language",
-                    "level": "4"
-                },
-                {
-                    "subject": "First Additional Language",
+                    "subject": "English Home Language or First Additional Language",
                     "level": "4"
                 }
             ]
@@ -257,11 +203,7 @@
             "aps": "38",
             "required_subjects": [
                 {
-                    "subject": "English Home Language",
-                    "level": "5"
-                },
-                {
-                    "subject": "First Additional Language",
+                    "subject": "English Home Language or First Additional Language",
                     "level": "5"
                 },
                 {
@@ -277,11 +219,7 @@
             "aps": "43",
             "required_subjects": [
                 {
-                    "subject": "English Home Language",
-                    "level": "5"
-                },
-                {
-                    "subject": "First Additional Language",
+                    "subject": "English Home Language or First Additional Language",
                     "level": "5"
                 },
                 {
@@ -297,11 +235,7 @@
             "aps": "42",
             "required_subjects": [
                 {
-                    "subject": "English Home Language",
-                    "level": "5"
-                },
-                {
-                    "subject": "First Additional Language",
+                    "subject": "English Home Language or First Additional Language",
                     "level": "5"
                 },
                 {
@@ -311,7 +245,7 @@
             ]
         }
     ],
-    "FACULTY OF ENGINEERING & THE BUILT ENVIRONMENT": [
+    "FACULTY OF ENGINEERING AND THE BUILT ENVIRONMENT": [
         {
             "course_name": "Bachelor of Science in Engineering in Chemical Engineering (BSc(Eng))",
             "course_code": "",
@@ -319,12 +253,7 @@
             "aps": "42",
             "required_subjects": [
                 {
-                    "subject": "English Home Language",
-                    "level": "5",
-                    "percentage": "60"
-                },
-                {
-                    "subject": "First Additional Language",
+                    "subject": "English Home Language OR First Additional Language",
                     "level": "5",
                     "percentage": "60"
                 },
@@ -347,12 +276,7 @@
             "aps": "42",
             "required_subjects": [
                 {
-                    "subject": "English Home Language",
-                    "level": "5",
-                    "percentage": "60"
-                },
-                {
-                    "subject": "First Additional Language",
+                    "subject": "English Home Language OR First Additional Language",
                     "level": "5",
                     "percentage": "60"
                 },
@@ -375,12 +299,7 @@
             "aps": "42",
             "required_subjects": [
                 {
-                    "subject": "English Home Language",
-                    "level": "5",
-                    "percentage": "60"
-                },
-                {
-                    "subject": "First Additional Language",
+                    "subject": "English Home Language OR First Additional Language",
                     "level": "5",
                     "percentage": "60"
                 },
@@ -403,12 +322,7 @@
             "aps": "42",
             "required_subjects": [
                 {
-                    "subject": "English Home Language",
-                    "level": "5",
-                    "percentage": "60"
-                },
-                {
-                    "subject": "First Additional Language",
+                    "subject": "English Home Language OR First Additional Language",
                     "level": "5",
                     "percentage": "60"
                 },
@@ -431,12 +345,7 @@
             "aps": "42",
             "required_subjects": [
                 {
-                    "subject": "English Home Language",
-                    "level": "5",
-                    "percentage": "60"
-                },
-                {
-                    "subject": "First Additional Language",
+                    "subject": "English Home Language OR First Additional Language",
                     "level": "5",
                     "percentage": "60"
                 },
@@ -459,12 +368,7 @@
             "aps": "42",
             "required_subjects": [
                 {
-                    "subject": "English Home Language",
-                    "level": "5",
-                    "percentage": "60"
-                },
-                {
-                    "subject": "First Additional Language",
+                    "subject": "English Home Language OR First Additional Language",
                     "level": "5",
                     "percentage": "60"
                 },
@@ -487,12 +391,7 @@
             "aps": "42",
             "required_subjects": [
                 {
-                    "subject": "English Home Language",
-                    "level": "5",
-                    "percentage": "60"
-                },
-                {
-                    "subject": "First Additional Language",
+                    "subject": "English Home Language OR First Additional Language",
                     "level": "5",
                     "percentage": "60"
                 },
@@ -515,12 +414,7 @@
             "aps": "42",
             "required_subjects": [
                 {
-                    "subject": "English Home Language",
-                    "level": "5",
-                    "percentage": "60"
-                },
-                {
-                    "subject": "First Additional Language",
+                    "subject": "English Home Language OR First Additional Language",
                     "level": "5",
                     "percentage": "60"
                 },
@@ -543,12 +437,7 @@
             "aps": "42",
             "required_subjects": [
                 {
-                    "subject": "English Home Language",
-                    "level": "5",
-                    "percentage": "60"
-                },
-                {
-                    "subject": "First Additional Language",
+                    "subject": "English Home Language OR First Additional Language",
                     "level": "5",
                     "percentage": "60"
                 },
@@ -571,12 +460,7 @@
             "aps": "42",
             "required_subjects": [
                 {
-                    "subject": "English Home Language",
-                    "level": "5",
-                    "percentage": "60"
-                },
-                {
-                    "subject": "First Additional Language",
+                    "subject": "English Home Language OR First Additional Language",
                     "level": "5",
                     "percentage": "60"
                 },
@@ -599,12 +483,7 @@
             "aps": "34",
             "required_subjects": [
                 {
-                    "subject": "English Home Language",
-                    "level": "4",
-                    "percentage": "50"
-                },
-                {
-                    "subject": "First Additional Language",
+                    "subject": "English Home Language OR First Additional Language",
                     "level": "4",
                     "percentage": "50"
                 },
@@ -622,12 +501,7 @@
             "aps": "36",
             "required_subjects": [
                 {
-                    "subject": "English Home Language",
-                    "level": "4",
-                    "percentage": "50"
-                },
-                {
-                    "subject": "First Additional Language",
+                    "subject": "English Home Language OR First Additional Language",
                     "level": "4",
                     "percentage": "50"
                 },
@@ -645,12 +519,7 @@
             "aps": "36",
             "required_subjects": [
                 {
-                    "subject": "English Home Language",
-                    "level": "4",
-                    "percentage": "50"
-                },
-                {
-                    "subject": "First Additional Language",
+                    "subject": "English Home Language OR First Additional Language",
                     "level": "4",
                     "percentage": "50"
                 },
@@ -668,12 +537,7 @@
             "aps": "36",
             "required_subjects": [
                 {
-                    "subject": "English Home Language",
-                    "level": "4",
-                    "percentage": "50"
-                },
-                {
-                    "subject": "First Additional Language",
+                    "subject": "English Home Language OR First Additional Language",
                     "level": "4",
                     "percentage": "50"
                 },
@@ -691,11 +555,7 @@
             "aps": "42",
             "required_subjects": [
                 {
-                    "subject": "English Home Language",
-                    "level": "5"
-                },
-                {
-                    "subject": "First Additional Language",
+                    "subject": "English Home Language or First Additional Language",
                     "level": "5"
                 },
                 {
@@ -715,11 +575,7 @@
             "aps": "42",
             "required_subjects": [
                 {
-                    "subject": "English Home Language",
-                    "level": "5"
-                },
-                {
-                    "subject": "First Additional Language",
+                    "subject": "English Home Language or First Additional Language",
                     "level": "5"
                 },
                 {
@@ -739,11 +595,7 @@
             "aps": "36",
             "required_subjects": [
                 {
-                    "subject": "English Home Language",
-                    "level": "5"
-                },
-                {
-                    "subject": "First Additional Language",
+                    "subject": "English Home Language or First Additional Language",
                     "level": "5"
                 },
                 {
@@ -759,11 +611,7 @@
             "aps": "42",
             "required_subjects": [
                 {
-                    "subject": "English Home Language",
-                    "level": "5"
-                },
-                {
-                    "subject": "First Additional Language",
+                    "subject": "English Home Language or First Additional Language",
                     "level": "5"
                 },
                 {
@@ -783,11 +631,7 @@
             "aps": "42",
             "required_subjects": [
                 {
-                    "subject": "English Home Language",
-                    "level": "5"
-                },
-                {
-                    "subject": "First Additional Language",
+                    "subject": "English Home Language or First Additional Language",
                     "level": "5"
                 },
                 {
@@ -807,11 +651,7 @@
             "aps": "42",
             "required_subjects": [
                 {
-                    "subject": "English Home Language",
-                    "level": "5"
-                },
-                {
-                    "subject": "First Additional Language",
+                    "subject": "English Home Language or First Additional Language",
                     "level": "5"
                 },
                 {
@@ -831,11 +671,7 @@
             "aps": "34",
             "required_subjects": [
                 {
-                    "subject": "English Home Language",
-                    "level": "4"
-                },
-                {
-                    "subject": "First Additional Language",
+                    "subject": "English Home Language or First Additional Language",
                     "level": "4"
                 },
                 {
@@ -851,11 +687,7 @@
             "aps": "36",
             "required_subjects": [
                 {
-                    "subject": "English Home Language",
-                    "level": "5"
-                },
-                {
-                    "subject": "First Additional Language",
+                    "subject": "English Home Language or First Additional Language",
                     "level": "5"
                 },
                 {
@@ -871,11 +703,7 @@
             "aps": "42",
             "required_subjects": [
                 {
-                    "subject": "English Home Language",
-                    "level": "5"
-                },
-                {
-                    "subject": "First Additional Language",
+                    "subject": "English Home Language or First Additional Language",
                     "level": "5"
                 },
                 {
@@ -895,11 +723,7 @@
             "aps": "36",
             "required_subjects": [
                 {
-                    "subject": "English Home Language",
-                    "level": "5"
-                },
-                {
-                    "subject": "First Additional Language",
+                    "subject": "English Home Language or First Additional Language",
                     "level": "5"
                 },
                 {
@@ -915,11 +739,7 @@
             "aps": "42",
             "required_subjects": [
                 {
-                    "subject": "English Home Language",
-                    "level": "5"
-                },
-                {
-                    "subject": "First Additional Language",
+                    "subject": "English Home Language or First Additional Language",
                     "level": "5"
                 },
                 {
@@ -939,11 +759,7 @@
             "aps": "42",
             "required_subjects": [
                 {
-                    "subject": "English Home Language",
-                    "level": "5"
-                },
-                {
-                    "subject": "First Additional Language",
+                    "subject": "English Home Language or First Additional Language",
                     "level": "5"
                 },
                 {
@@ -963,11 +779,7 @@
             "aps": "42",
             "required_subjects": [
                 {
-                    "subject": "English Home Language",
-                    "level": "5"
-                },
-                {
-                    "subject": "First Additional Language",
+                    "subject": "English Home Language or First Additional Language",
                     "level": "5"
                 },
                 {
@@ -987,11 +799,7 @@
             "aps": "42",
             "required_subjects": [
                 {
-                    "subject": "English Home Language",
-                    "level": "5"
-                },
-                {
-                    "subject": "First Additional Language",
+                    "subject": "English Home Language or First Additional Language",
                     "level": "5"
                 },
                 {
@@ -1013,12 +821,7 @@
             "aps": "",
             "required_subjects": [
                 {
-                    "subject": "English Home Language",
-                    "level": "5",
-                    "percentage": "60"
-                },
-                {
-                    "subject": "First Additional Language",
+                    "subject": "English Home Language OR First Additional Language",
                     "level": "5",
                     "percentage": "60"
                 },
@@ -1028,12 +831,7 @@
                     "percentage": "60"
                 },
                 {
-                    "subject": "Life Sciences",
-                    "level": "5",
-                    "percentage": "60"
-                },
-                {
-                    "subject": "Physical Sciences",
+                    "subject": "Life Sciences AND/OR Physical Sciences",
                     "level": "5",
                     "percentage": "60"
                 }
@@ -1046,11 +844,7 @@
             "aps": "",
             "required_subjects": [
                 {
-                    "subject": "English Home Language",
-                    "level": "4"
-                },
-                {
-                    "subject": "First Additional Language",
+                    "subject": "English Home Language or First Additional Language",
                     "level": "4"
                 },
                 {
@@ -1074,11 +868,7 @@
             "aps": "",
             "required_subjects": [
                 {
-                    "subject": "English Home Language",
-                    "level": "5"
-                },
-                {
-                    "subject": "First Additional Language",
+                    "subject": "English Home Language or First Additional Language",
                     "level": "5"
                 },
                 {
@@ -1116,11 +906,7 @@
             "aps": "",
             "required_subjects": [
                 {
-                    "subject": "English Home Language",
-                    "level": "4"
-                },
-                {
-                    "subject": "First Additional Language",
+                    "subject": "English Home Language or First Additional Language",
                     "level": "4"
                 },
                 {
@@ -1144,11 +930,7 @@
             "aps": "",
             "required_subjects": [
                 {
-                    "subject": "English Home Language",
-                    "level": "5"
-                },
-                {
-                    "subject": "First Additional Language",
+                    "subject": "English Home Language or First Additional Language",
                     "level": "5"
                 },
                 {
@@ -1186,11 +968,7 @@
             "aps": "",
             "required_subjects": [
                 {
-                    "subject": "English Home Language",
-                    "level": "5"
-                },
-                {
-                    "subject": "First Additional Language",
+                    "subject": "English Home Language or First Additional Language",
                     "level": "5"
                 },
                 {
@@ -1198,11 +976,7 @@
                     "level": "5"
                 },
                 {
-                    "subject": "Life Sciences",
-                    "level": "5"
-                },
-                {
-                    "subject": "Physical Sciences",
+                    "subject": "Life Sciences AND/OR Physical Sciences",
                     "level": "5"
                 }
             ]
@@ -1216,12 +990,7 @@
             "aps": "36",
             "required_subjects": [
                 {
-                    "subject": "English Home Language",
-                    "level": "5",
-                    "percentage": "60"
-                },
-                {
-                    "subject": "First Additional Language",
+                    "subject": "English Home Language OR First Additional Language",
                     "level": "5",
                     "percentage": "60"
                 }
@@ -1234,11 +1003,7 @@
             "aps": "43",
             "required_subjects": [
                 {
-                    "subject": "English Home Language",
-                    "level": "5"
-                },
-                {
-                    "subject": "First Additional Language",
+                    "subject": "English Home Language or First Additional Language",
                     "level": "5"
                 },
                 {
@@ -1258,12 +1023,7 @@
             "aps": "36",
             "required_subjects": [
                 {
-                    "subject": "English Home Language",
-                    "level": "5",
-                    "percentage": "60"
-                },
-                {
-                    "subject": "First Additional Language",
+                    "subject": "English Home Language OR First Additional Language",
                     "level": "5",
                     "percentage": "60"
                 }
@@ -1276,12 +1036,7 @@
             "aps": "34",
             "required_subjects": [
                 {
-                    "subject": "English Home Language",
-                    "level": "5",
-                    "percentage": "60"
-                },
-                {
-                    "subject": "First Additional Language",
+                    "subject": "English Home Language OR First Additional Language",
                     "level": "5",
                     "percentage": "60"
                 }
@@ -1294,12 +1049,7 @@
             "aps": "34",
             "required_subjects": [
                 {
-                    "subject": "English Home Language",
-                    "level": "5",
-                    "percentage": "60"
-                },
-                {
-                    "subject": "First Additional Language",
+                    "subject": "English Home Language OR First Additional Language",
                     "level": "5",
                     "percentage": "60"
                 }
@@ -1312,12 +1062,7 @@
             "aps": "34",
             "required_subjects": [
                 {
-                    "subject": "English Home Language",
-                    "level": "5",
-                    "percentage": "60"
-                },
-                {
-                    "subject": "First Additional Language",
+                    "subject": "English Home Language OR First Additional Language",
                     "level": "5",
                     "percentage": "60"
                 }
@@ -1330,12 +1075,7 @@
             "aps": "34",
             "required_subjects": [
                 {
-                    "subject": "English Home Language",
-                    "level": "5",
-                    "percentage": "60"
-                },
-                {
-                    "subject": "First Additional Language",
+                    "subject": "English Home Language OR First Additional Language",
                     "level": "5",
                     "percentage": "60"
                 }
@@ -1348,12 +1088,7 @@
             "aps": "37",
             "required_subjects": [
                 {
-                    "subject": "English Home Language",
-                    "level": "5",
-                    "percentage": "60"
-                },
-                {
-                    "subject": "First Additional Language",
+                    "subject": "English Home Language OR First Additional Language",
                     "level": "5",
                     "percentage": "60"
                 },
@@ -1381,12 +1116,7 @@
             "aps": "37",
             "required_subjects": [
                 {
-                    "subject": "English Home Language",
-                    "level": "5",
-                    "percentage": "60"
-                },
-                {
-                    "subject": "First Additional Language",
+                    "subject": "English Home Language OR First Additional Language",
                     "level": "5",
                     "percentage": "60"
                 },
@@ -1414,12 +1144,7 @@
             "aps": "37",
             "required_subjects": [
                 {
-                    "subject": "English Home Language",
-                    "level": "5",
-                    "percentage": "60"
-                },
-                {
-                    "subject": "First Additional Language",
+                    "subject": "English Home Language OR First Additional Language",
                     "level": "5",
                     "percentage": "60"
                 }
@@ -1432,12 +1157,7 @@
             "aps": "34",
             "required_subjects": [
                 {
-                    "subject": "English Home Language",
-                    "level": "5",
-                    "percentage": "60"
-                },
-                {
-                    "subject": "First Additional Language",
+                    "subject": "English Home Language OR First Additional Language",
                     "level": "5",
                     "percentage": "60"
                 },
@@ -1455,12 +1175,7 @@
             "aps": "34",
             "required_subjects": [
                 {
-                    "subject": "English Home Language",
-                    "level": "5",
-                    "percentage": "60"
-                },
-                {
-                    "subject": "First Additional Language",
+                    "subject": "English Home Language OR First Additional Language",
                     "level": "5",
                     "percentage": "60"
                 },
@@ -1478,12 +1193,7 @@
             "aps": "34",
             "required_subjects": [
                 {
-                    "subject": "English Home Language",
-                    "level": "5",
-                    "percentage": "60"
-                },
-                {
-                    "subject": "First Additional Language",
+                    "subject": "English Home Language OR First Additional Language",
                     "level": "5",
                     "percentage": "60"
                 }
@@ -1510,11 +1220,7 @@
             "aps": "37",
             "required_subjects": [
                 {
-                    "subject": "English Home Language",
-                    "level": "5"
-                },
-                {
-                    "subject": "First Additional Language",
+                    "subject": "English Home Language or First Additional Language",
                     "level": "5"
                 },
                 {
@@ -1538,11 +1244,7 @@
             "aps": "37",
             "required_subjects": [
                 {
-                    "subject": "English Home Language",
-                    "level": "5"
-                },
-                {
-                    "subject": "First Additional Language",
+                    "subject": "English Home Language or First Additional Language",
                     "level": "5"
                 },
                 {
@@ -1580,11 +1282,7 @@
             "aps": "36",
             "required_subjects": [
                 {
-                    "subject": "English Home Language",
-                    "level": "5"
-                },
-                {
-                    "subject": "First Additional Language",
+                    "subject": "English Home Language or First Additional Language",
                     "level": "5"
                 }
             ]
@@ -1610,11 +1308,7 @@
             "aps": "36",
             "required_subjects": [
                 {
-                    "subject": "English Home Language",
-                    "level": "5"
-                },
-                {
-                    "subject": "First Additional Language",
+                    "subject": "English Home Language or First Additional Language",
                     "level": "5"
                 }
             ]
@@ -1642,11 +1336,7 @@
             "aps": "42",
             "required_subjects": [
                 {
-                    "subject": "English Home Language",
-                    "level": "5"
-                },
-                {
-                    "subject": "First Additional Language",
+                    "subject": "English Home Language or First Additional Language",
                     "level": "5"
                 },
                 {
@@ -1666,11 +1356,7 @@
             "aps": "43",
             "required_subjects": [
                 {
-                    "subject": "English Home Language",
-                    "level": "5"
-                },
-                {
-                    "subject": "First Additional Language",
+                    "subject": "English Home Language or First Additional Language",
                     "level": "5"
                 },
                 {
@@ -1690,11 +1376,7 @@
             "aps": "42",
             "required_subjects": [
                 {
-                    "subject": "English Home Language",
-                    "level": "5"
-                },
-                {
-                    "subject": "First Additional Language",
+                    "subject": "English Home Language or First Additional Language",
                     "level": "5"
                 },
                 {
@@ -1714,11 +1396,7 @@
             "aps": "42",
             "required_subjects": [
                 {
-                    "subject": "English Home Language",
-                    "level": "5"
-                },
-                {
-                    "subject": "First Additional Language",
+                    "subject": "English Home Language or First Additional Language",
                     "level": "5"
                 },
                 {
@@ -1738,11 +1416,7 @@
             "aps": "42",
             "required_subjects": [
                 {
-                    "subject": "English Home Language",
-                    "level": "5"
-                },
-                {
-                    "subject": "First Additional Language",
+                    "subject": "English Home Language or First Additional Language",
                     "level": "5"
                 },
                 {
@@ -1762,11 +1436,7 @@
             "aps": "42",
             "required_subjects": [
                 {
-                    "subject": "English Home Language",
-                    "level": "5"
-                },
-                {
-                    "subject": "First Additional Language",
+                    "subject": "English Home Language or First Additional Language",
                     "level": "5"
                 },
                 {
@@ -1786,11 +1456,7 @@
             "aps": "44",
             "required_subjects": [
                 {
-                    "subject": "English Home Language",
-                    "level": "7"
-                },
-                {
-                    "subject": "First Additional Language",
+                    "subject": "English Home Language or First Additional Language",
                     "level": "7"
                 },
                 {
@@ -1810,11 +1476,7 @@
             "aps": "44",
             "required_subjects": [
                 {
-                    "subject": "English Home Language",
-                    "level": "5"
-                },
-                {
-                    "subject": "First Additional Language",
+                    "subject": "English Home Language or First Additional Language",
                     "level": "5"
                 },
                 {
@@ -1834,11 +1496,7 @@
             "aps": "44",
             "required_subjects": [
                 {
-                    "subject": "English Home Language",
-                    "level": "5"
-                },
-                {
-                    "subject": "First Additional Language",
+                    "subject": "English Home Language or First Additional Language",
                     "level": "5"
                 },
                 {
@@ -1858,11 +1516,7 @@
             "aps": "44",
             "required_subjects": [
                 {
-                    "subject": "English Home Language",
-                    "level": "7"
-                },
-                {
-                    "subject": "First Additional Language",
+                    "subject": "English Home Language or First Additional Language",
                     "level": "7"
                 },
                 {
@@ -1882,11 +1536,7 @@
             "aps": "42",
             "required_subjects": [
                 {
-                    "subject": "English Home Language",
-                    "level": "5"
-                },
-                {
-                    "subject": "First Additional Language",
+                    "subject": "English Home Language or First Additional Language",
                     "level": "5"
                 },
                 {
@@ -1906,11 +1556,7 @@
             "aps": "43",
             "required_subjects": [
                 {
-                    "subject": "English Home Language",
-                    "level": "5"
-                },
-                {
-                    "subject": "First Additional Language",
+                    "subject": "English Home Language or First Additional Language",
                     "level": "5"
                 },
                 {
@@ -1930,12 +1576,7 @@
             "aps": "43",
             "required_subjects": [
                 {
-                    "subject": "English Home Language",
-                    "level": "5",
-                    "percentage": "60"
-                },
-                {
-                    "subject": "First Additional Language",
+                    "subject": "English Home Language OR First Additional Language",
                     "level": "5",
                     "percentage": "60"
                 },
@@ -1958,11 +1599,7 @@
             "aps": "43",
             "required_subjects": [
                 {
-                    "subject": "English Home Language",
-                    "level": "5"
-                },
-                {
-                    "subject": "First Additional Language",
+                    "subject": "English Home Language or First Additional Language",
                     "level": "5"
                 },
                 {
