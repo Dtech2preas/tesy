@@ -1,0 +1,592 @@
+{
+    "FACULTY OF EDUCATION": [
+        {
+            "course_name": "BEd Mathematics (SP), Mathematical Literacy (SP & FET) and Natural Science (SP)",
+            "course_code": "",
+            "duration": "",
+            "aps": "33",
+            "required_subjects": []
+        },
+        {
+            "course_name": "BEd Languages (SP and FET) and Mathematics (SP)",
+            "course_code": "",
+            "duration": "",
+            "aps": "33",
+            "required_subjects": [
+                {
+                    "subject": "English (home language) Code 4 OR English (first additional language)",
+                    "level": "5",
+                    "percentage": ""
+                },
+                {
+                    "subject": "Another language (home or first additional language)",
+                    "level": "4",
+                    "percentage": ""
+                },
+                {
+                    "subject": "Maths Code 4 OR Maths Literacy",
+                    "level": "6",
+                    "percentage": ""
+                }
+            ]
+        },
+        {
+            "course_name": "BEd Languages (SP and FET) and Life Orientation (SP)",
+            "course_code": "",
+            "duration": "",
+            "aps": "33",
+            "required_subjects": []
+        },
+        {
+            "course_name": "BEd Accounting (FET), Economic and Management Sciences (SP) and Mathematics (SP)",
+            "course_code": "",
+            "duration": "",
+            "aps": "33",
+            "required_subjects": []
+        },
+        {
+            "course_name": "BEd Languages (SP and FET) and Social Sciences (SP)",
+            "course_code": "",
+            "duration": "",
+            "aps": "33",
+            "required_subjects": []
+        },
+        {
+            "course_name": "BEd Foundation Phase Teaching",
+            "course_code": "",
+            "duration": "",
+            "aps": "33",
+            "required_subjects": [
+                {
+                    "subject": "English Code 4 (home OR first additional language) Another language Code 4 (home OR first additional language)",
+                    "level": ""
+                },
+                {
+                    "subject": "Maths Code 3 OR Maths Literacy",
+                    "level": "5",
+                    "percentage": ""
+                }
+            ]
+        }
+    ],
+    "FACULTY OF NATURAL SCIENCES": [
+        {
+            "course_name": "BSc Biodiversity and Conservation Biology",
+            "course_code": "",
+            "duration": "",
+            "aps": "33",
+            "required_subjects": [
+                {
+                    "subject": "English Code 4 (home OR first additional language)",
+                    "level": ""
+                },
+                {
+                    "subject": "Another language Code 3 (home OR first additional language)",
+                    "level": ""
+                },
+                {
+                    "subject": "Maths",
+                    "level": "4",
+                    "percentage": ""
+                },
+                {
+                    "subject": "Physical Sciences OR Life Sciences",
+                    "level": "4",
+                    "percentage": ""
+                }
+            ]
+        },
+        {
+            "course_name": "BSc Environment and Water Science",
+            "course_code": "",
+            "duration": "",
+            "aps": "33",
+            "required_subjects": [
+                {
+                    "subject": "English Code 4 (home OR first additional language)",
+                    "level": ""
+                },
+                {
+                    "subject": "Another language Code 3 (home OR first additional language)",
+                    "level": ""
+                },
+                {
+                    "subject": "Maths",
+                    "level": "4",
+                    "percentage": ""
+                },
+                {
+                    "subject": "Physical Sciences OR Life Sciences",
+                    "level": "4",
+                    "percentage": ""
+                }
+            ]
+        },
+        {
+            "course_name": "BSc Biotechnology",
+            "course_code": "",
+            "duration": "",
+            "aps": "33",
+            "required_subjects": [
+                {
+                    "subject": "English Code 4 (home OR first additional language)",
+                    "level": ""
+                },
+                {
+                    "subject": "Another language Code 3 (home OR first additional language)",
+                    "level": ""
+                },
+                {
+                    "subject": "Maths",
+                    "level": "4",
+                    "percentage": ""
+                },
+                {
+                    "subject": "Physical Sciences OR Life Sciences",
+                    "level": "4",
+                    "percentage": ""
+                }
+            ]
+        },
+        {
+            "course_name": "BSc Applied Geology",
+            "course_code": "",
+            "duration": "",
+            "aps": "33",
+            "required_subjects": [
+                {
+                    "subject": "English Code 4 (home OR first additional language)",
+                    "level": ""
+                },
+                {
+                    "subject": "Another language Code 3 (home OR first additional language)",
+                    "level": ""
+                },
+                {
+                    "subject": "Maths",
+                    "level": "4",
+                    "percentage": ""
+                },
+                {
+                    "subject": "Physical Sciences",
+                    "level": "4",
+                    "percentage": ""
+                }
+            ]
+        },
+        {
+            "course_name": "BSc Medical Bioscience",
+            "course_code": "",
+            "duration": "",
+            "aps": "33",
+            "required_subjects": [
+                {
+                    "subject": "English Code 4 (home OR first additional language)",
+                    "level": ""
+                },
+                {
+                    "subject": "Another language Code 3 (home OR first additional language)",
+                    "level": ""
+                },
+                {
+                    "subject": "Maths",
+                    "level": "4",
+                    "percentage": ""
+                },
+                {
+                    "subject": "Life Sciences",
+                    "level": "4",
+                    "percentage": ""
+                }
+            ]
+        },
+        {
+            "course_name": "BSc Mathematics & Statistical Sciences",
+            "course_code": "",
+            "duration": "",
+            "aps": "33",
+            "required_subjects": []
+        },
+        {
+            "course_name": "BSc Physical Science",
+            "course_code": "",
+            "duration": "",
+            "aps": "33",
+            "required_subjects": [
+                {
+                    "subject": "English Code 4 (home OR first additional language)",
+                    "level": ""
+                },
+                {
+                    "subject": "Another language Code 3 (home OR first additional language)",
+                    "level": ""
+                },
+                {
+                    "subject": "Maths",
+                    "level": "5",
+                    "percentage": ""
+                },
+                {
+                    "subject": "Physical Sciences",
+                    "level": "4",
+                    "percentage": ""
+                }
+            ]
+        },
+        {
+            "course_name": "BSc Chemical Sciences",
+            "course_code": "",
+            "duration": "",
+            "aps": "33",
+            "required_subjects": [
+                {
+                    "subject": "English Code 4 (home OR first additional language)",
+                    "level": ""
+                },
+                {
+                    "subject": "Another language Code 3 (home OR first additional language)",
+                    "level": ""
+                },
+                {
+                    "subject": "Maths",
+                    "level": "4",
+                    "percentage": ""
+                },
+                {
+                    "subject": "Physical Sciences",
+                    "level": "4",
+                    "percentage": ""
+                }
+            ]
+        },
+        {
+            "course_name": "BSc Computer Science",
+            "course_code": "",
+            "duration": "",
+            "aps": "33",
+            "required_subjects": []
+        },
+        {
+            "course_name": "Bachelor of Pharmacy",
+            "course_code": "",
+            "duration": "",
+            "aps": "38",
+            "required_subjects": [
+                {
+                    "subject": "English Code 4 (home OR first additional language)",
+                    "level": ""
+                },
+                {
+                    "subject": "Another language Code 3 (home OR first additional language)",
+                    "level": ""
+                },
+                {
+                    "subject": "Maths",
+                    "level": "4",
+                    "percentage": ""
+                },
+                {
+                    "subject": "Physical Sciences",
+                    "level": ""
+                },
+                {
+                    "subject": "Life Sciences",
+                    "level": "4",
+                    "percentage": ""
+                }
+            ]
+        }
+    ],
+    "FACULTY OF ARTS & HUMANITIES": [
+        {
+            "course_name": "Bachelor of Arts (BA)",
+            "course_code": "",
+            "duration": "",
+            "aps": "35",
+            "required_subjects": [
+                {
+                    "subject": "English Code 4 (home OR first additional language)",
+                    "level": ""
+                },
+                {
+                    "subject": "Code 4 in another subject from the NSC subject list",
+                    "level": ""
+                }
+            ]
+        },
+        {
+            "course_name": "Bachelor of Theology (BTh)",
+            "course_code": "",
+            "duration": "",
+            "aps": "35",
+            "required_subjects": [
+                {
+                    "subject": "English Code 4 (home OR first additional language)",
+                    "level": ""
+                },
+                {
+                    "subject": "Code 4 in another subject from the NSC subject list",
+                    "level": ""
+                }
+            ]
+        },
+        {
+            "course_name": "Bachelor of Library and Information Studies (BLIS)",
+            "course_code": "",
+            "duration": "",
+            "aps": "35",
+            "required_subjects": []
+        }
+    ],
+    "FACULTY OF LAW": [
+        {
+            "course_name": "Bachelor of Laws (LLB) (4yr Prog)",
+            "course_code": "",
+            "duration": "4",
+            "aps": "37",
+            "required_subjects": []
+        },
+        {
+            "course_name": "Bachelor of Arts in Law - BA (Law) (3yr Prog)",
+            "course_code": "",
+            "duration": "3",
+            "aps": "37",
+            "required_subjects": []
+        },
+        {
+            "course_name": "B Com Law",
+            "course_code": "",
+            "duration": "",
+            "aps": "30",
+            "required_subjects": [
+                {
+                    "subject": "Maths",
+                    "level": "4",
+                    "percentage": ""
+                },
+                {
+                    "subject": "English Code 4 (home OR first additional language)",
+                    "level": ""
+                },
+                {
+                    "subject": "Another language Code 3 (home OR first additional language) *unless otherwise stated*",
+                    "level": ""
+                }
+            ]
+        }
+    ],
+    "FACULTY OF COMMUNITY & HEALTH SCIENCES": [
+        {
+            "course_name": "Bachelor of Social Work",
+            "course_code": "",
+            "duration": "",
+            "aps": "34",
+            "required_subjects": [
+                {
+                    "subject": "English (home lang) Code 4 OR English (first additional language)",
+                    "level": "5",
+                    "percentage": ""
+                },
+                {
+                    "subject": "Another lang (home or first additional)",
+                    "level": "4",
+                    "percentage": ""
+                },
+                {
+                    "subject": "Maths Code 3 OR Maths Literacy",
+                    "level": "4",
+                    "percentage": ""
+                }
+            ]
+        },
+        {
+            "course_name": "Bachelor of Nursing",
+            "course_code": "",
+            "duration": "",
+            "aps": "30",
+            "required_subjects": [
+                {
+                    "subject": "Maths Code 4 OR Maths Literacy",
+                    "level": "6",
+                    "percentage": ""
+                },
+                {
+                    "subject": "Life Sciences",
+                    "level": "4",
+                    "percentage": ""
+                }
+            ]
+        },
+        {
+            "course_name": "Bachelor of Community Development",
+            "course_code": "",
+            "duration": "",
+            "aps": "30",
+            "required_subjects": [
+                {
+                    "subject": "Maths Code 3 OR Maths Literacy",
+                    "level": "4",
+                    "percentage": ""
+                },
+                {
+                    "subject": "English Code 4 (Home Language) OR Code 5 (First Additional Language)",
+                    "level": ""
+                },
+                {
+                    "subject": "Another Language Code 4 (Home or First Additional language)",
+                    "level": ""
+                }
+            ]
+        },
+        {
+            "course_name": "BSc Physiotherapy",
+            "course_code": "",
+            "duration": "",
+            "aps": "39",
+            "required_subjects": [
+                {
+                    "subject": "Maths Code 4 OR Maths Literacy",
+                    "level": "6",
+                    "percentage": ""
+                },
+                {
+                    "subject": "Life Sciences",
+                    "level": "4",
+                    "percentage": ""
+                },
+                {
+                    "subject": "Physical Sciences",
+                    "level": "4",
+                    "percentage": ""
+                }
+            ]
+        },
+        {
+            "course_name": "BSc Sport and Exercise Science",
+            "course_code": "",
+            "duration": "",
+            "aps": "33",
+            "required_subjects": [
+                {
+                    "subject": "Maths Code 4 OR Maths Literacy",
+                    "level": "6",
+                    "percentage": ""
+                },
+                {
+                    "subject": "Life Sciences",
+                    "level": "4",
+                    "percentage": ""
+                }
+            ]
+        },
+        {
+            "course_name": "BA Sport, Recreation and Exercise Science",
+            "course_code": "",
+            "duration": "",
+            "aps": "30",
+            "required_subjects": [
+                {
+                    "subject": "Maths Code 3 OR Maths Literacy",
+                    "level": "4",
+                    "percentage": ""
+                }
+            ]
+        },
+        {
+            "course_name": "Bachelor of Science in Dietetics",
+            "course_code": "",
+            "duration": "",
+            "aps": "33",
+            "required_subjects": [
+                {
+                    "subject": "Maths Code 4 OR Maths Literacy",
+                    "level": "6",
+                    "percentage": ""
+                },
+                {
+                    "subject": "Life Sciences",
+                    "level": "4",
+                    "percentage": ""
+                }
+            ]
+        },
+        {
+            "course_name": "BSc Occupational Therapy",
+            "course_code": "",
+            "duration": "",
+            "aps": "33",
+            "required_subjects": [
+                {
+                    "subject": "Maths Code 3 OR Maths Literacy",
+                    "level": "5",
+                    "percentage": ""
+                },
+                {
+                    "subject": "Life Sciences",
+                    "level": "4",
+                    "percentage": ""
+                }
+            ]
+        }
+    ],
+    "FACULTY OF DENTISTRY": [
+        {
+            "course_name": "Bachelor of Oral Health (BOH)",
+            "course_code": "",
+            "duration": "",
+            "aps": "33",
+            "required_subjects": []
+        },
+        {
+            "course_name": "Bachelor of Dental Surgery (BDS)",
+            "course_code": "",
+            "duration": "",
+            "aps": "40",
+            "required_subjects": []
+        }
+    ],
+    "FACULTY OF ECONOMIC & MANAGEMENT SCIENCES": [
+        {
+            "course_name": "BCom Accounting (4yrs)",
+            "course_code": "",
+            "duration": "4",
+            "aps": "30",
+            "required_subjects": []
+        },
+        {
+            "course_name": "BCom Information Systems",
+            "course_code": "",
+            "duration": "3",
+            "aps": "30",
+            "required_subjects": []
+        },
+        {
+            "course_name": "BCom Financial Accounting",
+            "course_code": "",
+            "duration": "3",
+            "aps": "30",
+            "required_subjects": []
+        },
+        {
+            "course_name": "BAdmin",
+            "course_code": "",
+            "duration": "3",
+            "aps": "30",
+            "required_subjects": []
+        },
+        {
+            "course_name": "BCom 4 years",
+            "course_code": "",
+            "duration": "4",
+            "aps": "30",
+            "required_subjects": []
+        },
+        {
+            "course_name": "BCom Accounting (3yrs)",
+            "course_code": "",
+            "duration": "3",
+            "aps": "30",
+            "required_subjects": []
+        }
+    ]
+}

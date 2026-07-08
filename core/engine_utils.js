@@ -137,7 +137,7 @@ export const getMinForRequirement = (req) => {
             return levelToMinPercent(lvl);
         }
     }
-    const levelMatch = String(req).match(/Level\s*(\d)/i);
+    const levelMatch = String(req).match(/(?:Level|Code)\s*(\d)/i);
     if (levelMatch) return levelToMinPercent(parseInt(levelMatch[1]));
     const percentMatch = String(req).match(/(\d+)%/);
     if (percentMatch) return parseInt(percentMatch[1]);
