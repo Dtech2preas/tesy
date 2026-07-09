@@ -333,7 +333,7 @@ select.floating-input {
     stroke: var(--primary-accent);
     stroke-width: 8;
     stroke-linecap: round;
-    transition: stroke-dashoffset 1s ease-out;
+    transition: stroke-dashoffset 1s ease-out, stroke 1s ease-out;
 }
 .gauge-text {
     position: absolute;
@@ -343,6 +343,7 @@ select.floating-input {
     font-size: 1.5em;
     font-weight: bold;
     color: #fff;
+    transition: color 1s ease-out;
 }
 
 .dashboard-footer {

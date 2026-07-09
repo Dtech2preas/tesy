@@ -108,6 +108,31 @@
         <div id="recommendations-container" style="margin-top:20px;"></div>
     </div>
 
+    <!-- What-If Calculator Section -->
+    <div id="what-if-wrapper" class="card hidden slide-up">
+        <h2 class="card-title">
+            <svg class="icon" viewBox="0 0 24 24"><path d="M19 3H5c-1.1 0-2 .9-2 2v14c0 1.1.9 2 2 2h14c1.1 0 2-.9 2-2V5c0-1.1-.9-2-2-2zm-7 9h-2V7h-2v5H6v-2h2V5h2v5h2v2zm4 4h-8v-2h8v2zm0-4h-4v-2h4v2z"/></svg>
+            What-If Calculator
+        </h2>
+        <p style="font-size: 0.9em; color: #aaa; margin-top:-10px;">Select a target course to see what you need to qualify.</p>
+
+        <div style="display:flex; gap:10px; flex-wrap:wrap;">
+            <div class="floating-group" style="flex:1; min-width: 200px;">
+                <select id="what-if-uni" class="floating-input" onchange="loadWhatIfCourses()"></select>
+                <label class="floating-label">Target University</label>
+            </div>
+            <div class="floating-group" style="flex:1; min-width: 200px;">
+                <select id="what-if-course" class="floating-input" disabled></select>
+                <label class="floating-label">Target Course</label>
+            </div>
+        </div>
+        <button class="btn btn-outline btn-block" style="margin-top:10px;" type="button" onclick="calculateWhatIf()">
+            Analyze Gap
+        </button>
+
+        <div id="what-if-result" style="margin-top: 20px;"></div>
+    </div>
+
     <!-- Universities List -->
     <div class="card slide-up" style="margin-top: 40px; border:none; background:transparent; box-shadow:none; padding:0;">
         <h2 class="card-title" style="justify-content:center;">Select a University</h2>
@@ -160,9 +185,18 @@
                 document.getElementById('subjects-section').classList.add('hidden');
                 document.getElementById('results-container').classList.remove('hidden');
                 document.getElementById('recommendations-wrapper').classList.remove('hidden');
+                document.getElementById('what-if-wrapper').classList.remove('hidden');
             } else {
                 addSubjectRow();
             }
+
+            // Populate what-if uni dropdown
+            const uniSelect = document.getElementById('what-if-uni');
+            let uniOptions = '<option value="">Select University...</option>';
+            universitiesList.forEach(u => {
+                uniOptions += `<option value="${u.id}">${u.name}</option>`;
+            });
+            uniSelect.innerHTML = uniOptions;
         }
 
         function populateDropdowns(selectElement, selectedValue = '') {
@@ -256,34 +290,57 @@
             const fillPercentage = Math.min(value / max, 1);
             const offset = circumference - (fillPercentage * circumference);
 
+            // Determine color based on percentage
+            let color = 'var(--primary-accent)';
+            if (fillPercentage < 0.4) {
+                color = 'var(--error-color)'; // Red
+            } else if (fillPercentage < 0.7) {
+                color = '#ffaa00'; // Orange
+            } else {
+                color = 'var(--success-color)'; // Green
+            }
+
             setTimeout(() => {
                 circle.style.strokeDashoffset = offset;
+                circle.style.stroke = color;
                 text.textContent = value;
+                text.style.color = color;
             }, 100);
         }
 
         function determinePassStatus(marks) {
-            let homeLang = false;
-            let countAbove50 = 0;
+            let hasHomeLang40 = false;
+            let above50 = 0;
+            let above40 = 0;
+            let above30 = 0;
             let validSubjects = 0;
 
             marks.forEach(m => {
                 if(m.subject.toLowerCase() === 'life orientation' || m.subject.toLowerCase() === 'lo') return;
                 validSubjects++;
 
-                if((m.subject.toLowerCase().includes('home language') || m.subject.toLowerCase() === 'english home language') && m.percentage >= 40) {
-                    homeLang = true;
+                let isHomeLang = m.subject.toLowerCase().includes('home language') || m.subject.toLowerCase() === 'english home language';
+                if (isHomeLang && m.percentage >= 40) {
+                    hasHomeLang40 = true;
                 }
 
-                if(m.percentage >= 50) {
-                    countAbove50++;
-                }
+                if(m.percentage >= 50) above50++;
+                if(m.percentage >= 40) above40++;
+                if(m.percentage >= 30) above30++;
             });
 
             if (validSubjects < 6) return "Incomplete Subjects";
-            if (homeLang && countAbove50 >= 4) return "<span style='color:var(--success-color)'>Bachelor's Degree</span>";
-            if (homeLang) return "<span style='color:var(--primary-accent)'>Diploma Pass</span>";
-            return "<span style='color:#ffaa00'>Higher Certificate</span>";
+            if (!hasHomeLang40) return "<span style='color:var(--error-color)'>Fail (Home Lang < 40%)</span>";
+
+            if (above50 >= 4 && above30 >= 5) {
+                return "<span style='color:var(--success-color)'>Bachelor's Degree</span>";
+            } else if (above40 >= 4 && above30 >= 5) {
+                return "<span style='color:var(--primary-accent)'>Diploma Pass</span>";
+            } else if (above40 >= 3 && above30 >= 5) {
+                return "<span style='color:#ffaa00'>Higher Certificate</span>";
+            } else {
+                return "<span style='color:var(--error-color)'>Fail</span>";
+            }
         }
 
         function saveAndCollapseMarks() {
@@ -311,6 +368,7 @@
             document.getElementById('subjects-section').classList.add('hidden');
             document.getElementById('results-container').classList.remove('hidden');
             document.getElementById('recommendations-wrapper').classList.remove('hidden');
+            document.getElementById('what-if-wrapper').classList.remove('hidden');
 
             document.getElementById('results-container').scrollIntoView({ behavior: 'smooth' });
         }
@@ -343,7 +401,9 @@
             document.getElementById('subjects-section').classList.remove('hidden');
             document.getElementById('results-container').classList.add('hidden');
             document.getElementById('recommendations-wrapper').classList.add('hidden');
+            document.getElementById('what-if-wrapper').classList.add('hidden');
             document.getElementById('recommendations-container').innerHTML = ''; // reset recommendations
+            document.getElementById('what-if-result').innerHTML = ''; // reset what-if
         }
 
         function loadSavedMarks(savedMarks) {
@@ -474,6 +534,72 @@
 
             container.innerHTML = finalHtml;
         }
+
+        let currentWhatIfUniEngine = null;
+        let currentWhatIfCourses = [];
+
+        window.loadWhatIfCourses = async function() {
+            const uniId = document.getElementById('what-if-uni').value;
+            const courseSelect = document.getElementById('what-if-course');
+            const resultDiv = document.getElementById('what-if-result');
+
+            courseSelect.innerHTML = '<option value="">Loading...</option>';
+            courseSelect.disabled = true;
+            resultDiv.innerHTML = '';
+            currentWhatIfUniEngine = null;
+            currentWhatIfCourses = [];
+
+            if (!uniId) {
+                courseSelect.innerHTML = '';
+                return;
+            }
+
+            try {
+                currentWhatIfUniEngine = await UniversityLoader.load(uniId);
+                currentWhatIfCourses = currentWhatIfUniEngine.getCourses();
+
+                let options = '<option value="">Select a Course...</option>';
+                currentWhatIfCourses.forEach((c, idx) => {
+                    options += `<option value="${idx}">${c.course_name}</option>`;
+                });
+                courseSelect.innerHTML = options;
+                courseSelect.disabled = false;
+            } catch(e) {
+                console.error(e);
+                courseSelect.innerHTML = '<option value="">Failed to load courses</option>';
+            }
+        };
+
+        window.calculateWhatIf = function() {
+            const uniId = document.getElementById('what-if-uni').value;
+            const courseIdx = document.getElementById('what-if-course').value;
+            const resultDiv = document.getElementById('what-if-result');
+
+            if (!uniId || courseIdx === '') {
+                resultDiv.innerHTML = '<p style="color:var(--error-color);">Please select a university and course first.</p>';
+                return;
+            }
+
+            const course = currentWhatIfCourses[courseIdx];
+            const userMarks = JSON.parse(localStorage.getItem('userMarks') || '[]');
+            const userAps = parseInt(localStorage.getItem('userAps') || '0', 10);
+            const userFps = parseInt(localStorage.getItem('userFps') || '0', 10);
+
+            if(!currentWhatIfUniEngine) return;
+            const result = currentWhatIfUniEngine.calculateEligibility(course, userMarks, userAps, userFps);
+
+            let html = `
+                <div class="rec-card fade-in" style="flex-direction:column; align-items:flex-start;">
+                    <h3 style="margin-top:0; color:var(--primary-accent);">${course.course_name}</h3>
+                    <div style="margin-bottom:10px;">
+                        <strong>Current Match:</strong> <span class="rec-badge ${result.likelihood >= 80 ? 'badge-high' : result.likelihood >= 60 ? 'badge-med' : 'badge-low'}">${result.likelihood}%</span>
+                    </div>
+                    <p style="margin-bottom:15px; color:#ddd;"><strong>Analysis:</strong> ${result.reason}</p>
+                    <p style="margin:0; font-size:0.9em; color:#aaa;"><em>To improve your chances, focus on increasing marks in any specifically required subjects mentioned above, or boost your overall APS/FPS.</em></p>
+                </div>
+            `;
+            resultDiv.innerHTML = html;
+        };
 
         window.addSubjectRow = addSubjectRow;
         window.saveAndCollapseMarks = saveAndCollapseMarks;

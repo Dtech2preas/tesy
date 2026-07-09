@@ -1,5 +1,27 @@
 {
   "devDependencies": {
     "@playwright/test": "^1.61.1"
+  },
+  "name": "app",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Dtech2preas/tesy.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "commonjs",
+  "bugs": {
+    "url": "https://github.com/Dtech2preas/tesy/issues"
+  },
+  "homepage": "https://github.com/Dtech2preas/tesy#readme",
+  "dependencies": {
+    "cheerio": "^1.2.0"
   }
 }
