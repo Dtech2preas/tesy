@@ -132,6 +132,14 @@ def scrape_university(url, output_file):
                             level = match_paren.group(2)
                             requirements.append({"subject": subject, "level": level, "percentage": ""})
                         else:
+                            # Pattern 2: Subject: Level X or Subject: X
+                            match_level = re.search(r'(.*?):\s*(?:Code|Level\s*)?(\d+|null)', part, re.IGNORECASE)
+                            if match_level and "minimum" not in part.lower():
+                                subject = match_level.group(1).strip()
+                                if subject.endswith(':'): subject = subject[:-1].strip()
+                                level = match_level.group(2)
+                                if level.lower() != 'null':
+                                    requirements.append({"subject": subject, "level": level})
                             match = re.search(r'(.*?)\s+(?:minimum )?(?:Code|Level)?\s*(\d+)(?:\s*\(?(\d+)%?\+?\)?|\s*/.*?)?$', part, re.IGNORECASE)
                             if match and ("minimum" not in part.lower() or ("minimum" in part.lower() and "level" in part.lower())):
                                 subject = clean_subject(match.group(1))
