@@ -1,0 +1,841 @@
+{
+  "Faculty of Applied and Computer Sciences": [
+    {
+      "course_name": "Dip: Analytical Chemistry",
+      "course_code": "",
+      "duration": "3",
+      "aps": "23",
+      "required_subjects": [
+        {
+          "subject": "English",
+          "level": "4",
+          "percentage": "50-59%"
+        },
+        {
+          "subject": "Mathematics or Technical Mathematics or Engineering Mathematics",
+          "level": "4",
+          "percentage": "50-59%"
+        },
+        {
+          "subject": "Physical Science or Engineering Sciences",
+          "level": "4",
+          "percentage": "50-59%"
+        },
+        {
+          "subject": "Additional Subject",
+          "level": "3"
+        }
+      ]
+    },
+    {
+      "course_name": "Dip: Biotechnology",
+      "course_code": "",
+      "duration": "3",
+      "aps": "21",
+      "required_subjects": [
+        {
+          "subject": "English",
+          "level": "4",
+          "percentage": "50-59%"
+        },
+        {
+          "subject": "Mathematics or Engineering Mathematics",
+          "percentage": "50-59%"
+        },
+        {
+          "subject": "Physical Science or Engineering Science",
+          "percentage": "50-59%"
+        },
+        {
+          "subject": "Life Sciences",
+          "level": "4",
+          "percentage": "50-59%"
+        }
+      ]
+    },
+    {
+      "course_name": "Dip: Non-Destructive Testing",
+      "course_code": "",
+      "duration": "",
+      "aps": "19",
+      "required_subjects": [
+        {
+          "subject": "English",
+          "level": "3",
+          "percentage": "40-49%"
+        },
+        {
+          "subject": "Mathematics or Technical Mathematics",
+          "level": "3",
+          "percentage": "40-49%"
+        },
+        {
+          "subject": "Physical Science or Technical Science",
+          "level": "4",
+          "percentage": "50-59%"
+        }
+      ]
+    },
+    {
+      "course_name": "Bachelor of Health Sciences: Medical Laboratory Science",
+      "course_code": "",
+      "duration": "4",
+      "aps": "27",
+      "required_subjects": [
+        {
+          "subject": "English",
+          "level": "4",
+          "percentage": "50-59%"
+        },
+        {
+          "subject": "Mathematics",
+          "level": "4",
+          "percentage": "50-59%"
+        },
+        {
+          "subject": "Physical Science",
+          "level": "4",
+          "percentage": "50-59%"
+        },
+        {
+          "subject": "Life Science",
+          "level": "5",
+          "percentage": "60-69%"
+        }
+      ]
+    },
+    {
+      "course_name": "Dip: Agricultural Management",
+      "course_code": "",
+      "duration": "3",
+      "aps": "21",
+      "required_subjects": [
+        {
+          "subject": "English",
+          "level": "4",
+          "percentage": "50-59%"
+        },
+        {
+          "subject": "Mathematics or Technical Mathematics",
+          "level": "3",
+          "percentage": "40-49%"
+        },
+        {
+          "subject": "Mathematics Literacy",
+          "level": "4",
+          "percentage": "50-59%"
+        },
+        {
+          "subject": "Agriculture or Life Science",
+          "level": "3",
+          "percentage": "40-49%"
+        }
+      ]
+    },
+    {
+      "course_name": "Dip: Environmental Science",
+      "course_code": "",
+      "duration": "3",
+      "aps": "21",
+      "required_subjects": [
+        {
+          "subject": "English",
+          "level": "4",
+          "percentage": "50-59%"
+        },
+        {
+          "subject": "Mathematics",
+          "level": "4",
+          "percentage": "50-59%"
+        },
+        {
+          "subject": "Physical Science",
+          "level": "4",
+          "percentage": "50-59%"
+        }
+      ]
+    },
+    {
+      "course_name": "Dip: Information Technology",
+      "course_code": "",
+      "duration": "3",
+      "aps": "26",
+      "required_subjects": [
+        {
+          "subject": "English",
+          "level": "4",
+          "percentage": "50-59%"
+        },
+        {
+          "subject": "Mathematics or Technical Mathematics",
+          "level": "4",
+          "percentage": "50-59%"
+        },
+        {
+          "subject": "Mathematical Literacy",
+          "level": "6",
+          "percentage": "70-79%"
+        }
+      ]
+    },
+    {
+      "course_name": "Extended Information Technology Programme",
+      "course_code": "",
+      "duration": "",
+      "aps": "24",
+      "required_subjects": [
+        {
+          "subject": "English",
+          "level": "4",
+          "percentage": "50-59%"
+        },
+        {
+          "subject": "Mathematics or Technical Mathematics",
+          "level": "4",
+          "percentage": "50-59%"
+        },
+        {
+          "subject": "Mathematical Literacy",
+          "level": "6",
+          "percentage": "70-79%"
+        }
+      ]
+    }
+  ],
+  "Faculty of Management Sciences": [
+    {
+      "course_name": "Financial Info. Systems",
+      "course_code": "",
+      "duration": "",
+      "aps": "20",
+      "required_subjects": [
+        {
+          "subject": "Accounting",
+          "level": "4"
+        },
+        {
+          "subject": "English",
+          "level": "4"
+        },
+        {
+          "subject": "Mathematics or Technical Mathematics",
+          "level": "3"
+        },
+        {
+          "subject": "Mathematical Literacy",
+          "level": "5"
+        }
+      ]
+    },
+    {
+      "course_name": "Cost & Man. Accounting",
+      "course_code": "",
+      "duration": "",
+      "aps": "20",
+      "required_subjects": [
+        {
+          "subject": "Accounting",
+          "level": "4"
+        },
+        {
+          "subject": "English",
+          "level": "4"
+        },
+        {
+          "subject": "Mathematics or Technical Mathematics",
+          "level": "3"
+        },
+        {
+          "subject": "Mathematical Literacy",
+          "level": "5"
+        }
+      ]
+    },
+    {
+      "course_name": "Internal Auditing",
+      "course_code": "",
+      "duration": "",
+      "aps": "20",
+      "required_subjects": [
+        {
+          "subject": "Accounting",
+          "level": "4"
+        },
+        {
+          "subject": "English",
+          "level": "4"
+        },
+        {
+          "subject": "Mathematics or Technical Mathematics",
+          "level": "3"
+        },
+        {
+          "subject": "Mathematical Literacy",
+          "level": "5"
+        }
+      ]
+    },
+    {
+      "course_name": "Human Resources Management",
+      "course_code": "",
+      "duration": "",
+      "aps": "20",
+      "required_subjects": [
+        {
+          "subject": "English",
+          "level": "4"
+        },
+        {
+          "subject": "Mathematics or Technical Maths",
+          "level": "3"
+        },
+        {
+          "subject": "Mathematical Literacy",
+          "level": "4"
+        },
+        {
+          "subject": "Any other subject",
+          "level": "4"
+        }
+      ]
+    },
+    {
+      "course_name": "Logistics and Supply Chain Management",
+      "course_code": "",
+      "duration": "",
+      "aps": "20",
+      "required_subjects": [
+        {
+          "subject": "English",
+          "level": "4"
+        },
+        {
+          "subject": "Mathematics or Technical Maths",
+          "level": "3"
+        },
+        {
+          "subject": "Mathematical Literacy",
+          "level": "4"
+        },
+        {
+          "subject": "Any other subject",
+          "level": "4"
+        }
+      ]
+    },
+    {
+      "course_name": "Marketing",
+      "course_code": "",
+      "duration": "",
+      "aps": "20",
+      "required_subjects": [
+        {
+          "subject": "English",
+          "level": "4"
+        },
+        {
+          "subject": "Mathematics or Technical Mathematics",
+          "level": "3"
+        },
+        {
+          "subject": "Mathematical Literacy",
+          "level": "4"
+        },
+        {
+          "subject": "Any other subject",
+          "level": "4"
+        }
+      ]
+    },
+    {
+      "course_name": "Retail Business Management",
+      "course_code": "",
+      "duration": "",
+      "aps": "20",
+      "required_subjects": [
+        {
+          "subject": "English",
+          "level": "4"
+        },
+        {
+          "subject": "Mathematics or Technical Mathematics",
+          "level": "3"
+        },
+        {
+          "subject": "Mathematical Literacy",
+          "level": "4"
+        },
+        {
+          "subject": "Any other subject",
+          "level": "4"
+        }
+      ]
+    },
+    {
+      "course_name": "Sport Management",
+      "course_code": "",
+      "duration": "",
+      "aps": "20",
+      "required_subjects": [
+        {
+          "subject": "English",
+          "level": "4"
+        },
+        {
+          "subject": "Mathematics or Technical Mathematics",
+          "level": "3"
+        },
+        {
+          "subject": "Mathematical Literacy",
+          "level": "4"
+        },
+        {
+          "subject": "Any other subject",
+          "level": "4"
+        }
+      ]
+    }
+  ],
+  "Faculty of Human Sciences": [
+    {
+      "course_name": "Diploma: Fashion, Photography, Graphic Design & Fine Art",
+      "course_code": "",
+      "duration": "",
+      "aps": "21",
+      "required_subjects": [
+        {
+          "subject": "English",
+          "level": "4"
+        },
+        {
+          "subject": "Mathematics or Technical Maths",
+          "level": "2",
+          "percentage": "30%"
+        },
+        {
+          "subject": "Mathematical Literacy",
+          "level": "3",
+          "percentage": "40%"
+        }
+      ]
+    },
+    {
+      "course_name": "Diploma: Food Service Management",
+      "course_code": "",
+      "duration": "",
+      "aps": "20",
+      "required_subjects": [
+        {
+          "subject": "English",
+          "level": "4"
+        },
+        {
+          "subject": "Business Studies & Consumer Studies)",
+          "level": "4"
+        },
+        {
+          "subject": "Mathematics/Technical Maths or",
+          "level": "3"
+        },
+        {
+          "subject": "Mathematical Literacy",
+          "level": "4"
+        }
+      ]
+    },
+    {
+      "course_name": "Diploma: Tourism Management",
+      "course_code": "",
+      "duration": "",
+      "aps": "20",
+      "required_subjects": [
+        {
+          "subject": "English",
+          "level": "4"
+        },
+        {
+          "subject": "Mathematics/Technical Maths or",
+          "level": "3"
+        },
+        {
+          "subject": "Mathematical Literacy",
+          "level": "4"
+        },
+        {
+          "subject": "Business Studies & History)",
+          "level": "4"
+        }
+      ]
+    },
+    {
+      "course_name": "Diploma: Public Relations Management",
+      "course_code": "",
+      "duration": "",
+      "aps": "20",
+      "required_subjects": [
+        {
+          "subject": "English",
+          "level": "4"
+        },
+        {
+          "subject": "Mathematics/Technical Maths or",
+          "level": "3"
+        },
+        {
+          "subject": "Mathematical Literacy",
+          "level": "4"
+        },
+        {
+          "subject": "Additional Language",
+          "level": "4"
+        }
+      ]
+    },
+    {
+      "course_name": "Diploma: Ecotourism Management",
+      "course_code": "",
+      "duration": "",
+      "aps": "20",
+      "required_subjects": [
+        {
+          "subject": "English",
+          "level": "4"
+        },
+        {
+          "subject": "Biology / Life Science",
+          "level": "4"
+        },
+        {
+          "subject": "Mathematics / Technical Maths or",
+          "level": "3"
+        },
+        {
+          "subject": "Mathematical Literacy",
+          "level": "4"
+        }
+      ]
+    },
+    {
+      "course_name": "Diploma: Legal Assistance",
+      "course_code": "",
+      "duration": "",
+      "aps": "23",
+      "required_subjects": [
+        {
+          "subject": "English",
+          "level": "5"
+        },
+        {
+          "subject": "Additional Language",
+          "level": "3"
+        },
+        {
+          "subject": "Mathematics/Technical Maths or Mathematical Literacy",
+          "level": "4"
+        }
+      ]
+    },
+    {
+      "course_name": "Diploma: Labour Law",
+      "course_code": "",
+      "duration": "",
+      "aps": "21",
+      "required_subjects": [
+        {
+          "subject": "English",
+          "level": "5"
+        },
+        {
+          "subject": "Additional Language",
+          "level": "3"
+        },
+        {
+          "subject": "Mathematics/Technical Maths or",
+          "level": "3"
+        },
+        {
+          "subject": "Mathematical Literacy",
+          "level": "4"
+        }
+      ]
+    },
+    {
+      "course_name": "Diploma: Safety Management",
+      "course_code": "",
+      "duration": "",
+      "aps": "21",
+      "required_subjects": [
+        {
+          "subject": "English",
+          "level": "4"
+        },
+        {
+          "subject": "Mathematics/Technical Maths or",
+          "level": "3"
+        },
+        {
+          "subject": "Mathematical Literacy",
+          "level": "4"
+        },
+        {
+          "subject": "Physical Science /Technical Science",
+          "level": "3"
+        }
+      ]
+    },
+    {
+      "course_name": "Diploma: Policing",
+      "course_code": "",
+      "duration": "",
+      "aps": "20",
+      "required_subjects": [
+        {
+          "subject": "English",
+          "level": "4"
+        },
+        {
+          "subject": "Additional Language",
+          "level": "3"
+        },
+        {
+          "subject": "Mathematics/Technical Maths or",
+          "level": "3"
+        },
+        {
+          "subject": "Mathematical Literacy",
+          "level": "4"
+        }
+      ]
+    },
+    {
+      "course_name": "B Ed (Senior Phase & FET Teaching)",
+      "course_code": "",
+      "duration": "",
+      "aps": "22",
+      "required_subjects": [
+        {
+          "subject": "Language of Teaching & Learning",
+          "level": "4"
+        },
+        {
+          "subject": "Mathematics/Technical Mathematics or",
+          "level": "3"
+        },
+        {
+          "subject": "Mathematical Literacy",
+          "level": "6"
+        },
+        {
+          "subject": "Physical Science /Technical Science",
+          "level": "3"
+        }
+      ]
+    },
+    {
+      "course_name": "Bachelor of Communication Studies",
+      "course_code": "",
+      "duration": "",
+      "aps": "20",
+      "required_subjects": [
+        {
+          "subject": "English",
+          "level": "5"
+        },
+        {
+          "subject": "Additional Language",
+          "level": "4"
+        },
+        {
+          "subject": "Mathematics/Technical Maths or",
+          "level": "3"
+        },
+        {
+          "subject": "Mathematical Literacy",
+          "level": "4"
+        }
+      ]
+    }
+  ],
+  "Faculty of Engineering & Technology": [
+    {
+      "course_name": "Chemical Engineering",
+      "course_code": "",
+      "duration": "",
+      "aps": "24",
+      "required_subjects": [
+        {
+          "subject": "Mathematics",
+          "level": "4"
+        },
+        {
+          "subject": "Physical Sciences",
+          "level": "4"
+        },
+        {
+          "subject": "English Language",
+          "level": "4"
+        }
+      ]
+    },
+    {
+      "course_name": "Civil Engineering",
+      "course_code": "",
+      "duration": "",
+      "aps": "24",
+      "required_subjects": [
+        {
+          "subject": "Mathematics",
+          "level": "4"
+        },
+        {
+          "subject": "Physical Sciences",
+          "level": "4"
+        },
+        {
+          "subject": "English Language",
+          "level": "4"
+        }
+      ]
+    },
+    {
+      "course_name": "Industrial Engineering",
+      "course_code": "",
+      "duration": "",
+      "aps": "24",
+      "required_subjects": [
+        {
+          "subject": "Mathematics",
+          "level": "4"
+        },
+        {
+          "subject": "Physical Sciences",
+          "level": "4"
+        },
+        {
+          "subject": "English Language",
+          "level": "4"
+        }
+      ]
+    },
+    {
+      "course_name": "Mechanical Engineering",
+      "course_code": "",
+      "duration": "",
+      "aps": "24",
+      "required_subjects": [
+        {
+          "subject": "Mathematics",
+          "level": "4"
+        },
+        {
+          "subject": "Physical Sciences",
+          "level": "4"
+        },
+        {
+          "subject": "English Language",
+          "level": "4"
+        }
+      ]
+    },
+    {
+      "course_name": "Metallurgical Engineering",
+      "course_code": "",
+      "duration": "",
+      "aps": "24",
+      "required_subjects": [
+        {
+          "subject": "Mathematics",
+          "level": "4"
+        },
+        {
+          "subject": "Physical Sciences",
+          "level": "4"
+        },
+        {
+          "subject": "English Language",
+          "level": "4"
+        }
+      ]
+    },
+    {
+      "course_name": "Electronic Engineering",
+      "course_code": "",
+      "duration": "",
+      "aps": "24",
+      "required_subjects": [
+        {
+          "subject": "Mathematics",
+          "level": "4"
+        },
+        {
+          "subject": "Physical Sciences",
+          "level": "4"
+        },
+        {
+          "subject": "English Language",
+          "level": "4"
+        }
+      ]
+    },
+    {
+      "course_name": "Power Engineering",
+      "course_code": "",
+      "duration": "",
+      "aps": "24",
+      "required_subjects": [
+        {
+          "subject": "Mathematics",
+          "level": "4"
+        },
+        {
+          "subject": "Physical Sciences",
+          "level": "4"
+        },
+        {
+          "subject": "English Language",
+          "level": "4"
+        }
+      ]
+    },
+    {
+      "course_name": "Process Control Engineering",
+      "course_code": "",
+      "duration": "",
+      "aps": "24",
+      "required_subjects": [
+        {
+          "subject": "Mathematics",
+          "level": "4"
+        },
+        {
+          "subject": "Physical Sciences",
+          "level": "4"
+        },
+        {
+          "subject": "English Language",
+          "level": "4"
+        }
+      ]
+    },
+    {
+      "course_name": "Computer Systems Engineering",
+      "course_code": "",
+      "duration": "",
+      "aps": "24",
+      "required_subjects": [
+        {
+          "subject": "Mathematics",
+          "level": "4"
+        },
+        {
+          "subject": "Physical Sciences",
+          "level": "4"
+        },
+        {
+          "subject": "English Language",
+          "level": "4"
+        }
+      ]
+    }
+  ]
+}
