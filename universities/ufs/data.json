@@ -1,0 +1,3156 @@
+{
+    "FACULTY OF EDUCATION": [
+        {
+            "course_name": "Specialisation in Afrikaans Home Language",
+            "course_code": "",
+            "duration": "4",
+            "aps": "30",
+            "required_subjects": [
+                {
+                    "subject": "English",
+                    "level": "4",
+                    "percentage": "50"
+                },
+                {
+                    "subject": "Afrikaans Home Language",
+                    "level": "4",
+                    "percentage": "50"
+                }
+            ]
+        },
+        {
+            "course_name": "Specialisation in Sesotho Home Language",
+            "course_code": "",
+            "duration": "4",
+            "aps": "30",
+            "required_subjects": [
+                {
+                    "subject": "English",
+                    "level": "4",
+                    "percentage": "50"
+                },
+                {
+                    "subject": "Sesotho Home Language",
+                    "level": "4",
+                    "percentage": "50"
+                }
+            ]
+        },
+        {
+            "course_name": "Specialisation in isiZulu Home Language",
+            "course_code": "",
+            "duration": "4",
+            "aps": "30",
+            "required_subjects": [
+                {
+                    "subject": "English",
+                    "level": "4",
+                    "percentage": "50"
+                },
+                {
+                    "subject": "isiZulu Home Language",
+                    "level": "4",
+                    "percentage": "50"
+                }
+            ]
+        },
+        {
+            "course_name": "Specialisation in English Home Language",
+            "course_code": "",
+            "duration": "4",
+            "aps": "30",
+            "required_subjects": [
+                {
+                    "subject": "English Home Language",
+                    "level": "4",
+                    "percentage": "50"
+                }
+            ]
+        },
+        {
+            "course_name": "Mathematics, Natural Sciences and Technology, and English Home Language",
+            "course_code": "",
+            "duration": "4",
+            "aps": "30",
+            "required_subjects": [
+                {
+                    "subject": "English 4 (50%) Home Language",
+                    "level": ""
+                },
+                {
+                    "subject": "Mathematics",
+                    "level": "4",
+                    "percentage": "50"
+                },
+                {
+                    "subject": "First Additional Language",
+                    "level": "4",
+                    "percentage": "50"
+                }
+            ]
+        },
+        {
+            "course_name": "Life Skills, Social Sciences, and English Home Language",
+            "course_code": "",
+            "duration": "4",
+            "aps": "30",
+            "required_subjects": [
+                {
+                    "subject": "English 4 (50%) Home Language",
+                    "level": ""
+                },
+                {
+                    "subject": "First Additional Language",
+                    "level": "4",
+                    "percentage": "50"
+                }
+            ]
+        },
+        {
+            "course_name": "Mathematics, Natural Sciences and Technology, and Sesotho Home Language",
+            "course_code": "",
+            "duration": "4",
+            "aps": "30",
+            "required_subjects": [
+                {
+                    "subject": "English",
+                    "level": "4",
+                    "percentage": "50"
+                },
+                {
+                    "subject": "Mathematics",
+                    "level": "4",
+                    "percentage": "50"
+                },
+                {
+                    "subject": "Sesotho Home Language",
+                    "level": "4",
+                    "percentage": "50"
+                }
+            ]
+        },
+        {
+            "course_name": "Life Skills and Social Sciences, and isiZulu Home Language",
+            "course_code": "",
+            "duration": "4",
+            "aps": "30",
+            "required_subjects": [
+                {
+                    "subject": "English",
+                    "level": "4",
+                    "percentage": "50"
+                },
+                {
+                    "subject": "isiZulu Home Language",
+                    "level": "4",
+                    "percentage": "50"
+                }
+            ]
+        },
+        {
+            "course_name": "Life Skills, Social Sciences, and Sesotho Home Language",
+            "course_code": "",
+            "duration": "4",
+            "aps": "30",
+            "required_subjects": [
+                {
+                    "subject": "English",
+                    "level": "4",
+                    "percentage": "50"
+                },
+                {
+                    "subject": "Sesotho Home Language",
+                    "level": "4",
+                    "percentage": "50"
+                }
+            ]
+        },
+        {
+            "course_name": "Mathematics, Natural Sciences and Technology, and isiZulu Home Language",
+            "course_code": "",
+            "duration": "4",
+            "aps": "30",
+            "required_subjects": [
+                {
+                    "subject": "English",
+                    "level": "4",
+                    "percentage": "50"
+                },
+                {
+                    "subject": "Mathematics",
+                    "level": "4",
+                    "percentage": "50"
+                },
+                {
+                    "subject": "isiZulu Home Language",
+                    "level": "4",
+                    "percentage": "50"
+                }
+            ]
+        },
+        {
+            "course_name": "Mathematics, Natural Sciences, Technology, and Afrikaans Home Language",
+            "course_code": "",
+            "duration": "4",
+            "aps": "30",
+            "required_subjects": [
+                {
+                    "subject": "English",
+                    "level": "4",
+                    "percentage": "50"
+                },
+                {
+                    "subject": "Mathematics",
+                    "level": "4",
+                    "percentage": "50"
+                },
+                {
+                    "subject": "Afrikaans Home Language",
+                    "level": "4",
+                    "percentage": "50"
+                }
+            ]
+        },
+        {
+            "course_name": "Life Skills, Social Sciences, and Afrikaans Home Language",
+            "course_code": "",
+            "duration": "4",
+            "aps": "30",
+            "required_subjects": [
+                {
+                    "subject": "English",
+                    "level": "4",
+                    "percentage": "50"
+                },
+                {
+                    "subject": "Afrikaans Home Language",
+                    "level": "4",
+                    "percentage": "50"
+                }
+            ]
+        },
+        {
+            "course_name": "Accounting and Business Studies",
+            "course_code": "",
+            "duration": "4",
+            "aps": "30",
+            "required_subjects": [
+                {
+                    "subject": "English",
+                    "level": "4",
+                    "percentage": "50"
+                },
+                {
+                    "subject": "Mathematics",
+                    "level": "4",
+                    "percentage": "50"
+                },
+                {
+                    "subject": "Accounting",
+                    "level": "4",
+                    "percentage": "50"
+                },
+                {
+                    "subject": "Business Studies",
+                    "level": "4",
+                    "percentage": "50"
+                }
+            ]
+        },
+        {
+            "course_name": "EMS and Accounting",
+            "course_code": "",
+            "duration": "4",
+            "aps": "30",
+            "required_subjects": [
+                {
+                    "subject": "English",
+                    "level": "4",
+                    "percentage": "50"
+                },
+                {
+                    "subject": "Mathematics",
+                    "level": "4",
+                    "percentage": "50"
+                },
+                {
+                    "subject": "Accounting",
+                    "level": "4",
+                    "percentage": "50"
+                },
+                {
+                    "subject": "Economics 4 (50%) OR Business Studies",
+                    "level": "4",
+                    "percentage": "50"
+                }
+            ]
+        },
+        {
+            "course_name": "Technology and Engineering Graphics and Design",
+            "course_code": "",
+            "duration": "4",
+            "aps": "30",
+            "required_subjects": [
+                {
+                    "subject": "English",
+                    "level": "4",
+                    "percentage": "50"
+                },
+                {
+                    "subject": "Engineering Graphics",
+                    "level": ""
+                },
+                {
+                    "subject": "Design",
+                    "level": "4",
+                    "percentage": "50"
+                }
+            ]
+        },
+        {
+            "course_name": "Life Sciences and Mathematics",
+            "course_code": "",
+            "duration": "4",
+            "aps": "30",
+            "required_subjects": [
+                {
+                    "subject": "English",
+                    "level": "4",
+                    "percentage": "50"
+                },
+                {
+                    "subject": "Mathematics",
+                    "level": "5",
+                    "percentage": "60"
+                },
+                {
+                    "subject": "Life Sciences",
+                    "level": "5",
+                    "percentage": "60"
+                }
+            ]
+        },
+        {
+            "course_name": "Technology and Life Sciences",
+            "course_code": "",
+            "duration": "4",
+            "aps": "30",
+            "required_subjects": [
+                {
+                    "subject": "English",
+                    "level": "4",
+                    "percentage": "50"
+                },
+                {
+                    "subject": "Life Sciences",
+                    "level": "5",
+                    "percentage": "60"
+                }
+            ]
+        },
+        {
+            "course_name": "Sesotho HL and English FAL",
+            "course_code": "",
+            "duration": "4",
+            "aps": "30",
+            "required_subjects": [
+                {
+                    "subject": "English",
+                    "level": "4",
+                    "percentage": "50"
+                },
+                {
+                    "subject": "Sesotho Home Language",
+                    "level": "4",
+                    "percentage": "50"
+                }
+            ]
+        },
+        {
+            "course_name": "isiZulu HL and English FAL",
+            "course_code": "",
+            "duration": "4",
+            "aps": "30",
+            "required_subjects": [
+                {
+                    "subject": "English",
+                    "level": "4",
+                    "percentage": "50"
+                },
+                {
+                    "subject": "isiZulu Home Language",
+                    "level": "4",
+                    "percentage": "50"
+                }
+            ]
+        },
+        {
+            "course_name": "Mathematics and Physical Sciences",
+            "course_code": "",
+            "duration": "4",
+            "aps": "30",
+            "required_subjects": [
+                {
+                    "subject": "English",
+                    "level": "4",
+                    "percentage": "50"
+                },
+                {
+                    "subject": "Mathematics",
+                    "level": "5",
+                    "percentage": "60"
+                },
+                {
+                    "subject": "Physical Sciences",
+                    "level": "5",
+                    "percentage": "60"
+                }
+            ]
+        },
+        {
+            "course_name": "Sesotho HL and History",
+            "course_code": "",
+            "duration": "4",
+            "aps": "30",
+            "required_subjects": [
+                {
+                    "subject": "English",
+                    "level": "4",
+                    "percentage": "50"
+                },
+                {
+                    "subject": "Sesotho Home Language",
+                    "level": "4",
+                    "percentage": "50"
+                }
+            ]
+        },
+        {
+            "course_name": "isiZulu HL and History",
+            "course_code": "",
+            "duration": "4",
+            "aps": "30",
+            "required_subjects": [
+                {
+                    "subject": "English",
+                    "level": "4",
+                    "percentage": "50"
+                },
+                {
+                    "subject": "isiZulu Home Language",
+                    "level": "4",
+                    "percentage": "50"
+                }
+            ]
+        },
+        {
+            "course_name": "English and History",
+            "course_code": "",
+            "duration": "4",
+            "aps": "30",
+            "required_subjects": [
+                {
+                    "subject": "English",
+                    "level": "4",
+                    "percentage": "50"
+                }
+            ]
+        },
+        {
+            "course_name": "Afrikaans HL and English",
+            "course_code": "",
+            "duration": "4",
+            "aps": "30",
+            "required_subjects": [
+                {
+                    "subject": "English",
+                    "level": "4",
+                    "percentage": "50"
+                },
+                {
+                    "subject": "Afrikaans Home Language",
+                    "level": "4",
+                    "percentage": "50"
+                }
+            ]
+        },
+        {
+            "course_name": "Geography and Life Sciences",
+            "course_code": "",
+            "duration": "4",
+            "aps": "30",
+            "required_subjects": [
+                {
+                    "subject": "English",
+                    "level": "4",
+                    "percentage": "50"
+                },
+                {
+                    "subject": "Mathematics",
+                    "level": "3",
+                    "percentage": "40"
+                },
+                {
+                    "subject": "Geography",
+                    "level": "5",
+                    "percentage": "60"
+                },
+                {
+                    "subject": "Life Sciences",
+                    "level": "5",
+                    "percentage": "60"
+                }
+            ]
+        }
+    ],
+    "FACULTY OF HEALTH SCIENCES": [
+        {
+            "course_name": "Bachelor of Medical Science with specialisation in Radiation Science (BMedSc)",
+            "course_code": "",
+            "duration": "",
+            "aps": "30",
+            "required_subjects": [
+                {
+                    "subject": "English",
+                    "level": "5",
+                    "percentage": "60"
+                },
+                {
+                    "subject": "Mathematics",
+                    "level": "5",
+                    "percentage": "60"
+                },
+                {
+                    "subject": "Life Sciences",
+                    "level": "5",
+                    "percentage": "60"
+                },
+                {
+                    "subject": "Physical Sciences",
+                    "level": "5",
+                    "percentage": "60"
+                }
+            ]
+        },
+        {
+            "course_name": "Bachelor of Medicine and Bachelor of Surgery (MB ChB)",
+            "course_code": "",
+            "duration": "",
+            "aps": "36",
+            "required_subjects": [
+                {
+                    "subject": "English",
+                    "level": "5",
+                    "percentage": "60"
+                },
+                {
+                    "subject": "Mathematics",
+                    "level": "5",
+                    "percentage": "60"
+                },
+                {
+                    "subject": "Life Sciences",
+                    "level": "5",
+                    "percentage": "60"
+                },
+                {
+                    "subject": "Physical Sciences",
+                    "level": "5",
+                    "percentage": "60"
+                }
+            ]
+        },
+        {
+            "course_name": "Bachelor of Nursing",
+            "course_code": "",
+            "duration": "",
+            "aps": "30",
+            "required_subjects": [
+                {
+                    "subject": "English",
+                    "level": "4",
+                    "percentage": "50"
+                },
+                {
+                    "subject": "Mathematics: 3 (40%) OR Mathematical Literacy",
+                    "level": "6",
+                    "percentage": "70"
+                },
+                {
+                    "subject": "Life Sciences",
+                    "level": "5",
+                    "percentage": "60"
+                },
+                {
+                    "subject": "Physical Sciences",
+                    "level": "4",
+                    "percentage": "50"
+                }
+            ]
+        },
+        {
+            "course_name": "Bachelor of Optometry (BOptom)",
+            "course_code": "",
+            "duration": "",
+            "aps": "33",
+            "required_subjects": [
+                {
+                    "subject": "English",
+                    "level": "5",
+                    "percentage": "60"
+                },
+                {
+                    "subject": "Mathematics",
+                    "level": "4",
+                    "percentage": "50"
+                },
+                {
+                    "subject": "Life Sciences",
+                    "level": "5",
+                    "percentage": "60"
+                },
+                {
+                    "subject": "Physical Sciences",
+                    "level": "5",
+                    "percentage": "60"
+                }
+            ]
+        },
+        {
+            "course_name": "Bachelor of Science in Physiotherapy BSc (Physiotherapy)",
+            "course_code": "",
+            "duration": "",
+            "aps": "33",
+            "required_subjects": [
+                {
+                    "subject": "English",
+                    "level": "5",
+                    "percentage": "60"
+                },
+                {
+                    "subject": "Mathematics",
+                    "level": "4",
+                    "percentage": "50"
+                },
+                {
+                    "subject": "Life Sciences",
+                    "level": "5",
+                    "percentage": "60"
+                },
+                {
+                    "subject": "Physical Sciences",
+                    "level": "4",
+                    "percentage": "50"
+                }
+            ]
+        },
+        {
+            "course_name": "Bachelor of Science in Dietetics* BSc (Dietetics)",
+            "course_code": "",
+            "duration": "",
+            "aps": "33",
+            "required_subjects": [
+                {
+                    "subject": "English",
+                    "level": "5",
+                    "percentage": "60"
+                },
+                {
+                    "subject": "Mathematics",
+                    "level": "4",
+                    "percentage": "50"
+                },
+                {
+                    "subject": "Life Sciences",
+                    "level": "5",
+                    "percentage": "60"
+                },
+                {
+                    "subject": "Physical Sciences",
+                    "level": "4",
+                    "percentage": "50"
+                }
+            ]
+        },
+        {
+            "course_name": "Bachelor of Occupational Therapy (BOccTher)",
+            "course_code": "",
+            "duration": "",
+            "aps": "33",
+            "required_subjects": [
+                {
+                    "subject": "English",
+                    "level": "5",
+                    "percentage": "60"
+                },
+                {
+                    "subject": "Mathematics",
+                    "level": "4",
+                    "percentage": "50"
+                },
+                {
+                    "subject": "Life Sciences",
+                    "level": "5",
+                    "percentage": "60"
+                },
+                {
+                    "subject": "Physical Sciences",
+                    "level": "4",
+                    "percentage": "50"
+                }
+            ]
+        },
+        {
+            "course_name": "Bachelor of Biokinetics * (BBiok)",
+            "course_code": "",
+            "duration": "",
+            "aps": "30",
+            "required_subjects": [
+                {
+                    "subject": "English",
+                    "level": "5",
+                    "percentage": "60"
+                },
+                {
+                    "subject": "Mathematics",
+                    "level": "4",
+                    "percentage": "50"
+                },
+                {
+                    "subject": "Life Sciences",
+                    "level": "4",
+                    "percentage": "50"
+                },
+                {
+                    "subject": "Physical Sciences",
+                    "level": "4",
+                    "percentage": "50"
+                }
+            ]
+        },
+        {
+            "course_name": "Bachelor of Sport Coaching (B SportCoach)",
+            "course_code": "",
+            "duration": "",
+            "aps": "30",
+            "required_subjects": [
+                {
+                    "subject": "English",
+                    "level": "4",
+                    "percentage": "50"
+                },
+                {
+                    "subject": "Mathematics",
+                    "level": "4",
+                    "percentage": "50"
+                }
+            ]
+        }
+    ],
+    "FACULTY OF LAW": [
+        {
+            "course_name": "Bachelor of Laws (LLB) - four years",
+            "course_code": "",
+            "duration": "",
+            "aps": "33",
+            "required_subjects": [
+                {
+                    "subject": "English",
+                    "level": "6",
+                    "percentage": "70"
+                },
+                {
+                    "subject": "Either Mathematics: 4 (50%) OR Mathematical Literacy",
+                    "level": "6",
+                    "percentage": "70"
+                }
+            ]
+        }
+    ],
+    "FACULTY OF NATURAL & AGRICULTURAL SCIENCES": [
+        {
+            "course_name": "Behavioural Genetics",
+            "course_code": "",
+            "duration": "",
+            "aps": "32",
+            "required_subjects": [
+                {
+                    "subject": "English",
+                    "level": "4",
+                    "percentage": "50"
+                },
+                {
+                    "subject": "Mathematics",
+                    "level": "5",
+                    "percentage": "60"
+                },
+                {
+                    "subject": "Life Sciences",
+                    "level": "5",
+                    "percentage": "60"
+                },
+                {
+                    "subject": "Physical Sciences",
+                    "level": "5",
+                    "percentage": "60"
+                }
+            ]
+        },
+        {
+            "course_name": "Biochemistry and Botany",
+            "course_code": "",
+            "duration": "",
+            "aps": "32",
+            "required_subjects": [
+                {
+                    "subject": "English",
+                    "level": "4",
+                    "percentage": "50"
+                },
+                {
+                    "subject": "Mathematics",
+                    "level": "5",
+                    "percentage": "60"
+                },
+                {
+                    "subject": "Life Sciences",
+                    "level": "5",
+                    "percentage": "60"
+                },
+                {
+                    "subject": "Physical Sciences",
+                    "level": "5",
+                    "percentage": "60"
+                }
+            ]
+        },
+        {
+            "course_name": "Biochemistry and Entomology",
+            "course_code": "",
+            "duration": "",
+            "aps": "32",
+            "required_subjects": [
+                {
+                    "subject": "English",
+                    "level": "4",
+                    "percentage": "50"
+                },
+                {
+                    "subject": "Mathematics",
+                    "level": "5",
+                    "percentage": "60"
+                },
+                {
+                    "subject": "Life Sciences",
+                    "level": "5",
+                    "percentage": "60"
+                },
+                {
+                    "subject": "Physical Sciences",
+                    "level": "5",
+                    "percentage": "60"
+                }
+            ]
+        },
+        {
+            "course_name": "Biochemistry and Genetics",
+            "course_code": "",
+            "duration": "",
+            "aps": "32",
+            "required_subjects": [
+                {
+                    "subject": "English",
+                    "level": "4",
+                    "percentage": "50"
+                },
+                {
+                    "subject": "Mathematics",
+                    "level": "5",
+                    "percentage": "60"
+                },
+                {
+                    "subject": "Life Sciences",
+                    "level": "5",
+                    "percentage": "60"
+                },
+                {
+                    "subject": "Physical Sciences",
+                    "level": "5",
+                    "percentage": "60"
+                }
+            ]
+        },
+        {
+            "course_name": "Biochemistry and Microbiology",
+            "course_code": "",
+            "duration": "",
+            "aps": "32",
+            "required_subjects": [
+                {
+                    "subject": "English",
+                    "level": "4",
+                    "percentage": "50"
+                },
+                {
+                    "subject": "Mathematics",
+                    "level": "5",
+                    "percentage": "60"
+                },
+                {
+                    "subject": "Life Sciences",
+                    "level": "5",
+                    "percentage": "60"
+                },
+                {
+                    "subject": "Physical Sciences",
+                    "level": "5",
+                    "percentage": "60"
+                }
+            ]
+        },
+        {
+            "course_name": "Biochemistry and Physiology",
+            "course_code": "",
+            "duration": "",
+            "aps": "32",
+            "required_subjects": [
+                {
+                    "subject": "English",
+                    "level": "4",
+                    "percentage": "50"
+                },
+                {
+                    "subject": "Mathematics",
+                    "level": "5",
+                    "percentage": "60"
+                },
+                {
+                    "subject": "Life Sciences",
+                    "level": "5",
+                    "percentage": "60"
+                },
+                {
+                    "subject": "Physical Sciences",
+                    "level": "5",
+                    "percentage": "60"
+                }
+            ]
+        },
+        {
+            "course_name": "Biochemistry and Statistics",
+            "course_code": "",
+            "duration": "",
+            "aps": "32",
+            "required_subjects": [
+                {
+                    "subject": "English",
+                    "level": "4",
+                    "percentage": "50"
+                },
+                {
+                    "subject": "Mathematics",
+                    "level": "5",
+                    "percentage": "60"
+                },
+                {
+                    "subject": "Life Sciences",
+                    "level": "5",
+                    "percentage": "60"
+                },
+                {
+                    "subject": "Physical Sciences",
+                    "level": "5",
+                    "percentage": "60"
+                }
+            ]
+        },
+        {
+            "course_name": "Biochemistry and Zoology",
+            "course_code": "",
+            "duration": "",
+            "aps": "32",
+            "required_subjects": [
+                {
+                    "subject": "English",
+                    "level": "4",
+                    "percentage": "50"
+                },
+                {
+                    "subject": "Mathematics",
+                    "level": "5",
+                    "percentage": "60"
+                },
+                {
+                    "subject": "Life Sciences",
+                    "level": "5",
+                    "percentage": "60"
+                },
+                {
+                    "subject": "Physical Sciences",
+                    "level": "5",
+                    "percentage": "60"
+                }
+            ]
+        },
+        {
+            "course_name": "Biodiversity and Conservation Ecology",
+            "course_code": "",
+            "duration": "",
+            "aps": "32",
+            "required_subjects": [
+                {
+                    "subject": "English",
+                    "level": "4",
+                    "percentage": "50"
+                },
+                {
+                    "subject": "Mathematics",
+                    "level": "5",
+                    "percentage": "60"
+                },
+                {
+                    "subject": "Life Sciences",
+                    "level": "5",
+                    "percentage": "60"
+                },
+                {
+                    "subject": "Physical Sciences",
+                    "level": "5",
+                    "percentage": "60"
+                }
+            ]
+        },
+        {
+            "course_name": "Botany and Entomology",
+            "course_code": "",
+            "duration": "",
+            "aps": "32",
+            "required_subjects": [
+                {
+                    "subject": "English",
+                    "level": "4",
+                    "percentage": "50"
+                },
+                {
+                    "subject": "Mathematics",
+                    "level": "5",
+                    "percentage": "60"
+                },
+                {
+                    "subject": "Life Sciences",
+                    "level": "5",
+                    "percentage": "60"
+                },
+                {
+                    "subject": "Physical Sciences",
+                    "level": "5",
+                    "percentage": "60"
+                }
+            ]
+        },
+        {
+            "course_name": "Botany and Genetics",
+            "course_code": "",
+            "duration": "",
+            "aps": "32",
+            "required_subjects": [
+                {
+                    "subject": "English",
+                    "level": "4",
+                    "percentage": "50"
+                },
+                {
+                    "subject": "Mathematics",
+                    "level": "5",
+                    "percentage": "60"
+                },
+                {
+                    "subject": "Life Sciences",
+                    "level": "5",
+                    "percentage": "60"
+                },
+                {
+                    "subject": "Physical Sciences",
+                    "level": "5",
+                    "percentage": "60"
+                }
+            ]
+        },
+        {
+            "course_name": "Botany and Microbiology",
+            "course_code": "",
+            "duration": "",
+            "aps": "32",
+            "required_subjects": [
+                {
+                    "subject": "English",
+                    "level": "4",
+                    "percentage": "50"
+                },
+                {
+                    "subject": "Mathematics",
+                    "level": "5",
+                    "percentage": "60"
+                },
+                {
+                    "subject": "Life Sciences",
+                    "level": "5",
+                    "percentage": "60"
+                },
+                {
+                    "subject": "Physical Sciences",
+                    "level": "5",
+                    "percentage": "60"
+                }
+            ]
+        },
+        {
+            "course_name": "Botany and Plant Breeding",
+            "course_code": "",
+            "duration": "",
+            "aps": "32",
+            "required_subjects": [
+                {
+                    "subject": "English",
+                    "level": "4",
+                    "percentage": "50"
+                },
+                {
+                    "subject": "Mathematics",
+                    "level": "5",
+                    "percentage": "60"
+                },
+                {
+                    "subject": "Life Sciences",
+                    "level": "5",
+                    "percentage": "60"
+                },
+                {
+                    "subject": "Physical Sciences",
+                    "level": "5",
+                    "percentage": "60"
+                }
+            ]
+        },
+        {
+            "course_name": "Entomology and Zoology",
+            "course_code": "",
+            "duration": "",
+            "aps": "32",
+            "required_subjects": [
+                {
+                    "subject": "English",
+                    "level": "4",
+                    "percentage": "50"
+                },
+                {
+                    "subject": "Mathematics",
+                    "level": "5",
+                    "percentage": "60"
+                },
+                {
+                    "subject": "Life Sciences",
+                    "level": "5",
+                    "percentage": "60"
+                },
+                {
+                    "subject": "Physical Sciences",
+                    "level": "5",
+                    "percentage": "60"
+                }
+            ]
+        },
+        {
+            "course_name": "Botany and Zoology",
+            "course_code": "",
+            "duration": "",
+            "aps": "32",
+            "required_subjects": [
+                {
+                    "subject": "English",
+                    "level": "4",
+                    "percentage": "50"
+                },
+                {
+                    "subject": "Mathematics",
+                    "level": "5",
+                    "percentage": "60"
+                },
+                {
+                    "subject": "Life Sciences",
+                    "level": "5",
+                    "percentage": "60"
+                },
+                {
+                    "subject": "Physical Sciences",
+                    "level": "5",
+                    "percentage": "60"
+                }
+            ]
+        },
+        {
+            "course_name": "Entomology and Genetics",
+            "course_code": "",
+            "duration": "",
+            "aps": "32",
+            "required_subjects": [
+                {
+                    "subject": "English",
+                    "level": "4",
+                    "percentage": "50"
+                },
+                {
+                    "subject": "Mathematics",
+                    "level": "5",
+                    "percentage": "60"
+                },
+                {
+                    "subject": "Life Sciences",
+                    "level": "5",
+                    "percentage": "60"
+                },
+                {
+                    "subject": "Physical Sciences",
+                    "level": "5",
+                    "percentage": "60"
+                }
+            ]
+        },
+        {
+            "course_name": "Entomology and Microbiology",
+            "course_code": "",
+            "duration": "",
+            "aps": "32",
+            "required_subjects": [
+                {
+                    "subject": "English",
+                    "level": "4",
+                    "percentage": "50"
+                },
+                {
+                    "subject": "Mathematics",
+                    "level": "5",
+                    "percentage": "60"
+                },
+                {
+                    "subject": "Life Sciences",
+                    "level": "5",
+                    "percentage": "60"
+                },
+                {
+                    "subject": "Physical Sciences",
+                    "level": "5",
+                    "percentage": "60"
+                }
+            ]
+        },
+        {
+            "course_name": "Genetics and Microbiology",
+            "course_code": "",
+            "duration": "",
+            "aps": "32",
+            "required_subjects": [
+                {
+                    "subject": "English",
+                    "level": "4",
+                    "percentage": "50"
+                },
+                {
+                    "subject": "Mathematics",
+                    "level": "5",
+                    "percentage": "60"
+                },
+                {
+                    "subject": "Life Sciences",
+                    "level": "5",
+                    "percentage": "60"
+                },
+                {
+                    "subject": "Physical Sciences",
+                    "level": "5",
+                    "percentage": "60"
+                }
+            ]
+        },
+        {
+            "course_name": "Genetics and Physiology",
+            "course_code": "",
+            "duration": "",
+            "aps": "32",
+            "required_subjects": [
+                {
+                    "subject": "English",
+                    "level": "4",
+                    "percentage": "50"
+                },
+                {
+                    "subject": "Mathematics",
+                    "level": "5",
+                    "percentage": "60"
+                },
+                {
+                    "subject": "Life Sciences",
+                    "level": "5",
+                    "percentage": "60"
+                },
+                {
+                    "subject": "Physical Sciences",
+                    "level": "5",
+                    "percentage": "60"
+                }
+            ]
+        },
+        {
+            "course_name": "Genetics and Zoology",
+            "course_code": "",
+            "duration": "",
+            "aps": "32",
+            "required_subjects": [
+                {
+                    "subject": "English",
+                    "level": "4",
+                    "percentage": "50"
+                },
+                {
+                    "subject": "Mathematics",
+                    "level": "5",
+                    "percentage": "60"
+                },
+                {
+                    "subject": "Life Sciences",
+                    "level": "5",
+                    "percentage": "60"
+                },
+                {
+                    "subject": "Physical Sciences",
+                    "level": "5",
+                    "percentage": "60"
+                }
+            ]
+        },
+        {
+            "course_name": "Microbiology and Statistics",
+            "course_code": "",
+            "duration": "",
+            "aps": "32",
+            "required_subjects": [
+                {
+                    "subject": "English",
+                    "level": "4",
+                    "percentage": "50"
+                },
+                {
+                    "subject": "Mathematics",
+                    "level": "5",
+                    "percentage": "60"
+                },
+                {
+                    "subject": "Life Sciences",
+                    "level": "5",
+                    "percentage": "60"
+                },
+                {
+                    "subject": "Physical Sciences",
+                    "level": "5",
+                    "percentage": "60"
+                }
+            ]
+        },
+        {
+            "course_name": "Microbiology and Zoology",
+            "course_code": "",
+            "duration": "",
+            "aps": "32",
+            "required_subjects": [
+                {
+                    "subject": "English",
+                    "level": "4",
+                    "percentage": "50"
+                },
+                {
+                    "subject": "Mathematics",
+                    "level": "5",
+                    "percentage": "60"
+                },
+                {
+                    "subject": "Life Sciences",
+                    "level": "5",
+                    "percentage": "60"
+                },
+                {
+                    "subject": "Physical Sciences",
+                    "level": "5",
+                    "percentage": "60"
+                }
+            ]
+        },
+        {
+            "course_name": "Plant Health Ecology",
+            "course_code": "",
+            "duration": "",
+            "aps": "32",
+            "required_subjects": [
+                {
+                    "subject": "English",
+                    "level": "4",
+                    "percentage": "50"
+                },
+                {
+                    "subject": "Mathematics",
+                    "level": "5",
+                    "percentage": "60"
+                },
+                {
+                    "subject": "Life Sciences",
+                    "level": "5",
+                    "percentage": "60"
+                },
+                {
+                    "subject": "Physical Sciences",
+                    "level": "5",
+                    "percentage": "60"
+                }
+            ]
+        },
+        {
+            "course_name": "Plant Health Management",
+            "course_code": "",
+            "duration": "",
+            "aps": "32",
+            "required_subjects": [
+                {
+                    "subject": "English",
+                    "level": "4",
+                    "percentage": "50"
+                },
+                {
+                    "subject": "Mathematics",
+                    "level": "5",
+                    "percentage": "60"
+                },
+                {
+                    "subject": "Life Sciences",
+                    "level": "5",
+                    "percentage": "60"
+                },
+                {
+                    "subject": "Physical Sciences",
+                    "level": "5",
+                    "percentage": "60"
+                }
+            ]
+        },
+        {
+            "course_name": "Forensic Science*",
+            "course_code": "",
+            "duration": "",
+            "aps": "34",
+            "required_subjects": []
+        },
+        {
+            "course_name": "Mathematics and Applied Mathematics",
+            "course_code": "",
+            "duration": "",
+            "aps": "32",
+            "required_subjects": [
+                {
+                    "subject": "English",
+                    "level": "4",
+                    "percentage": "50"
+                },
+                {
+                    "subject": "Mathematics",
+                    "level": "6",
+                    "percentage": "70"
+                },
+                {
+                    "subject": "Physical Sciences",
+                    "level": "5",
+                    "percentage": "60"
+                }
+            ]
+        },
+        {
+            "course_name": "Mathematics and Chemistry",
+            "course_code": "",
+            "duration": "",
+            "aps": "32",
+            "required_subjects": [
+                {
+                    "subject": "English",
+                    "level": "4",
+                    "percentage": "50"
+                },
+                {
+                    "subject": "Mathematics",
+                    "level": "6",
+                    "percentage": "70"
+                },
+                {
+                    "subject": "Physical Sciences",
+                    "level": "5",
+                    "percentage": "60"
+                }
+            ]
+        },
+        {
+            "course_name": "Mathematics and Mathematical Statistics",
+            "course_code": "",
+            "duration": "",
+            "aps": "32",
+            "required_subjects": [
+                {
+                    "subject": "English",
+                    "level": "4",
+                    "percentage": "50"
+                },
+                {
+                    "subject": "Mathematics",
+                    "level": "6",
+                    "percentage": "70"
+                },
+                {
+                    "subject": "Physical Sciences",
+                    "level": "5",
+                    "percentage": "60"
+                }
+            ]
+        },
+        {
+            "course_name": "Mathematics and Physics",
+            "course_code": "",
+            "duration": "",
+            "aps": "32",
+            "required_subjects": [
+                {
+                    "subject": "English",
+                    "level": "4",
+                    "percentage": "50"
+                },
+                {
+                    "subject": "Mathematics",
+                    "level": "6",
+                    "percentage": "70"
+                },
+                {
+                    "subject": "Physical Sciences",
+                    "level": "5",
+                    "percentage": "60"
+                }
+            ]
+        },
+        {
+            "course_name": "Actuarial Science",
+            "course_code": "",
+            "duration": "",
+            "aps": "34",
+            "required_subjects": []
+        },
+        {
+            "course_name": "Climate Sciences",
+            "course_code": "",
+            "duration": "",
+            "aps": "32",
+            "required_subjects": [
+                {
+                    "subject": "English",
+                    "level": "4",
+                    "percentage": "50"
+                },
+                {
+                    "subject": "Mathematics",
+                    "level": "6",
+                    "percentage": "70"
+                },
+                {
+                    "subject": "Physical Sciences",
+                    "level": "5",
+                    "percentage": "60"
+                }
+            ]
+        },
+        {
+            "course_name": "Econometrics",
+            "course_code": "",
+            "duration": "",
+            "aps": "32",
+            "required_subjects": [
+                {
+                    "subject": "English",
+                    "level": "4",
+                    "percentage": "50"
+                },
+                {
+                    "subject": "Mathematics",
+                    "level": "6",
+                    "percentage": "70"
+                }
+            ]
+        },
+        {
+            "course_name": "Mathematical Statistics and Psychometrics",
+            "course_code": "",
+            "duration": "",
+            "aps": "32",
+            "required_subjects": [
+                {
+                    "subject": "English",
+                    "level": "4",
+                    "percentage": "50"
+                },
+                {
+                    "subject": "Mathematics",
+                    "level": "6",
+                    "percentage": "70"
+                }
+            ]
+        },
+        {
+            "course_name": "Statistics and Economics",
+            "course_code": "",
+            "duration": "",
+            "aps": "32",
+            "required_subjects": [
+                {
+                    "subject": "English",
+                    "level": "4",
+                    "percentage": "50"
+                },
+                {
+                    "subject": "Mathematics",
+                    "level": "5",
+                    "percentage": "60"
+                }
+            ]
+        },
+        {
+            "course_name": "Statistics and Psychology",
+            "course_code": "",
+            "duration": "",
+            "aps": "32",
+            "required_subjects": [
+                {
+                    "subject": "English",
+                    "level": "4",
+                    "percentage": "50"
+                },
+                {
+                    "subject": "Mathematics",
+                    "level": "5",
+                    "percentage": "60"
+                }
+            ]
+        },
+        {
+            "course_name": "Chemistry and Biochemistry",
+            "course_code": "",
+            "duration": "",
+            "aps": "32",
+            "required_subjects": []
+        },
+        {
+            "course_name": "Chemistry and Botany",
+            "course_code": "",
+            "duration": "",
+            "aps": "32",
+            "required_subjects": []
+        },
+        {
+            "course_name": "Chemistry and Microbiology",
+            "course_code": "",
+            "duration": "",
+            "aps": "32",
+            "required_subjects": []
+        },
+        {
+            "course_name": "Chemistry and Physics",
+            "course_code": "",
+            "duration": "",
+            "aps": "32",
+            "required_subjects": []
+        },
+        {
+            "course_name": "Physics and Agrometeorology",
+            "course_code": "",
+            "duration": "",
+            "aps": "32",
+            "required_subjects": [
+                {
+                    "subject": "English",
+                    "level": "4",
+                    "percentage": "50"
+                },
+                {
+                    "subject": "Mathematics",
+                    "level": "5",
+                    "percentage": "60"
+                },
+                {
+                    "subject": "Physical Sciences",
+                    "level": "5",
+                    "percentage": "60"
+                }
+            ]
+        },
+        {
+            "course_name": "Physics and Astrophysics",
+            "course_code": "",
+            "duration": "",
+            "aps": "32",
+            "required_subjects": [
+                {
+                    "subject": "English",
+                    "level": "4",
+                    "percentage": "50"
+                },
+                {
+                    "subject": "Mathematics",
+                    "level": "6",
+                    "percentage": "70"
+                },
+                {
+                    "subject": "Physical Sciences",
+                    "level": "5",
+                    "percentage": "60"
+                }
+            ]
+        },
+        {
+            "course_name": "Physics and Engineering Subjects",
+            "course_code": "",
+            "duration": "",
+            "aps": "30",
+            "required_subjects": [
+                {
+                    "subject": "English",
+                    "level": "4",
+                    "percentage": "50"
+                },
+                {
+                    "subject": "Mathematics",
+                    "level": "6",
+                    "percentage": "70"
+                },
+                {
+                    "subject": "Physical Sciences",
+                    "level": "5",
+                    "percentage": "60"
+                }
+            ]
+        },
+        {
+            "course_name": "Agricultural and Biosystems Engineering",
+            "course_code": "",
+            "duration": "",
+            "aps": "30",
+            "required_subjects": [
+                {
+                    "subject": "SUBJECT TO SELECTION",
+                    "level": ""
+                },
+                {
+                    "subject": "English",
+                    "level": "4",
+                    "percentage": "50"
+                },
+                {
+                    "subject": "Mathematics",
+                    "level": "6",
+                    "percentage": "70"
+                },
+                {
+                    "subject": "Physical Sciences",
+                    "level": "5",
+                    "percentage": "60"
+                }
+            ]
+        },
+        {
+            "course_name": "Geography and Environmental Science",
+            "course_code": "",
+            "duration": "",
+            "aps": "32",
+            "required_subjects": [
+                {
+                    "subject": "English",
+                    "level": "4",
+                    "percentage": "50"
+                },
+                {
+                    "subject": "Mathematics",
+                    "level": "5",
+                    "percentage": "60"
+                },
+                {
+                    "subject": "Life Sciences",
+                    "level": "5",
+                    "percentage": "60"
+                }
+            ]
+        },
+        {
+            "course_name": "Geography Specialisation",
+            "course_code": "",
+            "duration": "",
+            "aps": "32",
+            "required_subjects": [
+                {
+                    "subject": "English",
+                    "level": "4",
+                    "percentage": "50"
+                },
+                {
+                    "subject": "Mathematics",
+                    "level": "5",
+                    "percentage": "60"
+                },
+                {
+                    "subject": "Life Sciences",
+                    "level": "5",
+                    "percentage": "60"
+                },
+                {
+                    "subject": "Physical Sciences",
+                    "level": "5",
+                    "percentage": "60"
+                }
+            ]
+        },
+        {
+            "course_name": "Environmental Soil Science",
+            "course_code": "",
+            "duration": "",
+            "aps": "32",
+            "required_subjects": [
+                {
+                    "subject": "English",
+                    "level": "4",
+                    "percentage": "50"
+                },
+                {
+                    "subject": "Mathematics",
+                    "level": "5",
+                    "percentage": "60"
+                },
+                {
+                    "subject": "Life Sciences",
+                    "level": "5",
+                    "percentage": "60"
+                },
+                {
+                    "subject": "Physical Sciences",
+                    "level": "5",
+                    "percentage": "60"
+                }
+            ]
+        },
+        {
+            "course_name": "Geology and Chemistry",
+            "course_code": "",
+            "duration": "",
+            "aps": "30",
+            "required_subjects": [
+                {
+                    "subject": "English",
+                    "level": "4",
+                    "percentage": "50"
+                },
+                {
+                    "subject": "Mathematics",
+                    "level": "5",
+                    "percentage": "60"
+                },
+                {
+                    "subject": "Physical Sciences",
+                    "level": "5",
+                    "percentage": "60"
+                }
+            ]
+        },
+        {
+            "course_name": "Environmental Geology",
+            "course_code": "",
+            "duration": "",
+            "aps": "30",
+            "required_subjects": [
+                {
+                    "subject": "English",
+                    "level": "4",
+                    "percentage": "50"
+                },
+                {
+                    "subject": "Mathematics",
+                    "level": "5",
+                    "percentage": "60"
+                },
+                {
+                    "subject": "Physical Sciences",
+                    "level": "5",
+                    "percentage": "60"
+                }
+            ]
+        },
+        {
+            "course_name": "Geochemistry",
+            "course_code": "",
+            "duration": "",
+            "aps": "30",
+            "required_subjects": [
+                {
+                    "subject": "English",
+                    "level": "4",
+                    "percentage": "50"
+                },
+                {
+                    "subject": "Mathematics",
+                    "level": "5",
+                    "percentage": "60"
+                },
+                {
+                    "subject": "Physical Sciences",
+                    "level": "5",
+                    "percentage": "60"
+                }
+            ]
+        },
+        {
+            "course_name": "Geology",
+            "course_code": "",
+            "duration": "",
+            "aps": "30",
+            "required_subjects": [
+                {
+                    "subject": "English",
+                    "level": "4",
+                    "percentage": "50"
+                },
+                {
+                    "subject": "Mathematics",
+                    "level": "5",
+                    "percentage": "60"
+                },
+                {
+                    "subject": "Physical Sciences",
+                    "level": "5",
+                    "percentage": "60"
+                }
+            ]
+        },
+        {
+            "course_name": "Geology and Physics",
+            "course_code": "",
+            "duration": "",
+            "aps": "30",
+            "required_subjects": [
+                {
+                    "subject": "English",
+                    "level": "4",
+                    "percentage": "50"
+                },
+                {
+                    "subject": "Mathematics",
+                    "level": "5",
+                    "percentage": "60"
+                },
+                {
+                    "subject": "Physical Sciences",
+                    "level": "5",
+                    "percentage": "60"
+                }
+            ]
+        },
+        {
+            "course_name": "Computer Science and Chemistry",
+            "course_code": "",
+            "duration": "",
+            "aps": "32",
+            "required_subjects": [
+                {
+                    "subject": "English",
+                    "level": "4",
+                    "percentage": "50"
+                },
+                {
+                    "subject": "Mathematics",
+                    "level": "5",
+                    "percentage": "60"
+                },
+                {
+                    "subject": "Physical Sciences",
+                    "level": "5",
+                    "percentage": "60"
+                }
+            ]
+        },
+        {
+            "course_name": "Computer Science and Mathematical Statistics",
+            "course_code": "",
+            "duration": "",
+            "aps": "32",
+            "required_subjects": [
+                {
+                    "subject": "English",
+                    "level": "4",
+                    "percentage": "50"
+                },
+                {
+                    "subject": "Mathematics",
+                    "level": "6",
+                    "percentage": "70"
+                },
+                {
+                    "subject": "Physical Sciences",
+                    "level": "5",
+                    "percentage": "60"
+                }
+            ]
+        },
+        {
+            "course_name": "Computer Science and Mathematics",
+            "course_code": "",
+            "duration": "",
+            "aps": "32",
+            "required_subjects": [
+                {
+                    "subject": "English",
+                    "level": "4",
+                    "percentage": "50"
+                },
+                {
+                    "subject": "Mathematics",
+                    "level": "6",
+                    "percentage": "70"
+                },
+                {
+                    "subject": "Physical Sciences",
+                    "level": "5",
+                    "percentage": "60"
+                }
+            ]
+        },
+        {
+            "course_name": "Computer Science and Physics",
+            "course_code": "",
+            "duration": "",
+            "aps": "32",
+            "required_subjects": [
+                {
+                    "subject": "English",
+                    "level": "4",
+                    "percentage": "50"
+                },
+                {
+                    "subject": "Mathematics",
+                    "level": "5",
+                    "percentage": "60"
+                },
+                {
+                    "subject": "Physical Sciences",
+                    "level": "5",
+                    "percentage": "60"
+                }
+            ]
+        },
+        {
+            "course_name": "Data Science",
+            "course_code": "",
+            "duration": "",
+            "aps": "32",
+            "required_subjects": [
+                {
+                    "subject": "English",
+                    "level": "4",
+                    "percentage": "50"
+                },
+                {
+                    "subject": "Mathematics",
+                    "level": "6",
+                    "percentage": "70"
+                },
+                {
+                    "subject": "Physical Sciences",
+                    "level": "5",
+                    "percentage": "60"
+                }
+            ]
+        },
+        {
+            "course_name": "Computer Science and Business Management",
+            "course_code": "",
+            "duration": "",
+            "aps": "32",
+            "required_subjects": [
+                {
+                    "subject": "English",
+                    "level": "4",
+                    "percentage": "50"
+                },
+                {
+                    "subject": "Mathematics",
+                    "level": "5",
+                    "percentage": "60"
+                },
+                {
+                    "subject": "Physical Sciences",
+                    "level": "4",
+                    "percentage": "50"
+                }
+            ]
+        },
+        {
+            "course_name": "Computer Information Systems (CompInfoSys)",
+            "course_code": "",
+            "duration": "",
+            "aps": "33",
+            "required_subjects": [
+                {
+                    "subject": "English",
+                    "level": "4",
+                    "percentage": "50"
+                },
+                {
+                    "subject": "Mathematics",
+                    "level": "4",
+                    "percentage": "50"
+                }
+            ]
+        },
+        {
+            "course_name": "Agricultural Economics",
+            "course_code": "",
+            "duration": "",
+            "aps": "32",
+            "required_subjects": [
+                {
+                    "subject": "English",
+                    "level": "4",
+                    "percentage": "50"
+                },
+                {
+                    "subject": "Mathematics",
+                    "level": "5",
+                    "percentage": "60"
+                }
+            ]
+        },
+        {
+            "course_name": "Bachelor of Sustainable Food Systems",
+            "course_code": "",
+            "duration": "",
+            "aps": "30",
+            "required_subjects": [
+                {
+                    "subject": "English",
+                    "level": "4",
+                    "percentage": "50"
+                },
+                {
+                    "subject": "Mathematics",
+                    "level": "2",
+                    "percentage": "30"
+                },
+                {
+                    "subject": "Mathematical Literacy at Level 5 (60%) will also be accepted",
+                    "level": ""
+                }
+            ]
+        },
+        {
+            "course_name": "Agricultural Management*",
+            "course_code": "",
+            "duration": "",
+            "aps": "30",
+            "required_subjects": [
+                {
+                    "subject": "English",
+                    "level": "4",
+                    "percentage": "50"
+                },
+                {
+                    "subject": "Mathematics",
+                    "level": "3",
+                    "percentage": "40"
+                }
+            ]
+        },
+        {
+            "course_name": "Agricultural Extension*",
+            "course_code": "",
+            "duration": "",
+            "aps": "30",
+            "required_subjects": [
+                {
+                    "subject": "English",
+                    "level": "4",
+                    "percentage": "50"
+                },
+                {
+                    "subject": "Mathematics",
+                    "level": "3",
+                    "percentage": "40"
+                }
+            ]
+        },
+        {
+            "course_name": "Animal Production Management*",
+            "course_code": "",
+            "duration": "",
+            "aps": "30",
+            "required_subjects": [
+                {
+                    "subject": "English",
+                    "level": "4",
+                    "percentage": "50"
+                },
+                {
+                    "subject": "Mathematics",
+                    "level": "3",
+                    "percentage": "40"
+                }
+            ]
+        },
+        {
+            "course_name": "Crop Production *",
+            "course_code": "",
+            "duration": "",
+            "aps": "30",
+            "required_subjects": [
+                {
+                    "subject": "English",
+                    "level": "4",
+                    "percentage": "50"
+                },
+                {
+                    "subject": "Mathematics",
+                    "level": "3",
+                    "percentage": "40"
+                }
+            ]
+        },
+        {
+            "course_name": "Mixed Farming Management*",
+            "course_code": "",
+            "duration": "",
+            "aps": "30",
+            "required_subjects": [
+                {
+                    "subject": "English",
+                    "level": "4",
+                    "percentage": "50"
+                },
+                {
+                    "subject": "Mathematics",
+                    "level": "3",
+                    "percentage": "40"
+                }
+            ]
+        },
+        {
+            "course_name": "Irrigation Management",
+            "course_code": "",
+            "duration": "",
+            "aps": "30",
+            "required_subjects": [
+                {
+                    "subject": "English",
+                    "level": "4",
+                    "percentage": "50"
+                },
+                {
+                    "subject": "Mathematics",
+                    "level": "3",
+                    "percentage": "40"
+                }
+            ]
+        },
+        {
+            "course_name": "Animal Science",
+            "course_code": "",
+            "duration": "",
+            "aps": "32",
+            "required_subjects": [
+                {
+                    "subject": "English",
+                    "level": "4",
+                    "percentage": "50"
+                },
+                {
+                    "subject": "Mathematics",
+                    "level": "5",
+                    "percentage": "60"
+                },
+                {
+                    "subject": "Physical Science (Compulsory)",
+                    "level": "5",
+                    "percentage": "60"
+                },
+                {
+                    "subject": "Life Sciences or Agricultural Sciences",
+                    "level": "5",
+                    "percentage": "60"
+                }
+            ]
+        },
+        {
+            "course_name": "Agrometeorology",
+            "course_code": "",
+            "duration": "",
+            "aps": "32",
+            "required_subjects": [
+                {
+                    "subject": "English",
+                    "level": "4",
+                    "percentage": "50"
+                },
+                {
+                    "subject": "Mathematics",
+                    "level": "5",
+                    "percentage": "60"
+                },
+                {
+                    "subject": "Physical Science (Compulsory)",
+                    "level": "5",
+                    "percentage": "60"
+                },
+                {
+                    "subject": "Life Sciences or Agricultural Sciences",
+                    "level": "5",
+                    "percentage": "60"
+                }
+            ]
+        },
+        {
+            "course_name": "Agronomy",
+            "course_code": "",
+            "duration": "",
+            "aps": "32",
+            "required_subjects": [
+                {
+                    "subject": "English",
+                    "level": "4",
+                    "percentage": "50"
+                },
+                {
+                    "subject": "Mathematics",
+                    "level": "5",
+                    "percentage": "60"
+                },
+                {
+                    "subject": "Physical Science (Compulsory)",
+                    "level": "5",
+                    "percentage": "60"
+                },
+                {
+                    "subject": "Life Sciences or Agricultural Sciences",
+                    "level": "5",
+                    "percentage": "60"
+                }
+            ]
+        },
+        {
+            "course_name": "Plant Breeding",
+            "course_code": "",
+            "duration": "",
+            "aps": "32",
+            "required_subjects": [
+                {
+                    "subject": "English",
+                    "level": "4",
+                    "percentage": "50"
+                },
+                {
+                    "subject": "Mathematics",
+                    "level": "5",
+                    "percentage": "60"
+                },
+                {
+                    "subject": "Physical Science (Compulsory)",
+                    "level": "5",
+                    "percentage": "60"
+                },
+                {
+                    "subject": "Life Sciences or Agricultural Sciences",
+                    "level": "5",
+                    "percentage": "60"
+                }
+            ]
+        },
+        {
+            "course_name": "Plant Pathology",
+            "course_code": "",
+            "duration": "",
+            "aps": "32",
+            "required_subjects": [
+                {
+                    "subject": "English",
+                    "level": "4",
+                    "percentage": "50"
+                },
+                {
+                    "subject": "Mathematics",
+                    "level": "5",
+                    "percentage": "60"
+                },
+                {
+                    "subject": "Physical Science (Compulsory)",
+                    "level": "5",
+                    "percentage": "60"
+                },
+                {
+                    "subject": "Life Sciences or Agricultural Sciences",
+                    "level": "5",
+                    "percentage": "60"
+                }
+            ]
+        },
+        {
+            "course_name": "Soil Science",
+            "course_code": "",
+            "duration": "",
+            "aps": "32",
+            "required_subjects": [
+                {
+                    "subject": "English",
+                    "level": "4",
+                    "percentage": "50"
+                },
+                {
+                    "subject": "Mathematics",
+                    "level": "5",
+                    "percentage": "60"
+                },
+                {
+                    "subject": "Physical Science (Compulsory)",
+                    "level": "5",
+                    "percentage": "60"
+                },
+                {
+                    "subject": "Life Sciences or Agricultural Sciences",
+                    "level": "5",
+                    "percentage": "60"
+                }
+            ]
+        },
+        {
+            "course_name": "Architecture (BArch)",
+            "course_code": "",
+            "duration": "",
+            "aps": "30",
+            "required_subjects": []
+        },
+        {
+            "course_name": "Construction Economics and Management (full-time)",
+            "course_code": "",
+            "duration": "",
+            "aps": "30",
+            "required_subjects": [
+                {
+                    "subject": "SUBJECT TO SELECTION",
+                    "level": ""
+                },
+                {
+                    "subject": "English",
+                    "level": "4",
+                    "percentage": "50"
+                },
+                {
+                    "subject": "Mathematics",
+                    "level": "5",
+                    "percentage": "60"
+                },
+                {
+                    "subject": "Economics or Business Studies or Accounting or Physical Science",
+                    "level": "4",
+                    "percentage": "50"
+                }
+            ]
+        },
+        {
+            "course_name": "Construction Management (Compact Learning)",
+            "course_code": "",
+            "duration": "",
+            "aps": "30",
+            "required_subjects": [
+                {
+                    "subject": "SUBJECT TO SELECTION",
+                    "level": ""
+                },
+                {
+                    "subject": "English",
+                    "level": "4",
+                    "percentage": "50"
+                },
+                {
+                    "subject": "Mathematics",
+                    "level": "5",
+                    "percentage": "60"
+                },
+                {
+                    "subject": "Economics or Business Studies or Accounting or Physical Science",
+                    "level": "4",
+                    "percentage": "50"
+                }
+            ]
+        },
+        {
+            "course_name": "Quantity Surveying (Compact Learning)",
+            "course_code": "",
+            "duration": "",
+            "aps": "30",
+            "required_subjects": [
+                {
+                    "subject": "SUBJECT TO SELECTION",
+                    "level": ""
+                },
+                {
+                    "subject": "English",
+                    "level": "4",
+                    "percentage": "50"
+                },
+                {
+                    "subject": "Mathematics",
+                    "level": "5",
+                    "percentage": "60"
+                },
+                {
+                    "subject": "Economics or Business Studies or Accounting or Physical Science",
+                    "level": "4",
+                    "percentage": "50"
+                }
+            ]
+        },
+        {
+            "course_name": "Botany and Life Sciences",
+            "course_code": "",
+            "duration": "",
+            "aps": "32",
+            "required_subjects": [
+                {
+                    "subject": "English",
+                    "level": "4",
+                    "percentage": "50"
+                },
+                {
+                    "subject": "Mathematics",
+                    "level": "5",
+                    "percentage": "60"
+                },
+                {
+                    "subject": "Life Sciences",
+                    "level": "5",
+                    "percentage": "60"
+                },
+                {
+                    "subject": "Physical Sciences",
+                    "level": "5",
+                    "percentage": "60"
+                }
+            ]
+        },
+        {
+            "course_name": "Life Sciences",
+            "course_code": "",
+            "duration": "",
+            "aps": "32",
+            "required_subjects": [
+                {
+                    "subject": "English",
+                    "level": "4",
+                    "percentage": "50"
+                },
+                {
+                    "subject": "Mathematics",
+                    "level": "5",
+                    "percentage": "60"
+                },
+                {
+                    "subject": "Life Sciences",
+                    "level": "5",
+                    "percentage": "60"
+                },
+                {
+                    "subject": "Physical Sciences",
+                    "level": "5",
+                    "percentage": "60"
+                }
+            ]
+        },
+        {
+            "course_name": "Zoology and Life Sciences",
+            "course_code": "",
+            "duration": "",
+            "aps": "32",
+            "required_subjects": [
+                {
+                    "subject": "English",
+                    "level": "4",
+                    "percentage": "50"
+                },
+                {
+                    "subject": "Mathematics",
+                    "level": "5",
+                    "percentage": "60"
+                },
+                {
+                    "subject": "Life Sciences",
+                    "level": "5",
+                    "percentage": "60"
+                },
+                {
+                    "subject": "Physical Sciences",
+                    "level": "5",
+                    "percentage": "60"
+                }
+            ]
+        },
+        {
+            "course_name": "Geography and Environmental Geography",
+            "course_code": "",
+            "duration": "",
+            "aps": "32",
+            "required_subjects": [
+                {
+                    "subject": "English",
+                    "level": "4",
+                    "percentage": "50"
+                },
+                {
+                    "subject": "Mathematics",
+                    "level": "5",
+                    "percentage": "60"
+                },
+                {
+                    "subject": "Life Sciences",
+                    "level": "5",
+                    "percentage": "60"
+                }
+            ]
+        },
+        {
+            "course_name": "Geography",
+            "course_code": "",
+            "duration": "",
+            "aps": "32",
+            "required_subjects": [
+                {
+                    "subject": "English",
+                    "level": "4",
+                    "percentage": "50"
+                },
+                {
+                    "subject": "Mathematics",
+                    "level": "5",
+                    "percentage": "60"
+                },
+                {
+                    "subject": "Life Sciences",
+                    "level": "5",
+                    "percentage": "60"
+                },
+                {
+                    "subject": "Physical Sciences",
+                    "level": "5",
+                    "percentage": "60"
+                }
+            ]
+        },
+        {
+            "course_name": "Computer Science and Management",
+            "course_code": "",
+            "duration": "",
+            "aps": "32",
+            "required_subjects": [
+                {
+                    "subject": "English",
+                    "level": "4",
+                    "percentage": "50"
+                },
+                {
+                    "subject": "Mathematics",
+                    "level": "5",
+                    "percentage": "60"
+                },
+                {
+                    "subject": "Physical Sciences",
+                    "level": "4",
+                    "percentage": "50"
+                }
+            ]
+        }
+    ],
+    "FACULTY OF THE HUMANITIES": [
+        {
+            "course_name": "Bachelor of Social Work",
+            "course_code": "",
+            "duration": "",
+            "aps": "35",
+            "required_subjects": []
+        },
+        {
+            "course_name": "Bachelor of Community Development (BCommDev)",
+            "course_code": "",
+            "duration": "",
+            "aps": "30",
+            "required_subjects": [
+                {
+                    "subject": "English - 5 (60%) - Subject to selection",
+                    "level": ""
+                }
+            ]
+        },
+        {
+            "course_name": "BSocSci",
+            "course_code": "",
+            "duration": "",
+            "aps": "30",
+            "required_subjects": []
+        },
+        {
+            "course_name": "Higher Certificate in Music Performance",
+            "course_code": "",
+            "duration": "",
+            "aps": "20",
+            "required_subjects": [
+                {
+                    "subject": "English",
+                    "level": "4",
+                    "percentage": "50"
+                },
+                {
+                    "subject": "Subject to selection",
+                    "level": ""
+                },
+                {
+                    "subject": "A compulsory audition",
+                    "level": ""
+                },
+                {
+                    "subject": "musical aptitude test before 30 September 2026 on the chosen instrument or in singing",
+                    "level": ""
+                }
+            ]
+        },
+        {
+            "course_name": "Diploma in Music",
+            "course_code": "",
+            "duration": "",
+            "aps": "25",
+            "required_subjects": []
+        },
+        {
+            "course_name": "Advanced Diploma in Music",
+            "course_code": "",
+            "duration": "",
+            "aps": "",
+            "required_subjects": [
+                {
+                    "subject": "Completed a Diploma in Music or relevant NQF6",
+                    "level": ""
+                },
+                {
+                    "subject": "A compulsory audition before 30 September",
+                    "level": "2026",
+                    "percentage": ""
+                }
+            ]
+        },
+        {
+            "course_name": "Advanced Diploma in Opera Studies",
+            "course_code": "",
+            "duration": "",
+            "aps": "",
+            "required_subjects": [
+                {
+                    "subject": "Completed a Diploma in Music or relevant NQF6",
+                    "level": ""
+                },
+                {
+                    "subject": "A compulsory audition before 30 September",
+                    "level": "2026",
+                    "percentage": ""
+                }
+            ]
+        },
+        {
+            "course_name": "BA (Language Practice)",
+            "course_code": "",
+            "duration": "",
+            "aps": "30",
+            "required_subjects": []
+        },
+        {
+            "course_name": "BA (Governance and Political Transformation)",
+            "course_code": "",
+            "duration": "",
+            "aps": "30",
+            "required_subjects": [
+                {
+                    "subject": "English",
+                    "level": "4",
+                    "percentage": "50"
+                }
+            ]
+        },
+        {
+            "course_name": "BA (Integrated Organisational Communication)",
+            "course_code": "",
+            "duration": "",
+            "aps": "30",
+            "required_subjects": []
+        },
+        {
+            "course_name": "BA (Journalism)",
+            "course_code": "",
+            "duration": "",
+            "aps": "30",
+            "required_subjects": []
+        },
+        {
+            "course_name": "BA (Fine Arts)",
+            "course_code": "",
+            "duration": "",
+            "aps": "30",
+            "required_subjects": [
+                {
+                    "subject": "English",
+                    "level": "4",
+                    "percentage": "50"
+                },
+                {
+                    "subject": "Subject to selection",
+                    "level": ""
+                },
+                {
+                    "subject": "The closing date for the application",
+                    "level": ""
+                },
+                {
+                    "subject": "the portfolio of creative work",
+                    "level": ""
+                },
+                {
+                    "subject": "selection form is 30 September",
+                    "level": "2026",
+                    "percentage": ""
+                }
+            ]
+        },
+        {
+            "course_name": "BA (Drama and Theatre Arts)",
+            "course_code": "",
+            "duration": "",
+            "aps": "30",
+            "required_subjects": []
+        },
+        {
+            "course_name": "BA General",
+            "course_code": "",
+            "duration": "",
+            "aps": "30",
+            "required_subjects": [
+                {
+                    "subject": "English",
+                    "level": "4",
+                    "percentage": "50"
+                },
+                {
+                    "subject": "See the majors offered below",
+                    "level": ""
+                }
+            ]
+        },
+        {
+            "course_name": "BA specialising in Languages",
+            "course_code": "",
+            "duration": "",
+            "aps": "30",
+            "required_subjects": [
+                {
+                    "subject": "English",
+                    "level": "4",
+                    "percentage": "50"
+                }
+            ]
+        },
+        {
+            "course_name": "Bachelor of Music",
+            "course_code": "",
+            "duration": "",
+            "aps": "30",
+            "required_subjects": []
+        },
+        {
+            "course_name": "BA (Music)",
+            "course_code": "",
+            "duration": "",
+            "aps": "30",
+            "required_subjects": []
+        },
+        {
+            "course_name": "Bachelor of Community Development",
+            "course_code": "",
+            "duration": "",
+            "aps": "30",
+            "required_subjects": [
+                {
+                    "subject": "English",
+                    "level": "5",
+                    "percentage": "60"
+                },
+                {
+                    "subject": "Subject to selection",
+                    "level": ""
+                },
+                {
+                    "subject": "An AP of 30 OR a Diploma in Vocational Skills with a minimum pass rate of Level 4 in English is required",
+                    "level": ""
+                }
+            ]
+        }
+    ],
+    "FACULTY OF THEOLOGY & RELIGION": [
+        {
+            "course_name": "Bachelor of Divinity* (BDiv)",
+            "course_code": "",
+            "duration": "",
+            "aps": "28",
+            "required_subjects": []
+        }
+    ],
+    "FACULTY OF ECONOMIC & MANAGEMENT SCIENCES": [
+        {
+            "course_name": "BCom",
+            "course_code": "",
+            "duration": "",
+            "aps": "28",
+            "required_subjects": [
+                {
+                    "subject": "English",
+                    "level": "4",
+                    "percentage": "50"
+                },
+                {
+                    "subject": "Mathematics",
+                    "level": "4",
+                    "percentage": "50"
+                }
+            ]
+        },
+        {
+            "course_name": "BCom with specialisation in Economics",
+            "course_code": "",
+            "duration": "",
+            "aps": "28",
+            "required_subjects": [
+                {
+                    "subject": "English",
+                    "level": "4",
+                    "percentage": "50"
+                },
+                {
+                    "subject": "Mathematics",
+                    "level": "4",
+                    "percentage": "50"
+                }
+            ]
+        },
+        {
+            "course_name": "BCom with specialisation in Finance",
+            "course_code": "",
+            "duration": "",
+            "aps": "28",
+            "required_subjects": [
+                {
+                    "subject": "English",
+                    "level": "4",
+                    "percentage": "50"
+                },
+                {
+                    "subject": "Mathematics",
+                    "level": "4",
+                    "percentage": "50"
+                }
+            ]
+        },
+        {
+            "course_name": "BCom with specialisation in Business Analytics",
+            "course_code": "",
+            "duration": "",
+            "aps": "34",
+            "required_subjects": [
+                {
+                    "subject": "English",
+                    "level": "4",
+                    "percentage": "50"
+                },
+                {
+                    "subject": "Mathematics",
+                    "level": "5",
+                    "percentage": "60"
+                }
+            ]
+        },
+        {
+            "course_name": "BCom with specialisation in Marketing",
+            "course_code": "",
+            "duration": "",
+            "aps": "28",
+            "required_subjects": [
+                {
+                    "subject": "English",
+                    "level": "4",
+                    "percentage": "50"
+                },
+                {
+                    "subject": "Mathematics",
+                    "level": "3",
+                    "percentage": "40"
+                }
+            ]
+        },
+        {
+            "course_name": "BCom with specialisation in Business Management",
+            "course_code": "",
+            "duration": "",
+            "aps": "28",
+            "required_subjects": [
+                {
+                    "subject": "English",
+                    "level": "4",
+                    "percentage": "50"
+                },
+                {
+                    "subject": "Mathematics",
+                    "level": "3",
+                    "percentage": "40"
+                }
+            ]
+        },
+        {
+            "course_name": "BCom with specialisation in Human Resource Management",
+            "course_code": "",
+            "duration": "",
+            "aps": "28",
+            "required_subjects": [
+                {
+                    "subject": "English",
+                    "level": "4",
+                    "percentage": "50"
+                },
+                {
+                    "subject": "Mathematics",
+                    "level": "3",
+                    "percentage": "40"
+                }
+            ]
+        },
+        {
+            "course_name": "BCom (Law)",
+            "course_code": "",
+            "duration": "",
+            "aps": "33",
+            "required_subjects": [
+                {
+                    "subject": "English",
+                    "level": "4",
+                    "percentage": "50"
+                },
+                {
+                    "subject": "Mathematics",
+                    "level": "4",
+                    "percentage": "50"
+                }
+            ]
+        },
+        {
+            "course_name": "BAcc",
+            "course_code": "",
+            "duration": "",
+            "aps": "34",
+            "required_subjects": [
+                {
+                    "subject": "English",
+                    "level": "4",
+                    "percentage": "50"
+                },
+                {
+                    "subject": "Mathematics",
+                    "level": "5",
+                    "percentage": "60"
+                }
+            ]
+        },
+        {
+            "course_name": "BCom (Accounting)",
+            "course_code": "",
+            "duration": "",
+            "aps": "28",
+            "required_subjects": [
+                {
+                    "subject": "English",
+                    "level": "4",
+                    "percentage": "50"
+                },
+                {
+                    "subject": "Mathematics",
+                    "level": "4",
+                    "percentage": "50"
+                }
+            ]
+        },
+        {
+            "course_name": "BAdmin",
+            "course_code": "",
+            "duration": "",
+            "aps": "28",
+            "required_subjects": [
+                {
+                    "subject": "English",
+                    "level": "4",
+                    "percentage": "50"
+                },
+                {
+                    "subject": "Mathematics",
+                    "level": "3",
+                    "percentage": "30"
+                }
+            ]
+        },
+        {
+            "course_name": "BCom with specialisation in Management",
+            "course_code": "",
+            "duration": "",
+            "aps": "28",
+            "required_subjects": [
+                {
+                    "subject": "English",
+                    "level": "4",
+                    "percentage": "50"
+                },
+                {
+                    "subject": "Mathematics",
+                    "level": "4",
+                    "percentage": "50"
+                }
+            ]
+        },
+        {
+            "course_name": "Bachelor of Administration",
+            "course_code": "",
+            "duration": "",
+            "aps": "28",
+            "required_subjects": [
+                {
+                    "subject": "English",
+                    "level": "4",
+                    "percentage": "50"
+                },
+                {
+                    "subject": "Mathematics",
+                    "level": "2",
+                    "percentage": "30"
+                }
+            ]
+        }
+    ]
+}
