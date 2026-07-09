@@ -1,0 +1,1452 @@
+{
+    "FACULTY OF EDUCATION": [
+        {
+            "course_name": "Bachelor of Education in Senior and FET Phase (Agriculture specialisation)",
+            "course_code": "",
+            "duration": "",
+            "aps": "28",
+            "required_subjects": [
+                {
+                    "subject": "English Home Language OR First Additional Language 4(50%-59%)",
+                    "level": ""
+                },
+                {
+                    "subject": "Mathematics 4(50%-59%) OR Mathematics Literacy   5(60%-69%)",
+                    "level": ""
+                },
+                {
+                    "subject": "Agricultural Science 4(50%-59%)",
+                    "level": ""
+                },
+                {
+                    "subject": "Life Sciences 4(50%-59%)",
+                    "level": ""
+                },
+                {
+                    "subject": "Two other subjects at 4(50%-59%)",
+                    "level": ""
+                },
+                {
+                    "subject": "Life Orientation 4(50%-59%)",
+                    "level": ""
+                }
+            ]
+        },
+        {
+            "course_name": "Bachelor of Education in Senior and FET Phase (Commerce specialisation)",
+            "course_code": "",
+            "duration": "",
+            "aps": "28",
+            "required_subjects": [
+                {
+                    "subject": "English Home Language OR First Additional Language 4(50%-59%)",
+                    "level": ""
+                },
+                {
+                    "subject": "Mathematics 3(40%-49%) OR Maths Literacy 4(50%-59%)",
+                    "level": ""
+                },
+                {
+                    "subject": "Two subjects from Accounting",
+                    "level": ""
+                },
+                {
+                    "subject": "Economics",
+                    "level": ""
+                },
+                {
+                    "subject": "or Business Management 4(50%-59%)",
+                    "level": ""
+                },
+                {
+                    "subject": "Two other subjects at 4(50%-59%)",
+                    "level": ""
+                },
+                {
+                    "subject": "Life Orientation 4(50%-59%)",
+                    "level": ""
+                }
+            ]
+        },
+        {
+            "course_name": "Bachelor of Education in Senior and FET Phase (Science specialisation)",
+            "course_code": "",
+            "duration": "",
+            "aps": "28",
+            "required_subjects": [
+                {
+                    "subject": "English Home Language OR First Additional Language 4(50%-59%)",
+                    "level": ""
+                },
+                {
+                    "subject": "Mathematics 4(50%-59%)",
+                    "level": ""
+                },
+                {
+                    "subject": "Physical Science OR Life Science OR Geography OR Computer Science 4(50%-59%)",
+                    "level": ""
+                },
+                {
+                    "subject": "Three other subjects at 4(50%-59%)",
+                    "level": ""
+                },
+                {
+                    "subject": "Life Orientation 4(50%-59%)",
+                    "level": ""
+                }
+            ]
+        },
+        {
+            "course_name": "Bachelor of Education in Senior and FET Phase (Social Science specialisation)",
+            "course_code": "",
+            "duration": "",
+            "aps": "28",
+            "required_subjects": [
+                {
+                    "subject": "English Home Language OR First Additional Language 4(50%-59%)",
+                    "level": ""
+                },
+                {
+                    "subject": "isiXhosa OR Afrikaans Home OR First Additional Language 4(50%-59%)",
+                    "level": ""
+                },
+                {
+                    "subject": "History OR Geography 4(50%-59%)",
+                    "level": ""
+                },
+                {
+                    "subject": "Three other subjects at 4(50%-59%)",
+                    "level": ""
+                },
+                {
+                    "subject": "Life Orientation 4(50%-59%)",
+                    "level": ""
+                }
+            ]
+        },
+        {
+            "course_name": "Bachelor of Education in Foundation Phase Teaching",
+            "course_code": "",
+            "duration": "",
+            "aps": "28",
+            "required_subjects": [
+                {
+                    "subject": "English Home Language OR First Additional Language 4(50%-59%)",
+                    "level": ""
+                },
+                {
+                    "subject": "Mathematics 4(50%-59%) OR Maths Literacy 5(60%-69%)",
+                    "level": ""
+                },
+                {
+                    "subject": "isiXhosa OR Afrikaans Home OR First Additional Language 4(50%-59%)",
+                    "level": ""
+                },
+                {
+                    "subject": "Three other subjects at 4(50%-59%)",
+                    "level": ""
+                },
+                {
+                    "subject": "Life Orientation 4(50%-59%)",
+                    "level": ""
+                }
+            ]
+        },
+        {
+            "course_name": "Bachelor of Education in Intermediate Phase Teaching",
+            "course_code": "",
+            "duration": "",
+            "aps": "28",
+            "required_subjects": [
+                {
+                    "subject": "English Home Language OR First Additional Language 4(50%-59%)",
+                    "level": ""
+                },
+                {
+                    "subject": "Mathematics 4(50%-59%) OR Maths Literacy 5(60%-69%)",
+                    "level": ""
+                },
+                {
+                    "subject": "isiXhosa OR Afrikaans Home OR First Additional Language 4(50%-59%)",
+                    "level": ""
+                },
+                {
+                    "subject": "Three other subjects at 4(50%-59%)",
+                    "level": ""
+                },
+                {
+                    "subject": "Life Orientation 4(50%-59%)",
+                    "level": ""
+                }
+            ]
+        }
+    ],
+    "FACULTY OF LAW": [
+        {
+            "course_name": "Bachelor of Laws (LLB)",
+            "course_code": "",
+            "duration": "",
+            "aps": "30",
+            "required_subjects": [
+                {
+                    "subject": "English Home Language OR First Additional Language 4 (50%-59%)",
+                    "level": ""
+                },
+                {
+                    "subject": "Mathematics 3 (40%-49%) OR Mathematical Literacy 4 (50%-59%) OR Technical Mathematics  4 (50%-59%)",
+                    "level": ""
+                },
+                {
+                    "subject": "Four other subjects at 4 (50%-59%)",
+                    "level": ""
+                },
+                {
+                    "subject": "Life Orientation 4 (50%-59%)",
+                    "level": ""
+                }
+            ]
+        },
+        {
+            "course_name": "Bachelor of Laws (Extended Programme)",
+            "course_code": "",
+            "duration": "",
+            "aps": "26",
+            "required_subjects": [
+                {
+                    "subject": "English Home Language OR First Additional Language 4 (50%-59%)",
+                    "level": ""
+                },
+                {
+                    "subject": "Mathematics OR Mathematical Literacy OR Technical Mathematics 2 (30%-39%) OR 4 (50%-59%)",
+                    "level": ""
+                },
+                {
+                    "subject": "Four other subjects at 4 (50%-59%)",
+                    "level": ""
+                },
+                {
+                    "subject": "Life Orientation 4 (50%-59%)",
+                    "level": ""
+                }
+            ]
+        },
+        {
+            "course_name": "Bachelor of Commerce in Law",
+            "course_code": "",
+            "duration": "",
+            "aps": "28",
+            "required_subjects": [
+                {
+                    "subject": "English Home Language OR First Additional Language 4 (50%-59%)",
+                    "level": ""
+                },
+                {
+                    "subject": "Mathematics OR Mathematical Literacy OR Technical Mathematics 4 (50%-59%) OR 5 (60%-69%)",
+                    "level": ""
+                },
+                {
+                    "subject": "Four other subjects at 4 (50%-59%)",
+                    "level": ""
+                },
+                {
+                    "subject": "Life Orientation 4 (50%-59%)",
+                    "level": ""
+                }
+            ]
+        }
+    ],
+    "FACULTY OF MANAGEMENT & COMMERCE": [
+        {
+            "course_name": "Bachelor of Administration in Public Administration",
+            "course_code": "",
+            "duration": "",
+            "aps": "26",
+            "required_subjects": [
+                {
+                    "subject": "English Home Language OR First Additional Language 4 (50%-59%)",
+                    "level": ""
+                },
+                {
+                    "subject": "Mathematics 2 (30%-39%) OR Mathematical Literacy 4 (50%-59%)",
+                    "level": ""
+                },
+                {
+                    "subject": "Four other subjects at 4 (50%-59%)",
+                    "level": ""
+                },
+                {
+                    "subject": "Life Orientation 4 (50%-59%)",
+                    "level": ""
+                }
+            ]
+        },
+        {
+            "course_name": "Bachelor of Commerce",
+            "course_code": "",
+            "duration": "",
+            "aps": "28",
+            "required_subjects": [
+                {
+                    "subject": "English Home Language OR First Additional Language 4 (50%-59%)",
+                    "level": ""
+                },
+                {
+                    "subject": "Mathematics 4 (50%-59%)",
+                    "level": ""
+                },
+                {
+                    "subject": "Four other subjects at 4 (50%-59%)",
+                    "level": ""
+                },
+                {
+                    "subject": "Life Orientation 4 (50%-59%)",
+                    "level": ""
+                }
+            ]
+        },
+        {
+            "course_name": "Bachelor of Commerce (Extended Programme)",
+            "course_code": "",
+            "duration": "",
+            "aps": "27",
+            "required_subjects": [
+                {
+                    "subject": "English Home Language OR First Additional Language 4 (50%-59%)",
+                    "level": ""
+                },
+                {
+                    "subject": "Mathematics 3 (40%-49%)",
+                    "level": ""
+                },
+                {
+                    "subject": "Four other subjects at 4 (50%-59%)",
+                    "level": ""
+                },
+                {
+                    "subject": "Life Orientation 4 (50%-59%)",
+                    "level": ""
+                }
+            ]
+        },
+        {
+            "course_name": "Bachelor of Commerce in Accounting",
+            "course_code": "",
+            "duration": "",
+            "aps": "32",
+            "required_subjects": [
+                {
+                    "subject": "English Home Language OR First Additional Language 5 (60%-69%)",
+                    "level": ""
+                },
+                {
+                    "subject": "Mathematics 5 (60%-69%)",
+                    "level": ""
+                },
+                {
+                    "subject": "Two subjects at 5 (60%-69%)",
+                    "level": ""
+                },
+                {
+                    "subject": "Two subjects at 4 (50%-59%)",
+                    "level": ""
+                },
+                {
+                    "subject": "Life Orientation 4 (50%-59%)",
+                    "level": ""
+                }
+            ]
+        },
+        {
+            "course_name": "Bachelor of Commerce in Accounting (Extended Programme)",
+            "course_code": "",
+            "duration": "",
+            "aps": "30",
+            "required_subjects": [
+                {
+                    "subject": "English Home Language OR First Additional Language 4 (50%-59%)",
+                    "level": ""
+                },
+                {
+                    "subject": "Mathematics 4 (50%-59%)",
+                    "level": ""
+                },
+                {
+                    "subject": "Two subjects at 5 (60%-69%)",
+                    "level": ""
+                },
+                {
+                    "subject": "Two subjects at 4 (50%-59%)",
+                    "level": ""
+                },
+                {
+                    "subject": "Life Orientation 4 (50%-59%)",
+                    "level": ""
+                }
+            ]
+        },
+        {
+            "course_name": "Bachelor of Commerce in Information Systems",
+            "course_code": "",
+            "duration": "",
+            "aps": "28",
+            "required_subjects": [
+                {
+                    "subject": "English Home Language OR First Additional Language 4 (50%-59%)",
+                    "level": ""
+                },
+                {
+                    "subject": "Mathematics 4 (50%-59%)",
+                    "level": ""
+                },
+                {
+                    "subject": "Four other subjects at 4 (50%-59%)",
+                    "level": ""
+                },
+                {
+                    "subject": "Life Orientation 4 (50%-59%)",
+                    "level": ""
+                }
+            ]
+        },
+        {
+            "course_name": "Bachelor of Commerce in Information Systems (Extended Programme)",
+            "course_code": "",
+            "duration": "",
+            "aps": "27",
+            "required_subjects": [
+                {
+                    "subject": "English Home Language OR First Additional Language 4 (50%-59%)",
+                    "level": ""
+                },
+                {
+                    "subject": "Mathematics 3 (40%-49%)",
+                    "level": ""
+                },
+                {
+                    "subject": "Four other subjects at 4 (50%-59%)",
+                    "level": ""
+                },
+                {
+                    "subject": "Life Orientation 4 (50%-59%)",
+                    "level": ""
+                }
+            ]
+        }
+    ],
+    "FACULTY OF HEALTH SCIENCES": [
+        {
+            "course_name": "Bachelor of Health Sciences in Human Movement Science",
+            "course_code": "",
+            "duration": "",
+            "aps": "28",
+            "required_subjects": [
+                {
+                    "subject": "English Home Language OR First Additional Language 4 (50%-59%)",
+                    "level": ""
+                },
+                {
+                    "subject": "Mathematics 4 (50%-59%)  OR Mathematical Literacy 5 (60%-69%)",
+                    "level": ""
+                },
+                {
+                    "subject": "Life Sciences 4 (50%-59%)",
+                    "level": ""
+                },
+                {
+                    "subject": "Three other subjects at 4 (50%-59%)",
+                    "level": ""
+                },
+                {
+                    "subject": "Life Orientation 4 (50%-59%)",
+                    "level": ""
+                }
+            ]
+        },
+        {
+            "course_name": "Bachelor of Science in Speech-Language Pathology",
+            "course_code": "",
+            "duration": "",
+            "aps": "28",
+            "required_subjects": [
+                {
+                    "subject": "English Home Language OR First Additional Language 4 (50%-59%)",
+                    "level": ""
+                },
+                {
+                    "subject": "Mathematics 4 (50%-59%) OR Mathematical Literacy  5 (60%-69%)",
+                    "level": ""
+                },
+                {
+                    "subject": "Physical Sciences 4 (50%-59%)",
+                    "level": ""
+                },
+                {
+                    "subject": "Life Sciences 4 (50%-59%)",
+                    "level": ""
+                },
+                {
+                    "subject": "Two other subjects at 4 (50%-59%)",
+                    "level": ""
+                },
+                {
+                    "subject": "Life Orientation 4 (50%-59%)",
+                    "level": ""
+                }
+            ]
+        },
+        {
+            "course_name": "Bachelor of Nursing",
+            "course_code": "",
+            "duration": "",
+            "aps": "28",
+            "required_subjects": [
+                {
+                    "subject": "English Home Language OR First Additional Language 4 (50%-59%)",
+                    "level": ""
+                },
+                {
+                    "subject": "Mathematics 4 (50%-59%)  OR Mathematical Literacy 5 (60%-69%)",
+                    "level": ""
+                },
+                {
+                    "subject": "Physical Sciences 4 (50%-59%)",
+                    "level": ""
+                },
+                {
+                    "subject": "Life Sciences 4 (50%-59%)",
+                    "level": ""
+                },
+                {
+                    "subject": "Two other subjects at 4 (50%-59%)",
+                    "level": ""
+                },
+                {
+                    "subject": "Life Orientation 4 (50%-59%)",
+                    "level": ""
+                }
+            ]
+        }
+    ],
+    "FACULTY OF SCIENCE & AGRICULTURE": [
+        {
+            "course_name": "Bachelor of Science",
+            "course_code": "",
+            "duration": "3",
+            "aps": "28",
+            "required_subjects": [
+                {
+                    "subject": "English Home Language OR First Additional Language 4 (50%-59%)",
+                    "level": ""
+                },
+                {
+                    "subject": "Mathematics 4 (50%-59%)",
+                    "level": ""
+                },
+                {
+                    "subject": "Physical Sciences 4 (50%-59%)",
+                    "level": ""
+                },
+                {
+                    "subject": "Life Sciences OR Geography OR Agriculture OR Information Technology 4 (50%-59%)",
+                    "level": ""
+                },
+                {
+                    "subject": "Two other subjects at 4 (50%-59%)",
+                    "level": ""
+                },
+                {
+                    "subject": "Life Orientation 4 (50%-59%)",
+                    "level": ""
+                }
+            ]
+        },
+        {
+            "course_name": "Bachelor of Science (Extended Programme)",
+            "course_code": "",
+            "duration": "",
+            "aps": "27",
+            "required_subjects": [
+                {
+                    "subject": "English Home Language OR First Additional Language 4 (50%-59%)",
+                    "level": ""
+                },
+                {
+                    "subject": "Mathematics",
+                    "level": ""
+                },
+                {
+                    "subject": "Physical Science (Level 3 in either Maths or Physics",
+                    "level": ""
+                },
+                {
+                    "subject": "but the 2nd one must be at Level 4)",
+                    "level": ""
+                },
+                {
+                    "subject": "Life Sciences OR Geography OR Agriculture OR Information Technology 4 (50%-59%)",
+                    "level": ""
+                },
+                {
+                    "subject": "Two other subjects at 4 (50%-59%)",
+                    "level": ""
+                },
+                {
+                    "subject": "Life Orientation 4 (50%-59%)",
+                    "level": ""
+                }
+            ]
+        },
+        {
+            "course_name": "Bachelor of Science in Agriculture (in) Soil Science",
+            "course_code": "",
+            "duration": "3",
+            "aps": "28",
+            "required_subjects": [
+                {
+                    "subject": "English Home Language OR First Additional Language 4 (50%-59%)",
+                    "level": ""
+                },
+                {
+                    "subject": "Mathematics 4 (50%-59%)",
+                    "level": ""
+                },
+                {
+                    "subject": "Physical Sciences 4 (50%-59%)",
+                    "level": ""
+                },
+                {
+                    "subject": "Life Sciences OR Geography OR Agriculture OR Information Technology 4 (50%-59%)",
+                    "level": ""
+                },
+                {
+                    "subject": "Two other subjects at 4 (50%-59%)",
+                    "level": ""
+                },
+                {
+                    "subject": "Life Orientation 4 (50%-59%)",
+                    "level": ""
+                }
+            ]
+        },
+        {
+            "course_name": "Bachelor of Science in Agriculture (Extended Programme) (in) Soil Science",
+            "course_code": "",
+            "duration": "",
+            "aps": "27",
+            "required_subjects": [
+                {
+                    "subject": "English Home Language OR First Additional Language 4 (50%-59%)",
+                    "level": ""
+                },
+                {
+                    "subject": "Mathematics",
+                    "level": ""
+                },
+                {
+                    "subject": "Physical Science (Level 3 in either Maths or Physics",
+                    "level": ""
+                },
+                {
+                    "subject": "but the 2nd one must be at Level 4)",
+                    "level": ""
+                },
+                {
+                    "subject": "Life Sciences OR Geography OR Agriculture OR Information Technology 4 (50%-59%)",
+                    "level": ""
+                },
+                {
+                    "subject": "Two other subjects at 4 (50%-59%)",
+                    "level": ""
+                },
+                {
+                    "subject": "Life Orientation 4 (50%-59%)",
+                    "level": ""
+                }
+            ]
+        },
+        {
+            "course_name": "Bachelor of Science in Agriculture (in) Horticulture",
+            "course_code": "",
+            "duration": "3",
+            "aps": "28",
+            "required_subjects": [
+                {
+                    "subject": "English Home Language OR First Additional Language 4 (50%-59%)",
+                    "level": ""
+                },
+                {
+                    "subject": "Mathematics 4 (50%-59%)",
+                    "level": ""
+                },
+                {
+                    "subject": "Physical Sciences 4 (50%-59%)",
+                    "level": ""
+                },
+                {
+                    "subject": "Life Sciences OR Geography OR Agriculture OR Information Technology 4 (50%-59%)",
+                    "level": ""
+                },
+                {
+                    "subject": "Two other subjects at 4 (50%-59%)",
+                    "level": ""
+                },
+                {
+                    "subject": "Life Orientation 4 (50%-59%)",
+                    "level": ""
+                }
+            ]
+        },
+        {
+            "course_name": "Bachelor of Science in Agriculture (Extended Programme) (in) Horticulture",
+            "course_code": "",
+            "duration": "",
+            "aps": "27",
+            "required_subjects": [
+                {
+                    "subject": "English Home Language OR First Additional Language 4 (50%-59%)",
+                    "level": ""
+                },
+                {
+                    "subject": "Mathematics",
+                    "level": ""
+                },
+                {
+                    "subject": "Physical Science (Level 3 in either Maths or Physics",
+                    "level": ""
+                },
+                {
+                    "subject": "but the 2nd one must be at Level 4)",
+                    "level": ""
+                },
+                {
+                    "subject": "Life Sciences OR Geography OR Agriculture OR Information Technology 4 (50%-59%)",
+                    "level": ""
+                },
+                {
+                    "subject": "Two other subjects at 4 (50%-59%)",
+                    "level": ""
+                },
+                {
+                    "subject": "Life Orientation 4 (50%-59%)",
+                    "level": ""
+                }
+            ]
+        },
+        {
+            "course_name": "Bachelor of Science in Agriculture (in) Crops",
+            "course_code": "",
+            "duration": "",
+            "aps": "28",
+            "required_subjects": [
+                {
+                    "subject": "English - Home language OR First Additional Language",
+                    "level": ""
+                },
+                {
+                    "subject": "Mathematics 4 (50%-59%)",
+                    "level": ""
+                },
+                {
+                    "subject": "Physical Sciences 4 (50%-59%)",
+                    "level": ""
+                },
+                {
+                    "subject": "Life Sciences OR Geography OR Agriculture OR Information Technology 4 (50%-59%)",
+                    "level": ""
+                },
+                {
+                    "subject": "Other Subjects (2)",
+                    "level": ""
+                },
+                {
+                    "subject": "Life Orientation 4 (50%-59%)",
+                    "level": ""
+                }
+            ]
+        },
+        {
+            "course_name": "Bachelor of Science in Agriculture (in) Crops (Extended Programme)",
+            "course_code": "",
+            "duration": "",
+            "aps": "27",
+            "required_subjects": [
+                {
+                    "subject": "English - Home language OR First Additional Language 4 (50%-59%)",
+                    "level": ""
+                },
+                {
+                    "subject": "Mathematics",
+                    "level": ""
+                },
+                {
+                    "subject": "Physical Science (Level 3 in either Maths or Physics",
+                    "level": ""
+                },
+                {
+                    "subject": "but the 2nd one must be at Level 4)",
+                    "level": ""
+                },
+                {
+                    "subject": "Life Sciences OR Geography OR Agriculture OR Information Technology 4 (50%-59%)",
+                    "level": ""
+                },
+                {
+                    "subject": "Other Subjects (2) 4 (50%-59%)",
+                    "level": ""
+                },
+                {
+                    "subject": "Life Orientation 4 (50%-59%)",
+                    "level": ""
+                }
+            ]
+        },
+        {
+            "course_name": "Bachelor of Science in Agriculture (in) Animal Production",
+            "course_code": "",
+            "duration": "",
+            "aps": "28",
+            "required_subjects": [
+                {
+                    "subject": "English - Home language OR First Additional Language 4 (50%-59%)",
+                    "level": ""
+                },
+                {
+                    "subject": "Mathematics 4 (50%-59%)",
+                    "level": ""
+                },
+                {
+                    "subject": "Physical Sciences 4 (50%-59%)",
+                    "level": ""
+                },
+                {
+                    "subject": "Life Sciences OR Geography OR Agriculture OR Information Technology 4 (50%-59%)",
+                    "level": ""
+                },
+                {
+                    "subject": "Other Subjects (2) 4 (50%-59%)",
+                    "level": ""
+                },
+                {
+                    "subject": "Life Orientation 4 (50%-59%)",
+                    "level": ""
+                }
+            ]
+        },
+        {
+            "course_name": "Bachelor of Science in Agriculture (in) Animal Production (Extended Programme)",
+            "course_code": "",
+            "duration": "",
+            "aps": "27",
+            "required_subjects": [
+                {
+                    "subject": "English - Home language OR First Additional Language 4 (50%-59%)",
+                    "level": ""
+                },
+                {
+                    "subject": "Mathematics",
+                    "level": ""
+                },
+                {
+                    "subject": "Physical Science (Level 3 in either Maths or Physics",
+                    "level": ""
+                },
+                {
+                    "subject": "but the 2nd one must be at Level 4)",
+                    "level": ""
+                },
+                {
+                    "subject": "Life Sciences OR Geography OR Agriculture OR Information Technology 4 (50%-59%)",
+                    "level": ""
+                },
+                {
+                    "subject": "Other Subjects (2) 4 (50%-59%)",
+                    "level": ""
+                },
+                {
+                    "subject": "Life Orientation 4 (50%-59%)",
+                    "level": ""
+                }
+            ]
+        },
+        {
+            "course_name": "Bachelor of Science in Agriculture (in) Pasture Science",
+            "course_code": "",
+            "duration": "",
+            "aps": "28",
+            "required_subjects": [
+                {
+                    "subject": "English - Home language OR First Additional Language 4 (50%-59%)",
+                    "level": ""
+                },
+                {
+                    "subject": "Mathematics 4 (50%-59%)",
+                    "level": ""
+                },
+                {
+                    "subject": "Physical Sciences 4 (50%-59%)",
+                    "level": ""
+                },
+                {
+                    "subject": "Life Sciences OR Geography OR Agriculture OR Information Technology 4 (50%-59%)",
+                    "level": ""
+                },
+                {
+                    "subject": "Other Subjects (2) 4 (50%-59%)",
+                    "level": ""
+                },
+                {
+                    "subject": "Life Orientation 4 (50%-59%)",
+                    "level": ""
+                }
+            ]
+        },
+        {
+            "course_name": "Bachelor of Science in Agriculture (in) Pasture Science (Extended Programme)",
+            "course_code": "",
+            "duration": "",
+            "aps": "27",
+            "required_subjects": [
+                {
+                    "subject": "English - Home language OR First Additional Language 4 (50%-59%)",
+                    "level": ""
+                },
+                {
+                    "subject": "Mathematics",
+                    "level": ""
+                },
+                {
+                    "subject": "Physical Science (Level 3 in either Maths or Physics",
+                    "level": ""
+                },
+                {
+                    "subject": "but the 2nd one must be at Level 4)",
+                    "level": ""
+                },
+                {
+                    "subject": "Life Sciences OR Geography OR Agriculture OR Information Technology 4 (50%-59%)",
+                    "level": ""
+                },
+                {
+                    "subject": "Other Subjects (2) 4 (50%-59%)",
+                    "level": ""
+                },
+                {
+                    "subject": "Life Orientation 4 (50%-59%)",
+                    "level": ""
+                }
+            ]
+        },
+        {
+            "course_name": "Bachelor of Science in Agriculture (in) Agricultural Economics",
+            "course_code": "",
+            "duration": "",
+            "aps": "28",
+            "required_subjects": [
+                {
+                    "subject": "English - Home language OR First Additional Language 4 (50%-59%)",
+                    "level": ""
+                },
+                {
+                    "subject": "Mathematics 4 (50%-59%)",
+                    "level": ""
+                },
+                {
+                    "subject": "Life Sciences 4 (50-59%)",
+                    "level": ""
+                },
+                {
+                    "subject": "Agriculture OR Geography OR Information Technology 4 (50%-59%)",
+                    "level": ""
+                },
+                {
+                    "subject": "Other Subjects (2) 4 (50%-59%)",
+                    "level": ""
+                },
+                {
+                    "subject": "Life Orientation 4 (50%-59%)",
+                    "level": ""
+                }
+            ]
+        },
+        {
+            "course_name": "Bachelor of Science in Agriculture (in) Agricultural Economics (Extended Programme)",
+            "course_code": "",
+            "duration": "",
+            "aps": "27",
+            "required_subjects": [
+                {
+                    "subject": "English - Home language OR First Additional Language 4 (50%-59%)",
+                    "level": ""
+                },
+                {
+                    "subject": "Mathematics  4 (50%-59%)",
+                    "level": ""
+                },
+                {
+                    "subject": "Life Sciences",
+                    "level": "3",
+                    "percentage": "40"
+                },
+                {
+                    "subject": "Agriculture OR Geography OR Information Technology 4 (50%-59%)",
+                    "level": ""
+                },
+                {
+                    "subject": "Other Subjects (2) 4 (50%-59%)",
+                    "level": ""
+                },
+                {
+                    "subject": "Life Orientation 4 (50%-59%)",
+                    "level": ""
+                }
+            ]
+        },
+        {
+            "course_name": "Bachelor of Agriculture",
+            "course_code": "",
+            "duration": "",
+            "aps": "28",
+            "required_subjects": [
+                {
+                    "subject": "English - Home language OR First Additional Language 4 (50%-59%)",
+                    "level": ""
+                },
+                {
+                    "subject": "Mathematical Literacy OR Mathematics 5 (60%-69%) OR 4 (50%-59%)",
+                    "level": ""
+                },
+                {
+                    "subject": "Agriculture 4 (50%-59%)",
+                    "level": ""
+                },
+                {
+                    "subject": "Other Subjects (3) 4 (50%-59%)",
+                    "level": ""
+                },
+                {
+                    "subject": "Life Orientation 4 (50%-59%)",
+                    "level": ""
+                }
+            ]
+        },
+        {
+            "course_name": "Bachelor of Agriculture (Extended Programme)",
+            "course_code": "",
+            "duration": "",
+            "aps": "27",
+            "required_subjects": [
+                {
+                    "subject": "English - Home language OR First Additional Language 4 (50%-59%)",
+                    "level": ""
+                },
+                {
+                    "subject": "Mathematical Literacy OR Mathematics 4 (50%-59%) OR 3 (40%-49%)",
+                    "level": ""
+                },
+                {
+                    "subject": "Agriculture 4 (50%-59%)",
+                    "level": ""
+                },
+                {
+                    "subject": "Other Subjects (3) 4 (50%-59%)",
+                    "level": ""
+                },
+                {
+                    "subject": "Life Orientation 4 (50%-59%)",
+                    "level": ""
+                }
+            ]
+        },
+        {
+            "course_name": "Bachelor of Agriculture (in) Agricultural Extension",
+            "course_code": "",
+            "duration": "",
+            "aps": "28",
+            "required_subjects": [
+                {
+                    "subject": "English - Home language OR First Additional Language 4 (50%-59%)",
+                    "level": ""
+                },
+                {
+                    "subject": "Mathematical Literacy OR Mathematics 5 (60%-69%) OR 4 (50%-59%)",
+                    "level": ""
+                },
+                {
+                    "subject": "Agriculture 4 (50%-59%)",
+                    "level": ""
+                },
+                {
+                    "subject": "Other Subjects (3) 4 (50%-59%)",
+                    "level": ""
+                },
+                {
+                    "subject": "Life Orientation 4 (50%-59%)",
+                    "level": ""
+                }
+            ]
+        },
+        {
+            "course_name": "Bachelor of Agriculture (in) Agricultural Extension (Extended Programme)",
+            "course_code": "",
+            "duration": "",
+            "aps": "27",
+            "required_subjects": [
+                {
+                    "subject": "English - Home language OR First Additional Language 4 (50%-59%)",
+                    "level": ""
+                },
+                {
+                    "subject": "Mathematical Literacy OR Mathematics 4 (50%-59%) OR 3 (40%-49%)",
+                    "level": ""
+                },
+                {
+                    "subject": "Agriculture 4 (50%-59%)",
+                    "level": ""
+                },
+                {
+                    "subject": "Other Subjects (3) 4 (50%-59%)",
+                    "level": ""
+                },
+                {
+                    "subject": "Life Orientation 4 (50%-59%)",
+                    "level": ""
+                }
+            ]
+        }
+    ],
+    "FACULTY OF SOCIAL SCIENCES & HUMANITIES": [
+        {
+            "course_name": "Bachelor of Arts",
+            "course_code": "",
+            "duration": "3",
+            "aps": "27",
+            "required_subjects": [
+                {
+                    "subject": "English - Home language OR First Additional Language 4 (50%-59%)",
+                    "level": ""
+                },
+                {
+                    "subject": "Another Language 4 (50%-59%)",
+                    "level": ""
+                },
+                {
+                    "subject": "Other Subjects (4): 1x3 (40%-49%)",
+                    "level": ""
+                },
+                {
+                    "subject": "3x4 (50%-59%)",
+                    "level": ""
+                },
+                {
+                    "subject": "Life Orientation 4 (50%-59%)",
+                    "level": ""
+                }
+            ]
+        },
+        {
+            "course_name": "Bachelor of Arts (Extended Programme)",
+            "course_code": "",
+            "duration": "4",
+            "aps": "26",
+            "required_subjects": [
+                {
+                    "subject": "English - Home language OR First Additional Language 4 (50%-59%)",
+                    "level": ""
+                },
+                {
+                    "subject": "Another Language 4 (50%-59%)",
+                    "level": ""
+                },
+                {
+                    "subject": "Other Subjects (4): 1x2 (30%-39%)",
+                    "level": ""
+                },
+                {
+                    "subject": "3x4 (50%-59%)",
+                    "level": ""
+                },
+                {
+                    "subject": "Life Orientation 4 (50%-59%)",
+                    "level": ""
+                }
+            ]
+        },
+        {
+            "course_name": "Bachelor of Fine Art",
+            "course_code": "",
+            "duration": "3",
+            "aps": "27",
+            "required_subjects": [
+                {
+                    "subject": "English - Home language OR First Additional Language 4 (50%-59%)",
+                    "level": ""
+                },
+                {
+                    "subject": "Another Language 4 (50%-59%)",
+                    "level": ""
+                },
+                {
+                    "subject": "Other Subjects (4): 1x3 (40%-49%)",
+                    "level": ""
+                },
+                {
+                    "subject": "3x4 (50%-59%)",
+                    "level": ""
+                },
+                {
+                    "subject": "Life Orientation 4 (50%-59%)",
+                    "level": ""
+                }
+            ]
+        },
+        {
+            "course_name": "Bachelor of Library and Information Science",
+            "course_code": "",
+            "duration": "3",
+            "aps": "27",
+            "required_subjects": [
+                {
+                    "subject": "English - Home language OR First Additional Language 4 (50%-59%)",
+                    "level": ""
+                },
+                {
+                    "subject": "Another Language 4 (50%-59%)",
+                    "level": ""
+                },
+                {
+                    "subject": "Other Subjects (4): 1x3 (40%-49%)",
+                    "level": ""
+                },
+                {
+                    "subject": "3x4 (50%-59%)",
+                    "level": ""
+                },
+                {
+                    "subject": "Life Orientation 4 (50%-59%)",
+                    "level": ""
+                }
+            ]
+        },
+        {
+            "course_name": "Bachelor of Music",
+            "course_code": "",
+            "duration": "3",
+            "aps": "27",
+            "required_subjects": [
+                {
+                    "subject": "English - Home language OR First Additional Language 4 (50%-59%)",
+                    "level": ""
+                },
+                {
+                    "subject": "Another Language 4 (50%-59%)",
+                    "level": ""
+                },
+                {
+                    "subject": "Other Subjects (4): 1x3 (40%-49%)",
+                    "level": ""
+                },
+                {
+                    "subject": "3x4 (50%-59%)",
+                    "level": ""
+                },
+                {
+                    "subject": "Life Orientation 4 (50%-59%)",
+                    "level": ""
+                }
+            ]
+        },
+        {
+            "course_name": "Bachelor of Social Science",
+            "course_code": "",
+            "duration": "3",
+            "aps": "27",
+            "required_subjects": [
+                {
+                    "subject": "English - Home language OR First Additional Language 4 (50%-59%)",
+                    "level": ""
+                },
+                {
+                    "subject": "Another Language 4 (50%-59%)",
+                    "level": ""
+                },
+                {
+                    "subject": "Other Subjects (4): 1x3 (40%-49%)",
+                    "level": ""
+                },
+                {
+                    "subject": "3x4 (50%-59%)",
+                    "level": ""
+                },
+                {
+                    "subject": "Life Orientation 4 (50%-59%)",
+                    "level": ""
+                }
+            ]
+        },
+        {
+            "course_name": "Bachelor of Social Science (Extended Programme)",
+            "course_code": "",
+            "duration": "4",
+            "aps": "26",
+            "required_subjects": [
+                {
+                    "subject": "English - Home language OR First Additional Language 4 (50%-59%)",
+                    "level": ""
+                },
+                {
+                    "subject": "Another Language 4 (50%-59%)",
+                    "level": ""
+                },
+                {
+                    "subject": "Other Subjects (4): 1x3 (40%-49%)",
+                    "level": ""
+                },
+                {
+                    "subject": "3x4 (50%-59%)",
+                    "level": ""
+                },
+                {
+                    "subject": "Life Orientation 4 (50%-59%)",
+                    "level": ""
+                }
+            ]
+        },
+        {
+            "course_name": "Bachelor of Social Science in Communication",
+            "course_code": "",
+            "duration": "3",
+            "aps": "27",
+            "required_subjects": [
+                {
+                    "subject": "English - Home language OR First Additional Language 4 (50%-59%)",
+                    "level": ""
+                },
+                {
+                    "subject": "Another Language 4 (50%-59%)",
+                    "level": ""
+                },
+                {
+                    "subject": "Other Subjects (4): 1x3 (40%-49%)",
+                    "level": ""
+                },
+                {
+                    "subject": "3x4 (50%-59%)",
+                    "level": ""
+                },
+                {
+                    "subject": "Life Orientation 4 (50%-59%)",
+                    "level": ""
+                }
+            ]
+        },
+        {
+            "course_name": "Bachelor of Social Science in Human Settlement",
+            "course_code": "",
+            "duration": "3",
+            "aps": "27",
+            "required_subjects": [
+                {
+                    "subject": "English - Home language OR First Additional Language 4 (50%-59%)",
+                    "level": ""
+                },
+                {
+                    "subject": "Another Language 4 (50%-59%)",
+                    "level": ""
+                },
+                {
+                    "subject": "Other Subjects (4): 1x3 (40%-49%)",
+                    "level": ""
+                },
+                {
+                    "subject": "3x4 (50%-59%)",
+                    "level": ""
+                },
+                {
+                    "subject": "Life Orientation 4 (50%-59%)",
+                    "level": ""
+                }
+            ]
+        },
+        {
+            "course_name": "Bachelor of Social Work",
+            "course_code": "",
+            "duration": "4",
+            "aps": "27",
+            "required_subjects": [
+                {
+                    "subject": "English - Home language OR First Additional Language 4 (50%-59%)",
+                    "level": ""
+                },
+                {
+                    "subject": "Another Language 4 (50%-59%)",
+                    "level": ""
+                },
+                {
+                    "subject": "Other Subjects (4): 1x3 (40%-49%)",
+                    "level": ""
+                },
+                {
+                    "subject": "3x4 (50%-59%)",
+                    "level": ""
+                },
+                {
+                    "subject": "Life Orientation 4 (50%-59%)",
+                    "level": ""
+                }
+            ]
+        },
+        {
+            "course_name": "Bachelor of Theology",
+            "course_code": "",
+            "duration": "3",
+            "aps": "27",
+            "required_subjects": [
+                {
+                    "subject": "English - Home language OR First Additional Language 4 (50%-59%)",
+                    "level": ""
+                },
+                {
+                    "subject": "Another Language 4 (50%-59%)",
+                    "level": ""
+                },
+                {
+                    "subject": "An achievement rating of 3 (40 - 49%) or higher in four 20-credit NSC subjects: 4X3 (40%-49%)",
+                    "level": ""
+                },
+                {
+                    "subject": "An achievement rating of 2 (30 - 39%) or higher in one 20-credit NSC subject : 1X2 (30 -",
+                    "level": "3",
+                    "percentage": "9"
+                },
+                {
+                    "subject": "Life Orientation 4 (50%-59%)",
+                    "level": ""
+                }
+            ]
+        },
+        {
+            "course_name": "Diploma in Fine Art",
+            "course_code": "",
+            "duration": "2",
+            "aps": "22",
+            "required_subjects": [
+                {
+                    "subject": "English - Home language OR First Additional Language 4 (50%-59%)",
+                    "level": ""
+                },
+                {
+                    "subject": "An achievement rating of 3 (40%-49%) or higher in four 20-credit NSC subjects",
+                    "level": ""
+                },
+                {
+                    "subject": "An achievement rating of 2 (30%-39%) or higher in one 20-credit NSC subject",
+                    "level": ""
+                },
+                {
+                    "subject": "Life Orientation 4 (50%-59%)",
+                    "level": ""
+                }
+            ]
+        }
+    ]
+}

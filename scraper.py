@@ -67,67 +67,78 @@ def scrape_university(url, output_file):
         # Extract Key Requirements
         requirements = []
         req_header = card.find(lambda tag: tag.name == 'p' and "Key Requirements" in tag.get_text())
+
+        req_text_tag = None
         if req_header:
-            req_text_tag = req_header.find_next_sibling('p')
-            if req_text_tag:
-                req_text = req_text_tag.get_text(strip=True)
+            # First try finding a <details><p> combination (like Fort Hare uses)
+            details_tag = req_header.find_next_sibling('details')
+            if details_tag:
+                req_text_tag = details_tag.find('p')
 
-                # Basic Parsing of subjects: "Subject X(Y%+), Subject Z(Level)"
-                # The user noted that splitting "OR" inside subjects like "English Home Language OR First Additional Language"
-                # broke the frontend because it created "English Home Language (Level 6) (70)" and "First Additional Language (Level 6) (70)"
-                # and the user failed because they didn't have "First Additional Language".
+            # If not found, fallback to just finding the next sibling 'p'
+            if not req_text_tag:
+                req_text_tag = req_header.find_next_sibling('p')
 
-                # Separate out dot delimited sentences since sometimes APS is mentioned in the same line
-                sentences = re.split(r'\.\s*', req_text)
+        if req_text_tag:
+            req_text = req_text_tag.get_text(strip=True)
 
-                for sentence in sentences:
-                    sentence = sentence.strip()
-                    if not sentence: continue
+            # Basic Parsing of subjects: "Subject X(Y%+), Subject Z(Level)"
+            # The user noted that splitting "OR" inside subjects like "English Home Language OR First Additional Language"
+            # broke the frontend because it created "English Home Language (Level 6) (70)" and "First Additional Language (Level 6) (70)"
+            # and the user failed because they didn't have "First Additional Language".
 
-                    # Handle case where "Minimum APS" is listed as a requirement text and skip it to prevent it becoming a subject
-                    if "minimum aps" in sentence.lower():
+            # Separate out dot delimited sentences since sometimes APS is mentioned in the same line
+            sentences = re.split(r'\.\s*', req_text)
+
+            for sentence in sentences:
+                sentence = sentence.strip()
+                if not sentence: continue
+
+                # Handle case where "Minimum APS" is listed as a requirement text and skip it to prevent it becoming a subject
+                if "minimum aps" in sentence.lower():
+                    continue
+
+                parts = re.split(r'[,;]\s*|\s+and\s+(?![a-zA-Z]+\s+only)|\s+&\s+', sentence, flags=re.IGNORECASE)
+                for part in parts:
+                    part = part.strip()
+                    if not part: continue
+                    if "nsc-deg" in part.lower() or "nsc deg" in part.lower():
+                        part = re.sub(r'NSC-?Deg with ', '', part, flags=re.IGNORECASE)
+                        part = part.strip()
+
+                    if "minimum aps" in part.lower():
                         continue
 
-                    parts = re.split(r'[,;]\s*|\s+and\s+(?![a-zA-Z]+\s+only)|\s+&\s+', sentence, flags=re.IGNORECASE)
-                    for part in parts:
-                        part = part.strip()
-                        if not part: continue
-                        if "nsc-deg" in part.lower() or "nsc deg" in part.lower():
-                            part = re.sub(r'NSC-?Deg with ', '', part, flags=re.IGNORECASE)
-                            part = part.strip()
+                    # Try splitting by " OR " ONLY for completely separate subjects with their own level (e.g. Maths 4 OR Maths Lit 5)
+                    # For things like "English Home Language or First Additional Language: Level 4" we DO NOT split.
 
-                        if "minimum aps" in part.lower():
-                            continue
+                    # Clean trailing colons from subjects if present
 
-                        # Try splitting by " OR " ONLY for completely separate subjects with their own level (e.g. Maths 4 OR Maths Lit 5)
-                        # For things like "English Home Language or First Additional Language: Level 4" we DO NOT split.
+                    # Pattern 1: Subject Level(Percentage%+) e.g., Mathematics 5(60%+)
+                    # Or Subject Code 4, Subject 6, Subject 5/FAL 6
+                    match = re.search(r'(.*?)\s+(?:Code|Level)?\s*(\d+)(?:\s*\(?(\d+)%?\+?\)?|\s*/.*?)?$', part, re.IGNORECASE)
+                    if match and "minimum" not in part.lower():
+                        subject = match.group(1).strip()
+                        if subject.endswith(':'): subject = subject[:-1].strip()
+                        level = match.group(2)
+                        percentage = match.group(3) if match.group(3) else ""
 
-                        # Clean trailing colons from subjects if present
-
-                        # Pattern 1: Subject Level(Percentage%+) e.g., Mathematics 5(60%+)
-                        # Or Subject Code 4, Subject 6, Subject 5/FAL 6
-                        match = re.search(r'(.*?)\s+(?:Code|Level)?\s*(\d+)(?:\s*\(?(\d+)%?\+?\)?|\s*/.*?)?$', part, re.IGNORECASE)
-                        if match and "minimum" not in part.lower():
-                            subject = match.group(1).strip()
+                        requirements.append({"subject": subject, "level": level, "percentage": percentage})
+                    else:
+                        # Pattern 2: Subject: Level X or Subject: X
+                        # Avoid matching cases like "Other Subjects (4): 1x3 (40%-49%)" which have math operations next to the colon
+                        match_level = re.search(r'(.*?):\s*(?:Code|Level\s*)?(\d+|null)(?!\w|x)', part, re.IGNORECASE)
+                        if match_level and "minimum" not in part.lower() and "other subjects" not in part.lower():
+                            subject = match_level.group(1).strip()
                             if subject.endswith(':'): subject = subject[:-1].strip()
-                            level = match.group(2)
-                            percentage = match.group(3) if match.group(3) else ""
-
-                            requirements.append({"subject": subject, "level": level, "percentage": percentage})
+                            level = match_level.group(2) # fix for index out of bounds
+                            if level.lower() != 'null':
+                                requirements.append({"subject": subject, "level": level})
                         else:
-                            # Pattern 2: Subject: Level X or Subject: X
-                            match_level = re.search(r'(.*?):\s*(?:Code|Level\s*)?(\d+|null)', part, re.IGNORECASE)
-                            if match_level and "minimum" not in part.lower():
-                                subject = match_level.group(1).strip()
-                                if subject.endswith(':'): subject = subject[:-1].strip()
-                                level = match_level.group(3)
-                                if level.lower() != 'null':
-                                    requirements.append({"subject": subject, "level": level})
-                            else:
-                                if "minimum of" in part.lower() or part.lower().strip() == "minimum":
-                                    continue
-                                # Fallback just keep the string
-                                requirements.append({"subject": part, "level": ""})
+                            if "minimum of" in part.lower() or part.lower().strip() == "minimum":
+                                continue
+                            # Fallback just keep the string
+                            requirements.append({"subject": part, "level": ""})
 
         course_data = {
             "course_name": course_name,
