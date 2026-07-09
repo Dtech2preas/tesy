@@ -4,316 +4,52 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Stellenbosch University - Eligibility</title>
-    <style>
-        :root {
-            --bg-color: #0b0c10;
-            --container-bg: #1f2833;
-            --text-color: #c5c6c7;
-            --primary-accent: #66fcf1;
-            --secondary-accent: #45a29e;
-            --error-color: #ff4b4b;
-            --success-color: #4CAF50;
-            --border-radius: 8px;
-            --font-family: 'Inter', -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif;
-        }
-
-        body {
-            font-family: var(--font-family);
-            background-color: var(--bg-color);
-            color: var(--text-color);
-            max-width: 900px;
-            margin: 0 auto;
-            padding: 20px;
-            line-height: 1.6;
-        }
-
-        .header {
-            display: flex;
-            justify-content: space-between;
-            align-items: center;
-            border-bottom: 2px solid #333;
-            padding-bottom: 15px;
-            margin-bottom: 25px;
-            flex-wrap: wrap;
-            gap: 15px;
-        }
-
-        h1 {
-            color: var(--primary-accent);
-            margin: 0;
-            font-size: 1.8em;
-        }
-
-        .back-btn {
-            text-decoration: none;
-            padding: 10px 20px;
-            background: transparent;
-            color: var(--primary-accent);
-            border: 1px solid var(--primary-accent);
-            border-radius: 5px;
-            font-weight: bold;
-            transition: all 0.3s ease;
-        }
-
-        .back-btn:hover {
-            background: rgba(102, 252, 241, 0.1);
-        }
-
-        #user-info {
-            background: var(--container-bg);
-            padding: 15px;
-            border-radius: var(--border-radius);
-            margin-bottom: 25px;
-            border-left: 4px solid var(--secondary-accent);
-            font-size: 0.9em;
-        }
-
-        /* Search & Dropdown Area */
-        .search-container {
-            background: var(--container-bg);
-            padding: 20px;
-            border-radius: var(--border-radius);
-            margin-bottom: 25px;
-            box-shadow: 0 4px 15px rgba(0, 0, 0, 0.3);
-        }
-
-        .search-container label {
-            display: block;
-            margin-bottom: 8px;
-            color: var(--primary-accent);
-            font-weight: bold;
-        }
-
-        .search-bar, .course-dropdown {
-            width: 100%;
-            padding: 12px;
-            font-size: 16px;
-            margin-bottom: 15px;
-            box-sizing: border-box;
-            border: none;
-            border-radius: 5px;
-            background-color: #2a3644;
-            color: #fff;
-            outline: none;
-        }
-
-        .search-bar:focus, .course-dropdown:focus {
-            box-shadow: 0 0 0 2px var(--primary-accent);
-        }
-
-        /* Course Card */
-        #selected-course-container {
-            margin-top: 20px;
-        }
-
-        .course-card {
-            background: var(--container-bg);
-            padding: 25px;
-            border-radius: var(--border-radius);
-            box-shadow: 0 5px 15px rgba(0, 0, 0, 0.4);
-            border: 1px solid #333;
-            transition: transform 0.3s ease;
-        }
-
-        .course-title {
-            font-size: 1.5em;
-            font-weight: bold;
-            margin-bottom: 15px;
-            color: var(--primary-accent);
-            border-bottom: 1px solid #333;
-            padding-bottom: 10px;
-        }
-
-        .course-details {
-            color: #aaa;
-            font-size: 1em;
-            margin-bottom: 15px;
-            display: flex;
-            flex-wrap: wrap;
-            gap: 15px;
-        }
-
-        .course-details span {
-            background: rgba(0,0,0,0.3);
-            padding: 5px 10px;
-            border-radius: 4px;
-        }
-
-        .req-list {
-            margin: 10px 0 20px 20px;
-            color: #ddd;
-        }
-
-        .check-eligibility-btn {
-            width: 100%;
-            padding: 15px;
-            background-color: var(--primary-accent);
-            color: var(--bg-color);
-            font-size: 1.1em;
-            font-weight: bold;
-            border: none;
-            border-radius: 5px;
-            cursor: pointer;
-            transition: all 0.3s ease;
-            margin-top: 10px;
-        }
-
-        .check-eligibility-btn:hover {
-            background-color: var(--secondary-accent);
-            transform: translateY(-2px);
-        }
-
-        /* Likelihood Results Box */
-        .likelihood-box {
-            background: #1a222a;
-            border: 1px solid var(--secondary-accent);
-            padding: 20px;
-            border-radius: 5px;
-            margin-top: 20px;
-            text-align: center;
-            display: none; /* Hidden until calculated */
-            animation: fadeIn 0.5s ease;
-        }
-
-        @keyframes fadeIn {
-            from { opacity: 0; transform: translateY(-10px); }
-            to { opacity: 1; transform: translateY(0); }
-        }
-
-        .likelihood-100 { color: #00ff88; text-shadow: 0 0 10px rgba(0,255,136,0.3); }
-        .likelihood-high { color: #a2ff00; }
-        .likelihood-med { color: #ffaa00; }
-        .likelihood-low { color: #ff4b4b; }
-
-        .likelihood-score {
-            font-size: 3em;
-            font-weight: bold;
-            margin: 10px 0;
-            display: block;
-        }
-
-        .likelihood-reason {
-            font-size: 1em;
-            color: #aaa;
-            margin-top: 10px;
-        }
-
-        /* Modal Styles */
-        .modal {
-            display: none;
-            position: fixed;
-            z-index: 1000;
-            left: 0;
-            top: 0;
-            width: 100%;
-            height: 100%;
-            background-color: rgba(0,0,0,0.8);
-            justify-content: center;
-            align-items: center;
-        }
-
-        .modal-content {
-            background-color: var(--container-bg);
-            margin: auto;
-            padding: 25px;
-            border: 1px solid #333;
-            width: 90%;
-            max-width: 600px;
-            border-radius: var(--border-radius);
-            box-shadow: 0 4px 15px rgba(0, 0, 0, 0.5);
-            max-height: 80vh;
-            overflow-y: auto;
-            position: relative;
-        }
-
-        .close-modal {
-            color: #aaa;
-            float: right;
-            font-size: 28px;
-            font-weight: bold;
-            cursor: pointer;
-        }
-
-        .close-modal:hover,
-        .close-modal:focus {
-            color: var(--primary-accent);
-            text-decoration: none;
-        }
-
-        .breakdown-table {
-            width: 100%;
-            border-collapse: collapse;
-            margin-top: 15px;
-        }
-
-        .breakdown-table th, .breakdown-table td {
-            border: 1px solid #333;
-            padding: 10px;
-            text-align: left;
-        }
-
-        .breakdown-table th {
-            background-color: rgba(0,0,0,0.3);
-            color: var(--primary-accent);
-        }
-
-        .status-pass { color: var(--success-color); font-weight: bold; }
-        .status-fail { color: var(--error-color); font-weight: bold; }
-
-        .view-breakdown-btn {
-            background-color: transparent;
-            border: 1px solid var(--primary-accent);
-            color: var(--primary-accent);
-            padding: 10px 15px;
-            border-radius: 5px;
-            cursor: pointer;
-            margin-top: 15px;
-            width: 100%;
-            font-weight: bold;
-            transition: all 0.3s ease;
-        }
-
-        .view-breakdown-btn:hover {
-            background-color: rgba(102, 252, 241, 0.1);
-        }
-
-        .hidden { display: none !important; }
-
-        @media (max-width: 600px) {
-            .header { flex-direction: column; text-align: center; }
-            .course-details { flex-direction: column; gap: 5px; }
-        }
-    </style>
+    <link rel="stylesheet" href="./core/styles.css">
 </head>
 <body>
 
-    <div class="header">
-        <h1>Stellenbosch University</h1>
-        <a href="index.html" class="back-btn">&larr; Back Home</a>
+    <div class="hero-header fade-in">
+        <h1 style="font-size: 2em; margin-bottom: 15px;">Stellenbosch University</h1>
+        <a href="index.html" class="btn btn-outline" style="font-size: 0.9em; padding: 8px 16px;">
+            <svg class="icon" viewBox="0 0 24 24"><path d="M20 11H7.83l5.59-5.59L12 4l-8 8 8 8 1.41-1.41L7.83 13H20v-2z"/></svg>
+            Back to Dashboard
+        </a>
     </div>
 
-    <div id="user-info" class="hidden">
+    <div id="user-info" class="card hidden slide-up" style="display: flex; justify-content: space-between; align-items: center; flex-wrap: wrap; gap: 15px;">
         <!-- Injected via JS -->
     </div>
 
-    <div class="search-container">
-        <label for="search-input">Find a Course</label>
-        <input type="text" id="search-input" class="search-bar" placeholder="Type to search courses..." oninput="filterDropdown()">
+    <div class="card slide-up">
+        <h2 class="card-title">
+            <svg class="icon" viewBox="0 0 24 24"><path d="M15.5 14h-.79l-.28-.27C15.41 12.59 16 11.11 16 9.5 16 5.91 13.09 3 9.5 3S3 5.91 3 9.5 5.91 16 9.5 16c1.61 0 3.09-.59 4.23-1.57l.27.28v.79l5 4.99L20.49 19l-4.99-5zm-6 0C7.01 14 5 11.99 5 9.5S7.01 5 9.5 5 14 7.01 14 9.5 11.99 14 9.5 14z"/></svg>
+            Find a Course
+        </h2>
 
-        <label for="course-select">Or Select from List</label>
-        <select id="course-select" class="course-dropdown" onchange="selectCourseFromDropdown()">
-            <option value="">-- Loading Courses... --</option>
-        </select>
+        <div class="floating-group">
+            <input type="text" id="search-input" class="floating-input" placeholder=" " oninput="filterDropdown()">
+            <label class="floating-label">Search courses (e.g., Computer Science)</label>
+        </div>
+
+        <div style="text-align:center; color:#888; margin: 15px 0;">— OR —</div>
+
+        <div class="floating-group">
+            <select id="course-select" class="floating-input" onchange="selectCourseFromDropdown()">
+                <option value="">-- Loading Courses... --</option>
+            </select>
+            <label class="floating-label">Select from List</label>
+        </div>
     </div>
 
-    <div id="selected-course-container">
+    <div id="selected-course-container" class="slide-up">
         <!-- Selected course card will appear here -->
     </div>
 
-    <div id="breakdown-modal" class="modal">
+    <!-- Modal for Breakdown -->
+    <div id="breakdown-modal" class="modal-overlay">
         <div class="modal-content">
-            <span class="close-modal" onclick="closeBreakdownModal()">&times;</span>
-            <h2 style="margin-top:0;">Eligibility Breakdown</h2>
+            <button class="modal-close" onclick="closeBreakdownModal()">&times;</button>
+            <h2 class="card-title" style="margin-top:0;">Eligibility Breakdown</h2>
             <div id="breakdown-content"></div>
         </div>
     </div>
@@ -333,7 +69,13 @@
         async function init() {
             const marksStr = localStorage.getItem('userMarks');
             if (!marksStr) {
-                document.getElementById('selected-course-container').innerHTML = '<p style="color:var(--error-color); font-weight:bold; text-align:center;">No subjects found. Please go back to the main page and enter your subjects first.</p>';
+                document.getElementById('selected-course-container').innerHTML = `
+                    <div class="card" style="text-align:center; border-color:var(--error-color);">
+                        <h3 style="color:var(--error-color)">No subjects found</h3>
+                        <p>Please go back to the dashboard and enter your subjects first.</p>
+                        <a href="index.html" class="btn btn-primary" style="margin-top:15px;">Go to Dashboard</a>
+                    </div>
+                `;
                 return;
             }
 
@@ -341,13 +83,19 @@
             userAps = parseInt(localStorage.getItem('userAps') || '0', 10);
             userFps = parseInt(localStorage.getItem('userFps') || '0', 10);
 
-            let subStrings = userMarks.map(m => `${m.subject} (${m.percentage}%)`).join(' | ');
+            let subStrings = userMarks.filter(m => m.subject.toLowerCase() !== 'life orientation' && m.subject.toLowerCase() !== 'lo')
+                                      .map(m => `${m.subject} (${m.percentage}%)`)
+                                      .join(' &bull; ');
+
             let infoDiv = document.getElementById('user-info');
             infoDiv.classList.remove('hidden');
             infoDiv.innerHTML = `
-                <div style="display: flex; justify-content: space-between; flex-wrap: wrap; gap: 10px;">
-                    <div><strong>APS:</strong> <span style="color:var(--primary-accent)">${userAps}</span> | <strong>FPS:</strong> <span style="color:var(--primary-accent)">${userFps}</span></div>
-                    <div style="color: #888;">${subStrings}</div>
+                <div>
+                    <span style="display:block; color:#888; font-size:0.8em; text-transform:uppercase; letter-spacing:1px;">Your Profile</span>
+                    <span style="font-size:1.5em; font-weight:bold; color:var(--primary-accent)">APS: ${userAps} <span style="color:#666; font-size:0.8em; font-weight:normal;">|</span> FPS: ${userFps}</span>
+                </div>
+                <div style="color: #aaa; font-size: 0.9em; flex: 1; text-align: right; min-width: 250px;">
+                    ${subStrings}
                 </div>
             `;
 
@@ -356,7 +104,11 @@
                 allCourses = uniEngine.getCourses();
                 populateDropdown(allCourses);
             } catch(err) {
-                document.getElementById('selected-course-container').innerHTML = '<p style="color:var(--error-color)">Failed to load university data. Ensure you are running this through a local server.</p>';
+                document.getElementById('selected-course-container').innerHTML = `
+                    <div class="card" style="border-color:var(--error-color);">
+                        <p style="color:var(--error-color)">Failed to load university data. Ensure you are running this through a local server.</p>
+                    </div>
+                `;
                 console.error(err);
             }
         }
@@ -407,35 +159,51 @@
                 let subs = course.required_subjects.map(s => {
                     if (!s.subject) return '';
                     let reqStr = s.subject;
-                    if (s.level && s.level !== "Unspecified") reqStr += ` (Level ${s.level})`;
-                    if (s.percentage) reqStr += ` (${s.percentage})`;
-                    return `<li>${reqStr}</li>`;
+                    if (s.level && s.level !== "Unspecified") reqStr += ` <span style="color:var(--primary-accent)">(Level ${s.level})</span>`;
+                    if (s.percentage) reqStr += ` <span style="color:var(--primary-accent)">(${s.percentage})</span>`;
+                    return `<div style="background:rgba(255,255,255,0.05); padding:8px 12px; border-radius:4px; margin-bottom:5px;">${reqStr}</div>`;
                 }).filter(str => str !== '').join('');
-                reqsHtml = subs ? `<ul class="req-list">${subs}</ul>` : '<p style="color:#aaa;">None specified.</p>';
+                reqsHtml = subs ? `<div style="margin: 15px 0;">${subs}</div>` : '<p style="color:#aaa;">None specified.</p>';
             } else {
                 reqsHtml = `<p style="color:#aaa;">None specified.</p>`;
             }
 
             let scoreHtml = [];
-            if (course.aps) scoreHtml.push(`<span><strong>APS:</strong> ${course.aps}</span>`);
-            if (course.aps_range) scoreHtml.push(`<span><strong>APS:</strong> ${course.aps_range}</span>`);
-            if (course.fps) scoreHtml.push(`<span><strong>FPS:</strong> ${course.fps}</span>`);
+            if (course.aps) scoreHtml.push(`<div class="stat-box" style="padding:10px;"><span class="stat-label">APS</span><span style="font-size:1.5em; font-weight:bold; color:#fff;">${course.aps}</span></div>`);
+            if (course.aps_range) scoreHtml.push(`<div class="stat-box" style="padding:10px;"><span class="stat-label">APS Range</span><span style="font-size:1.5em; font-weight:bold; color:#fff;">${course.aps_range}</span></div>`);
+            if (course.fps) scoreHtml.push(`<div class="stat-box" style="padding:10px;"><span class="stat-label">FPS</span><span style="font-size:1.5em; font-weight:bold; color:#fff;">${course.fps}</span></div>`);
 
-            let detailsHtml = scoreHtml.length > 0 ? scoreHtml.join('') : '<span><strong>APS:</strong> Not specified</span>';
-            if (course.duration) detailsHtml += `<span><strong>Duration:</strong> ${course.duration} years</span>`;
-            if (course.course_code) detailsHtml += `<span><strong>Code:</strong> ${course.course_code}</span>`;
-            if (course.facultyName) detailsHtml += `<span><strong>Faculty:</strong> ${course.facultyName}</span>`;
+            let detailsHtml = scoreHtml.length > 0 ? scoreHtml.join('') : '<div class="stat-box" style="padding:10px;"><span class="stat-label">APS</span><span style="font-size:1.5em; font-weight:bold; color:#fff;">N/A</span></div>';
+
+            let extraInfo = '';
+            if (course.duration) extraInfo += ` • ${course.duration} years`;
+            if (course.course_code) extraInfo += ` • Code: ${course.course_code}`;
 
             container.innerHTML = `
-                <div class="course-card">
-                    <div class="course-title">${course.course_name}</div>
-                    <div class="course-details">${detailsHtml}</div>
-                    <div><strong style="color:var(--secondary-accent)">Required Subjects:</strong></div>
+                <div class="card fade-in" style="border-top: 4px solid var(--primary-accent);">
+                    <div style="color:var(--primary-accent); font-size:0.9em; text-transform:uppercase; letter-spacing:1px; margin-bottom:5px;">
+                        ${course.facultyName || 'Course Detail'} ${extraInfo}
+                    </div>
+                    <h2 style="margin-top:0; font-size:1.8em; color:#fff;">${course.course_name}</h2>
+
+                    <div style="display:flex; gap:15px; margin: 20px 0;">
+                        ${detailsHtml}
+                    </div>
+
+                    <h4 style="color:#888; margin-bottom:10px; text-transform:uppercase; font-size:0.9em; letter-spacing:1px;">Required Subjects</h4>
                     ${reqsHtml}
 
-                    <button class="check-eligibility-btn" onclick="runEligibilityCheck()">Check My Eligibility</button>
+                    <button id="check-btn" class="btn btn-primary btn-block" style="margin-top: 20px; font-size:1.1em;" onclick="runEligibilityCheck()">
+                        <svg class="icon" viewBox="0 0 24 24"><path d="M9 16.17L4.83 12l-1.42 1.41L9 19 21 7l-1.41-1.41z"/></svg>
+                        Calculate My Eligibility
+                    </button>
 
-                    <div id="eligibility-result" class="likelihood-box">
+                    <div id="check-loader" class="hidden">
+                        <div class="loader"></div>
+                        <div class="loader-text">Analyzing your profile...</div>
+                    </div>
+
+                    <div id="eligibility-result" class="hidden fade-in" style="margin-top: 25px; padding-top: 20px; border-top: 1px solid rgba(255,255,255,0.1); text-align:center;">
                         <!-- Results injected here -->
                     </div>
                 </div>
@@ -445,23 +213,39 @@
         window.runEligibilityCheck = function() {
             if (!currentSelectedCourse || !uniEngine) return;
 
-            const btn = document.querySelector('.check-eligibility-btn');
-            btn.style.display = 'none';
-
+            const btn = document.getElementById('check-btn');
+            const loader = document.getElementById('check-loader');
             const resultBox = document.getElementById('eligibility-result');
-            resultBox.style.display = 'block';
-            resultBox.innerHTML = '<p>Calculating...</p>';
+
+            btn.style.display = 'none';
+            resultBox.classList.add('hidden');
+            loader.classList.remove('hidden');
 
             setTimeout(() => {
                 let result = uniEngine.calculateEligibility(currentSelectedCourse, userMarks, userAps, userFps);
                 window.currentBreakdownData = result.breakdown;
+
+                loader.classList.add('hidden');
+
+                let likelihoodClass = getLikelihoodClass(result.likelihood);
+                let colorClass = '';
+                if(likelihoodClass === 'likelihood-100') colorClass = 'var(--success-color)';
+                else if(likelihoodClass === 'likelihood-high') colorClass = '#a2ff00';
+                else if(likelihoodClass === 'likelihood-med') colorClass = '#ffaa00';
+                else colorClass = 'var(--error-color)';
+
                 resultBox.innerHTML = `
-                    <div style="text-transform: uppercase; letter-spacing: 1px; color: #888;">Likelihood of Acceptance</div>
-                    <span class="likelihood-score ${getLikelihoodClass(result.likelihood)}">${result.likelihood}%</span>
-                    <div class="likelihood-reason">${result.reason}</div>
-                    <button class="view-breakdown-btn" onclick="openBreakdownModal()">View Detailed Breakdown</button>
+                    <div style="text-transform: uppercase; letter-spacing: 1px; color: #888; font-size:0.9em;">Likelihood of Acceptance</div>
+                    <div style="font-size: 4em; font-weight: bold; color: ${colorClass}; line-height:1; margin: 15px 0;">${result.likelihood}%</div>
+                    <div style="font-size: 1.1em; color: #ccc; margin-bottom: 25px;">${result.reason}</div>
+                    <button class="btn btn-outline" onclick="openBreakdownModal()">
+                        <svg class="icon" viewBox="0 0 24 24"><path d="M19 3H5c-1.1 0-2 .9-2 2v14c0 1.1.9 2 2 2h14c1.1 0 2-.9 2-2V5c0-1.1-.9-2-2-2zM9 17H7v-7h2v7zm4 0h-2V7h2v10zm4 0h-2v-4h2v4z"/></svg>
+                        View Detailed Breakdown
+                    </button>
+                    <button class="btn btn-outline" style="margin-left:10px; border-color:transparent;" onclick="document.getElementById('check-btn').style.display='block'; document.getElementById('eligibility-result').classList.add('hidden');">Re-calculate</button>
                 `;
-            }, 400);
+                resultBox.classList.remove('hidden');
+            }, 800);
         }
 
         window.openBreakdownModal = function() {
@@ -471,7 +255,7 @@
             const content = document.getElementById('breakdown-content');
 
             let tableHtml = `
-                <table class="breakdown-table">
+                <table class="data-table">
                     <thead>
                         <tr>
                             <th>Requirement</th>
@@ -485,14 +269,14 @@
             `;
 
             breakdown.forEach(item => {
-                let statusClass = item.status === 'Pass' ? 'status-pass' : 'status-fail';
+                let statusColor = item.status === 'Pass' ? 'var(--success-color)' : 'var(--error-color)';
                 tableHtml += `
                     <tr>
                         <td>${item.requirement}</td>
                         <td>${item.requiredMark}</td>
                         <td>${item.userSubject}</td>
                         <td>${item.userMark}</td>
-                        <td class="${statusClass}">${item.status}</td>
+                        <td style="color:${statusColor}; font-weight:bold;">${item.status}</td>
                     </tr>
                 `;
             });

@@ -3,313 +3,23 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>DTech Eligibility Checker</title>
-    <style>
-        :root {
-            --bg-color: #0b0c10;
-            --container-bg: #1f2833;
-            --text-color: #c5c6c7;
-            --primary-accent: #66fcf1;
-            --secondary-accent: #45a29e;
-            --error-color: #ff4b4b;
-            --border-radius: 8px;
-            --font-family: 'Inter', -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif;
-        }
-
-        body {
-            font-family: var(--font-family);
-            background-color: var(--bg-color);
-            color: var(--text-color);
-            max-width: 900px;
-            margin: 0 auto;
-            padding: 20px;
-            line-height: 1.6;
-        }
-
-        h1, h2, h3 {
-            color: var(--primary-accent);
-            text-align: center;
-        }
-
-        h1 {
-            font-size: 2.5em;
-            margin-bottom: 5px;
-            letter-spacing: 1px;
-            text-transform: uppercase;
-        }
-
-        p.subtitle {
-            text-align: center;
-            margin-bottom: 30px;
-            font-size: 1.1em;
-        }
-
-        .card {
-            background-color: var(--container-bg);
-            padding: 25px;
-            border-radius: var(--border-radius);
-            box-shadow: 0 4px 15px rgba(0, 0, 0, 0.3);
-            margin-bottom: 25px;
-            border-left: 4px solid var(--primary-accent);
-            transition: all 0.3s ease;
-        }
-
-        /* Subjects Input Section */
-        #subjects-section {
-            transition: max-height 0.4s ease-out, opacity 0.4s ease-out;
-            overflow: hidden;
-        }
-
-        .subject-row {
-            display: flex;
-            flex-wrap: wrap;
-            gap: 10px;
-            align-items: center;
-            margin-bottom: 15px;
-            background: rgba(0,0,0,0.2);
-            padding: 10px;
-            border-radius: 5px;
-        }
-
-        input, select, button {
-            padding: 10px 15px;
-            font-size: 16px;
-            border: none;
-            border-radius: 5px;
-            background-color: #2a3644;
-            color: #fff;
-            outline: none;
-            transition: box-shadow 0.2s ease;
-        }
-
-        input:focus, select:focus {
-            box-shadow: 0 0 0 2px var(--primary-accent);
-        }
-
-        select.subject-select { flex: 2; min-width: 150px; }
-        input.subject-percentage { flex: 1; min-width: 100px; }
-        input.subject-level { flex: 0.5; min-width: 60px; text-align: center; background-color: #1a222a; cursor: not-allowed;}
-
-        button {
-            cursor: pointer;
-            font-weight: bold;
-            background-color: var(--primary-accent);
-            color: var(--bg-color);
-            transition: background-color 0.3s, transform 0.1s;
-        }
-
-        button:hover {
-            background-color: var(--secondary-accent);
-        }
-
-        button:active {
-            transform: scale(0.98);
-        }
-
-        button.remove-btn {
-            background-color: var(--error-color);
-            color: white;
-            padding: 10px 15px;
-        }
-
-        button.remove-btn:hover {
-            background-color: #e63939;
-        }
-
-        .actions-row {
-            display: flex;
-            justify-content: space-between;
-            margin-top: 20px;
-        }
-
-
-        .likelihood-100 { color: #00ff88; text-shadow: 0 0 10px rgba(0,255,136,0.3); }
-        .likelihood-high { color: #a2ff00; }
-        .likelihood-med { color: #ffaa00; }
-        .likelihood-low { color: #ff4b4b; }
-
-        .hidden {
-            display: none !important;
-        }
-
-        .collapsed {
-            max-height: 0;
-            opacity: 0;
-            padding-top: 0;
-            padding-bottom: 0;
-            margin-bottom: 0;
-            border: none;
-        }
-
-        /* Results Display */
-        #results-summary {
-            display: flex;
-            justify-content: space-around;
-            align-items: center;
-            flex-wrap: wrap;
-            text-align: center;
-        }
-
-        .score-box {
-            background: rgba(102, 252, 241, 0.1);
-            padding: 15px 30px;
-            border-radius: var(--border-radius);
-            border: 1px solid var(--primary-accent);
-            margin: 10px;
-        }
-
-        .score-box h3 {
-            margin: 0 0 5px 0;
-            font-size: 1.2em;
-            color: var(--text-color);
-        }
-
-        .score-box span {
-            font-size: 2em;
-            color: var(--primary-accent);
-            font-weight: bold;
-        }
-
-        #edit-marks-btn {
-            margin-top: 15px;
-            background-color: transparent;
-            border: 1px solid var(--primary-accent);
-            color: var(--primary-accent);
-            width: 100%;
-        }
-
-        #edit-marks-btn:hover {
-            background-color: rgba(102, 252, 241, 0.1);
-        }
-
-        /* Universities Grid */
-        .universities-list {
-            margin-top: 40px;
-        }
-
-        .uni-grid {
-            display: grid;
-            grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
-            gap: 20px;
-            margin-top: 20px;
-        }
-
-        .university-link {
-            display: flex;
-            align-items: center;
-            justify-content: center;
-            height: 100px;
-            background: var(--container-bg);
-            text-decoration: none;
-            color: var(--primary-accent);
-            border-radius: var(--border-radius);
-            text-align: center;
-            font-weight: bold;
-            border: 1px solid #333;
-            transition: all 0.3s ease;
-            padding: 15px;
-        }
-
-        .university-link:hover {
-            background: #2a3644;
-            border-color: var(--primary-accent);
-            transform: translateY(-5px);
-            box-shadow: 0 5px 15px rgba(102, 252, 241, 0.2);
-        }
-
-        @media (max-width: 600px) {
-            .subject-row {
-                flex-direction: column;
-                align-items: stretch;
-            }
-            .actions-row {
-                flex-direction: column;
-                gap: 10px;
-            }
-            button { width: 100%; }
-        }
-
-        /* Recommendations Section */
-        #recommendations-container {
-            margin-top: 30px;
-        }
-
-        .recommend-btn {
-            width: 100%;
-            margin-top: 20px;
-            padding: 15px;
-            font-size: 1.1em;
-            background-color: var(--primary-accent);
-            color: var(--bg-color);
-            font-weight: bold;
-            border: none;
-            border-radius: var(--border-radius);
-            cursor: pointer;
-            transition: all 0.3s ease;
-        }
-
-        .recommend-btn:hover {
-            background-color: var(--secondary-accent);
-            transform: translateY(-2px);
-        }
-
-        .tier-section {
-            margin-top: 30px;
-        }
-
-        .tier-title {
-            background: rgba(102, 252, 241, 0.1);
-            padding: 10px;
-            border-left: 4px solid var(--primary-accent);
-            font-size: 1.3em;
-            color: var(--primary-accent);
-            margin-bottom: 15px;
-        }
-
-        .uni-group {
-            margin-bottom: 20px;
-        }
-
-        .uni-group-title {
-            font-size: 1.1em;
-            font-weight: bold;
-            color: #fff;
-            margin-bottom: 10px;
-            border-bottom: 1px solid #333;
-            padding-bottom: 5px;
-        }
-
-        .rec-course {
-            background: var(--container-bg);
-            padding: 15px;
-            border: 1px solid #333;
-            border-radius: 5px;
-            margin-bottom: 10px;
-            display: flex;
-            justify-content: space-between;
-            align-items: center;
-        }
-
-        .rec-course-title {
-            font-weight: bold;
-            color: var(--primary-accent);
-        }
-
-        .rec-likelihood {
-            font-weight: bold;
-            font-size: 1.2em;
-        }
-
-    </style>
+    <title>D-TECH Eligibility Checker</title>
+    <link rel="stylesheet" href="./core/styles.css">
 </head>
 <body>
 
-    <h1>DTech Eligibility Checker</h1>
-    <p class="subtitle">Enter your subjects to calculate your APS and check university eligibility.</p>
+    <div class="hero-header fade-in">
+        <h1>D-TECH Eligibility</h1>
+        <p>Enter your subjects to calculate your APS and check university eligibility.</p>
+    </div>
 
     <!-- Subjects Input Section -->
-    <div id="subjects-section" class="card">
-        <p style="margin-top:0; font-size: 0.9em; color: #888;">
+    <div id="subjects-section" class="card slide-up">
+        <h2 class="card-title">
+            <svg class="icon" viewBox="0 0 24 24"><path d="M12 2C6.48 2 2 6.48 2 12s4.48 10 10 10 10-4.48 10-10S17.52 2 12 2zm1 15h-2v-6h2v6zm0-8h-2V7h2v2z"/></svg>
+            Subject Entry
+        </h2>
+        <p style="margin-top:-10px; font-size: 0.85em; color: #888;">
             <em>Note: Life Orientation is automatically excluded from your total APS/FPS score.</em>
         </p>
 
@@ -317,55 +27,107 @@
             <!-- Rows will be injected here -->
         </div>
 
-        <div class="actions-row">
-            <button id="add-subject-btn" type="button" onclick="addSubjectRow()">+ Add Subject</button>
-            <button id="save-marks-btn" type="button" onclick="saveAndCollapseMarks()">Save & Continue</button>
+        <div class="actions-row" style="display:flex; justify-content:space-between; margin-top:20px;">
+            <button id="add-subject-btn" class="btn btn-outline" type="button" onclick="addSubjectRow()">
+                <svg class="icon" viewBox="0 0 24 24"><path d="M19 13h-6v6h-2v-6H5v-2h6V5h2v6h6v2z"/></svg>
+                Add Subject
+            </button>
+            <button id="save-marks-btn" class="btn btn-primary" type="button" onclick="saveAndCollapseMarks()">
+                <svg class="icon" viewBox="0 0 24 24"><path d="M17 3H5c-1.11 0-2 .9-2 2v14c0 1.1.89 2 2 2h14c1.1 0 2-.9 2-2V7l-4-4zm-5 16c-1.66 0-3-1.34-3-3s1.34-3 3-3 3 1.34 3 3-1.34 3-3 3zm3-10H5V5h10v4z"/></svg>
+                Save & Continue
+            </button>
         </div>
     </div>
 
-    <!-- Results Summary Section (Hidden Initially) -->
-    <div id="results-container" class="card hidden">
-        <div id="results-summary">
-            <div class="score-box">
-                <h3>Your APS</h3>
-                <span id="calculated-aps">0</span>
+    <!-- Results Dashboard Section (Hidden Initially) -->
+    <div id="results-container" class="card hidden slide-up">
+        <h2 class="card-title">
+            <svg class="icon" viewBox="0 0 24 24"><path d="M19 3H5c-1.1 0-2 .9-2 2v14c0 1.1.9 2 2 2h14c1.1 0 2-.9 2-2V5c0-1.1-.9-2-2-2zm-7 9h-2V7h-2v5H6v-2h2V5h2v5h2v2zm4 4h-8v-2h8v2zm0-4h-4v-2h4v2z"/></svg>
+            Your Dashboard
+        </h2>
+
+        <div class="dashboard-grid">
+            <div class="stat-box">
+                <span class="stat-label">Subjects Entered</span>
+                <span id="dash-subject-count" class="stat-value">0</span>
             </div>
-            <div class="score-box">
-                <h3>Your FPS</h3>
-                <span id="calculated-fps">0</span>
+
+            <div class="stat-box">
+                <span class="stat-label">APS Score</span>
+                <div class="gauge-container">
+                    <svg class="gauge-svg" viewBox="0 0 100 100">
+                        <circle class="gauge-bg" cx="50" cy="50" r="40"></circle>
+                        <circle id="gauge-aps-path" class="gauge-progress" cx="50" cy="50" r="40" stroke-dasharray="251.2" stroke-dashoffset="251.2"></circle>
+                    </svg>
+                    <div id="gauge-aps-text" class="gauge-text">0</div>
+                </div>
+            </div>
+
+            <div class="stat-box">
+                <span class="stat-label">FPS Score</span>
+                <div class="gauge-container">
+                    <svg class="gauge-svg" viewBox="0 0 100 100">
+                        <circle class="gauge-bg" cx="50" cy="50" r="40"></circle>
+                        <circle id="gauge-fps-path" class="gauge-progress" cx="50" cy="50" r="40" stroke-dasharray="251.2" stroke-dashoffset="251.2"></circle>
+                    </svg>
+                    <div id="gauge-fps-text" class="gauge-text">0</div>
+                </div>
+            </div>
+
+            <div class="stat-box">
+                <span class="stat-label">Pass Status</span>
+                <span id="dash-pass-status" class="stat-value" style="font-size: 1.2em; margin-top:20px; color:var(--text-color)">--</span>
             </div>
         </div>
-        <button id="edit-marks-btn" type="button" onclick="editMarks()">Edit Subjects & Marks</button>
-    </div>
 
+        <div class="dashboard-footer">
+            Life Orientation is excluded from total APS/FPS.
+        </div>
+
+        <button id="edit-marks-btn" class="btn btn-outline btn-block" style="margin-top:20px;" type="button" onclick="editMarks()">
+            <svg class="icon" viewBox="0 0 24 24"><path d="M3 17.25V21h3.75L17.81 9.94l-3.75-3.75L3 17.25zM20.71 7.04c.39-.39.39-1.02 0-1.41l-2.34-2.34c-.39-.39-1.02-.39-1.41 0l-1.83 1.83 3.75 3.75 1.83-1.83z"/></svg>
+            Edit Subjects & Marks
+        </button>
+    </div>
 
     <!-- Recommendations Section -->
-    <div id="recommendations-wrapper" class="card hidden">
-        <h2 style="margin-top:0;">What can I study?</h2>
-        <button id="recommend-btn" class="recommend-btn" onclick="recommendCourses()">Recommend Courses</button>
-        <div id="recommendations-container"></div>
+    <div id="recommendations-wrapper" class="card hidden slide-up">
+        <h2 class="card-title">
+            <svg class="icon" viewBox="0 0 24 24"><path d="M12 17.27L18.18 21l-1.64-7.03L22 9.24l-7.19-.61L12 2 9.19 8.63 2 9.24l5.46 4.73L5.82 21z"/></svg>
+            Course Recommendations
+        </h2>
+        <button id="recommend-btn" class="btn btn-primary btn-block" onclick="recommendCourses()">
+            Generate Recommendations
+        </button>
+
+        <div id="rec-loading" class="hidden" style="margin-top:20px;">
+            <div class="loader"></div>
+            <div class="loader-text">Analyzing universities...</div>
+        </div>
+
+        <div id="recommendations-container" style="margin-top:20px;"></div>
     </div>
 
     <!-- Universities List -->
-    <div class="universities-list">
-        <h2>Select a University</h2>
+    <div class="card slide-up" style="margin-top: 40px; border:none; background:transparent; box-shadow:none; padding:0;">
+        <h2 class="card-title" style="justify-content:center;">Select a University</h2>
         <div class="uni-grid">
-            <a href="stellenbosch.html" class="university-link">Stellenbosch University</a>
-            <a href="tut.html" class="university-link">Tshwane University of Technology (TUT)</a>
-            <a href="uct.html" class="university-link">University of Cape Town (UCT)</a>
-            <a href="ul.html" class="university-link">University of Limpopo (UL)</a>
-            <a href="ump.html" class="university-link">University of Mpumalanga (UMP)</a>
-            <a href="univen.html" class="university-link">University of Venda (Univen)</a>
-            <a href="up.html" class="university-link">University of Pretoria (UP)</a>
-            <a href="wits.html" class="university-link">University of the Witwatersrand (Wits)</a>
-            <a href="uj.html" class="university-link">University of Johannesburg (UJ)</a>
-            <a href="uwc.html" class="university-link">University of the Western Cape (UWC)</a>
-            <a href="nwu.html" class="university-link">North-West University (NWU)</a>
-            <a href="ukzn.html" class="university-link">University of KwaZulu-Natal (UKZN)</a>
-            <a href="ufh.html" class="university-link">University of Fort Hare (UFH)</a>
-            <a href="cput.html" class="university-link">Cape Peninsula University of Technology (CPUT)</a>
-            <a href="ufs.html" class="university-link">University of the Free State (UFS)</a>
-            <a href="vut.html" class="university-link">Vaal University of Technology (VUT)</a>
+            <a href="stellenbosch.html" class="uni-card">Stellenbosch University</a>
+            <a href="tut.html" class="uni-card">Tshwane University of Technology (TUT)</a>
+            <a href="uct.html" class="uni-card">University of Cape Town (UCT)</a>
+            <a href="ul.html" class="uni-card">University of Limpopo (UL)</a>
+            <a href="ump.html" class="uni-card">University of Mpumalanga (UMP)</a>
+            <a href="univen.html" class="uni-card">University of Venda (Univen)</a>
+            <a href="up.html" class="uni-card">University of Pretoria (UP)</a>
+            <a href="wits.html" class="uni-card">University of the Witwatersrand (Wits)</a>
+            <a href="uj.html" class="uni-card">University of Johannesburg (UJ)</a>
+            <a href="uwc.html" class="uni-card">University of the Western Cape (UWC)</a>
+            <a href="nwu.html" class="uni-card">North-West University (NWU)</a>
+            <a href="ukzn.html" class="uni-card">University of KwaZulu-Natal (UKZN)</a>
+            <a href="ufh.html" class="uni-card">University of Fort Hare (UFH)</a>
+            <a href="cput.html" class="uni-card">Cape Peninsula University of Technology (CPUT)</a>
+            <a href="ufs.html" class="uni-card">University of the Free State (UFS)</a>
+            <a href="vut.html" class="uni-card">Vaal University of Technology (VUT)</a>
         </div>
     </div>
 
@@ -393,15 +155,12 @@
 
             const savedMarks = JSON.parse(localStorage.getItem('userMarks'));
             if (savedMarks && savedMarks.length > 0) {
-                // Load existing marks and show collapsed view
                 loadSavedMarks(savedMarks);
-                // Immediately calculate and collapse
                 calculateScores(savedMarks);
-                document.getElementById('subjects-section').classList.add('collapsed');
+                document.getElementById('subjects-section').classList.add('hidden');
                 document.getElementById('results-container').classList.remove('hidden');
-            document.getElementById('recommendations-wrapper').classList.remove('hidden');
+                document.getElementById('recommendations-wrapper').classList.remove('hidden');
             } else {
-                // First time user
                 addSubjectRow();
             }
         }
@@ -424,22 +183,37 @@
 
             const container = document.getElementById('subjects-container');
             const row = document.createElement('div');
-            row.className = 'subject-row';
+            row.className = 'subject-card';
 
             row.innerHTML = `
-                <select class="subject-select" onchange="updateRowLevel(this.parentElement)"></select>
-                <input type="number" class="subject-percentage" placeholder="Percentage (%)" min="0" max="100" value="${savedPercentage}" oninput="updateRowLevel(this.parentElement)">
-                <input type="text" class="subject-level" placeholder="Level" value="${savedLevel}" readonly title="APS Level">
-                <button type="button" class="remove-btn" onclick="removeSubjectRow(this)">X</button>
+                <div class="floating-group subject-card-select">
+                    <select class="floating-input" onchange="updateRowLevel(this.closest('.subject-card'))"></select>
+                    <label class="floating-label">Subject</label>
+                </div>
+                <div class="floating-group subject-card-perc">
+                    <input type="number" class="floating-input" placeholder=" " min="0" max="100" value="${savedPercentage}" oninput="updateRowLevel(this.closest('.subject-card'))">
+                    <label class="floating-label">Percentage</label>
+                </div>
+                <div class="floating-group subject-card-level">
+                    <input type="text" class="floating-input" placeholder=" " value="${savedLevel}" readonly title="APS Level">
+                    <label class="floating-label">Level</label>
+                </div>
+                <div class="subject-card-action">
+                    <button type="button" class="btn btn-danger" onclick="removeSubjectRow(this)" title="Remove Subject">
+                        <svg class="icon" viewBox="0 0 24 24"><path d="M6 19c0 1.1.9 2 2 2h8c1.1 0 2-.9 2-2V7H6v12zM19 4h-3.5l-1-1h-5l-1 1H5v2h14V4z"/></svg>
+                    </button>
+                </div>
             `;
 
-            populateDropdowns(row.querySelector('.subject-select'), savedName);
+            populateDropdowns(row.querySelector('select'), savedName);
             container.appendChild(row);
             subjectCount++;
+
+            if (savedPercentage) updateRowLevel(row);
         }
 
         function removeSubjectRow(btn) {
-            btn.parentElement.remove();
+            btn.closest('.subject-card').remove();
             subjectCount--;
         }
 
@@ -455,24 +229,71 @@
         }
 
         function updateRowLevel(row) {
-            const percInput = row.querySelector('.subject-percentage');
-            const levelInput = row.querySelector('.subject-level');
+            const percInput = row.querySelector('input[type="number"]');
+            const levelInput = row.querySelector('input[readonly]');
             const perc = parseInt(percInput.value, 10);
+
+            percInput.classList.remove('valid', 'invalid');
+
             if (!isNaN(perc) && perc >= 0 && perc <= 100) {
                 levelInput.value = getLevelFromPercentage(perc);
+                percInput.classList.add('valid');
+            } else if (percInput.value !== '') {
+                levelInput.value = '';
+                percInput.classList.add('invalid');
             } else {
                 levelInput.value = '';
             }
         }
 
+        function animateGauge(elementId, value, max) {
+            const circle = document.getElementById(elementId);
+            const text = document.getElementById(elementId.replace('-path', '-text'));
+
+            const radius = 40;
+            const circumference = 2 * Math.PI * radius; // ~251.2
+
+            const fillPercentage = Math.min(value / max, 1);
+            const offset = circumference - (fillPercentage * circumference);
+
+            setTimeout(() => {
+                circle.style.strokeDashoffset = offset;
+                text.textContent = value;
+            }, 100);
+        }
+
+        function determinePassStatus(marks) {
+            let homeLang = false;
+            let countAbove50 = 0;
+            let validSubjects = 0;
+
+            marks.forEach(m => {
+                if(m.subject.toLowerCase() === 'life orientation' || m.subject.toLowerCase() === 'lo') return;
+                validSubjects++;
+
+                if((m.subject.toLowerCase().includes('home language') || m.subject.toLowerCase() === 'english home language') && m.percentage >= 40) {
+                    homeLang = true;
+                }
+
+                if(m.percentage >= 50) {
+                    countAbove50++;
+                }
+            });
+
+            if (validSubjects < 6) return "Incomplete Subjects";
+            if (homeLang && countAbove50 >= 4) return "<span style='color:var(--success-color)'>Bachelor's Degree</span>";
+            if (homeLang) return "<span style='color:var(--primary-accent)'>Diploma Pass</span>";
+            return "<span style='color:#ffaa00'>Higher Certificate</span>";
+        }
+
         function saveAndCollapseMarks() {
-            const rows = document.querySelectorAll('.subject-row');
+            const rows = document.querySelectorAll('.subject-card');
             let marks = [];
 
             rows.forEach(row => {
-                const subject = row.querySelector('.subject-select').value;
-                const percentage = parseInt(row.querySelector('.subject-percentage').value, 10);
-                const level = parseInt(row.querySelector('.subject-level').value, 10);
+                const subject = row.querySelector('select').value;
+                const percentage = parseInt(row.querySelector('input[type="number"]').value, 10);
+                const level = parseInt(row.querySelector('input[readonly]').value, 10);
 
                 if (subject && !isNaN(percentage) && !isNaN(level)) {
                     marks.push({ subject, percentage, level });
@@ -487,37 +308,42 @@
             localStorage.setItem('userMarks', JSON.stringify(marks));
             calculateScores(marks);
 
-            // Collapse section and show results
-            document.getElementById('subjects-section').classList.add('collapsed');
+            document.getElementById('subjects-section').classList.add('hidden');
             document.getElementById('results-container').classList.remove('hidden');
             document.getElementById('recommendations-wrapper').classList.remove('hidden');
 
-            // Smooth scroll to universities list
-            document.querySelector('.universities-list').scrollIntoView({ behavior: 'smooth' });
+            document.getElementById('results-container').scrollIntoView({ behavior: 'smooth' });
         }
 
         function calculateScores(marks) {
             let totalAps = 0;
             let totalFps = 0;
+            let validCount = 0;
 
             marks.forEach(mark => {
                 if (mark.subject.toLowerCase() !== 'life orientation' && mark.subject.toLowerCase() !== 'lo') {
                     totalAps += mark.level;
                     totalFps += mark.percentage;
+                    validCount++;
                 }
             });
 
             localStorage.setItem('userAps', totalAps.toString());
             localStorage.setItem('userFps', totalFps.toString());
 
-            document.getElementById('calculated-aps').textContent = totalAps;
-            document.getElementById('calculated-fps').textContent = totalFps;
+            document.getElementById('dash-subject-count').textContent = validCount;
+            document.getElementById('dash-pass-status').innerHTML = determinePassStatus(marks);
+
+            // Animate gauges (assuming max APS ~42 (6 subs * 7), max FPS ~600)
+            animateGauge('gauge-aps-path', totalAps, 42);
+            animateGauge('gauge-fps-path', totalFps, 600);
         }
 
         function editMarks() {
-            document.getElementById('subjects-section').classList.remove('collapsed');
+            document.getElementById('subjects-section').classList.remove('hidden');
             document.getElementById('results-container').classList.add('hidden');
             document.getElementById('recommendations-wrapper').classList.add('hidden');
+            document.getElementById('recommendations-container').innerHTML = ''; // reset recommendations
         }
 
         function loadSavedMarks(savedMarks) {
@@ -534,7 +360,6 @@
                 addSubjectRow(mark.subject, mark.percentage, mark.level);
             });
         }
-
 
         const universitiesList = [
             { id: "stellenbosch", name: "Stellenbosch University" },
@@ -555,12 +380,22 @@
             { id: "vut", name: "Vaal University of Technology (VUT)" }
         ];
 
+        window.toggleTier = function(headerElem) {
+            const content = headerElem.nextElementSibling;
+            const isOpen = content.classList.contains('open');
+            // Close all
+            document.querySelectorAll('.rec-tier-content').forEach(el => el.classList.remove('open'));
+            // Toggle clicked
+            if(!isOpen) content.classList.add('open');
+        }
+
         window.recommendCourses = async function() {
             const btn = document.getElementById('recommend-btn');
-            btn.textContent = "Calculating... Please wait";
-            btn.disabled = true;
-
+            const loader = document.getElementById('rec-loading');
             const container = document.getElementById('recommendations-container');
+
+            btn.style.display = 'none';
+            loader.classList.remove('hidden');
             container.innerHTML = '';
 
             let allEvaluatedCourses = [];
@@ -595,51 +430,49 @@
             let tier80 = allEvaluatedCourses.filter(c => c.likelihood >= 80 && c.likelihood < 100).slice(0, 15);
             let tier60 = allEvaluatedCourses.filter(c => c.likelihood >= 60 && c.likelihood < 80).slice(0, 15);
 
+            loader.classList.add('hidden');
+            btn.style.display = 'block';
+            btn.textContent = "Refresh Recommendations";
+
             if (tier100.length === 0 && tier80.length === 0 && tier60.length === 0) {
-                container.innerHTML = '<p>No highly recommended courses found based on your marks.</p>';
-                btn.textContent = "Recommend Courses";
-                btn.disabled = false;
+                container.innerHTML = '<p style="text-align:center; color:#888;">No highly recommended courses found based on your current marks.</p>';
                 return;
             }
 
             let finalHtml = '';
 
-            const renderTier = (title, courses, colorClass) => {
+            const renderTier = (title, courses, badgeClass, isOpen) => {
                 if (courses.length === 0) return '';
-                let tierHtml = `<div class="tier-section"><div class="tier-title">${title}</div>`;
 
-                let grouped = {};
+                let html = `
+                    <div class="rec-tier">
+                        <div class="rec-tier-header" onclick="toggleTier(this)">
+                            ${title} <span>(${courses.length}) ▼</span>
+                        </div>
+                        <div class="rec-tier-content ${isOpen ? 'open' : ''}">
+                `;
+
                 courses.forEach(c => {
-                    if (!grouped[c.uni_name]) grouped[c.uni_name] = [];
-                    grouped[c.uni_name].push(c);
+                    html += `
+                        <div class="rec-card fade-in">
+                            <div class="rec-info">
+                                <h4>${c.course_name}</h4>
+                                <p>${c.uni_name} • ${c.reason}</p>
+                            </div>
+                            <div class="rec-badge ${badgeClass}">${c.likelihood}% Match</div>
+                        </div>
+                    `;
                 });
 
-                for (const uni in grouped) {
-                    tierHtml += `<div class="uni-group"><div class="uni-group-title">${uni}</div>`;
-                    grouped[uni].forEach(c => {
-                        tierHtml += `
-                            <div class="rec-course">
-                                <div>
-                                    <div class="rec-course-title">${c.course_name}</div>
-                                    <div style="font-size:0.8em; color:#aaa;">${c.reason}</div>
-                                </div>
-                                <div class="rec-likelihood ${colorClass}">${c.likelihood}%</div>
-                            </div>
-                        `;
-                    });
-                    tierHtml += `</div>`;
-                }
-                tierHtml += `</div>`;
-                return tierHtml;
+                html += `</div></div>`;
+                return html;
             };
 
-            finalHtml += renderTier('100% Match (Excellent)', tier100, 'likelihood-100');
-            finalHtml += renderTier('80% - 99% Match (Very Good)', tier80, 'likelihood-high');
-            finalHtml += renderTier('60% - 79% Match (Good)', tier60, 'likelihood-med');
+            finalHtml += renderTier('Excellent Match (100%)', tier100, 'badge-100', true);
+            finalHtml += renderTier('Very Good Match (80% - 99%)', tier80, 'badge-high', tier100.length === 0);
+            finalHtml += renderTier('Good Match (60% - 79%)', tier60, 'badge-med', tier100.length === 0 && tier80.length === 0);
 
             container.innerHTML = finalHtml;
-            btn.textContent = "Recommend Courses";
-            btn.disabled = false;
         }
 
         window.addSubjectRow = addSubjectRow;
