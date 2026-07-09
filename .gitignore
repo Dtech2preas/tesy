@@ -12,3 +12,4 @@
 local.properties
 app/build
 node_modules/
+server.log
