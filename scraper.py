@@ -291,6 +291,14 @@ def scrape_university(url, output_file):
                     if "nsc-deg" in part.lower() or "nsc deg" in part.lower():
                         part = re.sub(r'NSC-?Deg with ', '', part, flags=re.IGNORECASE)
                         part = part.strip()
+                        if not part: continue
+
+                        part = part.replace('•', '').replace('\u2022', '').strip()
+                        part = re.sub(r'\(\s*\d+\s*-\s*\d+\s*%\s*\)', '', part).strip()
+
+                        if "nsc-deg" in part.lower() or "nsc deg" in part.lower():
+                            part = re.sub(r'NSC-?Deg with ', '', part, flags=re.IGNORECASE)
+                            part = part.strip()
 
                     if "minimum aps" in part.lower():
                         continue
