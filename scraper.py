@@ -92,6 +92,10 @@ def scrape_university(url, output_file):
                     for part in parts:
                         part = part.strip()
                         if not part: continue
+
+                        part = part.replace('•', '').replace('\u2022', '').strip()
+                        part = re.sub(r'\(\s*\d+\s*-\s*\d+\s*%\s*\)', '', part).strip()
+
                         if "nsc-deg" in part.lower() or "nsc deg" in part.lower():
                             part = re.sub(r'NSC-?Deg with ', '', part, flags=re.IGNORECASE)
                             part = part.strip()
@@ -120,7 +124,7 @@ def scrape_university(url, output_file):
                             if match_level and "minimum" not in part.lower():
                                 subject = match_level.group(1).strip()
                                 if subject.endswith(':'): subject = subject[:-1].strip()
-                                level = match_level.group(3)
+                                level = match_level.group(2)
                                 if level.lower() != 'null':
                                     requirements.append({"subject": subject, "level": level})
                             else:

@@ -1,0 +1,4422 @@
+{
+    "FACULTY OF EDUCATION": [
+        {
+            "course_name": "Bachelor of Education in Early Childhood Care and Education (ECCE)",
+            "course_code": "",
+            "duration": "4",
+            "aps": "26",
+            "required_subjects": []
+        },
+        {
+            "course_name": "Bachelor of Education (BEd) in Foundation Phase (Grade R \u2013 3)",
+            "course_code": "",
+            "duration": "4",
+            "aps": "26",
+            "required_subjects": []
+        },
+        {
+            "course_name": "Bachelor of Education (BEd) in Intermediate Phase (Grade 4 \u2013 6) with Mathematics, Science and Technology",
+            "course_code": "",
+            "duration": "4",
+            "aps": "26",
+            "required_subjects": []
+        },
+        {
+            "course_name": "Bachelor of Education (BEd) in Intermediate Phase (Grade 4 \u2013 6) with Life Skills and Social Sciences",
+            "course_code": "",
+            "duration": "4",
+            "aps": "26",
+            "required_subjects": []
+        },
+        {
+            "course_name": "Bachelor of Education (BEd) in Senior and Further Education and Training (Grade 7 \u2013 12) with Economics",
+            "course_code": "",
+            "duration": "4",
+            "aps": "26",
+            "required_subjects": [
+                {
+                    "subject": "Home Language",
+                    "level": ""
+                },
+                {
+                    "subject": "First Additional Language level 4 DURATION",
+                    "level": "4"
+                }
+            ]
+        },
+        {
+            "course_name": "Bachelor of Education (BEd) in Senior and Further Education and Training (Grade 7 \u2013 12) with History",
+            "course_code": "",
+            "duration": "4",
+            "aps": "26",
+            "required_subjects": [
+                {
+                    "subject": "Home Language",
+                    "level": ""
+                },
+                {
+                    "subject": "First Additional Language level 4 DURATION",
+                    "level": "4"
+                }
+            ]
+        },
+        {
+            "course_name": "Bachelor of Education (BEd) in Senior and Further Education and Training (Grade 7 \u2013 12) with Business Studies",
+            "course_code": "",
+            "duration": "4",
+            "aps": "26",
+            "required_subjects": [
+                {
+                    "subject": "Home Language",
+                    "level": ""
+                },
+                {
+                    "subject": "First Additional Language level 4 DURATION",
+                    "level": "4"
+                }
+            ]
+        },
+        {
+            "course_name": "Bachelor of Education (BEd) in Senior and Further Education and Training (Grade 7 \u2013 12) with Geography",
+            "course_code": "",
+            "duration": "4",
+            "aps": "26",
+            "required_subjects": [
+                {
+                    "subject": "Home Language",
+                    "level": ""
+                },
+                {
+                    "subject": "First Additional Language level 4 DURATION",
+                    "level": "4"
+                }
+            ]
+        },
+        {
+            "course_name": "Bachelor of Education (BEd) in Senior and Further Education and Training (Grade 7 \u2013 12) with English",
+            "course_code": "",
+            "duration": "4",
+            "aps": "26",
+            "required_subjects": [
+                {
+                    "subject": "Subject-specific requirements: English Home Language level 4 OR English First Additional Language",
+                    "level": "5",
+                    "percentage": ""
+                },
+                {
+                    "subject": "Home Language/First Additional Language level 4 DURATION",
+                    "level": "4"
+                }
+            ]
+        },
+        {
+            "course_name": "Bachelor of Education (BEd) in Senior and Further Education and Training (Grade 7 \u2013 12) with Physical Sciences",
+            "course_code": "",
+            "duration": "4",
+            "aps": "26",
+            "required_subjects": []
+        },
+        {
+            "course_name": "Bachelor of Education (BEd) in Senior and Further Education and Training (Grade 7 \u2013 12) with Accounting",
+            "course_code": "",
+            "duration": "4",
+            "aps": "26",
+            "required_subjects": [
+                {
+                    "subject": "Home Language",
+                    "level": ""
+                },
+                {
+                    "subject": "First Additional Language level 4 Subject-specific requirements: Accounting level 4 DURATION",
+                    "level": "4"
+                }
+            ]
+        },
+        {
+            "course_name": "Bachelor of Education (BEd) in Senior and Further Education and Training (Grade 7 \u2013 12) with Mathematics",
+            "course_code": "",
+            "duration": "4",
+            "aps": "26",
+            "required_subjects": [
+                {
+                    "subject": "Home Language",
+                    "level": ""
+                },
+                {
+                    "subject": "First Additional Language level 4 Subject-specific requirements: Mathematics level 5 DURATION",
+                    "level": "4"
+                }
+            ]
+        },
+        {
+            "course_name": "Bachelor of Education (BEd) in Senior and Further Education and Training (Grade 7 \u2013 12) with Afrikaans",
+            "course_code": "",
+            "duration": "4",
+            "aps": "26",
+            "required_subjects": [
+                {
+                    "subject": "Subject-specific requirements: Afrikaans Home Language",
+                    "level": "5",
+                    "percentage": ""
+                },
+                {
+                    "subject": "First Additional Language level 4 DURATION",
+                    "level": "4"
+                }
+            ]
+        },
+        {
+            "course_name": "Bachelor of Education (BEd) in Senior and Further Education and Training (Grade 7 \u2013 12) with Life Sciences",
+            "course_code": "",
+            "duration": "4",
+            "aps": "26",
+            "required_subjects": [
+                {
+                    "subject": "Home Language",
+                    "level": ""
+                },
+                {
+                    "subject": "First Additional Language level 4 Subject-specific requirements: Life Sciences level 4 DURATION",
+                    "level": "4"
+                }
+            ]
+        },
+        {
+            "course_name": "Bachelor of Education (BEd) in Senior and Further Education and Training (Grade 7 \u2013 12) with Life Orientation",
+            "course_code": "",
+            "duration": "4",
+            "aps": "26",
+            "required_subjects": [
+                {
+                    "subject": "Home Language",
+                    "level": ""
+                },
+                {
+                    "subject": "First Additional Language level 4 Subject-specific requirements: Life Orientation level 4 DURATION",
+                    "level": "4"
+                }
+            ]
+        },
+        {
+            "course_name": "Bachelor of Education (BEd) in Senior and Further Education and Training (Grade 7 \u2013 12) with Engineering, Graphics and Design",
+            "course_code": "",
+            "duration": "4",
+            "aps": "26",
+            "required_subjects": [
+                {
+                    "subject": "Home Language",
+                    "level": ""
+                },
+                {
+                    "subject": "First Additional Language level 4 DURATION",
+                    "level": "4"
+                }
+            ]
+        },
+        {
+            "course_name": "Bachelor of Education (BEd) in Senior and Further Education and Training (Grade 7 \u2013 12) with Computer Application Technology",
+            "course_code": "",
+            "duration": "4",
+            "aps": "26",
+            "required_subjects": [
+                {
+                    "subject": "Home Language",
+                    "level": ""
+                },
+                {
+                    "subject": "First Additional Language level 4 DURATION",
+                    "level": "4"
+                }
+            ]
+        },
+        {
+            "course_name": "Bachelor of Education (BEd) in Senior and Further Education and Training (Grade 7 \u2013 12) with Sesotho",
+            "course_code": "",
+            "duration": "4",
+            "aps": "26",
+            "required_subjects": [
+                {
+                    "subject": "Subject-specific requirements: Sesotho Home Language",
+                    "level": "4",
+                    "percentage": ""
+                },
+                {
+                    "subject": "First Additional Language level 4 DURATION",
+                    "level": "4"
+                }
+            ]
+        },
+        {
+            "course_name": "Bachelor of Education (BEd) in Senior and Further Education and Training (Grade 7 \u2013 12) with Mechanical Technology",
+            "course_code": "",
+            "duration": "4",
+            "aps": "26",
+            "required_subjects": []
+        },
+        {
+            "course_name": "Bachelor of Education (BEd) in Senior and Further Education and Training (Grade 7 \u2013 12) with Civil Technology",
+            "course_code": "",
+            "duration": "4",
+            "aps": "26",
+            "required_subjects": []
+        },
+        {
+            "course_name": "Bachelor of Education (BEd) in Senior and Further Education and Training (Grade 7 \u2013 12) with Electrical Technology",
+            "course_code": "",
+            "duration": "4",
+            "aps": "26",
+            "required_subjects": []
+        },
+        {
+            "course_name": "Bachelor of Education (BEd) in Senior and Further Education and Training (Grade 7 \u2013 12) with Setswana",
+            "course_code": "",
+            "duration": "4",
+            "aps": "26",
+            "required_subjects": [
+                {
+                    "subject": "Subject-specific requirements: Setswana Home Language",
+                    "level": "4",
+                    "percentage": ""
+                },
+                {
+                    "subject": "First Additional Language level 4 DURATION",
+                    "level": "4"
+                }
+            ]
+        },
+        {
+            "course_name": "Bachelor of Education (BEd) in Senior and Further Education and Training (Grade 7 \u2013 12) with Information Technology",
+            "course_code": "",
+            "duration": "4",
+            "aps": "26",
+            "required_subjects": [
+                {
+                    "subject": "Home Language",
+                    "level": ""
+                },
+                {
+                    "subject": "First Additional Language level 4 DURATION",
+                    "level": "4"
+                }
+            ]
+        },
+        {
+            "course_name": "Bachelor of Education (BEd) in Senior and Further Education and Training (Grade 7 \u2013 12) with Art",
+            "course_code": "",
+            "duration": "4",
+            "aps": "26",
+            "required_subjects": [
+                {
+                    "subject": "Home Language",
+                    "level": ""
+                },
+                {
+                    "subject": "First Additional Language level 4 DURATION",
+                    "level": "4"
+                }
+            ]
+        },
+        {
+            "course_name": "Bachelor of Education (BEd) in Senior and Further Education and Training (Grade 7 \u2013 12) with Mathematical Literacy",
+            "course_code": "",
+            "duration": "4",
+            "aps": "26",
+            "required_subjects": []
+        }
+    ],
+    "FACULTY OF NATURAL & AGRICULTURAL SCIENCES": [
+        {
+            "course_name": "Bachelor of Science with Geography and Applied Mathematics",
+            "course_code": "",
+            "duration": "3",
+            "aps": "26",
+            "required_subjects": [
+                {
+                    "subject": "Mathematics",
+                    "level": "5",
+                    "percentage": ""
+                },
+                {
+                    "subject": "Physical Science",
+                    "level": "4",
+                    "percentage": ""
+                }
+            ]
+        },
+        {
+            "course_name": "Bachelor of Science in Mathematical Sciences with Statistics and Mathematics",
+            "course_code": "",
+            "duration": "3",
+            "aps": "26",
+            "required_subjects": [
+                {
+                    "subject": "Mathematics",
+                    "level": "5",
+                    "percentage": ""
+                },
+                {
+                    "subject": "Physical Science",
+                    "level": "4",
+                    "percentage": ""
+                }
+            ]
+        },
+        {
+            "course_name": "Extended Bachelor of Science with Electronics and Mathematics",
+            "course_code": "",
+            "duration": "4",
+            "aps": "24",
+            "required_subjects": [
+                {
+                    "subject": "English",
+                    "level": "4",
+                    "percentage": ""
+                },
+                {
+                    "subject": "Mathematics level 3 OR Technical Mathematics",
+                    "level": "4",
+                    "percentage": ""
+                },
+                {
+                    "subject": "Physical Science",
+                    "level": "3",
+                    "percentage": ""
+                }
+            ]
+        },
+        {
+            "course_name": "Bachelor of Science with Mathematics and Economy",
+            "course_code": "",
+            "duration": "3",
+            "aps": "26",
+            "required_subjects": [
+                {
+                    "subject": "Mathematics",
+                    "level": "5",
+                    "percentage": ""
+                }
+            ]
+        },
+        {
+            "course_name": "Extended Bachelor of Science in Financial Mathematics",
+            "course_code": "",
+            "duration": "4",
+            "aps": "28",
+            "required_subjects": [
+                {
+                    "subject": "Mathematics level 4 OR Technical Mathematics",
+                    "level": "5",
+                    "percentage": ""
+                }
+            ]
+        },
+        {
+            "course_name": "Bachelor of Science with Computer Science and Mathematics",
+            "course_code": "",
+            "duration": "3",
+            "aps": "26",
+            "required_subjects": [
+                {
+                    "subject": "Mathematics",
+                    "level": "5",
+                    "percentage": ""
+                },
+                {
+                    "subject": "Physical Science",
+                    "level": "4",
+                    "percentage": ""
+                }
+            ]
+        },
+        {
+            "course_name": "Bachelor of Science in Business Analytics",
+            "course_code": "",
+            "duration": "3",
+            "aps": "32",
+            "required_subjects": [
+                {
+                    "subject": "Mathematics",
+                    "level": "6",
+                    "percentage": ""
+                }
+            ]
+        },
+        {
+            "course_name": "Bachelor of Science in Agricultural Sciences with Agronomy and Horticulture",
+            "course_code": "",
+            "duration": "4",
+            "aps": "26",
+            "required_subjects": [
+                {
+                    "subject": "English",
+                    "level": "4",
+                    "percentage": ""
+                },
+                {
+                    "subject": "Mathematics level 4 OR Technical Mathematics",
+                    "level": "5",
+                    "percentage": ""
+                },
+                {
+                    "subject": "Physical Science OR Life Science",
+                    "level": "4",
+                    "percentage": ""
+                }
+            ]
+        },
+        {
+            "course_name": "Bachelor of Science in Environmental Sciences with Geography and Botany",
+            "course_code": "",
+            "duration": "3",
+            "aps": "26",
+            "required_subjects": [
+                {
+                    "subject": "Mathematics level 4 OR Technical Mathematics",
+                    "level": "5",
+                    "percentage": ""
+                },
+                {
+                    "subject": "Physical Science",
+                    "level": "4",
+                    "percentage": ""
+                }
+            ]
+        },
+        {
+            "course_name": "Bachelor of Science in Environmental Sciences with Geography and Computer Science",
+            "course_code": "",
+            "duration": "3",
+            "aps": "26",
+            "required_subjects": [
+                {
+                    "subject": "Mathematics level 4 OR Technical Mathematics",
+                    "level": "5",
+                    "percentage": ""
+                },
+                {
+                    "subject": "Physical Science",
+                    "level": "4",
+                    "percentage": ""
+                }
+            ]
+        },
+        {
+            "course_name": "Bachelor of Science with Physics and Mathematics",
+            "course_code": "",
+            "duration": "3",
+            "aps": "26",
+            "required_subjects": [
+                {
+                    "subject": "Mathematics",
+                    "level": "5",
+                    "percentage": ""
+                },
+                {
+                    "subject": "Physical Science",
+                    "level": "4",
+                    "percentage": ""
+                }
+            ]
+        },
+        {
+            "course_name": "Bachelor of Science in Information Technology",
+            "course_code": "",
+            "duration": "3",
+            "aps": "26",
+            "required_subjects": [
+                {
+                    "subject": "Mathematics level 4 OR Technical Mathematics",
+                    "level": "5",
+                    "percentage": ""
+                }
+            ]
+        },
+        {
+            "course_name": "Extended Bachelor of Science with Computer Science and Mathematics",
+            "course_code": "",
+            "duration": "4",
+            "aps": "24",
+            "required_subjects": [
+                {
+                    "subject": "English",
+                    "level": "4",
+                    "percentage": ""
+                },
+                {
+                    "subject": "Mathematics level 3 OR Technical Mathematics",
+                    "level": "4",
+                    "percentage": ""
+                },
+                {
+                    "subject": "Physical Science",
+                    "level": "3",
+                    "percentage": ""
+                }
+            ]
+        },
+        {
+            "course_name": "Bachelor of Science with Biochemistry and Chemistry",
+            "course_code": "",
+            "duration": "3",
+            "aps": "26",
+            "required_subjects": [
+                {
+                    "subject": "Mathematics level 4 OR Technical Mathematics",
+                    "level": "5",
+                    "percentage": ""
+                },
+                {
+                    "subject": "Physical Science",
+                    "level": "4",
+                    "percentage": ""
+                }
+            ]
+        },
+        {
+            "course_name": "Bachelor of Science in Actuarial Sciences",
+            "course_code": "",
+            "duration": "3",
+            "aps": "32",
+            "required_subjects": [
+                {
+                    "subject": "Mathematics",
+                    "level": "6",
+                    "percentage": ""
+                }
+            ]
+        },
+        {
+            "course_name": "Extended Bachelor of Science with Computer Science and Electronics",
+            "course_code": "",
+            "duration": "4",
+            "aps": "24",
+            "required_subjects": [
+                {
+                    "subject": "English",
+                    "level": "4",
+                    "percentage": ""
+                },
+                {
+                    "subject": "Mathematics level 3 OR Technical Mathematics",
+                    "level": "4",
+                    "percentage": ""
+                },
+                {
+                    "subject": "Physical Science",
+                    "level": "3",
+                    "percentage": ""
+                }
+            ]
+        },
+        {
+            "course_name": "Extended Bachelor of Science with Chemistry and Mathematics",
+            "course_code": "",
+            "duration": "4",
+            "aps": "24",
+            "required_subjects": [
+                {
+                    "subject": "English",
+                    "level": "4",
+                    "percentage": ""
+                },
+                {
+                    "subject": "Mathematics level 3 OR Technical Mathematics",
+                    "level": "4",
+                    "percentage": ""
+                },
+                {
+                    "subject": "Physical Science",
+                    "level": "3",
+                    "percentage": ""
+                }
+            ]
+        },
+        {
+            "course_name": "Extended Bachelor of Science with Physics and Computer Science",
+            "course_code": "",
+            "duration": "4",
+            "aps": "24",
+            "required_subjects": [
+                {
+                    "subject": "English",
+                    "level": "4",
+                    "percentage": ""
+                },
+                {
+                    "subject": "Mathematics level 3 OR Technical Mathematics",
+                    "level": "4",
+                    "percentage": ""
+                },
+                {
+                    "subject": "Physical Science",
+                    "level": "3",
+                    "percentage": ""
+                }
+            ]
+        },
+        {
+            "course_name": "Extended Bachelor of Science with Physics and Mathematics",
+            "course_code": "",
+            "duration": "4",
+            "aps": "24",
+            "required_subjects": [
+                {
+                    "subject": "English",
+                    "level": "4",
+                    "percentage": ""
+                },
+                {
+                    "subject": "Mathematics level 3 OR Technical Mathematics",
+                    "level": "4",
+                    "percentage": ""
+                },
+                {
+                    "subject": "Physical Science",
+                    "level": "3",
+                    "percentage": ""
+                }
+            ]
+        },
+        {
+            "course_name": "Bachelor of Science in Environmental Sciences with Zoology and Geology",
+            "course_code": "",
+            "duration": "3",
+            "aps": "26",
+            "required_subjects": [
+                {
+                    "subject": "Mathematics level 4 OR Technical Mathematics",
+                    "level": "5",
+                    "percentage": ""
+                },
+                {
+                    "subject": "Physical Science",
+                    "level": "4",
+                    "percentage": ""
+                }
+            ]
+        },
+        {
+            "course_name": "Bachelor of Science in Environmental Sciences with Chemistry and Microbiology",
+            "course_code": "",
+            "duration": "3",
+            "aps": "26",
+            "required_subjects": [
+                {
+                    "subject": "Mathematics level 4 OR Technical Mathematics",
+                    "level": "5",
+                    "percentage": ""
+                },
+                {
+                    "subject": "Physical Science",
+                    "level": "4",
+                    "percentage": ""
+                }
+            ]
+        },
+        {
+            "course_name": "Extended Bachelor of Science with Chemistry and Physics",
+            "course_code": "",
+            "duration": "4",
+            "aps": "24",
+            "required_subjects": [
+                {
+                    "subject": "English",
+                    "level": "4",
+                    "percentage": ""
+                },
+                {
+                    "subject": "Mathematics level 3 OR Technical Mathematics",
+                    "level": "4",
+                    "percentage": ""
+                },
+                {
+                    "subject": "Physical Science",
+                    "level": "3",
+                    "percentage": ""
+                }
+            ]
+        },
+        {
+            "course_name": "Bachelor of Science in Financial Mathematics",
+            "course_code": "",
+            "duration": "3",
+            "aps": "32",
+            "required_subjects": [
+                {
+                    "subject": "Mathematics",
+                    "level": "6",
+                    "percentage": ""
+                }
+            ]
+        },
+        {
+            "course_name": "Bachelor of Science with Electronics and Physics",
+            "course_code": "",
+            "duration": "3",
+            "aps": "26",
+            "required_subjects": [
+                {
+                    "subject": "Mathematics",
+                    "level": "5",
+                    "percentage": ""
+                },
+                {
+                    "subject": "Physical Science",
+                    "level": "4",
+                    "percentage": ""
+                }
+            ]
+        },
+        {
+            "course_name": "Bachelor of Science in Agricultural Sciences with Animal Science",
+            "course_code": "",
+            "duration": "4",
+            "aps": "26",
+            "required_subjects": [
+                {
+                    "subject": "English",
+                    "level": "4",
+                    "percentage": ""
+                },
+                {
+                    "subject": "Mathematics level 4 OR Technical Mathematics",
+                    "level": "5",
+                    "percentage": ""
+                },
+                {
+                    "subject": "Physical Science OR Life Science",
+                    "level": "4",
+                    "percentage": ""
+                }
+            ]
+        },
+        {
+            "course_name": "Bachelor of Science in Environmental Sciences with Botany and Chemistry",
+            "course_code": "",
+            "duration": "3",
+            "aps": "26",
+            "required_subjects": [
+                {
+                    "subject": "Mathematics level 4 OR Technical Mathematics",
+                    "level": "5",
+                    "percentage": ""
+                },
+                {
+                    "subject": "Physical Science",
+                    "level": "4",
+                    "percentage": ""
+                }
+            ]
+        },
+        {
+            "course_name": "Extended Bachelor of Science with Chemistry and Computer Science",
+            "course_code": "",
+            "duration": "4",
+            "aps": "24",
+            "required_subjects": [
+                {
+                    "subject": "English",
+                    "level": "4",
+                    "percentage": ""
+                },
+                {
+                    "subject": "Mathematics level 3 OR Technical Mathematics",
+                    "level": "4",
+                    "percentage": ""
+                },
+                {
+                    "subject": "Physical Science",
+                    "level": "3",
+                    "percentage": ""
+                }
+            ]
+        },
+        {
+            "course_name": "Diploma in Animal Health",
+            "course_code": "",
+            "duration": "3",
+            "aps": "22",
+            "required_subjects": [
+                {
+                    "subject": "English",
+                    "level": "3",
+                    "percentage": ""
+                },
+                {
+                    "subject": "Physical Science level 3 OR Life Science",
+                    "level": "3",
+                    "percentage": ""
+                },
+                {
+                    "subject": "Mathematics level 3 OR Technical Mathematics",
+                    "level": "4",
+                    "percentage": ""
+                }
+            ]
+        },
+        {
+            "course_name": "Bachelor of Science in Environmental Sciences with Geology and Microbiology",
+            "course_code": "",
+            "duration": "3",
+            "aps": "26",
+            "required_subjects": [
+                {
+                    "subject": "Mathematics level 4 OR Technical Mathematics",
+                    "level": "5",
+                    "percentage": ""
+                },
+                {
+                    "subject": "Physical Science",
+                    "level": "4",
+                    "percentage": ""
+                }
+            ]
+        },
+        {
+            "course_name": "Bachelor of Science in Agricultural Sciences with Animal Health",
+            "course_code": "",
+            "duration": "4",
+            "aps": "26",
+            "required_subjects": [
+                {
+                    "subject": "English",
+                    "level": "4",
+                    "percentage": ""
+                },
+                {
+                    "subject": "Mathematics level 4 OR Technical Mathematics",
+                    "level": "5",
+                    "percentage": ""
+                },
+                {
+                    "subject": "Physical Science OR Life Science",
+                    "level": "4",
+                    "percentage": ""
+                }
+            ]
+        },
+        {
+            "course_name": "Extended Bachelor of Science with Applied Mathematics and Electronics",
+            "course_code": "",
+            "duration": "4",
+            "aps": "24",
+            "required_subjects": [
+                {
+                    "subject": "English",
+                    "level": "4",
+                    "percentage": ""
+                },
+                {
+                    "subject": "Mathematics level 3 OR Technical Mathematics",
+                    "level": "4",
+                    "percentage": ""
+                },
+                {
+                    "subject": "Physical Science",
+                    "level": "3",
+                    "percentage": ""
+                }
+            ]
+        },
+        {
+            "course_name": "Bachelor of Science in Environmental Sciences with Tourism and Zoology",
+            "course_code": "",
+            "duration": "3",
+            "aps": "26",
+            "required_subjects": [
+                {
+                    "subject": "Mathematics level 4 OR Technical Mathematics",
+                    "level": "5",
+                    "percentage": ""
+                },
+                {
+                    "subject": "Physical Science",
+                    "level": "4",
+                    "percentage": ""
+                }
+            ]
+        },
+        {
+            "course_name": "Bachelor of Science with Computer Science and Statistics",
+            "course_code": "",
+            "duration": "3",
+            "aps": "26",
+            "required_subjects": [
+                {
+                    "subject": "Mathematics",
+                    "level": "5",
+                    "percentage": ""
+                },
+                {
+                    "subject": "Physical Science",
+                    "level": "4",
+                    "percentage": ""
+                }
+            ]
+        },
+        {
+            "course_name": "Bachelor of Science in Mathematical Sciences with Mathematics",
+            "course_code": "",
+            "duration": "3",
+            "aps": "26",
+            "required_subjects": [
+                {
+                    "subject": "Mathematics",
+                    "level": "5",
+                    "percentage": ""
+                },
+                {
+                    "subject": "Physical Science",
+                    "level": "4",
+                    "percentage": ""
+                }
+            ]
+        },
+        {
+            "course_name": "Bachelor of Science in Environmental Sciences with Zoology and Geography",
+            "course_code": "",
+            "duration": "3",
+            "aps": "26",
+            "required_subjects": [
+                {
+                    "subject": "Mathematics level 4 OR Technical Mathematics",
+                    "level": "5",
+                    "percentage": ""
+                },
+                {
+                    "subject": "Physical Science",
+                    "level": "4",
+                    "percentage": ""
+                }
+            ]
+        },
+        {
+            "course_name": "Extended Bachelor of Science Biological Sciences with Botany and Microbiology",
+            "course_code": "",
+            "duration": "4",
+            "aps": "24",
+            "required_subjects": [
+                {
+                    "subject": "English",
+                    "level": "4",
+                    "percentage": ""
+                },
+                {
+                    "subject": "Mathematics level 3 OR Technical Mathematics",
+                    "level": "4",
+                    "percentage": ""
+                },
+                {
+                    "subject": "Physical Science",
+                    "level": "3",
+                    "percentage": ""
+                }
+            ]
+        },
+        {
+            "course_name": "Bachelor of Science in Agricultural Sciences with Agricultural Economics",
+            "course_code": "",
+            "duration": "4",
+            "aps": "26",
+            "required_subjects": [
+                {
+                    "subject": "English",
+                    "level": "4",
+                    "percentage": ""
+                },
+                {
+                    "subject": "Mathematics level 4 OR Technical Mathematics",
+                    "level": "5",
+                    "percentage": ""
+                },
+                {
+                    "subject": "Physical Science OR Life Science",
+                    "level": "4",
+                    "percentage": ""
+                }
+            ]
+        },
+        {
+            "course_name": "Extended Bachelor of Science Environmental Sciences with Chemistry and Microbiology",
+            "course_code": "",
+            "duration": "4",
+            "aps": "24",
+            "required_subjects": [
+                {
+                    "subject": "English",
+                    "level": "4",
+                    "percentage": ""
+                },
+                {
+                    "subject": "Mathematics level 3 OR Technical Mathematics",
+                    "level": "4",
+                    "percentage": ""
+                },
+                {
+                    "subject": "Physical Science",
+                    "level": "3",
+                    "percentage": ""
+                }
+            ]
+        },
+        {
+            "course_name": "Extended Bachelor of Science with Applied Mathematics and Chemistry",
+            "course_code": "",
+            "duration": "4",
+            "aps": "24",
+            "required_subjects": [
+                {
+                    "subject": "English",
+                    "level": "4",
+                    "percentage": ""
+                },
+                {
+                    "subject": "Mathematics level 3 OR Technical Mathematics",
+                    "level": "4",
+                    "percentage": ""
+                },
+                {
+                    "subject": "Physical Science",
+                    "level": "3",
+                    "percentage": ""
+                }
+            ]
+        },
+        {
+            "course_name": "Bachelor of Science in Mathematical Sciences with Applied Mathematics and Mathematics",
+            "course_code": "",
+            "duration": "3",
+            "aps": "26",
+            "required_subjects": [
+                {
+                    "subject": "Mathematics",
+                    "level": "5",
+                    "percentage": ""
+                },
+                {
+                    "subject": "Physical Science",
+                    "level": "4",
+                    "percentage": ""
+                }
+            ]
+        },
+        {
+            "course_name": "Bachelor of Science with Computer Science and Economics",
+            "course_code": "",
+            "duration": "3",
+            "aps": "26",
+            "required_subjects": [
+                {
+                    "subject": "Mathematics",
+                    "level": "5",
+                    "percentage": ""
+                }
+            ]
+        },
+        {
+            "course_name": "Extended Bachelor of Science Biological Sciences with Botany and Biochemistry",
+            "course_code": "",
+            "duration": "4",
+            "aps": "24",
+            "required_subjects": [
+                {
+                    "subject": "English",
+                    "level": "4",
+                    "percentage": ""
+                },
+                {
+                    "subject": "Mathematics level 3 OR Technical Mathematics",
+                    "level": "4",
+                    "percentage": ""
+                },
+                {
+                    "subject": "Physical Science",
+                    "level": "3",
+                    "percentage": ""
+                }
+            ]
+        },
+        {
+            "course_name": "Bachelor of Science in Environmental Sciences with Tourism and Geography",
+            "course_code": "",
+            "duration": "3",
+            "aps": "26",
+            "required_subjects": [
+                {
+                    "subject": "Mathematics level 4 OR Technical Mathematics",
+                    "level": "5",
+                    "percentage": ""
+                },
+                {
+                    "subject": "Physical Science",
+                    "level": "4",
+                    "percentage": ""
+                }
+            ]
+        },
+        {
+            "course_name": "Extended Bachelor of Science in Quantitative Risk Management",
+            "course_code": "",
+            "duration": "4",
+            "aps": "28",
+            "required_subjects": [
+                {
+                    "subject": "Mathematics level 4 OR Technical Mathematics",
+                    "level": "5",
+                    "percentage": ""
+                }
+            ]
+        },
+        {
+            "course_name": "Bachelor of Science in Environmental Sciences with Geology and Botany",
+            "course_code": "",
+            "duration": "3",
+            "aps": "26",
+            "required_subjects": [
+                {
+                    "subject": "Mathematics level 4 OR Technical Mathematics",
+                    "level": "5",
+                    "percentage": ""
+                },
+                {
+                    "subject": "Physical Science",
+                    "level": "4",
+                    "percentage": ""
+                }
+            ]
+        },
+        {
+            "course_name": "Extended Bachelor of Science Mathematical Sciences with Applied Mathematics and Mathematics",
+            "course_code": "",
+            "duration": "4",
+            "aps": "24",
+            "required_subjects": [
+                {
+                    "subject": "English",
+                    "level": "4",
+                    "percentage": ""
+                },
+                {
+                    "subject": "Mathematics level 3 OR Technical Mathematics",
+                    "level": "4",
+                    "percentage": ""
+                },
+                {
+                    "subject": "Physical Science",
+                    "level": "3",
+                    "percentage": ""
+                }
+            ]
+        },
+        {
+            "course_name": "Bachelor of Science with Applied Mathematics and Electronics",
+            "course_code": "",
+            "duration": "3",
+            "aps": "26",
+            "required_subjects": [
+                {
+                    "subject": "Mathematics",
+                    "level": "5",
+                    "percentage": ""
+                },
+                {
+                    "subject": "Physical Science",
+                    "level": "4",
+                    "percentage": ""
+                }
+            ]
+        },
+        {
+            "course_name": "Bachelor of Science in Environmental Sciences with Tourism and Botany",
+            "course_code": "",
+            "duration": "3",
+            "aps": "26",
+            "required_subjects": [
+                {
+                    "subject": "Mathematics level 4 OR Technical Mathematics",
+                    "level": "5",
+                    "percentage": ""
+                },
+                {
+                    "subject": "Physical Science",
+                    "level": "4",
+                    "percentage": ""
+                }
+            ]
+        },
+        {
+            "course_name": "Bachelor of Science in Biological Sciences with Microbiology and Physiology",
+            "course_code": "",
+            "duration": "3",
+            "aps": "26",
+            "required_subjects": [
+                {
+                    "subject": "Mathematics level 4 OR Technical Mathematics",
+                    "level": "5",
+                    "percentage": ""
+                },
+                {
+                    "subject": "Physical Science",
+                    "level": "4",
+                    "percentage": ""
+                }
+            ]
+        },
+        {
+            "course_name": "Bachelor of Science in Indigenous Knowledge Systems",
+            "course_code": "",
+            "duration": "4",
+            "aps": "26",
+            "required_subjects": [
+                {
+                    "subject": "English",
+                    "level": "4",
+                    "percentage": ""
+                }
+            ]
+        },
+        {
+            "course_name": "Bachelor of Science in Environmental Sciences with Geology and Geography",
+            "course_code": "",
+            "duration": "3",
+            "aps": "26",
+            "required_subjects": [
+                {
+                    "subject": "Mathematics level 4 OR Technical Mathematics",
+                    "level": "5",
+                    "percentage": ""
+                },
+                {
+                    "subject": "Physical Science",
+                    "level": "4",
+                    "percentage": ""
+                }
+            ]
+        },
+        {
+            "course_name": "Bachelor of Science with Chemistry and Mathematics",
+            "course_code": "",
+            "duration": "3",
+            "aps": "26",
+            "required_subjects": [
+                {
+                    "subject": "Mathematics",
+                    "level": "5",
+                    "percentage": ""
+                },
+                {
+                    "subject": "Physical Science",
+                    "level": "4",
+                    "percentage": ""
+                }
+            ]
+        },
+        {
+            "course_name": "Bachelor of Science in Quantitative Risk Management",
+            "course_code": "",
+            "duration": "3",
+            "aps": "32",
+            "required_subjects": [
+                {
+                    "subject": "Mathematics",
+                    "level": "6",
+                    "percentage": ""
+                }
+            ]
+        },
+        {
+            "course_name": "Bachelor of Science in Biological Sciences with Microbiology and Botany",
+            "course_code": "",
+            "duration": "3",
+            "aps": "26",
+            "required_subjects": [
+                {
+                    "subject": "Mathematics level 4 OR Technical Mathematics",
+                    "level": "5",
+                    "percentage": ""
+                },
+                {
+                    "subject": "Physical Science",
+                    "level": "4",
+                    "percentage": ""
+                }
+            ]
+        },
+        {
+            "course_name": "Extended Bachelor of Science Environmental Sciences with Botany and Chemistry",
+            "course_code": "",
+            "duration": "4",
+            "aps": "24",
+            "required_subjects": [
+                {
+                    "subject": "English",
+                    "level": "4",
+                    "percentage": ""
+                },
+                {
+                    "subject": "Mathematics level 3 OR Technical Mathematics",
+                    "level": "4",
+                    "percentage": ""
+                },
+                {
+                    "subject": "Physical Science",
+                    "level": "3",
+                    "percentage": ""
+                }
+            ]
+        },
+        {
+            "course_name": "Extended Bachelor of Science in Information Technology",
+            "course_code": "",
+            "duration": "4",
+            "aps": "24",
+            "required_subjects": [
+                {
+                    "subject": "Mathematics level 3 OR Technical Mathematics",
+                    "level": "4",
+                    "percentage": ""
+                }
+            ]
+        },
+        {
+            "course_name": "Diploma in Animal Science",
+            "course_code": "",
+            "duration": "3",
+            "aps": "22",
+            "required_subjects": []
+        },
+        {
+            "course_name": "Bachelor of Science in Agricultural Sciences with Agronomy and Soil Science",
+            "course_code": "",
+            "duration": "4",
+            "aps": "26",
+            "required_subjects": [
+                {
+                    "subject": "English",
+                    "level": "4",
+                    "percentage": ""
+                },
+                {
+                    "subject": "Physical Science",
+                    "level": "4",
+                    "percentage": ""
+                },
+                {
+                    "subject": "Mathematics level 4 OR Technical Mathematics",
+                    "level": "5",
+                    "percentage": ""
+                }
+            ]
+        },
+        {
+            "course_name": "Bachelor of Science in Biological Sciences with Zoology and Biochemistry",
+            "course_code": "",
+            "duration": "3",
+            "aps": "26",
+            "required_subjects": [
+                {
+                    "subject": "Mathematics level 4 OR Technical Mathematics",
+                    "level": "5",
+                    "percentage": ""
+                },
+                {
+                    "subject": "Physical Science",
+                    "level": "4",
+                    "percentage": ""
+                }
+            ]
+        },
+        {
+            "course_name": "Bachelor of Science in Environmental Sciences with Chemistry and Geology",
+            "course_code": "",
+            "duration": "3",
+            "aps": "26",
+            "required_subjects": [
+                {
+                    "subject": "Mathematics level 4 OR Technical Mathematics",
+                    "level": "5",
+                    "percentage": ""
+                },
+                {
+                    "subject": "Physical Science",
+                    "level": "4",
+                    "percentage": ""
+                }
+            ]
+        },
+        {
+            "course_name": "Diploma in Plant Science with Crop Production",
+            "course_code": "",
+            "duration": "3",
+            "aps": "22",
+            "required_subjects": []
+        },
+        {
+            "course_name": "Bachelor of Science with Applied Mathematics and Chemistry",
+            "course_code": "",
+            "duration": "3",
+            "aps": "26",
+            "required_subjects": [
+                {
+                    "subject": "Mathematics",
+                    "level": "5",
+                    "percentage": ""
+                },
+                {
+                    "subject": "Physical Science",
+                    "level": "4",
+                    "percentage": ""
+                }
+            ]
+        },
+        {
+            "course_name": "Bachelor of Science with Chemistry and Computer Science",
+            "course_code": "",
+            "duration": "3",
+            "aps": "26",
+            "required_subjects": [
+                {
+                    "subject": "Mathematics",
+                    "level": "5",
+                    "percentage": ""
+                },
+                {
+                    "subject": "Physical Science",
+                    "level": "4",
+                    "percentage": ""
+                }
+            ]
+        },
+        {
+            "course_name": "Extended Bachelor of Science Environmental Sciences with Geography and Botany",
+            "course_code": "",
+            "duration": "4",
+            "aps": "24",
+            "required_subjects": [
+                {
+                    "subject": "English",
+                    "level": "4",
+                    "percentage": ""
+                },
+                {
+                    "subject": "Mathematics level 3 OR Technical Mathematics",
+                    "level": "4",
+                    "percentage": ""
+                },
+                {
+                    "subject": "Physical Science",
+                    "level": "3",
+                    "percentage": ""
+                }
+            ]
+        },
+        {
+            "course_name": "Bachelor of Science in Environmental Sciences with Zoology and Chemistry",
+            "course_code": "",
+            "duration": "3",
+            "aps": "26",
+            "required_subjects": [
+                {
+                    "subject": "Mathematics level 4 OR Technical Mathematics",
+                    "level": "5",
+                    "percentage": ""
+                },
+                {
+                    "subject": "Physical Science",
+                    "level": "4",
+                    "percentage": ""
+                }
+            ]
+        },
+        {
+            "course_name": "Bachelor of Science in Environmental Sciences with Chemistry and Geography",
+            "course_code": "",
+            "duration": "3",
+            "aps": "26",
+            "required_subjects": [
+                {
+                    "subject": "Mathematics",
+                    "level": "5",
+                    "percentage": ""
+                },
+                {
+                    "subject": "Physical Science",
+                    "level": "4",
+                    "percentage": ""
+                }
+            ]
+        },
+        {
+            "course_name": "Bachelor of Science in Biological Sciences with Zoology and Botany",
+            "course_code": "",
+            "duration": "3",
+            "aps": "26",
+            "required_subjects": [
+                {
+                    "subject": "Mathematics level 4 OR Technical Mathematics",
+                    "level": "5",
+                    "percentage": ""
+                },
+                {
+                    "subject": "Physical Science",
+                    "level": "4",
+                    "percentage": ""
+                }
+            ]
+        },
+        {
+            "course_name": "Bachelor of Science in Biological Sciences with Chemistry and Physiology",
+            "course_code": "",
+            "duration": "3",
+            "aps": "26",
+            "required_subjects": [
+                {
+                    "subject": "Mathematics level 4 OR Technical Mathematics",
+                    "level": "5",
+                    "percentage": ""
+                },
+                {
+                    "subject": "Physical Science",
+                    "level": "4",
+                    "percentage": ""
+                }
+            ]
+        },
+        {
+            "course_name": "Bachelor of Science with Electronics and Mathematics",
+            "course_code": "",
+            "duration": "3",
+            "aps": "26",
+            "required_subjects": [
+                {
+                    "subject": "Mathematics",
+                    "level": "5",
+                    "percentage": ""
+                },
+                {
+                    "subject": "Physical Science",
+                    "level": "4",
+                    "percentage": ""
+                }
+            ]
+        },
+        {
+            "course_name": "Extended Bachelor of Science with Electronics and Physics",
+            "course_code": "",
+            "duration": "4",
+            "aps": "24",
+            "required_subjects": [
+                {
+                    "subject": "English",
+                    "level": "4",
+                    "percentage": ""
+                },
+                {
+                    "subject": "Mathematics level 3 OR Technical Mathematics",
+                    "level": "4",
+                    "percentage": ""
+                },
+                {
+                    "subject": "Physical Science",
+                    "level": "3",
+                    "percentage": ""
+                }
+            ]
+        },
+        {
+            "course_name": "Bachelor of Science in Urban and Regional Planning",
+            "course_code": "",
+            "duration": "4",
+            "aps": "28",
+            "required_subjects": [
+                {
+                    "subject": "Mathematics level 4 OR Technical Mathematics",
+                    "level": "5",
+                    "percentage": ""
+                },
+                {
+                    "subject": "SELECTION TEST",
+                    "level": ""
+                }
+            ]
+        },
+        {
+            "course_name": "Bachelor of Science in Agricultural Sciences with Agronomy and Agricultural Economics",
+            "course_code": "",
+            "duration": "4",
+            "aps": "26",
+            "required_subjects": [
+                {
+                    "subject": "English",
+                    "level": "4",
+                    "percentage": ""
+                },
+                {
+                    "subject": "Physical Science",
+                    "level": "4",
+                    "percentage": ""
+                },
+                {
+                    "subject": "Mathematics level 4 OR Technical Mathematics",
+                    "level": "5",
+                    "percentage": ""
+                }
+            ]
+        },
+        {
+            "course_name": "Bachelor of Science with Chemistry and Physics",
+            "course_code": "",
+            "duration": "3",
+            "aps": "26",
+            "required_subjects": [
+                {
+                    "subject": "Mathematics",
+                    "level": "5",
+                    "percentage": ""
+                },
+                {
+                    "subject": "Physical Science",
+                    "level": "4",
+                    "percentage": ""
+                }
+            ]
+        },
+        {
+            "course_name": "Extended Bachelor of Science Environmental Sciences with Geography and Computer Science",
+            "course_code": "",
+            "duration": "4",
+            "aps": "24",
+            "required_subjects": [
+                {
+                    "subject": "English",
+                    "level": "4",
+                    "percentage": ""
+                },
+                {
+                    "subject": "Mathematics level 3 OR Technical Mathematics",
+                    "level": "4",
+                    "percentage": ""
+                },
+                {
+                    "subject": "Physical Science",
+                    "level": "3",
+                    "percentage": ""
+                }
+            ]
+        },
+        {
+            "course_name": "Extended Bachelor of Science with Physics and Applied Mathematics",
+            "course_code": "",
+            "duration": "4",
+            "aps": "24",
+            "required_subjects": [
+                {
+                    "subject": "English",
+                    "level": "4",
+                    "percentage": ""
+                },
+                {
+                    "subject": "Mathematics level 3 OR Technical Mathematics",
+                    "level": "4",
+                    "percentage": ""
+                },
+                {
+                    "subject": "Physical Science",
+                    "level": "3",
+                    "percentage": ""
+                }
+            ]
+        },
+        {
+            "course_name": "Extended Bachelor of Science with Biochemistry and Chemistry",
+            "course_code": "",
+            "duration": "4",
+            "aps": "24",
+            "required_subjects": [
+                {
+                    "subject": "English",
+                    "level": "4",
+                    "percentage": ""
+                },
+                {
+                    "subject": "Mathematics level 3 OR Technical Mathematics",
+                    "level": "4",
+                    "percentage": ""
+                },
+                {
+                    "subject": "Physical Science",
+                    "level": "3",
+                    "percentage": ""
+                }
+            ]
+        },
+        {
+            "course_name": "Bachelor of Science with Physics and Applied Mathematics",
+            "course_code": "",
+            "duration": "3",
+            "aps": "26",
+            "required_subjects": [
+                {
+                    "subject": "Mathematics",
+                    "level": "5",
+                    "percentage": ""
+                },
+                {
+                    "subject": "Physical Science",
+                    "level": "4",
+                    "percentage": ""
+                }
+            ]
+        },
+        {
+            "course_name": "Bachelor of Science in Biological Sciences with Microbiology and Biochemistry",
+            "course_code": "",
+            "duration": "3",
+            "aps": "26",
+            "required_subjects": [
+                {
+                    "subject": "Mathematics level 4 OR Technical Mathematics",
+                    "level": "5",
+                    "percentage": ""
+                },
+                {
+                    "subject": "Physical Science",
+                    "level": "4",
+                    "percentage": ""
+                }
+            ]
+        },
+        {
+            "course_name": "Extended Bachelor of Science in Business Analytics",
+            "course_code": "",
+            "duration": "4",
+            "aps": "28",
+            "required_subjects": [
+                {
+                    "subject": "Mathematics level 4 OR Technical Mathematics",
+                    "level": "5",
+                    "percentage": ""
+                }
+            ]
+        },
+        {
+            "course_name": "Extended Bachelor of Science Environmental Sciences with Chemistry and Geography",
+            "course_code": "",
+            "duration": "4",
+            "aps": "24",
+            "required_subjects": [
+                {
+                    "subject": "English",
+                    "level": "4",
+                    "percentage": ""
+                },
+                {
+                    "subject": "Mathematics level 3 OR Technical Mathematics",
+                    "level": "4",
+                    "percentage": ""
+                },
+                {
+                    "subject": "Physical Science",
+                    "level": "3",
+                    "percentage": ""
+                }
+            ]
+        },
+        {
+            "course_name": "Bachelor of Science with Physics and Computer Science",
+            "course_code": "",
+            "duration": "3",
+            "aps": "26",
+            "required_subjects": [
+                {
+                    "subject": "Mathematics",
+                    "level": "5",
+                    "percentage": ""
+                },
+                {
+                    "subject": "Physical Science",
+                    "level": "4",
+                    "percentage": ""
+                }
+            ]
+        },
+        {
+            "course_name": "Extended Bachelor of Science Biological Sciences with Microbiology and Biochemistry",
+            "course_code": "",
+            "duration": "4",
+            "aps": "24",
+            "required_subjects": [
+                {
+                    "subject": "English",
+                    "level": "4",
+                    "percentage": ""
+                },
+                {
+                    "subject": "Mathematics level 3 OR Technical Mathematics",
+                    "level": "4",
+                    "percentage": ""
+                },
+                {
+                    "subject": "Physical Science",
+                    "level": "3",
+                    "percentage": ""
+                }
+            ]
+        },
+        {
+            "course_name": "Bachelor of Science with Computer Science and Electronics",
+            "course_code": "",
+            "duration": "3",
+            "aps": "26",
+            "required_subjects": [
+                {
+                    "subject": "Mathematics",
+                    "level": "5",
+                    "percentage": ""
+                },
+                {
+                    "subject": "Physical Science",
+                    "level": "4",
+                    "percentage": ""
+                }
+            ]
+        },
+        {
+            "course_name": "Bachelor of Science in Biological Sciences with Zoology and Physiology",
+            "course_code": "",
+            "duration": "3",
+            "aps": "26",
+            "required_subjects": [
+                {
+                    "subject": "Mathematics level 4 OR Technical Mathematics",
+                    "level": "5",
+                    "percentage": ""
+                },
+                {
+                    "subject": "Physical Science",
+                    "level": "4",
+                    "percentage": ""
+                }
+            ]
+        },
+        {
+            "course_name": "Bachelor of Science in Biological Sciences with Zoology and Microbiology",
+            "course_code": "",
+            "duration": "3",
+            "aps": "26",
+            "required_subjects": [
+                {
+                    "subject": "Mathematics level 4 OR Technical Mathematics",
+                    "level": "5",
+                    "percentage": ""
+                },
+                {
+                    "subject": "Physical Science",
+                    "level": "4",
+                    "percentage": ""
+                }
+            ]
+        },
+        {
+            "course_name": "Bachelor of Science in Biological Sciences with Botany and Biochemistry",
+            "course_code": "",
+            "duration": "3",
+            "aps": "26",
+            "required_subjects": [
+                {
+                    "subject": "Mathematics level 4 OR Technical Mathematics",
+                    "level": "5",
+                    "percentage": ""
+                },
+                {
+                    "subject": "Physical Science",
+                    "level": "4",
+                    "percentage": ""
+                }
+            ]
+        }
+    ],
+    "FACULTY OF ECONOMIC & MANAGEMENT SCIENCES": [
+        {
+            "course_name": "Bachelor of Administration (BAdmin) Industrial and Organisational Psychology Extended programme",
+            "course_code": "",
+            "duration": "4",
+            "aps": "21",
+            "required_subjects": [
+                {
+                    "subject": "Mathematics level 3  or Mathematical Literacy",
+                    "level": "4",
+                    "percentage": ""
+                },
+                {
+                    "subject": "English",
+                    "level": "4",
+                    "percentage": ""
+                },
+                {
+                    "subject": "DURATION",
+                    "level": "4"
+                }
+            ]
+        },
+        {
+            "course_name": "Bachelor of Commerce (BCom) in Economic Sciences with Econometrics Extended programme",
+            "course_code": "",
+            "duration": "4",
+            "aps": "20",
+            "required_subjects": [
+                {
+                    "subject": "Mathematics level 3  OR Mathematical Literacy",
+                    "level": "4",
+                    "percentage": ""
+                },
+                {
+                    "subject": "English",
+                    "level": "3",
+                    "percentage": ""
+                },
+                {
+                    "subject": "DURATION",
+                    "level": "4"
+                }
+            ]
+        },
+        {
+            "course_name": "Bachelor of Commerce (BCom) in Financial Accountancy Extended Programme",
+            "course_code": "",
+            "duration": "4",
+            "aps": "24",
+            "required_subjects": [
+                {
+                    "subject": "Mathematics level 3  or Mathematical Literacy",
+                    "level": "7",
+                    "percentage": ""
+                },
+                {
+                    "subject": "English",
+                    "level": "4",
+                    "percentage": ""
+                },
+                {
+                    "subject": "DURATION",
+                    "level": "4"
+                }
+            ]
+        },
+        {
+            "course_name": "Bachelor of Commerce (BCom) in Management Sciences with Tourism Management",
+            "course_code": "",
+            "duration": "3",
+            "aps": "24",
+            "required_subjects": [
+                {
+                    "subject": "Mathematics",
+                    "level": "3",
+                    "percentage": ""
+                },
+                {
+                    "subject": "Afrikaans",
+                    "level": "4",
+                    "percentage": ""
+                },
+                {
+                    "subject": "DURATION",
+                    "level": "3"
+                }
+            ]
+        },
+        {
+            "course_name": "Bachelor of Commerce (BCom) in Management Sciences with Sport Business Management",
+            "course_code": "",
+            "duration": "3",
+            "aps": "24",
+            "required_subjects": [
+                {
+                    "subject": "Mathematics level 3  OR Mathematical Literacy",
+                    "level": "6",
+                    "percentage": ""
+                },
+                {
+                    "subject": "Afrikaans or English",
+                    "level": "4",
+                    "percentage": ""
+                },
+                {
+                    "subject": "DURATION",
+                    "level": "3"
+                }
+            ]
+        },
+        {
+            "course_name": "Bachelor of Commerce (BCom) in Management Sciences with Marketing Management Extended programme",
+            "course_code": "",
+            "duration": "4",
+            "aps": "20",
+            "required_subjects": [
+                {
+                    "subject": "Mathematics level 3  OR Mathematical Literacy",
+                    "level": "4",
+                    "percentage": ""
+                },
+                {
+                    "subject": "English",
+                    "level": "3",
+                    "percentage": ""
+                },
+                {
+                    "subject": "DURATION",
+                    "level": "4"
+                }
+            ]
+        },
+        {
+            "course_name": "Bachelor of Commerce (BCom) in Statistics Extended Programme",
+            "course_code": "",
+            "duration": "4",
+            "aps": "20",
+            "required_subjects": [
+                {
+                    "subject": "Mathematics level 3  OR Mathematical Literacy",
+                    "level": "4",
+                    "percentage": ""
+                },
+                {
+                    "subject": "English",
+                    "level": "3",
+                    "percentage": ""
+                },
+                {
+                    "subject": "DURATION",
+                    "level": "4"
+                }
+            ]
+        },
+        {
+            "course_name": "Bachelor of Commerce (BCom) in Economic Sciences with Risk Management Extended programme",
+            "course_code": "",
+            "duration": "4",
+            "aps": "24",
+            "required_subjects": [
+                {
+                    "subject": "Mathematics level 3  OR Mathematical Literacy",
+                    "level": "6",
+                    "percentage": ""
+                },
+                {
+                    "subject": "English",
+                    "level": "3",
+                    "percentage": ""
+                },
+                {
+                    "subject": "DURATION",
+                    "level": "4"
+                }
+            ]
+        },
+        {
+            "course_name": "Bachelor of Administration (BAdmin) Human Resource Management Extended programme",
+            "course_code": "",
+            "duration": "4",
+            "aps": "21",
+            "required_subjects": [
+                {
+                    "subject": "Mathematics level 3  or Mathematical Literacy",
+                    "level": "4",
+                    "percentage": ""
+                },
+                {
+                    "subject": "English",
+                    "level": "4",
+                    "percentage": ""
+                },
+                {
+                    "subject": "DURATION",
+                    "level": "4"
+                }
+            ]
+        },
+        {
+            "course_name": "Bachelor of Commerce (BCom) in Business Operations with Logistics Management Extended Programme",
+            "course_code": "",
+            "duration": "4",
+            "aps": "20",
+            "required_subjects": [
+                {
+                    "subject": "Mathematics level 3  OR Mathematical Literacy",
+                    "level": "4",
+                    "percentage": ""
+                },
+                {
+                    "subject": "English",
+                    "level": "3",
+                    "percentage": ""
+                },
+                {
+                    "subject": "DURATION",
+                    "level": "4"
+                }
+            ]
+        },
+        {
+            "course_name": "Bachelor of Commerce (BCom) in Economic Sciences with International Trade",
+            "course_code": "",
+            "duration": "3",
+            "aps": "26",
+            "required_subjects": [
+                {
+                    "subject": "Mathematics",
+                    "level": "4",
+                    "percentage": ""
+                },
+                {
+                    "subject": "Afrikaans or English",
+                    "level": "4",
+                    "percentage": ""
+                },
+                {
+                    "subject": "DURATION",
+                    "level": "3"
+                }
+            ]
+        },
+        {
+            "course_name": "Bachelor of Commerce (BCom) in Financial Accountancy",
+            "course_code": "",
+            "duration": "3",
+            "aps": "28",
+            "required_subjects": [
+                {
+                    "subject": "Mathematics",
+                    "level": "4",
+                    "percentage": ""
+                },
+                {
+                    "subject": "Language of study on campus of application",
+                    "level": "4",
+                    "percentage": ""
+                },
+                {
+                    "subject": "DURATION",
+                    "level": "3"
+                }
+            ]
+        },
+        {
+            "course_name": "Bachelor of Commerce (BCom) in Business Operations with Logistics Management",
+            "course_code": "",
+            "duration": "3",
+            "aps": "24",
+            "required_subjects": [
+                {
+                    "subject": "Mathematics",
+                    "level": "3",
+                    "percentage": ""
+                },
+                {
+                    "subject": "English",
+                    "level": "4",
+                    "percentage": ""
+                },
+                {
+                    "subject": "DURATION",
+                    "level": "3"
+                }
+            ]
+        },
+        {
+            "course_name": "Bachelor of Commerce (BCom) in Statistics",
+            "course_code": "",
+            "duration": "3",
+            "aps": "24",
+            "required_subjects": [
+                {
+                    "subject": "Mathematics",
+                    "level": "4",
+                    "percentage": ""
+                },
+                {
+                    "subject": "English",
+                    "level": "4",
+                    "percentage": ""
+                },
+                {
+                    "subject": "DURATION",
+                    "level": "3"
+                }
+            ]
+        },
+        {
+            "course_name": "Bachelor of Commerce (BCom) Industrial and Organisational Psychology with Labour Relations Management",
+            "course_code": "",
+            "duration": "3",
+            "aps": "30",
+            "required_subjects": [
+                {
+                    "subject": "Mathematics",
+                    "level": "4",
+                    "percentage": ""
+                },
+                {
+                    "subject": "Afrikaans or English",
+                    "level": "4",
+                    "percentage": ""
+                },
+                {
+                    "subject": "DURATION",
+                    "level": "3"
+                }
+            ]
+        },
+        {
+            "course_name": "Bachelor of Administration (BAdmin) Human Resource Management",
+            "course_code": "",
+            "duration": "3",
+            "aps": "23",
+            "required_subjects": [
+                {
+                    "subject": "Mathematics level 3  or Mathematical Literacy",
+                    "level": "4",
+                    "percentage": ""
+                },
+                {
+                    "subject": "English",
+                    "level": "4",
+                    "percentage": ""
+                },
+                {
+                    "subject": "DURATION",
+                    "level": "3"
+                }
+            ]
+        },
+        {
+            "course_name": "Bachelor of Arts (BA) in Industrial and Organisational Psychology and Labour Relations Management",
+            "course_code": "",
+            "duration": "3",
+            "aps": "26",
+            "required_subjects": [
+                {
+                    "subject": "Mathematics level 4  OR Mathematical Literacy",
+                    "level": "5",
+                    "percentage": ""
+                },
+                {
+                    "subject": "Afrikaans or English",
+                    "level": "4",
+                    "percentage": ""
+                },
+                {
+                    "subject": "DURATION",
+                    "level": "3"
+                }
+            ]
+        },
+        {
+            "course_name": "Bachelor of Commerce (BCom) in Business Operations with Transport Economics",
+            "course_code": "",
+            "duration": "3",
+            "aps": "24",
+            "required_subjects": [
+                {
+                    "subject": "Mathematics",
+                    "level": "3",
+                    "percentage": ""
+                },
+                {
+                    "subject": "English",
+                    "level": "4",
+                    "percentage": ""
+                },
+                {
+                    "subject": "DURATION",
+                    "level": "3"
+                }
+            ]
+        },
+        {
+            "course_name": "Bachelor of Commerce (BCom) in Management Sciences with Marketing Management",
+            "course_code": "",
+            "duration": "3",
+            "aps": "24",
+            "required_subjects": [
+                {
+                    "subject": "Mathematics",
+                    "level": "3",
+                    "percentage": ""
+                },
+                {
+                    "subject": "MC \u2013 English",
+                    "level": "4",
+                    "percentage": ""
+                },
+                {
+                    "subject": "PC",
+                    "level": ""
+                },
+                {
+                    "subject": "VC \u2013 Afrikaans or English",
+                    "level": "4",
+                    "percentage": ""
+                },
+                {
+                    "subject": "DURATION",
+                    "level": "3"
+                }
+            ]
+        },
+        {
+            "course_name": "Bachelor of Commerce (BCom) in Chartered Accountancy",
+            "course_code": "",
+            "duration": "3",
+            "aps": "32",
+            "required_subjects": []
+        },
+        {
+            "course_name": "Bachelor of Commerce (BCom) in Accounting",
+            "course_code": "",
+            "duration": "3",
+            "aps": "24",
+            "required_subjects": [
+                {
+                    "subject": "Mathematics",
+                    "level": "3",
+                    "percentage": ""
+                },
+                {
+                    "subject": "English",
+                    "level": "4",
+                    "percentage": ""
+                },
+                {
+                    "subject": "DURATION",
+                    "level": "3"
+                }
+            ]
+        },
+        {
+            "course_name": "Bachelor of Commerce (BCom) Human Resource Management",
+            "course_code": "",
+            "duration": "3",
+            "aps": "30",
+            "required_subjects": [
+                {
+                    "subject": "Mathematics",
+                    "level": "4",
+                    "percentage": ""
+                },
+                {
+                    "subject": "Afrikaans or English",
+                    "level": "4",
+                    "percentage": ""
+                },
+                {
+                    "subject": "DURATION",
+                    "level": "3"
+                }
+            ]
+        },
+        {
+            "course_name": "Bachelor of Commerce (BCom) in Operations Research",
+            "course_code": "",
+            "duration": "3",
+            "aps": "24",
+            "required_subjects": [
+                {
+                    "subject": "Mathematics",
+                    "level": "4",
+                    "percentage": ""
+                },
+                {
+                    "subject": "English",
+                    "level": "4",
+                    "percentage": ""
+                },
+                {
+                    "subject": "DURATION",
+                    "level": "3"
+                }
+            ]
+        },
+        {
+            "course_name": "Bachelor of Commerce (BCom) in Economic Sciences with International Trade Extended programme",
+            "course_code": "",
+            "duration": "4",
+            "aps": "24",
+            "required_subjects": [
+                {
+                    "subject": "Mathematics level 3  OR Mathematical Literacy",
+                    "level": "6",
+                    "percentage": ""
+                },
+                {
+                    "subject": "English",
+                    "level": "3",
+                    "percentage": ""
+                },
+                {
+                    "subject": "DURATION",
+                    "level": "4"
+                }
+            ]
+        },
+        {
+            "course_name": "Bachelor of Commerce (BCom) in Economic Sciences with Agricultural Economics and Risk Management",
+            "course_code": "",
+            "duration": "3",
+            "aps": "26",
+            "required_subjects": [
+                {
+                    "subject": "Mathematics",
+                    "level": "4",
+                    "percentage": ""
+                },
+                {
+                    "subject": "Afrikaans",
+                    "level": "4",
+                    "percentage": ""
+                },
+                {
+                    "subject": "DURATION",
+                    "level": "3"
+                }
+            ]
+        },
+        {
+            "course_name": "Bachelor of Commerce (BCom) in Economic Sciences with Information Systems Extended programme",
+            "course_code": "",
+            "duration": "4",
+            "aps": "20",
+            "required_subjects": [
+                {
+                    "subject": "Mathematics level 3  OR Mathematical Literacy",
+                    "level": "4",
+                    "percentage": ""
+                },
+                {
+                    "subject": "English",
+                    "level": "3",
+                    "percentage": ""
+                },
+                {
+                    "subject": "DURATION",
+                    "level": "4"
+                }
+            ]
+        },
+        {
+            "course_name": "Bachelor of Commerce (BCom) in Management Accountancy",
+            "course_code": "",
+            "duration": "3",
+            "aps": "30",
+            "required_subjects": [
+                {
+                    "subject": "Mathematics",
+                    "level": "5",
+                    "percentage": ""
+                },
+                {
+                    "subject": "Language of study on campus of application",
+                    "level": "4",
+                    "percentage": ""
+                },
+                {
+                    "subject": "DURATION",
+                    "level": "3"
+                }
+            ]
+        },
+        {
+            "course_name": "Bachelor of Commerce (BCom) in Economic Sciences with Information Systems",
+            "course_code": "",
+            "duration": "3",
+            "aps": "26",
+            "required_subjects": [
+                {
+                    "subject": "Mathematics",
+                    "level": "4",
+                    "percentage": ""
+                },
+                {
+                    "subject": "English",
+                    "level": "4",
+                    "percentage": ""
+                },
+                {
+                    "subject": "DURATION",
+                    "level": "3"
+                }
+            ]
+        },
+        {
+            "course_name": "Bachelor of Commerce (BCom) in Economic Sciences with Risk Management",
+            "course_code": "",
+            "duration": "3",
+            "aps": "26",
+            "required_subjects": [
+                {
+                    "subject": "Mathematics",
+                    "level": "4",
+                    "percentage": ""
+                },
+                {
+                    "subject": "PC \u2013 Afrikaans",
+                    "level": "4",
+                    "percentage": ""
+                },
+                {
+                    "subject": "VC \u2013 Afrikaans or English",
+                    "level": "4",
+                    "percentage": ""
+                },
+                {
+                    "subject": "DURATION",
+                    "level": "3"
+                }
+            ]
+        },
+        {
+            "course_name": "Bachelor of Commerce (BCom) in Management Sciences with Communication Management",
+            "course_code": "",
+            "duration": "3",
+            "aps": "24",
+            "required_subjects": [
+                {
+                    "subject": "Mathematics level 3  or Mathematical Literacy",
+                    "level": "6",
+                    "percentage": ""
+                },
+                {
+                    "subject": "Afrikaans or English",
+                    "level": "4",
+                    "percentage": ""
+                },
+                {
+                    "subject": "DURATION",
+                    "level": "3"
+                }
+            ]
+        },
+        {
+            "course_name": "Bachelor of Commerce (BCom) in Management Sciences with Safety Management",
+            "course_code": "",
+            "duration": "3",
+            "aps": "24",
+            "required_subjects": [
+                {
+                    "subject": "Mathematics level 3  OR Mathematical Literacy",
+                    "level": "6",
+                    "percentage": ""
+                },
+                {
+                    "subject": "Afrikaans or English",
+                    "level": "4",
+                    "percentage": ""
+                },
+                {
+                    "subject": "DURATION",
+                    "level": "3"
+                }
+            ]
+        },
+        {
+            "course_name": "Bachelor of Arts with Tourism Management",
+            "course_code": "",
+            "duration": "3",
+            "aps": "22",
+            "required_subjects": [
+                {
+                    "subject": "English",
+                    "level": "4",
+                    "percentage": ""
+                },
+                {
+                    "subject": "DURATION",
+                    "level": "3"
+                }
+            ]
+        },
+        {
+            "course_name": "Bachelor of Administration (BAdmin) Industrial and Organisational Psychology",
+            "course_code": "",
+            "duration": "3",
+            "aps": "23",
+            "required_subjects": [
+                {
+                    "subject": "Mathematics level 3  or Mathematical Literacy",
+                    "level": "4",
+                    "percentage": ""
+                },
+                {
+                    "subject": "English",
+                    "level": "4",
+                    "percentage": ""
+                },
+                {
+                    "subject": "DURATION",
+                    "level": "3"
+                }
+            ]
+        },
+        {
+            "course_name": "Bachelor of Commerce (BCom) in Management Sciences with Tourism and Recreation Skills",
+            "course_code": "",
+            "duration": "3",
+            "aps": "24",
+            "required_subjects": [
+                {
+                    "subject": "Mathematics level 3  OR Mathematical Literacy",
+                    "level": "6",
+                    "percentage": ""
+                },
+                {
+                    "subject": "Afrikaans or English",
+                    "level": "4",
+                    "percentage": ""
+                },
+                {
+                    "subject": "DURATION",
+                    "level": "3"
+                }
+            ]
+        },
+        {
+            "course_name": "Bachelor of Commerce (BCom) in Forensic Accountancy",
+            "course_code": "",
+            "duration": "3",
+            "aps": "36",
+            "required_subjects": []
+        },
+        {
+            "course_name": "Bachelor of Commerce (BCom) in Management Sciences with Marketing and Tourism Management",
+            "course_code": "",
+            "duration": "3",
+            "aps": "24",
+            "required_subjects": [
+                {
+                    "subject": "Mathematics level 3  OR Mathematical Literacy",
+                    "level": "6",
+                    "percentage": ""
+                },
+                {
+                    "subject": "Afrikaans or English",
+                    "level": "4",
+                    "percentage": ""
+                },
+                {
+                    "subject": "DURATION",
+                    "level": "3"
+                }
+            ]
+        },
+        {
+            "course_name": "Bachelor of Commerce (BCom) in Economic Sciences with Informatics",
+            "course_code": "",
+            "duration": "3",
+            "aps": "26",
+            "required_subjects": [
+                {
+                    "subject": "Mathematics",
+                    "level": "4",
+                    "percentage": ""
+                },
+                {
+                    "subject": "Afrikaans or English",
+                    "level": "4",
+                    "percentage": ""
+                },
+                {
+                    "subject": "DURATION",
+                    "level": "3"
+                }
+            ]
+        },
+        {
+            "course_name": "Bachelor of Commerce (BCom) in Management Sciences with Business Management",
+            "course_code": "",
+            "duration": "3",
+            "aps": "24",
+            "required_subjects": [
+                {
+                    "subject": "Mathematics",
+                    "level": "3",
+                    "percentage": ""
+                },
+                {
+                    "subject": "MC \u2013 English",
+                    "level": "4",
+                    "percentage": ""
+                },
+                {
+                    "subject": "PC",
+                    "level": ""
+                },
+                {
+                    "subject": "VC \u2013 Afrikaans or English",
+                    "level": "4",
+                    "percentage": ""
+                },
+                {
+                    "subject": "DURATION",
+                    "level": "3"
+                }
+            ]
+        },
+        {
+            "course_name": "Bachelor of Commerce (BCom) in Management Sciences with Business Management Extended programmme",
+            "course_code": "",
+            "duration": "4",
+            "aps": "20",
+            "required_subjects": [
+                {
+                    "subject": "Mathematics level 3  OR Mathematical Literacy",
+                    "level": "4",
+                    "percentage": ""
+                },
+                {
+                    "subject": "English",
+                    "level": "3",
+                    "percentage": ""
+                },
+                {
+                    "subject": "DURATION",
+                    "level": "4"
+                }
+            ]
+        },
+        {
+            "course_name": "Bachelor of Commerce (BCom) in Economic Sciences with Econometrics",
+            "course_code": "",
+            "duration": "3",
+            "aps": "26",
+            "required_subjects": [
+                {
+                    "subject": "Mathematics",
+                    "level": "3",
+                    "percentage": ""
+                },
+                {
+                    "subject": "English",
+                    "level": "4",
+                    "percentage": ""
+                },
+                {
+                    "subject": "DURATION",
+                    "level": "3"
+                }
+            ]
+        },
+        {
+            "course_name": "Bachelor of Commerce (BCom) in Chartered Accountancy Extended Programme",
+            "course_code": "",
+            "duration": "4",
+            "aps": "28",
+            "required_subjects": [
+                {
+                    "subject": "Mathematics",
+                    "level": "3",
+                    "percentage": ""
+                },
+                {
+                    "subject": "English",
+                    "level": "4",
+                    "percentage": ""
+                },
+                {
+                    "subject": "DURATION",
+                    "level": "4"
+                }
+            ]
+        },
+        {
+            "course_name": "Bachelor of Commerce (BCom) in Business Operations with Transport Economics Extended Programme",
+            "course_code": "",
+            "duration": "4",
+            "aps": "20",
+            "required_subjects": [
+                {
+                    "subject": "Mathematics level 3  OR Mathematical Literacy",
+                    "level": "4",
+                    "percentage": ""
+                },
+                {
+                    "subject": "English",
+                    "level": "3",
+                    "percentage": ""
+                },
+                {
+                    "subject": "DURATION",
+                    "level": "4"
+                }
+            ]
+        }
+    ],
+    "FACULTY OF HUMANITIES": [
+        {
+            "course_name": "Bachelor of Social Sciences (BSocSc) with Political Studies and International Relations",
+            "course_code": "",
+            "duration": "3",
+            "aps": "24",
+            "required_subjects": [
+                {
+                    "subject": "Home Language",
+                    "level": "4",
+                    "percentage": ""
+                }
+            ]
+        },
+        {
+            "course_name": "Bachelor of Arts (BA) Humanities with English",
+            "course_code": "",
+            "duration": "3",
+            "aps": "24",
+            "required_subjects": [
+                {
+                    "subject": "English (ENLL): Gr 12 English (HL) level 4  OR English (FAL)",
+                    "level": "5",
+                    "percentage": ""
+                }
+            ]
+        },
+        {
+            "course_name": "Bachelor of Arts (BA) Humanities with Social Anthropology",
+            "course_code": "",
+            "duration": "3",
+            "aps": "24",
+            "required_subjects": [
+                {
+                    "subject": "Please take note of the language entrance requirements: Afrikaans",
+                    "level": ""
+                },
+                {
+                    "subject": "English",
+                    "level": ""
+                },
+                {
+                    "subject": "Setswana",
+                    "level": ""
+                },
+                {
+                    "subject": "Sesotho (various levels)",
+                    "level": ""
+                }
+            ]
+        },
+        {
+            "course_name": "Bachelor of Arts (BA) Humanities with Geography and Society",
+            "course_code": "",
+            "duration": "3",
+            "aps": "24",
+            "required_subjects": [
+                {
+                    "subject": "Please take note of the language entrance requirements: Afrikaans",
+                    "level": ""
+                },
+                {
+                    "subject": "English",
+                    "level": ""
+                },
+                {
+                    "subject": "Setswana",
+                    "level": ""
+                },
+                {
+                    "subject": "Sesotho (various levels)",
+                    "level": ""
+                }
+            ]
+        },
+        {
+            "course_name": "Bachelor of Arts (BA) Humanities with Philosophy",
+            "course_code": "",
+            "duration": "3",
+            "aps": "24",
+            "required_subjects": [
+                {
+                    "subject": "Please take note of the language entrance requirements: Afrikaans",
+                    "level": ""
+                },
+                {
+                    "subject": "English",
+                    "level": ""
+                },
+                {
+                    "subject": "Setswana",
+                    "level": ""
+                },
+                {
+                    "subject": "Sesotho (various levels)",
+                    "level": ""
+                }
+            ]
+        },
+        {
+            "course_name": "Bachelor of Arts (BA) Humanities with Social Sciences",
+            "course_code": "",
+            "duration": "3",
+            "aps": "24",
+            "required_subjects": [
+                {
+                    "subject": "Please take note of the language entrance requirements: Afrikaans",
+                    "level": ""
+                },
+                {
+                    "subject": "English",
+                    "level": ""
+                },
+                {
+                    "subject": "Setswana",
+                    "level": ""
+                },
+                {
+                    "subject": "Sesotho (various levels)",
+                    "level": ""
+                }
+            ]
+        },
+        {
+            "course_name": "Bachelor of Social Sciences (BSocSc) with Economics",
+            "course_code": "",
+            "duration": "3",
+            "aps": "22",
+            "required_subjects": [
+                {
+                    "subject": "Mathematics",
+                    "level": "3",
+                    "percentage": ""
+                },
+                {
+                    "subject": "HL",
+                    "level": ""
+                },
+                {
+                    "subject": "FAL",
+                    "level": "4",
+                    "percentage": ""
+                }
+            ]
+        },
+        {
+            "course_name": "Bachelor of Arts (BA) Humanities with History of Art",
+            "course_code": "",
+            "duration": "3",
+            "aps": "24",
+            "required_subjects": [
+                {
+                    "subject": "Please take note of the language entrance requirements: Afrikaans",
+                    "level": ""
+                },
+                {
+                    "subject": "English",
+                    "level": ""
+                },
+                {
+                    "subject": "Setswana",
+                    "level": ""
+                },
+                {
+                    "subject": "Sesotho (various levels)",
+                    "level": ""
+                }
+            ]
+        },
+        {
+            "course_name": "Bachelor of Arts (BA) in Language and Literary Studies (English, Language Practice, Setswana)",
+            "course_code": "",
+            "duration": "3",
+            "aps": "24",
+            "required_subjects": []
+        },
+        {
+            "course_name": "Bachelor of Arts (BA) in Language Technology",
+            "course_code": "",
+            "duration": "3",
+            "aps": "24",
+            "required_subjects": []
+        },
+        {
+            "course_name": "Bachelor of Arts (BA) in Public Governance with Public Administration and Labour Relations Management",
+            "course_code": "",
+            "duration": "3",
+            "aps": "25",
+            "required_subjects": [
+                {
+                    "subject": "HL or FAL",
+                    "level": "4",
+                    "percentage": ""
+                }
+            ]
+        },
+        {
+            "course_name": "Bachelor of Social Sciences (BSocSc) with Psychology and Social Sciences",
+            "course_code": "",
+            "duration": "3",
+            "aps": "22",
+            "required_subjects": [
+                {
+                    "subject": "Please take note of the language entrance requirements: Afrikaans",
+                    "level": ""
+                },
+                {
+                    "subject": "English",
+                    "level": ""
+                },
+                {
+                    "subject": "Setswana",
+                    "level": ""
+                },
+                {
+                    "subject": "Sesotho (various levels)",
+                    "level": ""
+                }
+            ]
+        },
+        {
+            "course_name": "Bachelor of Arts (BA) Humanities with History",
+            "course_code": "",
+            "duration": "3",
+            "aps": "24",
+            "required_subjects": [
+                {
+                    "subject": "Please take note of the language entrance requirements: Afrikaans",
+                    "level": ""
+                },
+                {
+                    "subject": "English",
+                    "level": ""
+                },
+                {
+                    "subject": "Setswana",
+                    "level": ""
+                },
+                {
+                    "subject": "Sesotho (various levels)",
+                    "level": ""
+                }
+            ]
+        },
+        {
+            "course_name": "Bachelor of Arts (BA) Humanities with Politics",
+            "course_code": "",
+            "duration": "3",
+            "aps": "24",
+            "required_subjects": [
+                {
+                    "subject": "Please take note of the language entrance requirements: Afrikaans",
+                    "level": ""
+                },
+                {
+                    "subject": "English",
+                    "level": ""
+                },
+                {
+                    "subject": "Setswana",
+                    "level": ""
+                },
+                {
+                    "subject": "Sesotho (various levels)",
+                    "level": ""
+                }
+            ]
+        },
+        {
+            "course_name": "Bachelor of Arts (BA) with Sociology and Labour Relations Management",
+            "course_code": "",
+            "duration": "3",
+            "aps": "22",
+            "required_subjects": [
+                {
+                    "subject": "HL",
+                    "level": ""
+                },
+                {
+                    "subject": "FAL",
+                    "level": "4",
+                    "percentage": ""
+                }
+            ]
+        },
+        {
+            "course_name": "Bachelor of Arts (BA) Communication",
+            "course_code": "",
+            "duration": "3",
+            "aps": "24",
+            "required_subjects": [
+                {
+                    "subject": "English (HL or FAL)",
+                    "level": "5",
+                    "percentage": ""
+                }
+            ]
+        },
+        {
+            "course_name": "Bachelor of Social Sciences (BSocSc) with Sociology",
+            "course_code": "",
+            "duration": "3",
+            "aps": "22",
+            "required_subjects": [
+                {
+                    "subject": "Please take note of the language entrance requirements: Afrikaans",
+                    "level": ""
+                },
+                {
+                    "subject": "English",
+                    "level": ""
+                },
+                {
+                    "subject": "Setswana",
+                    "level": ""
+                },
+                {
+                    "subject": "Sesotho (various levels)",
+                    "level": ""
+                }
+            ]
+        },
+        {
+            "course_name": "Bachelor of Arts (BA) in Public Governance with Policing Practice",
+            "course_code": "",
+            "duration": "3",
+            "aps": "25",
+            "required_subjects": [
+                {
+                    "subject": "English",
+                    "level": "4",
+                    "percentage": ""
+                },
+                {
+                    "subject": "If Gr 12 was obtained before 2008 (National Senior Certificate) please visit distance",
+                    "level": ""
+                },
+                {
+                    "subject": "nwu",
+                    "level": ""
+                },
+                {
+                    "subject": "ac",
+                    "level": ""
+                },
+                {
+                    "subject": "za for more information",
+                    "level": ""
+                }
+            ]
+        },
+        {
+            "course_name": "Bachelor of Philosophy (BPhil) with Philosophy, Politics and Economics",
+            "course_code": "",
+            "duration": "3",
+            "aps": "26",
+            "required_subjects": [
+                {
+                    "subject": "HL",
+                    "level": ""
+                },
+                {
+                    "subject": "FAL",
+                    "level": "4",
+                    "percentage": ""
+                }
+            ]
+        },
+        {
+            "course_name": "Bachelor of Social Sciences (BSocSc) with Population Studies",
+            "course_code": "",
+            "duration": "3",
+            "aps": "22",
+            "required_subjects": [
+                {
+                    "subject": "Please take note of the language entrance requirements: Afrikaans",
+                    "level": ""
+                },
+                {
+                    "subject": "English",
+                    "level": ""
+                },
+                {
+                    "subject": "Setswana",
+                    "level": ""
+                },
+                {
+                    "subject": "Sesotho (various levels)",
+                    "level": ""
+                }
+            ]
+        },
+        {
+            "course_name": "Bachelor of Arts (BA) Humanities with French",
+            "course_code": "",
+            "duration": "3",
+            "aps": "24",
+            "required_subjects": [
+                {
+                    "subject": "Please take note of the language entrance requirements: Afrikaans",
+                    "level": ""
+                },
+                {
+                    "subject": "English",
+                    "level": ""
+                },
+                {
+                    "subject": "Setswana",
+                    "level": ""
+                },
+                {
+                    "subject": "Sesotho (various levels)",
+                    "level": ""
+                }
+            ]
+        },
+        {
+            "course_name": "Bachelor of Social Sciences (BSocSc) with History",
+            "course_code": "",
+            "duration": "3",
+            "aps": "22",
+            "required_subjects": [
+                {
+                    "subject": "Please take note of the language entrance requirements: Afrikaans",
+                    "level": ""
+                },
+                {
+                    "subject": "English",
+                    "level": ""
+                },
+                {
+                    "subject": "Setswana",
+                    "level": ""
+                },
+                {
+                    "subject": "Sesotho (various levels)",
+                    "level": ""
+                }
+            ]
+        },
+        {
+            "course_name": "Bachelor of Arts (BA) Humanities with Sesotho",
+            "course_code": "",
+            "duration": "3",
+            "aps": "24",
+            "required_subjects": [
+                {
+                    "subject": "Sesotho (SSLL): Gr 12 Sesotho (HL) level 4  OR Sesotho (FAL)",
+                    "level": "5",
+                    "percentage": ""
+                }
+            ]
+        },
+        {
+            "course_name": "Bachelor of Arts (BA) Humanities with Politics and Society",
+            "course_code": "",
+            "duration": "3",
+            "aps": "24",
+            "required_subjects": [
+                {
+                    "subject": "Please take note of the language entrance requirements: Afrikaans",
+                    "level": ""
+                },
+                {
+                    "subject": "English",
+                    "level": ""
+                },
+                {
+                    "subject": "Setswana",
+                    "level": ""
+                },
+                {
+                    "subject": "Sesotho (various levels)",
+                    "level": ""
+                }
+            ]
+        },
+        {
+            "course_name": "Bachelor of Arts (BA) in Language and Literary Studies (Afrikaans and Dutch, Creative Writing, English, French, German, Language Practice, Setswana, South African Sign Language)",
+            "course_code": "",
+            "duration": "3",
+            "aps": "24",
+            "required_subjects": []
+        },
+        {
+            "course_name": "Bachelor of Arts (BA) Humanities with Psychology and Society",
+            "course_code": "",
+            "duration": "3",
+            "aps": "24",
+            "required_subjects": [
+                {
+                    "subject": "Please take note of the language entrance requirements: Afrikaans",
+                    "level": ""
+                },
+                {
+                    "subject": "English",
+                    "level": ""
+                },
+                {
+                    "subject": "Setswana",
+                    "level": ""
+                },
+                {
+                    "subject": "Sesotho (various levels)",
+                    "level": ""
+                }
+            ]
+        },
+        {
+            "course_name": "Bachelor of Arts (BA) in Graphic Design with Communication",
+            "course_code": "",
+            "duration": "4",
+            "aps": "24",
+            "required_subjects": [
+                {
+                    "subject": "English",
+                    "level": "5",
+                    "percentage": ""
+                },
+                {
+                    "subject": "Screening process",
+                    "level": ""
+                }
+            ]
+        },
+        {
+            "course_name": "Bachelor of Arts (BA) in Public Governance with Public Administration and Geography",
+            "course_code": "",
+            "duration": "3",
+            "aps": "25",
+            "required_subjects": [
+                {
+                    "subject": "HL or FAL",
+                    "level": "4",
+                    "percentage": ""
+                }
+            ]
+        },
+        {
+            "course_name": "Bachelor of Arts (BA) Humanities with Setswana",
+            "course_code": "",
+            "duration": "3",
+            "aps": "24",
+            "required_subjects": [
+                {
+                    "subject": "Setswana (SETM): Gr 12 Setswana (HL) level 4  OR Setswana (FAL)",
+                    "level": "5",
+                    "percentage": ""
+                }
+            ]
+        },
+        {
+            "course_name": "Baccalaureus Musicae (BMus)",
+            "course_code": "",
+            "duration": "4",
+            "aps": "24",
+            "required_subjects": [
+                {
+                    "subject": "National Senior Certificate for degree study",
+                    "level": ""
+                },
+                {
+                    "subject": "OR A Diploma in Music",
+                    "level": ""
+                },
+                {
+                    "subject": "Audition (practical - grade 6)",
+                    "level": ""
+                },
+                {
+                    "subject": "theory placement test (grade 5)",
+                    "level": ""
+                },
+                {
+                    "subject": "language proficiency test",
+                    "level": ""
+                }
+            ]
+        },
+        {
+            "course_name": "Bachelor of Arts (BA) in Language and Literary Studies with Language Practice",
+            "course_code": "",
+            "duration": "3",
+            "aps": "24",
+            "required_subjects": []
+        },
+        {
+            "course_name": "Bachelor of Arts (BA) Humanities with History and Society",
+            "course_code": "",
+            "duration": "3",
+            "aps": "24",
+            "required_subjects": [
+                {
+                    "subject": "Please take note of the language entrance requirements: Afrikaans",
+                    "level": ""
+                },
+                {
+                    "subject": "English",
+                    "level": ""
+                },
+                {
+                    "subject": "Setswana",
+                    "level": ""
+                },
+                {
+                    "subject": "Sesotho (various levels)",
+                    "level": ""
+                }
+            ]
+        },
+        {
+            "course_name": "Bachelor of Arts (BA) in Music and Society",
+            "course_code": "",
+            "duration": "3",
+            "aps": "21",
+            "required_subjects": []
+        },
+        {
+            "course_name": "Bachelor of Administration in Development and Management with Local Government Management",
+            "course_code": "",
+            "duration": "3",
+            "aps": "21",
+            "required_subjects": [
+                {
+                    "subject": "English",
+                    "level": "4",
+                    "percentage": ""
+                },
+                {
+                    "subject": "Mathematics level 3  OR Mathematical Literacy",
+                    "level": "4",
+                    "percentage": ""
+                }
+            ]
+        },
+        {
+            "course_name": "Bachelor of Arts (BA) Humanities with Sociology",
+            "course_code": "",
+            "duration": "3",
+            "aps": "24",
+            "required_subjects": [
+                {
+                    "subject": "Please take note of the language entrance requirements: Afrikaans",
+                    "level": ""
+                },
+                {
+                    "subject": "English",
+                    "level": ""
+                },
+                {
+                    "subject": "Setswana",
+                    "level": ""
+                },
+                {
+                    "subject": "Sesotho (various levels)",
+                    "level": ""
+                }
+            ]
+        },
+        {
+            "course_name": "Extended Bachelor of Administration in Development and Management with Local Government Management",
+            "course_code": "",
+            "duration": "4",
+            "aps": "20",
+            "required_subjects": [
+                {
+                    "subject": "English",
+                    "level": "3",
+                    "percentage": ""
+                },
+                {
+                    "subject": "Mathematics level 3  OR Mathematical Literacy",
+                    "level": "4",
+                    "percentage": ""
+                }
+            ]
+        },
+        {
+            "course_name": "Bachelor of Arts (BA) Humanities with German",
+            "course_code": "",
+            "duration": "3",
+            "aps": "24",
+            "required_subjects": [
+                {
+                    "subject": "Please take note of the language entrance requirements: Afrikaans",
+                    "level": ""
+                },
+                {
+                    "subject": "English",
+                    "level": ""
+                },
+                {
+                    "subject": "Setswana",
+                    "level": ""
+                },
+                {
+                    "subject": "Sesotho (various levels)",
+                    "level": ""
+                }
+            ]
+        },
+        {
+            "course_name": "Diploma in Music (DM)",
+            "course_code": "",
+            "duration": "3",
+            "aps": "18",
+            "required_subjects": [
+                {
+                    "subject": "National Senior Certificate for diploma study",
+                    "level": ""
+                },
+                {
+                    "subject": "English 50% (level 4)",
+                    "level": ""
+                },
+                {
+                    "subject": "Language proficiency test",
+                    "level": ""
+                },
+                {
+                    "subject": "musical aptitude test",
+                    "level": ""
+                },
+                {
+                    "subject": "audition",
+                    "level": ""
+                }
+            ]
+        },
+        {
+            "course_name": "Bachelor of Arts (BA) in Language and Literary Studies with Language Practice and Communication",
+            "course_code": "",
+            "duration": "3",
+            "aps": "24",
+            "required_subjects": []
+        },
+        {
+            "course_name": "Bachelor of Arts (BA) with Sociology and Geography",
+            "course_code": "",
+            "duration": "3",
+            "aps": "22",
+            "required_subjects": [
+                {
+                    "subject": "HL",
+                    "level": ""
+                },
+                {
+                    "subject": "FAL",
+                    "level": "4",
+                    "percentage": ""
+                }
+            ]
+        },
+        {
+            "course_name": "Bachelor of Arts (BA) Humanities with Psychology",
+            "course_code": "",
+            "duration": "3",
+            "aps": "24",
+            "required_subjects": [
+                {
+                    "subject": "Please take note of the language entrance requirements: Afrikaans",
+                    "level": ""
+                },
+                {
+                    "subject": "English",
+                    "level": ""
+                },
+                {
+                    "subject": "Setswana",
+                    "level": ""
+                },
+                {
+                    "subject": "Sesotho (various levels)",
+                    "level": ""
+                }
+            ]
+        },
+        {
+            "course_name": "Bachelor of Arts (BA) in Public Governance with Public Administration and Social Studies",
+            "course_code": "",
+            "duration": "3",
+            "aps": "25",
+            "required_subjects": [
+                {
+                    "subject": "HL or FAL",
+                    "level": "4",
+                    "percentage": ""
+                }
+            ]
+        },
+        {
+            "course_name": "Bachelor of Arts (BA) Humanities with Afrikaans and Dutch",
+            "course_code": "",
+            "duration": "3",
+            "aps": "24",
+            "required_subjects": [
+                {
+                    "subject": "Afrikaans (AFLL): Gr 12 Afrikaans (HL) level 4  OR Afrikaans (FAL)",
+                    "level": "5",
+                    "percentage": ""
+                }
+            ]
+        },
+        {
+            "course_name": "Bachelor of Social Sciences (BSocSc) with Social Anthropology",
+            "course_code": "",
+            "duration": "3",
+            "aps": "22",
+            "required_subjects": [
+                {
+                    "subject": "Please take note of the language entrance requirements: Afrikaans",
+                    "level": ""
+                },
+                {
+                    "subject": "English",
+                    "level": ""
+                },
+                {
+                    "subject": "Setswana",
+                    "level": ""
+                },
+                {
+                    "subject": "Sesotho (various levels)",
+                    "level": ""
+                }
+            ]
+        },
+        {
+            "course_name": "Bachelor of Arts (BA) in Behavioural Sciences with Sociology and Psychology",
+            "course_code": "",
+            "duration": "3",
+            "aps": "22",
+            "required_subjects": [
+                {
+                    "subject": "HL",
+                    "level": ""
+                },
+                {
+                    "subject": "FAL",
+                    "level": "4",
+                    "percentage": ""
+                }
+            ]
+        },
+        {
+            "course_name": "Bachelor of Arts (BA) in Graphic Design Graphic Design",
+            "course_code": "",
+            "duration": "4",
+            "aps": "24",
+            "required_subjects": [
+                {
+                    "subject": "English",
+                    "level": "5",
+                    "percentage": ""
+                },
+                {
+                    "subject": "Screening process",
+                    "level": ""
+                }
+            ]
+        },
+        {
+            "course_name": "Bachelor of Social Sciences (BSocSc) with Geography",
+            "course_code": "",
+            "duration": "3",
+            "aps": "22",
+            "required_subjects": [
+                {
+                    "subject": "Please take note of the language entrance requirements: Afrikaans",
+                    "level": ""
+                },
+                {
+                    "subject": "English",
+                    "level": ""
+                },
+                {
+                    "subject": "Setswana",
+                    "level": ""
+                },
+                {
+                    "subject": "Sesotho (various levels)",
+                    "level": ""
+                }
+            ]
+        },
+        {
+            "course_name": "Bachelor of Arts (BA) Humanities with Geography",
+            "course_code": "",
+            "duration": "3",
+            "aps": "24",
+            "required_subjects": [
+                {
+                    "subject": "Please take note of the language entrance requirements: Afrikaans",
+                    "level": ""
+                },
+                {
+                    "subject": "English",
+                    "level": ""
+                },
+                {
+                    "subject": "Setswana",
+                    "level": ""
+                },
+                {
+                    "subject": "Sesotho (various levels)",
+                    "level": ""
+                }
+            ]
+        },
+        {
+            "course_name": "Bachelor of Social Sciences (BSocSc) with Development Studies",
+            "course_code": "",
+            "duration": "3",
+            "aps": "22",
+            "required_subjects": [
+                {
+                    "subject": "Please take note of the language entrance requirements: Afrikaans",
+                    "level": ""
+                },
+                {
+                    "subject": "English",
+                    "level": ""
+                },
+                {
+                    "subject": "Setswana",
+                    "level": ""
+                },
+                {
+                    "subject": "Sesotho (various levels)",
+                    "level": ""
+                }
+            ]
+        },
+        {
+            "course_name": "Bachelor of Arts (BA) in Language and Literary Studies with Languages",
+            "course_code": "",
+            "duration": "3",
+            "aps": "24",
+            "required_subjects": []
+        },
+        {
+            "course_name": "Bachelor of Arts (BA) in Public Governance with Public Administration",
+            "course_code": "",
+            "duration": "3",
+            "aps": "25",
+            "required_subjects": [
+                {
+                    "subject": "HL or FAL",
+                    "level": "4",
+                    "percentage": ""
+                }
+            ]
+        },
+        {
+            "course_name": "Bachelor of Arts (BA) in Public Governance with Politics and Public Administration",
+            "course_code": "",
+            "duration": "3",
+            "aps": "25",
+            "required_subjects": [
+                {
+                    "subject": "HL or FAL",
+                    "level": "4",
+                    "percentage": ""
+                }
+            ]
+        }
+    ],
+    "FACULTY OF HEALTH SCIENCES": [
+        {
+            "course_name": "Bachelor of Social Work (Social Work)",
+            "course_code": "",
+            "duration": "4",
+            "aps": "28",
+            "required_subjects": [
+                {
+                    "subject": "Level 4  for language of tuition",
+                    "level": ""
+                },
+                {
+                    "subject": "Late applications will be considered on merit",
+                    "level": ""
+                },
+                {
+                    "subject": "Best average mark",
+                    "level": ""
+                },
+                {
+                    "subject": "Academic paper selection",
+                    "level": ""
+                }
+            ]
+        },
+        {
+            "course_name": "Bachelor of Consumer Studies (in Fashion Retail Management)",
+            "course_code": "",
+            "duration": "4",
+            "aps": "24",
+            "required_subjects": []
+        },
+        {
+            "course_name": "Bachelor of Health Sciences (Sport and Recreation Administration)",
+            "course_code": "",
+            "duration": "3",
+            "aps": "24",
+            "required_subjects": [
+                {
+                    "subject": "Level 4  for language of tuition",
+                    "level": ""
+                },
+                {
+                    "subject": "Academic paper selection",
+                    "level": ""
+                },
+                {
+                    "subject": "Best average mark",
+                    "level": ""
+                }
+            ]
+        },
+        {
+            "course_name": "Bachelor of Health Sciences in Biokinetics (Biokinetics)",
+            "course_code": "",
+            "duration": "4",
+            "aps": "32",
+            "required_subjects": []
+        },
+        {
+            "course_name": "Diploma in Coaching Science (Sport Coaching)",
+            "course_code": "",
+            "duration": "2",
+            "aps": "18",
+            "required_subjects": [
+                {
+                    "subject": "Level 4  for language of tuition",
+                    "level": ""
+                },
+                {
+                    "subject": "Academic paper selection",
+                    "level": ""
+                },
+                {
+                    "subject": "Best average mark",
+                    "level": ""
+                }
+            ]
+        },
+        {
+            "course_name": "Bachelor of Consumer Studies (in Food Product Management)",
+            "course_code": "",
+            "duration": "4",
+            "aps": "24",
+            "required_subjects": []
+        },
+        {
+            "course_name": "Bachelor of Health Sciences (Physiology and Biochemistry)",
+            "course_code": "",
+            "duration": "3",
+            "aps": "26",
+            "required_subjects": []
+        },
+        {
+            "course_name": "Bachelor of Nursing (Nursing)",
+            "course_code": "",
+            "duration": "4",
+            "aps": "25",
+            "required_subjects": []
+        },
+        {
+            "course_name": "Bachelor of Consumer Studies (Consumer Studies)",
+            "course_code": "",
+            "duration": "3",
+            "aps": "24",
+            "required_subjects": []
+        },
+        {
+            "course_name": "Bachelor of Arts (Psychology and Tourism Management)",
+            "course_code": "",
+            "duration": "3",
+            "aps": "26",
+            "required_subjects": [
+                {
+                    "subject": "Mathematics level 3  or Mathematical Literacy",
+                    "level": "5",
+                    "percentage": ""
+                },
+                {
+                    "subject": "Level 4  for language of tuition",
+                    "level": ""
+                },
+                {
+                    "subject": "Academic paper selection",
+                    "level": ""
+                }
+            ]
+        },
+        {
+            "course_name": "Bachelor of Pharmacy (Pharmacy)",
+            "course_code": "",
+            "duration": "4",
+            "aps": "32",
+            "required_subjects": []
+        },
+        {
+            "course_name": "Bachelor of Health Sciences (Recreation Science and Tourism Management)",
+            "course_code": "",
+            "duration": "3",
+            "aps": "24",
+            "required_subjects": [
+                {
+                    "subject": "Level 4  for language of tuition",
+                    "level": ""
+                },
+                {
+                    "subject": "Academic paper selection",
+                    "level": ""
+                },
+                {
+                    "subject": "Best average mark",
+                    "level": ""
+                }
+            ]
+        },
+        {
+            "course_name": "Bachelor of Science in Dietetics (Dietetics)",
+            "course_code": "",
+            "duration": "4",
+            "aps": "30",
+            "required_subjects": [
+                {
+                    "subject": "Mathematics on",
+                    "level": "5",
+                    "percentage": ""
+                },
+                {
+                    "subject": "Physical Sciences on",
+                    "level": "5",
+                    "percentage": ""
+                },
+                {
+                    "subject": "Level 4  for language of tuition",
+                    "level": ""
+                },
+                {
+                    "subject": "Academic paper selection",
+                    "level": ""
+                },
+                {
+                    "subject": "Best average mark",
+                    "level": ""
+                }
+            ]
+        },
+        {
+            "course_name": "Bachelor of Social Science (Psychology)",
+            "course_code": "",
+            "duration": "3",
+            "aps": "26",
+            "required_subjects": [
+                {
+                    "subject": "Level 4  for language of tuition",
+                    "level": ""
+                },
+                {
+                    "subject": "Academic paper selection",
+                    "level": ""
+                }
+            ]
+        },
+        {
+            "course_name": "Bachelor of Health Sciences (Sport Coaching and Human Movement Sciences)",
+            "course_code": "",
+            "duration": "3",
+            "aps": "24",
+            "required_subjects": [
+                {
+                    "subject": "Level 4  for language of tuition",
+                    "level": ""
+                },
+                {
+                    "subject": "Academic paper selection",
+                    "level": ""
+                },
+                {
+                    "subject": "Best average mark",
+                    "level": ""
+                }
+            ]
+        },
+        {
+            "course_name": "Bachelor of Arts (Psychology and Geography and Environmental Management)",
+            "course_code": "",
+            "duration": "3",
+            "aps": "26",
+            "required_subjects": [
+                {
+                    "subject": "Mathematics level 3  or Mathematical Literacy",
+                    "level": "5",
+                    "percentage": ""
+                },
+                {
+                    "subject": "Level 4  for language of tuition",
+                    "level": ""
+                },
+                {
+                    "subject": "Academic paper selection",
+                    "level": ""
+                }
+            ]
+        },
+        {
+            "course_name": "Bachelor of Arts (Psychology and Labour Relations Management)",
+            "course_code": "",
+            "duration": "3",
+            "aps": "26",
+            "required_subjects": [
+                {
+                    "subject": "Mathematics level 3  or Mathematical Literacy",
+                    "level": "5",
+                    "percentage": ""
+                },
+                {
+                    "subject": "Level 4  for language of tuition",
+                    "level": ""
+                },
+                {
+                    "subject": "Academic paper selection",
+                    "level": ""
+                }
+            ]
+        },
+        {
+            "course_name": "Bachelor of Health Sciences (Physiology and Psychology)",
+            "course_code": "",
+            "duration": "3",
+            "aps": "26",
+            "required_subjects": []
+        },
+        {
+            "course_name": "Bachelor of Health Sciences in Occupational Hygiene (Occupational Hygiene)",
+            "course_code": "",
+            "duration": "4",
+            "aps": "27",
+            "required_subjects": []
+        }
+    ],
+    "FACULTY OF THEOLOGY": [
+        {
+            "course_name": "BTh in Christian Ministry as first qualification (In consultation with the Governing Body of Theological Education, Department of Education and Training)",
+            "course_code": "",
+            "duration": "3",
+            "aps": "24",
+            "required_subjects": [
+                {
+                    "subject": "NS(C) or NC(V) for degree studies",
+                    "level": ""
+                },
+                {
+                    "subject": "or with full matriculation exemption",
+                    "level": ""
+                },
+                {
+                    "subject": "English",
+                    "level": "4",
+                    "percentage": ""
+                },
+                {
+                    "subject": "MODE OF DELIVERY: Contact",
+                    "level": ""
+                },
+                {
+                    "subject": "*Distance",
+                    "level": ""
+                }
+            ]
+        },
+        {
+            "course_name": "Bachelor of Divinity (BDiv) (In consultation with Curators of Reformed Churches in SA, Curators of Hervormde Kerk, Curators of Dutch Reformed Church)",
+            "course_code": "",
+            "duration": "4",
+            "aps": "24",
+            "required_subjects": [
+                {
+                    "subject": "NS(C) or NC(V) for degree studies",
+                    "level": ""
+                },
+                {
+                    "subject": "or with full matriculation exemption",
+                    "level": ""
+                },
+                {
+                    "subject": "English",
+                    "level": "4",
+                    "percentage": ""
+                },
+                {
+                    "subject": "MODE OF DELIVERY: Contact",
+                    "level": ""
+                },
+                {
+                    "subject": "*Distance",
+                    "level": ""
+                }
+            ]
+        },
+        {
+            "course_name": "BTh with Pastoral Counselling and Psychology as first qualification (In consultation with the Association of Christian Religious Practitioners (ACRP))",
+            "course_code": "",
+            "duration": "3",
+            "aps": "26",
+            "required_subjects": [
+                {
+                    "subject": "NS(C) or NC(V) for degree studies",
+                    "level": ""
+                },
+                {
+                    "subject": "or with full matriculation exemption",
+                    "level": ""
+                },
+                {
+                    "subject": "English",
+                    "level": "4",
+                    "percentage": ""
+                },
+                {
+                    "subject": "MODE OF DELIVERY: Contact",
+                    "level": ""
+                }
+            ]
+        },
+        {
+            "course_name": "BA in Pastoral Psychology as first qualification (In consultation with Association of Christian Religious Practitioners (ACRP))",
+            "course_code": "",
+            "duration": "3",
+            "aps": "26",
+            "required_subjects": [
+                {
+                    "subject": "NS(C) or NC(V) for degree studies",
+                    "level": ""
+                },
+                {
+                    "subject": "or with full matriculation exemption",
+                    "level": ""
+                },
+                {
+                    "subject": "English",
+                    "level": "4",
+                    "percentage": ""
+                },
+                {
+                    "subject": "MODE OF DELIVERY: Contact",
+                    "level": ""
+                }
+            ]
+        },
+        {
+            "course_name": "BTh with Pastoral Counselling and Psychology as first qualification",
+            "course_code": "",
+            "duration": "3",
+            "aps": "26",
+            "required_subjects": [
+                {
+                    "subject": "NS(C) or NC(V) for degree studies",
+                    "level": ""
+                },
+                {
+                    "subject": "or with full matriculation exemption",
+                    "level": ""
+                },
+                {
+                    "subject": "English",
+                    "level": "4",
+                    "percentage": ""
+                }
+            ]
+        },
+        {
+            "course_name": "BTh with Bible Languages and Bible Translation",
+            "course_code": "",
+            "duration": "3",
+            "aps": "24",
+            "required_subjects": [
+                {
+                    "subject": "NS(C) or NC(V) for degree studies",
+                    "level": ""
+                },
+                {
+                    "subject": "or with full matriculation exemption",
+                    "level": ""
+                },
+                {
+                    "subject": "English",
+                    "level": "4",
+                    "percentage": ""
+                }
+            ]
+        },
+        {
+            "course_name": "BA in Ancient Languages as first qualification",
+            "course_code": "",
+            "duration": "3",
+            "aps": "24",
+            "required_subjects": [
+                {
+                    "subject": "NS(C) or NC(V) for degree studies",
+                    "level": ""
+                },
+                {
+                    "subject": "or with full matriculation exemption",
+                    "level": ""
+                },
+                {
+                    "subject": "English",
+                    "level": "4",
+                    "percentage": ""
+                }
+            ]
+        },
+        {
+            "course_name": "Bachelor of Divinity (BDiv)",
+            "course_code": "",
+            "duration": "4",
+            "aps": "24",
+            "required_subjects": [
+                {
+                    "subject": "NS(C) or NC(V) for degree studies",
+                    "level": ""
+                },
+                {
+                    "subject": "or with full matriculation exemption",
+                    "level": ""
+                },
+                {
+                    "subject": "English",
+                    "level": "4",
+                    "percentage": ""
+                }
+            ]
+        },
+        {
+            "course_name": "BA in Pastoral Psychology as first qualification",
+            "course_code": "",
+            "duration": "3",
+            "aps": "26",
+            "required_subjects": [
+                {
+                    "subject": "NS(C) or NC(V) for degree studies",
+                    "level": ""
+                },
+                {
+                    "subject": "or with full matriculation exemption",
+                    "level": ""
+                },
+                {
+                    "subject": "English",
+                    "level": "4",
+                    "percentage": ""
+                }
+            ]
+        },
+        {
+            "course_name": "BTh in Christian Ministry as first qualification",
+            "course_code": "",
+            "duration": "3",
+            "aps": "24",
+            "required_subjects": [
+                {
+                    "subject": "NS(C) or NC(V) for degree studies",
+                    "level": ""
+                },
+                {
+                    "subject": "or with full matriculation exemption",
+                    "level": ""
+                },
+                {
+                    "subject": "English",
+                    "level": "4",
+                    "percentage": ""
+                }
+            ]
+        }
+    ],
+    "FACULTY OF LAW": [
+        {
+            "course_name": "Bachelor of Arts (BA) in Law with Industrial Psychology",
+            "course_code": "",
+            "duration": "3",
+            "aps": "30",
+            "required_subjects": []
+        },
+        {
+            "course_name": "Bachelor of Commerce (BCom) in Law",
+            "course_code": "",
+            "duration": "3",
+            "aps": "34",
+            "required_subjects": []
+        },
+        {
+            "course_name": "Bachelor of Arts (BA) in Law with Psychology",
+            "course_code": "",
+            "duration": "3",
+            "aps": "30",
+            "required_subjects": []
+        },
+        {
+            "course_name": "Extended Bachelor of Laws (LLB)",
+            "course_code": "",
+            "duration": "5",
+            "aps": "30",
+            "required_subjects": []
+        },
+        {
+            "course_name": "Bachelor of Laws (LLB)",
+            "course_code": "",
+            "duration": "4",
+            "aps": "34",
+            "required_subjects": []
+        },
+        {
+            "course_name": "Bachelor of Arts (BA) in Law with Politics",
+            "course_code": "",
+            "duration": "3",
+            "aps": "30",
+            "required_subjects": []
+        }
+    ],
+    "FACULTY OF ENGINEERING": [
+        {
+            "course_name": "Chemical Engineering",
+            "course_code": "",
+            "duration": "4",
+            "aps": "34",
+            "required_subjects": []
+        },
+        {
+            "course_name": "Computer and Electronic Engineering",
+            "course_code": "",
+            "duration": "4",
+            "aps": "34",
+            "required_subjects": []
+        },
+        {
+            "course_name": "Mechatronic Engineering",
+            "course_code": "",
+            "duration": "4",
+            "aps": "34",
+            "required_subjects": []
+        },
+        {
+            "course_name": "Industrial Engineering",
+            "course_code": "",
+            "duration": "4",
+            "aps": "34",
+            "required_subjects": []
+        },
+        {
+            "course_name": "Mechanical Engineering",
+            "course_code": "",
+            "duration": "4",
+            "aps": "34",
+            "required_subjects": []
+        },
+        {
+            "course_name": "Electrical and Electronic Engineering",
+            "course_code": "",
+            "duration": "4",
+            "aps": "34",
+            "required_subjects": []
+        }
+    ]
+}
