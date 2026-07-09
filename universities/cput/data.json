@@ -1,0 +1,2508 @@
+{
+    "FACULTY OF BUSINESS & MANAGEMENT SCIENCES": [
+        {
+            "course_name": "Diploma in Entrepreneurship",
+            "course_code": "",
+            "duration": "",
+            "aps": "26",
+            "required_subjects": []
+        },
+        {
+            "course_name": "Diploma in Operations Management",
+            "course_code": "",
+            "duration": "",
+            "aps": "28",
+            "required_subjects": [
+                {
+                    "subject": "English",
+                    "level": "4",
+                    "percentage": ""
+                },
+                {
+                    "subject": "Mathematics",
+                    "level": "3",
+                    "percentage": ""
+                }
+            ]
+        },
+        {
+            "course_name": "Diploma in Management",
+            "course_code": "",
+            "duration": "",
+            "aps": "28",
+            "required_subjects": [
+                {
+                    "subject": "English",
+                    "level": "4",
+                    "percentage": ""
+                },
+                {
+                    "subject": "Mathematics",
+                    "level": "2",
+                    "percentage": ""
+                },
+                {
+                    "subject": "Mathematical Literacy",
+                    "level": "4",
+                    "percentage": ""
+                },
+                {
+                    "subject": "Recommendations: Including one of the following: ECO",
+                    "level": ""
+                },
+                {
+                    "subject": "BUS",
+                    "level": ""
+                },
+                {
+                    "subject": "ACC (no rating required)",
+                    "level": ""
+                }
+            ]
+        },
+        {
+            "course_name": "Bachelor of Paralegal Studies",
+            "course_code": "",
+            "duration": "",
+            "aps": "30",
+            "required_subjects": [
+                {
+                    "subject": "English",
+                    "level": "4",
+                    "percentage": ""
+                },
+                {
+                    "subject": "Mathematics",
+                    "level": "3",
+                    "percentage": ""
+                },
+                {
+                    "subject": "Mathematical Literacy",
+                    "level": "4",
+                    "percentage": ""
+                },
+                {
+                    "subject": "Recommendations: Including one official language at level 4 (Excluding English)",
+                    "level": ""
+                }
+            ]
+        },
+        {
+            "course_name": "Diploma in Marketing (Extended)",
+            "course_code": "",
+            "duration": "",
+            "aps": "24",
+            "required_subjects": [
+                {
+                    "subject": "English",
+                    "level": "4",
+                    "percentage": ""
+                },
+                {
+                    "subject": "Mathematics",
+                    "level": "2",
+                    "percentage": ""
+                },
+                {
+                    "subject": "Mathematical Literacy",
+                    "level": "4",
+                    "percentage": ""
+                },
+                {
+                    "subject": "Recommendations: Including one of the following: BUS/ ACC/ ECO",
+                    "level": "4",
+                    "percentage": ""
+                }
+            ]
+        },
+        {
+            "course_name": "Diploma in Human Resources Management (Extended)",
+            "course_code": "",
+            "duration": "",
+            "aps": "24",
+            "required_subjects": [
+                {
+                    "subject": "English",
+                    "level": "4",
+                    "percentage": ""
+                },
+                {
+                    "subject": "Mathematics",
+                    "level": "2",
+                    "percentage": ""
+                },
+                {
+                    "subject": "Mathematical Literacy",
+                    "level": "4",
+                    "percentage": ""
+                },
+                {
+                    "subject": "Recommendations: Including one of the following: ECO",
+                    "level": ""
+                },
+                {
+                    "subject": "BUS",
+                    "level": ""
+                },
+                {
+                    "subject": "ACC (no rating required)",
+                    "level": ""
+                }
+            ]
+        },
+        {
+            "course_name": "Bachelor of Business Informatics",
+            "course_code": "",
+            "duration": "",
+            "aps": "25",
+            "required_subjects": []
+        },
+        {
+            "course_name": "Diploma in Accountancy",
+            "course_code": "",
+            "duration": "",
+            "aps": "38",
+            "required_subjects": [
+                {
+                    "subject": "English",
+                    "level": "4",
+                    "percentage": ""
+                },
+                {
+                    "subject": "Mathematics",
+                    "level": "3"
+                },
+                {
+                    "subject": "Mathematical Literacy",
+                    "level": "5",
+                    "percentage": ""
+                },
+                {
+                    "subject": "Accounting",
+                    "level": "4"
+                }
+            ]
+        },
+        {
+            "course_name": "Diploma in Banking",
+            "course_code": "",
+            "duration": "",
+            "aps": "24",
+            "required_subjects": []
+        },
+        {
+            "course_name": "Diploma in Hospitality Management & Professional Cookery",
+            "course_code": "",
+            "duration": "",
+            "aps": "26",
+            "required_subjects": []
+        },
+        {
+            "course_name": "Diploma in Tourism Management (Extended)",
+            "course_code": "",
+            "duration": "",
+            "aps": "24",
+            "required_subjects": [
+                {
+                    "subject": "English",
+                    "level": "4",
+                    "percentage": ""
+                },
+                {
+                    "subject": "Mathematics",
+                    "level": "2",
+                    "percentage": ""
+                },
+                {
+                    "subject": "Mathematical Literacy",
+                    "level": "4",
+                    "percentage": ""
+                },
+                {
+                    "subject": "Recommendations: Including one of the following: TOUR",
+                    "level": ""
+                },
+                {
+                    "subject": "ECO",
+                    "level": ""
+                },
+                {
+                    "subject": "HS",
+                    "level": ""
+                },
+                {
+                    "subject": "BUS",
+                    "level": ""
+                },
+                {
+                    "subject": "ACC",
+                    "level": ""
+                },
+                {
+                    "subject": "CS",
+                    "level": ""
+                },
+                {
+                    "subject": "HIS",
+                    "level": ""
+                },
+                {
+                    "subject": "GEO (no rating required)",
+                    "level": ""
+                }
+            ]
+        },
+        {
+            "course_name": "Diploma in Hospitality and Food & Beverage Management",
+            "course_code": "",
+            "duration": "",
+            "aps": "26",
+            "required_subjects": []
+        },
+        {
+            "course_name": "Diploma in Retail Business Management",
+            "course_code": "",
+            "duration": "",
+            "aps": "26",
+            "required_subjects": [
+                {
+                    "subject": "English",
+                    "level": "4",
+                    "percentage": ""
+                },
+                {
+                    "subject": "Mathematics",
+                    "level": "2",
+                    "percentage": ""
+                },
+                {
+                    "subject": "Mathematical Literacy",
+                    "level": "4",
+                    "percentage": ""
+                },
+                {
+                    "subject": "Recommendations: An NSC with at least three years relevant retail experience will also be considered",
+                    "level": ""
+                }
+            ]
+        },
+        {
+            "course_name": "Diploma in Human Resources Management",
+            "course_code": "",
+            "duration": "",
+            "aps": "26",
+            "required_subjects": [
+                {
+                    "subject": "English",
+                    "level": "4",
+                    "percentage": ""
+                },
+                {
+                    "subject": "Mathematics",
+                    "level": "2",
+                    "percentage": ""
+                },
+                {
+                    "subject": "Mathematical Literacy",
+                    "level": "4",
+                    "percentage": ""
+                },
+                {
+                    "subject": "Recommendations: Including one of the following: ECO",
+                    "level": ""
+                },
+                {
+                    "subject": "BUS",
+                    "level": ""
+                },
+                {
+                    "subject": "ACC (no rating required)",
+                    "level": ""
+                }
+            ]
+        },
+        {
+            "course_name": "Diploma in Events Management",
+            "course_code": "",
+            "duration": "",
+            "aps": "28",
+            "required_subjects": [
+                {
+                    "subject": "English",
+                    "level": "4",
+                    "percentage": ""
+                },
+                {
+                    "subject": "Mathematics",
+                    "level": "2",
+                    "percentage": ""
+                },
+                {
+                    "subject": "Mathematical Literacy",
+                    "level": "4",
+                    "percentage": ""
+                },
+                {
+                    "subject": "Recommendations: Including one of the following: TOUR",
+                    "level": ""
+                },
+                {
+                    "subject": "ECO",
+                    "level": ""
+                },
+                {
+                    "subject": "HS",
+                    "level": ""
+                },
+                {
+                    "subject": "BUS",
+                    "level": ""
+                },
+                {
+                    "subject": "ACC",
+                    "level": ""
+                },
+                {
+                    "subject": "CAT",
+                    "level": ""
+                },
+                {
+                    "subject": "IT (no rating required)",
+                    "level": ""
+                }
+            ]
+        },
+        {
+            "course_name": "Diploma in Hospitality and Hotel Management",
+            "course_code": "",
+            "duration": "",
+            "aps": "26",
+            "required_subjects": []
+        },
+        {
+            "course_name": "Diploma in Tourism Management",
+            "course_code": "",
+            "duration": "",
+            "aps": "28",
+            "required_subjects": [
+                {
+                    "subject": "English",
+                    "level": "4",
+                    "percentage": ""
+                },
+                {
+                    "subject": "Mathematics",
+                    "level": "2",
+                    "percentage": ""
+                },
+                {
+                    "subject": "Mathematical Literacy",
+                    "level": "4",
+                    "percentage": ""
+                },
+                {
+                    "subject": "Recommendations: Including one of the following: TOUR",
+                    "level": ""
+                },
+                {
+                    "subject": "ECO",
+                    "level": ""
+                },
+                {
+                    "subject": "HS",
+                    "level": ""
+                },
+                {
+                    "subject": "BUS",
+                    "level": ""
+                },
+                {
+                    "subject": "ACC",
+                    "level": ""
+                },
+                {
+                    "subject": "CS",
+                    "level": ""
+                },
+                {
+                    "subject": "HIS",
+                    "level": ""
+                },
+                {
+                    "subject": "GEO (no rating required)",
+                    "level": ""
+                }
+            ]
+        },
+        {
+            "course_name": "Diploma in Business & Information Administration",
+            "course_code": "",
+            "duration": "",
+            "aps": "26",
+            "required_subjects": [
+                {
+                    "subject": "English",
+                    "level": "4",
+                    "percentage": ""
+                },
+                {
+                    "subject": "Mathematics",
+                    "level": "2",
+                    "percentage": ""
+                },
+                {
+                    "subject": "Mathematical Literacy",
+                    "level": "4",
+                    "percentage": ""
+                },
+                {
+                    "subject": "Recommendations: Including one of the following: BUS",
+                    "level": ""
+                },
+                {
+                    "subject": "ECO",
+                    "level": ""
+                },
+                {
+                    "subject": "ACC",
+                    "level": ""
+                },
+                {
+                    "subject": "CAT",
+                    "level": ""
+                },
+                {
+                    "subject": "IT",
+                    "level": ""
+                }
+            ]
+        },
+        {
+            "course_name": "Diploma in Sport and Leisure Management",
+            "course_code": "",
+            "duration": "",
+            "aps": "25",
+            "required_subjects": [
+                {
+                    "subject": "English",
+                    "level": "4",
+                    "percentage": ""
+                },
+                {
+                    "subject": "Mathematics",
+                    "level": "2",
+                    "percentage": ""
+                },
+                {
+                    "subject": "Mathematical Literacy",
+                    "level": "4",
+                    "percentage": ""
+                },
+                {
+                    "subject": "Requirements: Non-Academic Review Component form",
+                    "level": ""
+                },
+                {
+                    "subject": "and sports involvement",
+                    "level": ""
+                }
+            ]
+        },
+        {
+            "course_name": "Diploma in Public Administration (Extended)",
+            "course_code": "",
+            "duration": "",
+            "aps": "24",
+            "required_subjects": [
+                {
+                    "subject": "English",
+                    "level": "4",
+                    "percentage": ""
+                },
+                {
+                    "subject": "Mathematics",
+                    "level": "2",
+                    "percentage": ""
+                },
+                {
+                    "subject": "Mathematical Literacy",
+                    "level": "3",
+                    "percentage": ""
+                },
+                {
+                    "subject": "Recommendations: Including one of the following: ECO",
+                    "level": "2",
+                    "percentage": "30"
+                },
+                {
+                    "subject": "BUS",
+                    "level": "2",
+                    "percentage": "30"
+                },
+                {
+                    "subject": "ACC",
+                    "level": "2",
+                    "percentage": "30"
+                }
+            ]
+        },
+        {
+            "course_name": "Diploma in Marketing",
+            "course_code": "",
+            "duration": "",
+            "aps": "26",
+            "required_subjects": [
+                {
+                    "subject": "English",
+                    "level": "4",
+                    "percentage": ""
+                },
+                {
+                    "subject": "Mathematics",
+                    "level": "2",
+                    "percentage": ""
+                },
+                {
+                    "subject": "Mathematical Literacy",
+                    "level": "4",
+                    "percentage": ""
+                },
+                {
+                    "subject": "Recommendations: Including one of the following: BUS/ ACC/ ECO",
+                    "level": "4",
+                    "percentage": ""
+                }
+            ]
+        },
+        {
+            "course_name": "Diploma in Management (Extended)",
+            "course_code": "",
+            "duration": "",
+            "aps": "24",
+            "required_subjects": [
+                {
+                    "subject": "English",
+                    "level": "4",
+                    "percentage": ""
+                },
+                {
+                    "subject": "Mathematics",
+                    "level": "2",
+                    "percentage": ""
+                },
+                {
+                    "subject": "Mathematical Literacy",
+                    "level": "4",
+                    "percentage": ""
+                },
+                {
+                    "subject": "Recommendations: Including one of the following: ECO",
+                    "level": ""
+                },
+                {
+                    "subject": "BUS",
+                    "level": ""
+                },
+                {
+                    "subject": "ACC (no rating required)",
+                    "level": ""
+                }
+            ]
+        },
+        {
+            "course_name": "Diploma in Events Management (Extended)",
+            "course_code": "",
+            "duration": "",
+            "aps": "24",
+            "required_subjects": [
+                {
+                    "subject": "English",
+                    "level": "4",
+                    "percentage": ""
+                },
+                {
+                    "subject": "Mathematics",
+                    "level": "2",
+                    "percentage": ""
+                },
+                {
+                    "subject": "Mathematical Literacy",
+                    "level": "4",
+                    "percentage": ""
+                },
+                {
+                    "subject": "Recommendations: Including one of the following: TOUR",
+                    "level": ""
+                },
+                {
+                    "subject": "ECO",
+                    "level": ""
+                },
+                {
+                    "subject": "HS",
+                    "level": ""
+                },
+                {
+                    "subject": "BUS",
+                    "level": ""
+                },
+                {
+                    "subject": "ACC",
+                    "level": ""
+                },
+                {
+                    "subject": "CAT",
+                    "level": ""
+                },
+                {
+                    "subject": "IT (no rating required)",
+                    "level": ""
+                }
+            ]
+        },
+        {
+            "course_name": "Diploma in Real Estate",
+            "course_code": "",
+            "duration": "",
+            "aps": "26",
+            "required_subjects": [
+                {
+                    "subject": "English",
+                    "level": "4",
+                    "percentage": ""
+                },
+                {
+                    "subject": "Mathematics",
+                    "level": "2",
+                    "percentage": ""
+                },
+                {
+                    "subject": "Mathematical Literacy",
+                    "level": "4",
+                    "percentage": ""
+                },
+                {
+                    "subject": "Recommendations: ECO",
+                    "level": ""
+                },
+                {
+                    "subject": "BUS",
+                    "level": ""
+                },
+                {
+                    "subject": "ACC at level 4 for full-time",
+                    "level": ""
+                }
+            ]
+        },
+        {
+            "course_name": "Diploma in Public Administration",
+            "course_code": "",
+            "duration": "",
+            "aps": "28",
+            "required_subjects": [
+                {
+                    "subject": "English",
+                    "level": "4",
+                    "percentage": ""
+                },
+                {
+                    "subject": "Mathematics",
+                    "level": "2",
+                    "percentage": ""
+                },
+                {
+                    "subject": "Mathematical Literacy",
+                    "level": "4",
+                    "percentage": ""
+                },
+                {
+                    "subject": "Recommendations: Including one of the following: ECO",
+                    "level": "3",
+                    "percentage": "40"
+                },
+                {
+                    "subject": "BUS",
+                    "level": "3",
+                    "percentage": "40"
+                },
+                {
+                    "subject": "ACC",
+                    "level": "3",
+                    "percentage": "40"
+                }
+            ]
+        },
+        {
+            "course_name": "Diploma in Accountancy (Extended)",
+            "course_code": "",
+            "duration": "",
+            "aps": "35",
+            "required_subjects": [
+                {
+                    "subject": "English",
+                    "level": "4",
+                    "percentage": ""
+                },
+                {
+                    "subject": "Mathematics",
+                    "level": "3"
+                },
+                {
+                    "subject": "Mathematical Literacy",
+                    "level": "4",
+                    "percentage": ""
+                },
+                {
+                    "subject": "Accounting",
+                    "level": "3"
+                }
+            ]
+        },
+        {
+            "course_name": "Diploma in Entrepreneurship (Extended)",
+            "course_code": "",
+            "duration": "",
+            "aps": "22",
+            "required_subjects": []
+        },
+        {
+            "course_name": "Diploma in Sport and Leisure Management (Extended)",
+            "course_code": "",
+            "duration": "",
+            "aps": "23",
+            "required_subjects": [
+                {
+                    "subject": "English",
+                    "level": "4",
+                    "percentage": ""
+                },
+                {
+                    "subject": "Mathematics",
+                    "level": "2",
+                    "percentage": ""
+                },
+                {
+                    "subject": "Mathematical Literacy",
+                    "level": "4",
+                    "percentage": ""
+                },
+                {
+                    "subject": "Requirements: Non-Academic Review Component form",
+                    "level": ""
+                },
+                {
+                    "subject": "and sports involvement",
+                    "level": ""
+                }
+            ]
+        },
+        {
+            "course_name": "Diploma in Business & Information Administration (Extended)",
+            "course_code": "",
+            "duration": "",
+            "aps": "24",
+            "required_subjects": [
+                {
+                    "subject": "English",
+                    "level": "4",
+                    "percentage": ""
+                },
+                {
+                    "subject": "Mathematics",
+                    "level": "2",
+                    "percentage": ""
+                },
+                {
+                    "subject": "Mathematical Literacy",
+                    "level": "4",
+                    "percentage": ""
+                },
+                {
+                    "subject": "Recommendations: Including one of the following: BUS",
+                    "level": ""
+                },
+                {
+                    "subject": "ECO",
+                    "level": ""
+                },
+                {
+                    "subject": "ACC",
+                    "level": ""
+                },
+                {
+                    "subject": "CAT",
+                    "level": ""
+                },
+                {
+                    "subject": "IT",
+                    "level": ""
+                }
+            ]
+        }
+    ],
+    "FACULTY OF ENGINEERING & THE BUILT ENVIRONMENT": [
+        {
+            "course_name": "Diploma in Clothing & Textile Technology (ECP)",
+            "course_code": "",
+            "duration": "",
+            "aps": "26",
+            "required_subjects": [
+                {
+                    "subject": "English",
+                    "level": "4",
+                    "percentage": ""
+                },
+                {
+                    "subject": "Mathematics: Level 3 or Technical Mathematics: Level 5 or Mathematical Literacy",
+                    "level": "4",
+                    "percentage": ""
+                }
+            ]
+        },
+        {
+            "course_name": "Diploma in Engineering Technology in Computer Engineering (Mainstream)",
+            "course_code": "",
+            "duration": "",
+            "aps": "30",
+            "required_subjects": [
+                {
+                    "subject": "English",
+                    "level": "4",
+                    "percentage": ""
+                },
+                {
+                    "subject": "Mathematics",
+                    "level": "4",
+                    "percentage": ""
+                },
+                {
+                    "subject": "Technical Mathematics",
+                    "level": "5",
+                    "percentage": ""
+                },
+                {
+                    "subject": "Physical Science: Level 4 or Electrical Technology",
+                    "level": "4",
+                    "percentage": ""
+                },
+                {
+                    "subject": "Technical Science",
+                    "level": "5",
+                    "percentage": ""
+                }
+            ]
+        },
+        {
+            "course_name": "Diploma in Construction (ECP)",
+            "course_code": "",
+            "duration": "",
+            "aps": "23",
+            "required_subjects": [
+                {
+                    "subject": "English",
+                    "level": "4",
+                    "percentage": ""
+                },
+                {
+                    "subject": "Mathematics",
+                    "level": "4",
+                    "percentage": ""
+                },
+                {
+                    "subject": "Technical Mathematics",
+                    "level": "5",
+                    "percentage": ""
+                }
+            ]
+        },
+        {
+            "course_name": "Bachelor of Marine Engineering (Mainstream)",
+            "course_code": "",
+            "duration": "",
+            "aps": "36",
+            "required_subjects": [
+                {
+                    "subject": "English",
+                    "level": "4",
+                    "percentage": ""
+                },
+                {
+                    "subject": "Mathematics",
+                    "level": "5",
+                    "percentage": ""
+                },
+                {
+                    "subject": "Technical Mathematics",
+                    "level": "5",
+                    "percentage": ""
+                },
+                {
+                    "subject": "Physical Science",
+                    "level": "5",
+                    "percentage": ""
+                },
+                {
+                    "subject": "Technical Science",
+                    "level": "5",
+                    "percentage": ""
+                }
+            ]
+        },
+        {
+            "course_name": "Diploma in Engineering Technology in Computer Engineering (ECP)",
+            "course_code": "",
+            "duration": "",
+            "aps": "27",
+            "required_subjects": [
+                {
+                    "subject": "English",
+                    "level": "4",
+                    "percentage": ""
+                },
+                {
+                    "subject": "Mathematics",
+                    "level": "4",
+                    "percentage": ""
+                },
+                {
+                    "subject": "Technical Mathematics",
+                    "level": "5",
+                    "percentage": ""
+                },
+                {
+                    "subject": "Physical Science: Level 4 or Electrical Technology",
+                    "level": "4",
+                    "percentage": ""
+                },
+                {
+                    "subject": "Technical Science",
+                    "level": "5",
+                    "percentage": ""
+                }
+            ]
+        },
+        {
+            "course_name": "Bachelor of Engineering Technology in Civil Engineering",
+            "course_code": "",
+            "duration": "",
+            "aps": "36",
+            "required_subjects": [
+                {
+                    "subject": "English",
+                    "level": "5",
+                    "percentage": ""
+                },
+                {
+                    "subject": "Mathematics",
+                    "level": "5",
+                    "percentage": ""
+                },
+                {
+                    "subject": "Technical Mathematics",
+                    "level": "5",
+                    "percentage": ""
+                },
+                {
+                    "subject": "Physical Science",
+                    "level": "5",
+                    "percentage": ""
+                },
+                {
+                    "subject": "Technical Science",
+                    "level": "5",
+                    "percentage": ""
+                },
+                {
+                    "subject": "NC(V) requirements: M (N4) -",
+                    "level": "6",
+                    "percentage": "0"
+                },
+                {
+                    "subject": "ES (N4) -",
+                    "level": "6",
+                    "percentage": "0"
+                }
+            ]
+        },
+        {
+            "course_name": "Diploma in Clothing & Textile Technology (Mainstream)",
+            "course_code": "",
+            "duration": "",
+            "aps": "26",
+            "required_subjects": [
+                {
+                    "subject": "English",
+                    "level": "4",
+                    "percentage": ""
+                },
+                {
+                    "subject": "Mathematics: Level 3 or Technical Mathematics: Level 5 or Mathematical Literacy",
+                    "level": "4",
+                    "percentage": ""
+                }
+            ]
+        },
+        {
+            "course_name": "Diploma in Civil Engineering (Mainstream)",
+            "course_code": "",
+            "duration": "",
+            "aps": "30",
+            "required_subjects": [
+                {
+                    "subject": "English",
+                    "level": "4",
+                    "percentage": ""
+                },
+                {
+                    "subject": "Mathematics",
+                    "level": "4",
+                    "percentage": ""
+                },
+                {
+                    "subject": "Technical Mathematics",
+                    "level": "5",
+                    "percentage": ""
+                },
+                {
+                    "subject": "Physical Science",
+                    "level": "4",
+                    "percentage": ""
+                },
+                {
+                    "subject": "Technical Science",
+                    "level": "5",
+                    "percentage": ""
+                },
+                {
+                    "subject": "NC(V) requirements: M (N4) -",
+                    "level": "6",
+                    "percentage": "0"
+                },
+                {
+                    "subject": "ES (N4) -",
+                    "level": "6",
+                    "percentage": "0"
+                }
+            ]
+        },
+        {
+            "course_name": "Bachelor of Marine Engineering ECP",
+            "course_code": "",
+            "duration": "",
+            "aps": "31",
+            "required_subjects": [
+                {
+                    "subject": "English",
+                    "level": "4",
+                    "percentage": ""
+                },
+                {
+                    "subject": "Mathematics",
+                    "level": "4",
+                    "percentage": ""
+                },
+                {
+                    "subject": "Technical Mathematics",
+                    "level": "4",
+                    "percentage": ""
+                },
+                {
+                    "subject": "Physical Science",
+                    "level": "4",
+                    "percentage": ""
+                },
+                {
+                    "subject": "Technical Science",
+                    "level": "4",
+                    "percentage": ""
+                }
+            ]
+        },
+        {
+            "course_name": "Diploma in Chemical Engineering (ECP)",
+            "course_code": "",
+            "duration": "",
+            "aps": "27",
+            "required_subjects": [
+                {
+                    "subject": "English",
+                    "level": "4",
+                    "percentage": ""
+                },
+                {
+                    "subject": "Mathematics",
+                    "level": "4",
+                    "percentage": ""
+                },
+                {
+                    "subject": "Technical Mathematics",
+                    "level": "5",
+                    "percentage": ""
+                },
+                {
+                    "subject": "Physical Science",
+                    "level": "4",
+                    "percentage": ""
+                },
+                {
+                    "subject": "NC(V) requirements: M (N4) -",
+                    "level": "6",
+                    "percentage": "0"
+                },
+                {
+                    "subject": "ES (N4) -",
+                    "level": "6",
+                    "percentage": "0"
+                }
+            ]
+        },
+        {
+            "course_name": "Bachelor of Engineering Technology in Chemical Engineering",
+            "course_code": "",
+            "duration": "",
+            "aps": "36",
+            "required_subjects": [
+                {
+                    "subject": "English",
+                    "level": "5",
+                    "percentage": ""
+                },
+                {
+                    "subject": "Mathematics",
+                    "level": "5",
+                    "percentage": ""
+                },
+                {
+                    "subject": "Technical Mathematics",
+                    "level": "5",
+                    "percentage": ""
+                },
+                {
+                    "subject": "Physical Science",
+                    "level": "5",
+                    "percentage": ""
+                },
+                {
+                    "subject": "NC(V) requirements: M (N4) -",
+                    "level": "6",
+                    "percentage": "0"
+                },
+                {
+                    "subject": "ES (N4) -",
+                    "level": "6",
+                    "percentage": "0"
+                }
+            ]
+        },
+        {
+            "course_name": "Diploma in Chemical Engineering (Mainstream)",
+            "course_code": "",
+            "duration": "",
+            "aps": "30",
+            "required_subjects": [
+                {
+                    "subject": "English",
+                    "level": "4",
+                    "percentage": ""
+                },
+                {
+                    "subject": "Mathematics",
+                    "level": "4",
+                    "percentage": ""
+                },
+                {
+                    "subject": "Technical Mathematics",
+                    "level": "5",
+                    "percentage": ""
+                },
+                {
+                    "subject": "Physical Science",
+                    "level": "4",
+                    "percentage": ""
+                },
+                {
+                    "subject": "NC(V) requirements: M (N4) -",
+                    "level": "6",
+                    "percentage": "0"
+                },
+                {
+                    "subject": "ES (N4) -",
+                    "level": "6",
+                    "percentage": "0"
+                }
+            ]
+        },
+        {
+            "course_name": "Bachelor of Nautical Science (Mainstream)",
+            "course_code": "",
+            "duration": "",
+            "aps": "36",
+            "required_subjects": [
+                {
+                    "subject": "English",
+                    "level": "4",
+                    "percentage": ""
+                },
+                {
+                    "subject": "Mathematics",
+                    "level": "5",
+                    "percentage": ""
+                },
+                {
+                    "subject": "Technical Mathematics",
+                    "level": "5",
+                    "percentage": ""
+                },
+                {
+                    "subject": "Physical Science",
+                    "level": "5",
+                    "percentage": ""
+                },
+                {
+                    "subject": "Technical Science",
+                    "level": "5",
+                    "percentage": ""
+                }
+            ]
+        },
+        {
+            "course_name": "Diploma in Engineering Technology in Electrical Engineering (Mainstream)",
+            "course_code": "",
+            "duration": "",
+            "aps": "30",
+            "required_subjects": [
+                {
+                    "subject": "English",
+                    "level": "4",
+                    "percentage": ""
+                },
+                {
+                    "subject": "Mathematics",
+                    "level": "4",
+                    "percentage": ""
+                },
+                {
+                    "subject": "Technical Mathematics",
+                    "level": "5",
+                    "percentage": ""
+                },
+                {
+                    "subject": "Physical Science: Level 4 or Electrical Technology",
+                    "level": "4",
+                    "percentage": ""
+                },
+                {
+                    "subject": "Technical Science",
+                    "level": "5",
+                    "percentage": ""
+                }
+            ]
+        },
+        {
+            "course_name": "Diploma in Mechanical Engineering (Mainstream)",
+            "course_code": "",
+            "duration": "",
+            "aps": "30",
+            "required_subjects": []
+        },
+        {
+            "course_name": "Diploma in Construction (Mainstream)",
+            "course_code": "",
+            "duration": "",
+            "aps": "25",
+            "required_subjects": [
+                {
+                    "subject": "English",
+                    "level": "4",
+                    "percentage": ""
+                },
+                {
+                    "subject": "Mathematics",
+                    "level": "4",
+                    "percentage": ""
+                },
+                {
+                    "subject": "Technical Mathematics",
+                    "level": "5",
+                    "percentage": ""
+                }
+            ]
+        },
+        {
+            "course_name": "Diploma in Mechanical Engineering (Mechatronics)",
+            "course_code": "",
+            "duration": "",
+            "aps": "30",
+            "required_subjects": []
+        },
+        {
+            "course_name": "Diploma in Engineering Technology in Electrical Engineering (ECP)",
+            "course_code": "",
+            "duration": "",
+            "aps": "27",
+            "required_subjects": [
+                {
+                    "subject": "English",
+                    "level": "4",
+                    "percentage": ""
+                },
+                {
+                    "subject": "Mathematics",
+                    "level": "4",
+                    "percentage": ""
+                },
+                {
+                    "subject": "Technical Mathematics",
+                    "level": "5",
+                    "percentage": ""
+                },
+                {
+                    "subject": "Physical Science: Level 4 or Electrical Technology",
+                    "level": "4",
+                    "percentage": ""
+                },
+                {
+                    "subject": "Technical Science",
+                    "level": "5",
+                    "percentage": ""
+                }
+            ]
+        },
+        {
+            "course_name": "Bachelor of Engineering Technology in Computer Engineering",
+            "course_code": "",
+            "duration": "",
+            "aps": "36",
+            "required_subjects": [
+                {
+                    "subject": "English",
+                    "level": "5",
+                    "percentage": ""
+                },
+                {
+                    "subject": "Mathematics",
+                    "level": "5",
+                    "percentage": ""
+                },
+                {
+                    "subject": "Technical Mathematics",
+                    "level": "5",
+                    "percentage": ""
+                },
+                {
+                    "subject": "Physical Science: Level 5 or Electrical Technology",
+                    "level": "5",
+                    "percentage": ""
+                },
+                {
+                    "subject": "Technical Science",
+                    "level": "5",
+                    "percentage": ""
+                }
+            ]
+        },
+        {
+            "course_name": "Bachelor of Geomatics",
+            "course_code": "",
+            "duration": "",
+            "aps": "36",
+            "required_subjects": [
+                {
+                    "subject": "English",
+                    "level": "5",
+                    "percentage": ""
+                },
+                {
+                    "subject": "Mathematics",
+                    "level": "5",
+                    "percentage": ""
+                },
+                {
+                    "subject": "Technical Mathematics",
+                    "level": "5",
+                    "percentage": ""
+                },
+                {
+                    "subject": "Physical Science",
+                    "level": "5",
+                    "percentage": ""
+                },
+                {
+                    "subject": "Technical Science",
+                    "level": "5",
+                    "percentage": ""
+                }
+            ]
+        },
+        {
+            "course_name": "Diploma in Geomatics (Combining Surveying & Cartography)",
+            "course_code": "",
+            "duration": "",
+            "aps": "30",
+            "required_subjects": [
+                {
+                    "subject": "English",
+                    "level": "4",
+                    "percentage": ""
+                },
+                {
+                    "subject": "Mathematics",
+                    "level": "4",
+                    "percentage": ""
+                },
+                {
+                    "subject": "Technical Mathematics",
+                    "level": "5",
+                    "percentage": ""
+                },
+                {
+                    "subject": "Physical Science",
+                    "level": "4",
+                    "percentage": ""
+                },
+                {
+                    "subject": "Technical Science",
+                    "level": "5",
+                    "percentage": ""
+                },
+                {
+                    "subject": "NC(V) requirements: M (N4) -",
+                    "level": "6",
+                    "percentage": "0"
+                },
+                {
+                    "subject": "ES (N4) -",
+                    "level": "6",
+                    "percentage": "0"
+                }
+            ]
+        },
+        {
+            "course_name": "Bachelor of Nautical Science ECP",
+            "course_code": "",
+            "duration": "",
+            "aps": "31",
+            "required_subjects": [
+                {
+                    "subject": "English",
+                    "level": "4",
+                    "percentage": ""
+                },
+                {
+                    "subject": "Mathematics",
+                    "level": "4",
+                    "percentage": ""
+                },
+                {
+                    "subject": "Technical Mathematics",
+                    "level": "4",
+                    "percentage": ""
+                },
+                {
+                    "subject": "Physical Science",
+                    "level": "4",
+                    "percentage": ""
+                },
+                {
+                    "subject": "Technical Science",
+                    "level": "4",
+                    "percentage": ""
+                }
+            ]
+        },
+        {
+            "course_name": "Diploma: Engineering: Industrial (ECP)",
+            "course_code": "",
+            "duration": "",
+            "aps": "27",
+            "required_subjects": []
+        },
+        {
+            "course_name": "Diploma: Engineering: Industrial (Mainstream)",
+            "course_code": "",
+            "duration": "",
+            "aps": "30",
+            "required_subjects": []
+        },
+        {
+            "course_name": "Diploma in Mechanical Engineering (ECP)",
+            "course_code": "",
+            "duration": "",
+            "aps": "27",
+            "required_subjects": [
+                {
+                    "subject": "English",
+                    "level": "4",
+                    "percentage": ""
+                },
+                {
+                    "subject": "Mathematics",
+                    "level": "4",
+                    "percentage": ""
+                },
+                {
+                    "subject": "Technical Mathematics",
+                    "level": "5",
+                    "percentage": ""
+                },
+                {
+                    "subject": "Physical Science",
+                    "level": "4",
+                    "percentage": ""
+                },
+                {
+                    "subject": "Technical Science",
+                    "level": "5",
+                    "percentage": ""
+                }
+            ]
+        },
+        {
+            "course_name": "Bachelor of Engineering Technology in Electrical Engineering",
+            "course_code": "",
+            "duration": "",
+            "aps": "36",
+            "required_subjects": [
+                {
+                    "subject": "English",
+                    "level": "5",
+                    "percentage": ""
+                },
+                {
+                    "subject": "Mathematics",
+                    "level": "5",
+                    "percentage": ""
+                },
+                {
+                    "subject": "Technical Mathematics",
+                    "level": "5",
+                    "percentage": ""
+                },
+                {
+                    "subject": "Physical Science: Level 5 or Electrical Technology",
+                    "level": "5",
+                    "percentage": ""
+                },
+                {
+                    "subject": "Technical Science",
+                    "level": "5",
+                    "percentage": ""
+                }
+            ]
+        },
+        {
+            "course_name": "Diploma in Civil Engineering (ECP)",
+            "course_code": "",
+            "duration": "",
+            "aps": "27",
+            "required_subjects": [
+                {
+                    "subject": "English",
+                    "level": "4",
+                    "percentage": ""
+                },
+                {
+                    "subject": "Mathematics",
+                    "level": "4",
+                    "percentage": ""
+                },
+                {
+                    "subject": "Technical Mathematics",
+                    "level": "5",
+                    "percentage": ""
+                },
+                {
+                    "subject": "Physical Science",
+                    "level": "4",
+                    "percentage": ""
+                },
+                {
+                    "subject": "Technical Science",
+                    "level": "5",
+                    "percentage": ""
+                },
+                {
+                    "subject": "NC(V) requirements: M (N4) -",
+                    "level": "6",
+                    "percentage": "0"
+                },
+                {
+                    "subject": "ES (N4) -",
+                    "level": "6",
+                    "percentage": "0"
+                }
+            ]
+        }
+    ],
+    "FACULTY OF APPLIED SCIENCES": [
+        {
+            "course_name": "Diploma in Landscape Architecture (ECP)",
+            "course_code": "",
+            "duration": "",
+            "aps": "28",
+            "required_subjects": []
+        },
+        {
+            "course_name": "Bachelor of Food Science & Technology (Mainstream)",
+            "course_code": "",
+            "duration": "",
+            "aps": "32",
+            "required_subjects": []
+        },
+        {
+            "course_name": "Bachelor of Environmental Health (Mainstream)",
+            "course_code": "",
+            "duration": "",
+            "aps": "32",
+            "required_subjects": []
+        },
+        {
+            "course_name": "Diploma in Agriculture (ECP)",
+            "course_code": "",
+            "duration": "",
+            "aps": "28",
+            "required_subjects": []
+        },
+        {
+            "course_name": "Diploma in Agricultural Management (ECP)",
+            "course_code": "",
+            "duration": "",
+            "aps": "28",
+            "required_subjects": []
+        },
+        {
+            "course_name": "Diploma in Biotechnology (ECP)",
+            "course_code": "",
+            "duration": "",
+            "aps": "28",
+            "required_subjects": []
+        },
+        {
+            "course_name": "Diploma in Marine Science (ECP)",
+            "course_code": "",
+            "duration": "",
+            "aps": "28",
+            "required_subjects": []
+        },
+        {
+            "course_name": "Diploma in Nature Conservation (ECP)",
+            "course_code": "",
+            "duration": "",
+            "aps": "28",
+            "required_subjects": []
+        },
+        {
+            "course_name": "Diploma in Consumer Science: Food & Nutrition (Mainstream)",
+            "course_code": "",
+            "duration": "",
+            "aps": "28",
+            "required_subjects": []
+        },
+        {
+            "course_name": "Diploma in Environmental Management (Mainstream)",
+            "course_code": "",
+            "duration": "",
+            "aps": "28",
+            "required_subjects": []
+        },
+        {
+            "course_name": "Diploma in Nature Conservation (Mainstream)",
+            "course_code": "",
+            "duration": "",
+            "aps": "30",
+            "required_subjects": []
+        },
+        {
+            "course_name": "Bachelor of Environmental Health (ECP)",
+            "course_code": "",
+            "duration": "",
+            "aps": "30",
+            "required_subjects": []
+        },
+        {
+            "course_name": "Diploma in Analytical Chemistry (ECP)",
+            "course_code": "",
+            "duration": "",
+            "aps": "28",
+            "required_subjects": []
+        },
+        {
+            "course_name": "Diploma in Landscape Architecture (Mainstream)",
+            "course_code": "",
+            "duration": "",
+            "aps": "30",
+            "required_subjects": []
+        },
+        {
+            "course_name": "Diploma in Horticulture (ECP)",
+            "course_code": "",
+            "duration": "",
+            "aps": "28",
+            "required_subjects": []
+        },
+        {
+            "course_name": "Diploma in Mathematical Sciences (ECP)",
+            "course_code": "",
+            "duration": "",
+            "aps": "26",
+            "required_subjects": []
+        },
+        {
+            "course_name": "Diploma in Analytical Chemistry (Mainstream)",
+            "course_code": "",
+            "duration": "",
+            "aps": "30",
+            "required_subjects": []
+        },
+        {
+            "course_name": "Diploma in Agricultural Management (Mainstream)",
+            "course_code": "",
+            "duration": "",
+            "aps": "30",
+            "required_subjects": []
+        },
+        {
+            "course_name": "Diploma in Biotechnology (Mainstream)",
+            "course_code": "",
+            "duration": "",
+            "aps": "30",
+            "required_subjects": []
+        },
+        {
+            "course_name": "Diploma in Consumer Science: Food & Nutrition (ECP)",
+            "course_code": "",
+            "duration": "",
+            "aps": "26",
+            "required_subjects": []
+        },
+        {
+            "course_name": "Diploma in Environmental Management (ECP)",
+            "course_code": "",
+            "duration": "",
+            "aps": "26",
+            "required_subjects": []
+        },
+        {
+            "course_name": "Diploma in Marine Science (Mainstream)",
+            "course_code": "",
+            "duration": "",
+            "aps": "30",
+            "required_subjects": []
+        },
+        {
+            "course_name": "Diploma in Mathematical Sciences (Mainstream)",
+            "course_code": "",
+            "duration": "",
+            "aps": "28",
+            "required_subjects": []
+        },
+        {
+            "course_name": "Diploma in Agriculture (Mainstream)",
+            "course_code": "",
+            "duration": "",
+            "aps": "30",
+            "required_subjects": []
+        },
+        {
+            "course_name": "Diploma in Horticulture (Mainstream)",
+            "course_code": "",
+            "duration": "",
+            "aps": "30",
+            "required_subjects": []
+        }
+    ],
+    "FACULTY OF INFORMATICS & DESIGN": [
+        {
+            "course_name": "Diploma in Visual Communication Design",
+            "course_code": "",
+            "duration": "",
+            "aps": "28",
+            "required_subjects": [
+                {
+                    "subject": "English (HL or FAL)",
+                    "level": "4",
+                    "percentage": ""
+                },
+                {
+                    "subject": "Maths (M)",
+                    "level": "3",
+                    "percentage": ""
+                },
+                {
+                    "subject": "Maths Lit (ML)",
+                    "level": "5",
+                    "percentage": ""
+                },
+                {
+                    "subject": "Tech Maths",
+                    "level": "4",
+                    "percentage": ""
+                }
+            ]
+        },
+        {
+            "course_name": "Diploma in Jewellery Design & Manufacture",
+            "course_code": "",
+            "duration": "",
+            "aps": "28",
+            "required_subjects": [
+                {
+                    "subject": "English (HL or FAL)",
+                    "level": "4",
+                    "percentage": ""
+                },
+                {
+                    "subject": "Maths (M)",
+                    "level": "3",
+                    "percentage": ""
+                },
+                {
+                    "subject": "Maths Lit (ML)",
+                    "level": "5",
+                    "percentage": ""
+                },
+                {
+                    "subject": "Tech Maths",
+                    "level": "4",
+                    "percentage": ""
+                }
+            ]
+        },
+        {
+            "course_name": "Diploma in Film Production",
+            "course_code": "",
+            "duration": "",
+            "aps": "30",
+            "required_subjects": [
+                {
+                    "subject": "English (HL or FAL)",
+                    "level": "5",
+                    "percentage": ""
+                }
+            ]
+        },
+        {
+            "course_name": "Higher Certificate in ICT",
+            "course_code": "",
+            "duration": "",
+            "aps": "24",
+            "required_subjects": [
+                {
+                    "subject": "English (HL or FAL)",
+                    "level": "4",
+                    "percentage": ""
+                },
+                {
+                    "subject": "Maths (M)",
+                    "level": "3",
+                    "percentage": ""
+                },
+                {
+                    "subject": "Maths Lit (ML)",
+                    "level": "5",
+                    "percentage": ""
+                },
+                {
+                    "subject": "Tech Maths",
+                    "level": "4",
+                    "percentage": ""
+                }
+            ]
+        },
+        {
+            "course_name": "Diploma in Architectural Technology",
+            "course_code": "",
+            "duration": "",
+            "aps": "30",
+            "required_subjects": [
+                {
+                    "subject": "English (HL or FAL)",
+                    "level": "4",
+                    "percentage": ""
+                },
+                {
+                    "subject": "Maths (M)",
+                    "level": "4",
+                    "percentage": ""
+                },
+                {
+                    "subject": "Maths Lit (ML)",
+                    "level": "6",
+                    "percentage": ""
+                },
+                {
+                    "subject": "Tech Maths",
+                    "level": "5",
+                    "percentage": ""
+                }
+            ]
+        },
+        {
+            "course_name": "Diploma in Fashion",
+            "course_code": "",
+            "duration": "",
+            "aps": "28",
+            "required_subjects": [
+                {
+                    "subject": "English (HL or FAL)",
+                    "level": "4",
+                    "percentage": ""
+                },
+                {
+                    "subject": "Maths (M)",
+                    "level": "3",
+                    "percentage": ""
+                },
+                {
+                    "subject": "Maths Lit (ML)",
+                    "level": "5",
+                    "percentage": ""
+                },
+                {
+                    "subject": "Tech Maths",
+                    "level": "4",
+                    "percentage": ""
+                }
+            ]
+        },
+        {
+            "course_name": "Extended Curriculum Interior Design",
+            "course_code": "",
+            "duration": "",
+            "aps": "26",
+            "required_subjects": [
+                {
+                    "subject": "English (HL or FAL)",
+                    "level": "4",
+                    "percentage": ""
+                },
+                {
+                    "subject": "Maths (M)",
+                    "level": "3",
+                    "percentage": ""
+                },
+                {
+                    "subject": "Maths Lit (ML)",
+                    "level": "5",
+                    "percentage": ""
+                },
+                {
+                    "subject": "Tech Maths",
+                    "level": "4",
+                    "percentage": ""
+                }
+            ]
+        },
+        {
+            "course_name": "Diploma in Urban & Regional Planning",
+            "course_code": "",
+            "duration": "",
+            "aps": "28",
+            "required_subjects": []
+        },
+        {
+            "course_name": "Diploma in Applications Development",
+            "course_code": "",
+            "duration": "",
+            "aps": "28",
+            "required_subjects": [
+                {
+                    "subject": "English (HL or FAL)",
+                    "level": "4",
+                    "percentage": ""
+                },
+                {
+                    "subject": "Maths (M)",
+                    "level": "3",
+                    "percentage": ""
+                },
+                {
+                    "subject": "Maths Lit (ML)",
+                    "level": "5",
+                    "percentage": ""
+                },
+                {
+                    "subject": "Tech Maths",
+                    "level": "4",
+                    "percentage": ""
+                }
+            ]
+        },
+        {
+            "course_name": "Diploma in Journalism",
+            "course_code": "",
+            "duration": "",
+            "aps": "28",
+            "required_subjects": [
+                {
+                    "subject": "English (HL or FAL)",
+                    "level": "5",
+                    "percentage": ""
+                },
+                {
+                    "subject": "Language Requirements: HL or FAL",
+                    "level": "50"
+                },
+                {
+                    "subject": "English)",
+                    "level": ""
+                },
+                {
+                    "subject": "Maths (M)",
+                    "level": "3",
+                    "percentage": ""
+                },
+                {
+                    "subject": "Maths Lit (ML)",
+                    "level": "4",
+                    "percentage": ""
+                },
+                {
+                    "subject": "Tech Maths",
+                    "level": "4",
+                    "percentage": ""
+                }
+            ]
+        },
+        {
+            "course_name": "Diploma in Interior Design",
+            "course_code": "",
+            "duration": "",
+            "aps": "30",
+            "required_subjects": [
+                {
+                    "subject": "English (HL or FAL)",
+                    "level": "4",
+                    "percentage": ""
+                },
+                {
+                    "subject": "Maths (M)",
+                    "level": "4",
+                    "percentage": ""
+                },
+                {
+                    "subject": "Maths Lit (ML)",
+                    "level": "6",
+                    "percentage": ""
+                },
+                {
+                    "subject": "Tech Maths",
+                    "level": "5",
+                    "percentage": ""
+                }
+            ]
+        },
+        {
+            "course_name": "Diploma in Public Relations & Communication",
+            "course_code": "",
+            "duration": "",
+            "aps": "28",
+            "required_subjects": [
+                {
+                    "subject": "English (HL or FAL)",
+                    "level": "5",
+                    "percentage": ""
+                },
+                {
+                    "subject": "Language Requirements: HL or FAL",
+                    "level": "50"
+                },
+                {
+                    "subject": "English)",
+                    "level": ""
+                },
+                {
+                    "subject": "Maths (M)",
+                    "level": "2",
+                    "percentage": ""
+                },
+                {
+                    "subject": "Maths Lit (ML)",
+                    "level": "4",
+                    "percentage": ""
+                },
+                {
+                    "subject": "Tech Maths",
+                    "level": "3",
+                    "percentage": ""
+                }
+            ]
+        },
+        {
+            "course_name": "Diploma in Communication Networks",
+            "course_code": "",
+            "duration": "",
+            "aps": "28",
+            "required_subjects": [
+                {
+                    "subject": "English (HL or FAL)",
+                    "level": "4",
+                    "percentage": ""
+                },
+                {
+                    "subject": "Maths (M)",
+                    "level": "3",
+                    "percentage": ""
+                },
+                {
+                    "subject": "Maths Lit (ML)",
+                    "level": "5",
+                    "percentage": ""
+                },
+                {
+                    "subject": "Tech Maths",
+                    "level": "4",
+                    "percentage": ""
+                }
+            ]
+        },
+        {
+            "course_name": "Diploma in Product Design",
+            "course_code": "",
+            "duration": "",
+            "aps": "28",
+            "required_subjects": [
+                {
+                    "subject": "English (HL or FAL)",
+                    "level": "4",
+                    "percentage": ""
+                },
+                {
+                    "subject": "Maths (M)",
+                    "level": "3",
+                    "percentage": ""
+                },
+                {
+                    "subject": "Maths Lit (ML)",
+                    "level": "5",
+                    "percentage": ""
+                },
+                {
+                    "subject": "Tech Maths",
+                    "level": "4",
+                    "percentage": ""
+                }
+            ]
+        },
+        {
+            "course_name": "Diploma in Photography",
+            "course_code": "",
+            "duration": "",
+            "aps": "30",
+            "required_subjects": [
+                {
+                    "subject": "English (HL or FAL)",
+                    "level": "4",
+                    "percentage": ""
+                }
+            ]
+        },
+        {
+            "course_name": "Extended Curriculum Architectural Technology",
+            "course_code": "",
+            "duration": "",
+            "aps": "26",
+            "required_subjects": [
+                {
+                    "subject": "English (HL or FAL)",
+                    "level": "4",
+                    "percentage": ""
+                },
+                {
+                    "subject": "Maths (M)",
+                    "level": "3",
+                    "percentage": ""
+                },
+                {
+                    "subject": "Maths Lit (ML)",
+                    "level": "5",
+                    "percentage": ""
+                },
+                {
+                    "subject": "Tech Maths",
+                    "level": "4",
+                    "percentage": ""
+                }
+            ]
+        },
+        {
+            "course_name": "Diploma in Multimedia Applications",
+            "course_code": "",
+            "duration": "",
+            "aps": "28",
+            "required_subjects": [
+                {
+                    "subject": "English (HL or FAL)",
+                    "level": "4",
+                    "percentage": ""
+                },
+                {
+                    "subject": "Maths (M)",
+                    "level": "3",
+                    "percentage": ""
+                },
+                {
+                    "subject": "Maths Lit (ML)",
+                    "level": "5",
+                    "percentage": ""
+                },
+                {
+                    "subject": "Tech Maths",
+                    "level": "4",
+                    "percentage": ""
+                }
+            ]
+        }
+    ],
+    "FACULTY OF HEALTH & WELLNESS SCIENCES": [
+        {
+            "course_name": "BHSc in Opticianry",
+            "course_code": "",
+            "duration": "",
+            "aps": "32",
+            "required_subjects": [
+                {
+                    "subject": "English (HL or FAL)",
+                    "level": "4",
+                    "percentage": ""
+                },
+                {
+                    "subject": "Maths",
+                    "level": "4",
+                    "percentage": ""
+                },
+                {
+                    "subject": "Maths Lit**",
+                    "level": "5",
+                    "percentage": ""
+                },
+                {
+                    "subject": "Life Sciences",
+                    "level": "4",
+                    "percentage": ""
+                },
+                {
+                    "subject": "Physical Sciences",
+                    "level": "4",
+                    "percentage": ""
+                },
+                {
+                    "subject": "(** = as alternative for Maths)",
+                    "level": ""
+                }
+            ]
+        },
+        {
+            "course_name": "BSc in Diagnostic Ultrasound",
+            "course_code": "",
+            "duration": "",
+            "aps": "30",
+            "required_subjects": []
+        },
+        {
+            "course_name": "BSc in Radiation Therapy",
+            "course_code": "",
+            "duration": "",
+            "aps": "30",
+            "required_subjects": []
+        },
+        {
+            "course_name": "Bachelor of Emergency Medical Care",
+            "course_code": "",
+            "duration": "",
+            "aps": "35",
+            "required_subjects": []
+        },
+        {
+            "course_name": "HC in Emergency Medical Care",
+            "course_code": "",
+            "duration": "",
+            "aps": "26",
+            "required_subjects": []
+        },
+        {
+            "course_name": "Diploma in Emergency Care",
+            "course_code": "",
+            "duration": "",
+            "aps": "28",
+            "required_subjects": []
+        },
+        {
+            "course_name": "BHSc Dental Technology",
+            "course_code": "",
+            "duration": "",
+            "aps": "",
+            "required_subjects": []
+        },
+        {
+            "course_name": "BHSc in Medical Laboratory Sciences",
+            "course_code": "",
+            "duration": "",
+            "aps": "38",
+            "required_subjects": [
+                {
+                    "subject": "English (HL or FAL)",
+                    "level": "4",
+                    "percentage": ""
+                },
+                {
+                    "subject": "Maths",
+                    "level": "4",
+                    "percentage": ""
+                },
+                {
+                    "subject": "Life Sciences",
+                    "level": "5",
+                    "percentage": ""
+                },
+                {
+                    "subject": "Physical Sciences",
+                    "level": "4",
+                    "percentage": ""
+                }
+            ]
+        },
+        {
+            "course_name": "BSc in Diagnostic Radiography",
+            "course_code": "",
+            "duration": "",
+            "aps": "30",
+            "required_subjects": []
+        },
+        {
+            "course_name": "BSc in Nuclear Medicine Technology",
+            "course_code": "",
+            "duration": "",
+            "aps": "30",
+            "required_subjects": []
+        },
+        {
+            "course_name": "Bachelor of Emergency Medical Care (ECP)",
+            "course_code": "",
+            "duration": "",
+            "aps": "30",
+            "required_subjects": []
+        },
+        {
+            "course_name": "Diploma in Somatology",
+            "course_code": "",
+            "duration": "",
+            "aps": "24",
+            "required_subjects": []
+        },
+        {
+            "course_name": "Bachelor of Nursing",
+            "course_code": "",
+            "duration": "",
+            "aps": "30",
+            "required_subjects": []
+        },
+        {
+            "course_name": "BHSc Dental Technology (ECP)",
+            "course_code": "",
+            "duration": "",
+            "aps": "",
+            "required_subjects": []
+        },
+        {
+            "course_name": "BHSc in Medical Laboratory Sciences (Extended)",
+            "course_code": "",
+            "duration": "",
+            "aps": "30",
+            "required_subjects": []
+        },
+        {
+            "course_name": "HC in Dental Assisting",
+            "course_code": "",
+            "duration": "",
+            "aps": "25",
+            "required_subjects": [
+                {
+                    "subject": "English (HL or FAL)",
+                    "level": "3",
+                    "percentage": ""
+                },
+                {
+                    "subject": "Maths",
+                    "level": "2",
+                    "percentage": ""
+                },
+                {
+                    "subject": "Maths Lit**",
+                    "level": "3",
+                    "percentage": ""
+                },
+                {
+                    "subject": "Life Sciences",
+                    "level": "3"
+                }
+            ]
+        },
+        {
+            "course_name": "Bachelor of Nursing (ECP)",
+            "course_code": "",
+            "duration": "",
+            "aps": "27",
+            "required_subjects": []
+        }
+    ],
+    "FACULTY OF EDUCATION": [
+        {
+            "course_name": "Diploma in Grade R Teaching",
+            "course_code": "",
+            "duration": "",
+            "aps": "",
+            "required_subjects": []
+        },
+        {
+            "course_name": "Bachelor of Education: Foundation Phase Teaching (Mowbray)",
+            "course_code": "",
+            "duration": "",
+            "aps": "32",
+            "required_subjects": []
+        },
+        {
+            "course_name": "Bachelor of Education: Foundation Phase Teaching (Wellington)",
+            "course_code": "",
+            "duration": "",
+            "aps": "32",
+            "required_subjects": []
+        },
+        {
+            "course_name": "Bachelor of Education: Senior Phase and Further Education & Training (FET) Teaching (Wellington)",
+            "course_code": "",
+            "duration": "",
+            "aps": "32",
+            "required_subjects": []
+        },
+        {
+            "course_name": "Bachelor of Education: Intermediate Phase Teaching (Wellington)",
+            "course_code": "",
+            "duration": "",
+            "aps": "32",
+            "required_subjects": []
+        },
+        {
+            "course_name": "Bachelor of Education: Senior Phase and Further Education & Training (FET) Teaching (Mowbray)",
+            "course_code": "",
+            "duration": "",
+            "aps": "32",
+            "required_subjects": []
+        },
+        {
+            "course_name": "Bachelor of Education: Intermediate Phase Teaching (Mowbray)",
+            "course_code": "",
+            "duration": "",
+            "aps": "32",
+            "required_subjects": []
+        },
+        {
+            "course_name": "Diploma in Early Childhood Care and Education",
+            "course_code": "",
+            "duration": "",
+            "aps": "",
+            "required_subjects": []
+        }
+    ]
+}

@@ -1,1178 +1,1946 @@
 {
-    "FACULTY OF COMMERCE": [
-        {
-            "course_name": "Bachelor of Business Science specialising in: Computer Science",
-            "course_code": "",
-            "duration": "4",
-            "aps": "",
-            "fps": "435",
-            "required_subjects": [
-                {
-                    "subject": "Mathematics",
-                    "level": "70"
-                },
-                {
-                    "subject": "English Home Language",
-                    "level": "50"
-                },
-                {
-                    "subject": "English First Additional Language",
-                    "level": "60"
-                }
-            ]
-        },
-        {
-            "course_name": "Bachelor of Business Science specialising in: Economics",
-            "course_code": "",
-            "duration": "4",
-            "aps": "",
-            "fps": "435",
-            "required_subjects": [
-                {
-                    "subject": "Mathematics",
-                    "level": "70"
-                },
-                {
-                    "subject": "English Home Language",
-                    "level": "50"
-                },
-                {
-                    "subject": "English First Additional Language",
-                    "level": "60"
-                }
-            ]
-        },
-        {
-            "course_name": "Bachelor of Business Science specialising in: Economics with Law",
-            "course_code": "",
-            "duration": "4",
-            "aps": "",
-            "fps": "435",
-            "required_subjects": [
-                {
-                    "subject": "Mathematics",
-                    "level": "70"
-                },
-                {
-                    "subject": "English Home Language",
-                    "level": "50"
-                },
-                {
-                    "subject": "English First Additional Language",
-                    "level": "60"
-                }
-            ]
-        },
-        {
-            "course_name": "Bachelor of Business Science specialising in: Finance, Investment and Banking",
-            "course_code": "",
-            "duration": "4",
-            "aps": "",
-            "fps": "435",
-            "required_subjects": [
-                {
-                    "subject": "Mathematics",
-                    "level": "70"
-                },
-                {
-                    "subject": "English Home Language",
-                    "level": "50"
-                },
-                {
-                    "subject": "English First Additional Language",
-                    "level": "60"
-                }
-            ]
-        },
-        {
-            "course_name": "Bachelor of Business Science specialising in: Finance with Accounting",
-            "course_code": "",
-            "duration": "4",
-            "aps": "",
-            "fps": "435",
-            "required_subjects": [
-                {
-                    "subject": "Mathematics",
-                    "level": "70"
-                },
-                {
-                    "subject": "English Home Language",
-                    "level": "50"
-                },
-                {
-                    "subject": "English First Additional Language",
-                    "level": "60"
-                }
-            ]
-        },
-        {
-            "course_name": "Bachelor of Business Science specialising in: Information Systems",
-            "course_code": "",
-            "duration": "4",
-            "aps": "",
-            "fps": "435",
-            "required_subjects": [
-                {
-                    "subject": "Mathematics",
-                    "level": "70"
-                },
-                {
-                    "subject": "English Home Language",
-                    "level": "50"
-                },
-                {
-                    "subject": "English First Additional Language",
-                    "level": "60"
-                }
-            ]
-        },
-        {
-            "course_name": "Bachelor of Business Science specialising in: Marketing",
-            "course_code": "",
-            "duration": "4",
-            "aps": "",
-            "fps": "435",
-            "required_subjects": [
-                {
-                    "subject": "Mathematics",
-                    "level": "70"
-                },
-                {
-                    "subject": "English Home Language",
-                    "level": "50"
-                },
-                {
-                    "subject": "English First Additional Language",
-                    "level": "60"
-                }
-            ]
-        },
-        {
-            "course_name": "Bachelor of Business Science specialising in: Organisational Psychology",
-            "course_code": "",
-            "duration": "4",
-            "aps": "",
-            "fps": "435",
-            "required_subjects": [
-                {
-                    "subject": "Mathematics",
-                    "level": "70"
-                },
-                {
-                    "subject": "English Home Language",
-                    "level": "50"
-                },
-                {
-                    "subject": "English First Additional Language",
-                    "level": "60"
-                }
-            ]
-        },
-        {
-            "course_name": "Bachelor of Business Science specialising in: Statistics and Data Science",
-            "course_code": "",
-            "duration": "4",
-            "aps": "",
-            "fps": "435",
-            "required_subjects": [
-                {
-                    "subject": "Mathematics",
-                    "level": "70"
-                },
-                {
-                    "subject": "English Home Language",
-                    "level": "50"
-                },
-                {
-                    "subject": "English First Additional Language",
-                    "level": "60"
-                }
-            ]
-        },
-        {
-            "course_name": "Bachelor of Commerce specialising in: Financial Accounting (General/Chartered)",
-            "course_code": "",
-            "duration": "3",
-            "aps": "",
-            "fps": "435",
-            "required_subjects": [
-                {
-                    "subject": "Mathematics",
-                    "level": "70"
-                },
-                {
-                    "subject": "English Home Language",
-                    "level": "50"
-                },
-                {
-                    "subject": "English First Additional Language",
-                    "level": "60"
-                }
-            ]
-        },
-        {
-            "course_name": "Bachelor of Commerce specialising in: Economics with Law",
-            "course_code": "",
-            "duration": "3",
-            "aps": "",
-            "fps": "435",
-            "required_subjects": [
-                {
-                    "subject": "Mathematics",
-                    "level": "70"
-                },
-                {
-                    "subject": "English Home Language",
-                    "level": "50"
-                },
-                {
-                    "subject": "English First Additional Language",
-                    "level": "60"
-                }
-            ]
-        },
-        {
-            "course_name": "Bachelor of Commerce specialising in: Economics with Finance",
-            "course_code": "",
-            "duration": "3",
-            "aps": "",
-            "fps": "435",
-            "required_subjects": [
-                {
-                    "subject": "Mathematics",
-                    "level": "70"
-                },
-                {
-                    "subject": "English Home Language",
-                    "level": "50"
-                },
-                {
-                    "subject": "English First Additional Language",
-                    "level": "60"
-                }
-            ]
-        },
-        {
-            "course_name": "Bachelor of Commerce specialising in: Economics & Statistics",
-            "course_code": "",
-            "duration": "3",
-            "aps": "",
-            "fps": "435",
-            "required_subjects": [
-                {
-                    "subject": "Mathematics",
-                    "level": "70"
-                },
-                {
-                    "subject": "English Home Language",
-                    "level": "50"
-                },
-                {
-                    "subject": "English First Additional Language",
-                    "level": "60"
-                }
-            ]
-        },
-        {
-            "course_name": "Bachelor of Commerce specialising in: Information Systems",
-            "course_code": "",
-            "duration": "3",
-            "aps": "",
-            "fps": "435",
-            "required_subjects": [
-                {
-                    "subject": "Mathematics",
-                    "level": "70"
-                },
-                {
-                    "subject": "English Home Language",
-                    "level": "50"
-                },
-                {
-                    "subject": "English First Additional Language",
-                    "level": "60"
-                }
-            ]
-        },
-        {
-            "course_name": "Bachelor of Commerce specialising in: Information Systems & Computer Science",
-            "course_code": "",
-            "duration": "3",
-            "aps": "",
-            "fps": "435",
-            "required_subjects": [
-                {
-                    "subject": "Mathematics",
-                    "level": "70"
-                },
-                {
-                    "subject": "English Home Language",
-                    "level": "50"
-                },
-                {
-                    "subject": "English First Additional Language",
-                    "level": "60"
-                }
-            ]
-        },
-        {
-            "course_name": "Bachelor of Commerce specialising in: Information Systems & Finance",
-            "course_code": "",
-            "duration": "3",
-            "aps": "",
-            "fps": "435",
-            "required_subjects": [
-                {
-                    "subject": "Mathematics",
-                    "level": "70"
-                },
-                {
-                    "subject": "English Home Language",
-                    "level": "50"
-                },
-                {
-                    "subject": "English First Additional Language",
-                    "level": "60"
-                }
-            ]
-        },
-        {
-            "course_name": "Bachelor of Commerce specialising in: Management Studies",
-            "course_code": "",
-            "duration": "3",
-            "aps": "",
-            "fps": "435",
-            "required_subjects": [
-                {
-                    "subject": "Mathematics",
-                    "level": "70"
-                },
-                {
-                    "subject": "English Home Language",
-                    "level": "50"
-                },
-                {
-                    "subject": "English First Additional Language",
-                    "level": "60"
-                }
-            ]
-        },
-        {
-            "course_name": "Bachelor of Commerce specialising in: Philosophy Politics & Economics",
-            "course_code": "",
-            "duration": "3",
-            "aps": "",
-            "fps": "435",
-            "required_subjects": [
-                {
-                    "subject": "Mathematics",
-                    "level": "70"
-                },
-                {
-                    "subject": "English Home Language",
-                    "level": "50"
-                },
-                {
-                    "subject": "English First Additional Language",
-                    "level": "60"
-                }
-            ]
-        },
-        {
-            "course_name": "Bachelor of Business Science specialising in: Actuarial Science",
-            "course_code": "",
-            "duration": "4",
-            "aps": "",
-            "fps": "500",
-            "required_subjects": [
-                {
-                    "subject": "Mathematics",
-                    "level": "80"
-                },
-                {
-                    "subject": "English Home Language",
-                    "level": "60"
-                },
-                {
-                    "subject": "English First Additional Language",
-                    "level": "80"
-                }
-            ]
-        },
-        {
-            "course_name": "Bachelor of Business Science specialising in: Quantitative Finance",
-            "course_code": "",
-            "duration": "4",
-            "aps": "",
-            "fps": "500",
-            "required_subjects": [
-                {
-                    "subject": "Mathematics",
-                    "level": "80"
-                },
-                {
-                    "subject": "English Home Language",
-                    "level": "60"
-                },
-                {
-                    "subject": "English First Additional Language",
-                    "level": "80"
-                }
-            ]
-        },
-        {
-            "course_name": "Bachelor of Commerce specialising in: Actuarial Science",
-            "course_code": "",
-            "duration": "3",
-            "aps": "",
-            "fps": "500",
-            "required_subjects": [
-                {
-                    "subject": "Mathematics",
-                    "level": "80"
-                },
-                {
-                    "subject": "English Home Language",
-                    "level": "60"
-                },
-                {
-                    "subject": "English First Additional Language",
-                    "level": "80"
-                }
-            ]
-        },
-        {
-            "course_name": "Bachelor of Commerce specialising in: Quantitative Finance",
-            "course_code": "",
-            "duration": "3",
-            "aps": "",
-            "fps": "500",
-            "required_subjects": [
-                {
-                    "subject": "Mathematics",
-                    "level": "80"
-                },
-                {
-                    "subject": "English Home Language",
-                    "level": "60"
-                },
-                {
-                    "subject": "English First Additional Language",
-                    "level": "80"
-                }
-            ]
-        }
-    ],
     "FACULTY OF ENGINEERING & THE BUILT ENVIRONMENT": [
         {
-            "course_name": "Bachelor of Science in Engineering in Chemical Engineering",
+            "course_name": "Bachelor of Architectural Studies",
             "course_code": "",
-            "duration": "4",
+            "duration": "",
             "aps": "",
-            "fps": "500",
+            "bands": [
+                {
+                    "band_name": "BAND A",
+                    "score_type": "FPS",
+                    "score": "450",
+                    "required_subjects": [
+                        {
+                            "subject": "Mathematics",
+                            "level": "",
+                            "percentage": "50"
+                        },
+                        {
+                            "subject": "English",
+                            "level": "",
+                            "percentage": "50"
+                        }
+                    ],
+                    "raw_text": "BAND A (Guaranteed admission): 450 FPS or above, >= 50% for Mathematics, >= 50% for English, and Architecture Portfolio Score of 75% or above."
+                },
+                {
+                    "band_name": "BAND B",
+                    "score_type": "WPS",
+                    "score": "408",
+                    "required_subjects": [
+                        {
+                            "subject": "Mathematics",
+                            "level": "",
+                            "percentage": "50"
+                        },
+                        {
+                            "subject": "English",
+                            "level": "",
+                            "percentage": "50"
+                        }
+                    ],
+                    "raw_text": "BAND B (Likely admission): 408 WPS or above, >= 50% for Mathematics, >= 50% for English, and Architecture Portfolio Score of 68% or above."
+                },
+                {
+                    "band_name": "BAND C",
+                    "score_type": "FPS",
+                    "score": "348",
+                    "required_subjects": [
+                        {
+                            "subject": "Mathematics",
+                            "level": "",
+                            "percentage": "50"
+                        },
+                        {
+                            "subject": "English",
+                            "level": "",
+                            "percentage": "50"
+                        }
+                    ],
+                    "raw_text": "BAND C (Possible admission, SA applicants in targeted redress categories only): 348 FPS or above, >= 50% for Mathematics, >= 50% for English, and Architecture Portfolio Score of 50% or above. NBTs in Mathematics, AL & QL to be written."
+                }
+            ],
+            "req_text": "Band A (Guaranteed admission): 450 FPS or above, >= 50% for Mathematics, >= 50% for English, and Architecture Portfolio Score of 75% or above. Band B (Likely admission): 408 WPS or above, >= 50% for Mathematics, >= 50% for English, and Architecture Portfolio Score of 68% or above. Band C (Possible admission, SA applicants in targeted redress categories only): 348 FPS or above, >= 50% for Mathematics, >= 50% for English, and Architecture Portfolio Score of 50% or above. NBTs in Mathematics, AL & QL to be written.",
             "required_subjects": [
                 {
                     "subject": "Mathematics",
-                    "level": "80"
+                    "level": "",
+                    "percentage": "50"
                 },
                 {
-                    "subject": "Physical Sciences",
-                    "level": "70"
+                    "subject": "English",
+                    "level": "",
+                    "percentage": "50"
                 }
-            ]
+            ],
+            "fps": "450",
+            "wps": ""
         },
         {
-            "course_name": "Bachelor of Science in Engineering in Civil Engineering",
+            "course_name": "Bachelor of Science in Engineering in Electrical, Electrical and Computer Engineering and Mechatronics",
             "course_code": "",
-            "duration": "4",
+            "duration": "",
             "aps": "",
-            "fps": "500",
+            "bands": [
+                {
+                    "band_name": "BAND A",
+                    "score_type": "FPS",
+                    "score": "500",
+                    "required_subjects": [
+                        {
+                            "subject": "Mathematics",
+                            "level": "",
+                            "percentage": "80"
+                        },
+                        {
+                            "subject": "Physical Sciences",
+                            "level": "",
+                            "percentage": "75"
+                        }
+                    ],
+                    "raw_text": "BAND A (Guaranteed admission): 500 FPS or above, >= 80% for Mathematics and >= 75% for Physical Sciences."
+                },
+                {
+                    "band_name": "BAND B",
+                    "score_type": "WPS",
+                    "score": "480",
+                    "required_subjects": [
+                        {
+                            "subject": "Mathematics",
+                            "level": "",
+                            "percentage": "80"
+                        },
+                        {
+                            "subject": "Physical Sciences",
+                            "level": "",
+                            "percentage": "75"
+                        }
+                    ],
+                    "raw_text": "BAND B (Likely admission): 480 WPS or above, >= 80% for Mathematics and >= 75% for Physical Sciences."
+                },
+                {
+                    "band_name": "BAND C",
+                    "score_type": "FPS",
+                    "score": "420",
+                    "required_subjects": [
+                        {
+                            "subject": "Mathematics",
+                            "level": "",
+                            "percentage": "80"
+                        },
+                        {
+                            "subject": "Physical Sciences",
+                            "level": "",
+                            "percentage": "75"
+                        }
+                    ],
+                    "raw_text": "BAND C (Possible admission, SA applicants in targeted redress categories only): 420 FPS or above, >= 80% for Mathematics and >= 75% for Physical Sciences. NBTs in Mathematics, AL & QL to be written."
+                }
+            ],
+            "req_text": "Band A (Guaranteed admission): 500 FPS or above, >= 80% for Mathematics and >= 75% for Physical Sciences. Band B (Likely admission): 480 WPS or above, >= 80% for Mathematics and >= 75% for Physical Sciences. Band C (Possible admission, SA applicants in targeted redress categories only): 420 FPS or above, >= 80% for Mathematics and >= 75% for Physical Sciences. NBTs in Mathematics, AL & QL to be written.",
             "required_subjects": [
                 {
                     "subject": "Mathematics",
-                    "level": "80"
+                    "level": "",
+                    "percentage": "80"
                 },
                 {
                     "subject": "Physical Sciences",
-                    "level": "70"
+                    "level": "",
+                    "percentage": "75"
                 }
-            ]
-        },
-        {
-            "course_name": "Bachelor of Science in Engineering in Electrical Engineering",
-            "course_code": "",
-            "duration": "4",
-            "aps": "",
+            ],
             "fps": "500",
-            "required_subjects": [
-                {
-                    "subject": "Mathematics",
-                    "level": "80"
-                },
-                {
-                    "subject": "Physical Sciences",
-                    "level": "70"
-                }
-            ]
-        },
-        {
-            "course_name": "Bachelor of Science in Engineering in Electrical & Computer Engineering",
-            "course_code": "",
-            "duration": "4",
-            "aps": "",
-            "fps": "500",
-            "required_subjects": [
-                {
-                    "subject": "Mathematics",
-                    "level": "80"
-                },
-                {
-                    "subject": "Physical Sciences",
-                    "level": "70"
-                }
-            ]
-        },
-        {
-            "course_name": "Bachelor of Science in Engineering in Mechatronics",
-            "course_code": "",
-            "duration": "4",
-            "aps": "",
-            "fps": "500",
-            "required_subjects": [
-                {
-                    "subject": "Mathematics",
-                    "level": "80"
-                },
-                {
-                    "subject": "Physical Sciences",
-                    "level": "70"
-                }
-            ]
-        },
-        {
-            "course_name": "Bachelor of Science in Engineering in Mechanical Engineering",
-            "course_code": "",
-            "duration": "4",
-            "aps": "",
-            "fps": "500",
-            "required_subjects": [
-                {
-                    "subject": "Mathematics",
-                    "level": "80"
-                },
-                {
-                    "subject": "Physical Sciences",
-                    "level": "70"
-                }
-            ]
+            "wps": ""
         },
         {
             "course_name": "Bachelor of Science in Geomatics",
             "course_code": "",
-            "duration": "4",
+            "duration": "",
             "aps": "",
-            "fps": "450",
+            "bands": [
+                {
+                    "band_name": "BAND A",
+                    "score_type": "FPS",
+                    "score": "450",
+                    "required_subjects": [
+                        {
+                            "subject": "Mathematics",
+                            "level": "",
+                            "percentage": "75"
+                        },
+                        {
+                            "subject": "Physical Sciences",
+                            "level": "",
+                            "percentage": "70"
+                        }
+                    ],
+                    "raw_text": "BAND A (Guaranteed admission): 450 FPS or above, >= 75% for Mathematics and >= 70% for Physical Sciences."
+                },
+                {
+                    "band_name": "BAND B",
+                    "score_type": "WPS",
+                    "score": "420",
+                    "required_subjects": [
+                        {
+                            "subject": "Mathematics",
+                            "level": "",
+                            "percentage": "65"
+                        },
+                        {
+                            "subject": "Physical Sciences",
+                            "level": "",
+                            "percentage": "60"
+                        }
+                    ],
+                    "raw_text": "BAND B (Probable admission): 420 WPS or above, >= 65% for Mathematics and >= 60% for Physical Sciences."
+                },
+                {
+                    "band_name": "BAND C",
+                    "score_type": "FPS",
+                    "score": "390",
+                    "required_subjects": [
+                        {
+                            "subject": "Mathematics",
+                            "level": "",
+                            "percentage": "65"
+                        },
+                        {
+                            "subject": "Physical Sciences",
+                            "level": "",
+                            "percentage": "60"
+                        }
+                    ],
+                    "raw_text": "BAND C (Possible admission, SA applicants in targeted redress categories only): 390 FPS or above, >= 65% for Mathematics and >= 60% for Physical Sciences. NBTs in Mathematics, AL & QL to be written."
+                }
+            ],
+            "req_text": "Band A (Guaranteed admission): 450 FPS or above, >= 75% for Mathematics and >= 70% for Physical Sciences. Band B (Probable admission): 420 WPS or above, >= 65% for Mathematics and >= 60% for Physical Sciences. Band C (Possible admission, SA applicants in targeted redress categories only): 390 FPS or above, >= 65% for Mathematics and >= 60% for Physical Sciences. NBTs in Mathematics, AL & QL to be written.",
             "required_subjects": [
                 {
                     "subject": "Mathematics",
-                    "level": "70"
+                    "level": "",
+                    "percentage": "75"
                 },
                 {
                     "subject": "Physical Sciences",
-                    "level": "50"
+                    "level": "",
+                    "percentage": "70"
                 }
-            ]
+            ],
+            "fps": "450",
+            "wps": ""
         },
         {
-            "course_name": "Bachelor of Science in Construction Studies",
+            "course_name": "Bachelor of Science in Engineering in Chemical Engineering",
             "course_code": "",
-            "duration": "3",
+            "duration": "",
             "aps": "",
-            "fps": "450",
+            "bands": [
+                {
+                    "band_name": "BAND A",
+                    "score_type": "FPS",
+                    "score": "500",
+                    "required_subjects": [
+                        {
+                            "subject": "Mathematics",
+                            "level": "",
+                            "percentage": "80"
+                        },
+                        {
+                            "subject": "Physical Sciences",
+                            "level": "",
+                            "percentage": "75"
+                        }
+                    ],
+                    "raw_text": "BAND A (Guaranteed admission): 500 FPS or above, >= 80% for Mathematics and >= 75% for Physical Sciences."
+                },
+                {
+                    "band_name": "BAND B",
+                    "score_type": "WPS",
+                    "score": "480",
+                    "required_subjects": [
+                        {
+                            "subject": "Mathematics",
+                            "level": "",
+                            "percentage": "80"
+                        },
+                        {
+                            "subject": "Physical Sciences",
+                            "level": "",
+                            "percentage": "70"
+                        }
+                    ],
+                    "raw_text": "BAND B (Likely admission): 480 WPS or above, >= 80% for Mathematics and >= 70% for Physical Sciences."
+                },
+                {
+                    "band_name": "BAND C",
+                    "score_type": "FPS",
+                    "score": "420",
+                    "required_subjects": [
+                        {
+                            "subject": "Mathematics",
+                            "level": "",
+                            "percentage": "80"
+                        },
+                        {
+                            "subject": "Physical Sciences",
+                            "level": "",
+                            "percentage": "70"
+                        }
+                    ],
+                    "raw_text": "BAND C (Possible admission, SA applicants in targeted redress categories only): 420 FPS or above, >= 80% for Mathematics and >= 70% for Physical Sciences. NBTs in Mathematics, AL & QL to be written."
+                }
+            ],
+            "req_text": "Band A (Guaranteed admission): 500 FPS or above, >= 80% for Mathematics and >= 75% for Physical Sciences. Band B (Likely admission): 480 WPS or above, >= 80% for Mathematics and >= 70% for Physical Sciences. Band C (Possible admission, SA applicants in targeted redress categories only): 420 FPS or above, >= 80% for Mathematics and >= 70% for Physical Sciences. NBTs in Mathematics, AL & QL to be written.",
             "required_subjects": [
                 {
                     "subject": "Mathematics",
-                    "level": "70"
+                    "level": "",
+                    "percentage": "80"
                 },
                 {
                     "subject": "Physical Sciences",
-                    "level": "50"
+                    "level": "",
+                    "percentage": "75"
                 }
-            ]
+            ],
+            "fps": "500",
+            "wps": ""
+        },
+        {
+            "course_name": "Bachelor of Science in Engineering in Civil Engineering",
+            "course_code": "",
+            "duration": "",
+            "aps": "",
+            "bands": [
+                {
+                    "band_name": "BAND A",
+                    "score_type": "FPS",
+                    "score": "500",
+                    "required_subjects": [
+                        {
+                            "subject": "Mathematics",
+                            "level": "",
+                            "percentage": "80"
+                        },
+                        {
+                            "subject": "Physical Sciences",
+                            "level": "",
+                            "percentage": "70"
+                        }
+                    ],
+                    "raw_text": "BAND A (Guaranteed admission): 500 FPS or above, >= 80% for Mathematics and >= 70% for Physical Sciences."
+                },
+                {
+                    "band_name": "BAND B",
+                    "score_type": "WPS",
+                    "score": "480",
+                    "required_subjects": [
+                        {
+                            "subject": "Mathematics",
+                            "level": "",
+                            "percentage": "80"
+                        },
+                        {
+                            "subject": "Physical Sciences",
+                            "level": "",
+                            "percentage": "70"
+                        }
+                    ],
+                    "raw_text": "BAND B (Likely admission): 480 WPS or above, >= 80% for Mathematics and >= 70% for Physical Sciences."
+                },
+                {
+                    "band_name": "BAND C",
+                    "score_type": "FPS",
+                    "score": "420",
+                    "required_subjects": [
+                        {
+                            "subject": "Mathematics",
+                            "level": "",
+                            "percentage": "80"
+                        },
+                        {
+                            "subject": "Physical Sciences",
+                            "level": "",
+                            "percentage": "70"
+                        }
+                    ],
+                    "raw_text": "BAND C (Possible admission, SA applicants in targeted redress categories only): 420 FPS or above, >= 80% for Mathematics and >= 70% for Physical Sciences. NBTs in Mathematics, AL & QL to be written."
+                }
+            ],
+            "req_text": "Band A (Guaranteed admission): 500 FPS or above, >= 80% for Mathematics and >= 70% for Physical Sciences. Band B (Likely admission): 480 WPS or above, >= 80% for Mathematics and >= 70% for Physical Sciences. Band C (Possible admission, SA applicants in targeted redress categories only): 420 FPS or above, >= 80% for Mathematics and >= 70% for Physical Sciences. NBTs in Mathematics, AL & QL to be written.",
+            "required_subjects": [
+                {
+                    "subject": "Mathematics",
+                    "level": "",
+                    "percentage": "80"
+                },
+                {
+                    "subject": "Physical Sciences",
+                    "level": "",
+                    "percentage": "70"
+                }
+            ],
+            "fps": "500",
+            "wps": ""
+        },
+        {
+            "course_name": "Bachelor of Science in Engineering in Mechanical, and Mechanical & Mechatronic Engineering",
+            "course_code": "",
+            "duration": "",
+            "aps": "",
+            "bands": [
+                {
+                    "band_name": "BAND A",
+                    "score_type": "FPS",
+                    "score": "500",
+                    "required_subjects": [
+                        {
+                            "subject": "Mathematics",
+                            "level": "",
+                            "percentage": "80"
+                        },
+                        {
+                            "subject": "Physical Sciences",
+                            "level": "",
+                            "percentage": "75"
+                        }
+                    ],
+                    "raw_text": "BAND A (Guaranteed admission): 500 FPS or above, >= 80% for Mathematics and >= 75% for Physical Sciences."
+                },
+                {
+                    "band_name": "BAND B",
+                    "score_type": "WPS",
+                    "score": "480",
+                    "required_subjects": [
+                        {
+                            "subject": "Mathematics",
+                            "level": "",
+                            "percentage": "80"
+                        },
+                        {
+                            "subject": "Physical Sciences",
+                            "level": "",
+                            "percentage": "75"
+                        }
+                    ],
+                    "raw_text": "BAND B (Likely admission): 480 WPS or above, >= 80% for Mathematics and >= 75% for Physical Sciences."
+                },
+                {
+                    "band_name": "BAND C",
+                    "score_type": "FPS",
+                    "score": "420",
+                    "required_subjects": [
+                        {
+                            "subject": "Mathematics",
+                            "level": "",
+                            "percentage": "80"
+                        },
+                        {
+                            "subject": "Physical Sciences",
+                            "level": "",
+                            "percentage": "75"
+                        }
+                    ],
+                    "raw_text": "BAND C (Possible admission, SA applicants in targeted redress categories only): 420 FPS or above, >= 80% for Mathematics and >= 75% for Physical Sciences. NBTs in Mathematics, AL & QL to be written."
+                }
+            ],
+            "req_text": "Band A (Guaranteed admission): 500 FPS or above, >= 80% for Mathematics and >= 75% for Physical Sciences. Band B (Likely admission): 480 WPS or above, >= 80% for Mathematics and >= 75% for Physical Sciences. Band C (Possible admission, SA applicants in targeted redress categories only): 420 FPS or above, >= 80% for Mathematics and >= 75% for Physical Sciences. NBTs in Mathematics, AL & QL to be written.",
+            "required_subjects": [
+                {
+                    "subject": "Mathematics",
+                    "level": "",
+                    "percentage": "80"
+                },
+                {
+                    "subject": "Physical Sciences",
+                    "level": "",
+                    "percentage": "75"
+                }
+            ],
+            "fps": "500",
+            "wps": ""
         },
         {
             "course_name": "Bachelor of Science in Property Studies",
             "course_code": "",
-            "duration": "3",
+            "duration": "",
             "aps": "",
-            "fps": "450",
+            "bands": [
+                {
+                    "band_name": "BAND A",
+                    "score_type": "FPS",
+                    "score": "450",
+                    "required_subjects": [
+                        {
+                            "subject": "Mathematics",
+                            "level": "",
+                            "percentage": "65"
+                        }
+                    ],
+                    "raw_text": "BAND A (Guaranteed admission): 450 FPS or above, >= 65% for Mathematics."
+                },
+                {
+                    "band_name": "BAND B",
+                    "score_type": "WPS",
+                    "score": "420",
+                    "required_subjects": [
+                        {
+                            "subject": "Mathematics",
+                            "level": "",
+                            "percentage": "65"
+                        }
+                    ],
+                    "raw_text": "BAND B (Likely admission): 420 WPS or above, >= 65% for Mathematics."
+                },
+                {
+                    "band_name": "BAND C",
+                    "score_type": "FPS",
+                    "score": "390",
+                    "required_subjects": [
+                        {
+                            "subject": "Mathematics",
+                            "level": "",
+                            "percentage": "65"
+                        }
+                    ],
+                    "raw_text": "BAND C (Possible admission, SA applicants in targeted redress categories only): 390 FPS or above, >= 65% for Mathematics. NBTs in Mathematics, AL & QL to be written."
+                }
+            ],
+            "req_text": "Band A (Guaranteed admission): 450 FPS or above, >= 65% for Mathematics. Band B (Likely admission): 420 WPS or above, >= 65% for Mathematics. Band C (Possible admission, SA applicants in targeted redress categories only): 390 FPS or above, >= 65% for Mathematics. NBTs in Mathematics, AL & QL to be written.",
             "required_subjects": [
                 {
                     "subject": "Mathematics",
-                    "level": "70"
+                    "level": "",
+                    "percentage": "65"
+                }
+            ],
+            "fps": "450",
+            "wps": ""
+        },
+        {
+            "course_name": "Bachelor of Science in Construction Studies",
+            "course_code": "",
+            "duration": "",
+            "aps": "",
+            "bands": [
+                {
+                    "band_name": "BAND A",
+                    "score_type": "FPS",
+                    "score": "450",
+                    "required_subjects": [
+                        {
+                            "subject": "Mathematics",
+                            "level": "",
+                            "percentage": "65"
+                        },
+                        {
+                            "subject": "Physical Sciences",
+                            "level": "",
+                            "percentage": "60"
+                        }
+                    ],
+                    "raw_text": "BAND A (Guaranteed admission): 450 FPS or above, >= 65% for Mathematics and >= 60% for Physical Sciences."
+                },
+                {
+                    "band_name": "BAND B",
+                    "score_type": "WPS",
+                    "score": "420",
+                    "required_subjects": [
+                        {
+                            "subject": "Mathematics",
+                            "level": "",
+                            "percentage": "65"
+                        },
+                        {
+                            "subject": "Physical Sciences",
+                            "level": "",
+                            "percentage": "55"
+                        }
+                    ],
+                    "raw_text": "BAND B (Likely admission): 420 WPS or above, >= 65% for Mathematics and >= 55% for Physical Sciences."
+                },
+                {
+                    "band_name": "BAND C",
+                    "score_type": "FPS",
+                    "score": "390",
+                    "required_subjects": [
+                        {
+                            "subject": "Mathematics",
+                            "level": "",
+                            "percentage": "65"
+                        },
+                        {
+                            "subject": "Physical Sciences",
+                            "level": "",
+                            "percentage": "55"
+                        }
+                    ],
+                    "raw_text": "BAND C (Possible admission, SA applicants in targeted redress categories only): 390 FPS or above, >= 65% for Mathematics and >= 55% for Physical Sciences. NBTs in Mathematics, AL & QL to be written."
+                }
+            ],
+            "req_text": "Band A (Guaranteed admission): 450 FPS or above, >= 65% for Mathematics and >= 60% for Physical Sciences. Band B (Likely admission): 420 WPS or above, >= 65% for Mathematics and >= 55% for Physical Sciences. Band C (Possible admission, SA applicants in targeted redress categories only): 390 FPS or above, >= 65% for Mathematics and >= 55% for Physical Sciences. NBTs in Mathematics, AL & QL to be written.",
+            "required_subjects": [
+                {
+                    "subject": "Mathematics",
+                    "level": "",
+                    "percentage": "65"
                 },
                 {
                     "subject": "Physical Sciences",
-                    "level": "50"
+                    "level": "",
+                    "percentage": "60"
                 }
-            ]
+            ],
+            "fps": "450",
+            "wps": ""
+        }
+    ],
+    "FACULTY OF COMMERCE": [
+        {
+            "course_name": "Advanced Diploma in Actuarial Science",
+            "course_code": "",
+            "duration": "",
+            "aps": "",
+            "bands": [
+                {
+                    "band_name": "DEFAULT",
+                    "score_type": "",
+                    "score": "",
+                    "required_subjects": [],
+                    "raw_text": "Candidates should have a first-class degree in Mathematical Statistics from a recognised university, with at least two years of Mathematics."
+                }
+            ],
+            "req_text": "Candidates should have a first-class degree in Mathematical Statistics from a recognised university, with at least two years of Mathematics.",
+            "required_subjects": [],
+            "fps": "",
+            "wps": ""
         },
         {
-            "course_name": "Bachelor of Architectural Studies",
+            "course_name": "Bachelor of Business Science and Bachelor of Commerce (ONLY Actuarial Science and Quantitative Finance Qualification and Stream)",
             "course_code": "",
-            "duration": "3",
+            "duration": "",
             "aps": "",
-            "fps": "450",
+            "bands": [
+                {
+                    "band_name": "BAND A",
+                    "score_type": "",
+                    "score": "",
+                    "required_subjects": [
+                        {
+                            "subject": "Mathematics",
+                            "level": "",
+                            "percentage": "80"
+                        },
+                        {
+                            "subject": "English HL",
+                            "level": "",
+                            "percentage": "60"
+                        },
+                        {
+                            "subject": "English FAL",
+                            "level": "",
+                            "percentage": "80"
+                        }
+                    ],
+                    "raw_text": "BAND A: FPS of 500 or above, NBT scores of Upper Intermediate or above for AL & QL, Mathematics 80%, English HL 60%, English FAL 80% (but require Proficient for AL & QL NBT's). Likely admission"
+                },
+                {
+                    "band_name": "BAND B",
+                    "score_type": "",
+                    "score": "",
+                    "required_subjects": [
+                        {
+                            "subject": "Mathematics",
+                            "level": "",
+                            "percentage": "80"
+                        },
+                        {
+                            "subject": "English HL",
+                            "level": "",
+                            "percentage": "60"
+                        },
+                        {
+                            "subject": "English FAL",
+                            "level": "",
+                            "percentage": "80"
+                        }
+                    ],
+                    "raw_text": "BAND B: WPS of 525 or above, NBT scores of Upper Intermediate or above for AL & QL, Mathematics 80%, English HL 60%, English FAL 80% (but require Proficient for AL & QL NBT's)."
+                }
+            ],
+            "req_text": "Guaranteed admission (Band A): FPS of 500 or above, NBT scores of Upper Intermediate or above for AL & QL, Mathematics 80%, English HL 60%, English FAL 80% (but require Proficient for AL & QL NBT's). Likely admission (Band B): WPS of 525 or above, NBT scores of Upper Intermediate or above for AL & QL, Mathematics 80%, English HL 60%, English FAL 80% (but require Proficient for AL & QL NBT's).",
             "required_subjects": [
                 {
                     "subject": "Mathematics",
-                    "level": "50"
+                    "level": "",
+                    "percentage": "80"
+                },
+                {
+                    "subject": "English HL",
+                    "level": "",
+                    "percentage": "60"
+                },
+                {
+                    "subject": "English FAL",
+                    "level": "",
+                    "percentage": "80"
                 }
-            ]
+            ],
+            "fps": "",
+            "wps": ""
+        },
+        {
+            "course_name": "Bachelor of Business Science and Bachelor of Commerce (ONLY Computer Science & Statistics and Data Science Specialisation)",
+            "course_code": "",
+            "duration": "",
+            "aps": "",
+            "bands": [
+                {
+                    "band_name": "BAND A",
+                    "score_type": "",
+                    "score": "",
+                    "required_subjects": [
+                        {
+                            "subject": "Mathematics",
+                            "level": "",
+                            "percentage": "70"
+                        },
+                        {
+                            "subject": "English HL",
+                            "level": "",
+                            "percentage": "50"
+                        },
+                        {
+                            "subject": "English FAL",
+                            "level": "",
+                            "percentage": "60"
+                        }
+                    ],
+                    "raw_text": "BAND A: FPS of 435 or above, NBT scores of Upper Intermediate or above for AL & QL, Mathematics 70%, English HL 50%, English FAL 60%. Likely admission"
+                },
+                {
+                    "band_name": "BAND B",
+                    "score_type": "",
+                    "score": "",
+                    "required_subjects": [
+                        {
+                            "subject": "Mathematics",
+                            "level": "",
+                            "percentage": "70"
+                        },
+                        {
+                            "subject": "English HL",
+                            "level": "",
+                            "percentage": "50"
+                        },
+                        {
+                            "subject": "English FAL",
+                            "level": "",
+                            "percentage": "60"
+                        }
+                    ],
+                    "raw_text": "BAND B: WPS of 470 or above, NBT scores of Upper Intermediate or above for AL & QL, Mathematics 70%, English HL 50%, English FAL 60%."
+                }
+            ],
+            "req_text": "Guaranteed admission (Band A): FPS of 435 or above, NBT scores of Upper Intermediate or above for AL & QL, Mathematics 70%, English HL 50%, English FAL 60%. Likely admission (Band B): WPS of 470 or above, NBT scores of Upper Intermediate or above for AL & QL, Mathematics 70%, English HL 50%, English FAL 60%.",
+            "required_subjects": [
+                {
+                    "subject": "Mathematics",
+                    "level": "",
+                    "percentage": "70"
+                },
+                {
+                    "subject": "English HL",
+                    "level": "",
+                    "percentage": "50"
+                },
+                {
+                    "subject": "English FAL",
+                    "level": "",
+                    "percentage": "60"
+                }
+            ],
+            "fps": "",
+            "wps": ""
+        },
+        {
+            "course_name": "Bachelor of Business Science and Bachelor of Commerce (All specialisations except for Actuarial Science, Computer Science and Statistics & Data Science)",
+            "course_code": "",
+            "duration": "",
+            "aps": "",
+            "bands": [
+                {
+                    "band_name": "BAND A",
+                    "score_type": "",
+                    "score": "",
+                    "required_subjects": [
+                        {
+                            "subject": "Mathematics",
+                            "level": "",
+                            "percentage": "60"
+                        },
+                        {
+                            "subject": "English HL",
+                            "level": "",
+                            "percentage": "50"
+                        },
+                        {
+                            "subject": "English FAL",
+                            "level": "",
+                            "percentage": "60"
+                        }
+                    ],
+                    "raw_text": "BAND A: FPS of 435 or above, NBT scores of Upper Intermediate or above for AL & QL, Mathematics 60%, English HL 50%, English FAL 60%. Likely admission"
+                },
+                {
+                    "band_name": "BAND B",
+                    "score_type": "",
+                    "score": "",
+                    "required_subjects": [
+                        {
+                            "subject": "Mathematics",
+                            "level": "",
+                            "percentage": "60"
+                        },
+                        {
+                            "subject": "English HL",
+                            "level": "",
+                            "percentage": "50"
+                        },
+                        {
+                            "subject": "English FAL",
+                            "level": "",
+                            "percentage": "60"
+                        }
+                    ],
+                    "raw_text": "BAND B: WPS of 470 or above, NBT scores of Upper Intermediate or above for AL & QL, Mathematics 60%, English HL 50%, English FAL 60%."
+                }
+            ],
+            "req_text": "Guaranteed admission (Band A): FPS of 435 or above, NBT scores of Upper Intermediate or above for AL & QL, Mathematics 60%, English HL 50%, English FAL 60%. Likely admission (Band B): WPS of 470 or above, NBT scores of Upper Intermediate or above for AL & QL, Mathematics 60%, English HL 50%, English FAL 60%.",
+            "required_subjects": [
+                {
+                    "subject": "Mathematics",
+                    "level": "",
+                    "percentage": "60"
+                },
+                {
+                    "subject": "English HL",
+                    "level": "",
+                    "percentage": "50"
+                },
+                {
+                    "subject": "English FAL",
+                    "level": "",
+                    "percentage": "60"
+                }
+            ],
+            "fps": "",
+            "wps": ""
         }
     ],
-    "FACULTY OF HEALTH SCIENCES": [
+    "FACULTY OF HEALTH SCIENCE": [
         {
-            "course_name": "Bachelor of Medicine and Bachelor of Surgery (MBChB)",
+            "course_name": "BACHELOR OF SCIENCE IN PHYSIOTHERAPY",
+            "course_code": "",
+            "duration": "",
+            "aps": "360",
+            "bands": [
+                {
+                    "band_name": "BAND A",
+                    "score_type": "FPS",
+                    "score": "730",
+                    "required_subjects": [
+                        {
+                            "subject": "Mathematics",
+                            "level": "",
+                            "percentage": "60"
+                        },
+                        {
+                            "subject": "Physical Sciences",
+                            "level": "",
+                            "percentage": "65"
+                        },
+                        {
+                            "subject": "Life Sciences",
+                            "level": "",
+                            "percentage": "65"
+                        },
+                        {
+                            "subject": "Physical Sciences or Life Sciences",
+                            "level": "",
+                            "percentage": "65"
+                        }
+                    ],
+                    "raw_text": "BAND A FPS: 730 FPS or above, NBT scores of Intermediate or above for AL, QL and Mathematics."
+                },
+                {
+                    "band_name": "BAND B",
+                    "score_type": "WPS",
+                    "score": "797",
+                    "required_subjects": [
+                        {
+                            "subject": "Mathematics",
+                            "level": "",
+                            "percentage": "60"
+                        },
+                        {
+                            "subject": "Physical Sciences",
+                            "level": "",
+                            "percentage": "65"
+                        },
+                        {
+                            "subject": "Life Sciences",
+                            "level": "",
+                            "percentage": "65"
+                        },
+                        {
+                            "subject": "Physical Sciences or Life Sciences",
+                            "level": "",
+                            "percentage": "65"
+                        }
+                    ],
+                    "raw_text": "BAND B WPS: 797 WPS or above, NBT scores of Intermediate or above for AL, QL and Mathematics."
+                },
+                {
+                    "band_name": "BAND C",
+                    "score_type": "FPS",
+                    "score": "580",
+                    "required_subjects": [
+                        {
+                            "subject": "Mathematics",
+                            "level": "",
+                            "percentage": "60"
+                        },
+                        {
+                            "subject": "Physical Sciences",
+                            "level": "",
+                            "percentage": "65"
+                        },
+                        {
+                            "subject": "Life Sciences",
+                            "level": "",
+                            "percentage": "65"
+                        },
+                        {
+                            "subject": "Physical Sciences or Life Sciences",
+                            "level": "",
+                            "percentage": "65"
+                        }
+                    ],
+                    "raw_text": "BAND C FPS: 580 FPS or above for redress 1, 610 FPS or above for redress 2, 680 FPS or above for redress 3 and 4."
+                }
+            ],
+            "req_text": "Minimum subject requirements and performance levels to be considered for admission: Mathematics at 60%, Physical Sciences or Life Sciences at 65%, English (Home or First Additional Language) at 65%; and 60% for the next three best subjects excluding Life Orientation. Sub-minimum APS of 360. Band A FPS: 730 FPS or above, NBT scores of Intermediate or above for AL, QL and Mathematics. Band B WPS: 797 WPS or above, NBT scores of Intermediate or above for AL, QL and Mathematics. Band C FPS: 580 FPS or above for redress 1, 610 FPS or above for redress 2, 680 FPS or above for redress 3 and 4.",
+            "required_subjects": [
+                {
+                    "subject": "Mathematics",
+                    "level": "",
+                    "percentage": "60"
+                },
+                {
+                    "subject": "Physical Sciences",
+                    "level": "",
+                    "percentage": "65"
+                },
+                {
+                    "subject": "Life Sciences",
+                    "level": "",
+                    "percentage": "65"
+                },
+                {
+                    "subject": "Physical Sciences or Life Sciences",
+                    "level": "",
+                    "percentage": "65"
+                }
+            ],
+            "fps": "730",
+            "wps": ""
+        },
+        {
+            "course_name": "BACHELOR OF MEDICINE AND BACHELOR OF SURGERY \u2013 MBCHB",
+            "course_code": "",
+            "duration": "",
+            "aps": "450",
+            "bands": [
+                {
+                    "band_name": "BAND A",
+                    "score_type": "FPS",
+                    "score": "810",
+                    "required_subjects": [
+                        {
+                            "subject": "Mathematics",
+                            "level": "",
+                            "percentage": "70"
+                        },
+                        {
+                            "subject": "Physical Sciences",
+                            "level": "",
+                            "percentage": "70"
+                        },
+                        {
+                            "subject": "Mathematics and Physical Sciences",
+                            "level": "",
+                            "percentage": "70"
+                        }
+                    ],
+                    "raw_text": "BAND A FPS: 810 FPS or above, NBT scores of Proficient for AL, QL and Mathematics."
+                },
+                {
+                    "band_name": "BAND B",
+                    "score_type": "WPS",
+                    "score": "807",
+                    "required_subjects": [
+                        {
+                            "subject": "Mathematics",
+                            "level": "",
+                            "percentage": "70"
+                        },
+                        {
+                            "subject": "Physical Sciences",
+                            "level": "",
+                            "percentage": "70"
+                        },
+                        {
+                            "subject": "Mathematics and Physical Sciences",
+                            "level": "",
+                            "percentage": "70"
+                        }
+                    ],
+                    "raw_text": "BAND B WPS: 807 WPS or above, NBT scores of Intermediate or above for AL, QL and Mathematics."
+                },
+                {
+                    "band_name": "BAND C",
+                    "score_type": "FPS",
+                    "score": "644",
+                    "required_subjects": [
+                        {
+                            "subject": "Mathematics",
+                            "level": "",
+                            "percentage": "70"
+                        },
+                        {
+                            "subject": "Physical Sciences",
+                            "level": "",
+                            "percentage": "70"
+                        },
+                        {
+                            "subject": "Mathematics and Physical Sciences",
+                            "level": "",
+                            "percentage": "70"
+                        }
+                    ],
+                    "raw_text": "BAND C FPS: 644 FPS or above, NBT scores of Intermediate or above for AL, QL and Mathematics."
+                }
+            ],
+            "req_text": "Minimum subject requirements and performance levels to be considered for admission: Mathematics and Physical Sciences at 70%, English (Home or First Additional Language) at 65%; and 70% for the next three best subjects excluding Life Orientation. Sub-minimum APS of 450. Band A FPS: 810 FPS or above, NBT scores of Proficient for AL, QL and Mathematics. Band B WPS: 807 WPS or above, NBT scores of Intermediate or above for AL, QL and Mathematics. Band C FPS: 644 FPS or above, NBT scores of Intermediate or above for AL, QL and Mathematics.",
+            "required_subjects": [
+                {
+                    "subject": "Mathematics",
+                    "level": "",
+                    "percentage": "70"
+                },
+                {
+                    "subject": "Physical Sciences",
+                    "level": "",
+                    "percentage": "70"
+                },
+                {
+                    "subject": "Mathematics and Physical Sciences",
+                    "level": "",
+                    "percentage": "70"
+                }
+            ],
+            "fps": "810",
+            "wps": ""
+        },
+        {
+            "course_name": "BACHELOR OF SCIENCE IN OCCUPATIONAL THERAPY",
+            "course_code": "",
+            "duration": "",
+            "aps": "340",
+            "bands": [
+                {
+                    "band_name": "BAND A",
+                    "score_type": "FPS",
+                    "score": "730",
+                    "required_subjects": [
+                        {
+                            "subject": "Mathematics",
+                            "level": "",
+                            "percentage": "60"
+                        },
+                        {
+                            "subject": "Mathematical Literacy",
+                            "level": "",
+                            "percentage": "70"
+                        },
+                        {
+                            "subject": "Physical Sciences",
+                            "level": "",
+                            "percentage": "65"
+                        },
+                        {
+                            "subject": "Life Sciences",
+                            "level": "",
+                            "percentage": "65"
+                        },
+                        {
+                            "subject": "Physical Sciences or Life Sciences",
+                            "level": "",
+                            "percentage": "65"
+                        }
+                    ],
+                    "raw_text": "BAND A FPS: 730 FPS or above, NBT scores of Intermediate or above for AL, QL and Mathematics (applicants taking Mathematical Literacy and have achieved more than 75% are exempted from the NBT Mathematics Test)*."
+                },
+                {
+                    "band_name": "BAND B",
+                    "score_type": "WPS",
+                    "score": "782",
+                    "required_subjects": [
+                        {
+                            "subject": "Mathematics",
+                            "level": "",
+                            "percentage": "60"
+                        },
+                        {
+                            "subject": "Mathematical Literacy",
+                            "level": "",
+                            "percentage": "70"
+                        },
+                        {
+                            "subject": "Physical Sciences",
+                            "level": "",
+                            "percentage": "65"
+                        },
+                        {
+                            "subject": "Life Sciences",
+                            "level": "",
+                            "percentage": "65"
+                        },
+                        {
+                            "subject": "Physical Sciences or Life Sciences",
+                            "level": "",
+                            "percentage": "65"
+                        }
+                    ],
+                    "raw_text": "BAND B WPS: 782 WPS or above, NBT scores of Intermediate or above for AL, QL and Mathematics (applicants taking Mathematical Literacy and have achieved more than 75% are exempted from the NBT Mathematics Test)*."
+                },
+                {
+                    "band_name": "BAND C",
+                    "score_type": "FPS",
+                    "score": "565",
+                    "required_subjects": [
+                        {
+                            "subject": "Mathematics",
+                            "level": "",
+                            "percentage": "60"
+                        },
+                        {
+                            "subject": "Mathematical Literacy",
+                            "level": "",
+                            "percentage": "70"
+                        },
+                        {
+                            "subject": "Physical Sciences",
+                            "level": "",
+                            "percentage": "65"
+                        },
+                        {
+                            "subject": "Life Sciences",
+                            "level": "",
+                            "percentage": "65"
+                        },
+                        {
+                            "subject": "Physical Sciences or Life Sciences",
+                            "level": "",
+                            "percentage": "65"
+                        }
+                    ],
+                    "raw_text": "BAND C FPS: 565 FPS for redress 1, 580 FPS for redress 2, 670 FPS for redress 3 and 4."
+                }
+            ],
+            "req_text": "Minimum subject requirements and performance levels to be considered for admission: Mathematics at 60% or Mathematical Literacy at 70%, Physical Sciences or Life Sciences at 65%, English (Home or First Additional Language) at 65% or; and 60% for the next three best subjects excluding Life Orientation. Sub-minimum APS of 340. Band A FPS: 730 FPS or above, NBT scores of Intermediate or above for AL, QL and Mathematics (applicants taking Mathematical Literacy and have achieved more than 75% are exempted from the NBT Mathematics Test)*. Band B WPS: 782 WPS or above, NBT scores of Intermediate or above for AL, QL and Mathematics (applicants taking Mathematical Literacy and have achieved more than 75% are exempted from the NBT Mathematics Test)*. Band C FPS: 565 FPS for redress 1, 580 FPS for redress 2, 670 FPS for redress 3 and 4.",
+            "required_subjects": [
+                {
+                    "subject": "Mathematics",
+                    "level": "",
+                    "percentage": "60"
+                },
+                {
+                    "subject": "Mathematical Literacy",
+                    "level": "",
+                    "percentage": "70"
+                },
+                {
+                    "subject": "Physical Sciences",
+                    "level": "",
+                    "percentage": "65"
+                },
+                {
+                    "subject": "Life Sciences",
+                    "level": "",
+                    "percentage": "65"
+                },
+                {
+                    "subject": "Physical Sciences or Life Sciences",
+                    "level": "",
+                    "percentage": "65"
+                }
+            ],
+            "fps": "730",
+            "wps": ""
+        },
+        {
+            "course_name": "BACHELOR OF SCIENCE IN AUDIOLOGY",
+            "course_code": "",
+            "duration": "",
+            "aps": "340",
+            "bands": [
+                {
+                    "band_name": "BAND A",
+                    "score_type": "FPS",
+                    "score": "720",
+                    "required_subjects": [
+                        {
+                            "subject": "Mathematics",
+                            "level": "",
+                            "percentage": "60"
+                        },
+                        {
+                            "subject": "Mathematical Literacy",
+                            "level": "",
+                            "percentage": "70"
+                        },
+                        {
+                            "subject": "Physical Sciences",
+                            "level": "",
+                            "percentage": "65"
+                        },
+                        {
+                            "subject": "Life Sciences",
+                            "level": "",
+                            "percentage": "65"
+                        },
+                        {
+                            "subject": "Physical Sciences or Life Sciences",
+                            "level": "",
+                            "percentage": "65"
+                        }
+                    ],
+                    "raw_text": "BAND A FPS: 720 FPS or above, NBT scores of Intermediate or above for AL, QL and Mathematics (applicants taking Mathematical Literacy and have achieved more than 75% are exempted from the NBT Mathematics Test)*."
+                },
+                {
+                    "band_name": "BAND B",
+                    "score_type": "WPS",
+                    "score": "710",
+                    "required_subjects": [
+                        {
+                            "subject": "Mathematics",
+                            "level": "",
+                            "percentage": "60"
+                        },
+                        {
+                            "subject": "Mathematical Literacy",
+                            "level": "",
+                            "percentage": "70"
+                        },
+                        {
+                            "subject": "Physical Sciences",
+                            "level": "",
+                            "percentage": "65"
+                        },
+                        {
+                            "subject": "Life Sciences",
+                            "level": "",
+                            "percentage": "65"
+                        },
+                        {
+                            "subject": "Physical Sciences or Life Sciences",
+                            "level": "",
+                            "percentage": "65"
+                        }
+                    ],
+                    "raw_text": "BAND B WPS: 710 WPS or above, NBT scores of Intermediate or above for AL, QL and Mathematics (applicants taking Mathematical Literacy and have achieved more than 75% are exempted from the NBT Mathematics Test)*."
+                },
+                {
+                    "band_name": "BAND C",
+                    "score_type": "FPS",
+                    "score": "550",
+                    "required_subjects": [
+                        {
+                            "subject": "Mathematics",
+                            "level": "",
+                            "percentage": "60"
+                        },
+                        {
+                            "subject": "Mathematical Literacy",
+                            "level": "",
+                            "percentage": "70"
+                        },
+                        {
+                            "subject": "Physical Sciences",
+                            "level": "",
+                            "percentage": "65"
+                        },
+                        {
+                            "subject": "Life Sciences",
+                            "level": "",
+                            "percentage": "65"
+                        },
+                        {
+                            "subject": "Physical Sciences or Life Sciences",
+                            "level": "",
+                            "percentage": "65"
+                        }
+                    ],
+                    "raw_text": "BAND C FPS: 550 FPS for redress 1, 565 FPS for redress 2, 610 FPS for redress 3 and 4."
+                }
+            ],
+            "req_text": "Minimum subject requirements and performance levels to be considered for admission: Mathematics at 60% or Mathematical Literacy at 70%, Physical Sciences or Life Sciences at 65%, English (Home or First Additional Language) at 65%; and 60% for the next three best subjects excluding Life Orientation. Sub-minimum APS of 340. Band A FPS: 720 FPS or above, NBT scores of Intermediate or above for AL, QL and Mathematics (applicants taking Mathematical Literacy and have achieved more than 75% are exempted from the NBT Mathematics Test)*. Band B WPS: 710 WPS or above, NBT scores of Intermediate or above for AL, QL and Mathematics (applicants taking Mathematical Literacy and have achieved more than 75% are exempted from the NBT Mathematics Test)*. Band C FPS: 550 FPS for redress 1, 565 FPS for redress 2, 610 FPS for redress 3 and 4.",
+            "required_subjects": [
+                {
+                    "subject": "Mathematics",
+                    "level": "",
+                    "percentage": "60"
+                },
+                {
+                    "subject": "Mathematical Literacy",
+                    "level": "",
+                    "percentage": "70"
+                },
+                {
+                    "subject": "Physical Sciences",
+                    "level": "",
+                    "percentage": "65"
+                },
+                {
+                    "subject": "Life Sciences",
+                    "level": "",
+                    "percentage": "65"
+                },
+                {
+                    "subject": "Physical Sciences or Life Sciences",
+                    "level": "",
+                    "percentage": "65"
+                }
+            ],
+            "fps": "720",
+            "wps": ""
+        },
+        {
+            "course_name": "BACHELOR OF SCIENCE IN SPEECH-LANGUAGE PATHOLOGY",
+            "course_code": "",
+            "duration": "",
+            "aps": "340",
+            "bands": [
+                {
+                    "band_name": "BAND A",
+                    "score_type": "FPS",
+                    "score": "715",
+                    "required_subjects": [
+                        {
+                            "subject": "Mathematics",
+                            "level": "",
+                            "percentage": "60"
+                        },
+                        {
+                            "subject": "Mathematical Literacy",
+                            "level": "",
+                            "percentage": "70"
+                        },
+                        {
+                            "subject": "Physical Sciences",
+                            "level": "",
+                            "percentage": "65"
+                        },
+                        {
+                            "subject": "Life Sciences",
+                            "level": "",
+                            "percentage": "65"
+                        },
+                        {
+                            "subject": "Physical Sciences or Life Sciences",
+                            "level": "",
+                            "percentage": "65"
+                        }
+                    ],
+                    "raw_text": "BAND A FPS: 715 FPS or above, NBT scores of Intermediate or above for AL, QL and Mathematics (applicants taking Mathematical Literacy and have achieved more than 75% are exempted from the NBT Mathematics Test)**."
+                },
+                {
+                    "band_name": "BAND B",
+                    "score_type": "WPS",
+                    "score": "670",
+                    "required_subjects": [
+                        {
+                            "subject": "Mathematics",
+                            "level": "",
+                            "percentage": "60"
+                        },
+                        {
+                            "subject": "Mathematical Literacy",
+                            "level": "",
+                            "percentage": "70"
+                        },
+                        {
+                            "subject": "Physical Sciences",
+                            "level": "",
+                            "percentage": "65"
+                        },
+                        {
+                            "subject": "Life Sciences",
+                            "level": "",
+                            "percentage": "65"
+                        },
+                        {
+                            "subject": "Physical Sciences or Life Sciences",
+                            "level": "",
+                            "percentage": "65"
+                        }
+                    ],
+                    "raw_text": "BAND B WPS: 670 WPS or above, NBT scores of Intermediate or above for AL, QL and Mathematics (applicants taking Mathematical Literacy and have achieved more than 75% are exempted from the NBT Mathematics Test)**."
+                },
+                {
+                    "band_name": "BAND C",
+                    "score_type": "FPS",
+                    "score": "510",
+                    "required_subjects": [
+                        {
+                            "subject": "Mathematics",
+                            "level": "",
+                            "percentage": "60"
+                        },
+                        {
+                            "subject": "Mathematical Literacy",
+                            "level": "",
+                            "percentage": "70"
+                        },
+                        {
+                            "subject": "Physical Sciences",
+                            "level": "",
+                            "percentage": "65"
+                        },
+                        {
+                            "subject": "Life Sciences",
+                            "level": "",
+                            "percentage": "65"
+                        },
+                        {
+                            "subject": "Physical Sciences or Life Sciences",
+                            "level": "",
+                            "percentage": "65"
+                        }
+                    ],
+                    "raw_text": "BAND C FPS: 510 FPS for redress 1, 515 FPS for redress 2, 600 FPS for redress 3 and 4."
+                }
+            ],
+            "req_text": "Minimum subject requirements and performance levels to be considered for admission: Mathematics at 60% or Mathematical Literacy at 70%, Physical Sciences or Life Sciences at 65%, English (Home or First Additional Language) at 65%; and 60% for the next three best subjects excluding Life Orientation. Sub-minimum APS of 340. Band A FPS: 715 FPS or above, NBT scores of Intermediate or above for AL, QL and Mathematics (applicants taking Mathematical Literacy and have achieved more than 75% are exempted from the NBT Mathematics Test)**. Band B WPS: 670 WPS or above, NBT scores of Intermediate or above for AL, QL and Mathematics (applicants taking Mathematical Literacy and have achieved more than 75% are exempted from the NBT Mathematics Test)**. Band C FPS: 510 FPS for redress 1, 515 FPS for redress 2, 600 FPS for redress 3 and 4.",
+            "required_subjects": [
+                {
+                    "subject": "Mathematics",
+                    "level": "",
+                    "percentage": "60"
+                },
+                {
+                    "subject": "Mathematical Literacy",
+                    "level": "",
+                    "percentage": "70"
+                },
+                {
+                    "subject": "Physical Sciences",
+                    "level": "",
+                    "percentage": "65"
+                },
+                {
+                    "subject": "Life Sciences",
+                    "level": "",
+                    "percentage": "65"
+                },
+                {
+                    "subject": "Physical Sciences or Life Sciences",
+                    "level": "",
+                    "percentage": "65"
+                }
+            ],
+            "fps": "715",
+            "wps": ""
+        }
+    ],
+    "FACULTY OF SCIENCE": [
+        {
+            "course_name": "Bachelor of Science",
+            "course_code": "",
+            "duration": "3",
+            "aps": "",
+            "bands": [
+                {
+                    "band_name": "BAND A",
+                    "score_type": "",
+                    "score": "",
+                    "required_subjects": [
+                        {
+                            "subject": "Mathematics",
+                            "level": "",
+                            "percentage": "70"
+                        },
+                        {
+                            "subject": "Physical Science",
+                            "level": "",
+                            "percentage": "60"
+                        },
+                        {
+                            "subject": "Physical Sciences",
+                            "level": "",
+                            "percentage": "60"
+                        }
+                    ],
+                    "raw_text": "BAND A: FPS of 660 or above, Mathematics 70%+, Physical Sciences 60%+, NBTs written."
+                },
+                {
+                    "band_name": "BAND B",
+                    "score_type": "",
+                    "score": "",
+                    "required_subjects": [
+                        {
+                            "subject": "Mathematics",
+                            "level": "",
+                            "percentage": "70"
+                        },
+                        {
+                            "subject": "Physical Science",
+                            "level": "",
+                            "percentage": "60"
+                        },
+                        {
+                            "subject": "Physical Sciences",
+                            "level": "",
+                            "percentage": "60"
+                        }
+                    ],
+                    "raw_text": "BAND B: WPS of 640 or above, Mathematics 70%+, Physical Sciences 60%+, NBTs written."
+                },
+                {
+                    "band_name": "BAND C",
+                    "score_type": "",
+                    "score": "",
+                    "required_subjects": [
+                        {
+                            "subject": "Mathematics",
+                            "level": "",
+                            "percentage": "70"
+                        },
+                        {
+                            "subject": "Physical Science",
+                            "level": "",
+                            "percentage": "60"
+                        },
+                        {
+                            "subject": "Physical Sciences",
+                            "level": "",
+                            "percentage": "60"
+                        }
+                    ],
+                    "raw_text": "BAND C: FPS of 550 or above, Mathematics 70%+, Physical Sciences 60%+, NBTs written."
+                }
+            ],
+            "req_text": "Mathematics at 70% or above; Physical Science at 60% or above. Band A: FPS of 660 or above, Mathematics 70%+, Physical Sciences 60%+, NBTs written. Band B: WPS of 640 or above, Mathematics 70%+, Physical Sciences 60%+, NBTs written. Band C: FPS of 550 or above, Mathematics 70%+, Physical Sciences 60%+, NBTs written.",
+            "required_subjects": [
+                {
+                    "subject": "Mathematics",
+                    "level": "",
+                    "percentage": "70"
+                },
+                {
+                    "subject": "Physical Science",
+                    "level": "",
+                    "percentage": "60"
+                },
+                {
+                    "subject": "Physical Sciences",
+                    "level": "",
+                    "percentage": "60"
+                }
+            ],
+            "fps": "",
+            "wps": ""
+        }
+    ],
+    "FACULTY OF LAW": [
+        {
+            "course_name": "Undergraduate LLB (4 Years Minimum)",
+            "course_code": "",
+            "duration": "4",
+            "aps": "",
+            "bands": [
+                {
+                    "band_name": "BAND A",
+                    "score_type": "FPS",
+                    "score": "500",
+                    "required_subjects": [],
+                    "raw_text": "BAND A (Guaranteed Admission): 500 FPS or above, NBT scores of proficient for AL and intermediate or above for QL."
+                },
+                {
+                    "band_name": "BAND B",
+                    "score_type": "WPS",
+                    "score": "500",
+                    "required_subjects": [],
+                    "raw_text": "BAND B (Likely Admission): 500 WPS or above, NBT scores of proficient for AL and intermediate or above for QL."
+                },
+                {
+                    "band_name": "BAND C",
+                    "score_type": "FPS",
+                    "score": "470",
+                    "required_subjects": [],
+                    "raw_text": "BAND C (Possible Admission for SA applicants in targeted redress categories): 470 FPS or above, NBT scores of proficient for AL and QL. International applicants (Probable Admission): 510 FPS or above, NBT scores of proficient for AL and intermediate or above for QL."
+                }
+            ],
+            "req_text": "Band A (Guaranteed Admission): 500 FPS or above, NBT scores of proficient for AL and intermediate or above for QL. Band B (Likely Admission): 500 WPS or above, NBT scores of proficient for AL and intermediate or above for QL. Band C (Possible Admission for SA applicants in targeted redress categories): 470 FPS or above, NBT scores of proficient for AL and QL. International applicants (Probable Admission): 510 FPS or above, NBT scores of proficient for AL and intermediate or above for QL.",
+            "required_subjects": [],
+            "fps": "500",
+            "wps": ""
+        },
+        {
+            "course_name": "Combined Humanities/Commerce LLB",
+            "course_code": "",
+            "duration": "5",
+            "aps": "",
+            "bands": [
+                {
+                    "band_name": "DEFAULT",
+                    "score_type": "",
+                    "score": "",
+                    "required_subjects": [],
+                    "raw_text": "Students receive a bachelor's degree in the Humanities or Commerce faculty (BA/BSocSci or BCom) at the end of their first three years of study, and a bachelor's degree in law (LLB) at the end of a further two years. Students must apply for admission to the Law Faculty at the end of their undergraduate Humanities or Commerce degree and must obtain a cumulative GPA of at least 60% in their UCT undergraduate degree in order to proceed to the two-year graduate LLB degree."
+                }
+            ],
+            "req_text": "Students receive a bachelor's degree in the Humanities or Commerce faculty (BA/BSocSci or BCom) at the end of their first three years of study, and a bachelor's degree in law (LLB) at the end of a further two years. Students must apply for admission to the Law Faculty at the end of their undergraduate Humanities or Commerce degree and must obtain a cumulative GPA of at least 60% in their UCT undergraduate degree in order to proceed to the two-year graduate LLB degree.",
+            "required_subjects": [],
+            "fps": "",
+            "wps": ""
+        },
+        {
+            "course_name": "Combined BBusSci LLB",
             "course_code": "",
             "duration": "6",
             "aps": "",
-            "fps": "810",
-            "required_subjects": [
+            "bands": [
                 {
-                    "subject": "Mathematics",
-                    "level": "60"
-                },
-                {
-                    "subject": "Physical Sciences",
-                    "level": "60"
-                },
-                {
-                    "subject": "English Home Language",
-                    "level": "60"
-                },
-                {
-                    "subject": "English First Additional Language",
-                    "level": "60"
+                    "band_name": "DEFAULT",
+                    "score_type": "",
+                    "score": "",
+                    "required_subjects": [],
+                    "raw_text": "Requires at least 6 years of study. Students must apply for admission to the Law Faculty at the end of their undergraduate degree and must obtain a cumulative GPA of at least 60% in their UCT undergraduate degree in order to proceed to the graduate LLB degree."
                 }
-            ]
+            ],
+            "req_text": "Requires at least 6 years of study. Students must apply for admission to the Law Faculty at the end of their undergraduate degree and must obtain a cumulative GPA of at least 60% in their UCT undergraduate degree in order to proceed to the graduate LLB degree.",
+            "required_subjects": [],
+            "fps": "",
+            "wps": ""
         },
         {
-            "course_name": "Bachelor of Science in Physiotherapy",
+            "course_name": "The Graduate LLB",
             "course_code": "",
-            "duration": "4",
+            "duration": "3",
             "aps": "",
-            "fps": "730",
-            "required_subjects": [
+            "bands": [
                 {
-                    "subject": "Mathematics",
-                    "level": "50"
-                },
-                {
-                    "subject": "Physical Sciences",
-                    "level": "50"
-                },
-                {
-                    "subject": "Life Sciences",
-                    "level": "50"
-                },
-                {
-                    "subject": "English Home Language",
-                    "level": "50"
-                },
-                {
-                    "subject": "English First Additional Language",
-                    "level": "50"
+                    "band_name": "DEFAULT",
+                    "score_type": "",
+                    "score": "",
+                    "required_subjects": [],
+                    "raw_text": "For students who have completed an undergraduate degree in any discipline without having majored in law. Applicants must meet certain advertised admission requirements."
                 }
-            ]
-        },
-        {
-            "course_name": "Bachelor of Science in Occupational Therapy",
-            "course_code": "",
-            "duration": "4",
-            "aps": "",
-            "fps": "730",
-            "required_subjects": [
-                {
-                    "subject": "Mathematics",
-                    "level": "60"
-                },
-                {
-                    "subject": "Mathematical Literacy",
-                    "level": "70"
-                },
-                {
-                    "subject": "Physical Sciences",
-                    "level": "65"
-                },
-                {
-                    "subject": "Life Sciences",
-                    "level": "65"
-                },
-                {
-                    "subject": "English Home Language",
-                    "level": "65"
-                },
-                {
-                    "subject": "English First Additional Language",
-                    "level": "65"
-                }
-            ]
-        },
-        {
-            "course_name": "Bachelor of Science in Audiology",
-            "course_code": "",
-            "duration": "4",
-            "aps": "",
-            "fps": "720",
-            "required_subjects": [
-                {
-                    "subject": "Mathematics",
-                    "level": "60"
-                },
-                {
-                    "subject": "Mathematical Literacy",
-                    "level": "70"
-                },
-                {
-                    "subject": "Physical Sciences",
-                    "level": "65"
-                },
-                {
-                    "subject": "Life Sciences",
-                    "level": "65"
-                },
-                {
-                    "subject": "English Home Language",
-                    "level": "65"
-                },
-                {
-                    "subject": "English First Additional Language",
-                    "level": "65"
-                }
-            ]
-        },
-        {
-            "course_name": "Bachelor of Science in Speech-Language Pathology",
-            "course_code": "",
-            "duration": "4",
-            "aps": "",
-            "fps": "715",
-            "required_subjects": [
-                {
-                    "subject": "Mathematics",
-                    "level": "60"
-                },
-                {
-                    "subject": "Mathematical Literacy",
-                    "level": "70"
-                },
-                {
-                    "subject": "Physical Sciences",
-                    "level": "65"
-                },
-                {
-                    "subject": "Life Sciences",
-                    "level": "65"
-                },
-                {
-                    "subject": "English Home Language",
-                    "level": "65"
-                },
-                {
-                    "subject": "English First Additional Language",
-                    "level": "65"
-                }
-            ]
+            ],
+            "req_text": "For students who have completed an undergraduate degree in any discipline without having majored in law. Applicants must meet certain advertised admission requirements.",
+            "required_subjects": [],
+            "fps": "",
+            "wps": ""
         }
     ],
     "FACULTY OF HUMANITIES": [
         {
-            "course_name": "Bachelor of Arts (BA)",
+            "course_name": "Diploma in Music Performance (DMP)",
             "course_code": "",
             "duration": "3",
             "aps": "",
-            "fps": "450",
-            "required_subjects": []
+            "bands": [
+                {
+                    "band_name": "DEFAULT",
+                    "score_type": "",
+                    "score": "",
+                    "required_subjects": [],
+                    "raw_text": "NSC endorsed for diploma study. Academic Literacy NBT score at Intermediate Level. 50% for English (HL) or 60% for English (FAL). Satisfactory performance in an audition, interview and music theory test."
+                }
+            ],
+            "req_text": "NSC endorsed for diploma study. Academic Literacy NBT score at Intermediate Level. 50% for English (HL) or 60% for English (FAL). Satisfactory performance in an audition, interview and music theory test.",
+            "required_subjects": [],
+            "fps": "",
+            "wps": ""
         },
         {
-            "course_name": "Bachelor of Social Science (BSocSc)",
+            "course_name": "Bachelor of Arts in Fine Art (BA(FA))",
             "course_code": "",
-            "duration": "3",
+            "duration": "4",
             "aps": "",
-            "fps": "450",
-            "required_subjects": []
+            "bands": [
+                {
+                    "band_name": "DEFAULT",
+                    "score_type": "",
+                    "score": "",
+                    "required_subjects": [],
+                    "raw_text": "Minimum requirements: NSC endorsed for degree study/matric exemption. FPS 380 with Academic Literacy NBT score at Intermediate Level. 50% for English (HL) or 60% for English (FAL). Satisfactory performance in a portfolio evaluation."
+                }
+            ],
+            "req_text": "Minimum requirements: NSC endorsed for degree study/matric exemption. FPS 380 with Academic Literacy NBT score at Intermediate Level. 50% for English (HL) or 60% for English (FAL). Satisfactory performance in a portfolio evaluation.",
+            "required_subjects": [],
+            "fps": "",
+            "wps": ""
         },
         {
-            "course_name": "Bachelor of Social Science in Philosophy, Politics and Economics (PPE)",
+            "course_name": "Bachelor of Social Science in Philosophy, Politics and Economics (BSocSc) (PPE)",
             "course_code": "",
             "duration": "3",
             "aps": "",
-            "fps": "450",
+            "bands": [
+                {
+                    "band_name": "BAND A",
+                    "score_type": "",
+                    "score": "",
+                    "required_subjects": [
+                        {
+                            "subject": "NSC Mathematics",
+                            "level": "",
+                            "percentage": "60"
+                        },
+                        {
+                            "subject": "Mathematics",
+                            "level": "",
+                            "percentage": "60"
+                        }
+                    ],
+                    "raw_text": "BAND A: FPS 450 or above, NBT AL: Proficient, NBT QL: Upper Intermediate or above, Subject requirements: Mathematics 60% or above."
+                }
+            ],
+            "req_text": "Minimum requirements: NSC endorsed for degree study/matric exemption. FPS 450 with Academic Literacy NBT score at Upper Intermediate and Quantitative Literacy NBT score at Upper Intermediate. NSC Mathematics 60%. 50% for English (HL) or 60% for English (FAL).Band A: FPS 450 or above, NBT AL: Proficient, NBT QL: Upper Intermediate or above, Subject requirements: Mathematics 60% or above.",
             "required_subjects": [
                 {
+                    "subject": "NSC Mathematics",
+                    "level": "",
+                    "percentage": "60"
+                },
+                {
                     "subject": "Mathematics",
-                    "level": "60"
+                    "level": "",
+                    "percentage": "60"
                 }
-            ]
+            ],
+            "fps": "",
+            "wps": ""
         },
         {
             "course_name": "Bachelor of Social Work (BSW)",
             "course_code": "",
             "duration": "4",
             "aps": "",
-            "fps": "450",
-            "required_subjects": []
+            "bands": [
+                {
+                    "band_name": "BAND A",
+                    "score_type": "",
+                    "score": "",
+                    "required_subjects": [],
+                    "raw_text": "BAND A: FPS 450 or above, NBT AL: Proficient."
+                },
+                {
+                    "band_name": "BAND B",
+                    "score_type": "",
+                    "score": "",
+                    "required_subjects": [],
+                    "raw_text": "BAND B: WPS 450 or above, NBT AL: Upper Intermediate or above."
+                }
+            ],
+            "req_text": "Minimum requirements: NSC endorsed for degree study/matric exemption. FPS 380 with Academic Literacy NBT score at Intermediate Level 50% for English (HL) or 60% for English (FAL). Additional minimum requirements apply.Band A: FPS 450 or above, NBT AL: Proficient.Band B: WPS 450 or above, NBT AL: Upper Intermediate or above.",
+            "required_subjects": [],
+            "fps": "",
+            "wps": ""
         },
         {
-            "course_name": "Bachelor of Arts in Fine Art",
+            "course_name": "Diploma in Theatre & Performance (DTP)",
+            "course_code": "",
+            "duration": "3",
+            "aps": "",
+            "bands": [
+                {
+                    "band_name": "DEFAULT",
+                    "score_type": "",
+                    "score": "",
+                    "required_subjects": [],
+                    "raw_text": "NSC endorsed for diploma study. Academic Literacy NBT score at Intermediate Level. 50% for English (HL) or 60% for English (FAL). Satisfactory performance in an audition."
+                }
+            ],
+            "req_text": "NSC endorsed for diploma study. Academic Literacy NBT score at Intermediate Level. 50% for English (HL) or 60% for English (FAL). Satisfactory performance in an audition.",
+            "required_subjects": [],
+            "fps": "",
+            "wps": ""
+        },
+        {
+            "course_name": "Advanced Diploma in Opera (AdvDip(Opera))",
+            "course_code": "",
+            "duration": "1",
+            "aps": "",
+            "bands": [
+                {
+                    "band_name": "DEFAULT",
+                    "score_type": "",
+                    "score": "",
+                    "required_subjects": [],
+                    "raw_text": "Successful completion of the Diploma in Music Performance specialising in Opera. Satisfactory performance in an audition and music theory test. Average of 65% or above in prior qualification."
+                }
+            ],
+            "req_text": "Successful completion of the Diploma in Music Performance specialising in Opera. Satisfactory performance in an audition and music theory test. Average of 65% or above in prior qualification.",
+            "required_subjects": [],
+            "fps": "",
+            "wps": ""
+        },
+        {
+            "course_name": "Bachelor of Arts (BA)",
+            "course_code": "",
+            "duration": "3",
+            "aps": "",
+            "bands": [
+                {
+                    "band_name": "BAND A",
+                    "score_type": "",
+                    "score": "",
+                    "required_subjects": [],
+                    "raw_text": "BAND A: FPS 450 or above, NBT AL: Proficient."
+                },
+                {
+                    "band_name": "BAND B",
+                    "score_type": "",
+                    "score": "",
+                    "required_subjects": [],
+                    "raw_text": "BAND B: WPS 450 or above, NBT AL: Upper Intermediate or above."
+                }
+            ],
+            "req_text": "Minimum requirements: NSC endorsed for degree study/matric exemption. FPS 380 with Academic Literacy NBT score at Intermediate Level. 50% for English (HL) or 60% for English (FAL).Band A: FPS 450 or above, NBT AL: Proficient.Band B: WPS 450 or above, NBT AL: Upper Intermediate or above.",
+            "required_subjects": [],
+            "fps": "",
+            "wps": ""
+        },
+        {
+            "course_name": "Bachelor of Social Science (BSocSc)",
+            "course_code": "",
+            "duration": "3",
+            "aps": "",
+            "bands": [
+                {
+                    "band_name": "BAND A",
+                    "score_type": "",
+                    "score": "",
+                    "required_subjects": [],
+                    "raw_text": "BAND A: FPS 450 or above, NBT AL: Proficient."
+                },
+                {
+                    "band_name": "BAND B",
+                    "score_type": "",
+                    "score": "",
+                    "required_subjects": [],
+                    "raw_text": "BAND B: WPS 450 or above, NBT AL: Upper Intermediate or above."
+                }
+            ],
+            "req_text": "Minimum requirements: NSC endorsed for degree study/matric exemption. FPS 380 with Academic Literacy NBT score at Intermediate Level. 50% for English (HL) or 60% for English (FAL).Band A: FPS 450 or above, NBT AL: Proficient.Band B: WPS 450 or above, NBT AL: Upper Intermediate or above.",
+            "required_subjects": [],
+            "fps": "",
+            "wps": ""
+        },
+        {
+            "course_name": "Bachelor of Music (BMUS)",
             "course_code": "",
             "duration": "4",
             "aps": "",
-            "fps": "380",
-            "required_subjects": []
+            "bands": [
+                {
+                    "band_name": "DEFAULT",
+                    "score_type": "",
+                    "score": "",
+                    "required_subjects": [
+                        {
+                            "subject": "NSC Music",
+                            "level": "",
+                            "percentage": "60"
+                        }
+                    ],
+                    "raw_text": "Minimum requirements: NSC endorsed for degree study. FPS 380 with Academic Literacy NBT score at Intermediate Level. 50% for English (HL) or 60% for English (FAL). Satisfactory performance in an audition, interview and music theory test. NSC Music 60% or above or Unisa Music Theory Grade V or above or Unisa Music Practical Grade VII or above."
+                }
+            ],
+            "req_text": "Minimum requirements: NSC endorsed for degree study. FPS 380 with Academic Literacy NBT score at Intermediate Level. 50% for English (HL) or 60% for English (FAL). Satisfactory performance in an audition, interview and music theory test. NSC Music 60% or above or Unisa Music Theory Grade V or above or Unisa Music Practical Grade VII or above.",
+            "required_subjects": [
+                {
+                    "subject": "NSC Music",
+                    "level": "",
+                    "percentage": "60"
+                }
+            ],
+            "fps": "",
+            "wps": ""
         },
         {
-            "course_name": "Bachelor of Arts in Theatre & Performance",
+            "course_name": "Advanced Diploma in Music (AdvDip(Music))",
+            "course_code": "",
+            "duration": "1",
+            "aps": "",
+            "bands": [
+                {
+                    "band_name": "DEFAULT",
+                    "score_type": "",
+                    "score": "",
+                    "required_subjects": [],
+                    "raw_text": "Successful completion of the Diploma in Music Performance or equivalent qualification. Satisfactory performance in an audition and music theory test. Average of 65% or above in prior qualification."
+                }
+            ],
+            "req_text": "Successful completion of the Diploma in Music Performance or equivalent qualification. Satisfactory performance in an audition and music theory test. Average of 65% or above in prior qualification.",
+            "required_subjects": [],
+            "fps": "",
+            "wps": ""
+        },
+        {
+            "course_name": "Bachelor of Arts in Theatre & Performance (BA(T&P))",
             "course_code": "",
             "duration": "4",
             "aps": "",
-            "fps": "380",
-            "required_subjects": []
-        },
-        {
-            "course_name": "Bachelor of Music",
-            "course_code": "",
-            "duration": "4",
-            "aps": "",
-            "fps": "380",
-            "required_subjects": []
-        },
-        {
-            "course_name": "Diploma in Music Performance",
-            "course_code": "",
-            "duration": "3",
-            "aps": "",
-            "fps": "380",
-            "required_subjects": []
-        }
-    ],
-    "FACULTY OF LAW": [
-        {
-            "course_name": "Bachelor of Laws (LLB)",
-            "course_code": "",
-            "duration": "4",
-            "aps": "",
-            "fps": "500",
-            "required_subjects": []
-        }
-    ],
-    "FACULTY OF SCIENCE": [
-        {
-            "course_name": "Bachelor of Science (BSc) in Applied Mathematics",
-            "course_code": "",
-            "duration": "3",
-            "aps": "",
-            "fps": "660",
-            "required_subjects": [
+            "bands": [
                 {
-                    "subject": "Mathematics",
-                    "level": "70"
-                },
-                {
-                    "subject": "Physical Sciences",
-                    "level": "60"
+                    "band_name": "DEFAULT",
+                    "score_type": "",
+                    "score": "",
+                    "required_subjects": [],
+                    "raw_text": "Minimum requirements: NSC endorsed for degree study/matric exemption. FPS 380 with Academic Literacy NBT score at Intermediate Level. 50% for English (HL) or 60% for English (FAL). Satisfactory performance in an audition."
                 }
-            ]
+            ],
+            "req_text": "Minimum requirements: NSC endorsed for degree study/matric exemption. FPS 380 with Academic Literacy NBT score at Intermediate Level. 50% for English (HL) or 60% for English (FAL). Satisfactory performance in an audition.",
+            "required_subjects": [],
+            "fps": "",
+            "wps": ""
         },
         {
-            "course_name": "Bachelor of Science (BSc) in Applied Statistics",
+            "course_name": "Advanced Diploma in Theatre (AdvDip(Theatre))",
             "course_code": "",
-            "duration": "3",
+            "duration": "1",
             "aps": "",
-            "fps": "660",
-            "required_subjects": [
+            "bands": [
                 {
-                    "subject": "Mathematics",
-                    "level": "70"
-                },
-                {
-                    "subject": "Physical Sciences",
-                    "level": "60"
+                    "band_name": "DEFAULT",
+                    "score_type": "",
+                    "score": "",
+                    "required_subjects": [],
+                    "raw_text": "Successful completion of the Diploma in Theatre & Performance or equivalent qualification with an average of 65% in third year Studiowork (TDP3041W or TDP30143W) and 60% average in second year Theatre & Dance Studies major courses (TDP2010F and TDP2011S)."
                 }
-            ]
-        },
-        {
-            "course_name": "Bachelor of Science (BSc) in Archaeology",
-            "course_code": "",
-            "duration": "3",
-            "aps": "",
-            "fps": "660",
-            "required_subjects": [
-                {
-                    "subject": "Mathematics",
-                    "level": "70"
-                },
-                {
-                    "subject": "Physical Sciences",
-                    "level": "60"
-                }
-            ]
-        },
-        {
-            "course_name": "Bachelor of Science (BSc) in Artificial Intelligence",
-            "course_code": "",
-            "duration": "3",
-            "aps": "",
-            "fps": "660",
-            "required_subjects": [
-                {
-                    "subject": "Mathematics",
-                    "level": "70"
-                },
-                {
-                    "subject": "Physical Sciences",
-                    "level": "60"
-                }
-            ]
-        },
-        {
-            "course_name": "Bachelor of Science (BSc) in Astrophysics",
-            "course_code": "",
-            "duration": "3",
-            "aps": "",
-            "fps": "660",
-            "required_subjects": [
-                {
-                    "subject": "Mathematics",
-                    "level": "70"
-                },
-                {
-                    "subject": "Physical Sciences",
-                    "level": "60"
-                }
-            ]
-        },
-        {
-            "course_name": "Bachelor of Science (BSc) in Biochemistry",
-            "course_code": "",
-            "duration": "3",
-            "aps": "",
-            "fps": "660",
-            "required_subjects": [
-                {
-                    "subject": "Mathematics",
-                    "level": "70"
-                },
-                {
-                    "subject": "Physical Sciences",
-                    "level": "60"
-                }
-            ]
-        },
-        {
-            "course_name": "Bachelor of Science (BSc) in Biology",
-            "course_code": "",
-            "duration": "3",
-            "aps": "",
-            "fps": "660",
-            "required_subjects": [
-                {
-                    "subject": "Mathematics",
-                    "level": "70"
-                },
-                {
-                    "subject": "Physical Sciences",
-                    "level": "60"
-                }
-            ]
-        },
-        {
-            "course_name": "Bachelor of Science (BSc) in Chemistry",
-            "course_code": "",
-            "duration": "3",
-            "aps": "",
-            "fps": "660",
-            "required_subjects": [
-                {
-                    "subject": "Mathematics",
-                    "level": "70"
-                },
-                {
-                    "subject": "Physical Sciences",
-                    "level": "60"
-                }
-            ]
-        },
-        {
-            "course_name": "Bachelor of Science (BSc) in Computer Science",
-            "course_code": "",
-            "duration": "3",
-            "aps": "",
-            "fps": "660",
-            "required_subjects": [
-                {
-                    "subject": "Mathematics",
-                    "level": "70"
-                },
-                {
-                    "subject": "Physical Sciences",
-                    "level": "60"
-                }
-            ]
-        },
-        {
-            "course_name": "Bachelor of Science (BSc) in Environmental & Geographical Science",
-            "course_code": "",
-            "duration": "3",
-            "aps": "",
-            "fps": "660",
-            "required_subjects": [
-                {
-                    "subject": "Mathematics",
-                    "level": "70"
-                },
-                {
-                    "subject": "Physical Sciences",
-                    "level": "60"
-                }
-            ]
-        },
-        {
-            "course_name": "Bachelor of Science (BSc) in Genetics",
-            "course_code": "",
-            "duration": "3",
-            "aps": "",
-            "fps": "660",
-            "required_subjects": [
-                {
-                    "subject": "Mathematics",
-                    "level": "70"
-                },
-                {
-                    "subject": "Physical Sciences",
-                    "level": "60"
-                }
-            ]
-        },
-        {
-            "course_name": "Bachelor of Science (BSc) in Geology",
-            "course_code": "",
-            "duration": "3",
-            "aps": "",
-            "fps": "660",
-            "required_subjects": [
-                {
-                    "subject": "Mathematics",
-                    "level": "70"
-                },
-                {
-                    "subject": "Physical Sciences",
-                    "level": "60"
-                }
-            ]
-        },
-        {
-            "course_name": "Bachelor of Science (BSc) in Human Anatomy & Physiology",
-            "course_code": "",
-            "duration": "3",
-            "aps": "",
-            "fps": "660",
-            "required_subjects": [
-                {
-                    "subject": "Mathematics",
-                    "level": "70"
-                },
-                {
-                    "subject": "Physical Sciences",
-                    "level": "60"
-                }
-            ]
-        },
-        {
-            "course_name": "Bachelor of Science (BSc) in Marine Biology",
-            "course_code": "",
-            "duration": "3",
-            "aps": "",
-            "fps": "660",
-            "required_subjects": [
-                {
-                    "subject": "Mathematics",
-                    "level": "70"
-                },
-                {
-                    "subject": "Physical Sciences",
-                    "level": "60"
-                }
-            ]
-        },
-        {
-            "course_name": "Bachelor of Science (BSc) in Mathematics",
-            "course_code": "",
-            "duration": "3",
-            "aps": "",
-            "fps": "660",
-            "required_subjects": [
-                {
-                    "subject": "Mathematics",
-                    "level": "70"
-                },
-                {
-                    "subject": "Physical Sciences",
-                    "level": "60"
-                }
-            ]
-        },
-        {
-            "course_name": "Bachelor of Science (BSc) in Mathematical Statistics",
-            "course_code": "",
-            "duration": "3",
-            "aps": "",
-            "fps": "660",
-            "required_subjects": [
-                {
-                    "subject": "Mathematics",
-                    "level": "70"
-                },
-                {
-                    "subject": "Physical Sciences",
-                    "level": "60"
-                }
-            ]
-        },
-        {
-            "course_name": "Bachelor of Science (BSc) in Ocean & Atmosphere Science",
-            "course_code": "",
-            "duration": "3",
-            "aps": "",
-            "fps": "660",
-            "required_subjects": [
-                {
-                    "subject": "Mathematics",
-                    "level": "70"
-                },
-                {
-                    "subject": "Physical Sciences",
-                    "level": "60"
-                }
-            ]
-        },
-        {
-            "course_name": "Bachelor of Science (BSc) in Physics",
-            "course_code": "",
-            "duration": "3",
-            "aps": "",
-            "fps": "660",
-            "required_subjects": [
-                {
-                    "subject": "Mathematics",
-                    "level": "70"
-                },
-                {
-                    "subject": "Physical Sciences",
-                    "level": "60"
-                }
-            ]
+            ],
+            "req_text": "Successful completion of the Diploma in Theatre & Performance or equivalent qualification with an average of 65% in third year Studiowork (TDP3041W or TDP30143W) and 60% average in second year Theatre & Dance Studies major courses (TDP2010F and TDP2011S).",
+            "required_subjects": [],
+            "fps": "",
+            "wps": ""
         }
     ]
 }

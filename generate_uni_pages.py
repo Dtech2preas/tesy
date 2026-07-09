@@ -13,6 +13,9 @@ universities = [
     {"id": "uwc", "name": "University of the Western Cape (UWC)", "html": "uwc.html"},
     {"id": "ukzn", "name": "University of KwaZulu-Natal (UKZN)", "html": "ukzn.html"},
     {"id": "ufh", "name": "University of Fort Hare (UFH)", "html": "ufh.html"},
+    {"id": "cput", "name": "Cape Peninsula University of Technology (CPUT)", "html": "cput.html"},
+    {"id": "ufs", "name": "University of the Free State (UFS)", "html": "ufs.html"},
+    {"id": "vut", "name": "Vaal University of Technology (VUT)", "html": "vut.html"},
 ]
 
 template = r"""<!DOCTYPE html>

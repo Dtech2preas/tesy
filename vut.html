@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>University of Cape Town (UCT) - Eligibility</title>
+    <title>Vaal University of Technology (VUT) - Eligibility</title>
     <style>
         :root {
             --bg-color: #0b0c10;
@@ -283,60 +283,12 @@
             .header { flex-direction: column; text-align: center; }
             .course-details { flex-direction: column; gap: 5px; }
         }
-
-        .band-selector {
-            display: flex;
-            gap: 10px;
-            margin-bottom: 15px;
-            flex-wrap: wrap;
-        }
-        .band-btn {
-            background-color: #333;
-            color: var(--text-color);
-            border: 1px solid #555;
-            padding: 8px 12px;
-            border-radius: 4px;
-            cursor: pointer;
-            font-size: 0.9em;
-            transition: all 0.2s;
-        }
-        .band-btn.active {
-            background-color: var(--primary-accent);
-            color: #000;
-            border-color: var(--primary-accent);
-            font-weight: bold;
-        }
-        .band-desc {
-            font-size: 0.85em;
-            color: #aaa;
-            margin-bottom: 15px;
-            padding: 10px;
-            background-color: rgba(255,255,255,0.05);
-            border-left: 3px solid var(--secondary-accent);
-            border-radius: 0 4px 4px 0;
-        }
-        .band-info-box {
-            background-color: rgba(69, 162, 158, 0.1);
-            border: 1px solid var(--secondary-accent);
-            padding: 10px;
-            border-radius: 4px;
-            margin-bottom: 20px;
-            font-size: 0.9em;
-        }
-        .band-info-box h4 {
-            margin-top: 0;
-            color: var(--primary-accent);
-            margin-bottom: 5px;
-        }
-        .band-info-box p {
-            margin: 0 0 5px 0;
-        }
-</style>
+    </style>
 </head>
 <body>
 
     <div class="header">
-        <h1>University of Cape Town (UCT)</h1>
+        <h1>Vaal University of Technology (VUT)</h1>
         <a href="index.html" class="back-btn">&larr; Back Home</a>
     </div>
 
@@ -370,7 +322,7 @@
         import { UniversityLoader } from './core/engine.js';
         import { getLikelihoodClass } from './core/engine_utils.js';
 
-        const uniId = 'uct';
+        const uniId = 'vut';
         let uniEngine = null;
         let allCourses = [];
         let userMarks = [];
@@ -422,9 +374,6 @@
             });
         }
 
-
-        let currentBandIndex = 0;
-
         window.filterDropdown = function() {
             if (!uniEngine) return;
             let filter = document.getElementById('search-input').value;
@@ -447,44 +396,19 @@
             }
 
             currentSelectedCourse = allCourses[selectedIndex];
-            currentBandIndex = 0; // reset band when new course selected
-            renderCourseCard(currentSelectedCourse);
-        }
-
-        window.selectBand = function(index) {
-            currentBandIndex = index;
             renderCourseCard(currentSelectedCourse);
         }
 
         function renderCourseCard(course) {
             const container = document.getElementById('selected-course-container');
 
-            let bandsHtml = '';
-            let currentBand = null;
-            let bandDescHtml = '';
-
-            if (course.bands && course.bands.length > 0) {
-                currentBand = course.bands[currentBandIndex] || course.bands[0];
-
-                let buttons = course.bands.map((band, idx) => {
-                    let btnClass = idx === currentBandIndex ? 'band-btn active' : 'band-btn';
-                    return `<button class="${btnClass}" onclick="selectBand(${idx})">${band.band_name || 'Requirements'}</button>`;
-                }).join('');
-
-                bandsHtml = `<div class="band-selector">${buttons}</div>`;
-                bandDescHtml = currentBand.raw_text ? `<div class="band-desc">${currentBand.raw_text}</div>` : '';
-            }
-
-            // We use the currentBand's requirements if available, otherwise fallback to course defaults
-            let reqsToUse = currentBand ? currentBand.required_subjects : course.required_subjects;
-
             let reqsHtml = '';
-            if (reqsToUse && reqsToUse.length > 0) {
-                let subs = reqsToUse.map(s => {
+            if (course.required_subjects && course.required_subjects.length > 0) {
+                let subs = course.required_subjects.map(s => {
                     if (!s.subject) return '';
                     let reqStr = s.subject;
                     if (s.level && s.level !== "Unspecified") reqStr += ` (Level ${s.level})`;
-                    if (s.percentage) reqStr += ` (${s.percentage}%)`;
+                    if (s.percentage) reqStr += ` (${s.percentage})`;
                     return `<li>${reqStr}</li>`;
                 }).filter(str => str !== '').join('');
                 reqsHtml = subs ? `<ul class="req-list">${subs}</ul>` : '<p style="color:#aaa;">None specified.</p>';
@@ -493,42 +417,25 @@
             }
 
             let scoreHtml = [];
-            let scoreToUse = currentBand ? currentBand.score : (course.fps || course.aps);
-            let scoreTypeToUse = currentBand ? currentBand.score_type : (course.fps ? "FPS" : "APS");
+            if (course.aps) scoreHtml.push(`<span><strong>APS:</strong> ${course.aps}</span>`);
+            if (course.aps_range) scoreHtml.push(`<span><strong>APS:</strong> ${course.aps_range}</span>`);
+            if (course.fps) scoreHtml.push(`<span><strong>FPS:</strong> ${course.fps}</span>`);
 
-            if (scoreToUse) scoreHtml.push(`<span><strong>${scoreTypeToUse}:</strong> ${scoreToUse}</span>`);
-            else if (course.aps) scoreHtml.push(`<span><strong>APS:</strong> ${course.aps}</span>`);
-            else if (course.fps) scoreHtml.push(`<span><strong>FPS:</strong> ${course.fps}</span>`);
-
-            let detailsHtml = scoreHtml.length > 0 ? scoreHtml.join('') : '<span><strong>Score:</strong> Not specified</span>';
+            let detailsHtml = scoreHtml.length > 0 ? scoreHtml.join('') : '<span><strong>APS:</strong> Not specified</span>';
             if (course.duration) detailsHtml += `<span><strong>Duration:</strong> ${course.duration} years</span>`;
             if (course.course_code) detailsHtml += `<span><strong>Code:</strong> ${course.course_code}</span>`;
             if (course.facultyName) detailsHtml += `<span><strong>Faculty:</strong> ${course.facultyName}</span>`;
 
-            let uctInfoBox = `
-                <div class="band-info-box">
-                    <h4>Understanding UCT Bands</h4>
-                    <p><strong>Band A:</strong> Guaranteed admission if requirements are met.</p>
-                    <p><strong>Band B:</strong> Likely admission, but subject to space and competition.</p>
-                    <p><strong>Band C:</strong> Possible admission for SA applicants in targeted redress categories only.</p>
-                </div>
-            `;
-
             container.innerHTML = `
-                ${uctInfoBox}
                 <div class="course-card">
                     <div class="course-title">${course.course_name}</div>
                     <div class="course-details">${detailsHtml}</div>
-
-                    ${bandsHtml}
-                    ${bandDescHtml}
-
-                    <div><strong style="color:var(--secondary-accent)">Required Subjects (Selected Band):</strong></div>
+                    <div><strong style="color:var(--secondary-accent)">Required Subjects:</strong></div>
                     ${reqsHtml}
 
-                    <button class="check-eligibility-btn" onclick="runEligibilityCheck()">Check My Eligibility for this Band</button>
+                    <button class="check-eligibility-btn" onclick="runEligibilityCheck()">Check My Eligibility</button>
 
-                    <div id="eligibility-result" class="likelihood-box" style="display:none;">
+                    <div id="eligibility-result" class="likelihood-box">
                         <!-- Results injected here -->
                     </div>
                 </div>
@@ -545,25 +452,19 @@
             resultBox.style.display = 'block';
             resultBox.innerHTML = '<p>Calculating...</p>';
 
-            // Inject the selected band into the course object for the calculator
-            if (currentSelectedCourse.bands && currentSelectedCourse.bands.length > 0) {
-                currentSelectedCourse.selectedBand = currentSelectedCourse.bands[currentBandIndex];
-            } else {
-                currentSelectedCourse.selectedBand = null;
-            }
-
             setTimeout(() => {
                 let result = uniEngine.calculateEligibility(currentSelectedCourse, userMarks, userAps, userFps);
                 window.currentBreakdownData = result.breakdown;
                 resultBox.innerHTML = `
-                    <div style="text-transform: uppercase; letter-spacing: 1px; color: #888;">Likelihood of Acceptance (${currentSelectedCourse.selectedBand ? currentSelectedCourse.selectedBand.band_name : ''})</div>
+                    <div style="text-transform: uppercase; letter-spacing: 1px; color: #888;">Likelihood of Acceptance</div>
                     <span class="likelihood-score ${getLikelihoodClass(result.likelihood)}">${result.likelihood}%</span>
                     <div class="likelihood-reason">${result.reason}</div>
                     <button class="view-breakdown-btn" onclick="openBreakdownModal()">View Detailed Breakdown</button>
                 `;
             }, 400);
         }
-window.openBreakdownModal = function() {
+
+        window.openBreakdownModal = function() {
             let breakdown = window.currentBreakdownData;
             if (!breakdown) return;
             const modal = document.getElementById('breakdown-modal');
