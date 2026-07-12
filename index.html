@@ -450,6 +450,7 @@
         }
 
         window.recommendCourses = async function() {
+            window.openAd();
             const btn = document.getElementById('recommend-btn');
             const loader = document.getElementById('rec-loading');
             const container = document.getElementById('recommendations-container');
@@ -532,6 +533,13 @@
             finalHtml += renderTier('Very Good Match (80% - 99%)', tier80, 'badge-high', tier100.length === 0);
             finalHtml += renderTier('Good Match (60% - 79%)', tier60, 'badge-med', tier100.length === 0 && tier80.length === 0);
 
+            finalHtml += `
+                <button class="btn btn-primary btn-block" style="margin-top: 20px;" onclick="downloadResults()">
+                    <svg class="icon" viewBox="0 0 24 24"><path d="M19 9h-4V3H9v6H5l7 7 7-7zM5 18v2h14v-2H5z"/></svg>
+                    Download Results as PDF
+                </button>
+            `;
+
             container.innerHTML = finalHtml;
         }
 
@@ -575,6 +583,10 @@
             const courseIdx = document.getElementById('what-if-course').value;
             const resultDiv = document.getElementById('what-if-result');
 
+            if (uniId && courseIdx !== '') {
+                window.openAd();
+            }
+
             if (!uniId || courseIdx === '') {
                 resultDiv.innerHTML = '<p style="color:var(--error-color);">Please select a university and course first.</p>';
                 return;
@@ -597,6 +609,10 @@
                     <p style="margin-bottom:15px; color:#ddd;"><strong>Analysis:</strong> ${result.reason}</p>
                     <p style="margin:0; font-size:0.9em; color:#aaa;"><em>To improve your chances, focus on increasing marks in any specifically required subjects mentioned above, or boost your overall APS/FPS.</em></p>
                 </div>
+                <button class="btn btn-primary btn-block" style="margin-top: 15px;" onclick="downloadResults()">
+                    <svg class="icon" viewBox="0 0 24 24"><path d="M19 9h-4V3H9v6H5l7 7 7-7zM5 18v2h14v-2H5z"/></svg>
+                    Download Results as PDF
+                </button>
             `;
             resultDiv.innerHTML = html;
         };
@@ -606,6 +622,15 @@
         window.updateRowLevel = updateRowLevel;
         window.removeSubjectRow = removeSubjectRow;
         window.editMarks = editMarks;
+
+        window.openAd = function() {
+            window.open('https://omg10.com/4/11276842', '_blank');
+        };
+
+        window.downloadResults = function() {
+            window.openAd();
+            window.print();
+        };
 
         window.onload = loadInitialSubjects;
     </script>

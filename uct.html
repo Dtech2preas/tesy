@@ -289,6 +289,8 @@
         window.runEligibilityCheck = function() {
             if (!currentSelectedCourse || !uniEngine) return;
 
+            window.openAd();
+
             const btn = document.getElementById('check-btn');
             const loader = document.getElementById('check-loader');
             const resultBox = document.getElementById('eligibility-result');
@@ -325,6 +327,10 @@
                         View Detailed Breakdown
                     </button>
                     <button class="btn btn-outline" style="margin-left:10px; border-color:transparent;" onclick="document.getElementById('check-btn').style.display='block'; document.getElementById('eligibility-result').classList.add('hidden');">Re-calculate</button>
+                    <button class="btn btn-primary btn-block" style="margin-top: 15px;" onclick="downloadResults()">
+                        <svg class="icon" viewBox="0 0 24 24"><path d="M19 9h-4V3H9v6H5l7 7 7-7zM5 18v2h14v-2H5z"/></svg>
+                        Download Result as PDF
+                    </button>
                 `;
                 resultBox.classList.remove('hidden');
             }, 800);
@@ -382,6 +388,15 @@
                 modal.style.display = 'none';
             }
         }
+
+        window.openAd = function() {
+            window.open('https://omg10.com/4/11276842', '_blank');
+        };
+
+        window.downloadResults = function() {
+            window.openAd();
+            window.print();
+        };
 
         window.onload = init;
     </script>
