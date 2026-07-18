@@ -5,42 +5,6 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>University of Cape Town (UCT) - Eligibility</title>
     <link rel="stylesheet" href="./core/styles.css">
-    <style>
-        .band-selector {
-            display: flex;
-            gap: 10px;
-            margin: 15px 0;
-            flex-wrap: wrap;
-        }
-        .band-btn {
-            background-color: transparent;
-            color: var(--primary-accent);
-            border: 1px solid var(--primary-accent);
-            padding: 8px 16px;
-            border-radius: 5px;
-            cursor: pointer;
-            transition: all 0.3s ease;
-        }
-        .band-btn.active {
-            background-color: var(--primary-accent);
-            color: var(--bg-color);
-        }
-        .band-info-box {
-            background: rgba(102, 252, 241, 0.1);
-            border-left: 4px solid var(--primary-accent);
-            padding: 15px;
-            border-radius: var(--border-radius-sm);
-            margin-bottom: 20px;
-        }
-        .band-desc {
-            background: rgba(0, 0, 0, 0.2);
-            padding: 10px;
-            border-radius: 5px;
-            font-size: 0.9em;
-            color: #aaa;
-            margin-bottom: 15px;
-        }
-    </style>
 </head>
 <body>
 
@@ -101,7 +65,6 @@
         let userAps = 0;
         let userFps = 0;
         let currentSelectedCourse = null;
-        let currentBandIndex = 0;
 
         async function init() {
             const marksStr = localStorage.getItem('userMarks');
@@ -185,42 +148,19 @@
             }
 
             currentSelectedCourse = allCourses[selectedIndex];
-            currentBandIndex = 0; // reset band when new course selected
-            renderCourseCard(currentSelectedCourse);
-        }
-
-        window.selectBand = function(index) {
-            currentBandIndex = index;
             renderCourseCard(currentSelectedCourse);
         }
 
         function renderCourseCard(course) {
             const container = document.getElementById('selected-course-container');
 
-            let bandsHtml = '';
-            let currentBand = null;
-            let bandDescHtml = '';
-
-            if (course.bands && course.bands.length > 0) {
-                currentBand = course.bands[currentBandIndex] || course.bands[0];
-
-                let buttons = course.bands.map((band, idx) => {
-                    let btnClass = idx === currentBandIndex ? 'band-btn active' : 'band-btn';
-                    return `<button class="${btnClass}" onclick="selectBand(${idx})">${band.band_name || 'Requirements'}</button>`;
-                }).join('');
-
-                bandsHtml = `<div class="band-selector">${buttons}</div>`;
-                bandDescHtml = currentBand.raw_text ? `<div class="band-desc">${currentBand.raw_text}</div>` : '';
-            }
-
-            let reqsToUse = currentBand ? currentBand.required_subjects : course.required_subjects;
             let reqsHtml = '';
-            if (reqsToUse && reqsToUse.length > 0) {
-                let subs = reqsToUse.map(s => {
+            if (course.required_subjects && course.required_subjects.length > 0) {
+                let subs = course.required_subjects.map(s => {
                     if (!s.subject) return '';
                     let reqStr = s.subject;
                     if (s.level && s.level !== "Unspecified") reqStr += ` <span style="color:var(--primary-accent)">(Level ${s.level})</span>`;
-                    if (s.percentage) reqStr += ` <span style="color:var(--primary-accent)">(${s.percentage}%)</span>`;
+                    if (s.percentage) reqStr += ` <span style="color:var(--primary-accent)">(${s.percentage})</span>`;
                     return `<div style="background:rgba(255,255,255,0.05); padding:8px 12px; border-radius:4px; margin-bottom:5px;">${reqStr}</div>`;
                 }).filter(str => str !== '').join('');
                 reqsHtml = subs ? `<div style="margin: 15px 0;">${subs}</div>` : '<p style="color:#aaa;">None specified.</p>';
@@ -229,30 +169,31 @@
             }
 
             let scoreHtml = [];
-            let scoreToUse = currentBand ? currentBand.score : (course.fps || course.aps);
-            let scoreTypeToUse = currentBand ? currentBand.score_type : (course.fps ? "FPS" : "APS");
+            if (course.aps) scoreHtml.push(`<div class="stat-box" style="padding:10px;"><span class="stat-label">APS</span><span style="font-size:1.5em; font-weight:bold; color:#fff;">${course.aps}</span></div>`);
+            if (course.aps_range) scoreHtml.push(`<div class="stat-box" style="padding:10px;"><span class="stat-label">APS Range</span><span style="font-size:1.5em; font-weight:bold; color:#fff;">${course.aps_range}</span></div>`);
+            if (course.fps) scoreHtml.push(`<div class="stat-box" style="padding:10px;"><span class="stat-label">FPS</span><span style="font-size:1.5em; font-weight:bold; color:#fff;">${course.fps}</span></div>`);
 
-            if (scoreToUse) scoreHtml.push(`<div class="stat-box" style="padding:10px;"><span class="stat-label">${scoreTypeToUse}</span><span style="font-size:1.5em; font-weight:bold; color:#fff;">${scoreToUse}</span></div>`);
-            else if (course.aps) scoreHtml.push(`<div class="stat-box" style="padding:10px;"><span class="stat-label">APS</span><span style="font-size:1.5em; font-weight:bold; color:#fff;">${course.aps}</span></div>`);
-            else if (course.fps) scoreHtml.push(`<div class="stat-box" style="padding:10px;"><span class="stat-label">FPS</span><span style="font-size:1.5em; font-weight:bold; color:#fff;">${course.fps}</span></div>`);
+            let detailsHtml = scoreHtml.length > 0 ? scoreHtml.join('') : '<div class="stat-box" style="padding:10px;"><span class="stat-label">APS</span><span style="font-size:1.5em; font-weight:bold; color:#fff;">N/A</span></div>';
 
-            let detailsHtml = scoreHtml.length > 0 ? scoreHtml.join('') : '<div class="stat-box" style="padding:10px;"><span class="stat-label">Score</span><span style="font-size:1.5em; font-weight:bold; color:#fff;">N/A</span></div>';
+            let nonAcademicHtml = '';
+            if (course.nonAcademicRequirements && course.nonAcademicRequirements.length > 0) {
+                let naList = course.nonAcademicRequirements.map(req => `<li>${req}</li>`).join('');
+                nonAcademicHtml = `
+                    <div style="margin-top: 20px; padding: 15px; background: rgba(255,255,255,0.05); border-left: 4px solid #ffaa00; border-radius: 4px;">
+                        <h4 style="color:#ffaa00; margin-top:0; margin-bottom:10px; text-transform:uppercase; font-size:0.9em; letter-spacing:1px;">Additional Admission Requirements</h4>
+                        <ul style="color:#ccc; margin-bottom:0; padding-left:20px; font-size:0.95em;">
+                            ${naList}
+                        </ul>
+                    </div>
+                `;
+            }
+
 
             let extraInfo = '';
             if (course.duration) extraInfo += ` • ${course.duration} years`;
             if (course.course_code) extraInfo += ` • Code: ${course.course_code}`;
 
-            let uctInfoBox = `
-                <div class="band-info-box">
-                    <h4 style="margin-top:0; color:var(--primary-accent);">Understanding UCT Bands</h4>
-                    <p style="margin-bottom:5px;"><strong>Band A:</strong> Guaranteed admission if requirements are met.</p>
-                    <p style="margin-bottom:5px;"><strong>Band B:</strong> Likely admission, but subject to space and competition.</p>
-                    <p style="margin:0;"><strong>Band C:</strong> Possible admission for SA applicants in targeted redress categories only.</p>
-                </div>
-            `;
-
             container.innerHTML = `
-                ${uctInfoBox}
                 <div class="card fade-in" style="border-top: 4px solid var(--primary-accent);">
                     <div style="color:var(--primary-accent); font-size:0.9em; text-transform:uppercase; letter-spacing:1px; margin-bottom:5px;">
                         ${course.facultyName || 'Course Detail'} ${extraInfo}
@@ -263,10 +204,7 @@
                         ${detailsHtml}
                     </div>
 
-                    ${bandsHtml}
-                    ${bandDescHtml}
-
-                    <h4 style="color:#888; margin-bottom:10px; text-transform:uppercase; font-size:0.9em; letter-spacing:1px;">Required Subjects (Selected Band)</h4>
+                    <h4 style="color:#888; margin-bottom:10px; text-transform:uppercase; font-size:0.9em; letter-spacing:1px;">Required Subjects</h4>
                     ${reqsHtml}
 
                     <button id="check-btn" class="btn btn-primary btn-block" style="margin-top: 20px; font-size:1.1em;" onclick="runEligibilityCheck()">
@@ -299,12 +237,6 @@
             resultBox.classList.add('hidden');
             loader.classList.remove('hidden');
 
-            if (currentSelectedCourse.bands && currentSelectedCourse.bands.length > 0) {
-                currentSelectedCourse.selectedBand = currentSelectedCourse.bands[currentBandIndex];
-            } else {
-                currentSelectedCourse.selectedBand = null;
-            }
-
             setTimeout(() => {
                 let result = uniEngine.calculateEligibility(currentSelectedCourse, userMarks, userAps, userFps);
                 window.currentBreakdownData = result.breakdown;
@@ -319,7 +251,7 @@
                 else colorClass = 'var(--error-color)';
 
                 resultBox.innerHTML = `
-                    <div style="text-transform: uppercase; letter-spacing: 1px; color: #888; font-size:0.9em;">Likelihood of Acceptance (${currentSelectedCourse.selectedBand ? currentSelectedCourse.selectedBand.band_name : ''})</div>
+                    <div style="text-transform: uppercase; letter-spacing: 1px; color: #888; font-size:0.9em;">Likelihood of Acceptance</div>
                     <div style="font-size: 4em; font-weight: bold; color: ${colorClass}; line-height:1; margin: 15px 0;">${result.likelihood}%</div>
                     <div style="font-size: 1.1em; color: #ccc; margin-bottom: 25px;">${result.reason}</div>
                     <button class="btn btn-outline" onclick="openBreakdownModal()">

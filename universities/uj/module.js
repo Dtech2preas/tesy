@@ -7,6 +7,8 @@ export default class extends UniversityModule {
     }
 
     calculateEligibility(course, userMarks, userAps, userFps) {
+        // We rely on the scraper having already separated academic vs non-academic requirements.
+        // We just pass the course directly to the standard calculator.
         return calculateStandardLikelihood(course, userMarks, userAps, userFps, this.helperData);
     }
 }
