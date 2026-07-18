@@ -1,20 +1,31 @@
 {
     "FACULTY OF AGRISCIENCES": [
         {
-            "course_name": "BAgric in Agribusiness Management",
+            "course_name": "BScAgric in Viticulture and Oenology (Extended Curriculum Programme)",
             "course_code": "",
-            "duration": "3",
+            "duration": "5",
             "aps": "60",
+            "rawRequirements": "An NSC aggregate of at least 60% (excluding Life Orientation); English OR Afrikaans (Home Language or First Additional Language) 50%. AND Comply with one of the following combinations: Combination 1: Mathematics between 55% and 59,9%, Physical Sciences (Physics and Chemistry) >= 50%. Combination 2: Mathematics >= 60%, Physical Sciences (Physics and Chemistry) between 45% and 49,9%",
             "required_subjects": [
                 {
-                    "subject": "Mathematics",
+                    "subject": "OR English",
                     "level": "",
-                    "percentage": "60"
+                    "percentage": ""
                 },
                 {
-                    "subject": "Physical Sciences",
+                    "subject": "OR Afrikaans (Home Language or First Additional Language)",
                     "level": "",
                     "percentage": "50"
+                },
+                {
+                    "subject": "AND Comply with one of the following combinations: Combination 1: Mathematics between 55% and 59,9%, Physical Sciences (Physics and Chemistry) >= 50%",
+                    "level": "",
+                    "percentage": ""
+                },
+                {
+                    "subject": "Combination 2: Mathematics >= 60%, Physical Sciences (Physics and Chemistry) between 45% and 49,9%",
+                    "level": "",
+                    "percentage": ""
                 }
             ]
         },
@@ -23,35 +34,15 @@
             "course_code": "",
             "duration": "4",
             "aps": "60",
-            "required_subjects": []
-        },
-        {
-            "course_name": "Elsenburg",
-            "course_code": "",
-            "duration": "3",
-            "aps": "55",
-            "required_subjects": []
-        },
-        {
-            "course_name": "BScAgric in Animal Production Systems",
-            "course_code": "",
-            "duration": "4",
-            "aps": "",
-            "required_subjects": []
-        },
-        {
-            "course_name": "(BScFor)",
-            "course_code": "",
-            "duration": "4",
-            "aps": "60",
+            "rawRequirements": "An NSC aggregate of at least 60% (excluding Life Orientation); English OR Afrikaans (Home Language or First Additional Language) 50%; Mathematics 60%; Physical Sciences (Physics and Chemistry) 50%",
             "required_subjects": [
                 {
-                    "subject": "Mathematics Language)",
+                    "subject": "OR English",
                     "level": "",
-                    "percentage": "60"
+                    "percentage": ""
                 },
                 {
-                    "subject": "Physical Sciences  - See additional requirements for each field of study",
+                    "subject": "OR Afrikaans (Home Language or First Additional Language)",
                     "level": "",
                     "percentage": "50"
                 },
@@ -61,7 +52,206 @@
                     "percentage": "60"
                 },
                 {
-                    "subject": "Physical Sciences",
+                    "subject": "Physical Sciences (Physics and Chemistry)",
+                    "level": "",
+                    "percentage": "50"
+                }
+            ]
+        },
+        {
+            "course_name": "BAgric in Agricultural Production and Management: Elsenburg",
+            "course_code": "",
+            "duration": "3",
+            "aps": "55",
+            "rawRequirements": "An NSC aggregate of at least 55% (excluding Life Orientation); English OR Afrikaans (Home Language or First Additional Language) 50%; Mathematics 50% OR Mathematical Literacy 60%; Physical Sciences (Physics and Chemistry) 50% OR Life Sciences 50% OR Agricultural Sciences 50%",
+            "required_subjects": [
+                {
+                    "subject": "OR English",
+                    "level": "",
+                    "percentage": ""
+                },
+                {
+                    "subject": "OR Afrikaans (Home Language or First Additional Language)",
+                    "level": "",
+                    "percentage": "50"
+                },
+                {
+                    "subject": "OR Mathematics",
+                    "level": "",
+                    "percentage": "50"
+                },
+                {
+                    "subject": "OR Mathematical Literacy",
+                    "level": "",
+                    "percentage": "60"
+                },
+                {
+                    "subject": "OR Physical Sciences (Physics and Chemistry)",
+                    "level": "",
+                    "percentage": "50"
+                },
+                {
+                    "subject": "OR Life Sciences",
+                    "level": "",
+                    "percentage": "50"
+                },
+                {
+                    "subject": "OR Agricultural Sciences",
+                    "level": "",
+                    "percentage": "50"
+                }
+            ]
+        },
+        {
+            "course_name": "BSc in Forestry (Forestry and Wood Sciences) (BScFor) (Extended Curriculum Programme)",
+            "course_code": "",
+            "duration": "5",
+            "aps": "60",
+            "rawRequirements": "An NSC aggregate of at least 60% (excluding Life Orientation); English OR Afrikaans (Home Language or First Additional Language) 50%. Wood and Wood Products Sciences specific ECP combinations: Combination 1: Mathematics between 60% and 69,9%, Physical Sciences (Physics and Chemistry) >= 60%. Combination 2: Mathematics >= 70%, Physical Sciences (Physics and Chemistry) between 55% and 59,9%. Forestry and Natural Resources Sciences ECP combinations: Combination 1: Mathematics between 55% and 59,9%, Physical Sciences (Physics and Chemistry) >= 50%; Combination 2: Mathematics >= 60%, Physical Sciences (Physics and Chemistry) between 45% and 49,9%",
+            "required_subjects": [
+                {
+                    "subject": "OR English",
+                    "level": "",
+                    "percentage": ""
+                },
+                {
+                    "subject": "OR Afrikaans (Home Language or First Additional Language)",
+                    "level": "",
+                    "percentage": "50"
+                },
+                {
+                    "subject": "Wood and Wood Products Sciences specific ECP combinations: Combination 1: Mathematics between 60% and 69,9%, Physical Sciences (Physics and Chemistry) >= 60%",
+                    "level": "",
+                    "percentage": ""
+                },
+                {
+                    "subject": "Combination 2: Mathematics >= 70%, Physical Sciences (Physics and Chemistry) between 55% and 59,9%",
+                    "level": "",
+                    "percentage": ""
+                },
+                {
+                    "subject": "Forestry and Natural Resources Sciences ECP combinations: Combination 1: Mathematics between 55% and 59,9%, Physical Sciences (Physics and Chemistry) >= 50%",
+                    "level": "",
+                    "percentage": ""
+                },
+                {
+                    "subject": "Combination 2: Mathematics >= 60%, Physical Sciences (Physics and Chemistry) between 45% and 49,9%",
+                    "level": "",
+                    "percentage": ""
+                }
+            ]
+        },
+        {
+            "course_name": "BAgric in Agribusiness Management",
+            "course_code": "",
+            "duration": "3",
+            "aps": "60",
+            "rawRequirements": "An NSC aggregate of at least 60% (excluding Life Orientation); English OR Afrikaans (Home Language or First Additional Language) 50%; Mathematics 60%; Physical Sciences (Physics and Chemistry) 50%",
+            "required_subjects": [
+                {
+                    "subject": "OR English",
+                    "level": "",
+                    "percentage": ""
+                },
+                {
+                    "subject": "OR Afrikaans (Home Language or First Additional Language)",
+                    "level": "",
+                    "percentage": "50"
+                },
+                {
+                    "subject": "Mathematics",
+                    "level": "",
+                    "percentage": "60"
+                },
+                {
+                    "subject": "Physical Sciences (Physics and Chemistry)",
+                    "level": "",
+                    "percentage": "50"
+                }
+            ]
+        },
+        {
+            "course_name": "BScAgric in Agricultural Economics (Extended Curriculum Programme)",
+            "course_code": "",
+            "duration": "5",
+            "aps": "60",
+            "rawRequirements": "An NSC aggregate of at least 60% (excluding Life Orientation); English OR Afrikaans (Home Language or First Additional Language) 50%. AND Comply with one of the following combinations: Combination 1: Mathematics between 55% and 59,9%, Physical Sciences (Physics and Chemistry) >= 50%. Combination 2: Mathematics >= 60%, Physical Sciences (Physics and Chemistry) between 45% and 49,9%",
+            "required_subjects": [
+                {
+                    "subject": "OR English",
+                    "level": "",
+                    "percentage": ""
+                },
+                {
+                    "subject": "OR Afrikaans (Home Language or First Additional Language)",
+                    "level": "",
+                    "percentage": "50"
+                },
+                {
+                    "subject": "AND Comply with one of the following combinations: Combination 1: Mathematics between 55% and 59,9%, Physical Sciences (Physics and Chemistry) >= 50%",
+                    "level": "",
+                    "percentage": ""
+                },
+                {
+                    "subject": "Combination 2: Mathematics >= 60%, Physical Sciences (Physics and Chemistry) between 45% and 49,9%",
+                    "level": "",
+                    "percentage": ""
+                }
+            ]
+        },
+        {
+            "course_name": "BScAgric in Plant and Soil Science",
+            "course_code": "",
+            "duration": "4",
+            "aps": "60",
+            "rawRequirements": "An NSC aggregate of at least 60% (excluding Life Orientation); English OR Afrikaans (Home Language or First Additional Language) 50%; Mathematics 60%; Physical Sciences (Physics and Chemistry) 50%",
+            "required_subjects": [
+                {
+                    "subject": "OR English",
+                    "level": "",
+                    "percentage": ""
+                },
+                {
+                    "subject": "OR Afrikaans (Home Language or First Additional Language)",
+                    "level": "",
+                    "percentage": "50"
+                },
+                {
+                    "subject": "Mathematics",
+                    "level": "",
+                    "percentage": "60"
+                },
+                {
+                    "subject": "Physical Sciences (Physics and Chemistry)",
+                    "level": "",
+                    "percentage": "50"
+                }
+            ]
+        },
+        {
+            "course_name": "BSc in Food Science",
+            "course_code": "",
+            "duration": "4",
+            "aps": "60",
+            "rawRequirements": "An NSC aggregate of at least 60% (excluding Life Orientation); English OR Afrikaans (Home Language or First Additional Language) 50%; Mathematics 60%; Physical Sciences (Physics and Chemistry) 50%",
+            "required_subjects": [
+                {
+                    "subject": "OR English",
+                    "level": "",
+                    "percentage": ""
+                },
+                {
+                    "subject": "OR Afrikaans (Home Language or First Additional Language)",
+                    "level": "",
+                    "percentage": "50"
+                },
+                {
+                    "subject": "Mathematics",
+                    "level": "",
+                    "percentage": "60"
+                },
+                {
+                    "subject": "Physical Sciences (Physics and Chemistry)",
                     "level": "",
                     "percentage": "50"
                 }
@@ -72,46 +262,148 @@
             "course_code": "",
             "duration": "4",
             "aps": "60",
+            "rawRequirements": "An NSC aggregate of at least 60% (excluding Life Orientation); English OR Afrikaans (Home Language or First Additional Language) 50%; Mathematics 60%; Physical Sciences (Physics and Chemistry) 50%",
             "required_subjects": [
+                {
+                    "subject": "OR English",
+                    "level": "",
+                    "percentage": ""
+                },
+                {
+                    "subject": "OR Afrikaans (Home Language or First Additional Language)",
+                    "level": "",
+                    "percentage": "50"
+                },
                 {
                     "subject": "Mathematics",
                     "level": "",
                     "percentage": "60"
                 },
                 {
-                    "subject": "Physical Sciences",
+                    "subject": "Physical Sciences (Physics and Chemistry)",
                     "level": "",
                     "percentage": "50"
                 }
             ]
         },
         {
-            "course_name": "BScAgric in Plant and Soil Science",
+            "course_name": "BSc in Conservation Ecology (Extended Curriculum Programme)",
             "course_code": "",
-            "duration": "4",
+            "duration": "5",
             "aps": "60",
-            "required_subjects": []
+            "rawRequirements": "An NSC aggregate of at least 60% (excluding Life Orientation); English OR Afrikaans (Home Language or First Additional Language) 50%. AND Comply with one of the following combinations: Combination 1: Mathematics between 55% and 59,9%, Physical Sciences (Physics and Chemistry) >= 50%. Combination 2: Mathematics >= 60%, Physical Sciences (Physics and Chemistry) between 45% and 49,9%",
+            "required_subjects": [
+                {
+                    "subject": "OR English",
+                    "level": "",
+                    "percentage": ""
+                },
+                {
+                    "subject": "OR Afrikaans (Home Language or First Additional Language)",
+                    "level": "",
+                    "percentage": "50"
+                },
+                {
+                    "subject": "AND Comply with one of the following combinations: Combination 1: Mathematics between 55% and 59,9%, Physical Sciences (Physics and Chemistry) >= 50%",
+                    "level": "",
+                    "percentage": ""
+                },
+                {
+                    "subject": "Combination 2: Mathematics >= 60%, Physical Sciences (Physics and Chemistry) between 45% and 49,9%",
+                    "level": "",
+                    "percentage": ""
+                }
+            ]
         },
         {
             "course_name": "Bachelor of Data Science (BDatSci)",
             "course_code": "",
             "duration": "4",
             "aps": "80",
+            "rawRequirements": "An NSC aggregate of at least 80% (excluding Life Orientation); Mathematics 80%; Afrikaans Home Language 60% OR English Home Language 60% OR Afrikaans First Additional Language 75% OR English First Additional Language 75%",
             "required_subjects": [
                 {
-                    "subject": "Mathematics Ecology; BSc in Earth Science; BAgric Agricultural Production",
+                    "subject": "Mathematics",
                     "level": "",
                     "percentage": "80"
                 },
                 {
-                    "subject": "Afrikaans Home Language",
+                    "subject": "OR Afrikaans Home Language",
                     "level": "",
                     "percentage": "60"
                 },
                 {
-                    "subject": "English Home Language  and Management  with focal area Plant Production or",
+                    "subject": "OR English Home Language",
                     "level": "",
                     "percentage": "60"
+                },
+                {
+                    "subject": "OR Afrikaans First Additional Language",
+                    "level": "",
+                    "percentage": "75"
+                },
+                {
+                    "subject": "OR English First Additional Language",
+                    "level": "",
+                    "percentage": "75"
+                }
+            ]
+        },
+        {
+            "course_name": "BScAgric in Animal Production Systems (Extended Curriculum Programme)",
+            "course_code": "",
+            "duration": "5",
+            "aps": "60",
+            "rawRequirements": "An NSC aggregate of at least 60% (excluding Life Orientation); English OR Afrikaans (Home Language or First Additional Language) 50%. AND Comply with one of the following combinations: Combination 1: Mathematics between 55% and 59,9%, Physical Sciences (Physics and Chemistry) >= 50%. Combination 2: Mathematics >= 60%, Physical Sciences (Physics and Chemistry) between 45% and 49,9%",
+            "required_subjects": [
+                {
+                    "subject": "OR English",
+                    "level": "",
+                    "percentage": ""
+                },
+                {
+                    "subject": "OR Afrikaans (Home Language or First Additional Language)",
+                    "level": "",
+                    "percentage": "50"
+                },
+                {
+                    "subject": "AND Comply with one of the following combinations: Combination 1: Mathematics between 55% and 59,9%, Physical Sciences (Physics and Chemistry) >= 50%",
+                    "level": "",
+                    "percentage": ""
+                },
+                {
+                    "subject": "Combination 2: Mathematics >= 60%, Physical Sciences (Physics and Chemistry) between 45% and 49,9%",
+                    "level": "",
+                    "percentage": ""
+                }
+            ]
+        },
+        {
+            "course_name": "BAgric in Agribusiness Management (Extended Curriculum Programme)",
+            "course_code": "",
+            "duration": "4",
+            "aps": "60",
+            "rawRequirements": "An NSC aggregate of at least 60% (excluding Life Orientation); English OR Afrikaans (Home Language or First Additional Language) 50%. AND Comply with one of the following combinations: Combination 1: Mathematics between 55% and 59,9%, Physical Sciences (Physics and Chemistry) >= 50%. Combination 2: Mathematics >= 60%, Physical Sciences (Physics and Chemistry) between 45% and 49,9%",
+            "required_subjects": [
+                {
+                    "subject": "OR English",
+                    "level": "",
+                    "percentage": ""
+                },
+                {
+                    "subject": "OR Afrikaans (Home Language or First Additional Language)",
+                    "level": "",
+                    "percentage": "50"
+                },
+                {
+                    "subject": "AND Comply with one of the following combinations: Combination 1: Mathematics between 55% and 59,9%, Physical Sciences (Physics and Chemistry) >= 50%",
+                    "level": "",
+                    "percentage": ""
+                },
+                {
+                    "subject": "Combination 2: Mathematics >= 60%, Physical Sciences (Physics and Chemistry) between 45% and 49,9%",
+                    "level": "",
+                    "percentage": ""
                 }
             ]
         },
@@ -119,24 +411,76 @@
             "course_name": "BScAgric in Viticulture and Oenology",
             "course_code": "",
             "duration": "4",
-            "aps": "",
-            "required_subjects": []
+            "aps": "60",
+            "rawRequirements": "An NSC aggregate of at least 60% (excluding Life Orientation); English OR Afrikaans (Home Language or First Additional Language) 50%; Mathematics 60%; Physical Sciences (Physics and Chemistry) 50%",
+            "required_subjects": [
+                {
+                    "subject": "OR English",
+                    "level": "",
+                    "percentage": ""
+                },
+                {
+                    "subject": "OR Afrikaans (Home Language or First Additional Language)",
+                    "level": "",
+                    "percentage": "50"
+                },
+                {
+                    "subject": "Mathematics",
+                    "level": "",
+                    "percentage": "60"
+                },
+                {
+                    "subject": "Physical Sciences (Physics and Chemistry)",
+                    "level": "",
+                    "percentage": "50"
+                }
+            ]
         },
         {
-            "course_name": "BSc in Food Science",
+            "course_name": "BScAgric in Plant and Soil Science (Extended Curriculum Programme)",
+            "course_code": "",
+            "duration": "5",
+            "aps": "60",
+            "rawRequirements": "An NSC aggregate of at least 60% (excluding Life Orientation); English OR Afrikaans (Home Language or First Additional Language) 50%. AND Comply with one of the following combinations: Combination 1: Mathematics between 55% and 59,9%, Physical Sciences (Physics and Chemistry) >= 50%. Combination 2: Mathematics >= 60%, Physical Sciences (Physics and Chemistry) between 45% and 49,9%",
+            "required_subjects": [
+                {
+                    "subject": "OR English",
+                    "level": "",
+                    "percentage": ""
+                },
+                {
+                    "subject": "OR Afrikaans (Home Language or First Additional Language)",
+                    "level": "",
+                    "percentage": "50"
+                },
+                {
+                    "subject": "AND Comply with one of the following combinations: Combination 1: Mathematics between 55% and 59,9%, Physical Sciences (Physics and Chemistry) >= 50%",
+                    "level": "",
+                    "percentage": ""
+                },
+                {
+                    "subject": "Combination 2: Mathematics >= 60%, Physical Sciences (Physics and Chemistry) between 45% and 49,9%",
+                    "level": "",
+                    "percentage": ""
+                }
+            ]
+        },
+        {
+            "course_name": "BScAgric in Animal Production Systems",
             "course_code": "",
             "duration": "4",
             "aps": "60",
+            "rawRequirements": "An NSC aggregate of at least 60% (excluding Life Orientation); English OR Afrikaans (Home Language or First Additional Language) 50%; Mathematics 60%; Physical Sciences (Physics and Chemistry) 50%",
             "required_subjects": [
                 {
-                    "subject": "English",
+                    "subject": "OR English",
                     "level": "",
-                    "percentage": "60"
+                    "percentage": ""
                 },
                 {
-                    "subject": "Afrikaans (Home Language or First Additional - Mathematics",
+                    "subject": "OR Afrikaans (Home Language or First Additional Language)",
                     "level": "",
-                    "percentage": "60"
+                    "percentage": "50"
                 },
                 {
                     "subject": "Mathematics",
@@ -144,141 +488,69 @@
                     "percentage": "60"
                 },
                 {
-                    "subject": "Physical Sciences",
-                    "level": "",
-                    "percentage": "50"
-                }
-            ]
-        }
-    ],
-    "FACULTY OF ARTS AND SOCIAL SCIENCES": [
-        {
-            "course_name": "BA in Humanities#",
-            "course_code": "",
-            "duration": "3",
-            "aps": "63",
-            "required_subjects": [
-                {
-                    "subject": "Home Language",
+                    "subject": "Physical Sciences (Physics and Chemistry)",
                     "level": "",
                     "percentage": "50"
                 }
             ]
         },
         {
-            "course_name": "BA in Language and Culture#",
+            "course_name": "BSc in Forestry (Forestry and Wood Sciences) (BScFor)",
             "course_code": "",
-            "duration": "3",
-            "aps": "63",
+            "duration": "4",
+            "aps": "60",
+            "rawRequirements": "An NSC aggregate of at least 60% (excluding Life Orientation); English OR Afrikaans (Home Language or First Additional Language) 50%; See additional requirements for each field of study. Forestry and Natural Resources Sciences: Mathematics 60%, Physical Sciences (Physics and Chemistry) 50%. Wood and Wood Products Sciences: Mathematics 70%, Physical Sciences (Physics and Chemistry) 60%.",
             "required_subjects": [
                 {
-                    "subject": "Home Language",
+                    "subject": "OR English",
+                    "level": "",
+                    "percentage": ""
+                },
+                {
+                    "subject": "OR Afrikaans (Home Language or First Additional Language)",
                     "level": "",
                     "percentage": "50"
                 },
                 {
-                    "subject": "First Additional Language",
+                    "subject": "See additional requirements for each field of study",
                     "level": "",
-                    "percentage": "50"
-                }
-            ]
-        },
-        {
-            "course_name": "BA in Development and the Environment#",
-            "course_code": "",
-            "duration": "3",
-            "aps": "63",
-            "required_subjects": [
+                    "percentage": ""
+                },
                 {
-                    "subject": "Home Language",
+                    "subject": "Forestry and Natural Resources Sciences: Mathematics 60%, Physical Sciences (Physics and Chemistry)",
                     "level": "",
                     "percentage": "50"
                 },
                 {
-                    "subject": "First Additional Language",
-                    "level": "",
-                    "percentage": "40"
-                },
-                {
-                    "subject": "Mathematics",
-                    "level": "",
-                    "percentage": "60"
-                }
-            ]
-        },
-        {
-            "course_name": "in Drama and Theatre Studies",
-            "course_code": "",
-            "duration": "3",
-            "aps": "65",
-            "required_subjects": [
-                {
-                    "subject": "Home Language - Home Language",
-                    "level": "",
-                    "percentage": "60"
-                },
-                {
-                    "subject": "First Additional Language - First Additional Language",
-                    "level": "",
-                    "percentage": "50"
-                },
-                {
-                    "subject": "Mathematics",
+                    "subject": "Wood and Wood Products Sciences: Mathematics , Physical Sciences (Physics and Chemistry) 60%.",
                     "level": "",
                     "percentage": "70"
                 }
             ]
-        },
+        }
+    ],
+    "FACULTY OF ARTS & SOCIAL SCIENCES": [
         {
-            "course_name": "BA in Human Resource Management#",
+            "course_name": "BA in Development and the Environment",
             "course_code": "",
             "duration": "3",
             "aps": "63",
+            "rawRequirements": "- An NSC aggregate of at least 63% (excluding Life Orientation)- Home Language 50%- First Additional Language 40%If you take Economics as a university subject, then also:- Mathematics 60%",
             "required_subjects": [
                 {
-                    "subject": "Home Language may open up other careers.",
+                    "subject": "Home Language",
                     "level": "",
                     "percentage": "50"
                 },
                 {
-                    "subject": "First Additional Language",
+                    "subject": "First Additional Language 40%If you take Economics as a university subject, then also:",
                     "level": "",
-                    "percentage": "40"
+                    "percentage": ""
                 },
                 {
                     "subject": "Mathematics",
                     "level": "",
-                    "percentage": "50"
-                },
-                {
-                    "subject": "Mathematical Literacy",
-                    "level": "",
-                    "percentage": "50"
-                }
-            ]
-        },
-        {
-            "course_name": "Diploma in Practical Music",
-            "course_code": "",
-            "duration": "3",
-            "aps": "",
-            "required_subjects": []
-        },
-        {
-            "course_name": "BA in International Studies#",
-            "course_code": "",
-            "duration": "3",
-            "aps": "63",
-            "required_subjects": [
-                {
-                    "subject": "English Home Language",
-                    "level": "",
-                    "percentage": "50"
-                },
-                {
-                    "subject": "English First Additional Language",
-                    "level": "",
-                    "percentage": "50"
+                    "percentage": "60"
                 }
             ]
         },
@@ -286,14 +558,42 @@
             "course_name": "BA in Law",
             "course_code": "",
             "duration": "3",
-            "aps": "",
-            "required_subjects": []
+            "aps": "70",
+            "rawRequirements": "See BA (Law) under the Faculty of LawAn aggregate of at least 70% (excluding Life Orientation) in the NSC or IEB school-leaving certificate. English or Afrikaans Home Language 60% OR Afrikaans or English First Additional Language 70%. If you wish to take Economics as a university subject, then also: Mathematics 60%. If you wish to take a university subject from another faculty, please make sure that you meet its requirements.",
+            "required_subjects": [
+                {
+                    "subject": "leaving certificate",
+                    "level": "",
+                    "percentage": ""
+                },
+                {
+                    "subject": "OR English or Afrikaans Home Language",
+                    "level": "",
+                    "percentage": "60"
+                },
+                {
+                    "subject": "OR Afrikaans or English First Additional Language",
+                    "level": "",
+                    "percentage": "70"
+                },
+                {
+                    "subject": "Mathematics (If you wish to take Economics as a university subject)",
+                    "level": "",
+                    "percentage": "60"
+                },
+                {
+                    "subject": "If you wish to take a university subject from another faculty, please make sure that you meet its requirements.",
+                    "level": "",
+                    "percentage": ""
+                }
+            ]
         },
         {
-            "course_name": "Bachelor of Music (BMus)",
+            "course_name": "BA in Music",
             "course_code": "",
-            "duration": "4",
+            "duration": "3",
             "aps": "60",
+            "rawRequirements": "- An NSC aggregate of at least 60% (excluding Life Orientation)- Home Language 50%- First Additional Language 40%- In the main instrument (or in singing) at least a practical standard in classical music equivalent to the Grade VII examination and theoretical knowledge equivalent to any of the examining bodies' Grade V theory examination.- Candidates must be available for an audition and theoretical test at the Department of Music in Stellenbosch, where they must demonstrate proof of the required standards.If you take Mathematics as a university subject, then also:- Mathematics 70%",
             "required_subjects": [
                 {
                     "subject": "Home Language",
@@ -306,29 +606,116 @@
                     "percentage": "40"
                 },
                 {
-                    "subject": "Mathematics - A National Senior Certificate",
+                    "subject": "In the main instrument (or in singing) at least a practical standard in classical music equivalent to the Grade VII examination and theoretical knowledge equivalent to any of the examining bodies' Grade V theory examination.",
+                    "level": "",
+                    "percentage": ""
+                },
+                {
+                    "subject": "Candidates must be available for an audition and theoretical test at the Department of Music in Stellenbosch, where they must demonstrate proof of the required standards.If you take Mathematics as a university subject, then also:",
+                    "level": "",
+                    "percentage": ""
+                },
+                {
+                    "subject": "Mathematics",
                     "level": "",
                     "percentage": "70"
                 }
             ]
-        }
-    ],
-    "FACULTY OF ECONOMIC AND MANAGEMENT SCIENCES": [
+        },
         {
-            "course_name": "(PPE)",
+            "course_name": "BA in Humanities",
             "course_code": "",
             "duration": "3",
             "aps": "63",
+            "rawRequirements": "- An NSC aggregate of at least 63% (excluding Life Orientation)- Home Language 50%- First Additional Language 40%If you take Organisational Informatics as a university subject, then also:- Mathematics 50% OR Mathematical Literacy 70%",
             "required_subjects": [
                 {
-                    "subject": "Home Language Applicants who meet the minimum admission requirements are",
+                    "subject": "Home Language",
                     "level": "",
                     "percentage": "50"
                 },
                 {
-                    "subject": "First Additional Language",
+                    "subject": "First Additional Language 40%If you take Organisational Informatics as a university subject, then also:",
                     "level": "",
-                    "percentage": "40"
+                    "percentage": ""
+                },
+                {
+                    "subject": "OR Mathematics",
+                    "level": "",
+                    "percentage": "50"
+                },
+                {
+                    "subject": "OR Mathematical Literacy",
+                    "level": "",
+                    "percentage": "70"
+                }
+            ]
+        },
+        {
+            "course_name": "Bachelor of Data Science (BDatSci)",
+            "course_code": "",
+            "duration": "4",
+            "aps": "80",
+            "rawRequirements": "This is an interfaculty programme.- An NSC aggregate of at least 80% (excluding Life Orientation)- Mathematics 80%- Afrikaans Home Language 60% OR English Home Language 60% OR Afrikaans First Additional Language 75% OR English First Additional Language 75%",
+            "required_subjects": [
+                {
+                    "subject": "This is an interfaculty programme.",
+                    "level": "",
+                    "percentage": ""
+                },
+                {
+                    "subject": "Mathematics",
+                    "level": "",
+                    "percentage": "80"
+                },
+                {
+                    "subject": "OR Afrikaans Home Language",
+                    "level": "",
+                    "percentage": "60"
+                },
+                {
+                    "subject": "OR English Home Language",
+                    "level": "",
+                    "percentage": "60"
+                },
+                {
+                    "subject": "OR Afrikaans First Additional Language",
+                    "level": "",
+                    "percentage": "75"
+                },
+                {
+                    "subject": "OR English First Additional Language",
+                    "level": "",
+                    "percentage": "75"
+                }
+            ]
+        },
+        {
+            "course_name": "BA in Development and the Environment (Extended Curriculum Programme)",
+            "course_code": "",
+            "duration": "4",
+            "aps": "63",
+            "rawRequirements": "Students are selected for the extended curriculum programmes at the discretion of the Faculty. Base requirements:- An NSC aggregate of at least 63% (excluding Life Orientation)- Home Language 50%- First Additional Language 40%If you take Economics as a university subject, then also:- Mathematics 60%",
+            "required_subjects": [
+                {
+                    "subject": "Students are selected for the extended curriculum programmes at the discretion of the Faculty",
+                    "level": "",
+                    "percentage": ""
+                },
+                {
+                    "subject": "Base requirements:",
+                    "level": "",
+                    "percentage": ""
+                },
+                {
+                    "subject": "Home Language",
+                    "level": "",
+                    "percentage": "50"
+                },
+                {
+                    "subject": "First Additional Language 40%If you take Economics as a university subject, then also:",
+                    "level": "",
+                    "percentage": ""
                 },
                 {
                     "subject": "Mathematics",
@@ -338,37 +725,41 @@
             ]
         },
         {
-            "course_name": "Diploma in Sustainable Development",
-            "course_code": "",
-            "duration": "3",
-            "aps": "",
-            "required_subjects": []
-        },
-        {
-            "course_name": "Bachelor of Social Work",
+            "course_name": "BA in Humanities (Extended Curriculum Programme)",
             "course_code": "",
             "duration": "4",
             "aps": "63",
+            "rawRequirements": "Students are selected for the extended curriculum programmes at the discretion of the Faculty. Base requirements:- An NSC aggregate of at least 63% (excluding Life Orientation)- Home Language 50%- First Additional Language 40%If you take Organisational Informatics as a university subject, then also:- Mathematics 50% OR Mathematical Literacy 70%",
             "required_subjects": [
+                {
+                    "subject": "Students are selected for the extended curriculum programmes at the discretion of the Faculty",
+                    "level": "",
+                    "percentage": ""
+                },
+                {
+                    "subject": "Base requirements:",
+                    "level": "",
+                    "percentage": ""
+                },
                 {
                     "subject": "Home Language",
                     "level": "",
                     "percentage": "50"
                 },
                 {
-                    "subject": "First Additional Language",
+                    "subject": "First Additional Language 40%If you take Organisational Informatics as a university subject, then also:",
+                    "level": "",
+                    "percentage": ""
+                },
+                {
+                    "subject": "OR Mathematics",
                     "level": "",
                     "percentage": "50"
                 },
                 {
-                    "subject": "English Home Language",
+                    "subject": "OR Mathematical Literacy",
                     "level": "",
-                    "percentage": "50"
-                },
-                {
-                    "subject": "English First Additional",
-                    "level": "",
-                    "percentage": "50"
+                    "percentage": "70"
                 }
             ]
         },
@@ -377,14 +768,772 @@
             "course_code": "",
             "duration": "4",
             "aps": "60",
+            "rawRequirements": "Place for 60 students.- An NSC aggregate of at least 60% (excluding Life Orientation)- Home Language 50%- First Additional Language 40%- Hand in a prescribed portfolio of art by 1 September. Information is available at www.maties.com > Apply > Application documents.",
             "required_subjects": [
                 {
-                    "subject": "Home Language thinkers who use their knowledge and skills to create employment",
+                    "subject": "Place for 60 students.",
+                    "level": "",
+                    "percentage": ""
+                },
+                {
+                    "subject": "Home Language",
                     "level": "",
                     "percentage": "50"
                 },
                 {
                     "subject": "First Additional Language",
+                    "level": "",
+                    "percentage": "40"
+                },
+                {
+                    "subject": "Hand in a prescribed portfolio of art by 1 September",
+                    "level": "",
+                    "percentage": ""
+                },
+                {
+                    "subject": "Information is available at www.maties.com > Apply > Application documents.",
+                    "level": "",
+                    "percentage": ""
+                }
+            ]
+        },
+        {
+            "course_name": "Higher Certificate in Music",
+            "course_code": "",
+            "duration": "1",
+            "aps": "",
+            "rawRequirements": "- A National Senior Certificate- In the main instrument (or in singing) at least a practical standard in classical music equivalent to the Grade V/VI examination and theoretical knowledge equivalent to any of the examining bodies' Grade III/IV theory examination.- Candidates must be available for an audition.",
+            "required_subjects": [
+                {
+                    "subject": "A National Senior Certificate",
+                    "level": "",
+                    "percentage": ""
+                },
+                {
+                    "subject": "In the main instrument (or in singing) at least a practical standard in classical music equivalent to the Grade V/VI examination and theoretical knowledge equivalent to any of the examining bodies' Grade III/IV theory examination.",
+                    "level": "",
+                    "percentage": ""
+                },
+                {
+                    "subject": "Candidates must be available for an audition.",
+                    "level": "",
+                    "percentage": ""
+                }
+            ]
+        },
+        {
+            "course_name": "BA in Language and Culture",
+            "course_code": "",
+            "duration": "3",
+            "aps": "63",
+            "rawRequirements": "- An NSC aggregate of at least 63% (excluding Life Orientation)- Home Language 50%- First Additional Language 50%",
+            "required_subjects": [
+                {
+                    "subject": "Home Language",
+                    "level": "",
+                    "percentage": "50"
+                },
+                {
+                    "subject": "First Additional Language",
+                    "level": "",
+                    "percentage": "50"
+                }
+            ]
+        },
+        {
+            "course_name": "BA in Language and Culture (Extended Curriculum Programme)",
+            "course_code": "",
+            "duration": "4",
+            "aps": "63",
+            "rawRequirements": "Students are selected for the extended curriculum programmes at the discretion of the Faculty. Base requirements:- An NSC aggregate of at least 63% (excluding Life Orientation)- Home Language 50%- First Additional Language 50%",
+            "required_subjects": [
+                {
+                    "subject": "Students are selected for the extended curriculum programmes at the discretion of the Faculty",
+                    "level": "",
+                    "percentage": ""
+                },
+                {
+                    "subject": "Base requirements:",
+                    "level": "",
+                    "percentage": ""
+                },
+                {
+                    "subject": "Home Language",
+                    "level": "",
+                    "percentage": "50"
+                },
+                {
+                    "subject": "First Additional Language",
+                    "level": "",
+                    "percentage": "50"
+                }
+            ]
+        },
+        {
+            "course_name": "Advanced Diploma in Practical Music",
+            "course_code": "",
+            "duration": "1",
+            "aps": "",
+            "rawRequirements": "- You must have a Diploma (Practical Music), or another qualification in music as approved by Senate.- Selected based on a selection audition. If you do not have the necessary qualifications, you may be accepted on condition that you undertake supplementary work.- Candidates must be available for an audition at the Department of Music in Stellenbosch, where they must demonstrate proof of the required standards.",
+            "required_subjects": [
+                {
+                    "subject": "You must have a Diploma (Practical Music), or another qualification in music as approved by Senate.",
+                    "level": "",
+                    "percentage": ""
+                },
+                {
+                    "subject": "Selected based on a selection audition",
+                    "level": "",
+                    "percentage": ""
+                },
+                {
+                    "subject": "If you do not have the necessary qualifications, you may be accepted on condition that you undertake supplementary work.",
+                    "level": "",
+                    "percentage": ""
+                },
+                {
+                    "subject": "Candidates must be available for an audition at the Department of Music in Stellenbosch, where they must demonstrate proof of the required standards.",
+                    "level": "",
+                    "percentage": ""
+                }
+            ]
+        },
+        {
+            "course_name": "BA in International Studies (Extended Curriculum Programme)",
+            "course_code": "",
+            "duration": "4",
+            "aps": "63",
+            "rawRequirements": "Students are selected for the extended curriculum programmes at the discretion of the Faculty. Base requirements:- An NSC aggregate of at least 63% (excluding Life Orientation)- English Home Language 50% OR English First Additional Language 60%",
+            "required_subjects": [
+                {
+                    "subject": "Students are selected for the extended curriculum programmes at the discretion of the Faculty",
+                    "level": "",
+                    "percentage": ""
+                },
+                {
+                    "subject": "Base requirements:",
+                    "level": "",
+                    "percentage": ""
+                },
+                {
+                    "subject": "OR English Home Language",
+                    "level": "",
+                    "percentage": "50"
+                },
+                {
+                    "subject": "OR English First Additional Language",
+                    "level": "",
+                    "percentage": "60"
+                }
+            ]
+        },
+        {
+            "course_name": "Bachelor of Music (BMus)",
+            "course_code": "",
+            "duration": "4",
+            "aps": "60",
+            "rawRequirements": "- An NSC aggregate of at least 60% (excluding Life Orientation)- Home Language 50%- First Additional Language 40%- In the main instrument (or in singing) at least a practical standard in classical music equivalent to the Grade VII examination and theoretical knowledge equivalent to any of the examining bodies' Grade V theory examination.- Candidates must be available for an audition and theoretical test at the Department of Music in Stellenbosch, where candidates must demonstrate proof of the required standards.If you take Mathematics as a university subject, then also:- Mathematics 70%",
+            "required_subjects": [
+                {
+                    "subject": "Home Language",
+                    "level": "",
+                    "percentage": "50"
+                },
+                {
+                    "subject": "First Additional Language",
+                    "level": "",
+                    "percentage": "40"
+                },
+                {
+                    "subject": "In the main instrument (or in singing) at least a practical standard in classical music equivalent to the Grade VII examination and theoretical knowledge equivalent to any of the examining bodies' Grade V theory examination.",
+                    "level": "",
+                    "percentage": ""
+                },
+                {
+                    "subject": "Candidates must be available for an audition and theoretical test at the Department of Music in Stellenbosch, where candidates must demonstrate proof of the required standards.If you take Mathematics as a university subject, then also:",
+                    "level": "",
+                    "percentage": ""
+                },
+                {
+                    "subject": "Mathematics",
+                    "level": "",
+                    "percentage": "70"
+                }
+            ]
+        },
+        {
+            "course_name": "BA in Human Resource Management (Extended Curriculum Programme)",
+            "course_code": "",
+            "duration": "4",
+            "aps": "63",
+            "rawRequirements": "Students are selected for the extended curriculum programmes at the discretion of the Faculty. Base requirements:- An NSC aggregate of at least 63% (excluding Life Orientation)- Home Language 50%- First Additional Language 40%- Mathematics 50% OR Mathematical Literacy 70%",
+            "required_subjects": [
+                {
+                    "subject": "Students are selected for the extended curriculum programmes at the discretion of the Faculty",
+                    "level": "",
+                    "percentage": ""
+                },
+                {
+                    "subject": "Base requirements:",
+                    "level": "",
+                    "percentage": ""
+                },
+                {
+                    "subject": "Home Language",
+                    "level": "",
+                    "percentage": "50"
+                },
+                {
+                    "subject": "First Additional Language",
+                    "level": "",
+                    "percentage": "40"
+                },
+                {
+                    "subject": "OR Mathematics",
+                    "level": "",
+                    "percentage": "50"
+                },
+                {
+                    "subject": "OR Mathematical Literacy",
+                    "level": "",
+                    "percentage": "70"
+                }
+            ]
+        },
+        {
+            "course_name": "BA in Political, Philosophical and Economic Studies (PPE)",
+            "course_code": "",
+            "duration": "3",
+            "aps": "63",
+            "rawRequirements": "- An NSC aggregate of at least 63% (excluding Life Orientation)- Home Language 50%- First Additional Language 40%- Mathematics 60%",
+            "required_subjects": [
+                {
+                    "subject": "Home Language",
+                    "level": "",
+                    "percentage": "50"
+                },
+                {
+                    "subject": "First Additional Language",
+                    "level": "",
+                    "percentage": "40"
+                },
+                {
+                    "subject": "Mathematics",
+                    "level": "",
+                    "percentage": "60"
+                }
+            ]
+        },
+        {
+            "course_name": "BA in Human Resource Management",
+            "course_code": "",
+            "duration": "3",
+            "aps": "63",
+            "rawRequirements": "- An NSC aggregate of at least 63% (excluding Life Orientation)- Home Language 50%- First Additional Language 40%- Mathematics 50% OR Mathematical Literacy 70%",
+            "required_subjects": [
+                {
+                    "subject": "Home Language",
+                    "level": "",
+                    "percentage": "50"
+                },
+                {
+                    "subject": "First Additional Language",
+                    "level": "",
+                    "percentage": "40"
+                },
+                {
+                    "subject": "OR Mathematics",
+                    "level": "",
+                    "percentage": "50"
+                },
+                {
+                    "subject": "OR Mathematical Literacy",
+                    "level": "",
+                    "percentage": "70"
+                }
+            ]
+        },
+        {
+            "course_name": "BA in International Studies",
+            "course_code": "",
+            "duration": "3",
+            "aps": "63",
+            "rawRequirements": "- An NSC aggregate of at least 63% (excluding Life Orientation)- English Home Language 50% OR English First Additional Language 60%",
+            "required_subjects": [
+                {
+                    "subject": "OR English Home Language",
+                    "level": "",
+                    "percentage": "50"
+                },
+                {
+                    "subject": "OR English First Additional Language",
+                    "level": "",
+                    "percentage": "60"
+                }
+            ]
+        },
+        {
+            "course_name": "Diploma in Practical Music",
+            "course_code": "",
+            "duration": "3",
+            "aps": "",
+            "rawRequirements": "- A National Senior Certificate with at least 40% in each of four school subjects (excluding Life Orientation).- In the main instrument (or in singing) at least a practical standard in classical music equivalent to the Grade VII examination and theoretical knowledge equivalent to any of the examining bodies' Grade III/IV theory examination.- Candidates must be available for an audition and theoretical test at the Department of Music in Stellenbosch, where they must demonstrate proof of the required standards.",
+            "required_subjects": [
+                {
+                    "subject": "A National Senior Certificate with at least  in each of four school subjects (excluding Life Orientation).",
+                    "level": "",
+                    "percentage": "40"
+                },
+                {
+                    "subject": "In the main instrument (or in singing) at least a practical standard in classical music equivalent to the Grade VII examination and theoretical knowledge equivalent to any of the examining bodies' Grade III/IV theory examination.",
+                    "level": "",
+                    "percentage": ""
+                },
+                {
+                    "subject": "Candidates must be available for an audition and theoretical test at the Department of Music in Stellenbosch, where they must demonstrate proof of the required standards.",
+                    "level": "",
+                    "percentage": ""
+                }
+            ]
+        },
+        {
+            "course_name": "Bachelor of Social Work",
+            "course_code": "",
+            "duration": "4",
+            "aps": "63",
+            "rawRequirements": "100 places in the programme.- An NSC aggregate of at least 63% (excluding Life Orientation)- Home Language 50%- First Additional Language 50%",
+            "required_subjects": [
+                {
+                    "subject": "100 places in the programme.",
+                    "level": "",
+                    "percentage": ""
+                },
+                {
+                    "subject": "Home Language",
+                    "level": "",
+                    "percentage": "50"
+                },
+                {
+                    "subject": "First Additional Language",
+                    "level": "",
+                    "percentage": "50"
+                }
+            ]
+        },
+        {
+            "course_name": "BA in Drama and Theatre Studies",
+            "course_code": "",
+            "duration": "3",
+            "aps": "65",
+            "rawRequirements": "- An NSC aggregate of at least 65% (excluding Life Orientation)- Home Language 60%- First Additional Language 50%- Candidates must be available for auditions and/or interviews at the Drama Department in Stellenbosch during August.",
+            "required_subjects": [
+                {
+                    "subject": "Home Language",
+                    "level": "",
+                    "percentage": "60"
+                },
+                {
+                    "subject": "First Additional Language",
+                    "level": "",
+                    "percentage": "50"
+                },
+                {
+                    "subject": "Candidates must be available for auditions and/or interviews at the Drama Department in Stellenbosch during August.",
+                    "level": "",
+                    "percentage": ""
+                }
+            ]
+        }
+    ],
+    "FACULTY OF ECONOMIC & MANAGEMENT SCIENCES": [
+        {
+            "course_name": "BCom (Mathematical Sciences)",
+            "course_code": "",
+            "duration": "3",
+            "aps": "70",
+            "rawRequirements": "An NSC aggregate of at least 70% (excluding Life Orientation). Mathematics 75%. English Home Language 50% OR Afrikaans Home Language 50% OR Afrikaans First Additional Language 70% OR English First Additional Language 70%.",
+            "required_subjects": [
+                {
+                    "subject": "Mathematics",
+                    "level": "",
+                    "percentage": "75"
+                },
+                {
+                    "subject": "OR English Home Language",
+                    "level": "",
+                    "percentage": "50"
+                },
+                {
+                    "subject": "OR Afrikaans Home Language",
+                    "level": "",
+                    "percentage": "50"
+                },
+                {
+                    "subject": "OR Afrikaans First Additional Language",
+                    "level": "",
+                    "percentage": "70"
+                },
+                {
+                    "subject": "OR English First Additional Language .",
+                    "level": "",
+                    "percentage": "70"
+                }
+            ]
+        },
+        {
+            "course_name": "BCom (Management Sciences) (Extended Curriculum Programme)",
+            "course_code": "",
+            "duration": "4",
+            "aps": "60",
+            "rawRequirements": "An NSC aggregate of at least 60% (excluding Life Orientation). Mathematics 50%. English Home Language 50% OR Afrikaans Home Language 50% OR Afrikaans First Additional Language 70% OR English First Additional Language 70%.",
+            "required_subjects": [
+                {
+                    "subject": "Mathematics",
+                    "level": "",
+                    "percentage": "50"
+                },
+                {
+                    "subject": "OR English Home Language",
+                    "level": "",
+                    "percentage": "50"
+                },
+                {
+                    "subject": "OR Afrikaans Home Language",
+                    "level": "",
+                    "percentage": "50"
+                },
+                {
+                    "subject": "OR Afrikaans First Additional Language",
+                    "level": "",
+                    "percentage": "70"
+                },
+                {
+                    "subject": "OR English First Additional Language .",
+                    "level": "",
+                    "percentage": "70"
+                }
+            ]
+        },
+        {
+            "course_name": "BCom (Management Sciences)",
+            "course_code": "",
+            "duration": "3",
+            "aps": "65",
+            "rawRequirements": "An NSC aggregate of at least 65% (excluding Life Orientation). Mathematics 60%. English Home Language 50% OR Afrikaans Home Language 50% OR Afrikaans First Additional Language 70% OR English First Additional Language 70%.",
+            "required_subjects": [
+                {
+                    "subject": "Mathematics",
+                    "level": "",
+                    "percentage": "60"
+                },
+                {
+                    "subject": "OR English Home Language",
+                    "level": "",
+                    "percentage": "50"
+                },
+                {
+                    "subject": "OR Afrikaans Home Language",
+                    "level": "",
+                    "percentage": "50"
+                },
+                {
+                    "subject": "OR Afrikaans First Additional Language",
+                    "level": "",
+                    "percentage": "70"
+                },
+                {
+                    "subject": "OR English First Additional Language .",
+                    "level": "",
+                    "percentage": "70"
+                }
+            ]
+        },
+        {
+            "course_name": "BCom (International Business)",
+            "course_code": "",
+            "duration": "4",
+            "aps": "80",
+            "rawRequirements": "An NSC aggregate of at least 80% (excluding Life Orientation). Mathematics 70%. English Home Language 70% OR English First Additional Language 80%.",
+            "required_subjects": [
+                {
+                    "subject": "Mathematics",
+                    "level": "",
+                    "percentage": "70"
+                },
+                {
+                    "subject": "OR English Home Language",
+                    "level": "",
+                    "percentage": "70"
+                },
+                {
+                    "subject": "OR English First Additional Language .",
+                    "level": "",
+                    "percentage": "80"
+                }
+            ]
+        },
+        {
+            "course_name": "BCom (Management Accounting)",
+            "course_code": "",
+            "duration": "3",
+            "aps": "65",
+            "rawRequirements": "An NSC aggregate of at least 65% (excluding Life Orientation). Mathematics 60%. English Home Language 50% OR Afrikaans Home Language 50% OR Afrikaans First Additional Language 70% OR English First Additional Language 70%.",
+            "required_subjects": [
+                {
+                    "subject": "Mathematics",
+                    "level": "",
+                    "percentage": "60"
+                },
+                {
+                    "subject": "OR English Home Language",
+                    "level": "",
+                    "percentage": "50"
+                },
+                {
+                    "subject": "OR Afrikaans Home Language",
+                    "level": "",
+                    "percentage": "50"
+                },
+                {
+                    "subject": "OR Afrikaans First Additional Language",
+                    "level": "",
+                    "percentage": "70"
+                },
+                {
+                    "subject": "OR English First Additional Language .",
+                    "level": "",
+                    "percentage": "70"
+                }
+            ]
+        },
+        {
+            "course_name": "BAccLLB",
+            "course_code": "",
+            "duration": "5",
+            "aps": "80",
+            "rawRequirements": "An aggregate of at least 80% (excluding Life Orientation) in the NSC or IEB school-leaving certificate. English or Afrikaans Home Language 60% OR Afrikaans or English First Additional Language 70%. Mathematics 70% OR Mathematics 60% and Accounting 70%.",
+            "required_subjects": [
+                {
+                    "subject": "leaving certificate",
+                    "level": "",
+                    "percentage": ""
+                },
+                {
+                    "subject": "OR English or Afrikaans Home Language",
+                    "level": "",
+                    "percentage": "60"
+                },
+                {
+                    "subject": "OR Afrikaans or English First Additional Language",
+                    "level": "",
+                    "percentage": "70"
+                },
+                {
+                    "subject": "OR Mathematics",
+                    "level": "",
+                    "percentage": "70"
+                },
+                {
+                    "subject": "OR Mathematics  and Accounting 70%.",
+                    "level": "",
+                    "percentage": "60"
+                }
+            ]
+        },
+        {
+            "course_name": "BAcc",
+            "course_code": "",
+            "duration": "3",
+            "aps": "70",
+            "rawRequirements": "An NSC aggregate of at least 70% (excluding Life Orientation). Mathematics 70% OR Mathematics 60% and Accounting 70%. English Home Language 50% OR Afrikaans Home Language 50% OR Afrikaans First Additional Language 70% OR English First Additional Language 70%.",
+            "required_subjects": [
+                {
+                    "subject": "OR Mathematics",
+                    "level": "",
+                    "percentage": "70"
+                },
+                {
+                    "subject": "OR Mathematics 60% and Accounting",
+                    "level": "",
+                    "percentage": "70"
+                },
+                {
+                    "subject": "OR English Home Language",
+                    "level": "",
+                    "percentage": "50"
+                },
+                {
+                    "subject": "OR Afrikaans Home Language",
+                    "level": "",
+                    "percentage": "50"
+                },
+                {
+                    "subject": "OR Afrikaans First Additional Language",
+                    "level": "",
+                    "percentage": "70"
+                },
+                {
+                    "subject": "OR English First Additional Language .",
+                    "level": "",
+                    "percentage": "70"
+                }
+            ]
+        },
+        {
+            "course_name": "BCom (Industrial Psychology)",
+            "course_code": "",
+            "duration": "3",
+            "aps": "65",
+            "rawRequirements": "An NSC aggregate of at least 65% (excluding Life Orientation). Mathematics 60%. English Home Language 50% OR Afrikaans Home Language 50% OR Afrikaans First Additional Language 70% OR English First Additional Language 70%.",
+            "required_subjects": [
+                {
+                    "subject": "Mathematics",
+                    "level": "",
+                    "percentage": "60"
+                },
+                {
+                    "subject": "OR English Home Language",
+                    "level": "",
+                    "percentage": "50"
+                },
+                {
+                    "subject": "OR Afrikaans Home Language",
+                    "level": "",
+                    "percentage": "50"
+                },
+                {
+                    "subject": "OR Afrikaans First Additional Language",
+                    "level": "",
+                    "percentage": "70"
+                },
+                {
+                    "subject": "OR English First Additional Language .",
+                    "level": "",
+                    "percentage": "70"
+                }
+            ]
+        },
+        {
+            "course_name": "BCom (Financial Accounting)",
+            "course_code": "",
+            "duration": "3",
+            "aps": "65",
+            "rawRequirements": "An NSC aggregate of at least 65% (excluding Life Orientation). Mathematics 60%. English Home Language 50% OR Afrikaans Home Language 50% OR Afrikaans First Additional Language 70% OR English First Additional Language 70%.",
+            "required_subjects": [
+                {
+                    "subject": "Mathematics",
+                    "level": "",
+                    "percentage": "60"
+                },
+                {
+                    "subject": "OR English Home Language",
+                    "level": "",
+                    "percentage": "50"
+                },
+                {
+                    "subject": "OR Afrikaans Home Language",
+                    "level": "",
+                    "percentage": "50"
+                },
+                {
+                    "subject": "OR Afrikaans First Additional Language",
+                    "level": "",
+                    "percentage": "70"
+                },
+                {
+                    "subject": "OR English First Additional Language .",
+                    "level": "",
+                    "percentage": "70"
+                }
+            ]
+        },
+        {
+            "course_name": "BCom (Actuarial Science)",
+            "course_code": "",
+            "duration": "3",
+            "aps": "80",
+            "rawRequirements": "An NSC aggregate of at least 80% (excluding Life Orientation). Mathematics 80%. Home Language 60%. If the Home Language (in the requirement above) is not English, then also English First Additional Language 75%.",
+            "required_subjects": [
+                {
+                    "subject": "Mathematics",
+                    "level": "",
+                    "percentage": "80"
+                },
+                {
+                    "subject": "Home Language",
+                    "level": "",
+                    "percentage": "60"
+                },
+                {
+                    "subject": "If the Home Language (in the requirement above) is not English, then also English First Additional Language .",
+                    "level": "",
+                    "percentage": "75"
+                }
+            ]
+        },
+        {
+            "course_name": "BCom (Economic Sciences)",
+            "course_code": "",
+            "duration": "3",
+            "aps": "65",
+            "rawRequirements": "An NSC aggregate of at least 65% (excluding Life Orientation). Mathematics 60%. English Home Language 50% OR Afrikaans Home Language 50% OR Afrikaans First Additional Language 70% OR English First Additional Language 70%.",
+            "required_subjects": [
+                {
+                    "subject": "Mathematics",
+                    "level": "",
+                    "percentage": "60"
+                },
+                {
+                    "subject": "OR English Home Language",
+                    "level": "",
+                    "percentage": "50"
+                },
+                {
+                    "subject": "OR Afrikaans Home Language",
+                    "level": "",
+                    "percentage": "50"
+                },
+                {
+                    "subject": "OR Afrikaans First Additional Language",
+                    "level": "",
+                    "percentage": "70"
+                },
+                {
+                    "subject": "OR English First Additional Language .",
+                    "level": "",
+                    "percentage": "70"
+                }
+            ]
+        },
+        {
+            "course_name": "Diploma in Sustainable Development",
+            "course_code": "",
+            "duration": "3",
+            "aps": "55",
+            "rawRequirements": "An NSC aggregate of at least 55% (excluding Life Orientation). English Home Language 50% OR English First Additional Language 60%. Mathematics 50% OR Mathematical Literacy 60% OR Mathematics 40% or Mathematical Literacy 50% AND 60% for Business Studies or Economics or Accounting.",
+            "required_subjects": [
+                {
+                    "subject": "OR English Home Language",
+                    "level": "",
+                    "percentage": "50"
+                },
+                {
+                    "subject": "OR English First Additional Language",
+                    "level": "",
+                    "percentage": "60"
+                },
+                {
+                    "subject": "OR Mathematics",
+                    "level": "",
+                    "percentage": "50"
+                },
+                {
+                    "subject": "OR Mathematical Literacy",
+                    "level": "",
+                    "percentage": "60"
+                },
+                {
+                    "subject": "OR Mathematics  or Mathematical Literacy 50% AND 60% for Business Studies or Economics or Accounting.",
                     "level": "",
                     "percentage": "40"
                 }
@@ -394,178 +1543,171 @@
             "course_name": "BCom (Law)",
             "course_code": "",
             "duration": "3",
-            "aps": "",
-            "required_subjects": []
-        },
-        {
-            "course_name": "BAccLLB",
-            "course_code": "",
-            "duration": "5",
-            "aps": "",
-            "required_subjects": []
+            "aps": "70",
+            "rawRequirements": "An aggregate of at least 70% (excluding Life Orientation) in the NSC or IEB school-leaving certificate. English or Afrikaans Home Language 60% OR Afrikaans or English First Additional Language 70%. If you wish to take Economics as a university subject, then also: Mathematics 60%. If you wish to take a university subject from another faculty, please make sure that you meet its requirements.",
+            "required_subjects": [
+                {
+                    "subject": "leaving certificate",
+                    "level": "",
+                    "percentage": ""
+                },
+                {
+                    "subject": "OR English or Afrikaans Home Language",
+                    "level": "",
+                    "percentage": "60"
+                },
+                {
+                    "subject": "OR Afrikaans or English First Additional Language",
+                    "level": "",
+                    "percentage": "70"
+                },
+                {
+                    "subject": "Mathematics (If you wish to take Economics as a university subject)",
+                    "level": "",
+                    "percentage": "60"
+                },
+                {
+                    "subject": "If you wish to take a university subject from another faculty, please make sure that you meet its requirements.",
+                    "level": "",
+                    "percentage": ""
+                }
+            ]
         },
         {
             "course_name": "Bachelor of Data Science (BDatSci)",
             "course_code": "",
             "duration": "4",
             "aps": "80",
+            "rawRequirements": "An aggregate of at least 80% (excluding Life Orientation). Mathematics 80%. Afrikaans Home Language 60% OR English Home Language 60% OR Afrikaans First Additional Language 75% OR English First Additional Language 75%.",
             "required_subjects": [
                 {
                     "subject": "Mathematics",
                     "level": "",
                     "percentage": "80"
-                }
-            ]
-        },
-        {
-            "course_name": "OR English Home Language 60% BCom (Economic Sciences)",
-            "course_code": "",
-            "duration": "3",
-            "aps": "65",
-            "required_subjects": [
+                },
                 {
-                    "subject": "Mathematics",
+                    "subject": "OR Afrikaans Home Language",
                     "level": "",
                     "percentage": "60"
                 },
                 {
-                    "subject": "English Home Language",
-                    "level": "",
-                    "percentage": "50"
-                },
-                {
-                    "subject": "Afrikaans Home Language",
-                    "level": "",
-                    "percentage": "50"
-                }
-            ]
-        },
-        {
-            "course_name": "BCom (Management Sciences)",
-            "course_code": "",
-            "duration": "3",
-            "aps": "65",
-            "required_subjects": []
-        },
-        {
-            "course_name": "management for the provision of agricultural inputs and services, BCom (Mathematical Sciences)",
-            "course_code": "",
-            "duration": "3",
-            "aps": "70",
-            "required_subjects": []
-        },
-        {
-            "course_name": "BCom (International Business)",
-            "course_code": "",
-            "duration": "4",
-            "aps": "",
-            "required_subjects": []
-        },
-        {
-            "course_name": "BCom (Actuarial Science)",
-            "course_code": "",
-            "duration": "3",
-            "aps": "80",
-            "required_subjects": [
-                {
-                    "subject": "Mathematics",
-                    "level": "",
-                    "percentage": "70"
-                },
-                {
-                    "subject": "English Home Language",
-                    "level": "",
-                    "percentage": "70"
-                },
-                {
-                    "subject": "English First Additional",
-                    "level": "",
-                    "percentage": "70"
-                }
-            ]
-        },
-        {
-            "course_name": "innovation manager. BCom (Industrial Psychology)",
-            "course_code": "",
-            "duration": "3",
-            "aps": "",
-            "required_subjects": []
-        },
-        {
-            "course_name": "BCom (Management Accounting)",
-            "course_code": "",
-            "duration": "3",
-            "aps": "",
-            "required_subjects": []
-        }
-    ],
-    "FACULTY OF EDUCATION": [
-        {
-            "course_name": "BCom (Financial Accounting)",
-            "course_code": "",
-            "duration": "3",
-            "aps": "65",
-            "required_subjects": [
-                {
-                    "subject": "Afrikaans Home Language",
+                    "subject": "OR English Home Language",
                     "level": "",
                     "percentage": "60"
                 },
                 {
-                    "subject": "Mathematics",
+                    "subject": "OR Afrikaans First Additional Language",
                     "level": "",
-                    "percentage": "60"
+                    "percentage": "75"
                 },
                 {
-                    "subject": "English Home Language",
+                    "subject": "OR English First Additional Language .",
                     "level": "",
-                    "percentage": "50"
-                },
-                {
-                    "subject": "Afrikaans Home Language OR",
-                    "level": "",
-                    "percentage": "50"
-                }
-            ]
-        },
-        {
-            "course_name": "BEd (Foundation Phase Education)",
-            "course_code": "",
-            "duration": "4",
-            "aps": "",
-            "required_subjects": []
-        },
-        {
-            "course_name": "BEd (Intermediate Phase Education)",
-            "course_code": "",
-            "duration": "4",
-            "aps": "",
-            "required_subjects": [
-                {
-                    "subject": "Mathematics",
-                    "level": "",
-                    "percentage": "60"
-                },
-                {
-                    "subject": "Life Sciences or Physical Sciences",
-                    "level": "",
-                    "percentage": "50"
-                },
-                {
-                    "subject": "History or Geography",
-                    "level": "",
-                    "percentage": "50"
+                    "percentage": "75"
                 }
             ]
         }
     ],
     "FACULTY OF ENGINEERING": [
         {
-            "course_name": "ng (Electrical and Electronic)",
+            "course_name": "BEng (Mechatronic) (Extended Curriculum Programme)",
+            "course_code": "",
+            "duration": "5",
+            "aps": "",
+            "rawRequirements": "All our BEng programmes are also available as ECPs, which require one extra year of study. A limited number of applicants who meet the minimum requirements of the BEng ECPs will be selected. Selection considers the selection score as above and the socio-economic status of applicants to give preference to candidates from underserved educational backgrounds.",
+            "required_subjects": [
+                {
+                    "subject": "All our BEng programmes are also available as ECPs, which require one extra year of study",
+                    "level": "",
+                    "percentage": ""
+                },
+                {
+                    "subject": "A limited number of applicants who meet the minimum requirements of the BEng ECPs will be selected",
+                    "level": "",
+                    "percentage": ""
+                },
+                {
+                    "subject": "Selection considers the selection score as above and the socio",
+                    "level": "",
+                    "percentage": ""
+                },
+                {
+                    "subject": "economic status of applicants to give preference to candidates from underserved educational backgrounds.",
+                    "level": "",
+                    "percentage": ""
+                }
+            ]
+        },
+        {
+            "course_name": "BEng (Electrical and Electronic) (Extended Curriculum Programme)",
+            "course_code": "",
+            "duration": "5",
+            "aps": "",
+            "rawRequirements": "All our BEng programmes are also available as ECPs, which require one extra year of study. A limited number of applicants who meet the minimum requirements of the BEng ECPs will be selected. Selection considers the selection score as above and the socio-economic status of applicants to give preference to candidates from underserved educational backgrounds.",
+            "required_subjects": [
+                {
+                    "subject": "All our BEng programmes are also available as ECPs, which require one extra year of study",
+                    "level": "",
+                    "percentage": ""
+                },
+                {
+                    "subject": "A limited number of applicants who meet the minimum requirements of the BEng ECPs will be selected",
+                    "level": "",
+                    "percentage": ""
+                },
+                {
+                    "subject": "Selection considers the selection score as above and the socio",
+                    "level": "",
+                    "percentage": ""
+                },
+                {
+                    "subject": "economic status of applicants to give preference to candidates from underserved educational backgrounds.",
+                    "level": "",
+                    "percentage": ""
+                }
+            ]
+        },
+        {
+            "course_name": "BEng (Chemical) (Extended Curriculum Programme)",
+            "course_code": "",
+            "duration": "5",
+            "aps": "",
+            "rawRequirements": "All our BEng programmes are also available as ECPs, which require one extra year of study. A limited number of applicants who meet the minimum requirements of the BEng ECPs will be selected. Selection considers the selection score as above and the socio-economic status of applicants to give preference to candidates from underserved educational backgrounds.",
+            "required_subjects": [
+                {
+                    "subject": "All our BEng programmes are also available as ECPs, which require one extra year of study",
+                    "level": "",
+                    "percentage": ""
+                },
+                {
+                    "subject": "A limited number of applicants who meet the minimum requirements of the BEng ECPs will be selected",
+                    "level": "",
+                    "percentage": ""
+                },
+                {
+                    "subject": "Selection considers the selection score as above and the socio",
+                    "level": "",
+                    "percentage": ""
+                },
+                {
+                    "subject": "economic status of applicants to give preference to candidates from underserved educational backgrounds.",
+                    "level": "",
+                    "percentage": ""
+                }
+            ]
+        },
+        {
+            "course_name": "BEng (Industrial)",
             "course_code": "",
             "duration": "4",
             "aps": "70",
+            "rawRequirements": "Admission and selection:- An NSC aggregate of at least 70% (excluding Life Orientation)- Mathematics 70%- Physical Sciences 60%- English Home Language 50%, with no Afrikaans requirement, OR English First Additional Language 60%, with no Afrikaans requirement, OR English First Additional Language 50% with Afrikaans Home Language 50% OR English First Additional Language 50% with Afrikaans Second Additional Language 60%- Applicants are also subject to selection according to selection criteria. Selection mark = Mathematics percentage + Physical Sciences percentage + (6 x Matric average)",
             "required_subjects": [
+                {
+                    "subject": "Admission and selection:",
+                    "level": "",
+                    "percentage": ""
+                },
                 {
                     "subject": "Mathematics",
                     "level": "",
@@ -577,158 +1719,515 @@
                     "percentage": "60"
                 },
                 {
-                    "subject": "English Home Language , with no Afrikaans requirement,",
+                    "subject": "OR English Home Language , with no Afrikaans requirement,",
+                    "level": "",
+                    "percentage": "50"
+                },
+                {
+                    "subject": "OR English First Additional Language , with no Afrikaans requirement,",
+                    "level": "",
+                    "percentage": "60"
+                },
+                {
+                    "subject": "OR English First Additional Language 50% with Afrikaans Home Language",
+                    "level": "",
+                    "percentage": "50"
+                },
+                {
+                    "subject": "OR English First Additional Language 50% with Afrikaans Second Additional Language",
+                    "level": "",
+                    "percentage": "60"
+                },
+                {
+                    "subject": "Applicants are also subject to selection according to selection criteria",
+                    "level": "",
+                    "percentage": ""
+                },
+                {
+                    "subject": "Selection mark = Mathematics percentage + Physical Sciences percentage + (6 x Matric average)",
+                    "level": "",
+                    "percentage": ""
+                }
+            ]
+        },
+        {
+            "course_name": "BEng (Mechanical)",
+            "course_code": "",
+            "duration": "4",
+            "aps": "70",
+            "rawRequirements": "Admission and selection:- An NSC aggregate of at least 70% (excluding Life Orientation)- Mathematics 70%- Physical Sciences 60%- English Home Language 50%, with no Afrikaans requirement, OR English First Additional Language 60%, with no Afrikaans requirement, OR English First Additional Language 50% with Afrikaans Home Language 50% OR English First Additional Language 50% with Afrikaans Second Additional Language 60%- Applicants are also subject to selection according to selection criteria. Selection mark = Mathematics percentage + Physical Sciences percentage + (6 x Matric average)",
+            "required_subjects": [
+                {
+                    "subject": "Admission and selection:",
+                    "level": "",
+                    "percentage": ""
+                },
+                {
+                    "subject": "Mathematics",
+                    "level": "",
+                    "percentage": "70"
+                },
+                {
+                    "subject": "Physical Sciences",
+                    "level": "",
+                    "percentage": "60"
+                },
+                {
+                    "subject": "OR English Home Language , with no Afrikaans requirement,",
+                    "level": "",
+                    "percentage": "50"
+                },
+                {
+                    "subject": "OR English First Additional Language , with no Afrikaans requirement,",
+                    "level": "",
+                    "percentage": "60"
+                },
+                {
+                    "subject": "OR English First Additional Language 50% with Afrikaans Home Language",
+                    "level": "",
+                    "percentage": "50"
+                },
+                {
+                    "subject": "OR English First Additional Language 50% with Afrikaans Second Additional Language",
+                    "level": "",
+                    "percentage": "60"
+                },
+                {
+                    "subject": "Applicants are also subject to selection according to selection criteria",
+                    "level": "",
+                    "percentage": ""
+                },
+                {
+                    "subject": "Selection mark = Mathematics percentage + Physical Sciences percentage + (6 x Matric average)",
+                    "level": "",
+                    "percentage": ""
+                }
+            ]
+        },
+        {
+            "course_name": "BEng (Mechatronic)",
+            "course_code": "",
+            "duration": "4",
+            "aps": "70",
+            "rawRequirements": "Admission and selection:- An NSC aggregate of at least 70% (excluding Life Orientation)- Mathematics 70%- Physical Sciences 60%- English Home Language 50%, with no Afrikaans requirement, OR English First Additional Language 60%, with no Afrikaans requirement, OR English First Additional Language 50% with Afrikaans Home Language 50% OR English First Additional Language 50% with Afrikaans Second Additional Language 60%- Applicants are also subject to selection according to selection criteria. Selection mark = Mathematics percentage + Physical Sciences percentage + (6 x Matric average)",
+            "required_subjects": [
+                {
+                    "subject": "Admission and selection:",
+                    "level": "",
+                    "percentage": ""
+                },
+                {
+                    "subject": "Mathematics",
+                    "level": "",
+                    "percentage": "70"
+                },
+                {
+                    "subject": "Physical Sciences",
+                    "level": "",
+                    "percentage": "60"
+                },
+                {
+                    "subject": "OR English Home Language , with no Afrikaans requirement,",
+                    "level": "",
+                    "percentage": "50"
+                },
+                {
+                    "subject": "OR English First Additional Language , with no Afrikaans requirement,",
+                    "level": "",
+                    "percentage": "60"
+                },
+                {
+                    "subject": "OR English First Additional Language 50% with Afrikaans Home Language",
+                    "level": "",
+                    "percentage": "50"
+                },
+                {
+                    "subject": "OR English First Additional Language 50% with Afrikaans Second Additional Language",
+                    "level": "",
+                    "percentage": "60"
+                },
+                {
+                    "subject": "Applicants are also subject to selection according to selection criteria",
+                    "level": "",
+                    "percentage": ""
+                },
+                {
+                    "subject": "Selection mark = Mathematics percentage + Physical Sciences percentage + (6 x Matric average)",
+                    "level": "",
+                    "percentage": ""
+                }
+            ]
+        },
+        {
+            "course_name": "BEng (Industrial) (Extended Curriculum Programme)",
+            "course_code": "",
+            "duration": "5",
+            "aps": "",
+            "rawRequirements": "All our BEng programmes are also available as ECPs, which require one extra year of study. A limited number of applicants who meet the minimum requirements of the BEng ECPs will be selected. Selection considers the selection score as above and the socio-economic status of applicants to give preference to candidates from underserved educational backgrounds.",
+            "required_subjects": [
+                {
+                    "subject": "All our BEng programmes are also available as ECPs, which require one extra year of study",
+                    "level": "",
+                    "percentage": ""
+                },
+                {
+                    "subject": "A limited number of applicants who meet the minimum requirements of the BEng ECPs will be selected",
+                    "level": "",
+                    "percentage": ""
+                },
+                {
+                    "subject": "Selection considers the selection score as above and the socio",
+                    "level": "",
+                    "percentage": ""
+                },
+                {
+                    "subject": "economic status of applicants to give preference to candidates from underserved educational backgrounds.",
+                    "level": "",
+                    "percentage": ""
+                }
+            ]
+        },
+        {
+            "course_name": "BEng (Electrical and Electronic) (Data Engineering) (Extended Curriculum Programme)",
+            "course_code": "",
+            "duration": "5",
+            "aps": "",
+            "rawRequirements": "All our BEng programmes are also available as ECPs, which require one extra year of study. A limited number of applicants who meet the minimum requirements of the BEng ECPs will be selected. Selection considers the selection score as above and the socio-economic status of applicants to give preference to candidates from underserved educational backgrounds.",
+            "required_subjects": [
+                {
+                    "subject": "All our BEng programmes are also available as ECPs, which require one extra year of study",
+                    "level": "",
+                    "percentage": ""
+                },
+                {
+                    "subject": "A limited number of applicants who meet the minimum requirements of the BEng ECPs will be selected",
+                    "level": "",
+                    "percentage": ""
+                },
+                {
+                    "subject": "Selection considers the selection score as above and the socio",
+                    "level": "",
+                    "percentage": ""
+                },
+                {
+                    "subject": "economic status of applicants to give preference to candidates from underserved educational backgrounds.",
+                    "level": "",
+                    "percentage": ""
+                }
+            ]
+        },
+        {
+            "course_name": "BEng (Civil)",
+            "course_code": "",
+            "duration": "4",
+            "aps": "70",
+            "rawRequirements": "Admission and selection:- An NSC aggregate of at least 70% (excluding Life Orientation)- Mathematics 70%- Physical Sciences 60%- English Home Language 50%, with no Afrikaans requirement, OR English First Additional Language 60%, with no Afrikaans requirement, OR English First Additional Language 50% with Afrikaans Home Language 50% OR English First Additional Language 50% with Afrikaans Second Additional Language 60%- Applicants are also subject to selection according to selection criteria. Selection mark = Mathematics percentage + Physical Sciences percentage + (6 x Matric average)",
+            "required_subjects": [
+                {
+                    "subject": "Admission and selection:",
+                    "level": "",
+                    "percentage": ""
+                },
+                {
+                    "subject": "Mathematics",
+                    "level": "",
+                    "percentage": "70"
+                },
+                {
+                    "subject": "Physical Sciences",
+                    "level": "",
+                    "percentage": "60"
+                },
+                {
+                    "subject": "OR English Home Language , with no Afrikaans requirement,",
+                    "level": "",
+                    "percentage": "50"
+                },
+                {
+                    "subject": "OR English First Additional Language , with no Afrikaans requirement,",
+                    "level": "",
+                    "percentage": "60"
+                },
+                {
+                    "subject": "OR English First Additional Language 50% with Afrikaans Home Language",
+                    "level": "",
+                    "percentage": "50"
+                },
+                {
+                    "subject": "OR English First Additional Language 50% with Afrikaans Second Additional Language",
+                    "level": "",
+                    "percentage": "60"
+                },
+                {
+                    "subject": "Applicants are also subject to selection according to selection criteria",
+                    "level": "",
+                    "percentage": ""
+                },
+                {
+                    "subject": "Selection mark = Mathematics percentage + Physical Sciences percentage + (6 x Matric average)",
+                    "level": "",
+                    "percentage": ""
+                }
+            ]
+        },
+        {
+            "course_name": "BEng (Civil) (Extended Curriculum Programme)",
+            "course_code": "",
+            "duration": "5",
+            "aps": "",
+            "rawRequirements": "All our BEng programmes are also available as ECPs, which require one extra year of study. A limited number of applicants who meet the minimum requirements of the BEng ECPs will be selected. Selection considers the selection score as above and the socio-economic status of applicants to give preference to candidates from underserved educational backgrounds.",
+            "required_subjects": [
+                {
+                    "subject": "All our BEng programmes are also available as ECPs, which require one extra year of study",
+                    "level": "",
+                    "percentage": ""
+                },
+                {
+                    "subject": "A limited number of applicants who meet the minimum requirements of the BEng ECPs will be selected",
+                    "level": "",
+                    "percentage": ""
+                },
+                {
+                    "subject": "Selection considers the selection score as above and the socio",
+                    "level": "",
+                    "percentage": ""
+                },
+                {
+                    "subject": "economic status of applicants to give preference to candidates from underserved educational backgrounds.",
+                    "level": "",
+                    "percentage": ""
+                }
+            ]
+        },
+        {
+            "course_name": "BEng (Chemical)",
+            "course_code": "",
+            "duration": "4",
+            "aps": "70",
+            "rawRequirements": "Admission and selection:- An NSC aggregate of at least 70% (excluding Life Orientation)- Mathematics 70%- Physical Sciences 60%- English Home Language 50%, with no Afrikaans requirement, OR English First Additional Language 60%, with no Afrikaans requirement, OR English First Additional Language 50% with Afrikaans Home Language 50% OR English First Additional Language 50% with Afrikaans Second Additional Language 60%- Applicants are also subject to selection according to selection criteria. Selection mark = Mathematics percentage + Physical Sciences percentage + (6 x Matric average)",
+            "required_subjects": [
+                {
+                    "subject": "Admission and selection:",
+                    "level": "",
+                    "percentage": ""
+                },
+                {
+                    "subject": "Mathematics",
+                    "level": "",
+                    "percentage": "70"
+                },
+                {
+                    "subject": "Physical Sciences",
+                    "level": "",
+                    "percentage": "60"
+                },
+                {
+                    "subject": "OR English Home Language , with no Afrikaans requirement,",
+                    "level": "",
+                    "percentage": "50"
+                },
+                {
+                    "subject": "OR English First Additional Language , with no Afrikaans requirement,",
+                    "level": "",
+                    "percentage": "60"
+                },
+                {
+                    "subject": "OR English First Additional Language 50% with Afrikaans Home Language",
+                    "level": "",
+                    "percentage": "50"
+                },
+                {
+                    "subject": "OR English First Additional Language 50% with Afrikaans Second Additional Language",
+                    "level": "",
+                    "percentage": "60"
+                },
+                {
+                    "subject": "Applicants are also subject to selection according to selection criteria",
+                    "level": "",
+                    "percentage": ""
+                },
+                {
+                    "subject": "Selection mark = Mathematics percentage + Physical Sciences percentage + (6 x Matric average)",
+                    "level": "",
+                    "percentage": ""
+                }
+            ]
+        },
+        {
+            "course_name": "BEng (Electrical and Electronic) (Data Engineering)",
+            "course_code": "",
+            "duration": "4",
+            "aps": "70",
+            "rawRequirements": "Admission and selection:- An NSC aggregate of at least 70% (excluding Life Orientation)- Mathematics 70%- Physical Sciences 60%- English Home Language 50%, with no Afrikaans requirement, OR English First Additional Language 60%, with no Afrikaans requirement, OR English First Additional Language 50% with Afrikaans Home Language 50% OR English First Additional Language 50% with Afrikaans Second Additional Language 60%- Applicants are also subject to selection according to selection criteria. Selection mark = Mathematics percentage + Physical Sciences percentage + (6 x Matric average)",
+            "required_subjects": [
+                {
+                    "subject": "Admission and selection:",
+                    "level": "",
+                    "percentage": ""
+                },
+                {
+                    "subject": "Mathematics",
+                    "level": "",
+                    "percentage": "70"
+                },
+                {
+                    "subject": "Physical Sciences",
+                    "level": "",
+                    "percentage": "60"
+                },
+                {
+                    "subject": "OR English Home Language , with no Afrikaans requirement,",
+                    "level": "",
+                    "percentage": "50"
+                },
+                {
+                    "subject": "OR English First Additional Language , with no Afrikaans requirement,",
+                    "level": "",
+                    "percentage": "60"
+                },
+                {
+                    "subject": "OR English First Additional Language 50% with Afrikaans Home Language",
+                    "level": "",
+                    "percentage": "50"
+                },
+                {
+                    "subject": "OR English First Additional Language 50% with Afrikaans Second Additional Language",
+                    "level": "",
+                    "percentage": "60"
+                },
+                {
+                    "subject": "Applicants are also subject to selection according to selection criteria",
+                    "level": "",
+                    "percentage": ""
+                },
+                {
+                    "subject": "Selection mark = Mathematics percentage + Physical Sciences percentage + (6 x Matric average)",
+                    "level": "",
+                    "percentage": ""
+                }
+            ]
+        },
+        {
+            "course_name": "BEng (Mechanical) (Extended Curriculum Programme)",
+            "course_code": "",
+            "duration": "5",
+            "aps": "",
+            "rawRequirements": "All our BEng programmes are also available as ECPs, which require one extra year of study. A limited number of applicants who meet the minimum requirements of the BEng ECPs will be selected. Selection considers the selection score as above and the socio-economic status of applicants to give preference to candidates from underserved educational backgrounds.",
+            "required_subjects": [
+                {
+                    "subject": "All our BEng programmes are also available as ECPs, which require one extra year of study",
+                    "level": "",
+                    "percentage": ""
+                },
+                {
+                    "subject": "A limited number of applicants who meet the minimum requirements of the BEng ECPs will be selected",
+                    "level": "",
+                    "percentage": ""
+                },
+                {
+                    "subject": "Selection considers the selection score as above and the socio",
+                    "level": "",
+                    "percentage": ""
+                },
+                {
+                    "subject": "economic status of applicants to give preference to candidates from underserved educational backgrounds.",
+                    "level": "",
+                    "percentage": ""
+                }
+            ]
+        },
+        {
+            "course_name": "BEng (Electrical and Electronic)",
+            "course_code": "",
+            "duration": "4",
+            "aps": "70",
+            "rawRequirements": "Admission and selection:- An NSC aggregate of at least 70% (excluding Life Orientation)- Mathematics 70%- Physical Sciences 60%- English Home Language 50%, with no Afrikaans requirement, OR English First Additional Language 60%, with no Afrikaans requirement, OR English First Additional Language 50% with Afrikaans Home Language 50% OR English First Additional Language 50% with Afrikaans Second Additional Language 60%- Applicants are also subject to selection according to selection criteria. Selection mark = Mathematics percentage + Physical Sciences percentage + (6 x Matric average)",
+            "required_subjects": [
+                {
+                    "subject": "Admission and selection:",
+                    "level": "",
+                    "percentage": ""
+                },
+                {
+                    "subject": "Mathematics",
+                    "level": "",
+                    "percentage": "70"
+                },
+                {
+                    "subject": "Physical Sciences",
+                    "level": "",
+                    "percentage": "60"
+                },
+                {
+                    "subject": "OR English Home Language , with no Afrikaans requirement,",
+                    "level": "",
+                    "percentage": "50"
+                },
+                {
+                    "subject": "OR English First Additional Language , with no Afrikaans requirement,",
+                    "level": "",
+                    "percentage": "60"
+                },
+                {
+                    "subject": "OR English First Additional Language 50% with Afrikaans Home Language",
+                    "level": "",
+                    "percentage": "50"
+                },
+                {
+                    "subject": "OR English First Additional Language 50% with Afrikaans Second Additional Language",
+                    "level": "",
+                    "percentage": "60"
+                },
+                {
+                    "subject": "Applicants are also subject to selection according to selection criteria",
+                    "level": "",
+                    "percentage": ""
+                },
+                {
+                    "subject": "Selection mark = Mathematics percentage + Physical Sciences percentage + (6 x Matric average)",
+                    "level": "",
+                    "percentage": ""
+                }
+            ]
+        }
+    ],
+    "FACULTY OF MEDICINE & HEALTH SCIENCES": [
+        {
+            "course_name": "MBChB",
+            "course_code": "",
+            "duration": "6",
+            "aps": "75",
+            "rawRequirements": "An aggregate of at least 75% for the NSC or an equivalent qualification (excluding Life Orientation); Mathematics 60%; Physical Sciences 50%; Life Sciences 50%",
+            "required_subjects": [
+                {
+                    "subject": "Mathematics",
+                    "level": "",
+                    "percentage": "60"
+                },
+                {
+                    "subject": "Physical Sciences",
+                    "level": "",
+                    "percentage": "50"
+                },
+                {
+                    "subject": "Life Sciences",
                     "level": "",
                     "percentage": "50"
                 }
             ]
         },
         {
-            "course_name": "with (Data Engineering)",
-            "course_code": "",
-            "duration": "4",
-            "aps": "",
-            "required_subjects": []
-        },
-        {
-            "course_name": "BEng (Industrial)",
-            "course_code": "",
-            "duration": "4",
-            "aps": "",
-            "required_subjects": []
-        },
-        {
-            "course_name": "BEng (Mechanical)",
-            "course_code": "",
-            "duration": "4",
-            "aps": "",
-            "required_subjects": []
-        },
-        {
-            "course_name": "BEng (Chemical)",
-            "course_code": "",
-            "duration": "4",
-            "aps": "",
-            "required_subjects": []
-        },
-        {
-            "course_name": "scale operation of processes by which various consumer products BEng (Mechatronic)",
-            "course_code": "",
-            "duration": "4",
-            "aps": "",
-            "required_subjects": []
-        },
-        {
-            "course_name": "BEng (Civil)",
-            "course_code": "",
-            "duration": "4",
-            "aps": "",
-            "required_subjects": []
-        }
-    ],
-    "FACULTY OF LAW": [
-        {
-            "course_name": "om (Law)",
-            "course_code": "",
-            "duration": "3",
-            "aps": "70",
-            "required_subjects": [
-                {
-                    "subject": "English or Afrikaans Home Language",
-                    "level": "",
-                    "percentage": "60"
-                },
-                {
-                    "subject": "Afrikaans or",
-                    "level": "",
-                    "percentage": "60"
-                },
-                {
-                    "subject": "English First Additional Language",
-                    "level": "",
-                    "percentage": "70"
-                },
-                {
-                    "subject": "Mathematics",
-                    "level": "",
-                    "percentage": "60"
-                },
-                {
-                    "subject": "English or Afrikaans Home Language",
-                    "level": "",
-                    "percentage": "60"
-                },
-                {
-                    "subject": "Afrikaans or English",
-                    "level": "",
-                    "percentage": "60"
-                }
-            ]
-        },
-        {
-            "course_name": "BAccLLB",
-            "course_code": "",
-            "duration": "5",
-            "aps": "80",
-            "required_subjects": [
-                {
-                    "subject": "Mathematics",
-                    "level": "",
-                    "percentage": "60"
-                },
-                {
-                    "subject": "English or Afrikaans Home Language",
-                    "level": "",
-                    "percentage": "60"
-                },
-                {
-                    "subject": "Afrikaans or English",
-                    "level": "",
-                    "percentage": "60"
-                },
-                {
-                    "subject": "Mathematics",
-                    "level": "",
-                    "percentage": "70"
-                },
-                {
-                    "subject": "Mathematics  and Accounting",
-                    "level": "",
-                    "percentage": "70"
-                }
-            ]
-        },
-        {
-            "course_name": "BA (Law)",
-            "course_code": "",
-            "duration": "3",
-            "aps": "70",
-            "required_subjects": [
-                {
-                    "subject": "English or Afrikaans Home Language",
-                    "level": "",
-                    "percentage": "60"
-                },
-                {
-                    "subject": "Afrikaans or English",
-                    "level": "",
-                    "percentage": "60"
-                },
-                {
-                    "subject": "Mathematics",
-                    "level": "",
-                    "percentage": "60"
-                }
-            ]
-        }
-    ],
-    "FACULTY OF MEDICINE AND HEALTH SCIENCES": [
-        {
             "course_name": "Bachelor of Occupational Therapy",
             "course_code": "",
             "duration": "4",
             "aps": "60",
+            "rawRequirements": "An aggregate of at least 60% for the NSC or an equivalent qualification (excluding Life Orientation); Mathematics 50%; Life Sciences 50%",
             "required_subjects": [
+                {
+                    "subject": "Mathematics",
+                    "level": "",
+                    "percentage": "50"
+                },
                 {
                     "subject": "Life Sciences",
                     "level": "",
@@ -741,35 +2240,70 @@
             "course_code": "",
             "duration": "4",
             "aps": "60",
-            "required_subjects": []
-        },
-        {
-            "course_name": "MBChB",
-            "course_code": "",
-            "duration": "6",
-            "aps": "75",
-            "required_subjects": []
+            "rawRequirements": "An aggregate of at least 60% for the NSC or an equivalent qualification (excluding Life Orientation); Mathematics 60%; Physical Sciences 50%",
+            "required_subjects": [
+                {
+                    "subject": "Mathematics",
+                    "level": "",
+                    "percentage": "60"
+                },
+                {
+                    "subject": "Physical Sciences",
+                    "level": "",
+                    "percentage": "50"
+                }
+            ]
         },
         {
             "course_name": "Bachelor of Nursing",
             "course_code": "",
             "duration": "4",
             "aps": "60",
+            "rawRequirements": "An aggregate of at least 60% for the NSC or an equivalent qualification (excluding Life Orientation); Mathematics 40% OR Mathematical Literacy 70%; Life Sciences 50%",
             "required_subjects": [
                 {
-                    "subject": "Mathematics",
+                    "subject": "OR Mathematics",
                     "level": "",
                     "percentage": "40"
                 },
                 {
-                    "subject": "Mathematical Literacy",
+                    "subject": "OR Mathematical Literacy",
                     "level": "",
-                    "percentage": "40"
+                    "percentage": "70"
                 },
                 {
                     "subject": "Life Sciences",
                     "level": "",
                     "percentage": "50"
+                }
+            ]
+        },
+        {
+            "course_name": "Bachelor of Speech-Language and Hearing Therapy",
+            "course_code": "",
+            "duration": "4",
+            "aps": "60",
+            "rawRequirements": "An aggregate of at least 60% for the NSC or an equivalent qualification (excluding Life Orientation); Mathematics 50%; Physical Sciences 50% OR Life Sciences 60%; At least TWO of the following THREE languages (Home Language or First Additional Language) 60%: English AND/OR Afrikaans AND/OR a third South African language.",
+            "required_subjects": [
+                {
+                    "subject": "Mathematics",
+                    "level": "",
+                    "percentage": "50"
+                },
+                {
+                    "subject": "OR Physical Sciences",
+                    "level": "",
+                    "percentage": "50"
+                },
+                {
+                    "subject": "OR Life Sciences",
+                    "level": "",
+                    "percentage": "60"
+                },
+                {
+                    "subject": "At least TWO of the following THREE languages (Home Language or First Additional Language) : English AND/OR Afrikaans AND/OR a third South African language.",
+                    "level": "",
+                    "percentage": "60"
                 }
             ]
         },
@@ -778,6 +2312,7 @@
             "course_code": "",
             "duration": "4",
             "aps": "60",
+            "rawRequirements": "An aggregate of at least 60% for the NSC or an equivalent qualification (excluding Life Orientation); Mathematics 50%; Physical Sciences 50%; Life Sciences 50%",
             "required_subjects": [
                 {
                     "subject": "Mathematics",
@@ -797,40 +2332,123 @@
             ]
         }
     ],
+    "FACULTY OF THEOLOGY": [
+        {
+            "course_name": "BTh (Bachelor of Theology) (Extended Curriculum Programme)",
+            "course_code": "",
+            "duration": "4",
+            "aps": "55",
+            "rawRequirements": "- An NSC aggregate of at least 55% but below 60% (excluding Life Orientation)- An interview with the Dean or a representative, if required.- This is a selection programme as limited spaces are available- ** Motivational letter from Church denomination/Minister pertaining to involvement in Church and indicating the reasons why student is recommended by Church/Denomination for Theology studies.",
+            "required_subjects": [
+                {
+                    "subject": "An interview with the Dean or a representative, if required.",
+                    "level": "",
+                    "percentage": ""
+                },
+                {
+                    "subject": "This is a selection programme as limited spaces are available",
+                    "level": "",
+                    "percentage": ""
+                },
+                {
+                    "subject": "** Motivational letter from Church denomination/Minister pertaining to involvement in Church and indicating the reasons why student is recommended by Church/Denomination for Theology studies.",
+                    "level": "",
+                    "percentage": ""
+                }
+            ]
+        },
+        {
+            "course_name": "BTh (Bachelor of Theology)",
+            "course_code": "",
+            "duration": "3",
+            "aps": "60",
+            "rawRequirements": "- An NSC aggregate of at least 60% (excluding Life Orientation)",
+            "required_subjects": []
+        },
+        {
+            "course_name": "BDiv (Bachelor of Divinity)",
+            "course_code": "",
+            "duration": "4",
+            "aps": "60",
+            "rawRequirements": "- An NSC aggregate of at least 60% (excluding Life Orientation)",
+            "required_subjects": []
+        },
+        {
+            "course_name": "BDiv (Bachelor of Divinity) (Extended Curriculum Programme)",
+            "course_code": "",
+            "duration": "5",
+            "aps": "55",
+            "rawRequirements": "- An NSC aggregate of at least 55% but below 60% (excluding Life Orientation)- An interview with the Dean or a representative, if required.- This is a selection programme as limited spaces are available- ** Motivational letter from Church denomination/Minister pertaining to involvement in Church and indicating the reasons why student is recommended by Church/Denomination for Theology studies.",
+            "required_subjects": [
+                {
+                    "subject": "An interview with the Dean or a representative, if required.",
+                    "level": "",
+                    "percentage": ""
+                },
+                {
+                    "subject": "This is a selection programme as limited spaces are available",
+                    "level": "",
+                    "percentage": ""
+                },
+                {
+                    "subject": "** Motivational letter from Church denomination/Minister pertaining to involvement in Church and indicating the reasons why student is recommended by Church/Denomination for Theology studies.",
+                    "level": "",
+                    "percentage": ""
+                }
+            ]
+        }
+    ],
     "FACULTY OF SCIENCE": [
         {
-            "course_name": "BSc Molecular Biology and Biotechnology",
+            "course_name": "BSc GeoInformatics",
             "course_code": "",
             "duration": "3",
             "aps": "65",
+            "rawRequirements": "- An aggregate of at least 65% for the NSC (excluding Life Orientation)- Afrikaans OR English (Home Language or First Additional Language) 50%- Physical Sciences 50%- Mathematics 60%; OR 70% (if you choose Computer Science as university subject) **",
             "required_subjects": [
+                {
+                    "subject": "OR Afrikaans",
+                    "level": "",
+                    "percentage": ""
+                },
+                {
+                    "subject": "OR English (Home Language or First Additional Language)",
+                    "level": "",
+                    "percentage": "50"
+                },
                 {
                     "subject": "Physical Sciences",
                     "level": "",
                     "percentage": "50"
                 },
                 {
-                    "subject": "Mathematics or (depending on your choice of first-year",
+                    "subject": "Mathematics",
                     "level": "",
                     "percentage": "60"
+                },
+                {
+                    "subject": "OR 70% (if you choose Computer Science as university subject) **",
+                    "level": "",
+                    "percentage": ""
                 }
             ]
         },
         {
-            "course_name": "BSc Biodiversity and Ecology",
+            "course_name": "BSc Earth Science",
             "course_code": "",
             "duration": "3",
             "aps": "65",
+            "rawRequirements": "- An aggregate of at least 65% for the NSC (excluding Life Orientation)- Afrikaans OR English (Home Language or First Additional Language) 50%- Physical Sciences 50%- Mathematics 60% or 70% (depending on your choice of first-year Mathematics and Physics) **",
             "required_subjects": [
                 {
-                    "subject": "Afrikaans",
+                    "subject": "OR Afrikaans",
                     "level": "",
-                    "percentage": "60"
+                    "percentage": ""
                 },
                 {
-                    "subject": "English (Home Language or First Additional - Mathematics",
+                    "subject": "OR English (Home Language or First Additional Language)",
                     "level": "",
-                    "percentage": "60"
+                    "percentage": "50"
                 },
                 {
                     "subject": "Physical Sciences",
@@ -838,22 +2456,14 @@
                     "percentage": "50"
                 },
                 {
-                    "subject": "Mathematics area Biomedical Mathematical Sciences; BSc Physiotherapy.",
+                    "subject": "Mathematics  or 70% (depending on your choice of first",
                     "level": "",
                     "percentage": "60"
-                }
-            ]
-        },
-        {
-            "course_name": "BSc Chemistry",
-            "course_code": "",
-            "duration": "3",
-            "aps": "65",
-            "required_subjects": [
+                },
                 {
-                    "subject": "Physical Sciences",
+                    "subject": "year Mathematics and Physics) **",
                     "level": "",
-                    "percentage": "50"
+                    "percentage": ""
                 }
             ]
         },
@@ -862,86 +2472,95 @@
             "course_code": "",
             "duration": "3",
             "aps": "65",
+            "rawRequirements": "- An aggregate of at least 65% for the NSC (excluding Life Orientation)- Afrikaans OR English (Home Language or First Additional Language) 50%- Physical Sciences 50%- Mathematics 60% or 70% (depending on your choice of first-year Mathematics and Physics) **",
             "required_subjects": [
+                {
+                    "subject": "OR Afrikaans",
+                    "level": "",
+                    "percentage": ""
+                },
+                {
+                    "subject": "OR English (Home Language or First Additional Language)",
+                    "level": "",
+                    "percentage": "50"
+                },
                 {
                     "subject": "Physical Sciences",
                     "level": "",
                     "percentage": "50"
                 },
                 {
-                    "subject": "Mathematics or (depending on your choice of first-year",
+                    "subject": "Mathematics  or 70% (depending on your choice of first",
                     "level": "",
                     "percentage": "60"
+                },
+                {
+                    "subject": "year Mathematics and Physics) **",
+                    "level": "",
+                    "percentage": ""
                 }
             ]
         },
         {
-            "course_name": "BSc Earth Science",
+            "course_name": "Bachelor of Data Science (BDatSci)",
             "course_code": "",
-            "duration": "3",
-            "aps": "",
-            "required_subjects": []
+            "duration": "4",
+            "aps": "80",
+            "rawRequirements": "- An aggregate of at least 80% for the NSC (excluding Life Orientation)- Mathematics 80%- Afrikaans Home Language 60% OR English Home Language 60% OR Afrikaans First Additional Language 75% OR English First Additional Language 75%",
+            "required_subjects": [
+                {
+                    "subject": "Mathematics",
+                    "level": "",
+                    "percentage": "80"
+                },
+                {
+                    "subject": "OR Afrikaans Home Language",
+                    "level": "",
+                    "percentage": "60"
+                },
+                {
+                    "subject": "OR English Home Language",
+                    "level": "",
+                    "percentage": "60"
+                },
+                {
+                    "subject": "OR Afrikaans First Additional Language",
+                    "level": "",
+                    "percentage": "75"
+                },
+                {
+                    "subject": "OR English First Additional Language",
+                    "level": "",
+                    "percentage": "75"
+                }
+            ]
         },
         {
             "course_name": "BSc Mathematical Sciences",
             "course_code": "",
             "duration": "3",
             "aps": "65",
+            "rawRequirements": "- An aggregate of at least 65% for the NSC (excluding Life Orientation)- Afrikaans OR English (Home Language or First Additional Language) 50%- Mathematics 70%- If you take Chemistry or Physics as a university subject: Physical Sciences 50%",
             "required_subjects": [
                 {
-                    "subject": "Physical Sciences  - Afrikaans",
+                    "subject": "OR Afrikaans",
+                    "level": "",
+                    "percentage": ""
+                },
+                {
+                    "subject": "OR English (Home Language or First Additional Language)",
                     "level": "",
                     "percentage": "50"
                 },
-                {
-                    "subject": "English (Home Language or First Additional",
-                    "level": "",
-                    "percentage": "50"
-                },
-                {
-                    "subject": "Mathematics or",
-                    "level": "",
-                    "percentage": "60"
-                },
-                {
-                    "subject": "Applied Earth Science - Physical Sciences",
-                    "level": "",
-                    "percentage": "50"
-                }
-            ]
-        },
-        {
-            "course_name": "BSc Computer Science",
-            "course_code": "",
-            "duration": "3",
-            "aps": "",
-            "required_subjects": []
-        },
-        {
-            "course_name": "BSc GeoInformatics",
-            "course_code": "",
-            "duration": "3",
-            "aps": "65",
-            "required_subjects": [
                 {
                     "subject": "Mathematics",
                     "level": "",
                     "percentage": "70"
                 },
                 {
-                    "subject": "Physical Sciences",
+                    "subject": "If you take Chemistry or Physics as a university subject: Physical Sciences 50%",
                     "level": "",
-                    "percentage": "50"
-                },
-                {
-                    "subject": "Mathematics ; OR",
-                    "level": "",
-                    "percentage": "60"
-                },
-                {
-                    "subject": "Physical Sciences",
-                    "level": "",
-                    "percentage": "50"
+                    "percentage": ""
                 }
             ]
         },
@@ -950,9 +2569,20 @@
             "course_code": "",
             "duration": "3",
             "aps": "65",
+            "rawRequirements": "- An aggregate of at least 65% for the NSC (excluding Life Orientation)- Afrikaans OR English (Home Language or First Additional Language) 50%- Physical Sciences 50%- Mathematics 70%",
             "required_subjects": [
                 {
-                    "subject": "Physical Sciences modelling of dynamic processes, image processing, numerical",
+                    "subject": "OR Afrikaans",
+                    "level": "",
+                    "percentage": ""
+                },
+                {
+                    "subject": "OR English (Home Language or First Additional Language)",
+                    "level": "",
+                    "percentage": "50"
+                },
+                {
+                    "subject": "Physical Sciences",
                     "level": "",
                     "percentage": "50"
                 },
@@ -962,41 +2592,529 @@
                     "percentage": "70"
                 }
             ]
-        }
-    ],
-    "FACULTY OF THEOLOGY": [
-        {
-            "course_name": "BTh (Bachelor of Theology)",
-            "course_code": "",
-            "duration": "3",
-            "aps": "60",
-            "required_subjects": []
         },
         {
-            "course_name": "Bachelor of Data Science (BDatSci)",
+            "course_name": "BSc Sport Science",
             "course_code": "",
-            "duration": "4",
-            "aps": "80",
+            "duration": "3",
+            "aps": "65",
+            "rawRequirements": "- An aggregate of at least 65% for the NSC (excluding Life Orientation)- Afrikaans OR English (Home Language or First Additional Language) 50%- Physical Sciences 50%- Mathematics 60%",
             "required_subjects": [
+                {
+                    "subject": "OR Afrikaans",
+                    "level": "",
+                    "percentage": ""
+                },
+                {
+                    "subject": "OR English (Home Language or First Additional Language)",
+                    "level": "",
+                    "percentage": "50"
+                },
+                {
+                    "subject": "Physical Sciences",
+                    "level": "",
+                    "percentage": "50"
+                },
                 {
                     "subject": "Mathematics",
                     "level": "",
-                    "percentage": "80"
-                },
-                {
-                    "subject": "Afrikaans Home Language",
-                    "level": "",
                     "percentage": "60"
-                },
+                }
+            ]
+        },
+        {
+            "course_name": "BSc Extended Curriculum Programmes (ECPs)",
+            "course_code": "",
+            "duration": "4",
+            "aps": "",
+            "rawRequirements": "Applicants from the designated diversity groups and socio-economic categories who are not meeting the selection requirements, may receive an offer to change to an ECP in October.Applicants from the designated diversity groups and socio-economic categories who did not meet the selection requirements to receive a final offer, may submit a request for admission to an ECP in January.",
+            "required_subjects": [
                 {
-                    "subject": "English Home Language",
-                    "level": "",
-                    "percentage": "60"
-                },
-                {
-                    "subject": "Applied Mathematics",
+                    "subject": "Applicants from the designated diversity groups and socio",
                     "level": "",
                     "percentage": ""
+                },
+                {
+                    "subject": "economic categories who are not meeting the selection requirements, may receive an offer to change to an ECP in October.Applicants from the designated diversity groups and socio",
+                    "level": "",
+                    "percentage": ""
+                },
+                {
+                    "subject": "economic categories who did not meet the selection requirements to receive a final offer, may submit a request for admission to an ECP in January.",
+                    "level": "",
+                    "percentage": ""
+                }
+            ]
+        },
+        {
+            "course_name": "BSc (Interdisciplinary Programmes)",
+            "course_code": "",
+            "duration": "3",
+            "aps": "65",
+            "rawRequirements": "- An aggregate of at least 65% for the NSC (excluding Life Orientation)- Afrikaans OR English (Home Language or First Additional Language) 50%- Mathematics 70%- Physical Sciences 50%",
+            "required_subjects": [
+                {
+                    "subject": "OR Afrikaans",
+                    "level": "",
+                    "percentage": ""
+                },
+                {
+                    "subject": "OR English (Home Language or First Additional Language)",
+                    "level": "",
+                    "percentage": "50"
+                },
+                {
+                    "subject": "Mathematics",
+                    "level": "",
+                    "percentage": "70"
+                },
+                {
+                    "subject": "Physical Sciences",
+                    "level": "",
+                    "percentage": "50"
+                }
+            ]
+        },
+        {
+            "course_name": "BSc Molecular Biology and Biotechnology",
+            "course_code": "",
+            "duration": "3",
+            "aps": "65",
+            "rawRequirements": "- An aggregate of at least 65% for the NSC (excluding Life Orientation)- Afrikaans OR English (Home Language or First Additional Language) 50%- Physical Sciences 50%- Mathematics 60% or 70% (depending on your choice of first-year Mathematics and Physics) **",
+            "required_subjects": [
+                {
+                    "subject": "OR Afrikaans",
+                    "level": "",
+                    "percentage": ""
+                },
+                {
+                    "subject": "OR English (Home Language or First Additional Language)",
+                    "level": "",
+                    "percentage": "50"
+                },
+                {
+                    "subject": "Physical Sciences",
+                    "level": "",
+                    "percentage": "50"
+                },
+                {
+                    "subject": "Mathematics  or 70% (depending on your choice of first",
+                    "level": "",
+                    "percentage": "60"
+                },
+                {
+                    "subject": "year Mathematics and Physics) **",
+                    "level": "",
+                    "percentage": ""
+                }
+            ]
+        },
+        {
+            "course_name": "BSc Computer Science",
+            "course_code": "",
+            "duration": "3",
+            "aps": "65",
+            "rawRequirements": "- An aggregate of at least 65% for the NSC (excluding Life Orientation)- Afrikaans OR English (Home Language or First Additional Language) 50%- Mathematics 70%- If you take Chemistry or Physics as a university subject: Physical Sciences 50%",
+            "required_subjects": [
+                {
+                    "subject": "OR Afrikaans",
+                    "level": "",
+                    "percentage": ""
+                },
+                {
+                    "subject": "OR English (Home Language or First Additional Language)",
+                    "level": "",
+                    "percentage": "50"
+                },
+                {
+                    "subject": "Mathematics",
+                    "level": "",
+                    "percentage": "70"
+                },
+                {
+                    "subject": "If you take Chemistry or Physics as a university subject: Physical Sciences 50%",
+                    "level": "",
+                    "percentage": ""
+                }
+            ]
+        },
+        {
+            "course_name": "BSc Chemistry",
+            "course_code": "",
+            "duration": "3",
+            "aps": "65",
+            "rawRequirements": "- An aggregate of at least 65% for the NSC (excluding Life Orientation)- Afrikaans OR English (Home Language or First Additional Language) 50%- Physical Sciences 50%- Mathematics 70%",
+            "required_subjects": [
+                {
+                    "subject": "OR Afrikaans",
+                    "level": "",
+                    "percentage": ""
+                },
+                {
+                    "subject": "OR English (Home Language or First Additional Language)",
+                    "level": "",
+                    "percentage": "50"
+                },
+                {
+                    "subject": "Physical Sciences",
+                    "level": "",
+                    "percentage": "50"
+                },
+                {
+                    "subject": "Mathematics",
+                    "level": "",
+                    "percentage": "70"
+                }
+            ]
+        },
+        {
+            "course_name": "BSc Biodiversity and Ecology",
+            "course_code": "",
+            "duration": "3",
+            "aps": "65",
+            "rawRequirements": "- An aggregate of at least 65% for the NSC (excluding Life Orientation)- Afrikaans OR English (Home Language or First Additional Language) 50%- Physical Sciences 50%- Mathematics 60%",
+            "required_subjects": [
+                {
+                    "subject": "OR Afrikaans",
+                    "level": "",
+                    "percentage": ""
+                },
+                {
+                    "subject": "OR English (Home Language or First Additional Language)",
+                    "level": "",
+                    "percentage": "50"
+                },
+                {
+                    "subject": "Physical Sciences",
+                    "level": "",
+                    "percentage": "50"
+                },
+                {
+                    "subject": "Mathematics",
+                    "level": "",
+                    "percentage": "60"
+                }
+            ]
+        }
+    ],
+    "FACULTY OF LAW": [
+        {
+            "course_name": "BA (Law)",
+            "course_code": "",
+            "duration": "3",
+            "aps": "70",
+            "rawRequirements": "55 places in the programme. Write the NBTs AQL before 31 July. An aggregate of at least 70% (excluding Life Orientation) in the NSC or IEB school-leaving certificate. English or Afrikaans Home Language 60% OR Afrikaans or English First Additional Language 70%. If you wish to take Economics as a university subject, then also: Mathematics 60%. If you wish to take a university subject from another faculty, please make sure that you meet its requirements.",
+            "required_subjects": [
+                {
+                    "subject": "55 places in the programme",
+                    "level": "",
+                    "percentage": ""
+                },
+                {
+                    "subject": "Write the NBTs AQL before 31 July",
+                    "level": "",
+                    "percentage": ""
+                },
+                {
+                    "subject": "leaving certificate",
+                    "level": "",
+                    "percentage": ""
+                },
+                {
+                    "subject": "OR English or Afrikaans Home Language",
+                    "level": "",
+                    "percentage": "60"
+                },
+                {
+                    "subject": "OR Afrikaans or English First Additional Language",
+                    "level": "",
+                    "percentage": "70"
+                },
+                {
+                    "subject": "Mathematics (If you wish to take Economics as a university subject)",
+                    "level": "",
+                    "percentage": "60"
+                },
+                {
+                    "subject": "If you wish to take a university subject from another faculty, please make sure that you meet its requirements.",
+                    "level": "",
+                    "percentage": ""
+                }
+            ]
+        },
+        {
+            "course_name": "LLB (four-year)",
+            "course_code": "",
+            "duration": "4",
+            "aps": "70",
+            "rawRequirements": "120 places in the programme. Write the NBTs AQL before 31 July. An aggregate of at least 70% (excluding Life Orientation) in the NSC or IEB school-leaving certificate. English or Afrikaans Home Language 60% OR Afrikaans or English First Additional Language 70%. If you wish to take Economics as a university subject, then also: Mathematics 60%. If you wish to take a university subject from another faculty, please make sure that you meet its requirements.",
+            "required_subjects": [
+                {
+                    "subject": "120 places in the programme",
+                    "level": "",
+                    "percentage": ""
+                },
+                {
+                    "subject": "Write the NBTs AQL before 31 July",
+                    "level": "",
+                    "percentage": ""
+                },
+                {
+                    "subject": "leaving certificate",
+                    "level": "",
+                    "percentage": ""
+                },
+                {
+                    "subject": "OR English or Afrikaans Home Language",
+                    "level": "",
+                    "percentage": "60"
+                },
+                {
+                    "subject": "OR Afrikaans or English First Additional Language",
+                    "level": "",
+                    "percentage": "70"
+                },
+                {
+                    "subject": "Mathematics (If you wish to take Economics as a university subject)",
+                    "level": "",
+                    "percentage": "60"
+                },
+                {
+                    "subject": "If you wish to take a university subject from another faculty, please make sure that you meet its requirements.",
+                    "level": "",
+                    "percentage": ""
+                }
+            ]
+        },
+        {
+            "course_name": "BCom (Law)",
+            "course_code": "",
+            "duration": "3",
+            "aps": "70",
+            "rawRequirements": "80 places in the programme. Write the NBTs AQL and MAT before 31 July. An aggregate of at least 70% (excluding Life Orientation) in the NSC or IEB school-leaving certificate. English or Afrikaans Home Language 60% OR Afrikaans or English First Additional Language 70%. Mathematics 60%.",
+            "required_subjects": [
+                {
+                    "subject": "80 places in the programme",
+                    "level": "",
+                    "percentage": ""
+                },
+                {
+                    "subject": "Write the NBTs AQL and MAT before 31 July",
+                    "level": "",
+                    "percentage": ""
+                },
+                {
+                    "subject": "leaving certificate",
+                    "level": "",
+                    "percentage": ""
+                },
+                {
+                    "subject": "OR English or Afrikaans Home Language",
+                    "level": "",
+                    "percentage": "60"
+                },
+                {
+                    "subject": "OR Afrikaans or English First Additional Language",
+                    "level": "",
+                    "percentage": "70"
+                },
+                {
+                    "subject": "Mathematics .",
+                    "level": "",
+                    "percentage": "60"
+                }
+            ]
+        },
+        {
+            "course_name": "LLB (three-year) (Second bachelor's degree)",
+            "course_code": "",
+            "duration": "3",
+            "aps": "",
+            "rawRequirements": "50 places in the programme. This degree is only available as a second bachelor's degree and is aimed at bachelor graduates from disciplines other than law. Selection is based on the prior bachelor's degree and only applicants that have achieved at least a 60% aggregate in the prior degree are considered for selection.",
+            "required_subjects": [
+                {
+                    "subject": "50 places in the programme",
+                    "level": "",
+                    "percentage": ""
+                },
+                {
+                    "subject": "This degree is only available as a second bachelor's degree and is aimed at bachelor graduates from disciplines other than law",
+                    "level": "",
+                    "percentage": ""
+                },
+                {
+                    "subject": "Selection is based on the prior bachelor's degree and only applicants that have achieved at least a  aggregate in the prior degree are considered for selection.",
+                    "level": "",
+                    "percentage": "60"
+                }
+            ]
+        },
+        {
+            "course_name": "BAccLLB",
+            "course_code": "",
+            "duration": "5",
+            "aps": "80",
+            "rawRequirements": "35 places in the programme. Write the NBTs AQL and MAT before 31 July. An aggregate of at least 80% (excluding Life Orientation) in the NSC or IEB school-leaving certificate. English or Afrikaans Home Language 60% OR Afrikaans or English First Additional Language 70%. Mathematics 70% OR Mathematics 60% and Accounting 70%.",
+            "required_subjects": [
+                {
+                    "subject": "35 places in the programme",
+                    "level": "",
+                    "percentage": ""
+                },
+                {
+                    "subject": "Write the NBTs AQL and MAT before 31 July",
+                    "level": "",
+                    "percentage": ""
+                },
+                {
+                    "subject": "leaving certificate",
+                    "level": "",
+                    "percentage": ""
+                },
+                {
+                    "subject": "OR English or Afrikaans Home Language",
+                    "level": "",
+                    "percentage": "60"
+                },
+                {
+                    "subject": "OR Afrikaans or English First Additional Language",
+                    "level": "",
+                    "percentage": "70"
+                },
+                {
+                    "subject": "OR Mathematics",
+                    "level": "",
+                    "percentage": "70"
+                },
+                {
+                    "subject": "OR Mathematics  and Accounting 70%.",
+                    "level": "",
+                    "percentage": "60"
+                }
+            ]
+        }
+    ],
+    "FACULTY OF EDUCATION": [
+        {
+            "course_name": "BEd (Foundation Phase Education)",
+            "course_code": "",
+            "duration": "4",
+            "aps": "60",
+            "rawRequirements": "An aggregate of at least 60% for the NSC, IEB or an equivalent school-leaving certificate (excluding Life Orientation). Mathematics 40% OR Mathematical Literacy 60%. Learners who were taught in English: English Home Language 60%, Afrikaans OR isiXhosa (Home Language or First Additional Language) 50% OR Learners who were taught in Afrikaans: Afrikaans Home Language 60%, English OR isiXhosa (Home Language or First Additional Language) 50% OR Learners who were taught in isiXhosa: IsiXhosa Home Language 60%, English OR Afrikaans (Home Language or First Additional Language) 50%.",
+            "required_subjects": [
+                {
+                    "subject": "An aggregate of at least  for the NSC, IEB or an equivalent school",
+                    "level": "",
+                    "percentage": "60"
+                },
+                {
+                    "subject": "leaving certificate (excluding Life Orientation)",
+                    "level": "",
+                    "percentage": ""
+                },
+                {
+                    "subject": "OR Mathematics",
+                    "level": "",
+                    "percentage": "40"
+                },
+                {
+                    "subject": "OR Mathematical Literacy",
+                    "level": "",
+                    "percentage": "60"
+                },
+                {
+                    "subject": "OR Learners who were taught in English: English Home Language , Afrikaans",
+                    "level": "",
+                    "percentage": "60"
+                },
+                {
+                    "subject": "OR isiXhosa (Home Language or First Additional Language)",
+                    "level": "",
+                    "percentage": "50"
+                },
+                {
+                    "subject": "OR Learners who were taught in Afrikaans: Afrikaans Home Language , English",
+                    "level": "",
+                    "percentage": "60"
+                },
+                {
+                    "subject": "OR isiXhosa (Home Language or First Additional Language)",
+                    "level": "",
+                    "percentage": "50"
+                },
+                {
+                    "subject": "OR Learners who were taught in isiXhosa: IsiXhosa Home Language , English",
+                    "level": "",
+                    "percentage": "60"
+                },
+                {
+                    "subject": "OR Afrikaans (Home Language or First Additional Language) .",
+                    "level": "",
+                    "percentage": "50"
+                }
+            ]
+        },
+        {
+            "course_name": "BEd (Intermediate Phase Education)",
+            "course_code": "",
+            "duration": "4",
+            "aps": "60",
+            "rawRequirements": "An aggregate of at least 60% for the NSC, IEB or an equivalent school-leaving certificate (excluding Life Orientation). Mathematics 40% OR Mathematical Literacy 60%. Learners who were taught in English: English Home Language 60%, Afrikaans OR isiXhosa (HL or FAL) 50% OR Learners who were taught in Afrikaans: Afrikaans Home Language 60%, English OR isiXhosa (HL or FAL) 50% OR Learners who were taught in isiXhosa: IsiXhosa Home Language 60%, English OR Afrikaans (HL or FAL) 50%. Further requirements depend on the school subjects that you want to teach: Mathematics (pass with 60% average in the first year), Natural Sciences (Ed) [Life Sciences or Physical Sciences 50%], Social Sciences (Ed) [History or Geography 50%].",
+            "required_subjects": [
+                {
+                    "subject": "An aggregate of at least  for the NSC, IEB or an equivalent school",
+                    "level": "",
+                    "percentage": "60"
+                },
+                {
+                    "subject": "leaving certificate (excluding Life Orientation)",
+                    "level": "",
+                    "percentage": ""
+                },
+                {
+                    "subject": "OR Mathematics",
+                    "level": "",
+                    "percentage": "40"
+                },
+                {
+                    "subject": "OR Mathematical Literacy",
+                    "level": "",
+                    "percentage": "60"
+                },
+                {
+                    "subject": "OR Learners who were taught in English: English Home Language , Afrikaans",
+                    "level": "",
+                    "percentage": "60"
+                },
+                {
+                    "subject": "OR isiXhosa (HL or FAL)",
+                    "level": "",
+                    "percentage": "50"
+                },
+                {
+                    "subject": "OR Learners who were taught in Afrikaans: Afrikaans Home Language , English",
+                    "level": "",
+                    "percentage": "60"
+                },
+                {
+                    "subject": "OR isiXhosa (HL or FAL)",
+                    "level": "",
+                    "percentage": "50"
+                },
+                {
+                    "subject": "OR Learners who were taught in isiXhosa: IsiXhosa Home Language , English",
+                    "level": "",
+                    "percentage": "60"
+                },
+                {
+                    "subject": "OR Afrikaans (HL or FAL)",
+                    "level": "",
+                    "percentage": "50"
+                },
+                {
+                    "subject": "Further requirements depend on the school subjects that you want to teach: Mathematics (pass with  average in the first year), Natural Sciences (Ed) [Life Sciences or Physical Sciences 50%], Social Sciences (Ed) [History or Geography 50%].",
+                    "level": "",
+                    "percentage": "60"
                 }
             ]
         }
