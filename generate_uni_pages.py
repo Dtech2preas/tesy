@@ -26,6 +26,7 @@ template = r"""<!DOCTYPE html>
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>{uni_name} - Eligibility</title>
     <link rel="stylesheet" href="./core/styles.css">
+    <script src="./core/html2pdf.bundle.min.js"></script>
 </head>
 <body>
 
@@ -78,6 +79,7 @@ template = r"""<!DOCTYPE html>
     <script type="module">
         import {{ UniversityLoader }} from './core/engine.js';
         import {{ getLikelihoodClass }} from './core/engine_utils.js';
+        import {{ generateDtechPDF }} from './core/pdf-engine.js';
 
         const uniId = '{uni_id}';
         let uniEngine = null;
@@ -280,7 +282,7 @@ template = r"""<!DOCTYPE html>
                         View Detailed Breakdown
                     </button>
                     <button class="btn btn-outline" style="margin-left:10px; border-color:transparent;" onclick="document.getElementById('check-btn').style.display='block'; document.getElementById('eligibility-result').classList.add('hidden');">Re-calculate</button>
-                    <button class="btn btn-primary btn-block" style="margin-top: 15px;" onclick="downloadResults()">
+                    <button class="btn btn-primary btn-block" style="margin-top: 15px;" onclick="downloadPDF('eligibility-result', 'DTECH_${{currentSelectedCourse.course_name.replace(/\\s+/g, '_')}}_Eligibility.pdf', '${{currentSelectedCourse.course_name}} Eligibility Report')">
                         <svg class="icon" viewBox="0 0 24 24"><path d="M19 9h-4V3H9v6H5l7 7 7-7zM5 18v2h14v-2H5z"/></svg>
                         Download Result as PDF
                     </button>
@@ -346,9 +348,19 @@ template = r"""<!DOCTYPE html>
             window.open('https://omg10.com/4/11276842', '_blank');
         }};
 
-        window.downloadResults = function() {{
+        window.downloadPDF = function(containerId, filename, title) {{
             window.openAd();
-            window.print();
+            const element = document.getElementById(containerId);
+
+            // To ensure we get the course details too, we grab the parent container
+            // since 'eligibility-result' only has the percentage. We want the full card.
+            const fullCard = document.getElementById('selected-course-container');
+
+            generateDtechPDF({{
+                element: fullCard,
+                filename: filename,
+                title: title
+            }});
         }};
 
         window.onload = init;
