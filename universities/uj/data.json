@@ -1,5 +1,5 @@
 {
-    "HEALTH SCIENCES": [
+    "Health Sciences": [
         {
             "course_name": "BIOKINETICS",
             "course_code": "",
@@ -15,8 +15,15 @@
                     "subject": "Mathematics",
                     "level": "4",
                     "percentage": "50"
+                },
+                {
+                    "subject": "Mathematical Literacy",
+                    "level": "5",
+                    "percentage": "60"
                 }
-            ]
+            ],
+            "nonAcademicRequirements": [],
+            "rawRequirements": "English: 5 (60%+), Mathematics: 4 (50%+) OR Mathematical Literacy: 5 (60%+) Minimum APS of 32 with Mathematics OR 33 with Mathematical Literacy."
         },
         {
             "course_name": "NURSING",
@@ -44,7 +51,9 @@
                     "level": "5",
                     "percentage": "60"
                 }
-            ]
+            ],
+            "nonAcademicRequirements": [],
+            "rawRequirements": "English: 5 (60%+), Mathematics: 4 (50%+), Physical Science: 4 (50%+), Life Science: 5 (60%+)"
         },
         {
             "course_name": "DIAGNOSTIC ULTRASOUND",
@@ -72,14 +81,41 @@
                     "level": "5",
                     "percentage": "60"
                 }
-            ]
+            ],
+            "nonAcademicRequirements": [],
+            "rawRequirements": "English: 5 (60%+), Mathematics: 4 (50%+), Physical Science: 4 (50%+), Life Science: 5 (60%+) Minimum APS of 31 with Mathematics. Courses in Diagnostic Radiography, Diagnostic Ultrasound, Nuclear Medicine and Radiation Therapy do not accept Technical Mathematics and Technical Sciences."
         },
         {
             "course_name": "EMERGENCY MEDICAL CARE (EMC)",
             "course_code": "",
             "duration": "4",
             "aps": "27",
-            "required_subjects": []
+            "required_subjects": [
+                {
+                    "subject": "English",
+                    "level": "5",
+                    "percentage": "60"
+                },
+                {
+                    "subject": "Mathematics",
+                    "level": "4",
+                    "percentage": "50"
+                },
+                {
+                    "subject": "Physical Science",
+                    "level": "4",
+                    "percentage": "50"
+                },
+                {
+                    "subject": "Life Science",
+                    "level": "4",
+                    "percentage": "50"
+                }
+            ],
+            "nonAcademicRequirements": [
+                "Applicants must pass both the fitness assessment, phobias evaluation and the medical examination in order to gain entry into the Emergency Medical Care degree programme"
+            ],
+            "rawRequirements": "English: 5 (60%+), Mathematics: 4 (50%+), Physical Science: 4 (50%+), Life Science: 4 (50%+). Mathematical Literacy: Not accepted. Technical Mathematics: Not accepted. Technical Science: Not accepted. Applicants must pass both the fitness assessment, phobias evaluation and the medical examination in order to gain entry into the Emergency Medical Care degree programme."
         },
         {
             "course_name": "NUCLEAR MEDICINE",
@@ -107,7 +143,9 @@
                     "level": "5",
                     "percentage": "60"
                 }
-            ]
+            ],
+            "nonAcademicRequirements": [],
+            "rawRequirements": "English: 5 (60%+), Mathematics: 4 (50%+), Physical Science: 4 (50%+), Life Science: 5 (60%+) Minimum APS of 31 with Mathematics. Courses in Diagnostic Radiography, Diagnostic Ultrasound, Nuclear Medicine and Radiation Therapy do not accept Technical Mathematics and Technical Sciences."
         },
         {
             "course_name": "B OPTOM",
@@ -135,7 +173,9 @@
                     "level": "5",
                     "percentage": "60"
                 }
-            ]
+            ],
+            "nonAcademicRequirements": [],
+            "rawRequirements": "English: 5 (60%+), Mathematics: 5 (60%+), Physical Science: 5 (60%+), Life Science: 5 (60%+)"
         },
         {
             "course_name": "RADIATION THERAPY",
@@ -163,21 +203,77 @@
                     "level": "5",
                     "percentage": "60"
                 }
-            ]
+            ],
+            "nonAcademicRequirements": [],
+            "rawRequirements": "English: 5 (60%+), Mathematics: 4 (50%+), Physical Science: 4 (50%+), Life Science: 5 (60%+) Minimum APS of 31 with Mathematics. Courses in Diagnostic Radiography, Diagnostic Ultrasound, Nuclear Medicine and Radiation Therapy do not accept Technical Mathematics and Technical Sciences."
         },
         {
             "course_name": "COMPLEMENTARY MEDICINE",
             "course_code": "",
             "duration": "4",
             "aps": "28",
-            "required_subjects": []
+            "required_subjects": [
+                {
+                    "subject": "English",
+                    "level": "5",
+                    "percentage": "60"
+                },
+                {
+                    "subject": "Mathematics",
+                    "level": "4",
+                    "percentage": "50"
+                },
+                {
+                    "subject": "Physical Science",
+                    "level": "4",
+                    "percentage": "50"
+                },
+                {
+                    "subject": "Life Science",
+                    "level": "4",
+                    "percentage": "50"
+                }
+            ],
+            "nonAcademicRequirements": [
+                "The Complementary Medicine programme does not accept applicants who have upgraded their matric results",
+                "Applicants are required to complete an assignment, visit the on campus Complementary Medicine Clinic and provide a letter of recommendation from a practitioner (Homeopath, accupuncturist or phytotherapist) as a component of the selection process",
+                "Successful graduates are required to complete the master of Health Sciences in Complementary Medicine to comply with minimum registration requirements of AHPCSA for Homeopathy or Phytotherapy"
+            ],
+            "rawRequirements": "English: 5 (60%+), Mathematics: 4 (50%+), Physical Science: 4 (50%+), Life Science: 4 (50%+). Mathematical Literacy: Not accepted. Technical Mathematics: Not accepted. Technical Science: Not accepted. The Complementary Medicine programme does not accept applicants who have upgraded their matric results. Applicants are required to complete an assignment, visit the on campus Complementary Medicine Clinic and provide a letter of recommendation from a practitioner (Homeopath, accupuncturist or phytotherapist) as a component of the selection process. The graduate will be eligible to register with the Allied Health Professionals Council of South Africa as an acupuncture therapist. Successful graduates are required to complete the master of Health Sciences in Complementary Medicine to comply with minimum registration requirements of AHPCSA for Homeopathy or Phytotherapy."
         },
         {
             "course_name": "CHIROPRACTIC",
             "course_code": "",
             "duration": "4",
             "aps": "28",
-            "required_subjects": []
+            "required_subjects": [
+                {
+                    "subject": "English",
+                    "level": "5",
+                    "percentage": "60"
+                },
+                {
+                    "subject": "Mathematics",
+                    "level": "4",
+                    "percentage": "50"
+                },
+                {
+                    "subject": "Physical Science",
+                    "level": "4",
+                    "percentage": "50"
+                },
+                {
+                    "subject": "Life Science",
+                    "level": "4",
+                    "percentage": "50"
+                }
+            ],
+            "nonAcademicRequirements": [
+                "Applicants are required to undergo a selection process that includes academic results, complete a questionnaire and provide letters of recommendation/observation from two practising Doctors of Chiropractic",
+                "Potential applicants will then be invited to attend an interview",
+                "Successful applicants are required to complete the Master of Health Sciences in Chiropractic to comply with minimum registration requirements of the AHPCSA"
+            ],
+            "rawRequirements": "English: 5 (60%+), Mathematics: 4 (50%+), Physical Science: 4 (50%+), Life Science: 4 (50%+). Mathematical Literacy: Not accepted. Technical Mathematics: Not accepted. Technical Science: Not accepted. Applicants are required to undergo a selection process that includes academic results, complete a questionnaire and provide letters of recommendation/observation from two practising Doctors of Chiropractic. Potential applicants will then be invited to attend an interview. Successful applicants are required to complete the Master of Health Sciences in Chiropractic to comply with minimum registration requirements of the AHPCSA."
         },
         {
             "course_name": "ENVIRONMENTAL HEALTH",
@@ -204,19 +300,40 @@
                     "subject": "Life Science",
                     "level": "4",
                     "percentage": "50"
-                },
-                {
-                    "subject": "Mathematical Literacy: Not accepted",
-                    "level": ""
                 }
-            ]
+            ],
+            "nonAcademicRequirements": [],
+            "rawRequirements": "English: 4 (50%+), Mathematics: 4 (50%+), Physical Science: 4 (50%+), Life Science: 4 (50%+). Mathematical Literacy: Not accepted."
         },
         {
             "course_name": "MEDICAL LABORATORY SCIENCE",
             "course_code": "",
             "duration": "4",
             "aps": "30",
-            "required_subjects": []
+            "required_subjects": [
+                {
+                    "subject": "English",
+                    "level": "5",
+                    "percentage": "60"
+                },
+                {
+                    "subject": "Mathematics",
+                    "level": "4",
+                    "percentage": "50"
+                },
+                {
+                    "subject": "Physical Science",
+                    "level": "4",
+                    "percentage": "50"
+                },
+                {
+                    "subject": "Life Science",
+                    "level": "5",
+                    "percentage": "60"
+                }
+            ],
+            "nonAcademicRequirements": [],
+            "rawRequirements": "English: 5 (60%+), Mathematics: 4 (50%+), Physical Science: 4 (50%+), Life Science: 5 (60%+). Mathematical Literacy: Not accepted. Technical Mathematics: Not accepted. Technical Science: Not accepted."
         },
         {
             "course_name": "DIAGNOSTIC RADIOGRAPHY",
@@ -244,7 +361,9 @@
                     "level": "5",
                     "percentage": "60"
                 }
-            ]
+            ],
+            "nonAcademicRequirements": [],
+            "rawRequirements": "English: 5 (60%+), Mathematics: 4 (50%+), Physical Science: 4 (50%+), Life Science: 5 (60%+) Minimum APS of 31 with Mathematics. Courses in Diagnostic Radiography, Diagnostic Ultrasound, Nuclear Medicine and Radiation Therapy do not accept Technical Mathematics and Technical Sciences."
         },
         {
             "course_name": "SPORT MANAGEMENT",
@@ -261,12 +380,10 @@
                     "subject": "Mathematics",
                     "level": "4",
                     "percentage": "50"
-                },
-                {
-                    "subject": "Mathematical Literacy: Not accepted",
-                    "level": ""
                 }
-            ]
+            ],
+            "nonAcademicRequirements": [],
+            "rawRequirements": "English: 4 (50%+), Mathematics: 4 (50%+). Mathematical Literacy: Not accepted. Minimum APS of 23 with Mathematics. Mathematical Literacy is not accepted as an alternative for the subject requirement."
         },
         {
             "course_name": "SPORT AND EXERCISE SCIENCE",
@@ -294,17 +411,44 @@
                     "level": "4",
                     "percentage": "50"
                 }
-            ]
+            ],
+            "nonAcademicRequirements": [
+                "Specific Mathematical Literacy subject requirement not specified in the table, but required for the 28 APS route"
+            ],
+            "rawRequirements": "English: 5 (60%+), Mathematics: 3 (40%+), Life Science: 4 (50%+), Technical Mathematics: 4 (50%+). Minimum APS of 27 with Mathematics OR 28 with Mathematical Literacy. Specific Mathematical Literacy subject requirement not specified in the table, but required for the 28 APS route."
         },
         {
             "course_name": "PODIATRY",
             "course_code": "",
             "duration": "4",
             "aps": "28",
-            "required_subjects": []
+            "required_subjects": [
+                {
+                    "subject": "English",
+                    "level": "5",
+                    "percentage": "60"
+                },
+                {
+                    "subject": "Mathematics",
+                    "level": "4",
+                    "percentage": "50"
+                },
+                {
+                    "subject": "Physical Science",
+                    "level": "4",
+                    "percentage": "50"
+                },
+                {
+                    "subject": "Life Science",
+                    "level": "4",
+                    "percentage": "50"
+                }
+            ],
+            "nonAcademicRequirements": [],
+            "rawRequirements": "English: 5 (60%+), Mathematics: 4 (50%+), Physical Science: 4 (50%+), Life Science: 4 (50%+). Mathematical Literacy: Not accepted. Technical Mathematics: Not accepted. Technical Science: Not accepted."
         }
     ],
-    "HUMANITIES": [
+    "Humanities": [
         {
             "course_name": "BA with specialisation in STRATEGIC COMMUNICATION",
             "course_code": "",
@@ -315,12 +459,13 @@
                     "subject": "English",
                     "level": "5",
                     "percentage": "60"
-                },
-                {
-                    "subject": "Interviews will be conducted with individual applicants",
-                    "level": ""
                 }
-            ]
+            ],
+            "nonAcademicRequirements": [
+                "Interviews will be conducted with individual applicants",
+                "Interviews will be conducted with individual applicants"
+            ],
+            "rawRequirements": "Minimum APS: 24-26 or 27. English: 5 (60%+) or 4 (50%+). Interviews will be conducted with individual applicants. Minimum APS is 24 for English 4 (50%+) or 27 for English 5 (60%+). Interviews will be conducted with individual applicants. The APS score in English determines the range of the overall APS score."
         },
         {
             "course_name": "BA with specialisation in POLITICS, ECONOMICS AND TECHNOLOGY",
@@ -338,14 +483,24 @@
                     "level": "4",
                     "percentage": "50"
                 }
-            ]
+            ],
+            "nonAcademicRequirements": [],
+            "rawRequirements": "Minimum APS: 27 with Mathematics. English: 5 (60%+). Mathematics: 4 (50%+). Applies to Bachelor of Arts (3 years)."
         },
         {
             "course_name": "BA",
             "course_code": "",
             "duration": "3",
             "aps": "27",
-            "required_subjects": []
+            "required_subjects": [
+                {
+                    "subject": "English",
+                    "level": "5",
+                    "percentage": "60"
+                }
+            ],
+            "nonAcademicRequirements": [],
+            "rawRequirements": "English: 5 (60%+). Technical Mathematics is not accepted, and where Mathematics is selected as a major, the Faculty of Science's minimum requirements for Grade 12 Mathematics (4 (50%+)) for the module registration should be met. The list of subjects that you can choose towards your BA degree can be found on the link below. Please note that the subjects taken outside of the Faculty of Humanities must comply with the entry requirements of the respective home faculties. https://www.uj.ac.za/faculties/humanities/newBA"
         },
         {
             "course_name": "BA with specialisation in DEVELOPMENT STUDIES",
@@ -357,12 +512,13 @@
                     "subject": "English",
                     "level": "5",
                     "percentage": "60"
-                },
-                {
-                    "subject": "Interviews will be conducted with individual applicants",
-                    "level": ""
                 }
-            ]
+            ],
+            "nonAcademicRequirements": [
+                "Interviews will be conducted with individual applicants",
+                "Interviews will be conducted with individual applicants"
+            ],
+            "rawRequirements": "Minimum APS: 24-26 or 27. English: 5 (60%+) or 4 (50%+). Interviews will be conducted with individual applicants. Minimum APS is 24 for English 4 (50%+) or 27 for English 5 (60%+). Interviews will be conducted with individual applicants. The APS score in English determines the range of the overall APS score."
         },
         {
             "course_name": "COMMUNITY DEVELOPMENT AND LEADERSHIP",
@@ -374,12 +530,10 @@
                     "subject": "English",
                     "level": "5",
                     "percentage": "60"
-                },
-                {
-                    "subject": "Mathematics: Not applicable",
-                    "level": ""
                 }
-            ]
+            ],
+            "nonAcademicRequirements": [],
+            "rawRequirements": "Minimum APS: 27. English: 5 (60%+). Mathematics: Not applicable. Applies to Bachelor of Arts (3 years)."
         },
         {
             "course_name": "BA with specialisation in LINGUISTICS",
@@ -391,12 +545,13 @@
                     "subject": "English",
                     "level": "5",
                     "percentage": "60"
-                },
-                {
-                    "subject": "Interviews will be conducted with individual applicants",
-                    "level": ""
                 }
-            ]
+            ],
+            "nonAcademicRequirements": [
+                "Interviews will be conducted with individual applicants",
+                "Interviews will be conducted with individual applicants"
+            ],
+            "rawRequirements": "Minimum APS: 24-26 or 27. English: 5 (60%+) or 4 (50%+). Interviews will be conducted with individual applicants. Minimum APS is 24 for English 4 (50%+) or 27 for English 5 (60%+). Interviews will be conducted with individual applicants. The APS score in English determines the range of the overall APS score."
         },
         {
             "course_name": "SOCIAL WORK",
@@ -409,7 +564,9 @@
                     "level": "5",
                     "percentage": "60"
                 }
-            ]
+            ],
+            "nonAcademicRequirements": [],
+            "rawRequirements": "English: 5 (60%+)"
         },
         {
             "course_name": "BA with specialisation in LANGUAGE PRACTICE",
@@ -418,20 +575,12 @@
             "aps": "27",
             "required_subjects": [
                 {
-                    "subject": "APS",
-                    "level": "2",
-                    "percentage": "7"
-                },
-                {
                     "subject": "English",
-                    "level": "5",
                     "percentage": "60"
-                },
-                {
-                    "subject": "Mathematics: Not applicable",
-                    "level": ""
                 }
-            ]
+            ],
+            "nonAcademicRequirements": [],
+            "rawRequirements": "APS 27. English: 5 (60%). Mathematics: Not applicable. Applies to Bachelor of Arts (3 years)."
         },
         {
             "course_name": "PUBLIC RELATIONS AND COMMUNICATION",
@@ -444,7 +593,9 @@
                     "level": "5",
                     "percentage": "60"
                 }
-            ]
+            ],
+            "nonAcademicRequirements": [],
+            "rawRequirements": "English: 5 (60%+)."
         },
         {
             "course_name": "BA with specialisation in LINGUISTICS AND LANGUAGE PRACTICE",
@@ -456,15 +607,16 @@
                     "subject": "English",
                     "level": "5",
                     "percentage": "60"
-                },
-                {
-                    "subject": "Interviews will be conducted with individual applicants",
-                    "level": ""
                 }
-            ]
+            ],
+            "nonAcademicRequirements": [
+                "Interviews will be conducted with individual applicants",
+                "Interviews will be conducted with individual applicants"
+            ],
+            "rawRequirements": "Minimum APS: 24-26 or 27. English: 5 (60%+) or 4 (50%+). Interviews will be conducted with individual applicants. Minimum APS is 24 for English 4 (50%+) or 27 for English 5 (60%+). Interviews will be conducted with individual applicants. The APS score in English determines the range of the overall APS score."
         }
     ],
-    "LAW": [
+    "Law": [
         {
             "course_name": "BCOM (LAW)",
             "course_code": "",
@@ -485,12 +637,10 @@
                     "subject": "Mathematics",
                     "level": "4",
                     "percentage": "50"
-                },
-                {
-                    "subject": "Mathematical Literacy Not accepted",
-                    "level": ""
                 }
-            ]
+            ],
+            "nonAcademicRequirements": [],
+            "rawRequirements": "Minimum APS 31 with Mathematics ONLY. English 5 (60%+), Additional Language 4 (50%+), Mathematics 4 (50%+). Mathematical Literacy Not accepted. Qualification Code: B4C01Q. Career: Legal Advisor, Career in Commerce. *Additional Language requirement waived in the case of international students with a non-South African secondary school-leaver's certificate which does not include a second language."
         },
         {
             "course_name": "LLB",
@@ -512,8 +662,15 @@
                     "subject": "Mathematics",
                     "level": "3",
                     "percentage": "40"
+                },
+                {
+                    "subject": "Mathematical Literacy",
+                    "level": "4",
+                    "percentage": "50"
                 }
-            ]
+            ],
+            "nonAcademicRequirements": [],
+            "rawRequirements": "Minimum APS 31 with Mathematics OR 32 with Mathematical Literacy. English 5 (60%+), Additional Language 4 (50%+), Mathematics 3 (40%+) OR Mathematical Literacy 4 (50%+). Qualification Code: B4L03Q. Career: Advocate, Attorney, State Advocate, Legal Advisor, Magistrate, Public Prosecutor. APS can be 31 (with Mathematics) or 32 (with Mathematical Literacy). *Additional Language requirement waived in the case of international students with a non-South African secondary school-leaver's certificate which does not include a second language."
         },
         {
             "course_name": "BA (LAW)",
@@ -535,11 +692,18 @@
                     "subject": "Mathematics",
                     "level": "3",
                     "percentage": "40"
+                },
+                {
+                    "subject": "Mathematical Literacy",
+                    "level": "4",
+                    "percentage": "50"
                 }
-            ]
+            ],
+            "nonAcademicRequirements": [],
+            "rawRequirements": "Minimum APS 31 with Mathematics OR 32 with Mathematical Literacy. English 5 (60%+), Additional Language 4 (50%+), Mathematics 3 (40%+) OR Mathematical Literacy 4 (50%+). Qualification Code: B4A01Q. Career: Legal Advisor, Career in Public Administration. APS can be 31 (with Mathematics) or 32 (with Mathematical Literacy). *Additional Language requirement waived in the case of international students with a non-South African secondary school-leaver's certificate which does not include a second language."
         }
     ],
-    "COLLEGE OF BUSINESS & ECONOMICS": [
+    "College of Business and Economics": [
         {
             "course_name": "ACCOUNTING",
             "course_code": "",
@@ -555,16 +719,10 @@
                     "subject": "Mathematics",
                     "level": "4",
                     "percentage": "50"
-                },
-                {
-                    "subject": "Mathematical Literacy: Not accepted",
-                    "level": ""
-                },
-                {
-                    "subject": "Technical Mathematics: Not accepted",
-                    "level": ""
                 }
-            ]
+            ],
+            "nonAcademicRequirements": [],
+            "rawRequirements": "Minimum APS: 28. English: 4 (50%+). Mathematics: 4 (50%+). Mathematical Literacy: Not accepted. Technical Mathematics: Not accepted."
         },
         {
             "course_name": "MARKETING MANAGEMENT",
@@ -583,15 +741,13 @@
                     "percentage": "50"
                 },
                 {
-                    "subject": "Mathematical Literacy: Not accepted",
-                    "level": ""
-                },
-                {
                     "subject": "Technical Mathematics",
                     "level": "4",
                     "percentage": "50"
                 }
-            ]
+            ],
+            "nonAcademicRequirements": [],
+            "rawRequirements": "Minimum APS: 26. English: 4 (50%+). Mathematics: 4 (50%+). Mathematical Literacy: Not accepted. Technical Mathematics: 4 (50%+)."
         },
         {
             "course_name": "TRANSPORT AND LOGISTICS MANAGEMENT",
@@ -610,15 +766,13 @@
                     "percentage": "50"
                 },
                 {
-                    "subject": "Mathematical Literacy: Not accepted",
-                    "level": ""
-                },
-                {
                     "subject": "Technical Mathematics",
                     "level": "4",
                     "percentage": "50"
                 }
-            ]
+            ],
+            "nonAcademicRequirements": [],
+            "rawRequirements": "Minimum APS: 27. English: 5 (60%+). Mathematics: 4 (50%+). Mathematical Literacy: Not accepted. Technical Mathematics: 4 (50%+)."
         },
         {
             "course_name": "BUSINESS MANAGEMENT",
@@ -646,7 +800,9 @@
                     "level": "4",
                     "percentage": "50"
                 }
-            ]
+            ],
+            "nonAcademicRequirements": [],
+            "rawRequirements": "Minimum APS: 26. English: 4 (50%+). Mathematics: 4 (50%+). Mathematical Literacy: 5 (60%+). Technical Mathematics: 4 (50%+)."
         },
         {
             "course_name": "BUSINESS INFORMATION TECHNOLOGY",
@@ -674,7 +830,9 @@
                     "level": "3",
                     "percentage": "40"
                 }
-            ]
+            ],
+            "nonAcademicRequirements": [],
+            "rawRequirements": "Minimum APS: 22 with Maths/Tech Maths OR 24 with Mathematical Literacy. English: 4 (50%+). Mathematics: 3 (40%+). Mathematical Literacy: 6 (70%+). Technical Mathematics: 3 (40%+). APS of 22 applies with Maths/Tech Maths, or 24 with Mathematical Literacy. Life Orientation is NOT included in APS calculation. All diplomas are presented in English only."
         },
         {
             "course_name": "PEOPLE MANAGEMENT",
@@ -702,7 +860,9 @@
                     "level": "3",
                     "percentage": "40"
                 }
-            ]
+            ],
+            "nonAcademicRequirements": [],
+            "rawRequirements": "Minimum APS: 22 with Maths/Tech Maths OR 24 with Maths Lit. English: 4 (50%+). Mathematics: 3 (40%+). Mathematical Literacy: 5 (60%+). Technical Mathematics: 3 (40%+). APS of 22 applies with Maths/Tech Maths, or 24 with Maths Lit. Life Orientation is NOT included in APS calculation. All diplomas are presented in English only."
         },
         {
             "course_name": "MARKETING **",
@@ -730,7 +890,9 @@
                     "level": "3",
                     "percentage": "40"
                 }
-            ]
+            ],
+            "nonAcademicRequirements": [],
+            "rawRequirements": "Minimum APS: 22 with Maths/Tech Maths OR 24 with Maths Lit. English: 4 (50%+). Mathematics: 3 (40%+). Mathematical Literacy: 5 (60%+). Technical Mathematics: 3 (40%+). APS of 22 applies with Maths/Tech Maths, or 24 with Maths Lit. Life Orientation is NOT included in APS calculation. All diplomas are presented in English only. A student with Higher Certificate endorsement completing HC in Marketing and Sales with specific module requirements (English 1A, 1B, Mathematics for Marketers 1A, 1B at 60%+) or specific Short Learning Programmes (Retail Management S3M01Q or MKT010) may gain access."
         },
         {
             "course_name": "HOSPITALITY MANAGEMENT",
@@ -758,7 +920,9 @@
                     "level": "4",
                     "percentage": "50"
                 }
-            ]
+            ],
+            "nonAcademicRequirements": [],
+            "rawRequirements": "Minimum APS: 26 with Maths/Tech Maths OR 28 with Mathematical Literacy. English: 4 (50%+). Mathematics: 4 (50%+). Mathematical Literacy: 5 (60%+). Technical Mathematics: 4 (50%+). APS of 26 applies with Maths/Tech Maths, or 28 with Mathematical Literacy."
         },
         {
             "course_name": "BACHELOR OF HUMAN RESOURCE MANAGEMENT",
@@ -786,7 +950,9 @@
                     "level": "4",
                     "percentage": "50"
                 }
-            ]
+            ],
+            "nonAcademicRequirements": [],
+            "rawRequirements": "Minimum APS: 28 with Maths/Tech Maths OR 28 with Maths Lit. English: 4 (50%+). Mathematics: 4 (50%+). Mathematical Literacy: 5 (60%+). Technical Mathematics: 4 (50%+). APS of 28 applies with Maths/Tech Maths, or 28 with Maths Lit. Life Orientation is NOT included in APS calculation. All Online programmes are presented in English only and offered on an online basis only. Apply at https://online.uj.ac.za."
         },
         {
             "course_name": "ECONOMICS AND ECONOMETRICS",
@@ -803,16 +969,10 @@
                     "subject": "Mathematics",
                     "level": "4",
                     "percentage": "50"
-                },
-                {
-                    "subject": "Mathematical Literacy: Not accepted",
-                    "level": ""
-                },
-                {
-                    "subject": "Technical Mathematics: Not accepted",
-                    "level": ""
                 }
-            ]
+            ],
+            "nonAcademicRequirements": [],
+            "rawRequirements": "Minimum APS: 28. English: 4 (50%+). Mathematics: 4 (50%+). Mathematical Literacy: Not accepted. Technical Mathematics: Not accepted."
         },
         {
             "course_name": "ENTREPRENEURIAL MANAGEMENT",
@@ -840,7 +1000,9 @@
                     "level": "4",
                     "percentage": "50"
                 }
-            ]
+            ],
+            "nonAcademicRequirements": [],
+            "rawRequirements": "Minimum APS: 26. English: 4 (50%+). Mathematics: 4 (50%+). Mathematical Literacy: 5 (60%+). Technical Mathematics: 4 (50%+)."
         },
         {
             "course_name": "BACHELOR OF COMMERCE IN ACCOUNTANCY",
@@ -857,16 +1019,10 @@
                     "subject": "Mathematics",
                     "level": "4",
                     "percentage": "50"
-                },
-                {
-                    "subject": "Mathematical Literacy: Not accepted",
-                    "level": ""
-                },
-                {
-                    "subject": "Technical Mathematics: Not accepted",
-                    "level": ""
                 }
-            ]
+            ],
+            "nonAcademicRequirements": [],
+            "rawRequirements": "Minimum APS: 28 with Mathematics. English: 4 (50%+). Mathematics: 4 (50%+). Mathematical Literacy: Not accepted. Technical Mathematics: Not accepted. Life Orientation is NOT included in APS calculation. All Online programmes are presented in English only and offered on an online basis only. Apply at https://online.uj.ac.za."
         },
         {
             "course_name": "TOURISM DEVELOPMENT AND MANAGEMENT",
@@ -894,7 +1050,9 @@
                     "level": "3",
                     "percentage": "40"
                 }
-            ]
+            ],
+            "nonAcademicRequirements": [],
+            "rawRequirements": "Minimum APS: 26 with Maths/Tech Maths OR 28 with Mathematical Literacy. English: 4 (50%+). Mathematics: 3 (40%+). Mathematical Literacy: 4 (50%+). Technical Mathematics: 3 (40%+). APS of 26 applies with Maths/Tech Maths, or 28 with Mathematical Literacy."
         },
         {
             "course_name": "LOGISTICS",
@@ -922,7 +1080,9 @@
                     "level": "3",
                     "percentage": "40"
                 }
-            ]
+            ],
+            "nonAcademicRequirements": [],
+            "rawRequirements": "Minimum APS: 24 with Maths/Tech Maths OR 26 with Mathematical Literacy. English: 4 (50%+). Mathematics: 3 (40%+). Mathematical Literacy: 5 (60%+). Technical Mathematics: 3 (40%+). APS of 24 applies with Maths/Tech Maths, or 26 with Mathematical Literacy. Life Orientation is NOT included in APS calculation. All diplomas are presented in English only."
         },
         {
             "course_name": "INFORMATION MANAGEMENT",
@@ -950,7 +1110,9 @@
                     "level": "4",
                     "percentage": "50"
                 }
-            ]
+            ],
+            "nonAcademicRequirements": [],
+            "rawRequirements": "Minimum APS: 26 with Maths/Tech Maths OR 28 with Mathematical Literacy. English: 4 (50%+). Mathematics: 4 (50%+). Mathematical Literacy: 6 (70%+). Technical Mathematics: 4 (50%+). APS of 26 applies with Maths/Tech Maths, or 28 with Mathematical Literacy."
         },
         {
             "course_name": "TRANSPORTATION MANAGEMENT",
@@ -978,7 +1140,9 @@
                     "level": "3",
                     "percentage": "40"
                 }
-            ]
+            ],
+            "nonAcademicRequirements": [],
+            "rawRequirements": "Minimum APS: 24 with Maths/Tech Maths OR 26 with Maths Lit. English: 4 (50%+). Mathematics: 3 (40%+). Mathematical Literacy: 5 (60%+). Technical Mathematics: 3 (40%+). APS of 24 applies with Maths/Tech Maths, or 26 with Maths Lit. Life Orientation is NOT included in APS calculation. All diplomas are presented in English only."
         },
         {
             "course_name": "FINANCIAL SERVICES OPERATIONS *",
@@ -1006,7 +1170,9 @@
                     "level": "3",
                     "percentage": "40"
                 }
-            ]
+            ],
+            "nonAcademicRequirements": [],
+            "rawRequirements": "Minimum APS: 22 with Maths/Tech Maths OR 24 with Mathematical Literacy. English: 4 (50%+). Mathematics: 3 (40%+). Mathematical Literacy: 5 (60%+). Technical Mathematics: 3 (40%+). APS of 22 applies with Maths/Tech Maths, or 24 with Mathematical Literacy. Note: A student with diploma endorsement but not meeting specific entry requirements may gain access through the Programme in Commercial Accounting. Life Orientation is NOT included in APS calculation. All diplomas are presented in English only."
         },
         {
             "course_name": "RETAIL BUSINESS MANAGEMENT **",
@@ -1034,7 +1200,9 @@
                     "level": "3",
                     "percentage": "40"
                 }
-            ]
+            ],
+            "nonAcademicRequirements": [],
+            "rawRequirements": "Minimum APS: 22 with Maths/Tech Maths OR 24 with Maths Lit. English: 4 (50%+). Mathematics: 3 (40%+). Mathematical Literacy: 5 (60%+). Technical Mathematics: 3 (40%+). APS of 22 applies with Maths/Tech Maths, or 24 with Maths Lit. Life Orientation is NOT included in APS calculation. All diplomas are presented in English only. A student with Higher Certificate endorsement completing HC in Marketing and Sales with specific module requirements (English 1A, 1B, Mathematics for Marketers 1A, 1B at 60%+) or specific Short Learning Programmes (Retail Management S3M01Q or MKT010) may gain access."
         },
         {
             "course_name": "SMALL BUSINESS MANAGEMENT",
@@ -1062,7 +1230,9 @@
                     "level": "3",
                     "percentage": "40"
                 }
-            ]
+            ],
+            "nonAcademicRequirements": [],
+            "rawRequirements": "Minimum APS: 19 with Maths/Tech Maths OR 21 with Maths Lit. English: 4 (50%+). Mathematics: 3 (40%+). Mathematical Literacy: 4 (50%+). Technical Mathematics: 3 (40%+). APS of 19 applies with Maths/Tech Maths, or 21 with Maths Lit. Life Orientation is NOT included in APS calculation. All extended diplomas are presented in English only. Only new first time entering candidates are considered for admission. It is recommended that applicants show a desire to start their own business."
         },
         {
             "course_name": "PUBLIC MANAGEMENT AND GOVERNANCE",
@@ -1090,7 +1260,9 @@
                     "level": "3",
                     "percentage": "40"
                 }
-            ]
+            ],
+            "nonAcademicRequirements": [],
+            "rawRequirements": "Minimum APS: 26 with Maths/Tech Maths OR 28 with Mathematical Literacy. English: 5 (60%+). Mathematics: 3 (40%+). Mathematical Literacy: 5 (60%+). Technical Mathematics: 3 (40%+). Qualification Codes: B34PKQ/B34PSQ. APS of 26 applies with Maths/Tech Maths, or 28 with Mathematical Literacy."
         },
         {
             "course_name": "ACCOUNTANCY *",
@@ -1118,7 +1290,9 @@
                     "level": "3",
                     "percentage": "40"
                 }
-            ]
+            ],
+            "nonAcademicRequirements": [],
+            "rawRequirements": "Minimum APS: 22 with Maths/Tech Maths OR 24 with Mathematical Literacy. English: 4 (50%+). Mathematics: 3 (40%+). Mathematical Literacy: 5 (60%+). Technical Mathematics: 3 (40%+). APS of 22 applies with Maths/Tech Maths, or 24 with Mathematical Literacy. Note: A student with diploma endorsement but not meeting specific entry requirements may gain access through the Programme in Commercial Accounting. Life Orientation is NOT included in APS calculation. All diplomas are presented in English only."
         },
         {
             "course_name": "FINANCE",
@@ -1135,16 +1309,10 @@
                     "subject": "Mathematics",
                     "level": "4",
                     "percentage": "50"
-                },
-                {
-                    "subject": "Mathematical Literacy: Not accepted",
-                    "level": ""
-                },
-                {
-                    "subject": "Technical Mathematics: Not accepted",
-                    "level": ""
                 }
-            ]
+            ],
+            "nonAcademicRequirements": [],
+            "rawRequirements": "Minimum APS: 28. English: 4 (50%+). Mathematics: 4 (50%+). Mathematical Literacy: Not accepted. Technical Mathematics: Not accepted."
         },
         {
             "course_name": "HUMAN RESOURCE MANAGEMENT",
@@ -1172,7 +1340,9 @@
                     "level": "4",
                     "percentage": "50"
                 }
-            ]
+            ],
+            "nonAcademicRequirements": [],
+            "rawRequirements": "Minimum APS: 28 with Maths/Tech Maths OR 28 with Mathematical Literacy. English: 5 (60%+). Mathematics: 4 (50%+). Mathematical Literacy: 5 (60%+). Technical Mathematics: 4 (50%+)."
         },
         {
             "course_name": "ACCOUNTING (CA)",
@@ -1189,16 +1359,10 @@
                     "subject": "Mathematics",
                     "level": "4",
                     "percentage": "50"
-                },
-                {
-                    "subject": "Mathematical Literacy: Not accepted",
-                    "level": ""
-                },
-                {
-                    "subject": "Technical Mathematics: Not accepted",
-                    "level": ""
                 }
-            ]
+            ],
+            "nonAcademicRequirements": [],
+            "rawRequirements": "Minimum APS: 33. English: 5 (60%+). Mathematics: 4 (50%+). Mathematical Literacy: Not accepted. Technical Mathematics: Not accepted."
         },
         {
             "course_name": "SMALL BUSINESS MANAGEMENT ***",
@@ -1226,7 +1390,9 @@
                     "level": "3",
                     "percentage": "40"
                 }
-            ]
+            ],
+            "nonAcademicRequirements": [],
+            "rawRequirements": "Minimum APS: 22 with Maths/Tech Maths OR 24 with Maths Lit. English: 4 (50%+). Mathematics: 3 (40%+). Mathematical Literacy: 5 (60%+). Technical Mathematics: 3 (40%+). APS of 22 applies with Maths/Tech Maths, or 24 with Maths Lit. Life Orientation is NOT included in APS calculation. All diplomas are presented in English only. It is recommended that applicants show a desire to start their own business."
         },
         {
             "course_name": "TOURISM MANAGEMENT",
@@ -1254,7 +1420,9 @@
                     "level": "3",
                     "percentage": "40"
                 }
-            ]
+            ],
+            "nonAcademicRequirements": [],
+            "rawRequirements": "Minimum APS: 22 with Maths/Tech Maths OR 24 with Maths Lit. English: 4 (50%+). Mathematics: 3 (40%+). Mathematical Literacy: 5 (60%+). Technical Mathematics: 3 (40%+). APS of 22 applies with Maths/Tech Maths, or 24 with Maths Lit. Life Orientation is NOT included in APS calculation. All diplomas are presented in English only."
         },
         {
             "course_name": "INDUSTRIAL PSYCHOLOGY",
@@ -1282,7 +1450,9 @@
                     "level": "4",
                     "percentage": "50"
                 }
-            ]
+            ],
+            "nonAcademicRequirements": [],
+            "rawRequirements": "Minimum APS: 26. English: 4 (50%+). Mathematics: 4 (50%+). Mathematical Literacy: 5 (60%+). Technical Mathematics: 4 (50%+)."
         },
         {
             "course_name": "INFORMATION SYSTEMS",
@@ -1301,15 +1471,13 @@
                     "percentage": "50"
                 },
                 {
-                    "subject": "Mathematical Literacy: Not accepted",
-                    "level": ""
-                },
-                {
                     "subject": "Technical Mathematics",
                     "level": "4",
                     "percentage": "50"
                 }
-            ]
+            ],
+            "nonAcademicRequirements": [],
+            "rawRequirements": "Minimum APS: 26. English: 4 (50%+). Mathematics: 4 (50%+). Mathematical Literacy: Not accepted. Technical Mathematics: 4 (50%+)."
         },
         {
             "course_name": "FOOD AND BEVERAGE OPERATIONS",
@@ -1337,10 +1505,12 @@
                     "level": "3",
                     "percentage": "40"
                 }
-            ]
+            ],
+            "nonAcademicRequirements": [],
+            "rawRequirements": "Minimum APS: 22 with Maths/Tech Maths OR 24 with Mathematical Literacy. English: 4 (50%+). Mathematics: 3 (40%+). Mathematical Literacy: 5 (60%+). Technical Mathematics: 3 (40%+). APS of 22 applies with Maths/Tech Maths, or 24 with Mathematical Literacy. Life Orientation is NOT included in APS calculation. All diplomas are presented in English only."
         }
     ],
-    "ENGINEERING & THE BUILT ENVIRONMENT": [
+    "Engineering and the Built Environment": [
         {
             "course_name": "EXTRACTION METALLURGY (Extended)",
             "course_code": "",
@@ -1353,7 +1523,12 @@
                     "percentage": "50"
                 },
                 {
-                    "subject": "Mathematics / Technical Mathematics",
+                    "subject": "Mathematics",
+                    "level": "4",
+                    "percentage": "50"
+                },
+                {
+                    "subject": "OR Technical Mathematics",
                     "level": "4",
                     "percentage": "50"
                 },
@@ -1361,16 +1536,12 @@
                     "subject": "Physical Science",
                     "level": "4",
                     "percentage": "50"
-                },
-                {
-                    "subject": "Technical Science not accepted",
-                    "level": ""
-                },
-                {
-                    "subject": "Mathematical Literacy not applicable",
-                    "level": ""
                 }
-            ]
+            ],
+            "nonAcademicRequirements": [
+                "Duration usually 4 years for extended BEngTech, but not explicitly stated"
+            ],
+            "rawRequirements": "English 4 (50%+), Mathematics / Technical Mathematics 4 (50%+), Physical Science 4 (50%+). Technical Science not accepted. Mathematical Literacy not applicable. This is an Extended Bachelor of Engineering Technology Degree Programme. Duration usually 4 years for extended BEngTech, but not explicitly stated."
         },
         {
             "course_name": "MINING ENGINEERING",
@@ -1384,7 +1555,12 @@
                     "percentage": "50"
                 },
                 {
-                    "subject": "Mathematics / Technical Mathematics",
+                    "subject": "Mathematics",
+                    "level": "5",
+                    "percentage": "60"
+                },
+                {
+                    "subject": "OR Technical Mathematics",
                     "level": "5",
                     "percentage": "60"
                 },
@@ -1392,12 +1568,10 @@
                     "subject": "Physical Science",
                     "level": "5",
                     "percentage": "60"
-                },
-                {
-                    "subject": "Technical Science not accepted",
-                    "level": ""
                 }
-            ]
+            ],
+            "nonAcademicRequirements": [],
+            "rawRequirements": "English 4 (50%+), Mathematics / Technical Mathematics 5 (60%+), Physical Science 5 (60%+). Technical Science not accepted. Programme duration is 3 years."
         },
         {
             "course_name": "CIVIL ENGINEERING",
@@ -1411,7 +1585,12 @@
                     "percentage": "60"
                 },
                 {
-                    "subject": "Mathematics / Technical Mathematics",
+                    "subject": "Mathematics",
+                    "level": "5",
+                    "percentage": "60"
+                },
+                {
+                    "subject": "OR Technical Mathematics",
                     "level": "5",
                     "percentage": "60"
                 },
@@ -1419,12 +1598,10 @@
                     "subject": "Physical Science",
                     "level": "5",
                     "percentage": "60"
-                },
-                {
-                    "subject": "Technical Science not accepted",
-                    "level": ""
                 }
-            ]
+            ],
+            "nonAcademicRequirements": [],
+            "rawRequirements": "English 5 (60%+), Mathematics / Technical Mathematics 5 (60%+), Physical Science 5 (60%+). Technical Science not accepted. Programme duration is 4 years."
         },
         {
             "course_name": "CONSTRUCTION (Extended)",
@@ -1438,7 +1615,12 @@
                     "percentage": "50"
                 },
                 {
-                    "subject": "Mathematics / Technical Mathematics",
+                    "subject": "Mathematics",
+                    "level": "5",
+                    "percentage": "60"
+                },
+                {
+                    "subject": "OR Technical Mathematics",
                     "level": "5",
                     "percentage": "60"
                 },
@@ -1451,12 +1633,12 @@
                     "subject": "Technical Science",
                     "level": "5",
                     "percentage": "60"
-                },
-                {
-                    "subject": "Mathematical Literacy not applicable",
-                    "level": ""
                 }
-            ]
+            ],
+            "nonAcademicRequirements": [
+                "Duration usually 4 years for extended BSc, but not explicitly stated"
+            ],
+            "rawRequirements": "English 4 (50%+), Mathematics / Technical Mathematics 5 (60%+), Physical Science 5 (60%+), Technical Science 5 (60%+). Mathematical Literacy not applicable. This is an Extended Bachelor of Science in Construction Degree Programme. Duration usually 4 years for extended BSc, but not explicitly stated."
         },
         {
             "course_name": "OPERATIONS MANAGEMENT",
@@ -1470,11 +1652,23 @@
                     "percentage": "50"
                 },
                 {
-                    "subject": "Mathematics / Technical Mathematics",
+                    "subject": "Mathematics",
                     "level": "3",
                     "percentage": "40"
+                },
+                {
+                    "subject": "OR Technical Mathematics",
+                    "level": "3",
+                    "percentage": "40"
+                },
+                {
+                    "subject": "Mathematical Literacy",
+                    "level": "5",
+                    "percentage": "60"
                 }
-            ]
+            ],
+            "nonAcademicRequirements": [],
+            "rawRequirements": "English 4 (50%+). Mathematics / Technical Mathematics 3 (40%+) OR Mathematical Literacy 5 (60%+). Programme duration is 3 years. Minimum APS 20 with Mathematics OR 22 with Mathematical Literacy."
         },
         {
             "course_name": "CIVIL ENGINEERING (Extended)",
@@ -1488,7 +1682,12 @@
                     "percentage": "50"
                 },
                 {
-                    "subject": "Mathematics / Technical Mathematics",
+                    "subject": "Mathematics",
+                    "level": "4",
+                    "percentage": "50"
+                },
+                {
+                    "subject": "OR Technical Mathematics",
                     "level": "4",
                     "percentage": "50"
                 },
@@ -1501,12 +1700,12 @@
                     "subject": "Technical Science",
                     "level": "4",
                     "percentage": "50"
-                },
-                {
-                    "subject": "Mathematical Literacy not applicable",
-                    "level": ""
                 }
-            ]
+            ],
+            "nonAcademicRequirements": [
+                "Duration usually 4 years for extended BEngTech, but not explicitly stated"
+            ],
+            "rawRequirements": "English 4 (50%+), Mathematics / Technical Mathematics 4 (50%+), Physical Science 4 (50%+), Technical Science 4 (50%+). Mathematical Literacy not applicable. This is an Extended Bachelor of Engineering Technology Degree Programme. Duration usually 4 years for extended BEngTech, but not explicitly stated."
         },
         {
             "course_name": "CHEMICAL ENGINEERING",
@@ -1520,7 +1719,12 @@
                     "percentage": "50"
                 },
                 {
-                    "subject": "Mathematics / Technical Mathematics",
+                    "subject": "Mathematics",
+                    "level": "5",
+                    "percentage": "60"
+                },
+                {
+                    "subject": "OR Technical Mathematics",
                     "level": "5",
                     "percentage": "60"
                 },
@@ -1528,8 +1732,15 @@
                     "subject": "Physical Science",
                     "level": "5",
                     "percentage": "60"
+                },
+                {
+                    "subject": "Technical Science",
+                    "level": "5",
+                    "percentage": "60"
                 }
-            ]
+            ],
+            "nonAcademicRequirements": [],
+            "rawRequirements": "English 4 (50%+), Mathematics / Technical Mathematics 5 (60%+), Physical Science 5 (60%+) OR Technical Science 5 (60%+). Programme duration is 3 years."
         },
         {
             "course_name": "EXTRACTION METALLURGY",
@@ -1543,7 +1754,12 @@
                     "percentage": "50"
                 },
                 {
-                    "subject": "Mathematics / Technical Mathematics",
+                    "subject": "Mathematics",
+                    "level": "5",
+                    "percentage": "60"
+                },
+                {
+                    "subject": "OR Technical Mathematics",
                     "level": "5",
                     "percentage": "60"
                 },
@@ -1551,12 +1767,10 @@
                     "subject": "Physical Science",
                     "level": "5",
                     "percentage": "60"
-                },
-                {
-                    "subject": "Technical Science not accepted",
-                    "level": ""
                 }
-            ]
+            ],
+            "nonAcademicRequirements": [],
+            "rawRequirements": "English 4 (50%+), Mathematics / Technical Mathematics 5 (60%+), Physical Science 5 (60%+). Technical Science not accepted. Programme duration is 3 years."
         },
         {
             "course_name": "MECHANICAL ENGINEERING",
@@ -1570,7 +1784,12 @@
                     "percentage": "60"
                 },
                 {
-                    "subject": "Mathematics / Technical Mathematics",
+                    "subject": "Mathematics",
+                    "level": "5",
+                    "percentage": "60"
+                },
+                {
+                    "subject": "OR Technical Mathematics",
                     "level": "5",
                     "percentage": "60"
                 },
@@ -1578,12 +1797,10 @@
                     "subject": "Physical Science",
                     "level": "5",
                     "percentage": "60"
-                },
-                {
-                    "subject": "Technical Science not accepted",
-                    "level": ""
                 }
-            ]
+            ],
+            "nonAcademicRequirements": [],
+            "rawRequirements": "English 5 (60%+), Mathematics / Technical Mathematics 5 (60%+), Physical Science 5 (60%+). Technical Science not accepted. Programme duration is 4 years."
         },
         {
             "course_name": "INDUSTRIAL ENGINEERING (Extended)",
@@ -1597,7 +1814,12 @@
                     "percentage": "50"
                 },
                 {
-                    "subject": "Mathematics / Technical Mathematics",
+                    "subject": "Mathematics",
+                    "level": "5",
+                    "percentage": "60"
+                },
+                {
+                    "subject": "OR Technical Mathematics",
                     "level": "5",
                     "percentage": "60"
                 },
@@ -1610,12 +1832,12 @@
                     "subject": "Technical Science",
                     "level": "5",
                     "percentage": "60"
-                },
-                {
-                    "subject": "Mathematical Literacy not applicable",
-                    "level": ""
                 }
-            ]
+            ],
+            "nonAcademicRequirements": [
+                "Duration usually 4 years for extended BEngTech, but not explicitly stated"
+            ],
+            "rawRequirements": "English 4 (50%+), Mathematics / Technical Mathematics 5 (60%+), Physical Science 5 (60%+), Technical Science 5 (60%+). Mathematical Literacy not applicable. This is an Extended Bachelor of Engineering Technology Degree Programme. Duration usually 4 years for extended BEngTech, but not explicitly stated."
         },
         {
             "course_name": "MECHANICAL ENGINEERING (Extended)",
@@ -1629,7 +1851,12 @@
                     "percentage": "50"
                 },
                 {
-                    "subject": "Mathematics / Technical Mathematics",
+                    "subject": "Mathematics",
+                    "level": "5",
+                    "percentage": "60"
+                },
+                {
+                    "subject": "OR Technical Mathematics",
                     "level": "5",
                     "percentage": "60"
                 },
@@ -1642,12 +1869,12 @@
                     "subject": "Technical Science",
                     "level": "5",
                     "percentage": "60"
-                },
-                {
-                    "subject": "Mathematical Literacy not applicable",
-                    "level": ""
                 }
-            ]
+            ],
+            "nonAcademicRequirements": [
+                "Duration usually 4 years for extended BEngTech, but not explicitly stated"
+            ],
+            "rawRequirements": "English 4 (50%+), Mathematics / Technical Mathematics 5 (60%+), Physical Science 5 (60%+), Technical Science 5 (60%+). Mathematical Literacy not applicable. This is an Extended Bachelor of Engineering Technology Degree Programme. Duration usually 4 years for extended BEngTech, but not explicitly stated."
         },
         {
             "course_name": "OPERATIONS MANAGEMENT (Extended)",
@@ -1661,15 +1888,25 @@
                     "percentage": "50"
                 },
                 {
-                    "subject": "Mathematics / Technical Mathematics",
+                    "subject": "Mathematics",
                     "level": "3",
                     "percentage": "40"
                 },
                 {
-                    "subject": "Physical Science not accepted",
-                    "level": ""
+                    "subject": "OR Technical Mathematics",
+                    "level": "3",
+                    "percentage": "40"
+                },
+                {
+                    "subject": "Mathematical Literacy",
+                    "level": "5",
+                    "percentage": "60"
                 }
-            ]
+            ],
+            "nonAcademicRequirements": [
+                "Duration usually 4 years for extended diploma, but not explicitly stated"
+            ],
+            "rawRequirements": "English 4 (50%+). Mathematics / Technical Mathematics 3 (40%+) OR Mathematical Literacy 5 (60%+). Physical Science not accepted. This is an Extended Diploma Programme. Duration usually 4 years for extended diploma, but not explicitly stated. Minimum APS 20 with Mathematics OR 22 with Mathematical Literacy."
         },
         {
             "course_name": "ELECTRICAL AND ELECTRONIC ENGINEERING",
@@ -1683,7 +1920,12 @@
                     "percentage": "60"
                 },
                 {
-                    "subject": "Mathematics / Technical Mathematics",
+                    "subject": "Mathematics",
+                    "level": "5",
+                    "percentage": "60"
+                },
+                {
+                    "subject": "OR Technical Mathematics",
                     "level": "5",
                     "percentage": "60"
                 },
@@ -1691,12 +1933,10 @@
                     "subject": "Physical Science",
                     "level": "5",
                     "percentage": "60"
-                },
-                {
-                    "subject": "Technical Science not accepted",
-                    "level": ""
                 }
-            ]
+            ],
+            "nonAcademicRequirements": [],
+            "rawRequirements": "English 5 (60%+), Mathematics / Technical Mathematics 5 (60%+), Physical Science 5 (60%+). Technical Science not accepted. Programme duration is 4 years."
         },
         {
             "course_name": "MINE SURVEYING",
@@ -1710,7 +1950,12 @@
                     "percentage": "50"
                 },
                 {
-                    "subject": "Mathematics / Technical Mathematics",
+                    "subject": "Mathematics",
+                    "level": "5",
+                    "percentage": "60"
+                },
+                {
+                    "subject": "OR Technical Mathematics",
                     "level": "5",
                     "percentage": "60"
                 },
@@ -1718,12 +1963,10 @@
                     "subject": "Geography",
                     "level": "5",
                     "percentage": "60"
-                },
-                {
-                    "subject": "Physical Science and Technical Science are not applicable",
-                    "level": ""
                 }
-            ]
+            ],
+            "nonAcademicRequirements": [],
+            "rawRequirements": "English 4 (50%+), Mathematics / Technical Mathematics 5 (60%+), Geography 5 (60%+). Physical Science and Technical Science are not applicable. Programme duration is 3 years."
         },
         {
             "course_name": "MANAGEMENT SERVICES",
@@ -1737,11 +1980,23 @@
                     "percentage": "50"
                 },
                 {
-                    "subject": "Mathematics / Technical Mathematics",
+                    "subject": "Mathematics",
                     "level": "3",
                     "percentage": "40"
+                },
+                {
+                    "subject": "OR Technical Mathematics",
+                    "level": "3",
+                    "percentage": "40"
+                },
+                {
+                    "subject": "Mathematical Literacy",
+                    "level": "5",
+                    "percentage": "60"
                 }
-            ]
+            ],
+            "nonAcademicRequirements": [],
+            "rawRequirements": "English 4 (50%+). Mathematics / Technical Mathematics 3 (40%+) OR Mathematical Literacy 5 (60%+). Programme duration is 3 years. Minimum APS 19 with Mathematics OR 21 with Mathematical Literacy."
         },
         {
             "course_name": "ELECTRICAL ENGINEERING",
@@ -1755,7 +2010,12 @@
                     "percentage": "50"
                 },
                 {
-                    "subject": "Mathematics / Technical Mathematics",
+                    "subject": "Mathematics",
+                    "level": "5",
+                    "percentage": "60"
+                },
+                {
+                    "subject": "OR Technical Mathematics",
                     "level": "5",
                     "percentage": "60"
                 },
@@ -1763,12 +2023,10 @@
                     "subject": "Physical Science",
                     "level": "5",
                     "percentage": "60"
-                },
-                {
-                    "subject": "Technical Science not accepted",
-                    "level": ""
                 }
-            ]
+            ],
+            "nonAcademicRequirements": [],
+            "rawRequirements": "English 4 (50%+), Mathematics / Technical Mathematics 5 (60%+), Physical Science 5 (60%+). Technical Science not accepted. Programme duration is 3 years."
         },
         {
             "course_name": "CONSTRUCTION",
@@ -1782,7 +2040,12 @@
                     "percentage": "50"
                 },
                 {
-                    "subject": "Mathematics / Technical Mathematics",
+                    "subject": "Mathematics",
+                    "level": "5",
+                    "percentage": "60"
+                },
+                {
+                    "subject": "OR Technical Mathematics",
                     "level": "5",
                     "percentage": "60"
                 },
@@ -1790,12 +2053,10 @@
                     "subject": "Physical Science",
                     "level": "5",
                     "percentage": "60"
-                },
-                {
-                    "subject": "Technical Science and Geography are not applicable",
-                    "level": ""
                 }
-            ]
+            ],
+            "nonAcademicRequirements": [],
+            "rawRequirements": "English 4 (50%+), Mathematics / Technical Mathematics 5 (60%+), Physical Science 5 (60%+). Technical Science and Geography are not applicable. Programme duration is 3 years."
         },
         {
             "course_name": "INDUSTRIAL ENGINEERING",
@@ -1809,7 +2070,12 @@
                     "percentage": "50"
                 },
                 {
-                    "subject": "Mathematics / Technical Mathematics",
+                    "subject": "Mathematics",
+                    "level": "5",
+                    "percentage": "60"
+                },
+                {
+                    "subject": "OR Technical Mathematics",
                     "level": "5",
                     "percentage": "60"
                 },
@@ -1817,8 +2083,15 @@
                     "subject": "Physical Science",
                     "level": "5",
                     "percentage": "60"
+                },
+                {
+                    "subject": "Technical Science",
+                    "level": "5",
+                    "percentage": "60"
                 }
-            ]
+            ],
+            "nonAcademicRequirements": [],
+            "rawRequirements": "English 4 (50%+), Mathematics / Technical Mathematics 5 (60%+), Physical Science 5 (60%+) OR Technical Science 5 (60%+). Programme duration is 3 years."
         },
         {
             "course_name": "URBAN AND REGIONAL PLANNING",
@@ -1832,7 +2105,12 @@
                     "percentage": "50"
                 },
                 {
-                    "subject": "Mathematics / Technical Mathematics",
+                    "subject": "Mathematics",
+                    "level": "5",
+                    "percentage": "60"
+                },
+                {
+                    "subject": "OR Technical Mathematics",
                     "level": "5",
                     "percentage": "60"
                 },
@@ -1840,12 +2118,10 @@
                     "subject": "Geography",
                     "level": "5",
                     "percentage": "60"
-                },
-                {
-                    "subject": "Physical Science and Technical Science are not applicable",
-                    "level": ""
                 }
-            ]
+            ],
+            "nonAcademicRequirements": [],
+            "rawRequirements": "English 4 (50%+), Mathematics / Technical Mathematics 5 (60%+), Geography 5 (60%+). Physical Science and Technical Science are not applicable. Programme duration is 3 years."
         },
         {
             "course_name": "PHYSICAL METALLURGY",
@@ -1859,7 +2135,12 @@
                     "percentage": "50"
                 },
                 {
-                    "subject": "Mathematics / Technical Mathematics",
+                    "subject": "Mathematics",
+                    "level": "5",
+                    "percentage": "60"
+                },
+                {
+                    "subject": "OR Technical Mathematics",
                     "level": "5",
                     "percentage": "60"
                 },
@@ -1867,12 +2148,10 @@
                     "subject": "Physical Science",
                     "level": "5",
                     "percentage": "60"
-                },
-                {
-                    "subject": "Technical Science not accepted",
-                    "level": ""
                 }
-            ]
+            ],
+            "nonAcademicRequirements": [],
+            "rawRequirements": "English 4 (50%+), Mathematics / Technical Mathematics 5 (60%+), Physical Science 5 (60%+). Technical Science not accepted. Programme duration is 3 years."
         },
         {
             "course_name": "ELECTRICAL ENGINEERING (Extended)",
@@ -1886,7 +2165,12 @@
                     "percentage": "50"
                 },
                 {
-                    "subject": "Mathematics / Technical Mathematics",
+                    "subject": "Mathematics",
+                    "level": "5",
+                    "percentage": "60"
+                },
+                {
+                    "subject": "OR Technical Mathematics",
                     "level": "5",
                     "percentage": "60"
                 },
@@ -1894,16 +2178,12 @@
                     "subject": "Physical Science",
                     "level": "5",
                     "percentage": "60"
-                },
-                {
-                    "subject": "Technical Science not accepted",
-                    "level": ""
-                },
-                {
-                    "subject": "Mathematical Literacy not applicable",
-                    "level": ""
                 }
-            ]
+            ],
+            "nonAcademicRequirements": [
+                "Duration usually 4 years for extended BEngTech, but not explicitly stated"
+            ],
+            "rawRequirements": "English 4 (50%+), Mathematics / Technical Mathematics 5 (60%+), Physical Science 5 (60%+). Technical Science not accepted. Mathematical Literacy not applicable. This is an Extended Bachelor of Engineering Technology Degree Programme. Duration usually 4 years for extended BEngTech, but not explicitly stated."
         },
         {
             "course_name": "MANAGEMENT SERVICES (Extended)",
@@ -1917,15 +2197,25 @@
                     "percentage": "50"
                 },
                 {
-                    "subject": "Mathematics / Technical Mathematics",
+                    "subject": "Mathematics",
                     "level": "3",
                     "percentage": "40"
                 },
                 {
-                    "subject": "Physical Science not accepted",
-                    "level": ""
+                    "subject": "OR Technical Mathematics",
+                    "level": "3",
+                    "percentage": "40"
+                },
+                {
+                    "subject": "Mathematical Literacy",
+                    "level": "5",
+                    "percentage": "60"
                 }
-            ]
+            ],
+            "nonAcademicRequirements": [
+                "Duration usually 4 years for extended diploma, but not explicitly stated"
+            ],
+            "rawRequirements": "English 4 (50%+). Mathematics / Technical Mathematics 3 (40%+) OR Mathematical Literacy 5 (60%+). Physical Science not accepted. This is an Extended Diploma Programme. Duration usually 4 years for extended diploma, but not explicitly stated. Minimum APS 19 with Mathematics OR 21 with Mathematical Literacy."
         },
         {
             "course_name": "PHYSICAL METALLURGY (Extended)",
@@ -1939,7 +2229,12 @@
                     "percentage": "50"
                 },
                 {
-                    "subject": "Mathematics / Technical Mathematics",
+                    "subject": "Mathematics",
+                    "level": "4",
+                    "percentage": "50"
+                },
+                {
+                    "subject": "OR Technical Mathematics",
                     "level": "4",
                     "percentage": "50"
                 },
@@ -1947,25 +2242,44 @@
                     "subject": "Physical Science",
                     "level": "4",
                     "percentage": "50"
-                },
-                {
-                    "subject": "Technical Science not accepted",
-                    "level": ""
-                },
-                {
-                    "subject": "Mathematical Literacy not applicable",
-                    "level": ""
                 }
-            ]
+            ],
+            "nonAcademicRequirements": [
+                "Duration usually 4 years for extended BEngTech, but not explicitly stated"
+            ],
+            "rawRequirements": "English 4 (50%+), Mathematics / Technical Mathematics 4 (50%+), Physical Science 4 (50%+). Technical Science not accepted. Mathematical Literacy not applicable. This is an Extended Bachelor of Engineering Technology Degree Programme. Duration usually 4 years for extended BEngTech, but not explicitly stated."
         }
     ],
-    "ART, DESIGN & ARCHITECTURE": [
+    "Art, Design and Architecture": [
         {
             "course_name": "BA (VISUAL ART)",
             "course_code": "",
             "duration": "3",
             "aps": "25",
-            "required_subjects": []
+            "required_subjects": [
+                {
+                    "subject": "English",
+                    "level": "5",
+                    "percentage": "60"
+                },
+                {
+                    "subject": "Mathematics",
+                    "level": "3",
+                    "percentage": "40"
+                },
+                {
+                    "subject": "Mathematical Literacy",
+                    "level": "4",
+                    "percentage": "50"
+                },
+                {
+                    "subject": "Technical Mathematics",
+                    "level": "3",
+                    "percentage": "40"
+                }
+            ],
+            "nonAcademicRequirements": [],
+            "rawRequirements": "Minimum APS: 25 with Maths / Tech Maths OR 26 with Mathematical Literacy. English: 5 (60%+). Mathematics: 3 (40%+). Mathematical Literacy: 4 (50%+). Technical Mathematics: 3 (40%+). Visual Art graduates find work in diverse fields of the visual arts industries. In addition to being a professional artist, graduates could work, in art education and training, art gallery and museum curating and management, art consulting, arts writing, art criticism, research and journalism, printmaking and print studio management, paper making and paper production design, community and arts project management, visual events management. Qualification Code: B8BA7Q. Minimum APS of 25 with Maths / Tech Maths OR 26 with Mathematical Literacy. The requirement for maths or maths literacy as a matric subject for international admission into the BA in Visual Art UG degree may be exempt \u2013 provided the university entrance requirements and APS score remain intact and such admission is compliant with all UG Degree requirements."
         },
         {
             "course_name": "BA (FASHION DESIGN)",
@@ -1987,12 +2301,10 @@
                     "subject": "Mathematical Literacy",
                     "level": "5",
                     "percentage": "60"
-                },
-                {
-                    "subject": "Technical Mathematics: Not accepted",
-                    "level": ""
                 }
-            ]
+            ],
+            "nonAcademicRequirements": [],
+            "rawRequirements": "Minimum APS: 25 with Mathematics OR 26 with Mathematical Literacy. English: 5 (60%+). Mathematics: 4 (50%+). Mathematical Literacy: 5 (60%+). Technical Mathematics: Not accepted. A degree in fashion design prepares graduates for various career possibilities in the fast-paced fashion industry. Amongst other, these include being a fashion designer, a fashion entrepreneur, a pattern engineer, a fashion buyer a fashion stylist. Qualification Code: B8FD1Q. Minimum APS of 25 with Mathematics OR 26 with Mathematical Literacy."
         },
         {
             "course_name": "FASHION PRODUCTION",
@@ -2014,12 +2326,10 @@
                     "subject": "Mathematical Literacy",
                     "level": "4",
                     "percentage": "50"
-                },
-                {
-                    "subject": "Technical Mathematics: Not accepted",
-                    "level": ""
                 }
-            ]
+            ],
+            "nonAcademicRequirements": [],
+            "rawRequirements": "Minimum APS: 22 with Maths OR 23 with Maths Lit. English: 5 (60%+). Mathematics: 3 (40%+). Mathematical Literacy: 4 (50%+). Technical Mathematics: Not accepted. Fashion Production Graduates can be involved in the business, manufacturing, retail and quality assurance aspects of the clothing industry. Qualification Code: D8FP1Q. Minimum APS of 22 with Maths OR 23 with Maths Lit."
         },
         {
             "course_name": "BA (INDUSTRIAL DESIGN)",
@@ -2041,12 +2351,10 @@
                     "subject": "Mathematical Literacy",
                     "level": "5",
                     "percentage": "60"
-                },
-                {
-                    "subject": "Technical Mathematics: Not accepted",
-                    "level": ""
                 }
-            ]
+            ],
+            "nonAcademicRequirements": [],
+            "rawRequirements": "Minimum APS: 25 with Mathematics OR 26 with Mathematical Literacy. English: 5 (60%+). Mathematics: 4 (50%+). Mathematical Literacy: 5 (60%+). Technical Mathematics: Not accepted. Industrial Designers improve the aesthetics, ergonomics and functionality of a broad range of products from bespoke/one-off furniture items to mass produced products such as kitchen appliances and cellphones. Qualification Code: B8ID1Q. Minimum APS of 25 with Mathematics OR 26 with Mathematical Literacy."
         },
         {
             "course_name": "BA (INTERIOR DESIGN)",
@@ -2068,12 +2376,10 @@
                     "subject": "Mathematical Literacy",
                     "level": "5",
                     "percentage": "60"
-                },
-                {
-                    "subject": "Technical Mathematics: Not accepted",
-                    "level": ""
                 }
-            ]
+            ],
+            "nonAcademicRequirements": [],
+            "rawRequirements": "Minimum APS: 25 with Mathematics OR 26 with Mathematical Literacy. English: 5 (60%+). Mathematics: 4 (50%+). Mathematical Literacy: 5 (60%+). Technical Mathematics: Not accepted. Interior Designers engage with a range of interior spaces to create innovative spatial solutions with a thorough knowledge of building technology, materials and human environment needs. Qualification Code: B8BA6Q. Minimum APS of 25 with Mathematics OR 26 with Mathematical Literacy."
         },
         {
             "course_name": "B ARCHITECTURE",
@@ -2090,16 +2396,10 @@
                     "subject": "Mathematics",
                     "level": "5",
                     "percentage": "60"
-                },
-                {
-                    "subject": "Mathematical Literacy: Not accepted",
-                    "level": ""
-                },
-                {
-                    "subject": "Technical Mathematics: Not accepted",
-                    "level": ""
                 }
-            ]
+            ],
+            "nonAcademicRequirements": [],
+            "rawRequirements": "Minimum APS: 30. English: 5 (60%+). Mathematics: 5 (60%+). Mathematical Literacy: Not accepted. Technical Mathematics: Not accepted. Architectural professionals are involved in shaping our built environment, from the simple construction of low-cost housing projects to the most sophisticated technology employed in the erection of skyscrapers. Architectural professionals are thus employed in the design, technological resolution and management of the design and construction process of buildings. Qualification Code: B8BA3Q."
         },
         {
             "course_name": "JEWELLERY DESIGN AND MANUFACTURE",
@@ -2127,7 +2427,9 @@
                     "level": "5",
                     "percentage": "60"
                 }
-            ]
+            ],
+            "nonAcademicRequirements": [],
+            "rawRequirements": "Minimum APS: 20 with Maths OR 21 with Maths Lit OR 22 with Tech Maths. English: 5 (60%+). Mathematics: 4 (50%+). Mathematical Literacy: 5 (60%+). Technical Mathematics: 5 (60%+). Jewellery Designers and Manufacturers process designs and concepts in high end commercial and contemporary commercial manufacture processes. Qualification Code: D8JD1Q. Minimum APS of 20 with Maths OR 21 with Maths Lit OR 22 with Tech Maths."
         },
         {
             "course_name": "ARCHITECTURE",
@@ -2149,12 +2451,10 @@
                     "subject": "Mathematical Literacy",
                     "level": "4",
                     "percentage": "50"
-                },
-                {
-                    "subject": "Technical Mathematics: Not accepted",
-                    "level": ""
                 }
-            ]
+            ],
+            "nonAcademicRequirements": [],
+            "rawRequirements": "Minimum APS: 25 with Maths OR 26 with Tech Maths. English: 5 (60%+). Mathematics: 3 (40%+). Mathematical Literacy: 4 (50%+). Technical Mathematics: Not accepted. Architectural Practitioners design simple buildings and produce technological details. Qualification Code: D8AT1Q. Minimum APS of 25 with Maths OR 26 with Tech Maths."
         },
         {
             "course_name": "BA (DIGITAL MEDIA DESIGN)",
@@ -2176,12 +2476,10 @@
                     "subject": "Mathematical Literacy",
                     "level": "4",
                     "percentage": "50"
-                },
-                {
-                    "subject": "Technical Mathematics: Not accepted",
-                    "level": ""
                 }
-            ]
+            ],
+            "nonAcademicRequirements": [],
+            "rawRequirements": "Minimum APS: 25 with Mathematics OR 26 with Mathematical Literacy. English: 5 (60%+). Mathematics: 3 (40%+). Mathematical Literacy: 4 (50%+). Technical Mathematics: Not accepted. This degree prepares students for careers in the design, film, broadcast and advertising industries as: interaction designers, user experience designers, user interface designers, service designers, music video designers, multimedia animators, motion graphics designers, information designers, video editors, video compositors, digital photographers, digital media consultants and or creative directors. Qualification Code: B8DM3Q. Minimum APS of 25 with Mathematics OR 26 with Mathematical Literacy."
         },
         {
             "course_name": "BA (COMMUNICATION DESIGN)",
@@ -2203,15 +2501,13 @@
                     "subject": "Mathematical Literacy",
                     "level": "4",
                     "percentage": "50"
-                },
-                {
-                    "subject": "Technical Mathematics: Not accepted",
-                    "level": ""
                 }
-            ]
+            ],
+            "nonAcademicRequirements": [],
+            "rawRequirements": "Minimum APS: 25 with Mathematics OR 26 with Mathematical Literacy. English: 5 (60%+). Mathematics: 3 (40%+). Mathematical Literacy: 4 (50%+). Technical Mathematics: Not accepted. Communication Designers are creative thinkers and problem solvers who use a range of design methods, processes and techniques to create professional communication designs, such as posters, books, magazines, corporate identity programmes, packaging and web sites, both individually and as members of teams. Qualification Code: B8CD2Q. Minimum APS of 25 with Mathematics OR 26 with Mathematical Literacy."
         }
     ],
-    "EDUCATION": [
+    "Education": [
         {
             "course_name": "MATHEMATICS",
             "course_code": "",
@@ -2219,16 +2515,23 @@
             "aps": "28",
             "required_subjects": [
                 {
-                    "subject": "English: Home language",
+                    "subject": "English",
                     "level": "5",
                     "percentage": "60"
+                },
+                {
+                    "subject": "Additional Language",
+                    "level": "6",
+                    "percentage": "70"
                 },
                 {
                     "subject": "Mathematics / Technical Maths",
                     "level": "6",
                     "percentage": "70"
                 }
-            ]
+            ],
+            "nonAcademicRequirements": [],
+            "rawRequirements": "English: Home language 5 (60%+) OR Additional Language 6 (70%+). Mathematics / Technical Maths: 6 (70%+). Mathematical Literacy: Not applicable. Physical Science: Not applicable. Life Science: Not applicable. Geography: Not applicable. Career: Educator focusing on high school teaching."
         },
         {
             "course_name": "PHYSICAL SCIENCE",
@@ -2237,9 +2540,14 @@
             "aps": "28",
             "required_subjects": [
                 {
-                    "subject": "English: Home language",
+                    "subject": "English",
                     "level": "5",
                     "percentage": "60"
+                },
+                {
+                    "subject": "Additional Language",
+                    "level": "6",
+                    "percentage": "70"
                 },
                 {
                     "subject": "Mathematics / Technical Maths",
@@ -2247,18 +2555,53 @@
                     "percentage": "70"
                 },
                 {
-                    "subject": "Physical Science: AND",
+                    "subject": "Physical Science",
                     "level": "4",
                     "percentage": "50"
                 }
-            ]
+            ],
+            "nonAcademicRequirements": [],
+            "rawRequirements": "English: Home language 5 (60%+) OR Additional Language 6 (70%+). Mathematics / Technical Maths: 6 (70%+). Physical Science: AND 4 (50%+). Mathematical Literacy: Not applicable. Life Science: Not applicable. Geography: Not applicable. Career: Educator focusing on high school teaching."
         },
         {
             "course_name": "LIFE SCIENCES",
             "course_code": "",
             "duration": "4",
             "aps": "28",
-            "required_subjects": []
+            "required_subjects": [
+                {
+                    "subject": "English",
+                    "level": "5",
+                    "percentage": "60"
+                },
+                {
+                    "subject": "Additional Language",
+                    "level": "6",
+                    "percentage": "70"
+                },
+                {
+                    "subject": "Mathematics / Technical Maths",
+                    "level": "4",
+                    "percentage": "50"
+                },
+                {
+                    "subject": "Mathematical Literacy",
+                    "level": "6",
+                    "percentage": "70"
+                },
+                {
+                    "subject": "Physical Science",
+                    "level": "3",
+                    "percentage": "40"
+                },
+                {
+                    "subject": "Life Science",
+                    "level": "4",
+                    "percentage": "50"
+                }
+            ],
+            "nonAcademicRequirements": [],
+            "rawRequirements": "English: Home language 5 (60%+) OR Additional Language 6 (70%+). Mathematics / Technical Maths: 4 (50%+) OR Mathematical Literacy: 6 (70%+). Physical Science: AND 3 (40%+). Life Science: AND 4 (50%+). Geography: Not applicable. Career: Educator focusing on high school teaching."
         },
         {
             "course_name": "BUSINESS MANAGEMENT",
@@ -2267,16 +2610,28 @@
             "aps": "28",
             "required_subjects": [
                 {
-                    "subject": "English: Home language",
+                    "subject": "English",
                     "level": "5",
                     "percentage": "60"
+                },
+                {
+                    "subject": "Additional Language",
+                    "level": "6",
+                    "percentage": "70"
                 },
                 {
                     "subject": "Mathematics",
                     "level": "4",
                     "percentage": "50"
+                },
+                {
+                    "subject": "Mathematical Literacy / Technical Mathematics",
+                    "level": "5",
+                    "percentage": "60"
                 }
-            ]
+            ],
+            "nonAcademicRequirements": [],
+            "rawRequirements": "English: Home language 5 (60%+) OR Additional Language 6 (70%+). Mathematics: 4 (50%+) OR Mathematical Literacy / Technical Mathematics: 5 (60%+). Career: Educator focusing on high school teaching."
         },
         {
             "course_name": "PSYCHOLOGY",
@@ -2285,11 +2640,18 @@
             "aps": "28",
             "required_subjects": [
                 {
-                    "subject": "English: Home language",
+                    "subject": "English",
                     "level": "5",
                     "percentage": "60"
+                },
+                {
+                    "subject": "Additional Language",
+                    "level": "6",
+                    "percentage": "70"
                 }
-            ]
+            ],
+            "nonAcademicRequirements": [],
+            "rawRequirements": "English: Home language 5 (60%+) OR Additional Language 6 (70%+). Career: Educator focusing on high school teaching."
         },
         {
             "course_name": "INTERMEDIATE PHASE TEACHING GRADE 4-7",
@@ -2298,16 +2660,28 @@
             "aps": "28",
             "required_subjects": [
                 {
-                    "subject": "English: Home language",
+                    "subject": "English",
                     "level": "5",
                     "percentage": "60"
+                },
+                {
+                    "subject": "Additional Language",
+                    "level": "6",
+                    "percentage": "70"
                 },
                 {
                     "subject": "Mathematics",
                     "level": "3",
                     "percentage": "40"
+                },
+                {
+                    "subject": "Mathematical Literacy / Technical Mathematics",
+                    "level": "5",
+                    "percentage": "60"
                 }
-            ]
+            ],
+            "nonAcademicRequirements": [],
+            "rawRequirements": "English: Home language 5 (60%+) OR Additional Language 6 (70%+). Mathematics: 3 (40%+) OR Mathematical Literacy / Technical Mathematics: 5 (60%+). Career: Educator focusing on primary school teaching."
         },
         {
             "course_name": "ECONOMICS",
@@ -2316,16 +2690,23 @@
             "aps": "28",
             "required_subjects": [
                 {
-                    "subject": "English: Home language",
+                    "subject": "English",
                     "level": "5",
                     "percentage": "60"
+                },
+                {
+                    "subject": "Additional Language",
+                    "level": "6",
+                    "percentage": "70"
                 },
                 {
                     "subject": "Mathematics",
                     "level": "4",
                     "percentage": "50"
                 }
-            ]
+            ],
+            "nonAcademicRequirements": [],
+            "rawRequirements": "English: Home language 5 (60%+) OR Additional Language 6 (70%+). Mathematics: 4 (50%+). Mathematical Literacy / Technical Mathematics: Not applicable. Career: Educator focusing on high school teaching."
         },
         {
             "course_name": "ISIZULU",
@@ -2334,16 +2715,23 @@
             "aps": "28",
             "required_subjects": [
                 {
-                    "subject": "English: Home language",
+                    "subject": "English",
                     "level": "5",
                     "percentage": "60"
                 },
                 {
-                    "subject": "IsiZulu: Home language",
+                    "subject": "Additional Language",
+                    "level": "6",
+                    "percentage": "70"
+                },
+                {
+                    "subject": "IsiZulu",
                     "level": "6",
                     "percentage": "70"
                 }
-            ]
+            ],
+            "nonAcademicRequirements": [],
+            "rawRequirements": "English: Home language 5 (60%+) OR Additional Language 6 (70%+). IsiZulu: Home language 6 (70%+). Sepedi: Not applicable. Afrikaans: Not applicable. Career: Educator focusing on high school teaching."
         },
         {
             "course_name": "ENGLISH",
@@ -2352,11 +2740,18 @@
             "aps": "28",
             "required_subjects": [
                 {
-                    "subject": "English: Home language",
+                    "subject": "English",
                     "level": "5",
                     "percentage": "60"
+                },
+                {
+                    "subject": "Additional Language",
+                    "level": "6",
+                    "percentage": "70"
                 }
-            ]
+            ],
+            "nonAcademicRequirements": [],
+            "rawRequirements": "English: Home language 5 (60%+) OR Additional Language 6 (70%+). IsiZulu: Not applicable. Sepedi: Not applicable. Afrikaans: Not applicable. Career: Educator focusing on high school teaching."
         },
         {
             "course_name": "AFRIKAANS",
@@ -2365,16 +2760,28 @@
             "aps": "28",
             "required_subjects": [
                 {
-                    "subject": "English: Home language",
+                    "subject": "English",
                     "level": "5",
                     "percentage": "60"
                 },
                 {
-                    "subject": "Afrikaans: Home language",
+                    "subject": "Additional Language",
+                    "level": "6",
+                    "percentage": "70"
+                },
+                {
+                    "subject": "Afrikaans",
                     "level": "4",
                     "percentage": "50"
+                },
+                {
+                    "subject": "Additional Language",
+                    "level": "5",
+                    "percentage": "60"
                 }
-            ]
+            ],
+            "nonAcademicRequirements": [],
+            "rawRequirements": "English: Home language 5 (60%+) OR Additional Language 6 (70%+). Afrikaans: Home language 4 (50%+) OR Additional Language 5 (60%+). IsiZulu: Not applicable. Sepedi: Not applicable. Career: Educator focusing on high school teaching."
         },
         {
             "course_name": "FOUNDATION PHASE TEACHING GRADE R-3",
@@ -2383,16 +2790,28 @@
             "aps": "28",
             "required_subjects": [
                 {
-                    "subject": "English: Home language",
+                    "subject": "English",
                     "level": "5",
                     "percentage": "60"
+                },
+                {
+                    "subject": "Additional Language",
+                    "level": "6",
+                    "percentage": "70"
                 },
                 {
                     "subject": "Mathematics",
                     "level": "3",
                     "percentage": "40"
+                },
+                {
+                    "subject": "Mathematical Literacy / Technical Mathematics",
+                    "level": "5",
+                    "percentage": "60"
                 }
-            ]
+            ],
+            "nonAcademicRequirements": [],
+            "rawRequirements": "English: Home language 5 (60%+) OR Additional Language 6 (70%+). Mathematics: 3 (40%+) OR Mathematical Literacy / Technical Mathematics: 5 (60%+). Career: Educator focusing on primary school teaching."
         },
         {
             "course_name": "ACCOUNTING",
@@ -2401,16 +2820,23 @@
             "aps": "28",
             "required_subjects": [
                 {
-                    "subject": "English: Home language",
+                    "subject": "English",
                     "level": "5",
                     "percentage": "60"
+                },
+                {
+                    "subject": "Additional Language",
+                    "level": "6",
+                    "percentage": "70"
                 },
                 {
                     "subject": "Mathematics",
                     "level": "4",
                     "percentage": "50"
                 }
-            ]
+            ],
+            "nonAcademicRequirements": [],
+            "rawRequirements": "English: Home language 5 (60%+) OR Additional Language 6 (70%+). Mathematics: 4 (50%+). Mathematical Literacy / Technical Mathematics: Not applicable. Career: Educator focusing on high school teaching."
         },
         {
             "course_name": "GEOGRAPHY",
@@ -2419,9 +2845,14 @@
             "aps": "28",
             "required_subjects": [
                 {
-                    "subject": "English: Home language",
+                    "subject": "English",
                     "level": "5",
                     "percentage": "60"
+                },
+                {
+                    "subject": "Additional Language",
+                    "level": "6",
+                    "percentage": "70"
                 },
                 {
                     "subject": "Mathematics / Technical Maths",
@@ -2429,11 +2860,13 @@
                     "percentage": "50"
                 },
                 {
-                    "subject": "Geography: AND",
+                    "subject": "Geography",
                     "level": "3",
                     "percentage": "40"
                 }
-            ]
+            ],
+            "nonAcademicRequirements": [],
+            "rawRequirements": "English: Home language 5 (60%+) OR Additional Language 6 (70%+). Mathematics / Technical Maths: 4 (50%+) OR Mathematical Literacy: Not applicable. Geography: AND 3 (40%+). Mathematical Literacy: Not applicable. Physical Science: Not applicable. Life Science: Not applicable. Career: Educator focusing on high school teaching."
         },
         {
             "course_name": "SEPEDI",
@@ -2442,16 +2875,28 @@
             "aps": "28",
             "required_subjects": [
                 {
-                    "subject": "English: Home language",
+                    "subject": "English",
                     "level": "5",
                     "percentage": "60"
                 },
                 {
-                    "subject": "Sepedi: Home language",
+                    "subject": "Additional Language",
+                    "level": "6",
+                    "percentage": "70"
+                },
+                {
+                    "subject": "Sepedi",
                     "level": "4",
                     "percentage": "50"
+                },
+                {
+                    "subject": "Additional Language",
+                    "level": "5",
+                    "percentage": "60"
                 }
-            ]
+            ],
+            "nonAcademicRequirements": [],
+            "rawRequirements": "English: Home language 5 (60%+) OR Additional Language 6 (70%+). Sepedi: Home language 4 (50%+) OR Additional Language 5 (60%+). IsiZulu: Not applicable. Afrikaans: Not applicable. Career: Educator focusing on high school teaching."
         }
     ]
 }

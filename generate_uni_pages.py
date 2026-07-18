@@ -3,7 +3,7 @@ import os
 universities = [
     {"id": "stellenbosch", "name": "Stellenbosch University", "html": "stellenbosch.html"},
     {"id": "tut", "name": "Tshwane University of Technology (TUT)", "html": "tut.html"},
-    {"id": "uct", "name": "University of Cape Town (UCT)", "html": "uct.html"},
+
     {"id": "ul", "name": "University of Limpopo (UL)", "html": "ul.html"},
     {"id": "ump", "name": "University of Mpumalanga (UMP)", "html": "ump.html"},
     {"id": "univen", "name": "University of Venda (Univen)", "html": "univen.html"},
@@ -195,6 +195,20 @@ template = r"""<!DOCTYPE html>
             if (course.fps) scoreHtml.push(`<div class="stat-box" style="padding:10px;"><span class="stat-label">FPS</span><span style="font-size:1.5em; font-weight:bold; color:#fff;">${{course.fps}}</span></div>`);
 
             let detailsHtml = scoreHtml.length > 0 ? scoreHtml.join('') : '<div class="stat-box" style="padding:10px;"><span class="stat-label">APS</span><span style="font-size:1.5em; font-weight:bold; color:#fff;">N/A</span></div>';
+
+            let nonAcademicHtml = '';
+            if (course.nonAcademicRequirements && course.nonAcademicRequirements.length > 0) {{
+                let naList = course.nonAcademicRequirements.map(req => `<li>${{req}}</li>`).join('');
+                nonAcademicHtml = `
+                    <div style="margin-top: 20px; padding: 15px; background: rgba(255,255,255,0.05); border-left: 4px solid #ffaa00; border-radius: 4px;">
+                        <h4 style="color:#ffaa00; margin-top:0; margin-bottom:10px; text-transform:uppercase; font-size:0.9em; letter-spacing:1px;">Additional Admission Requirements</h4>
+                        <ul style="color:#ccc; margin-bottom:0; padding-left:20px; font-size:0.95em;">
+                            ${{naList}}
+                        </ul>
+                    </div>
+                `;
+            }}
+
 
             let extraInfo = '';
             if (course.duration) extraInfo += ` • ${{course.duration}} years`;
