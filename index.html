@@ -5,6 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>D-TECH Eligibility Checker</title>
     <link rel="stylesheet" href="./core/styles.css">
+    <script src="./core/html2pdf.bundle.min.js"></script>
 </head>
 <body>
 
@@ -105,7 +106,7 @@
             <div class="loader-text">Analyzing universities...</div>
         </div>
 
-        <div id="recommendations-container" style="margin-top:20px;"></div>
+        <div id="recommendations-container" style="margin-top:20px;" class="pdf-export-container"></div>
     </div>
 
     <!-- What-If Calculator Section -->
@@ -130,7 +131,7 @@
             Analyze Gap
         </button>
 
-        <div id="what-if-result" style="margin-top: 20px;"></div>
+        <div id="what-if-result" style="margin-top: 20px;" class="pdf-export-container"></div>
     </div>
 
     <!-- Universities List -->
@@ -158,6 +159,8 @@
 
     <script type="module">
         import { UniversityLoader } from './core/engine.js';
+        import { generateDtechPDF } from './core/pdf-engine.js';
+
         let availableSubjects = new Set();
         let maxSubjects = 7;
         let subjectCount = 0;
@@ -534,7 +537,7 @@
             finalHtml += renderTier('Good Match (60% - 79%)', tier60, 'badge-med', tier100.length === 0 && tier80.length === 0);
 
             finalHtml += `
-                <button class="btn btn-primary btn-block" style="margin-top: 20px;" onclick="downloadResults()">
+                <button class="btn btn-primary btn-block" style="margin-top: 20px;" onclick="downloadPDF('recommendations-container', 'DTECH_Course_Recommendations.pdf', 'Course Recommendations')">
                     <svg class="icon" viewBox="0 0 24 24"><path d="M19 9h-4V3H9v6H5l7 7 7-7zM5 18v2h14v-2H5z"/></svg>
                     Download Results as PDF
                 </button>
@@ -609,7 +612,7 @@
                     <p style="margin-bottom:15px; color:#ddd;"><strong>Analysis:</strong> ${result.reason}</p>
                     <p style="margin:0; font-size:0.9em; color:#aaa;"><em>To improve your chances, focus on increasing marks in any specifically required subjects mentioned above, or boost your overall APS/FPS.</em></p>
                 </div>
-                <button class="btn btn-primary btn-block" style="margin-top: 15px;" onclick="downloadResults()">
+                <button class="btn btn-primary btn-block" style="margin-top: 15px;" onclick="downloadPDF('what-if-result', 'DTECH_WhatIf_Analysis.pdf', 'What-If Analysis')">
                     <svg class="icon" viewBox="0 0 24 24"><path d="M19 9h-4V3H9v6H5l7 7 7-7zM5 18v2h14v-2H5z"/></svg>
                     Download Results as PDF
                 </button>
@@ -623,13 +626,18 @@
         window.removeSubjectRow = removeSubjectRow;
         window.editMarks = editMarks;
 
-        window.openAd = function() {
-            window.open('https://omg10.com/4/11276842', '_blank');
+        window.downloadPDF = function(containerId, filename, title) {
+            window.openAd(); // Trigger ad as requested previously
+            const element = document.getElementById(containerId);
+            generateDtechPDF({
+                element: element,
+                filename: filename,
+                title: title
+            });
         };
 
-        window.downloadResults = function() {
-            window.openAd();
-            window.print();
+        window.openAd = function() {
+            window.open('https://omg10.com/4/11276842', '_blank');
         };
 
         window.onload = loadInitialSubjects;
