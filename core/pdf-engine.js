@@ -34,9 +34,6 @@ export async function generateDtechPDF(options) {
 
     // Create a hidden wrapper so html2pdf can render it properly
     const wrapper = document.createElement('div');
-    wrapper.style.position = 'absolute';
-    wrapper.style.top = '-9999px';
-    wrapper.style.left = '-9999px';
     wrapper.style.width = '800px'; // fixed width for consistent rendering
     wrapper.style.backgroundColor = '#121212'; // DTECH dark theme background
     wrapper.style.color = '#ffffff';
@@ -71,7 +68,14 @@ export async function generateDtechPDF(options) {
     // 4. Assemble Wrapper
     wrapper.appendChild(header);
     wrapper.appendChild(clone);
-    document.body.appendChild(wrapper);
+
+    // Put the wrapper in a container that hides it without moving it off-screen,
+    // which breaks html2canvas rendering.
+    const container = document.createElement('div');
+    container.style.height = '0';
+    container.style.overflow = 'hidden';
+    container.appendChild(wrapper);
+    document.body.appendChild(container);
 
     // 5. Configure html2pdf
     const opt = {
@@ -127,8 +131,8 @@ export async function generateDtechPDF(options) {
         console.error("Error generating PDF:", e);
     } finally {
         // Clean up
-        if (wrapper.parentNode) {
-            wrapper.parentNode.removeChild(wrapper);
+        if (container.parentNode) {
+            container.parentNode.removeChild(container);
         }
     }
 }
