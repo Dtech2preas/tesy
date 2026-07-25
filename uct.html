@@ -210,10 +210,12 @@
                     <h4 style="color:#888; margin-bottom:10px; text-transform:uppercase; font-size:0.9em; letter-spacing:1px;">Required Subjects</h4>
                     ${reqsHtml}
 
-                    <button id="check-btn" class="btn btn-primary btn-block" style="margin-top: 20px; font-size:1.1em;" onclick="runEligibilityCheck()">
-                        <svg class="icon" viewBox="0 0 24 24"><path d="M9 16.17L4.83 12l-1.42 1.41L9 19 21 7l-1.41-1.41z"/></svg>
-                        Calculate My Eligibility
-                    </button>
+                    <div id="check-instruction" style="margin-top: 20px; padding: 15px; background: rgba(255,255,255,0.05); border: 1px solid var(--primary-accent); border-radius: 4px; text-align: center;">
+                        <h4 style="color:var(--primary-accent); margin-top:0; margin-bottom:10px; text-transform:uppercase; font-size:1em; letter-spacing:1px;">Calculate My Eligibility</h4>
+                        <p style="color:#ccc; margin-bottom:0; font-size:1em;">
+                            Please click the ad at the top of the screen, then return here to see your eligibility results.
+                        </p>
+                    </div>
 
                     <div id="check-loader" class="hidden">
                         <div class="loader"></div>
@@ -227,18 +229,40 @@
             `;
         }
 
+        let hasLeftPage = false;
+
+        document.addEventListener('visibilitychange', () => {
+            if (document.visibilityState === 'hidden') {
+                hasLeftPage = true;
+            } else if (document.visibilityState === 'visible' && hasLeftPage) {
+                hasLeftPage = false;
+                window.runEligibilityCheck();
+            }
+        });
+
+        window.addEventListener('blur', () => {
+            hasLeftPage = true;
+        });
+
+        window.addEventListener('focus', () => {
+            if (hasLeftPage) {
+                hasLeftPage = false;
+                window.runEligibilityCheck();
+            }
+        });
+
         window.runEligibilityCheck = function() {
             if (!currentSelectedCourse || !uniEngine) return;
 
-            window.openAd();
-
-            const btn = document.getElementById('check-btn');
+            const instruction = document.getElementById('check-instruction');
             const loader = document.getElementById('check-loader');
             const resultBox = document.getElementById('eligibility-result');
 
-            btn.style.display = 'none';
-            resultBox.classList.add('hidden');
-            loader.classList.remove('hidden');
+            if (resultBox && !resultBox.classList.contains('hidden')) return; // Already showing result
+
+            if (instruction) instruction.style.display = 'none';
+            if (resultBox) resultBox.classList.add('hidden');
+            if (loader) loader.classList.remove('hidden');
 
             setTimeout(() => {
                 let result = uniEngine.calculateEligibility(currentSelectedCourse, userMarks, userAps, userFps);
@@ -261,7 +285,7 @@
                         <svg class="icon" viewBox="0 0 24 24"><path d="M19 3H5c-1.1 0-2 .9-2 2v14c0 1.1.9 2 2 2h14c1.1 0 2-.9 2-2V5c0-1.1-.9-2-2-2zM9 17H7v-7h2v7zm4 0h-2V7h2v10zm4 0h-2v-4h2v4z"/></svg>
                         View Detailed Breakdown
                     </button>
-                    <button class="btn btn-outline" style="margin-left:10px; border-color:transparent;" onclick="document.getElementById('check-btn').style.display='block'; document.getElementById('eligibility-result').classList.add('hidden');">Re-calculate</button>
+                    <button class="btn btn-outline" style="margin-left:10px; border-color:transparent;" onclick="hasLeftPage = false; document.getElementById('check-instruction').style.display='block'; document.getElementById('eligibility-result').classList.add('hidden');">Re-calculate</button>
                     <button class="btn btn-primary btn-block" style="margin-top: 15px;" onclick="downloadPDF('eligibility-result', 'DTECH_${currentSelectedCourse.course_name.replace(/\s+/g, '_')}_Eligibility.pdf', '${currentSelectedCourse.course_name} Eligibility Report')">
                         <svg class="icon" viewBox="0 0 24 24"><path d="M19 9h-4V3H9v6H5l7 7 7-7zM5 18v2h14v-2H5z"/></svg>
                         Download Result as PDF
@@ -324,12 +348,7 @@
             }
         }
 
-        window.openAd = function() {
-            window.open('https://omg10.com/4/11276842', '_blank');
-        };
-
         window.downloadPDF = function(containerId, filename, title) {
-            window.openAd();
             const element = document.getElementById(containerId);
 
             // To ensure we get the course details too, we grab the parent container
