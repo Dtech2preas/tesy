@@ -72,6 +72,9 @@ export async function generateDtechPDF(options) {
     // Put the wrapper in a container that hides it without moving it off-screen,
     // which breaks html2canvas rendering.
     const container = document.createElement('div');
+    container.style.position = 'absolute';
+    container.style.top = window.scrollY + 'px';
+    container.style.left = window.scrollX + 'px';
     container.style.height = '0';
     container.style.overflow = 'hidden';
     container.appendChild(wrapper);
@@ -85,10 +88,10 @@ export async function generateDtechPDF(options) {
         html2canvas: {
             scale: 2,
             windowWidth: 800,
-            x: 0,
-            y: 0,
-            scrollX: 0,
-            scrollY: 0,
+            x: window.scrollX,
+            y: window.scrollY,
+            scrollX: window.scrollX,
+            scrollY: window.scrollY,
             useCORS: true,
             backgroundColor: '#121212' // Ensure background is dark
         },
