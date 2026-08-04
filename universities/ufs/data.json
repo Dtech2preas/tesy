@@ -2914,7 +2914,10 @@
             "course_code": "",
             "duration": "",
             "aps": "28",
-            "required_subjects": []
+            "required_subjects": [
+                "English 4 (50%). Subject to selection. Unisa, ABRSM, or Trinity College Grade 5 in principal instrument or voice or equivalent skills; Unisa or ABRSM Grade 3 in Music Theory is advised; a compulsory audition and theory proficiency test before 30 September 2026."
+            ],
+            "rawRequirements": "English 4 (50%). Subject to selection. Unisa, ABRSM, or Trinity College Grade 5 in principal instrument or voice or equivalent skills; Unisa or ABRSM Grade 3 in Music Theory is advised; a compulsory audition and theory proficiency test before 30 September 2026."
         }
     ],
     "FACULTY OF ECONOMIC & MANAGEMENT SCIENCES": [

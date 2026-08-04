@@ -316,7 +316,10 @@
             "course_code": "",
             "duration": "4",
             "aps": "28",
-            "required_subjects": []
+            "required_subjects": [
+                "English Home Language or English First Additional Language: 4. Additional subject requirements for elective modules in Physical Sciences or Life Sciences are Physical Sciences, passed with an achievement level of at least 5 (60%-69%), and Mathematics passed with an achievement level of at least 5 (60%-69%) in the final NSC/IEB examination."
+            ],
+            "rawRequirements": "English Home Language or English First Additional Language: 4. Additional subject requirements for elective modules in Physical Sciences or Life Sciences are Physical Sciences, passed with an achievement level of at least 5 (60%-69%), and Mathematics passed with an achievement level of at least 5 (60%-69%) in the final NSC/IEB examination."
         },
         {
             "course_name": "Higher Certificate in Sports Sciences",
@@ -1048,35 +1051,50 @@
             "course_code": "",
             "duration": "4",
             "aps": "32",
-            "required_subjects": []
+            "required_subjects": [
+                "Mathematics: 4, English Home Language or English First Additional Language: 5. Selection is based on academic achievement, and only 50 students are admitted. The conditional selection process starts in August each year. For more information, please contact"
+            ],
+            "rawRequirements": "Mathematics: 4, English Home Language or English First Additional Language: 5. Selection is based on academic achievement, and only 50 students are admitted. The conditional selection process starts in August each year. For more information, please contact"
         },
         {
             "course_name": "Bachelor of Arts in Audiology",
             "course_code": "",
             "duration": "4",
             "aps": "32",
-            "required_subjects": []
+            "required_subjects": [
+                "Mathematics: 4, English Home Language or English First Additional Language: 5. Selection is based on academic achievement, and only 50 students are admitted. The conditional selection process starts in August each year. For more information, please contact"
+            ],
+            "rawRequirements": "Mathematics: 4, English Home Language or English First Additional Language: 5. Selection is based on academic achievement, and only 50 students are admitted. The conditional selection process starts in August each year. For more information, please contact"
         },
         {
             "course_name": "Bachelor of Arts in Information Design",
             "course_code": "",
             "duration": "4",
             "aps": "30",
-            "required_subjects": []
+            "required_subjects": [
+                "English Home Language or English First Additional Language: 5. Applicants are considered for conditional admission with a minimum APS of 30 based on Grade 11 results. Along with your UP application, you must submit an online portfolio to the Information Design division by 30 June. Applications without a portfolio will not be considered. Final admission is confirmed with an APS of at least 28 in the Grade 12 final results."
+            ],
+            "rawRequirements": "English Home Language or English First Additional Language: 5. Applicants are considered for conditional admission with a minimum APS of 30 based on Grade 11 results. Along with your UP application, you must submit an online portfolio to the Information Design division by 30 June. Applications without a portfolio will not be considered. Final admission is confirmed with an APS of at least 28 in the Grade 12 final results."
         },
         {
             "course_name": "Bachelor of Arts",
             "course_code": "",
             "duration": "3",
             "aps": "30",
-            "required_subjects": []
+            "required_subjects": [
+                "Mathematics: 4, English Home Language or English First Additional Language: 5. Selection is based on academic achievement, and only 50 students are admitted. The conditional selection process starts in August each year. For more information, please contact"
+            ],
+            "rawRequirements": "Mathematics: 4, English Home Language or English First Additional Language: 5. Selection is based on academic achievement, and only 50 students are admitted. The conditional selection process starts in August each year. For more information, please contact"
         },
         {
             "course_name": "Bachelor of Social Work",
             "course_code": "",
             "duration": "4",
             "aps": "30",
-            "required_subjects": []
+            "required_subjects": [
+                "English Home Language or English First Additional Language: 5. Applicants are considered for conditional admission with a minimum APS of 30 based on Grade 11 results. Final admission is confirmed with a minimum APS of 28 in the Grade 12 final results. Admission to this programme is initially based on school results. To continue in the programme, students must successfully complete departmental selection at the end of their first year. This process assesses academic performance and may include an aptitude test and interview. Requirement for selection into the second year: A general average mark of 60% for all the social work first year level modules respectively, and a weighted average of 60% for the rest of the required modules in the BSW programme. In terms of the Children's Act (2005), all registered student social workers have to complete Form 30 in Part B of the National Child Protection Register (NCPR)."
+            ],
+            "rawRequirements": "English Home Language or English First Additional Language: 5. Applicants are considered for conditional admission with a minimum APS of 30 based on Grade 11 results. Final admission is confirmed with a minimum APS of 28 in the Grade 12 final results. Admission to this programme is initially based on school results. To continue in the programme, students must successfully complete departmental selection at the end of their first year. This process assesses academic performance and may include an aptitude test and interview. Requirement for selection into the second year: A general average mark of 60% for all the social work first year level modules respectively, and a weighted average of 60% for the rest of the required modules in the BSW programme. In terms of the Children's Act (2005), all registered student social workers have to complete Form 30 in Part B of the National Child Protection Register (NCPR)."
         },
         {
             "course_name": "Bachelor of Arts specialising in Law",
@@ -1096,70 +1114,100 @@
             "course_code": "",
             "duration": "3",
             "aps": "30",
-            "required_subjects": []
+            "required_subjects": [
+                "English Home Language or English First Additional Language: 5. Applicants are considered for conditional admission with a minimum APS of 30 based on Grade 11 results. To retain admission, candidates must obtain an APS of at least 28 in the Grade final results."
+            ],
+            "rawRequirements": "English Home Language or English First Additional Language: 5. Applicants are considered for conditional admission with a minimum APS of 30 based on Grade 11 results. To retain admission, candidates must obtain an APS of at least 28 in the Grade final results."
         },
         {
             "course_name": "Bachelor of Social Science specialising in Industrial Sociology and Labour Studies",
             "course_code": "",
             "duration": "3",
             "aps": "30",
-            "required_subjects": []
+            "required_subjects": [
+                "English Home Language or English First Additional Language: 5. Applicants are considered for conditional admission with a minimum APS of 30 based on Grade 11 results. Final admission is confirmed with an APS of at least 28 in the Grade 12 final results."
+            ],
+            "rawRequirements": "English Home Language or English First Additional Language: 5. Applicants are considered for conditional admission with a minimum APS of 30 based on Grade 11 results. Final admission is confirmed with an APS of at least 28 in the Grade 12 final results."
         },
         {
             "course_name": "Bachelor of Social Science in Heritage and Cultural Sciences",
             "course_code": "",
             "duration": "3",
             "aps": "30",
-            "required_subjects": []
+            "required_subjects": [
+                "English Home Language or English First Additional Language: 5. Applicants are considered for conditional admission with a minimum APS of 30 based on Grade 11 results. Final admission is confirmed with an APS of at least 28 in the Grade 12 final results."
+            ],
+            "rawRequirements": "English Home Language or English First Additional Language: 5. Applicants are considered for conditional admission with a minimum APS of 30 based on Grade 11 results. Final admission is confirmed with an APS of at least 28 in the Grade 12 final results."
         },
         {
             "course_name": "Bachelor of Arts specialising in Philosophy, Politics and Economics",
             "course_code": "",
             "duration": "3",
             "aps": "32",
-            "required_subjects": []
+            "required_subjects": [
+                "English Home Language or English First Additional Language: 5. Applicants are considered for conditional admission with a minimum APS of 30 based on Grade 11 results. To retain admission, candidates must obtain an APS of at least 28 in the Grade final results."
+            ],
+            "rawRequirements": "English Home Language or English First Additional Language: 5. Applicants are considered for conditional admission with a minimum APS of 30 based on Grade 11 results. To retain admission, candidates must obtain an APS of at least 28 in the Grade final results."
         },
         {
             "course_name": "Bachelor of Political Science specialising in International Studies",
             "course_code": "",
             "duration": "3",
             "aps": "30",
-            "required_subjects": []
+            "required_subjects": [
+                "English Home Language or English First Additional Language: 5. Applicants are considered for conditional admission with a minimum APS of 30 based on Grade 11 results. Final admission is confirmed with a minimum APS of 28 in the Grade 12 final results."
+            ],
+            "rawRequirements": "English Home Language or English First Additional Language: 5. Applicants are considered for conditional admission with a minimum APS of 30 based on Grade 11 results. Final admission is confirmed with a minimum APS of 28 in the Grade 12 final results."
         },
         {
             "course_name": "Bachelor of Political Science specialising in Political Studies",
             "course_code": "",
             "duration": "3",
             "aps": "30",
-            "required_subjects": []
+            "required_subjects": [
+                "English Home Language or English First Additional Language: 5. Applicants are considered for conditional admission with a minimum APS of 30 based on Grade 11 results. Final admission is confirmed with a minimum APS of 28 in the Grade 12 final results."
+            ],
+            "rawRequirements": "English Home Language or English First Additional Language: 5. Applicants are considered for conditional admission with a minimum APS of 30 based on Grade 11 results. Final admission is confirmed with a minimum APS of 28 in the Grade 12 final results."
         },
         {
             "course_name": "Bachelor of Arts in Fine Arts",
             "course_code": "",
             "duration": "4",
             "aps": "30",
-            "required_subjects": []
+            "required_subjects": [
+                "English Home Language or English First Additional Language: 5. Applicants are considered for conditional admission with a minimum APS of 30 based on Grade 11 results. To retain admission, candidates must obtain an APS of at least 28 in the Grade final results."
+            ],
+            "rawRequirements": "English Home Language or English First Additional Language: 5. Applicants are considered for conditional admission with a minimum APS of 30 based on Grade 11 results. To retain admission, candidates must obtain an APS of at least 28 in the Grade final results."
         },
         {
             "course_name": "Bachelor of Arts specialising in Visual Studies",
             "course_code": "",
             "duration": "3",
             "aps": "30",
-            "required_subjects": []
+            "required_subjects": [
+                "English Home Language or English First Additional Language: 5. Applicants are considered for conditional admission with a minimum APS of 30 based on Grade 11 results. To retain admission, candidates must obtain an APS of at least 28 in the Grade final results."
+            ],
+            "rawRequirements": "English Home Language or English First Additional Language: 5. Applicants are considered for conditional admission with a minimum APS of 30 based on Grade 11 results. To retain admission, candidates must obtain an APS of at least 28 in the Grade final results."
         },
         {
             "course_name": "Bachelor of Music",
             "course_code": "",
             "duration": "4",
             "aps": "30",
-            "required_subjects": []
+            "required_subjects": [
+                "Music: 4 (50-59%) or Grade VII Practical and Grade V Theory (Unisa/Royal Schools/Trinity) or a comparable standard AND Practical audition and theoretical test passed with 60%. English Home Language or English First Additional Language: 5. The School of the Arts: Music selects candidates based on a practical singing or instrument performance of 15 minutes, as well as a theoretical test. Audition required: Video of a practical performance (with an achievement of at least 60%): A performance on the candidate's principal instrument. The performance should last about 15 minutes, and the programme must contain three works from different style periods (standard: at least Grade VII, Unisa/Royal Schools/Trinity practical music examinations); Online theoretical test (with an achievement of at least 60%): A written test that will assess the candidate's knowledge of elementary harmony (standard: at least Grade V, Unisa/Royal Schools/Trinity theory examinations). To retain final admission, you must obtain an APS of at least 28 in the Grade 12 final results. Applicants are considered for conditional admission with a minimum APS of 30 based on Grade 11 results. Admissions take place in July, September and on an ad-hoc basis."
+            ],
+            "rawRequirements": "Music: 4 (50-59%) or Grade VII Practical and Grade V Theory (Unisa/Royal Schools/Trinity) or a comparable standard AND Practical audition and theoretical test passed with 60%. English Home Language or English First Additional Language: 5. The School of the Arts: Music selects candidates based on a practical singing or instrument performance of 15 minutes, as well as a theoretical test. Audition required: Video of a practical performance (with an achievement of at least 60%): A performance on the candidate's principal instrument. The performance should last about 15 minutes, and the programme must contain three works from different style periods (standard: at least Grade VII, Unisa/Royal Schools/Trinity practical music examinations); Online theoretical test (with an achievement of at least 60%): A written test that will assess the candidate's knowledge of elementary harmony (standard: at least Grade V, Unisa/Royal Schools/Trinity theory examinations). To retain final admission, you must obtain an APS of at least 28 in the Grade 12 final results. Applicants are considered for conditional admission with a minimum APS of 30 based on Grade 11 results. Admissions take place in July, September and on an ad-hoc basis."
         },
         {
             "course_name": "Bachelor of Drama",
             "course_code": "",
             "duration": "3",
             "aps": "30",
-            "required_subjects": []
+            "required_subjects": [
+                "English Home Language or English First Additional Language: 5. Applicants are considered for conditional admission with a minimum APS of 30 based on Grade 11 results. Final admission is confirmed with a minimum APS of 28 in the Grade 12 final results. Admissions take place in August and on an ad-hoc basis."
+            ],
+            "rawRequirements": "English Home Language or English First Additional Language: 5. Applicants are considered for conditional admission with a minimum APS of 30 based on Grade 11 results. Final admission is confirmed with a minimum APS of 28 in the Grade 12 final results. Admissions take place in August and on an ad-hoc basis."
         }
     ],
     "FACULTY OF LAW": [
