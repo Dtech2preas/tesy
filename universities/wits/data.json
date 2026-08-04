@@ -890,14 +890,20 @@
             "course_code": "",
             "duration": "5",
             "aps": "",
-            "required_subjects": []
+            "required_subjects": [
+                "English Home Language or First Additional Language: Level 5, Mathematics: Level 5, Life Sciences: Level 5, Physical Sciences: Level 5. All applicants must spend time observing specific procedures as performed by a Dentist/Dental Therapist/Oral Hygienist to gain insight into the profession. Applicants must complete a job shadowing certificate of attendance (minimum 16 hours). Only observation hours completed between 1 July 2025 and 31 July 2026 will be accepted. Please download the form from: www.wits.ac.za/undergraduate/apply-to-wits/additional-requirements/ under Additional Requirements. Applicants who fail to submit a certificate of attendance will not be considered for admission."
+            ],
+            "rawRequirements": "English Home Language or First Additional Language: Level 5, Mathematics: Level 5, Life Sciences: Level 5, Physical Sciences: Level 5. All applicants must spend time observing specific procedures as performed by a Dentist/Dental Therapist/Oral Hygienist to gain insight into the profession. Applicants must complete a job shadowing certificate of attendance (minimum 16 hours). Only observation hours completed between 1 July 2025 and 31 July 2026 will be accepted. Please download the form from: www.wits.ac.za/undergraduate/apply-to-wits/additional-requirements/ under Additional Requirements. Applicants who fail to submit a certificate of attendance will not be considered for admission."
         },
         {
             "course_name": "Bachelor of Oral Health Sciences (BOHS)",
             "course_code": "",
             "duration": "3",
             "aps": "",
-            "required_subjects": []
+            "required_subjects": [
+                "English Home Language or First Additional Language: Level 4, Mathematics: Level 4, Life Sciences: Level 7, Physical Sciences: Level 4. All applicants to Bachelor of Dental Science and Bachelor of Oral Health Sciences must spend time observing specific procedures as performed by a Dentist/Dental Therapist/Oral Hygienist to gain insight into the profession. Applicants must complete a job shadowing certificate of attendance (minimum 16 hours). Only observation hours completed between 1 July 2025 and 31 July 2026 will be accepted. Please download the form from: www.wits.ac.za/undergraduate/apply-to-wits/additional-requirements/ under Additional Requirements. Applicants who fail to submit a certificate of attendance will not be considered for admission."
+            ],
+            "rawRequirements": "English Home Language or First Additional Language: Level 4, Mathematics: Level 4, Life Sciences: Level 7, Physical Sciences: Level 4. All applicants to Bachelor of Dental Science and Bachelor of Oral Health Sciences must spend time observing specific procedures as performed by a Dentist/Dental Therapist/Oral Hygienist to gain insight into the profession. Applicants must complete a job shadowing certificate of attendance (minimum 16 hours). Only observation hours completed between 1 July 2025 and 31 July 2026 will be accepted. Please download the form from: www.wits.ac.za/undergraduate/apply-to-wits/additional-requirements/ under Additional Requirements. Applicants who fail to submit a certificate of attendance will not be considered for admission."
         },
         {
             "course_name": "Bachelor of Nursing (BNurs)",
@@ -952,14 +958,20 @@
             "course_code": "",
             "duration": "4",
             "aps": "",
-            "required_subjects": []
+            "required_subjects": [
+                "English Home Language or First Additional Language: Level 4, Mathematics: Level 4, Life Sciences: Level 4, Physical Sciences: Level 4. All applicants to BSc Occupational Therapy must spend time observing an Occupational Therapist to gain insight into the profession. Applicants must complete a job shadowing certificate of attendance (minimum 16 hours). Only observation hours completed between 1 July 2025 and 31 July 2026 will be accepted. Please download the form from: www.wits.ac.za/undergraduate/apply-to-wits/additional-requirements/ under Additional Requirements. Applicants who fail to submit a certificate of attendance will not be considered for admission."
+            ],
+            "rawRequirements": "English Home Language or First Additional Language: Level 4, Mathematics: Level 4, Life Sciences: Level 4, Physical Sciences: Level 4. All applicants to BSc Occupational Therapy must spend time observing an Occupational Therapist to gain insight into the profession. Applicants must complete a job shadowing certificate of attendance (minimum 16 hours). Only observation hours completed between 1 July 2025 and 31 July 2026 will be accepted. Please download the form from: www.wits.ac.za/undergraduate/apply-to-wits/additional-requirements/ under Additional Requirements. Applicants who fail to submit a certificate of attendance will not be considered for admission."
         },
         {
             "course_name": "Bachelor of Science in Physiotherapy (BSc Physiotherapy)",
             "course_code": "",
             "duration": "4",
             "aps": "",
-            "required_subjects": []
+            "required_subjects": [
+                "English Home Language or First Additional Language: Level 5, Mathematics: Level 5, Life Sciences: Level 5, Physical Sciences: Level 5. All applicants to BSc Physiotherapy must spend time observing a Physiotherapist to gain insight into the profession. Applicants must complete a job shadowing certificate of attendance (minimum 16 hours). Only observation hours completed between 1 July 2025 and 31 July 2026 will be accepted. Please download the form from: www.wits.ac.za/undergraduate/apply-to-wits/additional-requirements/ under Additional Requirements. Applicants who fail to submit a certificate of attendance will not be considered for admission."
+            ],
+            "rawRequirements": "English Home Language or First Additional Language: Level 5, Mathematics: Level 5, Life Sciences: Level 5, Physical Sciences: Level 5. All applicants to BSc Physiotherapy must spend time observing a Physiotherapist to gain insight into the profession. Applicants must complete a job shadowing certificate of attendance (minimum 16 hours). Only observation hours completed between 1 July 2025 and 31 July 2026 will be accepted. Please download the form from: www.wits.ac.za/undergraduate/apply-to-wits/additional-requirements/ under Additional Requirements. Applicants who fail to submit a certificate of attendance will not be considered for admission."
         },
         {
             "course_name": "Bachelor of Health Sciences: (BHSci) Biomedical Sciences, Biokinetics, Health Systems Sciences",
@@ -1204,14 +1216,20 @@
             "course_code": "",
             "duration": "4",
             "aps": "34",
-            "required_subjects": []
+            "required_subjects": [
+                "English Home Language OR First Additional Language 5(60%+)"
+            ],
+            "rawRequirements": "English Home Language OR First Additional Language 5(60%+)"
         },
         {
             "course_name": "Bachelor of Arts in Film and Television",
             "course_code": "",
             "duration": "4",
             "aps": "34",
-            "required_subjects": []
+            "required_subjects": [
+                "English Home Language OR First Additional Language 5(60%+)"
+            ],
+            "rawRequirements": "English Home Language OR First Additional Language 5(60%+)"
         },
         {
             "course_name": "Intermediate Phase Teaching",
@@ -1266,14 +1284,20 @@
             "course_code": "",
             "duration": "4",
             "aps": "37",
-            "required_subjects": []
+            "required_subjects": [
+                "English Home Language OR First Additional Language 5(60%)"
+            ],
+            "rawRequirements": "English Home Language OR First Additional Language 5(60%)"
         },
         {
             "course_name": "Bachelor of Arts in Theatre and Performance",
             "course_code": "",
             "duration": "4",
             "aps": "34",
-            "required_subjects": []
+            "required_subjects": [
+                "English Home Language OR First Additional Language 5(60%+)"
+            ],
+            "rawRequirements": "English Home Language OR First Additional Language 5(60%+)"
         },
         {
             "course_name": "Bachelor of Arts",
@@ -1292,14 +1316,20 @@
             "course_code": "",
             "duration": "4",
             "aps": "34",
-            "required_subjects": []
+            "required_subjects": [
+                "English Home Language OR First Additional Language 5(60%), Mathematics 4(50%)"
+            ],
+            "rawRequirements": "English Home Language OR First Additional Language 5(60%), Mathematics 4(50%)"
         },
         {
             "course_name": "Bachelor of Music",
             "course_code": "",
             "duration": "4",
             "aps": "34",
-            "required_subjects": []
+            "required_subjects": [
+                "English Home Language OR First Additional Language 5(60%+)"
+            ],
+            "rawRequirements": "English Home Language OR First Additional Language 5(60%+)"
         },
         {
             "course_name": "Bachelor of Social Work",
@@ -1318,14 +1348,20 @@
             "course_code": "",
             "duration": "4",
             "aps": "36",
-            "required_subjects": []
+            "required_subjects": [
+                "English Home Language OR First Additional Language 5(60%+)"
+            ],
+            "rawRequirements": "English Home Language OR First Additional Language 5(60%+)"
         },
         {
             "course_name": "Bachelor of Audiology",
             "course_code": "",
             "duration": "4",
             "aps": "34",
-            "required_subjects": []
+            "required_subjects": [
+                "English Home Language OR First Additional Language 5(60%), Mathematics 4(50%)"
+            ],
+            "rawRequirements": "English Home Language OR First Additional Language 5(60%), Mathematics 4(50%)"
         }
     ],
     "FACULTY OF SCIENCE": [

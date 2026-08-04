@@ -5,7 +5,10 @@
             "course_code": "",
             "duration": "",
             "aps": "33",
-            "required_subjects": []
+            "required_subjects": [
+                "English Code 4 (home OR first additional language) Another language Code 3 (home OR first additional language) Maths Code 4 OR Maths Literacy Code 6 Life Sciences Code 4 OR Physical Sciences Code 4"
+            ],
+            "rawRequirements": "English Code 4 (home OR first additional language) Another language Code 3 (home OR first additional language) Maths Code 4 OR Maths Literacy Code 6 Life Sciences Code 4 OR Physical Sciences Code 4"
         },
         {
             "course_name": "BEd Languages (SP and FET) and Mathematics (SP)",
@@ -35,21 +38,30 @@
             "course_code": "",
             "duration": "",
             "aps": "33",
-            "required_subjects": []
+            "required_subjects": [
+                "English (home language) Code 4 OR English (first additional language) Code 5 AND Another language (home or first additional language) Code 4. Maths Code 3 OR Maths Literacy Code 5 Life Orientation Code 4"
+            ],
+            "rawRequirements": "English (home language) Code 4 OR English (first additional language) Code 5 AND Another language (home or first additional language) Code 4. Maths Code 3 OR Maths Literacy Code 5 Life Orientation Code 4"
         },
         {
             "course_name": "BEd Accounting (FET), Economic and Management Sciences (SP) and Mathematics (SP)",
             "course_code": "",
             "duration": "",
             "aps": "33",
-            "required_subjects": []
+            "required_subjects": [
+                "English Code 4 (home OR first additional language) Another language Code 3 (home OR first additional language) Maths Code 4 OR Maths Literacy Code 6 Accounting Code 4 OR Business Studies Code 4 OR Economics Code 4"
+            ],
+            "rawRequirements": "English Code 4 (home OR first additional language) Another language Code 3 (home OR first additional language) Maths Code 4 OR Maths Literacy Code 6 Accounting Code 4 OR Business Studies Code 4 OR Economics Code 4"
         },
         {
             "course_name": "BEd Languages (SP and FET) and Social Sciences (SP)",
             "course_code": "",
             "duration": "",
             "aps": "33",
-            "required_subjects": []
+            "required_subjects": [
+                "English (home language) Code 4 OR English (first additional language) Code 5 AND Another language (home or first additional language) Code 4. Maths Code 3 OR Maths Literacy Code 5 History Code 4 OR Geography Code 4"
+            ],
+            "rawRequirements": "English (home language) Code 4 OR English (first additional language) Code 5 AND Another language (home or first additional language) Code 4. Maths Code 3 OR Maths Literacy Code 5 History Code 4 OR Geography Code 4"
         },
         {
             "course_name": "BEd Foundation Phase Teaching",
@@ -205,7 +217,10 @@
             "course_code": "",
             "duration": "",
             "aps": "33",
-            "required_subjects": []
+            "required_subjects": [
+                "English Code 4 (home OR first additional language), Another language Code 3 (home OR first additional language), Maths Code 5 AND Physical Sciences OR Life Sciences OR Information Technology Code 4"
+            ],
+            "rawRequirements": "English Code 4 (home OR first additional language), Another language Code 3 (home OR first additional language), Maths Code 5 AND Physical Sciences OR Life Sciences OR Information Technology Code 4"
         },
         {
             "course_name": "BSc Physical Science",
@@ -264,7 +279,10 @@
             "course_code": "",
             "duration": "",
             "aps": "33",
-            "required_subjects": []
+            "required_subjects": [
+                "English Code 4 (home OR first additional language), Another language Code 3 (home OR first additional language), Maths Code 5 AND Physical Sciences OR Life Sciences OR Information Technology Code 4"
+            ],
+            "rawRequirements": "English Code 4 (home OR first additional language), Another language Code 3 (home OR first additional language), Maths Code 5 AND Physical Sciences OR Life Sciences OR Information Technology Code 4"
         },
         {
             "course_name": "Bachelor of Pharmacy",
@@ -335,7 +353,10 @@
             "course_code": "",
             "duration": "",
             "aps": "35",
-            "required_subjects": []
+            "required_subjects": [
+                "English Code 4 (home OR first additional language), Code 4 in another subject from the NSC subject list. Minimum of 35 UWC points. Maths Code 3 OR Maths Literacy Code 4 is required."
+            ],
+            "rawRequirements": "English Code 4 (home OR first additional language), Code 4 in another subject from the NSC subject list. Minimum of 35 UWC points. Maths Code 3 OR Maths Literacy Code 4 is required."
         }
     ],
     "FACULTY OF LAW": [
@@ -344,14 +365,20 @@
             "course_code": "",
             "duration": "4",
             "aps": "37",
-            "required_subjects": []
+            "required_subjects": [
+                "Minimum of 37 UWC points. Maths Code 3 OR Maths Literacy Code 5. English Code 4 (home OR first additional language). Another language Code 3 (home OR first additional language) *unless otherwise stated*."
+            ],
+            "rawRequirements": "Minimum of 37 UWC points. Maths Code 3 OR Maths Literacy Code 5. English Code 4 (home OR first additional language). Another language Code 3 (home OR first additional language) *unless otherwise stated*."
         },
         {
             "course_name": "Bachelor of Arts in Law - BA (Law) (3yr Prog)",
             "course_code": "",
             "duration": "3",
             "aps": "37",
-            "required_subjects": []
+            "required_subjects": [
+                "Minimum of 37 UWC points. Maths Code 3 OR Maths Literacy Code 5. English Code 4 (home OR first additional language). Another language Code 3 (home OR first additional language) *unless otherwise stated*."
+            ],
+            "rawRequirements": "Minimum of 37 UWC points. Maths Code 3 OR Maths Literacy Code 5. English Code 4 (home OR first additional language). Another language Code 3 (home OR first additional language) *unless otherwise stated*."
         },
         {
             "course_name": "B Com Law",
@@ -535,14 +562,20 @@
             "course_code": "",
             "duration": "",
             "aps": "33",
-            "required_subjects": []
+            "required_subjects": [
+                "Minimum of 33 UWC points. Maths Code 3 OR Maths Literacy Code 4. Life Sciences Code 4. English Code 4 (home OR first additional language). Another language Code 3 (home OR first additional language) *unless otherwise stated*."
+            ],
+            "rawRequirements": "Minimum of 33 UWC points. Maths Code 3 OR Maths Literacy Code 4. Life Sciences Code 4. English Code 4 (home OR first additional language). Another language Code 3 (home OR first additional language) *unless otherwise stated*."
         },
         {
             "course_name": "Bachelor of Dental Surgery (BDS)",
             "course_code": "",
             "duration": "",
             "aps": "40",
-            "required_subjects": []
+            "required_subjects": [
+                "Minimum of 40 UWC points. Maths Code 4. Physical Sciences AND Life Sciences Code 4. English Code 4 (home OR first additional language). Another language Code 3 (home OR first additional language) *unless otherwise stated*."
+            ],
+            "rawRequirements": "Minimum of 40 UWC points. Maths Code 4. Physical Sciences AND Life Sciences Code 4. English Code 4 (home OR first additional language). Another language Code 3 (home OR first additional language) *unless otherwise stated*."
         }
     ],
     "FACULTY OF ECONOMIC & MANAGEMENT SCIENCES": [
@@ -551,42 +584,60 @@
             "course_code": "",
             "duration": "4",
             "aps": "30",
-            "required_subjects": []
+            "required_subjects": [
+                "Minimum of 30 UWC points. Language requirements: English Code 3 AND Another language Code 3 (home OR first additional language). Subject requirements: Maths Code 3 AND Accounting Code 4 (Not required if an applicant has Mathematics at level 4)."
+            ],
+            "rawRequirements": "Minimum of 30 UWC points. Language requirements: English Code 3 AND Another language Code 3 (home OR first additional language). Subject requirements: Maths Code 3 AND Accounting Code 4 (Not required if an applicant has Mathematics at level 4)."
         },
         {
             "course_name": "BCom Information Systems",
             "course_code": "",
             "duration": "3",
             "aps": "30",
-            "required_subjects": []
+            "required_subjects": [
+                "Minimum of 30 UWC points. Language requirements: English Code 4 (home OR first additional language) AND Another language Code 3 (home OR first additional language). Subject requirements: Maths Code 4."
+            ],
+            "rawRequirements": "Minimum of 30 UWC points. Language requirements: English Code 4 (home OR first additional language) AND Another language Code 3 (home OR first additional language). Subject requirements: Maths Code 4."
         },
         {
             "course_name": "BCom Financial Accounting",
             "course_code": "",
             "duration": "3",
             "aps": "30",
-            "required_subjects": []
+            "required_subjects": [
+                "Minimum of 30 UWC points. Language requirements: English Code 4 (home OR first additional language) AND Another language Code 3 (home OR first additional language). Subject requirements: Maths Code 4."
+            ],
+            "rawRequirements": "Minimum of 30 UWC points. Language requirements: English Code 4 (home OR first additional language) AND Another language Code 3 (home OR first additional language). Subject requirements: Maths Code 4."
         },
         {
             "course_name": "BAdmin",
             "course_code": "",
             "duration": "3",
             "aps": "30",
-            "required_subjects": []
+            "required_subjects": [
+                "Minimum of 30 UWC points. Language requirements: English Code 4 (home OR first additional language) AND Another language Code 3 (home OR first additional language). Subject requirements: Maths Code 3 OR Maths Literacy Code 5."
+            ],
+            "rawRequirements": "Minimum of 30 UWC points. Language requirements: English Code 4 (home OR first additional language) AND Another language Code 3 (home OR first additional language). Subject requirements: Maths Code 3 OR Maths Literacy Code 5."
         },
         {
             "course_name": "BCom 4 years",
             "course_code": "",
             "duration": "4",
             "aps": "30",
-            "required_subjects": []
+            "required_subjects": [
+                "Minimum of 30 UWC points. Language requirements: English Code 3 AND Another language Code 3 (home OR first additional language). Subject requirements: Maths Code 2 OR Maths Literacy Code 6."
+            ],
+            "rawRequirements": "Minimum of 30 UWC points. Language requirements: English Code 3 AND Another language Code 3 (home OR first additional language). Subject requirements: Maths Code 2 OR Maths Literacy Code 6."
         },
         {
             "course_name": "BCom Accounting (3yrs)",
             "course_code": "",
             "duration": "3",
             "aps": "30",
-            "required_subjects": []
+            "required_subjects": [
+                "Minimum of 30 UWC points. Language requirements: English Code 4 (home OR first additional language) AND Another language Code 3 (home OR first additional language). Subject requirements: Maths Code 4 AND Accounting Code 5 (not required if an applicant has Mathematics Code 5)."
+            ],
+            "rawRequirements": "Minimum of 30 UWC points. Language requirements: English Code 4 (home OR first additional language) AND Another language Code 3 (home OR first additional language). Subject requirements: Maths Code 4 AND Accounting Code 5 (not required if an applicant has Mathematics Code 5)."
         }
     ]
 }
