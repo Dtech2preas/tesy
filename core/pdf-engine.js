@@ -134,7 +134,13 @@ export async function generateDtechPDF(options) {
         });
 
         // Finalize and save
-        await worker.save();
+        if (typeof AndroidApp !== 'undefined') {
+            await worker.toPdf().output('datauristring').then(function(pdfAsString) {
+                AndroidApp.saveBase64Pdf(pdfAsString, opt.filename);
+            });
+        } else {
+            await worker.save();
+        }
     } catch (e) {
         console.error("Error generating PDF:", e);
     } finally {
