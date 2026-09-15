@@ -1,5 +1,6 @@
 plugins {
     id 'com.android.application'
+    id 'org.jetbrains.kotlin.android'
 }
 
 android {
@@ -24,10 +25,40 @@ android {
         sourceCompatibility JavaVersion.VERSION_1_8
         targetCompatibility JavaVersion.VERSION_1_8
     }
+    kotlinOptions {
+        jvmTarget = '1.8'
+    }
 }
 
 dependencies {
     implementation 'androidx.appcompat:appcompat:1.6.1'
     implementation 'com.google.android.material:material:1.10.0'
     implementation 'androidx.constraintlayout:constraintlayout:2.1.4'
+    implementation 'androidx.swiperefreshlayout:swiperefreshlayout:1.1.0'
+    implementation 'androidx.core:core-splashscreen:1.0.1'
 }
+
+task copyWebAssets(type: Copy) {
+    description = 'Copies web files into Android assets directory for offline use'
+
+    // The source directory is the root of the project
+    from '../'
+
+    // Destination is the assets/www folder in the app
+    into 'src/main/assets/www'
+
+    // Include all necessary HTML, JS, CSS, and data files
+    include '*.html'
+    include '*.js'
+    include '*.css'
+    include 'core/**'
+    include 'universities/**'
+
+    // Exclude unnecessary files
+    exclude '**/test_*.js'
+    exclude '**/*.py'
+    exclude '**/*.md'
+}
+
+// Ensure assets are copied before the build process tries to package them
+preBuild.dependsOn copyWebAssets
