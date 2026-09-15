@@ -25,21 +25,30 @@ jobs:
     - name: Grant execute permission for gradlew
       run: chmod +x gradlew
 
-    - name: Decode Keystore
-      env:
-        ENCODED_STRING: ${{ secrets.SIGNING_KEY }}
-      run: echo "$ENCODED_STRING" | base64 --decode > keystore.jks
-
-    - name: Build with Gradle
-      env:
-        KEYSTORE_FILE: ${{ github.workspace }}/keystore.jks
-        KEYSTORE_PASSWORD: ${{ secrets.KEYSTORE_PASSWORD }}
-        ALIAS: ${{ secrets.ALIAS }}
-        KEY_PASSWORD: ${{ secrets.KEY_PASSWORD }}
+    - name: Build Release APK
       run: ./gradlew assembleRelease
+
+    - name: Setup Android Build Tools
+      run: |
+        export BUILD_TOOLS_VERSION="34.0.0"
+        echo "BUILD_TOOLS_VERSION=${BUILD_TOOLS_VERSION}" >> $GITHUB_ENV
+        # Create a symlink from default location that sign-android-release searches for to the one we actually have
+        sudo mkdir -p /usr/local/lib/android/sdk/build-tools/29.0.3/
+        sudo ln -sf /usr/local/lib/android/sdk/build-tools/34.0.0/zipalign /usr/local/lib/android/sdk/build-tools/29.0.3/zipalign
+        sudo ln -sf /usr/local/lib/android/sdk/build-tools/34.0.0/apksigner /usr/local/lib/android/sdk/build-tools/29.0.3/apksigner
+
+    - name: Sign App APK
+      uses: r0adkll/sign-android-release@v1
+      id: sign_app
+      with:
+        releaseDirectory: app/build/outputs/apk/release
+        signingKeyBase64: ${{ secrets.SIGNING_KEY }}
+        alias: ${{ secrets.ALIAS }}
+        keyStorePassword: ${{ secrets.KEYSTORE_PASSWORD }}
+        keyPassword: ${{ secrets.KEY_PASSWORD }}
 
     - name: Upload APK
       uses: actions/upload-artifact@v4
       with:
         name: dtech-uni-release-apk
-        path: app/build/outputs/apk/release/app-release.apk
+        path: ${{steps.sign_app.outputs.signedReleaseFile}}
