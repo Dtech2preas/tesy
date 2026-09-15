@@ -36,6 +36,7 @@ dependencies {
     implementation 'androidx.constraintlayout:constraintlayout:2.1.4'
     implementation 'androidx.swiperefreshlayout:swiperefreshlayout:1.1.0'
     implementation 'androidx.core:core-splashscreen:1.0.1'
+    implementation 'androidx.webkit:webkit:1.9.0'
 }
 
 task copyWebAssets(type: Copy) {
@@ -47,17 +48,23 @@ task copyWebAssets(type: Copy) {
     // Destination is the assets/www folder in the app
     into 'src/main/assets/www'
 
-    // Include all necessary HTML, JS, CSS, and data files
-    include '*.html'
-    include '*.js'
-    include '*.css'
-    include 'core/**'
-    include 'universities/**'
+    // Copy everything necessary for the web application
+    include '**/*'
 
-    // Exclude unnecessary files
-    exclude '**/test_*.js'
+    // Exclude Android source files, build folders, and python scripts
+    exclude 'app/**'
+    exclude '.git/**'
+    exclude '.github/**'
+    exclude 'gradle/**'
+    exclude 'build/**'
+    exclude 'node_modules/**'
     exclude '**/*.py'
     exclude '**/*.md'
+    exclude '**/test_*.js'
+    exclude 'build.gradle'
+    exclude 'settings.gradle'
+    exclude 'gradle.properties'
+    exclude 'gradlew*'
 }
 
 // Ensure assets are copied before the build process tries to package them

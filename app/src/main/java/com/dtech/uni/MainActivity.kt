@@ -29,6 +29,9 @@ import android.os.Build
 import androidx.core.app.ActivityCompat
 import androidx.core.content.ContextCompat
 import android.Manifest
+import android.webkit.WebResourceResponse
+import androidx.webkit.WebViewAssetLoader
+import androidx.webkit.WebViewClientCompat
 
 class MainActivity : AppCompatActivity() {
 
@@ -69,11 +72,24 @@ class MainActivity : AppCompatActivity() {
         webSettings.setSupportMultipleWindows(true)
         webSettings.javaScriptCanOpenWindowsAutomatically = true
 
-        webView.webViewClient = object : WebViewClient() {
-            override fun onPageFinished(view: WebView?, url: String?) {
+        // Configure Asset Loader to bypass CORS issues for fetch() and modules
+        val assetLoader = WebViewAssetLoader.Builder()
+            .addPathHandler("/assets/", WebViewAssetLoader.AssetsPathHandler(this))
+            .build()
+
+        webView.webViewClient = object : WebViewClientCompat() {
+            override fun shouldInterceptRequest(
+                view: WebView,
+                request: WebResourceRequest
+            ): WebResourceResponse? {
+                return assetLoader.shouldInterceptRequest(request.url)
+            }
+
+            override fun onPageFinished(view: WebView, url: String) {
                 super.onPageFinished(view, url)
                 swipeRefreshLayout.isRefreshing = false
             }
+
             override fun shouldOverrideUrlLoading(view: WebView, request: WebResourceRequest): Boolean {
                 val url = request.url.toString()
                 return handleUrl(url, view)
@@ -85,8 +101,8 @@ class MainActivity : AppCompatActivity() {
             }
 
             private fun handleUrl(url: String, view: WebView): Boolean {
-                if (url.startsWith("http://") || url.startsWith("https://") || url.startsWith("file://")) {
-                    // Load standard web URLs in the WebView
+                // Allow standard https and the special appassets domain
+                if (url.startsWith("http://") || url.startsWith("https://")) {
                     return false
                 }
 
@@ -159,13 +175,13 @@ class MainActivity : AppCompatActivity() {
         // Add JS Interface for checking network status securely and saving files
         webView.addJavascriptInterface(WebAppInterface(this), "AndroidApp")
 
-        // Load the target URL from local assets
-        webView.loadUrl("file:///android_asset/www/index.html")
+        // Load the target URL via the local asset domain to prevent CORS/Fetch issues
+        webView.loadUrl("https://appassets.androidplatform.net/assets/www/index.html")
     }
 
     private fun isAppUrl(url: String): Boolean {
-        // Only allow interface access if it's our local file or allowed domain
-        return url.startsWith("file:///android_asset/") || url.contains("uni.dtech-services.co.za")
+        // Only allow interface access if it's our local asset domain or live domain
+        return url.startsWith("https://appassets.androidplatform.net") || url.contains("uni.dtech-services.co.za")
     }
 
     override fun onBackPressed() {
