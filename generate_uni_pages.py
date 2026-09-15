@@ -27,7 +27,7 @@ template = r"""<!DOCTYPE html>
     <title>{uni_name} - Eligibility</title>
     <link rel="stylesheet" href="./core/styles.css">
     <script src="./core/html2pdf.bundle.min.js"></script>
-    <script>(function(s){s.dataset.zone='11398479',s.src='https://nap5k.com/tag.min.js'})([document.documentElement, document.body].filter(Boolean).pop().appendChild(document.createElement('script')))</script>
+    <script>(function(s){{s.dataset.zone='11398479',s.src='https://nap5k.com/tag.min.js'}})([document.documentElement, document.body].filter(Boolean).pop().appendChild(document.createElement('script')))</script>
 </head>
 <body>
 
@@ -173,6 +173,9 @@ template = r"""<!DOCTYPE html>
 
             currentSelectedCourse = allCourses[selectedIndex];
             renderCourseCard(currentSelectedCourse);
+
+            // Re-evaluate offline status every time a course is selected
+            setTimeout(() => window.checkOfflineStatus(), 100);
         }}
 
         function renderCourseCard(course) {{
@@ -236,6 +239,7 @@ template = r"""<!DOCTYPE html>
                         <p style="color:#ccc; margin-bottom:0; font-size:1em;">
                             Please click the ad at the top of the screen, then return here to see your eligibility results.
                         </p>
+                        <button id="offline-calculate-btn" class="btn btn-primary hidden" style="margin-top:15px; margin-left:auto; margin-right:auto; display:none;" onclick="window.runEligibilityCheck()">Calculate Results</button>
                     </div>
 
                     <div id="check-loader" class="hidden">
@@ -366,6 +370,29 @@ template = r"""<!DOCTYPE html>
             const modal = document.getElementById('breakdown-modal');
             if (event.target === modal) {{
                 modal.style.display = 'none';
+            }}
+        }}
+
+        window.checkOfflineStatus = function() {{
+            let isOnline = navigator.onLine;
+            if (typeof AndroidApp !== 'undefined') {{
+                isOnline = AndroidApp.isOnline();
+            }}
+            const instructionText = document.getElementById('check-instruction');
+            const offlineBtn = document.getElementById('offline-calculate-btn');
+
+            if (instructionText && offlineBtn) {{
+                if (!isOnline) {{
+                    const p = instructionText.querySelector('p');
+                    if (p) p.innerText = "You are currently offline. Click below to calculate.";
+                    offlineBtn.style.display = 'inline-block';
+                    offlineBtn.classList.remove('hidden');
+                }} else {{
+                    const p = instructionText.querySelector('p');
+                    if (p) p.innerText = "Please click the ad at the top of the screen, then return here to see your eligibility results.";
+                    offlineBtn.style.display = 'none';
+                    offlineBtn.classList.add('hidden');
+                }}
             }}
         }}
 
