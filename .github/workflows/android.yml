@@ -25,11 +25,22 @@ jobs:
     - name: Grant execute permission for gradlew
       run: chmod +x gradlew
 
+    - name: Decode Keystore
+      env:
+        ENCODED_STRING: ${{ secrets.SIGNING_KEY }}
+      run: |
+        echo "$ENCODED_STRING" > keystore-b64.txt
+        base64 -d keystore-b64.txt > keystore.jks
+
     - name: Build with Gradle
-      run: ./gradlew assembleDebug
+      env:
+        KEYSTORE_PASSWORD: ${{ secrets.KEYSTORE_PASSWORD }}
+        ALIAS: ${{ secrets.ALIAS }}
+        KEY_PASSWORD: ${{ secrets.KEY_PASSWORD }}
+      run: ./gradlew assembleRelease -Pandroid.injected.signing.store.file=$PWD/keystore.jks "-Pandroid.injected.signing.store.password=$KEYSTORE_PASSWORD" "-Pandroid.injected.signing.key.alias=$ALIAS" "-Pandroid.injected.signing.key.password=$KEY_PASSWORD"
 
     - name: Upload APK
       uses: actions/upload-artifact@v4
       with:
-        name: dtech-uni-debug-apk
-        path: app/build/outputs/apk/debug/app-debug.apk
+        name: dtech-uni-release-apk
+        path: app/build/outputs/apk/release/app-release.apk
