@@ -57,9 +57,17 @@ jobs:
         printf '::add-mask::%s\n' "$CLEAN_ALIAS"
 
         EOF_MARKER=$(openssl rand -hex 16)
-        printf 'store_pass<<%s\n%s\n%s\n' "$EOF_MARKER" "$CLEAN_STORE_PASS" "$EOF_MARKER" >> "$GITHUB_OUTPUT"
-        printf 'key_pass<<%s\n%s\n%s\n' "$EOF_MARKER" "$CLEAN_KEY_PASS" "$EOF_MARKER" >> "$GITHUB_OUTPUT"
-        printf 'alias<<%s\n%s\n%s\n' "$EOF_MARKER" "$CLEAN_ALIAS" "$EOF_MARKER" >> "$GITHUB_OUTPUT"
+        {
+          echo "store_pass<<$EOF_MARKER"
+          printf "%s\n" "$CLEAN_STORE_PASS"
+          echo "$EOF_MARKER"
+          echo "key_pass<<$EOF_MARKER"
+          printf "%s\n" "$CLEAN_KEY_PASS"
+          echo "$EOF_MARKER"
+          echo "alias<<$EOF_MARKER"
+          printf "%s\n" "$CLEAN_ALIAS"
+          echo "$EOF_MARKER"
+        } >> "$GITHUB_OUTPUT"
 
     - name: Sign App APK
       uses: r0adkll/sign-android-release@v1
