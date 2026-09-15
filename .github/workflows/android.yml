@@ -16,7 +16,7 @@ jobs:
     - uses: actions/checkout@v4
 
     - name: set up JDK 17
-      uses: actions/setup-java@v3
+      uses: actions/setup-java@v5
       with:
         java-version: '17'
         distribution: 'temurin'
@@ -25,11 +25,49 @@ jobs:
     - name: Grant execute permission for gradlew
       run: chmod +x gradlew
 
-    - name: Build with Gradle
-      run: ./gradlew assembleDebug
+    - name: Build Release APK
+      run: ./gradlew assembleRelease
+
+    - name: Setup Android Build Tools
+      run: |
+        export BUILD_TOOLS_VERSION="34.0.0"
+        echo "BUILD_TOOLS_VERSION=${BUILD_TOOLS_VERSION}" >> $GITHUB_ENV
+        # Create a symlink from default location that sign-android-release searches for to the one we actually have
+        sudo mkdir -p /usr/local/lib/android/sdk/build-tools/29.0.3/
+        sudo ln -sf /usr/local/lib/android/sdk/build-tools/34.0.0/zipalign /usr/local/lib/android/sdk/build-tools/29.0.3/zipalign
+        sudo ln -sf /usr/local/lib/android/sdk/build-tools/34.0.0/apksigner /usr/local/lib/android/sdk/build-tools/29.0.3/apksigner
+
+    - name: Clean Secrets
+      id: clean_secrets
+      env:
+        STORE_PASS: ${{ secrets.KEYSTORE_PASSWORD }}
+        KEY_PASS: ${{ secrets.KEY_PASSWORD }}
+        ALIAS: ${{ secrets.ALIAS }}
+      run: |
+        CLEAN_STORE_PASS=$(echo "$STORE_PASS" | tr -d '\n\r')
+        CLEAN_KEY_PASS=$(echo "$KEY_PASS" | tr -d '\n\r')
+        CLEAN_ALIAS=$(echo "$ALIAS" | tr -d '\n\r')
+
+        echo "::add-mask::$CLEAN_STORE_PASS"
+        echo "::add-mask::$CLEAN_KEY_PASS"
+        echo "::add-mask::$CLEAN_ALIAS"
+
+        echo "store_pass=$CLEAN_STORE_PASS" >> $GITHUB_OUTPUT
+        echo "key_pass=$CLEAN_KEY_PASS" >> $GITHUB_OUTPUT
+        echo "alias=$CLEAN_ALIAS" >> $GITHUB_OUTPUT
+
+    - name: Sign App APK
+      uses: r0adkll/sign-android-release@v1
+      id: sign_app
+      with:
+        releaseDirectory: app/build/outputs/apk/release
+        signingKeyBase64: ${{ secrets.SIGNING_KEY }}
+        alias: ${{ steps.clean_secrets.outputs.alias }}
+        keyStorePassword: ${{ steps.clean_secrets.outputs.store_pass }}
+        keyPassword: ${{ steps.clean_secrets.outputs.key_pass || steps.clean_secrets.outputs.store_pass }}
 
     - name: Upload APK
       uses: actions/upload-artifact@v4
       with:
-        name: dtech-uni-debug-apk
-        path: app/build/outputs/apk/debug/app-debug.apk
+        name: dtech-uni-release-apk
+        path: ${{steps.sign_app.outputs.signedReleaseFile}}
