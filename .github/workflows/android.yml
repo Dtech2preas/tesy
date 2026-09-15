@@ -32,18 +32,11 @@ jobs:
 
     - name: Build with Gradle
       env:
+        KEYSTORE_FILE: ${{ github.workspace }}/keystore.jks
         KEYSTORE_PASSWORD: ${{ secrets.KEYSTORE_PASSWORD }}
         ALIAS: ${{ secrets.ALIAS }}
         KEY_PASSWORD: ${{ secrets.KEY_PASSWORD }}
-      run: |
-        CLEAN_STORE_PASS=$(echo "$KEYSTORE_PASSWORD" | tr -d '\n\r')
-        CLEAN_ALIAS=$(echo "$ALIAS" | tr -d '\n\r')
-        CLEAN_KEY_PASS=$(echo "$KEY_PASSWORD" | tr -d '\n\r')
-        ./gradlew assembleRelease \
-          -Pandroid.injected.signing.store.file=$PWD/keystore.jks \
-          -Pandroid.injected.signing.store.password="${CLEAN_STORE_PASS}" \
-          -Pandroid.injected.signing.key.alias="${CLEAN_ALIAS}" \
-          -Pandroid.injected.signing.key.password="${CLEAN_KEY_PASS}"
+      run: ./gradlew assembleRelease
 
     - name: Upload APK
       uses: actions/upload-artifact@v4
