@@ -44,9 +44,13 @@ jobs:
         KEY_PASS: ${{ secrets.KEY_PASSWORD }}
         ALIAS: ${{ secrets.ALIAS }}
       run: |
-        CLEAN_STORE_PASS=$(echo "$STORE_PASS" | tr -d '\n\r')
-        CLEAN_KEY_PASS=$(echo "$KEY_PASS" | tr -d '\n\r')
-        CLEAN_ALIAS=$(echo "$ALIAS" | tr -d '\n\r')
+        CLEAN_STORE_PASS=$(printf '%s' "$STORE_PASS" | tr -d '\n\r')
+        CLEAN_KEY_PASS=$(printf '%s' "$KEY_PASS" | tr -d '\n\r')
+        CLEAN_ALIAS=$(printf '%s' "$ALIAS" | tr -d '\n\r')
+
+        if [ -z "$CLEAN_KEY_PASS" ]; then
+          CLEAN_KEY_PASS="$CLEAN_STORE_PASS"
+        fi
 
         echo "::add-mask::$CLEAN_STORE_PASS"
         echo "::add-mask::$CLEAN_KEY_PASS"
@@ -64,7 +68,7 @@ jobs:
         signingKeyBase64: ${{ secrets.SIGNING_KEY }}
         alias: ${{ steps.clean_secrets.outputs.alias }}
         keyStorePassword: ${{ steps.clean_secrets.outputs.store_pass }}
-        keyPassword: ${{ steps.clean_secrets.outputs.key_pass || steps.clean_secrets.outputs.store_pass }}
+        keyPassword: ${{ steps.clean_secrets.outputs.key_pass }}
 
     - name: Upload APK
       uses: actions/upload-artifact@v4
