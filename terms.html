@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Terms and Conditions - D-TECH uni check</title>
+    <link rel="stylesheet" href="core/styles.css">
+    <style>
+        .doc-container {
+            max-width: 800px;
+            margin: 40px auto;
+            padding: 20px;
+            background: var(--container-bg);
+            border-radius: var(--border-radius);
+            box-shadow: var(--shadow-md);
+        }
+        h1, h2 { color: var(--primary-accent); }
+    </style>
+</head>
+<body>
+    <div class="doc-container">
+        <h1>Terms and Conditions</h1>
+        <p>Last updated: <span id="date"></span></p>
+
+        <h2>1. Acceptance of Terms</h2>
+        <p>By downloading or using <strong>D-TECH uni check</strong>, these terms will automatically apply to you. You should make sure therefore that you read them carefully before using the app.</p>
+
+        <h2>2. Use of the App</h2>
+        <p>The app provides a tool to calculate your APS/FPS and check university eligibility based on public prospectus data. While we strive for accuracy, the results provided by this app are <strong>estimates and for informational purposes only</strong>. They do not guarantee admission to any university. Always refer to official university communications and prospectuses for final, binding requirements.</p>
+
+        <h2>3. Advertisements</h2>
+        <p>This app is ad-supported. By using the app, you agree to the display of third-party advertisements.</p>
+
+        <h2>4. Limitation of Liability</h2>
+        <p>We shall not be held liable for any decisions made based on the calculations or recommendations provided by this application. The developer is not responsible for any changes in university admission criteria that may not yet be reflected in the app's database.</p>
+
+        <br>
+        <a href="index.html" class="btn btn-outline" style="text-align: center; display: inline-block;">Return Home</a>
+    </div>
+    <script>document.getElementById('date').innerText = new Date().toLocaleDateString();</script>
+</body>
+</html>
