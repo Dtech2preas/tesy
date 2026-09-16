@@ -44,26 +44,28 @@ jobs:
         ALIGNED_APK_PATH="app/build/outputs/apk/release/app-release-unsigned-aligned.apk"
         SIGNED_APK_PATH="app/build/outputs/apk/release/app-release.apk"
 
-        # Clean up passwords (strip newlines just in case)
-        export CLEAN_STORE_PASS=$(printf '%s' "$STORE_PASS" | tr -d '\n\r')
-        export CLEAN_KEY_PASS=$(printf '%s' "$KEY_PASS" | tr -d '\n\r')
-        export CLEAN_ALIAS=$(printf '%s' "$ALIAS" | tr -d '\n\r')
-
-        if [ -z "$CLEAN_KEY_PASS" ]; then
-          export CLEAN_KEY_PASS="$CLEAN_STORE_PASS"
+        # Passwords file setup to avoid shell parsing completely
+        printf '%s' "$STORE_PASS" > store_pass.txt
+        if [ -z "$KEY_PASS" ]; then
+          printf '%s' "$STORE_PASS" > key_pass.txt
+        else
+          printf '%s' "$KEY_PASS" > key_pass.txt
         fi
 
         # Zipalign
         $ANDROID_HOME/build-tools/34.0.0/zipalign -v -p 4 "$APK_PATH" "$ALIGNED_APK_PATH"
 
-        # Apksigner
+        # Apksigner using file passes
         $ANDROID_HOME/build-tools/34.0.0/apksigner sign \
             --ks release.jks \
-            --ks-pass env:CLEAN_STORE_PASS \
-            --ks-key-alias "$CLEAN_ALIAS" \
-            --key-pass env:CLEAN_KEY_PASS \
+            --ks-pass file:store_pass.txt \
+            --ks-key-alias "$ALIAS" \
+            --key-pass file:key_pass.txt \
             --out "$SIGNED_APK_PATH" \
             "$ALIGNED_APK_PATH"
+
+        # Clean up sensitive files
+        rm store_pass.txt key_pass.txt
 
         echo "signedReleaseFile=$SIGNED_APK_PATH" >> "$GITHUB_OUTPUT"
 
