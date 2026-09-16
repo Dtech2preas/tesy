@@ -98,15 +98,17 @@ class MainActivity : AppCompatActivity() {
                 super.onPageFinished(view, url)
                 swipeRefreshLayout.isRefreshing = false
 
-                // Hide custom splash screen once webview is ready
+                // Hide custom splash screen once webview is ready, but keep it for at least 2 seconds
                 if (splashScreenLayout.visibility == View.VISIBLE) {
-                    splashScreenLayout.animate()
-                        .alpha(0f)
-                        .setDuration(500)
-                        .withEndAction {
-                            splashScreenLayout.visibility = View.GONE
-                        }
-                        .start()
+                    splashScreenLayout.postDelayed({
+                        splashScreenLayout.animate()
+                            .alpha(0f)
+                            .setDuration(500)
+                            .withEndAction {
+                                splashScreenLayout.visibility = View.GONE
+                            }
+                            .start()
+                    }, 2000)
                 }
             }
 
