@@ -464,7 +464,6 @@
         }
 
         window.recommendCourses = async function() {
-            window.openAd();
             const btn = document.getElementById('recommend-btn');
             const loader = document.getElementById('rec-loading');
             const container = document.getElementById('recommendations-container');
@@ -597,10 +596,6 @@
             const courseIdx = document.getElementById('what-if-course').value;
             const resultDiv = document.getElementById('what-if-result');
 
-            if (uniId && courseIdx !== '') {
-                window.openAd();
-            }
-
             if (!uniId || courseIdx === '') {
                 resultDiv.innerHTML = '<p style="color:var(--error-color);">Please select a university and course first.</p>';
                 return;
@@ -638,27 +633,12 @@
         window.editMarks = editMarks;
 
         window.downloadPDF = function(containerId, filename, title) {
-            window.openAd(); // Trigger ad as requested previously
             const element = document.getElementById(containerId);
             generateDtechPDF({
                 element: element,
                 filename: filename,
                 title: title
             });
-        };
-
-        window.openAd = function() {
-            let isOnline = navigator.onLine;
-            // Check native Android connection if available
-            if (typeof AndroidApp !== 'undefined') {
-                isOnline = AndroidApp.isOnline();
-            }
-
-            if (isOnline) {
-                window.open('https://omg10.com/4/11276842', '_blank');
-            } else {
-                console.log('User is offline. Skipping ad.');
-            }
         };
 
         window.onload = loadInitialSubjects;
