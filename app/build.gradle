@@ -4,11 +4,11 @@ plugins {
 }
 
 android {
-    namespace 'com.dtech.uni'
+    namespace 'com.dtechx24.uni'
     compileSdk 36
 
     defaultConfig {
-        applicationId "com.dtech.uni"
+        applicationId "com.dtechx24.uni"
         minSdk 21
         targetSdk 36
         versionCode 3

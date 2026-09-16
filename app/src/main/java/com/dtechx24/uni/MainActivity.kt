@@ -1,4 +1,4 @@
-package com.dtech.uni
+package com.dtechx24.uni
 
 import android.annotation.SuppressLint
 import android.content.Intent
