@@ -22,6 +22,7 @@
   },
   "homepage": "https://github.com/Dtech2preas/tesy#readme",
   "dependencies": {
-    "cheerio": "^1.2.0"
+    "cheerio": "^1.2.0",
+    "puppeteer": "^25.11.0"
   }
 }

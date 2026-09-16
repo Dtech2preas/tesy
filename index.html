@@ -29,6 +29,8 @@
             <em>Note: Life Orientation is automatically excluded from your total APS/FPS score.</em>
         </p>
 
+        <datalist id="subjects-list"></datalist>
+
         <div id="subjects-container">
             <!-- Rows will be injected here -->
         </div>
@@ -213,14 +215,26 @@
             uniSelect.innerHTML = uniOptions;
         }
 
-        function populateDropdowns(selectElement, selectedValue = '') {
-            let sortedSubjects = Array.from(availableSubjects).sort();
-            let optionsHtml = '<option value="">Select a Subject...</option>';
-            sortedSubjects.forEach(sub => {
-                let selected = (sub === selectedValue) ? 'selected' : '';
-                optionsHtml += `<option value="${sub}" ${selected}>${sub}</option>`;
+        function updateDatalist(currentInput) {
+            const datalist = document.getElementById('subjects-list');
+            if (!datalist) return;
+
+            const allInputs = document.querySelectorAll('.subject-select-input');
+            let otherSelected = new Set();
+            allInputs.forEach(input => {
+                if (input !== currentInput && input.value) {
+                    otherSelected.add(input.value);
+                }
             });
-            selectElement.innerHTML = optionsHtml;
+
+            let sortedSubjects = Array.from(availableSubjects).sort();
+            let optionsHtml = '';
+            sortedSubjects.forEach(sub => {
+                if (!otherSelected.has(sub)) {
+                    optionsHtml += `<option value="${sub}"></option>`;
+                }
+            });
+            datalist.innerHTML = optionsHtml;
         }
 
         function addSubjectRow(savedName = '', savedPercentage = '', savedLevel = '') {
@@ -235,8 +249,8 @@
 
             row.innerHTML = `
                 <div class="floating-group subject-card-select">
-                    <select class="floating-input" onchange="updateRowLevel(this.closest('.subject-card'))"></select>
-                    <label class="floating-label">Subject</label>
+                    <input type="text" class="floating-input subject-select-input" list="subjects-list" placeholder=" " value="${savedName}" onchange="updateRowLevel(this.closest('.subject-card'))" oninput="updateRowLevel(this.closest('.subject-card'))" onfocus="updateDatalist(this)">
+                    <label class="floating-label">Search Subject</label>
                 </div>
                 <div class="floating-group subject-card-perc">
                     <input type="number" class="floating-input" placeholder=" " min="0" max="100" value="${savedPercentage}" oninput="updateRowLevel(this.closest('.subject-card'))">
@@ -253,11 +267,10 @@
                 </div>
             `;
 
-            populateDropdowns(row.querySelector('select'), savedName);
             container.appendChild(row);
             subjectCount++;
 
-            if (savedPercentage) updateRowLevel(row);
+            if (savedName || savedPercentage) updateRowLevel(row);
         }
 
         function removeSubjectRow(btn) {
@@ -277,9 +290,22 @@
         }
 
         function updateRowLevel(row) {
+            const subjectInput = row.querySelector('.subject-select-input');
             const percInput = row.querySelector('input[type="number"]');
             const levelInput = row.querySelector('input[readonly]');
             const perc = parseInt(percInput.value, 10);
+
+            if (subjectInput) {
+                if (subjectInput.value && !availableSubjects.has(subjectInput.value)) {
+                    subjectInput.classList.add('invalid');
+                    subjectInput.classList.remove('valid');
+                } else if (subjectInput.value) {
+                    subjectInput.classList.add('valid');
+                    subjectInput.classList.remove('invalid');
+                } else {
+                    subjectInput.classList.remove('valid', 'invalid');
+                }
+            }
 
             percInput.classList.remove('valid', 'invalid');
 
@@ -362,11 +388,12 @@
             let marks = [];
 
             rows.forEach(row => {
-                const subject = row.querySelector('select').value;
+                const subjectInput = row.querySelector('.subject-select-input');
+                const subject = subjectInput ? subjectInput.value : '';
                 const percentage = parseInt(row.querySelector('input[type="number"]').value, 10);
                 const level = parseInt(row.querySelector('input[readonly]').value, 10);
 
-                if (subject && !isNaN(percentage) && !isNaN(level)) {
+                if (subject && availableSubjects.has(subject) && !isNaN(percentage) && !isNaN(level)) {
                     marks.push({ subject, percentage, level });
                 }
             });
@@ -631,6 +658,7 @@
         window.updateRowLevel = updateRowLevel;
         window.removeSubjectRow = removeSubjectRow;
         window.editMarks = editMarks;
+        window.updateDatalist = updateDatalist;
 
         window.downloadPDF = function(containerId, filename, title) {
             const element = document.getElementById(containerId);

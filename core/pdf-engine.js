@@ -135,9 +135,8 @@ export async function generateDtechPDF(options) {
 
         // Finalize and save
         if (typeof AndroidApp !== 'undefined') {
-            await worker.toPdf().output('datauristring').then(function(pdfAsString) {
-                AndroidApp.saveBase64Pdf(pdfAsString, opt.filename);
-            });
+            const pdfAsString = await worker.outputPdf('datauristring');
+            AndroidApp.saveBase64Pdf(pdfAsString, opt.filename);
         } else {
             await worker.save();
         }

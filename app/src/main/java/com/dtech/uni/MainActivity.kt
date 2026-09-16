@@ -196,9 +196,8 @@ class MainActivity : AppCompatActivity() {
         super.onRequestPermissionsResult(requestCode, permissions, grantResults)
         if (requestCode == 100) {
             if (grantResults.isNotEmpty() && grantResults[0] == PackageManager.PERMISSION_GRANTED) {
-                // Find the interface instance and execute the save
-                // (In a production app you might store the interface instance as a class member)
                 // For now, we assume the user will just click download again if it fails here
+                Toast.makeText(this, "Permission granted, please click download again.", Toast.LENGTH_SHORT).show()
             } else {
                 Toast.makeText(this, "Permission denied to save PDF.", Toast.LENGTH_SHORT).show()
             }
@@ -221,8 +220,6 @@ class MainActivity : AppCompatActivity() {
             }
         }
 
-        private var pendingPdfBase64: String? = null
-        private var pendingPdfFilename: String? = null
 
         @JavascriptInterface
         fun saveBase64Pdf(base64String: String, filename: String) {
@@ -231,8 +228,6 @@ class MainActivity : AppCompatActivity() {
             // Request runtime permissions on older Android versions
             if (Build.VERSION.SDK_INT <= Build.VERSION_CODES.P &&
                 ContextCompat.checkSelfPermission(mContext, Manifest.permission.WRITE_EXTERNAL_STORAGE) != PackageManager.PERMISSION_GRANTED) {
-                pendingPdfBase64 = base64String
-                pendingPdfFilename = filename
                 ActivityCompat.requestPermissions(
                     mContext as AppCompatActivity,
                     arrayOf(Manifest.permission.WRITE_EXTERNAL_STORAGE),
