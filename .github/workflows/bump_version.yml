@@ -1,0 +1,45 @@
+name: Auto Bump Version
+
+on:
+  push:
+    branches:
+      - main
+      - master
+    paths-ignore:
+      - 'package.json'
+      - 'app/build.gradle'
+
+jobs:
+  bump-version:
+    runs-on: ubuntu-latest
+    permissions:
+      contents: write
+    if: "!startsWith(github.event.head_commit.message, 'chore: bump version')"
+
+    steps:
+      - name: Checkout code
+        uses: actions/checkout@v4
+        with:
+          token: ${{ secrets.GITHUB_TOKEN }}
+
+      - name: Setup Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.x'
+
+      - name: Run version bump script
+        id: bump
+        env:
+          COMMIT_MSG: ${{ github.event.head_commit.message }}
+        run: |
+          python .github/scripts/bump_version.py "$COMMIT_MSG"
+
+      - name: Commit and push changes
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        run: |
+          git config --global user.name "github-actions[bot]"
+          git config --global user.email "github-actions[bot]@users.noreply.github.com"
+          if [ -f package.json ]; then git add package.json; fi
+          if [ -f app/build.gradle ]; then git add app/build.gradle; fi
+          git diff --staged --quiet || (git commit -m "chore: bump version to ${{ steps.bump.outputs.new_version }} [skip ci]" && git push origin HEAD:${{ github.ref }})
