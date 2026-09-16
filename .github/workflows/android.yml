@@ -28,43 +28,46 @@ jobs:
     - name: Build Release APK
       run: ./gradlew assembleRelease
 
-    - name: Setup Android Build Tools
-      run: |
-        export BUILD_TOOLS_VERSION="34.0.0"
-        echo "BUILD_TOOLS_VERSION=${BUILD_TOOLS_VERSION}" >> $GITHUB_ENV
-        # Create a symlink from default location that sign-android-release searches for to the one we actually have
-        sudo mkdir -p /usr/local/lib/android/sdk/build-tools/29.0.3/
-        sudo ln -sf /usr/local/lib/android/sdk/build-tools/34.0.0/zipalign /usr/local/lib/android/sdk/build-tools/29.0.3/zipalign
-        sudo ln -sf /usr/local/lib/android/sdk/build-tools/34.0.0/apksigner /usr/local/lib/android/sdk/build-tools/29.0.3/apksigner
-
-    - name: Clean Secrets
-      id: clean_secrets
+    - name: Sign APK manually
+      id: sign_app
       env:
+        SIGNING_KEY: ${{ secrets.SIGNING_KEY }}
         STORE_PASS: ${{ secrets.KEYSTORE_PASSWORD }}
         KEY_PASS: ${{ secrets.KEY_PASSWORD }}
         ALIAS: ${{ secrets.ALIAS }}
       run: |
-        CLEAN_STORE_PASS=$(echo "$STORE_PASS" | tr -d '\n\r')
-        CLEAN_KEY_PASS=$(echo "$KEY_PASS" | tr -d '\n\r')
-        CLEAN_ALIAS=$(echo "$ALIAS" | tr -d '\n\r')
+        # Decode Keystore
+        echo "$SIGNING_KEY" | base64 --decode > release.jks
 
-        echo "::add-mask::$CLEAN_STORE_PASS"
-        echo "::add-mask::$CLEAN_KEY_PASS"
-        echo "::add-mask::$CLEAN_ALIAS"
+        # Determine exact paths
+        APK_PATH="app/build/outputs/apk/release/app-release-unsigned.apk"
+        ALIGNED_APK_PATH="app/build/outputs/apk/release/app-release-unsigned-aligned.apk"
+        SIGNED_APK_PATH="app/build/outputs/apk/release/app-release.apk"
 
-        echo "store_pass=$CLEAN_STORE_PASS" >> $GITHUB_OUTPUT
-        echo "key_pass=$CLEAN_KEY_PASS" >> $GITHUB_OUTPUT
-        echo "alias=$CLEAN_ALIAS" >> $GITHUB_OUTPUT
+        # Passwords file setup to avoid shell parsing completely
+        printf '%s' "$STORE_PASS" > store_pass.txt
+        if [ -z "$KEY_PASS" ]; then
+          printf '%s' "$STORE_PASS" > key_pass.txt
+        else
+          printf '%s' "$KEY_PASS" > key_pass.txt
+        fi
 
-    - name: Sign App APK
-      uses: r0adkll/sign-android-release@v1
-      id: sign_app
-      with:
-        releaseDirectory: app/build/outputs/apk/release
-        signingKeyBase64: ${{ secrets.SIGNING_KEY }}
-        alias: ${{ steps.clean_secrets.outputs.alias }}
-        keyStorePassword: ${{ steps.clean_secrets.outputs.store_pass }}
-        keyPassword: ${{ steps.clean_secrets.outputs.key_pass || steps.clean_secrets.outputs.store_pass }}
+        # Zipalign
+        $ANDROID_HOME/build-tools/34.0.0/zipalign -v -p 4 "$APK_PATH" "$ALIGNED_APK_PATH"
+
+        # Apksigner using file passes
+        $ANDROID_HOME/build-tools/34.0.0/apksigner sign \
+            --ks release.jks \
+            --ks-pass file:store_pass.txt \
+            --ks-key-alias "$ALIAS" \
+            --key-pass file:key_pass.txt \
+            --out "$SIGNED_APK_PATH" \
+            "$ALIGNED_APK_PATH"
+
+        # Clean up sensitive files
+        rm store_pass.txt key_pass.txt
+
+        echo "signedReleaseFile=$SIGNED_APK_PATH" >> "$GITHUB_OUTPUT"
 
     - name: Upload APK
       uses: actions/upload-artifact@v4
