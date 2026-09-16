@@ -7,8 +7,8 @@
     @android.webkit.JavascriptInterface <methods>;
 }
 -keepattributes JavascriptInterface
--keep public class com.dtech.uni.MainActivity$WebAppInterface
--keep public class * implements com.dtech.uni.MainActivity$WebAppInterface
--keepclassmembers class com.dtech.uni.MainActivity$WebAppInterface {
+-keep public class com.dtechx24.uni.MainActivity$WebAppInterface
+-keep public class * implements com.dtechx24.uni.MainActivity$WebAppInterface
+-keepclassmembers class com.dtechx24.uni.MainActivity$WebAppInterface {
     <methods>;
 }

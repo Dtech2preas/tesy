@@ -70,7 +70,7 @@ These files are the structured data representing the admission requirements for 
 ### Android Application Wrapper (`app/` directory)
 The web application is made available as a native Android app using a WebView container.
 
-*   **`app/src/main/java/com/dtech/uni/MainActivity.java`**
+*   **`app/src/main/java/com/dtechx24/uni/MainActivity.kt`**
     *   **Purpose:** The main entry point for the Android app.
     *   **Functionality:**
         *   Sets up an Android `WebView` pointing to the hosted URL of the application (`https://uni.dtech-services.co.za`).
