@@ -25,8 +25,10 @@ jobs:
     - name: Grant execute permission for gradlew
       run: chmod +x gradlew
 
-    - name: Build Release APK
-      run: ./gradlew assembleRelease
+    - name: Build Release APK and AAB
+      run: |
+        ./gradlew assembleRelease
+        ./gradlew bundleRelease
 
     - name: Setup Android Build Tools
       run: |
@@ -43,6 +45,7 @@ jobs:
         STORE_PASS: ${{ secrets.KEYSTORE_PASSWORD }}
         KEY_PASS: ${{ secrets.KEY_PASSWORD }}
         ALIAS: ${{ secrets.ALIAS }}
+        SIGNING_KEY: ${{ secrets.SIGNING_KEY }}
       run: |
         CLEAN_STORE_PASS=$(echo "$STORE_PASS" | tr -d '\n\r')
         CLEAN_KEY_PASS=$(echo "$KEY_PASS" | tr -d '\n\r')
@@ -56,6 +59,9 @@ jobs:
         echo "key_pass=$CLEAN_KEY_PASS" >> $GITHUB_OUTPUT
         echo "alias=$CLEAN_ALIAS" >> $GITHUB_OUTPUT
 
+        # Save keystore to file
+        echo "$SIGNING_KEY" | base64 --decode > keystore.jks
+
     - name: Sign App APK
       uses: r0adkll/sign-android-release@v1
       id: sign_app
@@ -66,8 +72,20 @@ jobs:
         keyStorePassword: ${{ steps.clean_secrets.outputs.store_pass }}
         keyPassword: ${{ steps.clean_secrets.outputs.key_pass || steps.clean_secrets.outputs.store_pass }}
 
-    - name: Upload APK
+    - name: Sign AAB
+      id: sign_aab
+      env:
+        STORE_PASS: ${{ steps.clean_secrets.outputs.store_pass }}
+        KEY_PASS: ${{ steps.clean_secrets.outputs.key_pass || steps.clean_secrets.outputs.store_pass }}
+        ALIAS: ${{ steps.clean_secrets.outputs.alias }}
+      run: |
+        jarsigner -keystore keystore.jks -storepass "$STORE_PASS" -keypass "$KEY_PASS" app/build/outputs/bundle/release/app-release.aab "$ALIAS"
+        echo "signed_aab=app/build/outputs/bundle/release/app-release.aab" >> $GITHUB_OUTPUT
+
+    - name: Upload APK and AAB
       uses: actions/upload-artifact@v4
       with:
-        name: dtech-uni-release-apk
-        path: ${{steps.sign_app.outputs.signedReleaseFile}}
+        name: dtech-uni-release
+        path: |
+          ${{steps.sign_app.outputs.signedReleaseFile}}
+          ${{steps.sign_aab.outputs.signed_aab}}

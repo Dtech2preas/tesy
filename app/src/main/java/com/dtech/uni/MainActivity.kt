@@ -32,6 +32,9 @@ import android.Manifest
 import android.webkit.WebResourceResponse
 import androidx.webkit.WebViewAssetLoader
 import androidx.webkit.WebViewClientCompat
+import android.view.View
+import android.view.animation.AnimationUtils
+import android.widget.ImageView
 
 class MainActivity : AppCompatActivity() {
 
@@ -46,6 +49,12 @@ class MainActivity : AppCompatActivity() {
 
         swipeRefreshLayout = findViewById(R.id.swipe_refresh)
         webView = findViewById(R.id.webview)
+
+        // Setup custom splash animation
+        val splashScreenLayout = findViewById<View>(R.id.splash_screen_layout)
+        val waveBackground = findViewById<ImageView>(R.id.wave_background)
+        val waveAnimation = AnimationUtils.loadAnimation(this, R.anim.wave_animation)
+        waveBackground.startAnimation(waveAnimation)
         val webSettings: WebSettings = webView.settings
 
         // Enable JavaScript
@@ -88,6 +97,17 @@ class MainActivity : AppCompatActivity() {
             override fun onPageFinished(view: WebView, url: String) {
                 super.onPageFinished(view, url)
                 swipeRefreshLayout.isRefreshing = false
+
+                // Hide custom splash screen once webview is ready
+                if (splashScreenLayout.visibility == View.VISIBLE) {
+                    splashScreenLayout.animate()
+                        .alpha(0f)
+                        .setDuration(500)
+                        .withEndAction {
+                            splashScreenLayout.visibility = View.GONE
+                        }
+                        .start()
+                }
             }
 
             override fun shouldOverrideUrlLoading(view: WebView, request: WebResourceRequest): Boolean {
