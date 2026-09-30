@@ -126,11 +126,11 @@
         <div style="display:flex; gap:10px; flex-wrap:wrap;">
             <div class="floating-group" style="flex:1; min-width: 200px;">
                 <select id="what-if-uni" class="floating-input" onchange="loadWhatIfCourses()"></select>
-                <label class="floating-label">Target University</label>
+                <label class="floating-label" for="what-if-uni">Target University</label>
             </div>
             <div class="floating-group" style="flex:1; min-width: 200px;">
                 <select id="what-if-course" class="floating-input" disabled></select>
-                <label class="floating-label">Target Course</label>
+                <label class="floating-label" for="what-if-course">Target Course</label>
             </div>
         </div>
         <button class="btn btn-outline btn-block" style="margin-top:10px;" type="button" onclick="calculateWhatIf()">
@@ -236,6 +236,8 @@
             datalist.innerHTML = optionsHtml;
         }
 
+        let globalRowId = 0;
+
         function addSubjectRow(savedName = '', savedPercentage = '', savedLevel = '') {
             if (subjectCount >= maxSubjects) {
                 alert('Maximum of 7 subjects allowed.');
@@ -246,21 +248,23 @@
             const row = document.createElement('div');
             row.className = 'subject-card';
 
+            const rowId = globalRowId++;
+
             row.innerHTML = `
                 <div class="floating-group subject-card-select">
-                    <input type="text" class="floating-input subject-select-input" list="subjects-list" placeholder=" " value="${savedName}" onchange="updateRowLevel(this.closest('.subject-card'))" oninput="updateRowLevel(this.closest('.subject-card'))" onfocus="updateDatalist(this)">
-                    <label class="floating-label">Search Subject</label>
+                    <input type="text" id="subject-name-${rowId}" class="floating-input subject-select-input" list="subjects-list" placeholder=" " value="${savedName}" onchange="updateRowLevel(this.closest('.subject-card'))" oninput="updateRowLevel(this.closest('.subject-card'))" onfocus="updateDatalist(this)">
+                    <label class="floating-label" for="subject-name-${rowId}">Search Subject</label>
                 </div>
                 <div class="floating-group subject-card-perc">
-                    <input type="number" class="floating-input" placeholder=" " min="0" max="100" value="${savedPercentage}" oninput="updateRowLevel(this.closest('.subject-card'))">
-                    <label class="floating-label">Percentage</label>
+                    <input type="number" id="subject-perc-${rowId}" class="floating-input" placeholder=" " min="0" max="100" value="${savedPercentage}" oninput="updateRowLevel(this.closest('.subject-card'))">
+                    <label class="floating-label" for="subject-perc-${rowId}">Percentage</label>
                 </div>
                 <div class="floating-group subject-card-level">
-                    <input type="text" class="floating-input" placeholder=" " value="${savedLevel}" readonly title="APS Level">
-                    <label class="floating-label">Level</label>
+                    <input type="text" id="subject-level-${rowId}" class="floating-input" placeholder=" " value="${savedLevel}" readonly title="APS Level">
+                    <label class="floating-label" for="subject-level-${rowId}">Level</label>
                 </div>
                 <div class="subject-card-action">
-                    <button type="button" class="btn btn-danger" onclick="removeSubjectRow(this)" title="Remove Subject">
+                    <button type="button" class="btn btn-danger" onclick="removeSubjectRow(this)" title="Remove Subject" aria-label="Remove Subject">
                         <svg class="icon" viewBox="0 0 24 24"><path d="M6 19c0 1.1.9 2 2 2h8c1.1 0 2-.9 2-2V7H6v12zM19 4h-3.5l-1-1h-5l-1 1H5v2h14V4z"/></svg>
                     </button>
                 </div>
@@ -503,17 +507,15 @@
             const userAps = parseInt(localStorage.getItem('userAps') || '0', 10);
             const userFps = parseInt(localStorage.getItem('userFps') || '0', 10);
 
-            // ⚡ Bolt Optimization: Load and evaluate all universities concurrently
-            const uniPromises = universitiesList.map(async (uni) => {
+            for (const uni of universitiesList) {
                 try {
                     const uniEngine = await UniversityLoader.load(uni.id);
                     const courses = uniEngine.getCourses();
-                    const evaluated = [];
 
                     courses.forEach(course => {
                         let result = uniEngine.calculateEligibility(course, userMarks, userAps, userFps);
                         if (result.likelihood >= 60) {
-                            evaluated.push({
+                            allEvaluatedCourses.push({
                                 course_name: course.course_name,
                                 uni_name: uni.name,
                                 likelihood: result.likelihood,
@@ -521,15 +523,10 @@
                             });
                         }
                     });
-                    return evaluated;
                 } catch(e) {
                     console.error("Failed to load " + uni.id, e);
-                    return [];
                 }
-            });
-
-            const results = await Promise.all(uniPromises);
-            results.forEach(evaluated => allEvaluatedCourses.push(...evaluated));
+            }
 
             allEvaluatedCourses.sort((a, b) => b.likelihood - a.likelihood);
 
