@@ -503,15 +503,17 @@
             const userAps = parseInt(localStorage.getItem('userAps') || '0', 10);
             const userFps = parseInt(localStorage.getItem('userFps') || '0', 10);
 
-            for (const uni of universitiesList) {
+            // ⚡ Bolt Optimization: Load and evaluate all universities concurrently
+            const uniPromises = universitiesList.map(async (uni) => {
                 try {
                     const uniEngine = await UniversityLoader.load(uni.id);
                     const courses = uniEngine.getCourses();
+                    const evaluated = [];
 
                     courses.forEach(course => {
                         let result = uniEngine.calculateEligibility(course, userMarks, userAps, userFps);
                         if (result.likelihood >= 60) {
-                            allEvaluatedCourses.push({
+                            evaluated.push({
                                 course_name: course.course_name,
                                 uni_name: uni.name,
                                 likelihood: result.likelihood,
@@ -519,10 +521,15 @@
                             });
                         }
                     });
+                    return evaluated;
                 } catch(e) {
                     console.error("Failed to load " + uni.id, e);
+                    return [];
                 }
-            }
+            });
+
+            const results = await Promise.all(uniPromises);
+            results.forEach(evaluated => allEvaluatedCourses.push(...evaluated));
 
             allEvaluatedCourses.sort((a, b) => b.likelihood - a.likelihood);
 
