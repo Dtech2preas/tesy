@@ -11,7 +11,23 @@ export function calculateStandardLikelihood(course, userMarks, userAps, userFps,
         let currentGroup = [];
         for (let i = 0; i < course.required_subjects.length; i++) {
             let req = course.required_subjects[i];
-            if (!req.subject || isGarbage(req.subject)) continue;
+
+            if (Array.isArray(req)) {
+                let validReqs = req.filter(r => {
+                    let s = typeof r === 'object' ? r.subject : r;
+                    return s && !isGarbage(s);
+                }).map(r => typeof r === 'string' ? { subject: r } : r);
+
+                if (validReqs.length > 0) {
+                    if (currentGroup.length > 0) groupedReqs.push(currentGroup);
+                    groupedReqs.push(validReqs);
+                    currentGroup = [];
+                }
+                continue;
+            }
+
+            if (typeof req === 'string') req = { subject: req };
+            if (!req || !req.subject || isGarbage(req.subject)) continue;
 
             if (isAdditionalSubject(req.subject)) {
                 additionalRequirements.push(req);
@@ -19,14 +35,21 @@ export function calculateStandardLikelihood(course, userMarks, userAps, userFps,
             }
 
             let sLower = req.subject.toLowerCase().trim();
-            if (sLower.startsWith('or ') || sLower.includes(' or ')) {
-                if (sLower.startsWith('or ')) {
-                    req.subject = req.subject.substring(3).trim();
-                }
-                if (currentGroup.length === 0 && groupedReqs.length > 0) {
-                    groupedReqs[groupedReqs.length - 1].push(req);
-                } else {
-                    currentGroup.push(req);
+            if (sLower.startsWith('or ') || sLower.includes(' or ') || sLower.includes(' / ')) {
+                // We need to split the string into actual separate items so checkSubjectMatch can evaluate them individually
+                let parts = req.subject.split(/\s+or\s+|\s+OR\s+|\s+\/\s+/);
+
+                // If it started with "or ", the first part might be empty
+                let validParts = parts.filter(p => p.trim() && !isGarbage(p));
+
+                if (validParts.length > 0) {
+                    let newReqs = validParts.map(p => { return { ...req, subject: p.trim() }; });
+
+                    if (currentGroup.length === 0 && groupedReqs.length > 0) {
+                        groupedReqs[groupedReqs.length - 1].push(...newReqs);
+                    } else {
+                        currentGroup.push(...newReqs);
+                    }
                 }
             } else {
                 if (currentGroup.length > 0) {

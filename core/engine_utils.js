@@ -21,9 +21,10 @@ export function checkSubjectMatch(reqSubjectName, userMarks, helperData) {
         if (!matchedMainSubject) {
             for (const mainSub in helperData) {
                 let altFound = false;
+                let mainLower = mainSub.toLowerCase().trim();
                 for (const altName of helperData[mainSub]) {
                     let altLower = altName.toLowerCase().trim();
-                    if (reqLower.includes(altLower) || altLower.includes(reqLower)) {
+                    if (reqLower.includes(altLower) || altLower.includes(reqLower) || reqLower.includes(mainLower) || mainLower.includes(reqLower)) {
                         if (reqLower.includes("literacy") && !altLower.includes("literacy")) continue;
                         if (altLower.includes("literacy") && !reqLower.includes("literacy")) continue;
                         if (reqLower.includes("technical") && !altLower.includes("technical")) continue;
@@ -80,7 +81,9 @@ export function checkSubjectMatch(reqSubjectName, userMarks, helperData) {
         let markLower = mark.subject.toLowerCase().trim();
         if (reqLower === markLower) return mark;
 
-        if (reqLower.includes(markLower) || markLower.includes(reqLower)) {
+        // also strip 'code x' and 'level x' and 'x (x%)' from reqLower to match raw strings better
+        let cleanReq = reqLower.replace(/code\s*\d+/g, '').replace(/level\s*\d+/g, '').replace(/\d+\s*\(\d+-%\)/g, '').replace(/\d+%/g, '').trim();
+        if (reqLower.includes(markLower) || markLower.includes(reqLower) || cleanReq.includes(markLower) || markLower.includes(cleanReq)) {
             if (reqLower.includes("literacy") && !markLower.includes("literacy")) continue;
             if (markLower.includes("literacy") && !reqLower.includes("literacy")) continue;
             if (reqLower.includes("technical") && !markLower.includes("technical")) continue;
@@ -99,7 +102,8 @@ export const isGarbage = (str) => {
         'fighter i', 'hazmat', 'fire fighter', 'environment', 'enforcement department',
         'working experience', 'programme', 'hr division', 'bachelor', 'application',
         'write an essay', 'official letter', 'questionnaire', 'nqf level', 'combination of',
-        'proof of employment'
+        'proof of employment', 'duration', 'selection test', 'late applications',
+        'additional subjects', 'recommendations', 'language of study', 'a national senior certificate'
     ];
     return garbagePhrases.some(phrase => s.includes(phrase));
 };
